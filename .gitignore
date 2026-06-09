@@ -27,3 +27,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local preview
+/preview.html
+
+# local build and dev logs
+*_err.txt
+*_log.txt
+
