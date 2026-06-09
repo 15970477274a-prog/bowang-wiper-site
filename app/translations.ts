@@ -156,7 +156,7 @@ export const translations: Record<Locale, TranslationDict> = {
     aboutStat3Title: "50+",
     aboutStat3Desc: "Exporting Countries",
     aboutPledgeTitle: "Our Quality Pledge",
-    aboutPledgeQuote: '"Quality is the core driver of Bowang. We utilize strictly imported AAA-grade raw rubber materials, high-tension spring steels, and execute full-inspection QC procedures. We assure a streak-free, quiet, and lasting wipe for all our global buyers."',
+    aboutPledgeQuote: `"Quality is the core driver of Bowang. We utilize strictly imported AAA-grade raw rubber materials, high-tension spring steels, and execute full-inspection QC procedures. We assure a streak-free, quiet, and lasting wipe for all our global buyers."`,
     aboutPledgeAuthor: "— Production Director, Bowang Autoparts",
 
     contactTitle: "Request a Catalog & Free Sample",
@@ -230,7 +230,7 @@ export const translations: Record<Locale, TranslationDict> = {
     whyAdv2Title: "Estricto Control de Calidad",
     whyAdv2Desc: "Cada lote se somete a pruebas exhaustivas, incluyendo pruebas de niebla salina, resistencia al ozono y durabilidad a bajas temperaturas.",
     whyAdv3Title: "Personalización OEM y ODM",
-    whyAdv3Desc: "Soporte para logotipos personalizados impresos con láser, designs de color exclusivos y cajas de embalaje hechas a medida de su marca.",
+    whyAdv3Desc: "Soporte para logotipos personalizados impresos con láser, diseños de color exclusivos y cajas de embalaje hechas a medida de su marca.",
     whyAdv4Title: "Envíos Globales y Soporte",
     whyAdv4Desc: "Décadas de experiencia exportando a América del Norte, Europa, el Sudeste Asiático y América del Sur. Despacho de aduanas seguro y servicio rápido.",
 
@@ -245,7 +245,7 @@ export const translations: Record<Locale, TranslationDict> = {
     aboutStat3Title: "50+",
     aboutStat3Desc: "Países de Exportación",
     aboutPledgeTitle: "Nuestro Compromiso de Calidad",
-    aboutPledgeQuote: '"La calidad es el motor principal de Bowang. Utilizamos materias primas de caucho natural de grado AAA estrictamente importadas, aceros de resorte de alta tensión y ejecutamos procedimientos de control de calidad de inspección completa. Aseguramos una limpieza silenciosa, sin marcas y duradera para todos nuestros compradores globales."',
+    aboutPledgeQuote: `"La calidad es el motor principal de Bowang. Utilizamos materias primas de caucho natural de grado AAA estrictamente importadas, aceros de resorte de alta tensión y ejecutamos procedimientos de control de calidad de inspección completa. Aseguramos una limpieza silenciosa, sin marcas y duradera para todos nuestros compradores globales."`,
     aboutPledgeAuthor: "— Director de Producción, Bowang Autoparts",
 
     contactTitle: "Solicitar Catálogo y Muestra Gratis",
@@ -334,7 +334,7 @@ export const translations: Record<Locale, TranslationDict> = {
     aboutStat3Title: "50+",
     aboutStat3Desc: "Экспортирующих стран",
     aboutPledgeTitle: "Наше обещание качества",
-    aboutPledgeQuote: '"Качество — это основа Bowang. Мы импортируем только высококлассный каучук класса ААА, используем прочную пружинную сталь и проводим 100% контроль качества. Мы гарантируем бесшумную очистку без полос на долгий срок для всех клиентов по всему миру."',
+    aboutPledgeQuote: `"Качество — это основа Bowang. Мы импортируем только высококлассный каучук класса ААА, используем прочную пружинную сталь и проводим 100% контроль качества. Мы гарантируем бесшумную очистку без полос на долгий срок для всех клиентов по всему миру."`,
     aboutPledgeAuthor: "— Директор по производству, Bowang Autoparts",
 
     contactTitle: "Запрос каталога и бесплатных образцов",
@@ -423,7 +423,7 @@ export const translations: Record<Locale, TranslationDict> = {
     aboutStat3Title: "50+",
     aboutStat3Desc: "Pays d'Exportation",
     aboutPledgeTitle: "Notre Engagement de Qualité",
-    aboutPledgeQuote: '"La qualité est le moteur central de Bowang. Nous utilisons strictement des matières premières de caoutchouc naturel importées de qualité AAA, des aciers à ressort à haute tension et appliquons des procédures de contrôle qualité d'inspection complète. Nous garantissons un essuyage silencieux, sans traces et durable pour tous nos acheteurs mondiaux."',
+    aboutPledgeQuote: `"La qualité est le moteur central de Bowang. Nous utilisons strictement des matières premières de caoutchouc naturel importées de qualité AAA, des aciers à ressort à haute tension et appliquons des procédures de contrôle qualité d'inspection complète. Nous garantissons un essuyage silencieux, sans traces et durable pour tous nos acheteurs mondiaux."`,
     aboutPledgeAuthor: "— Directeur de Production, Bowang Autoparts",
 
     contactTitle: "Demander un Catalogue & Échantillon Gratuit",
@@ -512,7 +512,7 @@ export const translations: Record<Locale, TranslationDict> = {
     aboutStat3Title: "50+",
     aboutStat3Desc: "Exportländer",
     aboutPledgeTitle: "Unser Qualitätsversprechen",
-    aboutPledgeQuote: '"Qualität ist der Kern von Bowang. Wir verwenden ausschließlich importierten AAA-Naturkautschuk, hochfesten Federstahl und führen lückenlose Qualitätsprüfungen durch. Wir garantieren ein streifenfreies, leises und dauerhaftes Wischen für alle unsere weltweiten Kunden."',
+    aboutPledgeQuote: `"Qualität ist der Kern von Bowang. Wir verwenden ausschließlich importierten AAA-Naturkautschuk, hochfesten Federstahl und führen lückenlose Qualitätsprüfungen durch. Wir garantieren ein streifenfreies, leises und dauerhaftes Wischen für alle unsere weltweiten Kunden."`,
     aboutPledgeAuthor: "— Produktionsleiter, Bowang Autoparts",
 
     contactTitle: "Katalog & Kostenlose Muster Anfordern",
