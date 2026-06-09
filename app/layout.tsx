@@ -34,7 +34,7 @@ export default function RootLayout({
             alignItems: "center"
           }}>
             <div style={{ display: "flex", flexDirection: "column" }}>
-              <span style={{ fontSize: "20px", fontWeight: "bold", tracking: "0.05em", color: "#38bdf8" }}>
+              <span style={{ fontSize: "20px", fontWeight: "bold", letterSpacing: "0.05em", color: "#38bdf8" }}>
                 BOWANG WIPER
               </span>
               <span style={{ fontSize: "10px", color: "#94a3b8", textTransform: "uppercase", letterSpacing: "1px" }}>
