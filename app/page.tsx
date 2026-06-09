@@ -1,8 +1,10 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { translations, Locale } from "./translations";
 
 export default function Home() {
+  const [lang, setLang] = useState<Locale>("en");
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -15,6 +17,19 @@ export default function Home() {
     loading: false,
     error: ""
   });
+
+  // Load language preference on client side
+  useEffect(() => {
+    const savedLang = localStorage.getItem("lelion_lang") as Locale;
+    if (savedLang && ["en", "es", "ru", "fr", "de"].includes(savedLang)) {
+      setLang(savedLang);
+    }
+  }, []);
+
+  const handleLangChange = (newLang: Locale) => {
+    setLang(newLang);
+    localStorage.setItem("lelion_lang", newLang);
+  };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     setFormData({
@@ -61,8 +76,86 @@ export default function Home() {
     }
   };
 
+  const t = translations[lang];
+
   return (
     <main style={{ fontFamily: "system-ui, -apple-system, sans-serif" }}>
+
+      {/* Navigation Header with Language Selector */}
+      <header style={{
+        backgroundColor: "#0f172a",
+        color: "#ffffff",
+        position: "sticky",
+        top: 0,
+        zIndex: 50,
+        boxShadow: "0 2px 10px rgba(0, 0, 0, 0.1)",
+        fontFamily: "system-ui, -apple-system, sans-serif"
+      }}>
+        <div style={{
+          maxWidth: "1200px",
+          margin: "0 auto",
+          padding: "15px 20px",
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center"
+        }}>
+          <div style={{ display: "flex", flexDirection: "column" }}>
+            <span style={{ fontSize: "20px", fontWeight: "bold", letterSpacing: "0.05em", color: "#38bdf8" }}>
+              BOWANG WIPER
+            </span>
+            <span style={{ fontSize: "10px", color: "#94a3b8", textTransform: "uppercase", letterSpacing: "1px" }}>
+              Autoparts Manufacturer
+            </span>
+          </div>
+          <nav style={{ display: "flex", gap: "20px", alignItems: "center" }}>
+            <a href="#hero" style={{ color: "#f8fafc", textDecoration: "none", fontSize: "14px", fontWeight: 500 }} className="nav-link">
+              {t.navHome}
+            </a>
+            <a href="#products" style={{ color: "#f8fafc", textDecoration: "none", fontSize: "14px", fontWeight: 500 }} className="nav-link">
+              {t.navProducts}
+            </a>
+            <a href="#why-choose-us" style={{ color: "#f8fafc", textDecoration: "none", fontSize: "14px", fontWeight: 500 }} className="nav-link">
+              {t.navAdvantages}
+            </a>
+            <a href="#about" style={{ color: "#f8fafc", textDecoration: "none", fontSize: "14px", fontWeight: 500 }} className="nav-link">
+              {t.navAboutUs}
+            </a>
+            <a href="#contact" style={{
+              backgroundColor: "#0284c7",
+              color: "#ffffff",
+              padding: "8px 16px",
+              borderRadius: "4px",
+              textDecoration: "none",
+              fontSize: "14px",
+              fontWeight: "bold"
+            }}>
+              {t.navGetQuote}
+            </a>
+
+            {/* Language Selector Dropdown */}
+            <select
+              value={lang}
+              onChange={(e) => handleLangChange(e.target.value as Locale)}
+              style={{
+                backgroundColor: "#1e293b",
+                color: "#ffffff",
+                border: "1px solid #475569",
+                padding: "6px 12px",
+                borderRadius: "4px",
+                cursor: "pointer",
+                fontSize: "13px",
+                outline: "none"
+              }}
+            >
+              <option value="en">English (EN)</option>
+              <option value="es">Español (ES)</option>
+              <option value="ru">Русский (RU)</option>
+              <option value="fr">Français (FR)</option>
+              <option value="de">Deutsch (DE)</option>
+            </select>
+          </nav>
+        </div>
+      </header>
       
       {/* Hero Section */}
       <section id="hero" className="hero-bg" style={{
@@ -85,7 +178,7 @@ export default function Home() {
             marginBottom: "20px",
             display: "inline-block"
           }}>
-            ISO9001 Certified Factory
+            {t.heroTag}
           </span>
           <h1 style={{
             fontSize: "46px",
@@ -94,7 +187,7 @@ export default function Home() {
             marginBottom: "20px",
             letterSpacing: "-0.02em"
           }}>
-            Professional Wiper Blade Manufacturer From China
+            {t.heroTitle}
           </h1>
           <p style={{
             fontSize: "18px",
@@ -104,14 +197,14 @@ export default function Home() {
             maxWidth: "650px",
             margin: "0 auto 40px auto"
           }}>
-            Ningbo Zhenhai Bowang Autoparts Co., Ltd. specializes in OEM & ODM production of high-performance wiper blades. We deliver premium durability, perfect wiping, and global export logistics.
+            {t.heroSubtitle}
           </p>
           <div style={{ display: "flex", gap: "15px", justifyContent: "center", flexWrap: "wrap" }}>
             <a href="#contact" className="btn-primary" style={{ fontSize: "16px", padding: "14px 36px" }}>
-              Inquire Now
+              {t.heroInquireBtn}
             </a>
             <a href="#products" className="btn-secondary" style={{ fontSize: "16px", padding: "14px 36px" }}>
-              Our Products
+              {t.heroProductsBtn}
             </a>
           </div>
         </div>
@@ -119,9 +212,9 @@ export default function Home() {
 
       {/* Products Section */}
       <section id="products" className="section" style={{ backgroundColor: "#f8fafc" }}>
-        <h2 className="section-title">Our Featured Products</h2>
+        <h2 className="section-title">{t.productsTitle}</h2>
         <p className="section-subtitle">
-          Engineered for all-weather performance. Manufactured with premium natural rubber, high-carbon spring steel, and durable aerodynamics shell.
+          {t.productsSubtitle}
         </p>
 
         <div className="grid-container" style={{ maxWidth: "1200px", margin: "0 auto" }}>
@@ -138,21 +231,21 @@ export default function Home() {
                 display: "inline-block",
                 marginBottom: "15px"
               }}>
-                Best Seller
+                {t.bestSeller}
               </div>
-              <h3 style={{ fontSize: "22px", color: "#0f172a", marginBottom: "12px" }}>Universal Wiper Blades</h3>
+              <h3 style={{ fontSize: "22px", color: "#0f172a", marginBottom: "12px" }}>{t.universalTitle}</h3>
               <p style={{ color: "#64748b", fontSize: "14px", lineHeight: "1.6", marginBottom: "20px" }}>
-                Designed to fit 99% of vehicles with pre-installed hooks. Exceptional aerodynamic frame ensures uniform pressure and streak-free wiping even at highway speeds.
+                {t.universalDesc}
               </p>
               <ul style={{ paddingLeft: "20px", fontSize: "13px", color: "#475569", lineHeight: "1.8", marginBottom: "25px" }}>
-                <li><strong>Material:</strong> AAA-Grade Natural Rubber</li>
-                <li><strong>Sizes Available:</strong> 12" to 28"</li>
-                <li><strong>Wiping Life:</strong> &gt; 1,000,000 times</li>
-                <li><strong>Adapters:</strong> Pre-installed U-Hook</li>
+                <li><strong>Material:</strong> {t.universalSpec1}</li>
+                <li><strong>Sizes Available:</strong> {t.universalSpec2}</li>
+                <li><strong>Wiping Life:</strong> {t.universalSpec3}</li>
+                <li><strong>Adapters:</strong> {t.universalSpec4}</li>
               </ul>
             </div>
             <a href="#contact" onClick={() => setFormData({ ...formData, product: "Universal Wiper Blades" })} className="btn-primary" style={{ width: "100%", padding: "10px" }}>
-              Get Catalog & Price
+              {t.getCatalogBtn}
             </a>
           </div>
 
@@ -169,21 +262,21 @@ export default function Home() {
                 display: "inline-block",
                 marginBottom: "15px"
               }}>
-                Premium Choice
+                {t.premiumChoice}
               </div>
-              <h3 style={{ fontSize: "22px", color: "#0f172a", marginBottom: "12px" }}>Specific Fit Wiper Blades</h3>
+              <h3 style={{ fontSize: "22px", color: "#0f172a", marginBottom: "12px" }}>{t.specificTitle}</h3>
               <p style={{ color: "#64748b", fontSize: "14px", lineHeight: "1.6", marginBottom: "20px" }}>
-                OEM replacement wiper blades matching luxury and European vehicle models (BMW, Benz, Audi, Porsche, etc.) with original connection arms.
+                {t.specificDesc}
               </p>
               <ul style={{ paddingLeft: "20px", fontSize: "13px", color: "#475569", lineHeight: "1.8", marginBottom: "25px" }}>
-                <li><strong>Material:</strong> Teflon Coated Natural Rubber</li>
-                <li><strong>Sizes Available:</strong> 14" to 28"</li>
-                <li><strong>OE Quality:</strong> Match original specifications</li>
-                <li><strong>Installation:</strong> Direct fit without adapters</li>
+                <li><strong>Material:</strong> {t.specificSpec1}</li>
+                <li><strong>Sizes Available:</strong> {t.specificSpec2}</li>
+                <li><strong>OE Quality:</strong> {t.specificSpec3}</li>
+                <li><strong>Installation:</strong> {t.specificSpec4}</li>
               </ul>
             </div>
             <a href="#contact" onClick={() => setFormData({ ...formData, product: "Specific Fit Wiper Blades" })} className="btn-primary" style={{ width: "100%", padding: "10px" }}>
-              Get Catalog & Price
+              {t.getCatalogBtn}
             </a>
           </div>
 
@@ -200,21 +293,21 @@ export default function Home() {
                 display: "inline-block",
                 marginBottom: "15px"
               }}>
-                Multi-Compatible
+                {t.multiCompatible}
               </div>
-              <h3 style={{ fontSize: "22px", color: "#0f172a", marginBottom: "12px" }}>Multifunction Wiper Blades</h3>
+              <h3 style={{ fontSize: "22px", color: "#0f172a", marginBottom: "12px" }}>{t.multifunctionTitle}</h3>
               <p style={{ color: "#64748b", fontSize: "14px", lineHeight: "1.6", marginBottom: "20px" }}>
-                Equipped with interchangeable adapters. Solves inventory problems by fitting 15+ different wiper arms with only a few SKU models.
+                {t.multifunctionDesc}
               </p>
               <ul style={{ paddingLeft: "20px", fontSize: "13px", color: "#475569", lineHeight: "1.8", marginBottom: "25px" }}>
-                <li><strong>Material:</strong> Silicone / Natural Rubber</li>
-                <li><strong>Sizes Available:</strong> 12" to 30"</li>
-                <li><strong>Compatibility:</strong> 10+ adaptors included</li>
-                <li><strong>Advantage:</strong> Drastically reduce inventory cost</li>
+                <li><strong>Material:</strong> {t.multifunctionSpec1}</li>
+                <li><strong>Sizes Available:</strong> {t.multifunctionSpec2}</li>
+                <li><strong>Compatibility:</strong> {t.multifunctionSpec3}</li>
+                <li><strong>Advantage:</strong> {t.multifunctionSpec4}</li>
               </ul>
             </div>
             <a href="#contact" onClick={() => setFormData({ ...formData, product: "Multifunction Wiper Blades" })} className="btn-primary" style={{ width: "100%", padding: "10px" }}>
-              Get Catalog & Price
+              {t.getCatalogBtn}
             </a>
           </div>
         </div>
@@ -222,9 +315,9 @@ export default function Home() {
 
       {/* Why Choose Us Section */}
       <section id="why-choose-us" className="section" style={{ backgroundColor: "#ffffff" }}>
-        <h2 className="section-title">Factory Manufacturing Advantages</h2>
+        <h2 className="section-title">{t.whyTitle}</h2>
         <p className="section-subtitle">
-          Direct factory sourcing guarantees high quality, competitive pricing, and secure supply chains.
+          {t.whySubtitle}
         </p>
 
         <div style={{
@@ -235,27 +328,27 @@ export default function Home() {
           margin: "0 auto"
         }}>
           <div style={{ padding: "20px", borderLeft: "4px solid #0284c7" }}>
-            <h4 style={{ fontSize: "18px", color: "#0f172a", marginBottom: "10px" }}>Factory-Direct Price</h4>
+            <h4 style={{ fontSize: "18px", color: "#0f172a", marginBottom: "10px" }}>{t.whyAdv1Title}</h4>
             <p style={{ fontSize: "14px", color: "#64748b", lineHeight: "1.6" }}>
-              Buy directly from our Ningbo-based manufacturing facility. Cut out middle trading companies and maximize your profit margins.
+              {t.whyAdv1Desc}
             </p>
           </div>
           <div style={{ padding: "20px", borderLeft: "4px solid #0284c7" }}>
-            <h4 style={{ fontSize: "18px", color: "#0f172a", marginBottom: "10px" }}>Strict Quality Control</h4>
+            <h4 style={{ fontSize: "18px", color: "#0f172a", marginBottom: "10px" }}>{t.whyAdv2Title}</h4>
             <p style={{ fontSize: "14px", color: "#64748b", lineHeight: "1.6" }}>
-              Each batch undergoes extensive testing, including salt spray tests, ozone resistance, and low-temperature durability.
+              {t.whyAdv2Desc}
             </p>
           </div>
           <div style={{ padding: "20px", borderLeft: "4px solid #0284c7" }}>
-            <h4 style={{ fontSize: "18px", color: "#0f172a", marginBottom: "10px" }}>OEM & ODM Customization</h4>
+            <h4 style={{ fontSize: "18px", color: "#0f172a", marginBottom: "10px" }}>{t.whyAdv3Title}</h4>
             <p style={{ fontSize: "14px", color: "#64748b", lineHeight: "1.6" }}>
-              Support custom laser-printed logos, exclusive color designs, and bespoke packaging boxes tailored to your brand.
+              {t.whyAdv3Desc}
             </p>
           </div>
           <div style={{ padding: "20px", borderLeft: "4px solid #0284c7" }}>
-            <h4 style={{ fontSize: "18px", color: "#0f172a", marginBottom: "10px" }}>Global Shipping & Support</h4>
+            <h4 style={{ fontSize: "18px", color: "#0f172a", marginBottom: "10px" }}>{t.whyAdv4Title}</h4>
             <p style={{ fontSize: "14px", color: "#64748b", lineHeight: "1.6" }}>
-              Decades of experience exporting to North America, Europe, Southeast Asia, and South America. Safe customs clearance and prompt service.
+              {t.whyAdv4Desc}
             </p>
           </div>
         </div>
@@ -273,28 +366,28 @@ export default function Home() {
           gap: "50px"
         }}>
           <div style={{ flex: "1 1 500px" }}>
-            <span style={{ color: "#0284c7", fontWeight: "bold", fontSize: "14px", textTransform: "uppercase" }}>Corporate Profile</span>
+            <span style={{ color: "#0284c7", fontWeight: "bold", fontSize: "14px", textTransform: "uppercase" }}>{t.aboutTag}</span>
             <h2 style={{ fontSize: "36px", color: "#0f172a", margin: "10px 0 20px 0", fontWeight: 800 }}>
-              Ningbo Zhenhai Bowang Autoparts Co., Ltd.
+              {t.aboutTitle}
             </h2>
             <p style={{ color: "#475569", fontSize: "15px", lineHeight: "1.7", marginBottom: "20px" }}>
-              Located in the coastal industrial hub of Ningbo, China, Bowang Autoparts is a modern manufacturer specializing in automotive wiper blades. Spanning over 8,000 square meters of production workshop, our facility integrates independent R&D, structural design, manufacturing, and distribution under one roof.
+              {t.aboutDesc1}
             </p>
             <p style={{ color: "#475569", fontSize: "15px", lineHeight: "1.7", marginBottom: "20px" }}>
-              Equipped with multiple automated assembly lines, high-precision rubber strip cutting machines, and state-of-the-art laboratory testing equipment, our annual output exceeds 12 million units.
+              {t.aboutDesc2}
             </p>
             <div style={{ display: "flex", gap: "30px", marginTop: "30px" }}>
               <div>
-                <span style={{ fontSize: "32px", fontWeight: "bold", color: "#0284c7" }}>15+</span>
-                <p style={{ fontSize: "12px", color: "#64748b", margin: "5px 0 0 0" }}>Years Experience</p>
+                <span style={{ fontSize: "32px", fontWeight: "bold", color: "#0284c7" }}>{t.aboutStat1Title}</span>
+                <p style={{ fontSize: "12px", color: "#64748b", margin: "5px 0 0 0" }}>{t.aboutStat1Desc}</p>
               </div>
               <div>
-                <span style={{ fontSize: "32px", fontWeight: "bold", color: "#0284c7" }}>8,000㎡</span>
-                <p style={{ fontSize: "12px", color: "#64748b", margin: "5px 0 0 0" }}>Factory Area</p>
+                <span style={{ fontSize: "32px", fontWeight: "bold", color: "#0284c7" }}>{t.aboutStat2Title}</span>
+                <p style={{ fontSize: "12px", color: "#64748b", margin: "5px 0 0 0" }}>{t.aboutStat2Desc}</p>
               </div>
               <div>
-                <span style={{ fontSize: "32px", fontWeight: "bold", color: "#0284c7" }}>50+</span>
-                <p style={{ fontSize: "12px", color: "#64748b", margin: "5px 0 0 0" }}>Exporting Countries</p>
+                <span style={{ fontSize: "32px", fontWeight: "bold", color: "#0284c7" }}>{t.aboutStat3Title}</span>
+                <p style={{ fontSize: "12px", color: "#64748b", margin: "5px 0 0 0" }}>{t.aboutStat3Desc}</p>
               </div>
             </div>
           </div>
@@ -305,11 +398,11 @@ export default function Home() {
             padding: "40px",
             color: "#ffffff"
           }}>
-            <h3 style={{ fontSize: "24px", color: "#38bdf8", marginBottom: "20px" }}>Our Quality Pledge</h3>
+            <h3 style={{ fontSize: "24px", color: "#38bdf8", marginBottom: "20px" }}>{t.aboutPledgeTitle}</h3>
             <blockquote style={{ margin: 0, padding: 0, fontSize: "15px", lineHeight: "1.6", fontStyle: "italic", color: "#cbd5e1" }}>
-              "Quality is the core driver of Bowang. We utilize strictly imported AAA-grade raw rubber materials, high-tension spring steels, and execute full-inspection QC procedures. We assure a streak-free, quiet, and lasting wipe for all our global buyers."
+              {t.aboutPledgeQuote}
             </blockquote>
-            <p style={{ margin: "20px 0 0 0", fontSize: "14px", fontWeight: "bold" }}>— Production Director, Bowang Autoparts</p>
+            <p style={{ margin: "20px 0 0 0", fontSize: "14px", fontWeight: "bold" }}>{t.aboutPledgeAuthor}</p>
           </div>
         </div>
       </section>
@@ -317,9 +410,9 @@ export default function Home() {
       {/* Contact / Inquiry Form */}
       <section id="contact" className="section" style={{ backgroundColor: "#ffffff" }}>
         <div style={{ maxWidth: "800px", margin: "0 auto" }}>
-          <h2 className="section-title">Request a Catalog & Free Sample</h2>
+          <h2 className="section-title">{t.contactTitle}</h2>
           <p className="section-subtitle">
-            Are you a wholesaler, distributor, or brand owner? Send us an inquiry to request bulk pricing, complete product catalogs, or free physical samples.
+            {t.contactSubtitle}
           </p>
 
           <form onSubmit={handleSubmit} style={{
@@ -336,7 +429,7 @@ export default function Home() {
               marginBottom: "20px"
             }}>
               <div>
-                <label style={{ display: "block", fontSize: "14px", fontWeight: 600, marginBottom: "8px", color: "#334155" }}>Your Name *</label>
+                <label style={{ display: "block", fontSize: "14px", fontWeight: 600, marginBottom: "8px", color: "#334155" }}>{t.contactNameLabel}</label>
                 <input
                   type="text"
                   name="name"
@@ -344,11 +437,11 @@ export default function Home() {
                   value={formData.name}
                   onChange={handleChange}
                   className="form-input"
-                  placeholder="John Doe"
+                  placeholder={t.contactNamePlaceholder}
                 />
               </div>
               <div>
-                <label style={{ display: "block", fontSize: "14px", fontWeight: 600, marginBottom: "8px", color: "#334155" }}>Business Email *</label>
+                <label style={{ display: "block", fontSize: "14px", fontWeight: 600, marginBottom: "8px", color: "#334155" }}>{t.contactEmailLabel}</label>
                 <input
                   type="email"
                   name="email"
@@ -356,7 +449,7 @@ export default function Home() {
                   value={formData.email}
                   onChange={handleChange}
                   className="form-input"
-                  placeholder="john@yourcompany.com"
+                  placeholder={t.contactEmailPlaceholder}
                 />
               </div>
             </div>
@@ -368,18 +461,18 @@ export default function Home() {
               marginBottom: "20px"
             }}>
               <div>
-                <label style={{ display: "block", fontSize: "14px", fontWeight: 600, marginBottom: "8px", color: "#334155" }}>Company Name</label>
+                <label style={{ display: "block", fontSize: "14px", fontWeight: 600, marginBottom: "8px", color: "#334155" }}>{t.contactCompanyLabel}</label>
                 <input
                   type="text"
                   name="company"
                   value={formData.company}
                   onChange={handleChange}
                   className="form-input"
-                  placeholder="Autoparts Import LLC"
+                  placeholder={t.contactCompanyPlaceholder}
                 />
               </div>
               <div>
-                <label style={{ display: "block", fontSize: "14px", fontWeight: 600, marginBottom: "8px", color: "#334155" }}>Product of Interest *</label>
+                <label style={{ display: "block", fontSize: "14px", fontWeight: 600, marginBottom: "8px", color: "#334155" }}>{t.contactProductLabel}</label>
                 <select
                   name="product"
                   value={formData.product}
@@ -396,7 +489,7 @@ export default function Home() {
             </div>
 
             <div style={{ marginBottom: "30px" }}>
-              <label style={{ display: "block", fontSize: "14px", fontWeight: 600, marginBottom: "8px", color: "#334155" }}>Detailed Requirements / Message *</label>
+              <label style={{ display: "block", fontSize: "14px", fontWeight: 600, marginBottom: "8px", color: "#334155" }}>{t.contactMessageLabel}</label>
               <textarea
                 name="message"
                 required
@@ -404,7 +497,7 @@ export default function Home() {
                 value={formData.message}
                 onChange={handleChange}
                 className="form-input"
-                placeholder="Please describe your interest, required sizes, quantity estimation, or custom logo requests..."
+                placeholder={t.contactMessagePlaceholder}
                 style={{ resize: "vertical" }}
               />
             </div>
@@ -420,7 +513,7 @@ export default function Home() {
                 marginBottom: "20px",
                 fontSize: "14px"
               }}>
-                <strong>Thank you!</strong> Your inquiry has been sent successfully. Our export sales team will reach out with pricing and catalog within 12 hours.
+                <strong>{t.contactSuccessMsg}</strong>
               </div>
             )}
 
@@ -434,7 +527,7 @@ export default function Home() {
                 marginBottom: "20px",
                 fontSize: "14px"
               }}>
-                <strong>Error:</strong> {status.error}
+                <strong>{t.contactErrorMsg}</strong> {status.error}
               </div>
             )}
 
@@ -450,11 +543,65 @@ export default function Home() {
                 cursor: status.loading ? "not-allowed" : "pointer"
               }}
             >
-              {status.loading ? "Sending Inquiry..." : "Submit Inquiry (Get Quick Response)"}
+              {status.loading ? t.contactSubmittingBtn : t.contactSubmitBtn}
             </button>
           </form>
         </div>
       </section>
+
+      {/* Footer */}
+      <footer style={{
+        backgroundColor: "#0f172a",
+        color: "#94a3b8",
+        padding: "50px 20px 20px 20px",
+        fontFamily: "system-ui, -apple-system, sans-serif"
+      }}>
+        <div style={{
+          maxWidth: "1200px",
+          margin: "0 auto",
+          display: "grid",
+          gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
+          gap: "40px",
+          marginBottom: "40px"
+        }}>
+          <div>
+            <h3 style={{ color: "#f8fafc", fontSize: "18px", marginBottom: "15px" }}>BOWANG WIPER</h3>
+            <p style={{ fontSize: "14px", lineHeight: "1.6" }}>
+              {t.footerDesc}
+            </p>
+          </div>
+          <div>
+            <h3 style={{ color: "#f8fafc", fontSize: "16px", marginBottom: "15px" }}>{t.footerQuickLinks}</h3>
+            <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "10px", fontSize: "14px" }}>
+              <li><a href="#hero" style={{ color: "#94a3b8", textDecoration: "none" }}>{t.navHome}</a></li>
+              <li><a href="#products" style={{ color: "#94a3b8", textDecoration: "none" }}>{t.navProducts}</a></li>
+              <li><a href="#why-choose-us" style={{ color: "#94a3b8", textDecoration: "none" }}>{t.navAdvantages}</a></li>
+              <li><a href="#about" style={{ color: "#94a3b8", textDecoration: "none" }}>{t.navAboutUs}</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 style={{ color: "#f8fafc", fontSize: "16px", marginBottom: "15px" }}>{t.footerContactInfo}</h3>
+            <p style={{ fontSize: "14px", lineHeight: "1.6", margin: "5px 0" }}>
+              <strong>Factory Address:</strong> {t.footerAddress}
+            </p>
+            <p style={{ fontSize: "14px", lineHeight: "1.6", margin: "5px 0" }}>
+              <strong>Email:</strong> sales@lelionautopart.com
+            </p>
+            <p style={{ fontSize: "14px", lineHeight: "1.6", margin: "5px 0" }}>
+              <strong>Domain:</strong> lelionautopart.com
+            </p>
+          </div>
+        </div>
+        <div style={{
+          borderTop: "1px solid #1e293b",
+          paddingTop: "20px",
+          textAlign: "center",
+          fontSize: "12px",
+          color: "#64748b"
+        }}>
+          <p>&copy; {new Date().getFullYear()} Ningbo Zhenhai Bowang Autoparts Co., Ltd. All rights reserved.</p>
+        </div>
+      </footer>
 
     </main>
   );
