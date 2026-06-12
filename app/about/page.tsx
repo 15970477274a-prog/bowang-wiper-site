@@ -21,6 +21,24 @@ export default function AboutPage() {
 
   const t = translations[lang];
 
+  const certificates = [
+    {
+      title: "ISO 9001:2015 Certificate",
+      url: "https://sc02.alicdn.com/kf/H1be823d630b64d1f853a7537099aab2bJ.jpg",
+      desc: "International Quality Management Standard"
+    },
+    {
+      title: "CE Certificate",
+      url: "https://sc02.alicdn.com/kf/Hb31ab6aad6c947558d269b45b921199bz.png",
+      desc: "European Market Conformity"
+    },
+    {
+      title: "Wiper Rubber Strip Test Report",
+      url: "https://sc02.alicdn.com/kf/He68d042a711e42babef62c2ebea3ee2fN.png",
+      desc: "Physical Property & Durability Analysis"
+    }
+  ];
+
   return (
     <main style={{ fontFamily: "system-ui, -apple-system, sans-serif", color: "#1e293b", backgroundColor: "#ffffff" }}>
       
@@ -107,7 +125,36 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Milestone/History Placeholder */}
+      {/* QC & Certificates Section */}
+      <section style={{ backgroundColor: "#0f172a", padding: "100px 20px", color: "white" }}>
+        <div style={{ maxWidth: "1200px", margin: "0 auto", textAlign: "center" }}>
+          <h2 style={{ fontSize: "36px", fontWeight: 800, marginBottom: "20px" }}>Quality & Certifications</h2>
+          <p style={{ color: "#94a3b8", marginBottom: "60px", maxWidth: "700px", margin: "0 auto 60px" }}>
+            We strictly adhere to global automotive quality management standards. Every wiper blade undergoes rigorous testing to ensure peak performance.
+          </p>
+          
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "40px" }}>
+             {certificates.map((cert, i) => (
+               <div key={i} style={{ 
+                 backgroundColor: "white", 
+                 borderRadius: "16px", 
+                 padding: "20px", 
+                 textAlign: "center",
+                 boxShadow: "0 10px 30px rgba(0,0,0,0.3)",
+                 transition: "transform 0.3s ease"
+               }} className="cert-card-hover">
+                 <div style={{ height: "400px", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center", marginBottom: "20px" }}>
+                   <img src={cert.url} alt={cert.title} style={{ maxWidth: "100%", maxHeight: "100%", borderRadius: "4px" }} />
+                 </div>
+                 <h3 style={{ color: "#0f172a", fontSize: "18px", fontWeight: 800, marginBottom: "8px" }}>{cert.title}</h3>
+                 <p style={{ color: "#64748b", fontSize: "13px", fontWeight: 500 }}>{cert.desc}</p>
+               </div>
+             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Milestone Section */}
       <section style={{ padding: "100px 20px", maxWidth: "1100px", margin: "0 auto" }}>
         <h2 style={{ fontSize: "32px", fontWeight: 800, textAlign: "center", marginBottom: "60px" }}>Our Development Milestones</h2>
         <div style={{ borderLeft: "2px solid #e2e8f0", paddingLeft: "30px", marginLeft: "20px" }}>
@@ -126,23 +173,8 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* QC & Certificates Placeholder */}
-      <section style={{ backgroundColor: "#0f172a", padding: "100px 20px", color: "white" }}>
-        <div style={{ maxWidth: "1200px", margin: "0 auto", textAlign: "center" }}>
-          <h2 style={{ fontSize: "32px", fontWeight: 800, marginBottom: "20px" }}>Quality & Certifications</h2>
-          <p style={{ color: "#94a3b8", marginBottom: "50px" }}>We strictly adhere to global automotive quality management standards.</p>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: "30px" }}>
-             {[1,2,3,4].map(i => (
-               <div key={i} style={{ height: "250px", backgroundColor: "rgba(255,255,255,0.05)", borderRadius: "12px", border: "1px solid rgba(255,255,255,0.1)", display: "flex", alignItems: "center", justifyContent: "center" }}>
-                 <span style={{ color: "#475569" }}>Certificate Placeholder {i}</span>
-               </div>
-             ))}
-          </div>
-        </div>
-      </section>
-
       {/* CTA Section */}
-      <section style={{ padding: "100px 20px", textAlign: "center" }}>
+      <section style={{ padding: "100px 20px", textAlign: "center", backgroundColor: "#f8fafc" }}>
         <div style={{ maxWidth: "700px", margin: "0 auto" }}>
           <h2 style={{ fontSize: "36px", fontWeight: 800, marginBottom: "20px" }}>Ready to partner with us?</h2>
           <p style={{ color: "#64748b", marginBottom: "40px" }}>Get in touch with our expert export team today for bulk pricing and technical support.</p>
@@ -167,4 +199,4 @@ export default function AboutPage() {
 
     </main>
   );
-}
+                     }
