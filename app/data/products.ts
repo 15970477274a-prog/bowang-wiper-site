@@ -9,10 +9,37 @@ export interface Product {
   specs: string[];
   tag: string;
   image: string;
+  gallery?: string[];
   technicalDetails: Record<string, string>;
 }
 
 export const allProducts: Product[] = [
+  {
+    id: "bw-802-universal-wiper-blade",
+    category: "Universal",
+    name: "BW-802 Universal Soft Wiper Blade",
+    price: "$1.15 - $1.55",
+    moq: "500 PCS",
+    desc: "Soft Wiper Blade with U-Hook adapter, size range 12\"-28\".",
+    longDesc: "The BW-802 series is a high-performance soft/frameless wiper blade designed for superior visibility in all weather conditions. It features a memory high-elastic steel sheet that perfectly contours to the windshield and an AA-grade natural rubber strip treated with Teflon for smooth, quiet operation. Tested for over 500,000 wipes to guarantee durability for global markets.",
+    specs: ["AA-Grade Natural Rubber", "Memory High-Elastic Steel", "Standard U-Hook Compatibility", "Extreme Temperature Durability"],
+    tag: "New Arrival",
+    image: "https://sc02.alicdn.com/kf/H3fc79edf0c004afebbb2c992eb4cc6edX.png",
+    gallery: [
+      "https://sc02.alicdn.com/kf/H563b4eb9873d44aaa600d2f33c3d747cE.jpg",
+      "https://sc02.alicdn.com/kf/H6f971fa213ae4ce3aeda59079a6c2f72L.jpg",
+      "https://sc02.alicdn.com/kf/H461a16ca7c3049c2869a1c9bb2990fc7v.jpg"
+    ],
+    technicalDetails: {
+      "Product Model": "BW-802",
+      "Structure": "Soft / Frameless / Aerodynamic",
+      "Material": "AA Grade Natural Rubber + Teflon Coating",
+      "Size Range": "12\" - 28\" (300mm - 700mm)",
+      "Connection": "Pre-installed U-Hook (9x3 & 9x4)",
+      "Life Cycle": "500,000 - 1,000,000 Wipes",
+      "HS Code": "85124000"
+    }
+  },
   {
     id: "universal-wiper-blades",
     category: "Universal",
@@ -23,7 +50,7 @@ export const allProducts: Product[] = [
     longDesc: "Our Universal Series wiper blades feature a high-performance aerodynamic design that ensures uniform pressure distribution across the windshield. Manufactured with premium AAA-grade natural rubber and high-carbon tension memory springs, they provide a crystal-clear, streak-free wipe even at high highway speeds.",
     specs: ["AAA-Grade Natural Rubber", "12\" to 28\" Sizes", "> 1,000,000 Wipes Life", "Pre-installed U-Hook"],
     tag: "Best Seller",
-    image: "https://images.unsplash.com/photo-1621244094916-2d6451659929?auto=format&fit=crop&q=80&w=600",
+    image: "https://images.unsplash.com/photo-1621244094916-2d6451659929?auto=format&fit=crop&q=80&w=400",
     technicalDetails: {
       "Material": "Natural Rubber & High-Carbon Steel",
       "HS Code": "85124000",
@@ -43,7 +70,7 @@ export const allProducts: Product[] = [
     longDesc: "The Specific Fit Series is engineered to match the exact specifications of original equipment for premium vehicle brands like BMW, Mercedes-Benz, Audi, and Porsche. These blades feature a dedicated connection system that allows for a perfect, adapter-free installation, maintaining the vehicle's original aesthetic and wiping performance.",
     specs: ["Teflon Coated Rubber", "14\" to 28\" Sizes", "OE Original Quality", "Direct Fit Connection"],
     tag: "Premium Choice",
-    image: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&q=80&w=600",
+    image: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&q=80&w=400",
     technicalDetails: {
       "Material": "Teflon Coated Natural Rubber",
       "HS Code": "85124000",
@@ -63,7 +90,7 @@ export const allProducts: Product[] = [
     longDesc: "Designed for wholesalers looking to optimize inventory, the Multifunction Series utilizes a patented multi-clip system. With just 10 interchangeable adapters, these blades can be fitted to over 15 different types of wiper arms, covering nearly every modern vehicle on the market and significantly reducing stock-keeping unit (SKU) complexity.",
     specs: ["Silicone / Natural Rubber", "12\" to 30\" Sizes", "10+ Adapters Included", "Inventory Cost Leader"],
     tag: "Multi-Compatible",
-    image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=80&w=600",
+    image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=80&w=400",
     technicalDetails: {
       "Core Advantage": "Multi-Adapter System",
       "Compatibility": "15+ Arm Types",
