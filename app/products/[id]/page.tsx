@@ -45,17 +45,17 @@ export default function ProductDetail() {
       <section style={{ padding: "80px 20px", maxWidth: "1200px", margin: "0 auto" }}>
         <div style={{ display: "flex", gap: "60px", flexWrap: "wrap" }}>
           
-          {/* Left: Image Gallery */}
+          {/* Left: Main Image */}
           <div style={{ flex: "1 1 500px" }}>
-            <div style={{ backgroundColor: "#f8fafc", borderRadius: "16px", padding: "40px", border: "1px solid #e2e8f0" }}>
-              <img src={product.image} alt={product.name} style={{ width: "100%", height: "auto", borderRadius: "8px" }} />
+            <div style={{ backgroundColor: "#f8fafc", borderRadius: "16px", padding: "40px", border: "1px solid #e2e8f0", textAlign: "center" }}>
+              <img src={product.image} alt={product.name} style={{ maxWidth: "100%", height: "auto", borderRadius: "8px" }} />
             </div>
           </div>
 
           {/* Right: Product Info */}
           <div style={{ flex: "1 1 400px" }}>
             <span style={{ color: "#0284c7", fontWeight: "bold", textTransform: "uppercase", fontSize: "13px", letterSpacing: "1px" }}>{product.category} Series</span>
-            <h1 style={{ fontSize: "42px", fontWeight: 800, margin: "10px 0 20px 0", color: "#0f172a" }}>{product.name}</h1>
+            <h1 style={{ fontSize: "38px", fontWeight: 800, margin: "10px 0 20px 0", color: "#0f172a", lineHeight: 1.2 }}>{product.name}</h1>
             
             <div style={{ backgroundColor: "#f8fafc", padding: "25px", borderRadius: "12px", marginBottom: "30px", borderLeft: "4px solid #0284c7" }}>
               <div style={{ marginBottom: "10px" }}>
@@ -72,18 +72,18 @@ export default function ProductDetail() {
 
             <div style={{ display: "flex", gap: "15px" }}>
               <Link href="/#contact" style={{ flex: 1, backgroundColor: "#0284c7", color: "white", padding: "16px", borderRadius: "8px", textAlign: "center", fontWeight: "bold", textDecoration: "none" }}>Get Best Quote Now</Link>
-              <a href="/Catalog.pdf" target="_blank" style={{ flex: 1, border: "2px solid #0f172a", color: "#0f172a", padding: "16px", borderRadius: "8px", textAlign: "center", fontWeight: "bold", textDecoration: "none" }}>Download Catalog</a>
+              <a href="/Catalog.pdf" target="_blank" style={{ flex: 1, border: "2.5px solid #0f172a", color: "#0f172a", padding: "16px", borderRadius: "8px", textAlign: "center", fontWeight: "bold", textDecoration: "none" }}>Download Catalog</a>
             </div>
           </div>
         </div>
 
         {/* Technical Specification Table */}
         <div style={{ marginTop: "80px" }}>
-          <h2 style={{ fontSize: "24px", fontWeight: 800, marginBottom: "30px", borderBottom: "2px solid #f1f5f9", paddingBottom: "15px" }}>Technical Specifications</h2>
+          <h2 style={{ fontSize: "24px", fontWeight: 800, marginBottom: "30px", borderBottom: "2.5px solid #f1f5f9", paddingBottom: "15px" }}>Technical Specifications</h2>
           <table style={{ width: "100%", borderCollapse: "collapse", fontSize: "15px" }}>
             <tbody>
               {Object.entries(product.technicalDetails).map(([key, value], idx) => (
-                <tr key={key} style={{ backgroundColor: idx % 2 === 0 ? "#f8fafc" : "transparent" }}> 
+                <tr key={key} style={{ backgroundColor: idx % 2 === 0 ? "#f8fafc" : "transparent" }}>
                   <td style={{ padding: "15px 20px", fontWeight: "bold", border: "1px solid #e2e8f0", width: "30%" }}>{key}</td>
                   <td style={{ padding: "15px 20px", border: "1px solid #e2e8f0", color: "#475569" }}>{value}</td>
                 </tr>
@@ -91,6 +91,24 @@ export default function ProductDetail() {
             </tbody>
           </table>
         </div>
+
+        {/* Product Gallery / Visual Details */}
+        {product.gallery && product.gallery.length > 0 && (
+          <div style={{ marginTop: "80px" }}>
+            <h2 style={{ fontSize: "24px", fontWeight: 800, marginBottom: "40px", textAlign: "center" }}>Product Details & Features</h2>
+            <div style={{ display: "flex", flexDirection: "column", gap: "30px" }}>
+              {product.gallery.map((imgUrl, idx) => (
+                <div key={idx} style={{ width: "100%", textAlign: "center" }}>
+                   <img 
+                    src={imgUrl} 
+                    alt={`${product.name} Detail ${idx + 1}`} 
+                    style={{ maxWidth: "1000px", width: "100%", height: "auto", borderRadius: "12px", boxShadow: "0 10px 25px rgba(0,0,0,0.05)" }} 
+                   />
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
       </section>
 
       {/* Footer */}
