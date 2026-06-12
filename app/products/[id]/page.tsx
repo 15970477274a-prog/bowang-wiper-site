@@ -36,7 +36,7 @@ export default function ProductDetail() {
           <nav style={{ display: "flex", gap: "25px", alignItems: "center" }}>
             <Link href="/" style={{ color: "#f8fafc", textDecoration: "none", fontSize: "14px" }}>{t.navHome}</Link>
             <Link href="/products" style={{ color: "#38bdf8", textDecoration: "none", fontSize: "14px", fontWeight: "bold" }}>{t.navProducts}</Link>
-            <Link href="/#about" style={{ color: "#f8fafc", textDecoration: "none", fontSize: "14px" }}>{t.navAboutUs}</Link>
+            <Link href="/about" style={{ color: "#f8fafc", textDecoration: "none", fontSize: "14px" }}>{t.navAboutUs}</Link>
             <Link href="/#contact" style={{ backgroundColor: "#0284c7", color: "white", padding: "8px 16px", borderRadius: "4px", textDecoration: "none", fontSize: "14px", fontWeight: "bold" }}>{t.navGetQuote}</Link>
           </nav>
         </div>
