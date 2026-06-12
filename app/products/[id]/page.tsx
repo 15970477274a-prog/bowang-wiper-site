@@ -83,7 +83,7 @@ export default function ProductDetail() {
           <table style={{ width: "100%", borderCollapse: "collapse", fontSize: "15px" }}>
             <tbody>
               {Object.entries(product.technicalDetails).map(([key, value], idx) => (
-                <tr key={key} style={{ backgroundColor: idx % 2 === 0 ? "#f8fafc" : "transparent" }}>
+                <tr key={key} style={{ backgroundColor: idx % 2 === 0 ? "#f8fafc" : "transparent" }}> 
                   <td style={{ padding: "15px 20px", fontWeight: "bold", border: "1px solid #e2e8f0", width: "30%" }}>{key}</td>
                   <td style={{ padding: "15px 20px", border: "1px solid #e2e8f0", color: "#475569" }}>{value}</td>
                 </tr>
