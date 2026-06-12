@@ -20,7 +20,7 @@ export async function POST(request: Request) {
     // 1. Send Email Notification via Resend
     const emailResponse = await resend.emails.send({
       from: "Lelion Website <onboarding@resend.dev>", // Note: Resend requires domain verification for custom from addresses
-      to: "sales@lelionautopart.com",
+      to: "15970477274a@gmail.com",
       subject: `New B2B Inquiry: ${product} from ${name}`,
       html: `
         <div style="font-family: sans-serif; max-width: 600px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden;">
@@ -33,31 +33,31 @@ export async function POST(request: Request) {
             <table style="width: 100%; border-collapse: collapse;">
               <tr>
                 <td style="padding: 10px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold; width: 150px;">Buyer Name:</td>
-                <td style="padding: 10px 0; border-bottom: 1px solid #f1f5f9;">${name}</td>
+                <td style="padding: 10px 0; border-bottom: 1px solid #f1f5f9;">\${name}</td>
               </tr>
               <tr>
                 <td style="padding: 10px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;">Business Email:</td>
-                <td style="padding: 10px 0; border-bottom: 1px solid #f1f5f9;"><a href="mailto:${email}">${email}</a></td>
+                <td style="padding: 10px 0; border-bottom: 1px solid #f1f5f9;"><a href="mailto:\${email}">\${email}</a></td>
               </tr>
               <tr>
                 <td style="padding: 10px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;">Company:</td>
-                <td style="padding: 10px 0; border-bottom: 1px solid #f1f5f9;">${company || "N/A"}</td>
+                <td style="padding: 10px 0; border-bottom: 1px solid #f1f5f9;">\${company || "N/A"}</td>
               </tr>
               <tr>
                 <td style="padding: 10px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;">Product:</td>
-                <td style="padding: 10px 0; border-bottom: 1px solid #f1f5f9;">${product}</td>
+                <td style="padding: 10px 0; border-bottom: 1px solid #f1f5f9;">\${product}</td>
               </tr>
             </table>
 
             <div style="margin-top: 25px;">
               <p style="font-weight: bold; margin-bottom: 10px;">Message / Requirements:</p>
               <div style="background-color: #f8fafc; padding: 15px; border-radius: 6px; border: 1px solid #e2e8f0;">
-                ${message.replace(/\n/g, "<br/>")}
+                \${message.replace(/\n/g, "<br/>")}
               </div>
             </div>
 
             <div style="margin-top: 30px; border-top: 1px solid #f1f5f9; padding-top: 20px; font-size: 12px; color: #94a3b8;">
-              <p>Sent at: ${new Date().toLocaleString()}</p>
+              <p>Sent at: \${new Date().toLocaleString()}</p>
               <p>Source: lelionautopart.com Inquiry System</p>
             </div>
           </div>
