@@ -1,7 +1,9 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Link from "next/link";
 import { translations, Locale } from "./translations";
+import { allProducts } from "./data/products";
 
 export default function Home() {
   const [lang, setLang] = useState<Locale>("en");
@@ -61,46 +63,6 @@ export default function Home() {
 
   const t = translations[lang];
 
-  // Product Data
-  const allProducts = [
-    {
-      id: 1,
-      category: "Universal",
-      name: t.universalTitle,
-      price: "$1.05 - $1.45",
-      moq: "500 PCS",
-      desc: t.universalDesc,
-      specs: [t.universalSpec1, t.universalSpec2, t.universalSpec3, t.universalSpec4],
-      tag: t.bestSeller,
-      tagColor: "#f0fdf4",
-      tagTextColor: "#16a34a"
-    },
-    {
-      id: 2,
-      category: "Specific Fit",
-      name: t.specificTitle,
-      price: "$1.65 - $2.35",
-      moq: "300 PCS",
-      desc: t.specificDesc,
-      specs: [t.specificSpec1, t.specificSpec2, t.specificSpec3, t.specificSpec4],
-      tag: t.premiumChoice,
-      tagColor: "#eff6ff",
-      tagTextColor: "#2563eb"
-    },
-    {
-      id: 3,
-      category: "Multifunction",
-      name: t.multifunctionTitle,
-      price: "$1.35 - $1.95",
-      moq: "500 PCS",
-      desc: t.multifunctionDesc,
-      specs: [t.multifunctionSpec1, t.multifunctionSpec2, t.multifunctionSpec3, t.multifunctionSpec4],
-      tag: t.multiCompatible,
-      tagColor: "#faf5ff",
-      tagTextColor: "#7c3aed"
-    }
-  ];
-
   const filteredProducts = activeCategory === "All" 
     ? allProducts 
     : allProducts.filter(p => p.category === activeCategory);
@@ -119,7 +81,7 @@ export default function Home() {
             <span style={{ fontSize: "10px", color: "#94a3b8", textTransform: "uppercase", letterSpacing: "1px" }}>Autoparts Manufacturer</span>
           </div>
           <nav style={{ display: "flex", gap: "20px", alignItems: "center" }}>
-            <a href="#hero" style={{ color: "#f8fafc", textDecoration: "none", fontSize: "14px", fontWeight: 500 }}>{t.navHome}</a>
+            <Link href="/" style={{ color: "#f8fafc", textDecoration: "none", fontSize: "14px", fontWeight: 500 }}>{t.navHome}</Link>
             <a href="#products" style={{ color: "#f8fafc", textDecoration: "none", fontSize: "14px", fontWeight: 500 }}>{t.navProducts}</a>
             <a href="#about" style={{ color: "#f8fafc", textDecoration: "none", fontSize: "14px", fontWeight: 500 }}>{t.navAboutUs}</a>
             <a href="/Catalog.pdf" target="_blank" style={{ color: "#38bdf8", textDecoration: "none", fontSize: "14px", fontWeight: 600 }}>{t.navCatalog}</a>
@@ -144,7 +106,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Product Center Section - NEW B2B GRID LAYOUT */}
+      {/* Product Center Section */}
       <section id="products" style={{ padding: "100px 20px", maxWidth: "1250px", margin: "0 auto" }}>
         <div style={{ textAlign: "center", marginBottom: "60px" }}>
           <h2 style={{ fontSize: "36px", fontWeight: 800, color: "#0f172a", marginBottom: "15px" }}>{t.productsTitle}</h2>
@@ -153,9 +115,8 @@ export default function Home() {
         </div>
 
         <div style={{ display: "flex", gap: "40px", flexDirection: "row", flexWrap: "wrap" }}>
-          {/* Sidebar Filters */}
           <aside style={{ flex: "1 1 250px", borderRight: "1px solid #e2e8f0", paddingRight: "20px" }}>
-            <h3 style={{ fontSize: "18px", fontWeight: 700, marginBottom: "20px" }}>Product Categories</h3>
+            <h3 style={{ fontSize: "18px", fontWeight: 700, marginBottom: "20px" }}>Categories</h3>
             <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
               {["All", "Universal", "Specific Fit", "Multifunction"].map(cat => (
                 <li key={cat} onClick={() => setActiveCategory(cat)} style={{
@@ -169,41 +130,30 @@ export default function Home() {
                 </li>
               ))}
             </ul>
-            <div style={{ marginTop: "40px", padding: "20px", backgroundColor: "#f8fafc", borderRadius: "8px", border: "1px dashed #cbd5e1" }}>
-              <h4 style={{ fontSize: "14px", marginBottom: "10px" }}>Need Custom Design?</h4>
-              <p style={{ fontSize: "12px", color: "#64748b", marginBottom: "15px" }}>We offer OEM/ODM services for global auto parts brands.</p>
-              <a href="#contact" style={{ fontSize: "13px", color: "#0284c7", fontWeight: "bold", textDecoration: "none" }}>Contact Factory →</a>
-            </div>
           </aside>
 
-          {/* Product Grid */}
           <div style={{ flex: "3 1 600px" }}>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))", gap: "30px" }}>
               {filteredProducts.map(p => (
-                <div key={p.id} className="product-card" style={{
+                <div key={p.id} style={{
                   backgroundColor: "white", borderRadius: "12px", overflow: "hidden", border: "1px solid #e2e8f0",
-                  transition: "transform 0.3s, box-shadow 0.3s", display: "flex", flexDirection: "column"
+                  display: "flex", flexDirection: "column"
                 }}>
-                  <div style={{ height: "220px", backgroundColor: "#f1f5f9", position: "relative", display: "flex", alignItems: "center", justifyContent: "center" }}>
-                     <span style={{ position: "absolute", top: "15px", left: "15px", backgroundColor: p.tagColor, color: p.tagTextColor, fontSize: "10px", fontWeight: "bold", padding: "4px 10px", borderRadius: "4px", textTransform: "uppercase" }}>{p.tag}</span>
-                     <img src={`https://images.unsplash.com/photo-1621244094916-2d6451659929?auto=format&fit=crop&q=80&w=400`} alt={p.name} style={{ width: "80%", height: "auto", mixBlendMode: "multiply" }} />
-                  </div>
+                  <Link href={`/products/${p.id}`} style={{ height: "220px", backgroundColor: "#f1f5f9", display: "flex", alignItems: "center", justifyContent: "center", position: "relative", cursor: "pointer" }}>
+                     <span style={{ position: "absolute", top: "15px", left: "15px", backgroundColor: "#f0fdf4", color: "#16a34a", fontSize: "10px", fontWeight: "bold", padding: "4px 10px", borderRadius: "4px" }}>{p.tag}</span>
+                     <img src={p.image} alt={p.name} style={{ width: "80%", height: "auto", mixBlendMode: "multiply" }} />
+                  </Link>
                   <div style={{ padding: "20px", flexGrow: 1, display: "flex", flexDirection: "column" }}>
-                    <h3 style={{ fontSize: "19px", fontWeight: 700, marginBottom: "8px", color: "#0f172a" }}>{p.name}</h3>
-                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "15px" }}>
-                      <span style={{ color: "#ef4444", fontWeight: 800, fontSize: "18px" }}>{p.price} <small style={{ fontSize: "10px", color: "#94a3b8" }}>/PCS</small></span>
-                      <span style={{ fontSize: "11px", color: "#64748b", backgroundColor: "#f1f5f9", padding: "2px 6px", borderRadius: "4px" }}>MOQ: {p.moq}</span>
+                    <h3 style={{ fontSize: "19px", fontWeight: 700, marginBottom: "8px" }}>
+                      <Link href={`/products/${p.id}`} style={{ color: "#0f172a", textDecoration: "none" }}>{p.name}</Link>
+                    </h3>
+                    <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "15px" }}>
+                      <span style={{ color: "#ef4444", fontWeight: 800, fontSize: "18px" }}>{p.price}</span>
+                      <span style={{ fontSize: "11px", color: "#64748b" }}>MOQ: {p.moq}</span>
                     </div>
-                    <ul style={{ padding: 0, margin: "0 0 20px 0", listStyle: "none", flexGrow: 1 }}>
-                      {p.specs.map((s, i) => (
-                        <li key={i} style={{ fontSize: "13px", color: "#475569", marginBottom: "6px", display: "flex", alignItems: "center" }}>
-                          <span style={{ color: "#10b981", marginRight: "8px" }}>✓</span> {s}
-                        </li>
-                      ))}
-                    </ul>
-                    <div style={{ display: "flex", gap: "10px" }}>
-                      <a href="#contact" onClick={() => setFormData({...formData, product: p.name})} style={{ flex: 2, textAlign: "center", backgroundColor: "#0284c7", color: "white", padding: "10px", borderRadius: "6px", fontSize: "13px", fontWeight: "bold", textDecoration: "none" }}>Inquiry</a>
-                      <a href="/Catalog.pdf" target="_blank" style={{ flex: 1, textAlign: "center", border: "1px solid #cbd5e1", color: "#475569", padding: "10px", borderRadius: "6px", fontSize: "13px", textDecoration: "none" }}>Specs</a>
+                    <div style={{ display: "flex", gap: "10px", marginTop: "auto" }}>
+                      <a href="#contact" onClick={() => setFormData({...formData, product: p.name})} style={{ flex: 1, textAlign: "center", backgroundColor: "#0284c7", color: "white", padding: "10px", borderRadius: "6px", fontSize: "13px", fontWeight: "bold", textDecoration: "none" }}>Inquiry</a>
+                      <Link href={`/products/${p.id}`} style={{ flex: 1, textAlign: "center", border: "1px solid #cbd5e1", color: "#475569", padding: "10px", borderRadius: "6px", fontSize: "13px", textDecoration: "none", fontWeight: "600" }}>Details</Link>
                     </div>
                   </div>
                 </div>
@@ -213,7 +163,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Why Choose Us - Enhanced */}
+      {/* Why Choose Us */}
       <section id="why-choose-us" style={{ backgroundColor: "#0f172a", padding: "100px 20px", color: "white" }}>
         <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
           <div style={{ textAlign: "center", marginBottom: "70px" }}>
@@ -223,7 +173,6 @@ export default function Home() {
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))", gap: "40px" }}>
             {[ {t: t.whyAdv1Title, d: t.whyAdv1Desc}, {t: t.whyAdv2Title, d: t.whyAdv2Desc}, {t: t.whyAdv3Title, d: t.whyAdv3Desc}, {t: t.whyAdv4Title, d: t.whyAdv4Desc} ].map((adv, i) => (
               <div key={i} style={{ padding: "30px", backgroundColor: "#1e293b", borderRadius: "12px", border: "1px solid #334155" }}>
-                <div style={{ width: "40px", height: "40px", backgroundColor: "#0284c7", borderRadius: "8px", display: "flex", alignItems: "center", justifyContent: "center", marginBottom: "20px", fontWeight: "bold" }}>0{i+1}</div>
                 <h4 style={{ fontSize: "20px", marginBottom: "15px", color: "#38bdf8" }}>{adv.t}</h4>
                 <p style={{ fontSize: "14px", color: "#cbd5e1", lineHeight: 1.6 }}>{adv.d}</p>
               </div>
@@ -236,64 +185,60 @@ export default function Home() {
       <section id="about" style={{ padding: "100px 20px", backgroundColor: "white" }}>
         <div style={{ maxWidth: "1200px", margin: "0 auto", display: "flex", gap: "60px", alignItems: "center", flexWrap: "wrap" }}>
           <div style={{ flex: "1 1 500px" }}>
-             <span style={{ color: "#0284c7", fontWeight: 800, fontSize: "14px", textTransform: "uppercase", letterSpacing: "1px" }}>{t.aboutTag}</span>
+             <span style={{ color: "#0284c7", fontWeight: 800, fontSize: "14px", textTransform: "uppercase" }}>{t.aboutTag}</span>
              <h2 style={{ fontSize: "42px", fontWeight: 800, margin: "15px 0 25px 0" }}>{t.aboutTitle}</h2>
-             <p style={{ fontSize: "16px", color: "#64748b", lineHeight: 1.8, marginBottom: "20px" }}>{t.aboutDesc1}</p>
-             <p style={{ fontSize: "16px", color: "#64748b", lineHeight: 1.8, marginBottom: "35px" }}>{t.aboutDesc2}</p>
+             <p style={{ fontSize: "16px", color: "#64748b", lineHeight: 1.8, marginBottom: "35px" }}>{t.aboutDesc1}</p>
              <div style={{ display: "flex", gap: "40px" }}>
                 <div><span style={{ fontSize: "36px", fontWeight: 800, color: "#0284c7" }}>{t.aboutStat1Title}</span><p style={{ fontSize: "13px", color: "#94a3b8" }}>{t.aboutStat1Desc}</p></div>
                 <div><span style={{ fontSize: "36px", fontWeight: 800, color: "#0284c7" }}>{t.aboutStat2Title}</span><p style={{ fontSize: "13px", color: "#94a3b8" }}>{t.aboutStat2Desc}</p></div>
                 <div><span style={{ fontSize: "36px", fontWeight: 800, color: "#0284c7" }}>{t.aboutStat3Title}</span><p style={{ fontSize: "13px", color: "#94a3b8" }}>{t.aboutStat3Desc}</p></div>
              </div>
           </div>
-          <div style={{ flex: "1 1 400px", background: "#0f172a", padding: "50px", borderRadius: "16px", position: "relative" }}>
-             <div style={{ fontSize: "60px", color: "#1e293b", position: "absolute", top: "20px", left: "30px", lineHeight: 1 }}>“</div>
-             <p style={{ fontSize: "18px", fontStyle: "italic", color: "#cbd5e1", lineHeight: 1.6, position: "relative", zIndex: 1 }}>{t.aboutPledgeQuote}</p>
+          <div style={{ flex: "1 1 400px", background: "#0f172a", padding: "50px", borderRadius: "16px" }}>
+             <p style={{ fontSize: "18px", fontStyle: "italic", color: "#cbd5e1", lineHeight: 1.6 }}>{t.aboutPledgeQuote}</p>
              <p style={{ marginTop: "25px", fontWeight: "bold", color: "#38bdf8" }}>{t.aboutPledgeAuthor}</p>
           </div>
         </div>
       </section>
 
-      {/* Inquiry Form */}
+      {/* Contact Section */}
       <section id="contact" style={{ padding: "100px 20px", backgroundColor: "#f8fafc" }}>
-        <div style={{ maxWidth: "900px", margin: "0 auto", backgroundColor: "white", padding: "60px", borderRadius: "16px", boxShadow: "0 10px 25px -5px rgba(0,0,0,0.1)" }}>
-          <div style={{ textAlign: "center", marginBottom: "45px" }}>
-            <h2 style={{ fontSize: "32px", fontWeight: 800, marginBottom: "15px" }}>{t.contactTitle}</h2>
+        <div style={{ maxWidth: "800px", margin: "0 auto", backgroundColor: "white", padding: "50px", borderRadius: "16px", boxShadow: "0 4px 20px rgba(0,0,0,0.05)" }}>
+          <div style={{ textAlign: "center", marginBottom: "40px" }}>
+            <h2 style={{ fontSize: "32px", fontWeight: 800, marginBottom: "10px" }}>{t.contactTitle}</h2>
             <p style={{ color: "#64748b" }}>{t.contactSubtitle}</p>
           </div>
           <form onSubmit={handleSubmit}>
-            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "25px", marginBottom: "25px" }}>
-              <div><label style={{ display: "block", fontSize: "14px", fontWeight: 600, marginBottom: "8px" }}>{t.contactNameLabel}</label><input type="text" name="name" required value={formData.name} onChange={handleChange} style={{ width: "100%", padding: "12px", border: "1px solid #e2e8f0", borderRadius: "6px" }} placeholder={t.contactNamePlaceholder} /></div>
-              <div><label style={{ display: "block", fontSize: "14px", fontWeight: 600, marginBottom: "8px" }}>{t.contactEmailLabel}</label><input type="email" name="email" required value={formData.email} onChange={handleChange} style={{ width: "100%", padding: "12px", border: "1px solid #e2e8f0", borderRadius: "6px" }} placeholder={t.contactEmailPlaceholder} /></div>
+            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "20px", marginBottom: "20px" }}>
+              <input type="text" name="name" required value={formData.name} onChange={handleChange} placeholder={t.contactNameLabel} style={{ width: "100%", padding: "14px", border: "1px solid #e2e8f0", borderRadius: "8px" }} />
+              <input type="email" name="email" required value={formData.email} onChange={handleChange} placeholder={t.contactEmailLabel} style={{ width: "100%", padding: "14px", border: "1px solid #e2e8f0", borderRadius: "8px" }} />
             </div>
-            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "25px", marginBottom: "25px" }}>
-              <div><label style={{ display: "block", fontSize: "14px", fontWeight: 600, marginBottom: "8px" }}>{t.contactCompanyLabel}</label><input type="text" name="company" value={formData.company} onChange={handleChange} style={{ width: "100%", padding: "12px", border: "1px solid #e2e8f0", borderRadius: "6px" }} placeholder={t.contactCompanyPlaceholder} /></div>
-              <div><label style={{ display: "block", fontSize: "14px", fontWeight: 600, marginBottom: "8px" }}>{t.contactProductLabel}</label><select name="product" value={formData.product} onChange={handleChange} style={{ width: "100%", padding: "12px", border: "1px solid #e2e8f0", borderRadius: "6px" }}><option value="Universal Wiper Blades">Universal</option><option value="Specific Fit Wiper Blades">Specific Fit</option><option value="Multifunction Wiper Blades">Multifunction</option><option value="Bulk Customized Order">OEM/ODM Order</option></select></div>
-            </div>
-            <div style={{ marginBottom: "35px" }}>
-              <label style={{ display: "block", fontSize: "14px", fontWeight: 600, marginBottom: "8px" }}>{t.contactMessageLabel}</label>
-              <textarea name="message" required rows={5} value={formData.message} onChange={handleChange} style={{ width: "100%", padding: "12px", border: "1px solid #e2e8f0", borderRadius: "6px" }} placeholder={t.contactMessagePlaceholder} />
-            </div>
-            {status.submitted && <div style={{ backgroundColor: "#ecfdf5", color: "#065f46", padding: "15px", borderRadius: "6px", marginBottom: "25px", fontSize: "14px" }}><strong>{t.contactSuccessMsg}</strong></div>}
-            {status.error && <div style={{ backgroundColor: "#fef2f2", color: "#991b1b", padding: "15px", borderRadius: "6px", marginBottom: "25px", fontSize: "14px" }}><strong>{t.contactErrorMsg}</strong> {status.error}</div>}
-            <button type="submit" disabled={status.loading} style={{ width: "100%", backgroundColor: "#0284c7", color: "white", padding: "16px", borderRadius: "6px", fontSize: "16px", fontWeight: "bold", cursor: status.loading ? "not-allowed" : "pointer" }}>{status.loading ? t.contactSubmittingBtn : t.contactSubmitBtn}</button>
+            <input type="text" name="company" value={formData.company} onChange={handleChange} placeholder={t.contactCompanyLabel} style={{ width: "100%", padding: "14px", border: "1px solid #e2e8f0", borderRadius: "8px", marginBottom: "20px" }} />
+            <select name="product" value={formData.product} onChange={handleChange} style={{ width: "100%", padding: "14px", border: "1px solid #e2e8f0", borderRadius: "8px", marginBottom: "20px" }}>
+              <option value="Universal Wiper Blades">Universal</option>
+              <option value="Specific Fit Wiper Blades">Specific Fit</option>
+              <option value="Multifunction Wiper Blades">Multifunction</option>
+            </select>
+            <textarea name="message" required rows={4} value={formData.message} onChange={handleChange} placeholder={t.contactMessagePlaceholder} style={{ width: "100%", padding: "14px", border: "1px solid #e2e8f0", borderRadius: "8px", marginBottom: "30px" }} />
+            {status.submitted && <div style={{ backgroundColor: "#ecfdf5", color: "#065f46", padding: "15px", borderRadius: "8px", marginBottom: "20px" }}><strong>{t.contactSuccessMsg}</strong></div>}
+            <button type="submit" disabled={status.loading} style={{ width: "100%", backgroundColor: "#0284c7", color: "white", padding: "16px", borderRadius: "8px", fontSize: "16px", fontWeight: "bold" }}>{status.loading ? t.contactSubmittingBtn : t.contactSubmitBtn}</button>
           </form>
         </div>
       </section>
 
-      {/* Footer */}
-      <footer style={{ backgroundColor: "#0f172a", color: "#94a3b8", padding: "80px 20px 40px 20px" }}>
-        <div style={{ maxWidth: "1200px", margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))", gap: "50px", marginBottom: "60px" }}>
-          <div><h3 style={{ color: "white", fontSize: "20px", marginBottom: "20px" }}>BOWANG WIPER</h3><p style={{ fontSize: "14px", lineHeight: 1.7 }}>{t.footerDesc}</p></div>
-          <div><h3 style={{ color: "white", fontSize: "18px", marginBottom: "20px" }}>{t.footerQuickLinks}</h3><ul style={{ listStyle: "none", padding: 0, display: "flex", flexDirection: "column", gap: "12px", fontSize: "14px" }}><li><a href="#hero" style={{ color: "#94a3b8", textDecoration: "none" }}>{t.navHome}</a></li><li><a href="#products" style={{ color: "#94a3b8", textDecoration: "none" }}>{t.navProducts}</a></li><li><a href="#about" style={{ color: "#94a3b8", textDecoration: "none" }}>{t.navAboutUs}</a></li></ul></div>
-          <div><h3 style={{ color: "white", fontSize: "18px", marginBottom: "20px" }}>{t.footerContactInfo}</h3><p style={{ fontSize: "14px", marginBottom: "8px" }}><strong>Factory:</strong> {t.footerAddress}</p><p style={{ fontSize: "14px", marginBottom: "8px" }}><strong>Email:</strong> 15970477274a@gmail.com</p><p style={{ fontSize: "14px" }}><strong>Domain:</strong> lelionautopart.com</p></div>
+      <footer style={{ backgroundColor: "#0f172a", color: "#94a3b8", padding: "80px 20px 40px 20px", textAlign: "center" }}>
+        <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
+          <h3 style={{ color: "white", marginBottom: "20px" }}>BOWANG WIPER</h3>
+          <p style={{ maxWidth: "600px", margin: "0 auto 40px" }}>{t.footerDesc}</p>
+          <div style={{ borderTop: "1px solid #1e293b", paddingTop: "30px", fontSize: "12px" }}>
+            &copy; 2026 Ningbo Zhenhai Bowang Autoparts Co., Ltd. All rights reserved.
+          </div>
         </div>
-        <div style={{ borderTop: "1px solid #1e293b", paddingTop: "30px", textAlign: "center", fontSize: "12px" }}><p>&copy; {new Date().getFullYear()} Ningbo Zhenhai Bowang Autoparts Co., Ltd. All rights reserved.</p></div>
       </footer>
 
-      {/* Floating WhatsApp Button */}
+      {/* Floating WhatsApp */}
       <a href="https://wa.me/8618867886795" target="_blank" rel="noopener noreferrer" style={{ position: "fixed", bottom: "30px", right: "30px", width: "60px", height: "60px", backgroundColor: "#25d366", borderRadius: "50%", display: "flex", justifyContent: "center", alignItems: "center", boxShadow: "0 4px 12px rgba(0,0,0,0.2)", zIndex: 9999 }}>
-        <svg width="35" height="35" viewBox="0 0 448 512" fill="white"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.1 0-65.6-8.9-93.3-25.7l-6.7-4.1-69.5 18.3 18.7-67.7-4.5-7.1C51.3 322.2 42.1 289 42.1 254c0-100.1 81.3-181.5 181.6-181.5 48.5 0 94.1 18.9 128.4 53.3 34.3 34.4 53.2 80 53.2 128.4 0 100.2-81.4 181.5-181.4 181.5zm113.8-154.2c-6.2-3.1-36.8-18.1-42.5-20.1-5.7-2-9.8-3.1-13.9 3.1-4.1 6.2-15.8 20.1-19.4 24.1-3.6 4-7.2 4.5-13.4 1.5-6.2-3.1-26.2-9.6-49.9-27.5-18.4-16.4-30.8-36.7-34.4-42.8-3.6-6.2-.4-9.6 2.7-12.7 2.8-2.8 6.2-7.2 9.3-10.8 3.1-3.6 4.1-6.2 6.2-10.3 2-4.1 1-7.7-.5-10.8-1.5-3.1-13.9-33.5-19.1-45.8-5-12.2-10.2-10.5-13.9-10.6-3.6-.1-7.7-.1-11.8-.1-4.1 0-10.8 1.5-16.5 7.7-5.7 6.2-21.6 21.1-21.6 51.5 0 30.4 22.1 59.8 25.2 64 3.1 4.1 43.5 33.2 105.3 59.8 14.7 6.3 26.2 10.1 35.1 13 14.8 2.8 28.2 2.4 38.9 1c11.9-1.5 36.8-4.8 42-9.5 5.1-4.6 5.1-8.7 3.6-10.8-1.5-2.1-5.7-3.1-11.8-6.2z" /></svg>
+        <svg width="30" height="30" viewBox="0 0 448 512" fill="white"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.1 0-65.6-8.9-93.3-25.7l-6.7-4.1-69.5 18.3 18.7-67.7-4.5-7.1C51.3 322.2 42.1 289 42.1 254c0-100.1 81.3-181.5 181.6-181.5 48.5 0 94.1 18.9 128.4 53.3 34.3 34.4 53.2 80 53.2 128.4 0 100.2-81.4 181.5-181.4 181.5zm113.8-154.2c-6.2-3.1-36.8-18.1-42.5-20.1-5.7-2-9.8-3.1-13.9 3.1-4.1 6.2-15.8 20.1-19.4 24.1-3.6 4-7.2 4.5-13.4 1.5-6.2-3.1-26.2-9.6-49.9-27.5-18.4-16.4-30.8-36.7-34.4-42.8-3.6-6.2-.4-9.6 2.7-12.7 2.8-2.8 6.2-7.2 9.3-10.8 3.1-3.6 4.1-6.2 6.2-10.3 2-4.1 1-7.7-.5-10.8-1.5-3.1-13.9-33.5-19.1-45.8-5-12.2-10.2-10.5-13.9-10.6-3.6-.1-7.7-.1-11.8-.1-4.1 0-10.8 1.5-16.5 7.7-5.7 6.2-21.6 21.1-21.6 51.5 0 30.4 22.1 59.8 25.2 64 3.1 4.1 43.5 33.2 105.3 59.8 14.7 6.3 26.2 10.1 35.1 13 14.8 2.8 28.2 2.4 38.9 1c11.9-1.5 36.8-4.8 42-9.5 5.1-4.6 5.1-8.7 3.6-10.8-1.5-2.1-5.7-3.1-11.8-6.2z" /></svg>
       </a>
 
     </main>
