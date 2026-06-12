@@ -33,10 +33,16 @@ export default function RootLayout({
             gtag('config', 'G-DHVDM5P7YQ');
           `}
         </Script>
+
+        {/* Ahrefs Analytics */}
+        <Script
+          src="https://analytics.ahrefs.com/analytics.js"
+          data-key="PWw/q/G6NqWiQAPzBLLNTw"
+          strategy="afterInteractive"
+        />
       </head>
       <body style={{ margin: 0, padding: 0 }}>
         {children}
       </body>
     </html>
   );
-}
