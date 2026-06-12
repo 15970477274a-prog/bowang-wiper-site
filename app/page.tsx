@@ -120,6 +120,9 @@ export default function Home() {
             <a href="#about" style={{ color: "#f8fafc", textDecoration: "none", fontSize: "14px", fontWeight: 500 }} className="nav-link">
               {t.navAboutUs}
             </a>
+            <a href="/Catalog.pdf" target="_blank" style={{ color: "#38bdf8", textDecoration: "none", fontSize: "14px", fontWeight: 600 }} className="nav-link">
+              {t.navCatalog}
+            </a>
             <a href="#contact" style={{
               backgroundColor: "#0284c7",
               color: "#ffffff",
@@ -203,7 +206,10 @@ export default function Home() {
             <a href="#contact" className="btn-primary" style={{ fontSize: "16px", padding: "14px 36px" }}>
               {t.heroInquireBtn}
             </a>
-            <a href="#products" className="btn-secondary" style={{ fontSize: "16px", padding: "14px 36px" }}>
+            <a href="/Catalog.pdf" target="_blank" className="btn-secondary" style={{ fontSize: "16px", padding: "14px 36px" }}>
+              {t.navCatalog}
+            </a>
+            <a href="#products" className="btn-secondary" style={{ fontSize: "16px", padding: "14px 36px", backgroundColor: "transparent", border: "1px solid #475569" }}>
               {t.heroProductsBtn}
             </a>
           </div>
