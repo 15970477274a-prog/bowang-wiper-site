@@ -6,6 +6,7 @@ export interface TranslationDict {
   navAdvantages: string;
   navAboutUs: string;
   navGetQuote: string;
+  navCatalog: string;
   
   heroTag: string;
   heroTitle: string;
@@ -97,6 +98,7 @@ export const translations: Record<Locale, TranslationDict> = {
     navAdvantages: "Advantages",
     navAboutUs: "About Us",
     navGetQuote: "Get a Quote",
+    navCatalog: "E-Catalog (PDF)",
     
     heroTag: "ISO9001 Certified Factory",
     heroTitle: "Professional Wiper Blade Manufacturer From China",
@@ -156,7 +158,7 @@ export const translations: Record<Locale, TranslationDict> = {
     aboutStat3Title: "50+",
     aboutStat3Desc: "Exporting Countries",
     aboutPledgeTitle: "Our Quality Pledge",
-    aboutPledgeQuote: `"Quality is the core driver of Bowang. We utilize strictly imported AAA-grade raw rubber materials, high-tension spring steels, and execute full-inspection QC procedures. We assure a streak-free, quiet, and lasting wipe for all our global buyers."`,
+    aboutPledgeQuote: `\"Quality is the core driver of Bowang. We utilize strictly imported AAA-grade raw rubber materials, high-tension spring steels, and execute full-inspection QC procedures. We assure a streak-free, quiet, and lasting wipe for all our global buyers.\"`,
     aboutPledgeAuthor: "— Production Director, Bowang Autoparts",
 
     contactTitle: "Request a Catalog & Free Sample",
@@ -186,6 +188,7 @@ export const translations: Record<Locale, TranslationDict> = {
     navAdvantages: "Ventajas",
     navAboutUs: "Nosotros",
     navGetQuote: "Presupuesto",
+    navCatalog: "Catálogo (PDF)",
     
     heroTag: "Fábrica Certificada ISO9001",
     heroTitle: "Fabricante Profesional de Escobillas Limpiaparabrisas en China",
@@ -237,15 +240,15 @@ export const translations: Record<Locale, TranslationDict> = {
     aboutTag: "Perfil Corporativo",
     aboutTitle: "Ningbo Zhenhai Bowang Autoparts Co., Ltd.",
     aboutDesc1: "Ubicado en el centro industrial costero de Ningbo, China, Bowang Autoparts es un fabricante moderno especializado en escobillas limpiaparabrisas para automóviles. Con un taller de producción de más de 8,000 metros cuadrados, nuestras instalaciones integran I+D independiente, diseño estructural, fabricación y distribución bajo un mismo techo.",
-    aboutDesc2: "Equipados con múltiples líneas de montaje automatizadas, máquinas de corte de tiras de caucho de alta precisión y equipos de prueba de laboratorio de última generación, nuestra producción anual supera los 12 millones de unidades.",
+    aboutDesc2: "Equipados con múltiples líneas de montage automatizadas, máquinas de corte de tiras de caucho de alta precisión y equipos de prueba de laboratorio de última generación, nuestra producción anual supera los 12 millones de unidades.",
     aboutStat1Title: "15+",
     aboutStat1Desc: "Años de Experiencia",
     aboutStat2Title: "8,000㎡",
     aboutStat2Desc: "Área de la Fábrica",
     aboutStat3Title: "50+",
     aboutStat3Desc: "Países de Exportación",
-    aboutPledgeTitle: "Nuestro Compromiso de Calidad",
-    aboutPledgeQuote: `"La calidad es el motor principal de Bowang. Utilizamos materias primas de caucho natural de grado AAA estrictamente importadas, aceros de resorte de alta tensión y ejecutamos procedimientos de control de calidad de inspección completa. Aseguramos una limpieza silenciosa, sin marcas y duradera para todos nuestros compradores globales."`,
+    aboutPledgeTitle: "Our Commitment of Quality",
+    aboutPledgeQuote: `\"La calidad es el motor principal de Bowang. Utilizamos materias primas de caucho natural de grado AAA estrictamente importadas, aceros de resorte de alta tensión y ejecutamos procedimientos de control de calidad de inspección completa. Aseguramos una limpieza silenciosa, sin marcas y duradera para todos nuestros compradores globales.\"`,
     aboutPledgeAuthor: "— Director de Producción, Bowang Autoparts",
 
     contactTitle: "Solicitar Catálogo y Muestra Gratis",
@@ -275,6 +278,7 @@ export const translations: Record<Locale, TranslationDict> = {
     navAdvantages: "Преимущества",
     navAboutUs: "О нас",
     navGetQuote: "Получить прайс",
+    navCatalog: "Каталог (PDF)",
     
     heroTag: "Завод сертифицирован по ISO9001",
     heroTitle: "Профессиональный производитель щеток стеклоочистителя из Китая",
@@ -334,7 +338,7 @@ export const translations: Record<Locale, TranslationDict> = {
     aboutStat3Title: "50+",
     aboutStat3Desc: "Экспортирующих стран",
     aboutPledgeTitle: "Наше обещание качества",
-    aboutPledgeQuote: `"Качество — это основа Bowang. Мы импортируем только высококлассный каучук класса ААА, используем прочную пружинную сталь и проводим 100% контроль качества. Мы гарантируем бесшумную очистку без полос на долгий срок для всех клиентов по всему миру."`,
+    aboutPledgeQuote: `\"Качество — это основа Bowang. Мы импортируем только высококлассный каучук класса ААА, используем прочную пружинную сталь и проводим 100% контроль качества. Мы гарантируем бесшумную очистку без полос на долгий срок для всех клиентов по всему миру.\"`,
     aboutPledgeAuthor: "— Директор по производству, Bowang Autoparts",
 
     contactTitle: "Запрос каталога и бесплатных образцов",
@@ -364,6 +368,7 @@ export const translations: Record<Locale, TranslationDict> = {
     navAdvantages: "Avantages",
     navAboutUs: "À Propos",
     navGetQuote: "Demander un Devis",
+    navCatalog: "Catalogue (PDF)",
     
     heroTag: "Usine Certifiée ISO9001",
     heroTitle: "Fabricant Professionnel d'Essuie-Glaces en Chine",
@@ -414,7 +419,7 @@ export const translations: Record<Locale, TranslationDict> = {
 
     aboutTag: "Profil de l'Entreprise",
     aboutTitle: "Ningbo Zhenhai Bowang Autoparts Co., Ltd.",
-    aboutDesc1: "Situé dans le pôle industriel côtier de Ningbo, en Chine, Bowang Autoparts est un fabricant moderne spécialisé dans les balais d'essuie-glace automobiles. S'étendant sur plus de 8 000 mètres carrés d'ateliers de production, notre usine intègre la R&D indépendante, la conception structurelle, la fabrication et la distribution sous un même toit.",
+    aboutDesc1: "Situé dans le pôle industriel côtier de Ningbo, en Chine, Bowang Autoparts is a modern manufacturer spécialisé dans les balais d'essuie-glace automobiles. S'étendant sur plus de 8 000 mètres carrés d'ateliers de production, notre usine intègre la R&D indépendante, la conception structurelle, la fabrication et la distribution sous un même toit.",
     aboutDesc2: "Équipé de multiples lignes d'assemblage automatisées, de machines de découpe de bandes de caoutchouc de haute précision et d'équipements de test en laboratoire de pointe, notre production annuelle dépasse 12 millions d'unités.",
     aboutStat1Title: "15+",
     aboutStat1Desc: "Ans d'Expérience",
@@ -423,7 +428,7 @@ export const translations: Record<Locale, TranslationDict> = {
     aboutStat3Title: "50+",
     aboutStat3Desc: "Pays d'Exportation",
     aboutPledgeTitle: "Notre Engagement de Qualité",
-    aboutPledgeQuote: `"La qualité est le moteur central de Bowang. Nous utilisons strictement des matières premières de caoutchouc naturel importées de qualité AAA, des aciers à ressort à haute tension et appliquons des procédures de contrôle qualité d'inspection complète. Nous garantissons un essuyage silencieux, sans traces et durable pour tous nos acheteurs mondiaux."`,
+    aboutPledgeQuote: `\"La qualité est le moteur central de Bowang. Nous utilisons strictement des matières premières de caoutchouc naturel importées de qualité AAA, des aciers à ressort à haute tension et appliquons des procédures de contrôle qualité d'inspection complète. Nous garantissons un essuyage silencieux, sans traces et durable pour tous nos acheteurs mondiaux.\"`,
     aboutPledgeAuthor: "— Directeur de Production, Bowang Autoparts",
 
     contactTitle: "Demander un Catalogue & Échantillon Gratuit",
@@ -436,10 +441,10 @@ export const translations: Record<Locale, TranslationDict> = {
     contactNamePlaceholder: "Jean Dupont",
     contactEmailPlaceholder: "jean@votreentreprise.com",
     contactCompanyPlaceholder: "Autoparts Import SARL",
-    contactMessagePlaceholder: "Veuillez décrire vos besoins, les dimensions requises, l'estimation des quantités ou les demandes de logos personnalisés...",
+    contactMessagePlaceholder: "Veuillez décrire vos besoins, les dimensions requises, l'estimation des quantités ou les demandes de logos personnalizados...",
     contactSuccessMsg: "Merci ! Votre demande a été envoyée avec succès. Notre équipe commerciale export vous contactera avec les tarifs et le catalogue dans les 12 heures.",
     contactErrorMsg: "Erreur : ",
-    contactSubmitBtn: "Envoyer la Demande (Réponse Rapide)",
+    contactSubmitBtn: "Envoyer la Demande (Réponse Rappide)",
     contactSubmittingBtn: "Envoi en cours...",
 
     footerDesc: "Ningbo Zhenhai Bowang Autoparts Co., Ltd. se consacre à la fabrication de balais d'essuie-glace de haute qualité selon les normes mondiales, avec des exportations dans le monde entier.",
@@ -453,6 +458,7 @@ export const translations: Record<Locale, TranslationDict> = {
     navAdvantages: "Vorteile",
     navAboutUs: "Über Uns",
     navGetQuote: "Angebot anfordern",
+    navCatalog: "Katalog (PDF)",
     
     heroTag: "ISO9001-Zertifizierte Fabrik",
     heroTitle: "Professioneller Scheibenwischer-Hersteller aus China",
@@ -468,7 +474,7 @@ export const translations: Record<Locale, TranslationDict> = {
     multiCompatible: "Multi-Kompatibel",
 
     universalTitle: "Universelle Scheibenwischer",
-    universalDesc: "Passend für 99% aller Fahrzeuge mit vorinstallierten Haken. Der außergewöhnliche aerodynamische Rahmen sorgt für gleichmäßigen Druck und streifenfreies Wischen auch bei Autobahngeschwindigkeiten.",
+    universalDesc: "Passend für 99% aller Fahrzeuge with vorinstallierten Haken. Der außergewöhnliche aerodynamische Rahmen sorgt für gleichmäßigen Druck und streifenfreies Wischen auch bei Autobahngeschwindigkeiten.",
     universalSpec1: "AAA-Naturkautschuk",
     universalSpec2: '12" bis 28"',
     universalSpec3: "> 1.000.000 Wischzyklen",
@@ -512,7 +518,7 @@ export const translations: Record<Locale, TranslationDict> = {
     aboutStat3Title: "50+",
     aboutStat3Desc: "Exportländer",
     aboutPledgeTitle: "Unser Qualitätsversprechen",
-    aboutPledgeQuote: `"Qualität ist der Kern von Bowang. Wir verwenden ausschließlich importierten AAA-Naturkautschuk, hochfesten Federstahl und führen lückenlose Qualitätsprüfungen durch. Wir garantieren ein streifenfreies, leises und dauerhaftes Wischen für alle unsere weltweiten Kunden."`,
+    aboutPledgeQuote: `\"Qualität ist der Kern von Bowang. Wir verwenden ausschließlich importierten AAA-Naturkautschuk, hochfesten Federstahl und führen lückenlose Qualitätsprüfungen durch. Wir garantieren ein streifenfreies, leises und dauerhaftes Wischen für alle unsere weltweiten Kunden.\"`,
     aboutPledgeAuthor: "— Produktionsleiter, Bowang Autoparts",
 
     contactTitle: "Katalog & Kostenlose Muster Anfordern",
