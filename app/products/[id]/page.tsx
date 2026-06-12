@@ -29,13 +29,18 @@ export default function ProductDetail() {
   return (
     <main style={{ fontFamily: "system-ui, -apple-system, sans-serif", color: "#1e293b", backgroundColor: "#ffffff" }}>
       
-      {/* Mini Navigation */}
-      <div style={{ backgroundColor: "#0f172a", padding: "15px 20px" }}>
+      {/* Mini Navigation Header */}
+      <header style={{ backgroundColor: "#0f172a", padding: "15px 20px", position: "sticky", top: 0, zIndex: 100 }}>
         <div style={{ maxWidth: "1200px", margin: "0 auto", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
           <Link href="/" style={{ color: "white", textDecoration: "none", fontWeight: "bold", fontSize: "18px" }}>BOWANG WIPER</Link>
-          <Link href="/#products" style={{ color: "#38bdf8", textDecoration: "none", fontSize: "14px" }}>← Back to Products</Link>
+          <nav style={{ display: "flex", gap: "25px", alignItems: "center" }}>
+            <Link href="/" style={{ color: "#f8fafc", textDecoration: "none", fontSize: "14px" }}>{t.navHome}</Link>
+            <Link href="/products" style={{ color: "#38bdf8", textDecoration: "none", fontSize: "14px", fontWeight: "bold" }}>{t.navProducts}</Link>
+            <Link href="/#about" style={{ color: "#f8fafc", textDecoration: "none", fontSize: "14px" }}>{t.navAboutUs}</Link>
+            <Link href="/#contact" style={{ backgroundColor: "#0284c7", color: "white", padding: "8px 16px", borderRadius: "4px", textDecoration: "none", fontSize: "14px", fontWeight: "bold" }}>{t.navGetQuote}</Link>
+          </nav>
         </div>
-      </div>
+      </header>
 
       <section style={{ padding: "80px 20px", maxWidth: "1200px", margin: "0 auto" }}>
         <div style={{ display: "flex", gap: "60px", flexWrap: "wrap" }}>
@@ -44,11 +49,6 @@ export default function ProductDetail() {
           <div style={{ flex: "1 1 500px" }}>
             <div style={{ backgroundColor: "#f8fafc", borderRadius: "16px", padding: "40px", border: "1px solid #e2e8f0" }}>
               <img src={product.image} alt={product.name} style={{ width: "100%", height: "auto", borderRadius: "8px" }} />
-            </div>
-            <div style={{ display: "flex", gap: "15px", marginTop: "20px" }}>
-               {[1,2,3].map(i => (
-                 <div key={i} style={{ width: "80px", height: "80px", backgroundColor: "#f1f5f9", borderRadius: "8px", border: "1px solid #e2e8f0" }}></div>
-               ))}
             </div>
           </div>
 
@@ -93,7 +93,7 @@ export default function ProductDetail() {
         </div>
       </section>
 
-      {/* Footer (Simplified) */}
+      {/* Footer */}
       <footer style={{ backgroundColor: "#0f172a", color: "#94a3b8", padding: "60px 20px", marginTop: "100px" }}>
         <div style={{ maxWidth: "1200px", margin: "0 auto", textAlign: "center" }}>
           <h3 style={{ color: "white", marginBottom: "20px" }}>Ningbo Zhenhai Bowang Autoparts Co., Ltd.</h3>
