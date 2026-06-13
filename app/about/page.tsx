@@ -98,7 +98,8 @@ export default function AboutPage() {
              </div>
           </div>
           <div style={{ flex: "1 1 400px", position: "relative" }}>
-             <img src="https://images.unsplash.com/photo-1565043589221-1a620021b933?auto=format&fit=crop&q=80&w=600" alt="Factory Overview" style={{ width: "100%", borderRadius: "20px", boxShadow: "0 20px 40px rgba(0,0,0,0.1)" }} />
+             {/* Updated with real company storefront photo */}
+             <img src="https://sc02.alicdn.com/kf/H2533c3c14bc74cd3afe116f60a8357f4U.jpg" alt="Bowang Autoparts Factory Front" style={{ width: "100%", borderRadius: "16px", boxShadow: "0 20px 50px rgba(0,0,0,0.15)", border: "1px solid #e2e8f0" }} />
           </div>
         </div>
       </section>
@@ -128,7 +129,7 @@ export default function AboutPage() {
       {/* QC & Certificates Section */}
       <section style={{ backgroundColor: "#0f172a", padding: "100px 20px", color: "white" }}>
         <div style={{ maxWidth: "1200px", margin: "0 auto", textAlign: "center" }}>
-          <h2 style={{ fontSize: "36px", fontWeight: 800, marginBottom: "20px" }}>Quality & Certifications</h2>
+          <h2 style={{ fontSize: "32px", fontWeight: 800, marginBottom: "20px" }}>Quality & Certifications</h2>
           <p style={{ color: "#94a3b8", marginBottom: "60px", maxWidth: "700px", margin: "0 auto 60px" }}>
             We strictly adhere to global automotive quality management standards. Every wiper blade undergoes rigorous testing to ensure peak performance.
           </p>
@@ -182,7 +183,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <footer style={{ backgroundColor: "#0f172a", color: "#94a3b8", padding: "80px 20px 40px 20px", textAlign: "center" }}>
+      <footer style={{ backgroundColor: "#0f172a", color: "#94a3b8", padding: "60px 20px 40px 20px", textAlign: "center" }}>
         <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
           <h3 style={{ color: "white", marginBottom: "20px" }}>BOWANG WIPER</h3>
           <p style={{ maxWidth: "600px", margin: "0 auto 40px", fontSize: "14px" }}>{t.footerDesc}</p>
@@ -199,4 +200,4 @@ export default function AboutPage() {
 
     </main>
   );
-                     }
+}
