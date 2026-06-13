@@ -14,6 +14,30 @@ export interface Product {
 
 export const allProducts: Product[] = [
   {
+    id: "bw-201-specific-fit-tesla-model-x",
+    category: "Specific Fit",
+    name: "BW-201 Specific Fit Wiper Blade for Tesla Model X",
+    moq: "300 PCS",
+    desc: "OEM Spray-Type wiper blade specifically engineered for Tesla Model X.",
+    longDesc: "The BW-201 is a premium OEM replacement wiper blade specifically designed for the Tesla Model X. It features an innovative integrated spray-type nozzle system to ensure clear vision and safe driving in all conditions. Built with high-quality natural rubber and a firm buckle system, this blade offers a perfect plug-and-play fit without any adapters. Designed to meet the highest OE standards for luxury electric vehicles.",
+    specs: ["Integrated Spray System", "OEM Tesla Model X Fitment", "Low Noise & Smooth Wiping", "Direct Plug & Play Installation"],
+    tag: "Custom Fit",
+    image: "https://sc02.alicdn.com/kf/Hf62654b25ce145c596b525b489f1a81aW.png",
+    gallery: [
+      "https://sc02.alicdn.com/kf/H6e3b51f66a584ee5a665478f3be7110aA.jpg",
+      "https://sc02.alicdn.com/kf/H86d15ad536c54fa994a5b6f37a465243N.jpg"
+    ],
+    technicalDetails: {
+      "Product Model": "BW-201",
+      "Compatibility": "Tesla Model X (Specific Fit)",
+      "Nozzle Type": "Integrated Spray System",
+      "Size Specifications": "18\" (460mm) & 28\" (710mm)",
+      "Main Material": "AA+ Grade Natural Rubber",
+      "Steel Sheet": "Memory High-Elastic Steel",
+      "Installation": "Direct-Fit (No Adapter Needed)"
+    }
+  },
+  {
     id: "bw-861-multifunction-wiper-blade",
     category: "Multifunction",
     name: "BW-861 Multi-Functional Wiper Blade",
@@ -60,24 +84,6 @@ export const allProducts: Product[] = [
       "Connection": "Pre-installed U-Hook (9x3 & 9x4)",
       "Life Cycle": "Verified for 1.5M Wipes",
       "HS Code": "85124000"
-    }
-  },
-  {
-    id: "specific-fit-wiper-blades",
-    category: "Specific Fit",
-    name: "Specific Fit Luxury Wiper Series",
-    moq: "300 PCS",
-    desc: "OE replacement matching premium European vehicle models.",
-    longDesc: "Designed for premium vehicle brands like BMW, Mercedes-Benz, and Audi, this series ensures a perfect match with the original equipment connection arms. It eliminates the need for adapters, providing a sleek, factory-original look and top-tier wiping silence and efficiency.",
-    specs: ["Teflon Coated Rubber", "14\" to 28\" Sizes", "OE Original Connection", "Ultra-Quiet Performance"],
-    tag: "Premium",
-    image: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&q=80&w=400",
-    technicalDetails: {
-      "Target Market": "High-end Repair Shops & Car Dealers",
-      "Fitment": "99% Luxury European Car Models",
-      "Rubber Grade": "G1 Grade Synthetic Rubber",
-      "Noise Level": "Less than 45dB",
-      "Design": "Direct-Fit Original Style"
     }
   }
 ];
