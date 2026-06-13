@@ -14,6 +14,30 @@ export interface Product {
 
 export const allProducts: Product[] = [
   {
+    id: "bw-861-multifunction-wiper-blade",
+    category: "Multifunction",
+    name: "BW-861 Multi-Functional Wiper Blade",
+    moq: "500 PCS",
+    desc: "Premium Multi-Adapter system fitting 95% of global vehicles.",
+    longDesc: "The BW-861 is a master-class engineering solution for diverse markets. Featuring a patented multi-adapter hub, it effortlessly transitions between different wiper arm types including U-Hook, Push Button, Side Pin, and Pinch Tab. The high-performance aerodynamic design ensures clear visibility and quiet operation under all weather conditions, from tropical heat to arctic cold. Perfect for distributors looking to minimize inventory while maximizing vehicle coverage.",
+    specs: ["Multi-Adapter System (Fits 95% Cars)", "Quiet & Smooth Operation", "All-Weather Performance", "Long Service Life (1.5M Wipes)"],
+    tag: "High Efficiency",
+    image: "https://sc02.alicdn.com/kf/Hb0410965e6194f008a583d7f500e1b7at.png",
+    gallery: [
+      "https://sc02.alicdn.com/kf/He42f0008cec147939f26d8d074cbaa93g.png",
+      "https://sc02.alicdn.com/kf/H1f15201a978647bab1f01360a4aeadf91.png"
+    ],
+    technicalDetails: {
+      "Model Number": "BW-861",
+      "Compatibility": "Universal + 12 Special Adapters",
+      "Wiper Type": "Flat / Frameless Beam Blade",
+      "Main Material": "Class A+ Natural Rubber",
+      "Frame": "Flexible Memory Spring Steel",
+      "Size Range": "12\" - 30\" Available",
+      "B2B Service": "OEM Brand Logo / Custom Packaging"
+    }
+  },
+  {
     id: "bw-802-universal-wiper-blade",
     category: "Universal",
     name: "BW-802 Universal Soft Wiper Blade",
@@ -39,25 +63,6 @@ export const allProducts: Product[] = [
     }
   },
   {
-    id: "universal-wiper-blades",
-    category: "Universal",
-    name: "Universal Eco-Series Wiper Blades",
-    moq: "1000 PCS",
-    desc: "Standard aerodynamic frame with universal pre-installed hooks.",
-    longDesc: "Our Eco-Series provides a cost-effective yet reliable solution for large-scale distributors. It features a durable frame structure and high-quality natural rubber, delivering consistent wiping performance in diverse climates. Ideal for wholesalers looking for a high-volume, reliable product line.",
-    specs: ["AAA-Grade Rubber", "12\" to 28\" Sizes", "Cost-Effective B2B Solution", "Quick Installation"],
-    tag: "Bulk Choice",
-    image: "https://images.unsplash.com/photo-1621244094916-2d6451659929?auto=format&fit=crop&q=80&w=400",
-    technicalDetails: {
-      "Material": "Natural Rubber & High-Carbon Steel",
-      "HS Code": "85124000",
-      "Temperature Range": "-40°C to +70°C",
-      "Warranty": "12 Months",
-      "Certification": "ISO9001",
-      "Packaging": "Neutral or Custom Brand Box"
-    }
-  },
-  {
     id: "specific-fit-wiper-blades",
     category: "Specific Fit",
     name: "Specific Fit Luxury Wiper Series",
@@ -73,24 +78,6 @@ export const allProducts: Product[] = [
       "Rubber Grade": "G1 Grade Synthetic Rubber",
       "Noise Level": "Less than 45dB",
       "Design": "Direct-Fit Original Style"
-    }
-  },
-  {
-    id: "multifunction-wiper-blades",
-    category: "Multifunction",
-    name: "Multi-Clip System Wiper Blades",
-    moq: "500 PCS",
-    desc: "Equipped with 10+ interchangeable adapters to fit 15+ arms.",
-    longDesc: "The ultimate solution for inventory management. One blade body with multiple clips covers the vast majority of vehicles on the road. This system allows distributors to maximize their market coverage while minimizing SKU storage requirements.",
-    specs: ["Patented Multi-Clip System", "12\" to 30\" Sizes", "Space-Saving Inventory", "Universal + Specific Arms"],
-    tag: "Inventory Optimizer",
-    image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=80&w=400",
-    technicalDetails: {
-      "Core Tech": "Interchangeable Adapter Hub",
-      "Compatibility": "Fits 15+ Wiper Arm Types",
-      "Lead Time": "20-30 Days for Bulk Orders",
-      "Customization": "Laser logo supported",
-      "Design": "All-Season Frameless"
     }
   }
 ];
