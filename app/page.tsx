@@ -7,6 +7,7 @@ import { allProducts } from "./data/products";
 
 export default function Home() {
   const [lang, setLang] = useState<Locale>("en");
+  const [openFaq, setOpenFaq] = useState<number | null>(null);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -30,6 +31,10 @@ export default function Home() {
   const handleLangChange = (newLang: Locale) => {
     setLang(newLang);
     localStorage.setItem("lelion_lang", newLang);
+  };
+
+  const toggleFaq = (index: number) => {
+    setOpenFaq(openFaq === index ? null : index);
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
@@ -60,6 +65,15 @@ export default function Home() {
   };
 
   const t = translations[lang];
+
+  const faqItems = [
+    { q: t.faqQ1, a: t.faqA1 },
+    { q: t.faqQ2, a: t.faqA2 },
+    { q: t.faqQ3, a: t.faqA3 },
+    { q: t.faqQ4, a: t.faqA4 },
+    { q: t.faqQ5, a: t.faqA5 },
+    { q: t.faqQ6, a: t.faqA6 }
+  ];
 
   return (
     <main style={{ fontFamily: "system-ui, -apple-system, sans-serif", color: "#1e293b", backgroundColor: "#fcfcfc" }}>
@@ -107,7 +121,7 @@ export default function Home() {
           <div style={{ height: "4px", width: "60px", backgroundColor: "#0284c7", margin: "15px auto" }}></div>
         </div>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(350px, 1fr))", gap: "30px" }}>
-          {allProducts.map(p => (
+          {allProducts.slice(0, 3).map(p => (
             <div key={p.id} style={{ backgroundColor: "white", borderRadius: "12px", overflow: "hidden", border: "1px solid #e2e8f0", textAlign: "center" }}>
                <div style={{ height: "250px", backgroundColor: "#f8fafc", display: "flex", alignItems: "center", justifyContent: "center" }}>
                  <img src={p.image} alt={p.name} style={{ width: "80%", height: "auto", mixBlendMode: "multiply" }} />
@@ -125,22 +139,51 @@ export default function Home() {
         </div>
       </section>
 
-      {/* About Section */}
-      <section id="about" style={{ padding: "100px 20px", backgroundColor: "#0f172a", color: "white" }}>
-        <div style={{ maxWidth: "1200px", margin: "0 auto", display: "flex", gap: "60px", alignItems: "center", flexWrap: "wrap" }}>
-          <div style={{ flex: "1 1 500px" }}>
-             <span style={{ color: "#38bdf8", fontWeight: 800, fontSize: "14px", textTransform: "uppercase" }}>{t.aboutTag}</span>
-             <h2 style={{ fontSize: "42px", fontWeight: 800, margin: "15px 0 25px 0" }}>{t.aboutTitle}</h2>
-             <p style={{ fontSize: "16px", color: "#cbd5e1", lineHeight: 1.8, marginBottom: "20px" }}>{t.aboutDesc1}</p>
-             <div style={{ display: "flex", gap: "40px", marginTop: "40px" }}>
-                <div><span style={{ fontSize: "36px", fontWeight: 800, color: "#38bdf8" }}>{t.aboutStat1Title}</span><p style={{ fontSize: "13px", color: "#94a3b8" }}>{t.aboutStat1Desc}</p></div>
-                <div><span style={{ fontSize: "36px", fontWeight: 800, color: "#38bdf8" }}>{t.aboutStat2Title}</span><p style={{ fontSize: "13px", color: "#94a3b8" }}>{t.aboutStat2Desc}</p></div>
-                <div><span style={{ fontSize: "36px", fontWeight: 800, color: "#38bdf8" }}>{t.aboutStat3Title}</span><p style={{ fontSize: "13px", color: "#94a3b8" }}>{t.aboutStat3Desc}</p></div>
-             </div>
+      {/* FAQ Section - NEW */}
+      <section style={{ padding: "100px 20px", backgroundColor: "#f8fafc" }}>
+        <div style={{ maxWidth: "900px", margin: "0 auto" }}>
+          <div style={{ textAlign: "center", marginBottom: "60px" }}>
+            <h2 style={{ fontSize: "36px", fontWeight: 800, color: "#0f172a" }}>{t.faqTitle}</h2>
+            <div style={{ height: "4px", width: "60px", backgroundColor: "#0284c7", margin: "15px auto" }}></div>
+            <p style={{ color: "#64748b" }}>{t.faqSubtitle}</p>
           </div>
-          <div style={{ flex: "1 1 400px", background: "rgba(255,255,255,0.05)", padding: "50px", borderRadius: "16px", border: "1px solid rgba(255,255,255,0.1)" }}>
-             <p style={{ fontSize: "18px", fontStyle: "italic", color: "#cbd5e1", lineHeight: 1.6 }}>{t.aboutPledgeQuote}</p>
-             <p style={{ marginTop: "25px", fontWeight: "bold", color: "#38bdf8" }}>{t.aboutPledgeAuthor}</p>
+          
+          <div style={{ display: "flex", flexDirection: "column", gap: "15px" }}>
+            {faqItems.map((item, idx) => (
+              <div key={idx} style={{ 
+                backgroundColor: "#ffffff", 
+                borderRadius: "12px", 
+                border: "1px solid #e2e8f0", 
+                overflow: "hidden",
+                boxShadow: openFaq === idx ? "0 10px 15px -3px rgba(0,0,0,0.05)" : "none"
+              }}>
+                <button 
+                  onClick={() => toggleFaq(idx)}
+                  style={{ 
+                    width: "100%", 
+                    padding: "20px 30px", 
+                    display: "flex", 
+                    justifyContent: "space-between", 
+                    alignItems: "center",
+                    backgroundColor: "transparent",
+                    border: "none",
+                    cursor: "pointer",
+                    textAlign: "left"
+                  }}
+                >
+                  <span style={{ fontSize: "18px", fontWeight: 700, color: openFaq === idx ? "#0284c7" : "#0f172a" }}>{item.q}</span>
+                  <span style={{ fontSize: "24px", color: "#94a3b8", transform: openFaq === idx ? "rotate(45deg)" : "rotate(0)", transition: "transform 0.3s" }}>+</span>
+                </button>
+                <div style={{ 
+                  maxHeight: openFaq === idx ? "300px" : "0", 
+                  overflow: "hidden", 
+                  transition: "all 0.3s ease-out",
+                  padding: openFaq === idx ? "0 30px 25px 30px" : "0 30px"
+                }}>
+                  <p style={{ fontSize: "16px", color: "#64748b", lineHeight: 1.6, margin: 0 }}>{item.a}</p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
