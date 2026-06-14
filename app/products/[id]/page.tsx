@@ -103,7 +103,7 @@ export default function ProductDetail() {
         {product.gallery && product.gallery.length > 0 && (
           <div style={{ marginTop: "100px", backgroundColor: "#f8fafc", padding: "80px 20px", borderRadius: "30px" }}>
             <h2 style={{ fontSize: "24px", fontWeight: 800, marginBottom: "50px", textAlign: "center", color: "#0f172a" }}>Visual Breakdown & Features</h2>
-            <div style={{ display: "flex", flexDirection: "column", gap: "50px", alignItems: "center" }}>
+            <div style={{ display: "flex", flexDirection: "column", gap: "50px", alignItems: "center" }}> 123
               {product.gallery.map((imgUrl, idx) => (
                 <div key={idx} style={{ maxWidth: "800px", width: "100%", textAlign: "center" }}>
                    <img 
