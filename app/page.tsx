@@ -10,7 +10,7 @@ export default function Home() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
   const [formData, setFormData] = useState({
     name: "",
-    email: "", 888888
+    email: "",
     company: "",
     product: "Universal Wiper Blades",
     message: ""
@@ -93,7 +93,7 @@ export default function Home() {
             <Link href="/products" style={{ color: "#f8fafc", textDecoration: "none", fontSize: "14px", fontWeight: 500 }}>{t.navProducts}</Link>
             <Link href="/about" style={{ color: "#f8fafc", textDecoration: "none", fontSize: "14px", fontWeight: 500 }}>{t.navAboutUs}</Link>
             <a href="/Catalog.pdf" target="_blank" style={{ color: "#38bdf8", textDecoration: "none", fontSize: "14px", fontWeight: 600 }}>{t.navCatalog}</a>
-            <Link href="/contact" style={{ backgroundColor: "#0284c7", color: "#ffffff", padding: "8px 16px", borderRadius: "4px", textDecoration: "none", fontSize: "14px", fontWeight: "bold" }}>{t.navGetQuote}</Link>
+            <a href="#contact" style={{ backgroundColor: "#0284c7", color: "#ffffff", padding: "8px 16px", borderRadius: "4px", textDecoration: "none", fontSize: "14px", fontWeight: "bold" }}>{t.navGetQuote}</a>
             <select value={lang} onChange={(e) => handleLangChange(e.target.value as Locale)} style={{ backgroundColor: "#1e293b", color: "#ffffff", border: "1px solid #475569", padding: "6px 12px", borderRadius: "4px", cursor: "pointer", fontSize: "13px" }}>
               <option value="en">English</option><option value="es">Español</option><option value="ru">Русский</option><option value="fr">Français</option><option value="de">Deutsch</option>
             </select>
@@ -108,7 +108,7 @@ export default function Home() {
           <h1 style={{ fontSize: "52px", fontWeight: 800, marginBottom: "25px", lineHeight: 1.1 }}>{t.heroTitle}</h1>
           <p style={{ fontSize: "20px", color: "#cbd5e1", marginBottom: "45px", lineHeight: 1.6 }}>{t.heroSubtitle}</p>
           <div style={{ display: "flex", gap: "20px", justifyContent: "center" }}>
-            <Link href="/contact" className="btn-primary" style={{ padding: "16px 40px", fontSize: "18px", backgroundColor: "#0284c7", color: "white", textDecoration: "none", borderRadius: "8px", fontWeight: "bold" }}>{t.heroInquireBtn}</Link>
+            <a href="#contact" className="btn-primary" style={{ padding: "16px 40px", fontSize: "18px" }}>{t.heroInquireBtn}</a>
             <Link href="/products" className="btn-secondary" style={{ padding: "16px 40px", fontSize: "18px", backgroundColor: "white", color: "#0f172a", textDecoration: "none", borderRadius: "8px", fontWeight: "bold" }}>View All Products</Link>
           </div>
         </div>
