@@ -66,7 +66,7 @@ export default function ProductDetail() {
             <Link href="/" style={{ color: "#f8fafc", textDecoration: "none", fontSize: "14px" }}>{t.navHome}</Link>
             <Link href="/products" style={{ color: "#38bdf8", textDecoration: "none", fontSize: "14px", fontWeight: "bold" }}>{t.navProducts}</Link>
             <Link href="/about" style={{ color: "#f8fafc", textDecoration: "none", fontSize: "14px" }}>{t.navAboutUs}</Link>
-            <Link href="/#contact" style={{ backgroundColor: "#0284c7", color: "white", padding: "8px 16px", borderRadius: "4px", textDecoration: "none", fontSize: "14px", fontWeight: "bold" }}>{t.navGetQuote}</Link>
+            <Link href="/contact" style={{ backgroundColor: "#0284c7", color: "white", padding: "8px 16px", borderRadius: "4px", textDecoration: "none", fontSize: "14px", fontWeight: "bold" }}>{t.navGetQuote}</Link>
           </nav>
         </div>
       </header>
@@ -107,7 +107,7 @@ export default function ProductDetail() {
             </div>
 
             <div style={{ display: "flex", gap: "15px" }}>
-              <Link href="/#contact" style={{ flex: 1, backgroundColor: "#0284c7", color: "white", padding: "16px", borderRadius: "8px", textAlign: "center", fontWeight: "bold", textDecoration: "none" }}>Inquiry for Bulk Price</Link>
+              <Link href="/contact" style={{ flex: 1, backgroundColor: "#0284c7", color: "white", padding: "16px", borderRadius: "8px", textAlign: "center", fontWeight: "bold", textDecoration: "none" }}>Inquiry for Bulk Price</Link>
               <a href="/Catalog.pdf" target="_blank" style={{ flex: 1, border: "2px solid #0f172a", color: "#0f172a", padding: "16px", borderRadius: "8px", textAlign: "center", fontWeight: "bold", textDecoration: "none" }}>Full Catalog</a>
             </div>
           </div>
