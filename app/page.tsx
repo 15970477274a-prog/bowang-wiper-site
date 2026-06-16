@@ -10,7 +10,7 @@ export default function Home() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
   const [formData, setFormData] = useState({
     name: "",
-    email: "",
+    email: "", 888888
     company: "",
     product: "Universal Wiper Blades",
     message: ""
