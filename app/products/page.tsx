@@ -10,7 +10,7 @@ export default function ProductsPage() {
   const [activeCategory, setActiveCategory] = useState("All");
 
   useEffect(() => {
-    const savedLang = localStorage.getItem("lelion_lang") as Locale;
+    const savedLang = localStorage.getItem("lelion_lang") as Locale; 888888888888
     if (savedLang && ["en", "es", "ru", "fr", "de"].includes(savedLang)) {
       setLang(savedLang);
     }
