@@ -26,9 +26,38 @@ export default function ProductDetail() {
 
   const t = translations[lang];
 
+  // JSON-LD Product Schema
+  const productSchema = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": product.name,
+    "image": [product.image, ...(product.gallery || [])],
+    "description": product.desc,
+    "sku": product.technicalDetails["Product Model"] || product.technicalDetails["Model Number"] || product.id,
+    "brand": {
+      "@type": "Brand",
+      "name": "LELION"
+    },
+    "offers": {
+      "@type": "AggregateOffer",
+      "offerCount": "1",
+      "lowPrice": "0",
+      "highPrice": "0",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock",
+      "url": `https://www.lelionautopart.com/products/${product.id}`
+    }
+  };
+
   return (
     <main style={{ fontFamily: "system-ui, -apple-system, sans-serif", color: "#1e293b", backgroundColor: "#ffffff" }}>
       
+      {/* JSON-LD Injected into the page */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
+      />
+
       {/* Navigation Header */}
       <header style={{ backgroundColor: "#0f172a", padding: "15px 20px", position: "sticky", top: 0, zIndex: 100 }}>
         <div style={{ maxWidth: "1200px", margin: "0 auto", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
@@ -99,11 +128,11 @@ export default function ProductDetail() {
           </table>
         </div>
 
-        {/* Gallery - Optimized Size */}
+        {/* Gallery */}
         {product.gallery && product.gallery.length > 0 && (
           <div style={{ marginTop: "100px", backgroundColor: "#f8fafc", padding: "80px 20px", borderRadius: "30px" }}>
             <h2 style={{ fontSize: "24px", fontWeight: 800, marginBottom: "50px", textAlign: "center", color: "#0f172a" }}>Visual Breakdown & Features</h2>
-            <div style={{ display: "flex", flexDirection: "column", gap: "50px", alignItems: "center" }}> 123
+            <div style={{ display: "flex", flexDirection: "column", gap: "50px", alignItems: "center" }}>
               {product.gallery.map((imgUrl, idx) => (
                 <div key={idx} style={{ maxWidth: "800px", width: "100%", textAlign: "center" }}>
                    <img 
