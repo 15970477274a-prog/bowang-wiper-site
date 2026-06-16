@@ -138,7 +138,7 @@ export default function ProductDetail() {
                    <img 
                     src={imgUrl} 
                     alt={`${product.name} View ${idx + 1}`} 
-                    style={{ width: "100%", height: "auto", borderRadius: "12px", boxShadow: "0 15px 30px rgba(0,0,0,0.06)", border: "1px solid #ffffff" }} 
+                    style={{ width: "100%", height: "auto", borderRadius: "12 px", boxShadow: "0 15px 30px rgba(0,0,0,0.06)", border: "1px solid #ffffff" }} 
                    />
                 </div>
               ))}
