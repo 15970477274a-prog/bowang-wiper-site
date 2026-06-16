@@ -57,7 +57,7 @@ export default function AboutPage() {
             <Link href="/products" style={{ color: "#f8fafc", textDecoration: "none", fontSize: "14px", fontWeight: 500 }}>{t.navProducts}</Link>
             <Link href="/about" style={{ color: "#38bdf8", textDecoration: "none", fontSize: "14px", fontWeight: 600 }}>{t.navAboutUs}</Link>
             <a href="/Catalog.pdf" target="_blank" style={{ color: "#38bdf8", textDecoration: "none", fontSize: "14px", fontWeight: 600 }}>{t.navCatalog}</a>
-            <Link href="/#contact" style={{ backgroundColor: "#0284c7", color: "#ffffff", padding: "8px 16px", borderRadius: "4px", textDecoration: "none", fontSize: "14px", fontWeight: "bold" }}>{t.navGetQuote}</Link>
+            <Link href="/contact" style={{ backgroundColor: "#0284c7", color: "#ffffff", padding: "8px 16px", borderRadius: "4px", textDecoration: "none", fontSize: "14px", fontWeight: "bold" }}>{t.navGetQuote}</Link>
             <select value={lang} onChange={(e) => handleLangChange(e.target.value as Locale)} style={{ backgroundColor: "#1e293b", color: "#ffffff", border: "1px solid #475569", padding: "6px 12px", borderRadius: "4px", cursor: "pointer", fontSize: "13px" }}>
               <option value="en">English</option><option value="es">Español</option><option value="ru">Русский</option><option value="fr">Français</option><option value="de">Deutsch</option>
             </select>
@@ -179,7 +179,7 @@ export default function AboutPage() {
         <div style={{ maxWidth: "700px", margin: "0 auto" }}>
           <h2 style={{ fontSize: "36px", fontWeight: 800, marginBottom: "20px" }}>Ready to partner with us?</h2>
           <p style={{ color: "#64748b", marginBottom: "40px" }}>Get in touch with our expert export team today for bulk pricing and technical support.</p>
-          <Link href="/#contact" style={{ backgroundColor: "#0284c7", color: "white", padding: "18px 50px", borderRadius: "8px", textDecoration: "none", fontWeight: "bold", fontSize: "18px" }}>Contact Us Now</Link>
+          <Link href="/contact" style={{ backgroundColor: "#0284c7", color: "white", padding: "18px 50px", borderRadius: "8px", textDecoration: "none", fontWeight: "bold", fontSize: "18px" }}>Contact Us Now</Link>
         </div>
       </section>
 
@@ -200,4 +200,4 @@ export default function AboutPage() {
 
     </main>
   );
-}
+      }
