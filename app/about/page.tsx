@@ -71,6 +71,7 @@ export default function AboutPage() {
           <nav style={{ display: "flex", gap: "20px", alignItems: "center" }}>
             <Link href="/" style={{ color: "#f8fafc", textDecoration: "none", fontSize: "14px", fontWeight: 500 }}>{t.navHome}</Link>
             <Link href="/products" style={{ color: "#f8fafc", textDecoration: "none", fontSize: "14px", fontWeight: 500 }}>{t.navProducts}</Link>
+            <Link href="/blog" style={{ color: "#f8fafc", textDecoration: "none", fontSize: "14px", fontWeight: 500 }}>Blog</Link>
             <Link href="/about" style={{ color: "#38bdf8", textDecoration: "none", fontSize: "14px", fontWeight: 600 }}>{t.navAboutUs}</Link>
             <a href="/Catalog.pdf" target="_blank" style={{ color: "#38bdf8", textDecoration: "none", fontSize: "14px", fontWeight: 600 }}>{t.navCatalog}</a>
             <Link href="/contact" style={{ backgroundColor: "#0284c7", color: "#ffffff", padding: "8px 16px", borderRadius: "4px", textDecoration: "none", fontSize: "14px", fontWeight: "bold" }}>{t.navGetQuote}</Link>
@@ -217,4 +218,5 @@ export default function AboutPage() {
     </main>
   );
 }
+
 

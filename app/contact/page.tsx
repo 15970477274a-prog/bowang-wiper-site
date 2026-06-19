@@ -83,6 +83,7 @@ export default function ContactPage() {
           <nav style={{ display: "flex", gap: "20px", alignItems: "center" }}>
             <Link href="/" style={{ color: "#f8fafc", textDecoration: "none", fontSize: "14px" }}>{t.navHome}</Link>
             <Link href="/products" style={{ color: "#f8fafc", textDecoration: "none", fontSize: "14px" }}>{t.navProducts}</Link>
+            <Link href="/blog" style={{ color: "#f8fafc", textDecoration: "none", fontSize: "14px", fontWeight: 500 }}>Blog</Link>
             <Link href="/about" style={{ color: "#f8fafc", textDecoration: "none", fontSize: "14px" }}>{t.navAboutUs}</Link>
             <Link href="/contact" style={{ color: "#38bdf8", textDecoration: "none", fontSize: "14px", fontWeight: "bold" }}>{t.navGetQuote}</Link>
             <select value={lang} onChange={(e) => handleLangChange(e.target.value as Locale)} style={{ backgroundColor: "#1e293b", color: "#ffffff", border: "1px solid #475569", padding: "6px 12px", borderRadius: "4px", fontSize: "12px" }}>
@@ -186,4 +187,5 @@ export default function ContactPage() {
     </main>
   );
 }
+
 
