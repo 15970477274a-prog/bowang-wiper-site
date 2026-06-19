@@ -10,7 +10,7 @@ export default function ProductsPage() {
   const [activeCategory, setActiveCategory] = useState("All");
 
   useEffect(() => {
-    const savedLang = localStorage.getItem("lelion_lang") as Locale; 888888888888
+    const savedLang = localStorage.getItem("lelion_lang") as Locale;
     if (savedLang && ["en", "es", "ru", "fr", "de"].includes(savedLang)) {
       setLang(savedLang);
     }
@@ -80,7 +80,7 @@ export default function ProductsPage() {
             </ul>
           </aside>
 
-          {/* Product Grid (No Prices) */}
+          {/* Product Grid - Fixed Image Display */}
           <div style={{ flex: "3 1 600px" }}>
              <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))", gap: "30px" }}>
               {filteredProducts.map(p => (
@@ -88,9 +88,27 @@ export default function ProductsPage() {
                   backgroundColor: "white", borderRadius: "16px", overflow: "hidden", border: "1px solid #f1f5f9",
                   display: "flex", flexDirection: "column", transition: "transform 0.3s ease"
                 }}>
-                  <Link href={`/products/${p.id}`} style={{ height: "250px", backgroundColor: "#f8fafc", display: "flex", alignItems: "center", justifyContent: "center", position: "relative" }}>
-                     <span style={{ position: "absolute", top: "20px", left: "20px", backgroundColor: "#ecfdf5", color: "#059669", fontSize: "11px", fontWeight: "bold", padding: "5px 12px", borderRadius: "6px" }}>{p.tag}</span>
-                     <img src={p.image} alt={p.name} style={{ width: "85%", height: "auto", mixBlendMode: "multiply" }} />
+                  <Link href={`/products/${p.id}`} style={{ 
+                    height: "300px", 
+                    backgroundColor: "#f8fafc", 
+                    display: "flex", 
+                    alignItems: "center", 
+                    justifyContent: "center", 
+                    position: "relative",
+                    padding: "20px"
+                  }}>
+                     <span style={{ position: "absolute", top: "20px", left: "20px", backgroundColor: "#ecfdf5", color: "#059669", fontSize: "11px", fontWeight: "bold", padding: "5px 12px", borderRadius: "6px", zIndex: 10 }}>{p.tag}</span>
+                     <img 
+                      src={p.image} 
+                      alt={p.name} 
+                      style={{ 
+                        maxWidth: "100%", 
+                        maxHeight: "100%", 
+                        width: "auto", 
+                        height: "auto", 
+                        objectFit: "contain" 
+                      }} 
+                     />
                   </Link>
                   <div style={{ padding: "25px", flexGrow: 1, display: "flex", flexDirection: "column" }}>
                     <h3 style={{ fontSize: "19px", fontWeight: 800, marginBottom: "10px" }}>
@@ -119,6 +137,7 @@ export default function ProductsPage() {
         </div>
       </section>
 
+      {/* Footer */}
       <footer style={{ backgroundColor: "#0f172a", color: "#94a3b8", padding: "60px 20px 40px 20px", textAlign: "center" }}>
         <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
           <h3 style={{ color: "white", marginBottom: "20px" }}>BOWANG WIPER</h3>
