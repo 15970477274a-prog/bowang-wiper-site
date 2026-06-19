@@ -9,6 +9,7 @@ import { blogPosts } from "../../data/blog";
 export default function BlogDetail() {
   const params = useParams();
   const id = params.id as string;
+  const [mobileMenu, setMobileMenu] = useState(false);
   const [lang, setLang] = useState<Locale>("en");
   const post = blogPosts.find(p => p.id === id);
 
@@ -72,6 +73,18 @@ export default function BlogDetail() {
           </nav>
         </div>
       </header>
+      {/* Mobile Menu Overlay */}
+      <div className={"mobile-menu-overlay" + (mobileMenu ? " open" : "")}>
+        <a href="/" onClick={closeMobileMenu}>Home</a>
+        <a href="/products" onClick={closeMobileMenu}>Products</a>
+        <a href="/blog" onClick={closeMobileMenu}>Blog</a>
+        <a href="/about" onClick={closeMobileMenu}>About</a>
+        <a href="/contact" onClick={closeMobileMenu} style={className:"nav-cta"}>Contact Us</a>
+        <select value={lang} onChange={(e) => { handleLangChange(e.target.value as Locale); closeMobileMenu(); }} className="lang-select-mobile">
+          <option value="en">English</option><option value="es">Español</option><option value="ru">Русский</option><option value="fr">Français</option><option value="de">Deutsch</option>
+        </select>
+      </div>
+
       <article style={{maxWidth:"850px",margin:"0 auto",padding:"60px 20px"}}>
         <Link href="/blog" style={{color:"#0284c7",textDecoration:"none",fontSize:"14px",fontWeight:600,display:"inline-block",marginBottom:"30px"}}>← Back to Blog</Link>
         <div style={{marginBottom:"30px"}}>
@@ -84,7 +97,7 @@ export default function BlogDetail() {
           <p style={{fontSize:"16px",color:"#64748b",lineHeight:1.6}}>{post.excerpt}</p>
         </div>
         <div style={{borderRadius:"12px",overflow:"hidden",marginBottom:"40px",height:"400px",backgroundColor:"#f1f5f9"}}>
-          <img src={post.image} alt={post.title} style={{width:"100%",height:"100%",objectFit:"cover"}}/>
+          <img src={post.image} loading="lazy"  alt={post.title} style={{width:"100%",height:"100%",objectFit:"cover"}}/>
         </div>
         <div style={{maxWidth:"750px",margin:"0 auto"}}>{renderContent(post.content)}</div>
         <div style={{borderTop:"1px solid #e2e8f0",marginTop:"50px",paddingTop:"30px"}}>

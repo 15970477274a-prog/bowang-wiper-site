@@ -1,4 +1,4 @@
-import { NextResponse } from "next/server";
+﻿import { NextResponse } from "next/server";
 import { Resend } from "resend";
 
 // Initialize Resend with your API Key
@@ -7,7 +7,7 @@ const resend = new Resend(process.env.RESEND_API_KEY || "re_fByy3LsS_H9Si4faE7p1
 export async function POST(request: Request) {
   try {
     const body = await request.json();
-    const { name, email, company, product, message } = body;
+    const { name, email, company, whatsapp, quantity, product, message } = body;
 
     // Server-side validation
     if (!name || !email || !message) {
@@ -44,6 +44,14 @@ export async function POST(request: Request) {
               '<td style="padding: 10px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;">Product:</td>' +
               '<td style="padding: 10px 0; border-bottom: 1px solid #f1f5f9;">' + product + '</td>' +
             '</tr>' +
+            '<tr>' +
+              '<td style="padding: 10px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;">WhatsApp / Phone:</td>' +
+              '<td style="padding: 10px 0; border-bottom: 1px solid #f1f5f9;"><a href="https://wa.me/' + (whatsapp ? whatsapp.replace(/[^0-9]/g, '') : '8618867886795') + '">' + (whatsapp || "N/A") + '</a></td>' +
+            '</tr>' +
+            '<tr>' +
+              '<td style="padding: 10px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;">Est. Quantity:</td>' +
+              '<td style="padding: 10px 0; border-bottom: 1px solid #f1f5f9;">' + (quantity || "N/A") + '</td>' +
+            '</tr>' +
           '</table>' +
           '<div style="margin-top: 25px;">' +
             '<p style="font-weight: bold; margin-bottom: 10px;">Message / Requirements:</p>' +
@@ -79,3 +87,4 @@ export async function POST(request: Request) {
     );
   }
 }
+

@@ -22,12 +22,15 @@ export default function ProductCategoryPage() {
   const params = useParams();
   const slug = params.slug as string;
   const category = CATEGORY_MAP[slug];
+  const [mobileMenu, setMobileMenu] = useState(false);
   const [lang, setLang] = useState<Locale>("en");
 
   useEffect(() => {
     const savedLang = localStorage.getItem("lelion_lang") as Locale;
     if (savedLang && ["en", "es", "ru", "fr", "de"].includes(savedLang)) setLang(savedLang);
   }, []);
+
+  const closeMobileMenu = () => setMobileMenu(false);
 
   const handleLangChange = (newLang: Locale) => {
     setLang(newLang);
@@ -73,6 +76,9 @@ export default function ProductCategoryPage() {
             <span className="header-title">BOWANG WIPER</span>
             <span className="header-subtitle">Autoparts Manufacturer</span>
           </div>
+          <button className={"hamburger" + (mobileMenu ? " open" : "")} onClick={() => setMobileMenu(!mobileMenu)} aria-label="Toggle navigation menu">
+            <span></span><span></span><span></span>
+          </button>
           <nav className="nav">
             <Link href="/" className="nav-link">{t.navHome}</Link>
             <Link href="/products" className="nav-link active">{t.navProducts}</Link>
@@ -86,6 +92,18 @@ export default function ProductCategoryPage() {
           </nav>
         </div>
       </header>
+      {/* Mobile Menu Overlay */}
+      <div className={"mobile-menu-overlay" + (mobileMenu ? " open" : "")}>
+        <a href="/" onClick={closeMobileMenu}>Home</a>
+        <a href="/products" onClick={closeMobileMenu}>Products</a>
+        <a href="/blog" onClick={closeMobileMenu}>Blog</a>
+        <a href="/about" onClick={closeMobileMenu}>About</a>
+        <a href="/contact" onClick={closeMobileMenu} style={className:"nav-cta"}>Contact Us</a>
+        <select value={lang} onChange={(e) => { handleLangChange(e.target.value as Locale); closeMobileMenu(); }} className="lang-select-mobile">
+          <option value="en">English</option><option value="es">Español</option><option value="ru">Русский</option><option value="fr">Français</option><option value="de">Deutsch</option>
+        </select>
+      </div>
+
 
       <section className="banner-dark">
         <h1 className="banner-title">{category} Wiper Blades</h1>
@@ -118,7 +136,7 @@ export default function ProductCategoryPage() {
                     <Link key={product.id} href={"/products/" + product.id} style={{textDecoration:"none",color:"inherit"}}>
                       <div className="product-card card-hover">
                         <div className="product-card-img">
-                          <img src={product.image} alt={product.name} style={{maxWidth:"100%",maxHeight:"100%",objectFit:"contain"}} />
+                          <img src={product.image} loading="lazy"  alt={product.name} style={{maxWidth:"100%",maxHeight:"100%",objectFit:"contain"}} />
                         </div>
                         <div className="product-card-body">
                           <span className="card-tag">{product.tag}</span>

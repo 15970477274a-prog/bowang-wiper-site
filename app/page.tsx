@@ -8,10 +8,13 @@ import { allProducts } from "./data/products";
 export default function Home() {
   const [lang, setLang] = useState<Locale>("en");
   const [openFaq, setOpenFaq] = useState<number | null>(null);
+  const [mobileMenu, setMobileMenu] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     company: "",
+    whatsapp: "",
+    quantity: "",
     product: "Universal Wiper Blades",
     message: ""
   });
@@ -27,6 +30,8 @@ export default function Home() {
       setLang(savedLang);
     }
   }, []);
+
+  const closeMobileMenu = () => setMobileMenu(false);
 
   const handleLangChange = (newLang: Locale) => {
     setLang(newLang);
@@ -55,7 +60,7 @@ export default function Home() {
       });
       if (response.ok) {
         setStatus({ submitted: true, loading: false, error: "" });
-        setFormData({ name: "", email: "", company: "", product: "Universal Wiper Blades", message: "" });
+        setFormData({ name: "", email: "", company: "", whatsapp: "", quantity: "", product: "Universal Wiper Blades", message: "" });
       } else {
         throw new Error("Failed to send inquiry.");
       }
@@ -118,6 +123,9 @@ export default function Home() {
             <span className="header-title">BOWANG WIPER</span>
             <span className="header-subtitle">Autoparts Manufacturer</span>
           </div>
+          <button className={"hamburger" + (mobileMenu ? " open" : "")} onClick={() => setMobileMenu(!mobileMenu)} aria-label="Toggle navigation menu">
+            <span></span><span></span><span></span>
+          </button>
           <nav className="nav">
             <Link href="/" className="nav-link active">{t.navHome}</Link>
             <Link href="/products" className="nav-link">{t.navProducts}</Link>
@@ -131,6 +139,19 @@ export default function Home() {
           </nav>
         </div>
       </header>
+      {/* Mobile Menu Overlay */}
+      <div className={"mobile-menu-overlay" + (mobileMenu ? " open" : "")}>
+        <a href="/" onClick={closeMobileMenu}>{t.navHome}</a>
+        <a href="/products" onClick={closeMobileMenu}>{t.navProducts}</a>
+        <a href="/blog" onClick={closeMobileMenu}>Blog</a>
+        <a href="/about" onClick={closeMobileMenu}>{t.navAboutUs}</a>
+        <a href="/Catalog.pdf" target="_blank" onClick={closeMobileMenu} style={{color:"var(--accent-glow)",fontWeight:600}}>{t.navCatalog}</a>
+        <a href="/contact" className="nav-cta" onClick={closeMobileMenu}>{t.navGetQuote}</a>
+        <select value={lang} onChange={(e) => { handleLangChange(e.target.value as Locale); closeMobileMenu(); }} className="lang-select-mobile">
+          <option value="en">English</option><option value="es">Español</option><option value="ru">Русский</option><option value="fr">Français</option><option value="de">Deutsch</option>
+        </select>
+      </div>
+
 
       <section id="hero" className="hero-overlay">
         <div className="container-narrow">
@@ -153,7 +174,7 @@ export default function Home() {
           {allProducts.slice(0, 3).map(p => (
             <div key={p.id} style={{ backgroundColor: "white", borderRadius: "12px", overflow: "hidden", border: "1px solid #e2e8f0", textAlign: "center" }}>
                <div style={{ height: "300px", backgroundColor: "#f8fafc", display: "flex", alignItems: "center", justifyContent: "center", padding: "20px" }}>
-                 <img src={p.image} alt={p.name} style={{ maxWidth: "100%", maxHeight: "100%", width: "auto", height: "auto", objectFit: "contain" }} />
+                 <img src={p.image} loading="lazy"  alt={p.name} style={{ maxWidth: "100%", maxHeight: "100%", width: "auto", height: "auto", objectFit: "contain" }} />
                </div>
                <div style={{ padding: "30px" }}>
                  <h3 style={{ fontSize: "22px", fontWeight: 700, marginBottom: "15px" }}>{p.name}</h3>
@@ -226,6 +247,7 @@ export default function Home() {
     </main>
   );
 }
+
 
 
 

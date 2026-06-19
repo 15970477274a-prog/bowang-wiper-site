@@ -6,6 +6,7 @@ import { translations, Locale } from "../translations";
 import { blogPosts } from "../data/blog";
 
 export default function BlogPage() {
+  const [mobileMenu, setMobileMenu] = useState(false);
   const [lang, setLang] = useState<Locale>("en");
   const [activeTag, setActiveTag] = useState("All");
 
@@ -15,6 +16,8 @@ export default function BlogPage() {
       setLang(savedLang);
     }
   }, []);
+
+  const closeMobileMenu = () => setMobileMenu(false);
 
   const handleLangChange = (newLang: Locale) => {
     setLang(newLang);
@@ -80,6 +83,18 @@ export default function BlogPage() {
           </nav>
         </div>
       </header>
+      {/* Mobile Menu Overlay */}
+      <div className={"mobile-menu-overlay" + (mobileMenu ? " open" : "")}>
+        <a href="/" onClick={closeMobileMenu}>Home</a>
+        <a href="/products" onClick={closeMobileMenu}>Products</a>
+        <a href="/blog" onClick={closeMobileMenu}>Blog</a>
+        <a href="/about" onClick={closeMobileMenu}>About</a>
+        <a href="/contact" onClick={closeMobileMenu} style={className:"nav-cta"}>Contact Us</a>
+        <select value={lang} onChange={(e) => { handleLangChange(e.target.value as Locale); closeMobileMenu(); }} className="lang-select-mobile">
+          <option value="en">English</option><option value="es">Español</option><option value="ru">Русский</option><option value="fr">Français</option><option value="de">Deutsch</option>
+        </select>
+      </div>
+
 
       {/* Banner */}
       <section style={{ backgroundColor: "#0f172a", padding: "80px 20px", color: "white", textAlign: "center", borderBottom: "1px solid #1e293b" }}>

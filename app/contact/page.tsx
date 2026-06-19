@@ -6,10 +6,13 @@ import { translations, Locale } from "../translations";
 
 export default function ContactPage() {
   const [lang, setLang] = useState<Locale>("en");
+  const [mobileMenu, setMobileMenu] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     company: "",
+    whatsapp: "",
+    quantity: "",
     product: "General Inquiry",
     message: ""
   });
@@ -25,6 +28,8 @@ export default function ContactPage() {
       setLang(savedLang);
     }
   }, []);
+
+  const closeMobileMenu = () => setMobileMenu(false);
 
   const handleLangChange = (newLang: Locale) => {
     setLang(newLang);
@@ -46,7 +51,7 @@ export default function ContactPage() {
       });
       if (response.ok) {
         setStatus({ submitted: true, loading: false, error: "" });
-        setFormData({ name: "", email: "", company: "", product: "General Inquiry", message: "" });
+        setFormData({ name: "", email: "", company: "", whatsapp: "", quantity: "", product: "General Inquiry", message: "" });
       } else {
         throw new Error("Failed to send inquiry.");
       }
@@ -80,6 +85,9 @@ export default function ContactPage() {
       <header className="header" style={{padding:"15px 20px"}}>
         <div className="header-inner">
           <Link href="/" style={{ color: "white", textDecoration: "none", fontWeight: "bold", fontSize: "18px" }}>BOWANG WIPER</Link>
+          <button className={"hamburger" + (mobileMenu ? " open" : "")} onClick={() => setMobileMenu(!mobileMenu)} aria-label="Toggle navigation menu">
+            <span></span><span></span><span></span>
+          </button>
           <nav className="nav">
             <Link href="/" className="nav-link">{t.navHome}</Link>
             <Link href="/products" className="nav-link">{t.navProducts}</Link>
@@ -92,6 +100,18 @@ export default function ContactPage() {
           </nav>
         </div>
       </header>
+      {/* Mobile Menu Overlay */}
+      <div className={"mobile-menu-overlay" + (mobileMenu ? " open" : "")}>
+        <a href="/" onClick={closeMobileMenu}>{t.navHome}</a>
+        <a href="/products" onClick={closeMobileMenu}>{t.navProducts}</a>
+        <a href="/blog" onClick={closeMobileMenu}>Blog</a>
+        <a href="/about" onClick={closeMobileMenu}>{t.navAboutUs}</a>
+        <a href="/contact" onClick={closeMobileMenu} style={{color:"#38bdf8"}}>{t.navGetQuote}</a>
+        <select value={lang} onChange={(e) => { handleLangChange(e.target.value as Locale); closeMobileMenu(); }} className="lang-select-mobile">
+          <option value="en">English</option><option value="es">Español</option><option value="ru">Русский</option><option value="fr">Français</option><option value="de">Deutsch</option>
+        </select>
+      </div>
+
 
       {/* Hero */}
       <section style={{ padding: "80px 20px", backgroundColor: "#0f172a", color: "white", textAlign: "center" }}>
@@ -151,7 +171,14 @@ export default function ContactPage() {
                 <label style={{ display: "block", fontSize: "13px", fontWeight: 700, marginBottom: "8px" }}>{t.contactCompanyLabel}</label>
                 <input type="text" name="company" value={formData.company} onChange={handleChange} style={{ width: "100%", padding: "12px", border: "1px solid #e2e8f0", borderRadius: "6px" }} placeholder={t.contactCompanyPlaceholder} />
               </div>
-              <div style={{ marginBottom: "25px" }}>
+                            <div style={{ marginBottom: "20px" }}>
+                <label style={{ display: "block", fontSize: "13px", fontWeight: 700, marginBottom: "8px" }}>{t.contactWhatsappLabel}</label>
+                <input type="tel" name="whatsapp" value={formData.whatsapp} onChange={handleChange} style={{ width: "100%", padding: "12px", border: "1px solid #e2e8f0", borderRadius: "6px" }} placeholder={t.contactWhatsappPlaceholder} />
+              </div>
+              <div style={{ marginBottom: "20px" }}>
+                <label style={{ display: "block", fontSize: "13px", fontWeight: 700, marginBottom: "8px" }}>{t.contactQuantityLabel}</label>
+                <input type="text" name="quantity" value={formData.quantity} onChange={handleChange} style={{ width: "100%", padding: "12px", border: "1px solid #e2e8f0", borderRadius: "6px" }} placeholder={t.contactQuantityPlaceholder} />
+              </div><div style={{ marginBottom: "25px" }}>
                 <label style={{ display: "block", fontSize: "13px", fontWeight: 700, marginBottom: "8px" }}>{t.contactMessageLabel}</label>
                 <textarea name="message" required rows={4} value={formData.message} onChange={handleChange} style={{ width: "100%", padding: "12px", border: "1px solid #e2e8f0", borderRadius: "6px", resize: "none" }} placeholder={t.contactMessagePlaceholder} />
               </div>
@@ -187,5 +214,6 @@ export default function ContactPage() {
     </main>
   );
 }
+
 
 

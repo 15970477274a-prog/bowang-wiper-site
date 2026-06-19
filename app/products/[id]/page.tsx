@@ -10,6 +10,7 @@ import { blogPosts } from "../../data/blog";
 export default function ProductDetail() {
   const params = useParams();
   const id = params.id as string;
+  const [mobileMenu, setMobileMenu] = useState(false);
   const [lang, setLang] = useState<Locale>("en");
   const [showFaq, setShowFaq] = useState<number | null>(null);
 
@@ -98,6 +99,9 @@ export default function ProductDetail() {
       <header className="header" style={{padding:"15px 20px"}}>
         <div className="header-inner">
           <Link href="/" style={{color:"white",textDecoration:"none",fontWeight:"bold",fontSize:"18px"}}>BOWANG WIPER</Link>
+          <button className={"hamburger" + (mobileMenu ? " open" : "")} onClick={() => setMobileMenu(!mobileMenu)} aria-label="Toggle navigation menu">
+            <span></span><span></span><span></span>
+          </button>
           <nav className="nav">
             <Link href="/" className="nav-link">{t.navHome}</Link>
             <Link href="/products" className="nav-link active">{t.navProducts}</Link>
@@ -108,13 +112,26 @@ export default function ProductDetail() {
           </nav>
         </div>
       </header>
+      {/* Mobile Menu Overlay */}
+      <div className={"mobile-menu-overlay" + (mobileMenu ? " open" : "")}>
+        <a href="/" onClick={closeMobileMenu}>{t.navHome}</a>
+        <a href="/products" onClick={closeMobileMenu}>{t.navProducts}</a>
+        <a href="/blog" onClick={closeMobileMenu}>Blog</a>
+        <a href="/about" onClick={closeMobileMenu}>{t.navAboutUs}</a>
+        <a href="/Catalog.pdf" target="_blank" onClick={closeMobileMenu} style={color:"var(--accent-glow)",fontWeight:600}>{t.navCatalog}</a>
+        <a href="/contact" onClick={closeMobileMenu} style={className:"nav-cta"}>{t.navGetQuote}</a>
+        <select value={lang} onChange={(e) => { handleLangChange(e.target.value as Locale); closeMobileMenu(); }} className="lang-select-mobile">
+          <option value="en">English</option><option value="es">Español</option><option value="ru">Русский</option><option value="fr">Français</option><option value="de">Deutsch</option>
+        </select>
+      </div>
+
 
       {/* Product Main Section */}
       <section className="section product-detail-layout" style={{maxWidth:"1200px",margin:"0 auto"}}>
         {/* Image */}
         <div className="product-image-box">
           <div className="product-image-frame">
-            <img src={product.image} alt={product.name + " - " + product.keywords[0]} style={{maxWidth:"100%",height:"auto",borderRadius:"8px"}} />
+            <img src={product.image} loading="lazy"  alt={product.name + " - " + product.keywords[0]} style={{maxWidth:"100%",height:"auto",borderRadius:"8px"}} />
           </div>
           {/* Gallery thumbnails */}
           {product.gallery && product.gallery.length > 0 && (

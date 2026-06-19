@@ -1,4 +1,4 @@
-export type Locale = "en" | "es" | "ru" | "fr" | "de";
+﻿export type Locale = "en" | "es" | "ru" | "fr" | "de";
 
 export interface TranslationDict {
   navHome: string;
@@ -76,6 +76,10 @@ export interface TranslationDict {
   contactCompanyLabel: string;
   contactProductLabel: string;
   contactMessageLabel: string;
+  contactWhatsappLabel: string;
+  contactWhatsappPlaceholder: string;
+  contactQuantityLabel: string;
+  contactQuantityPlaceholder: string;
   contactNamePlaceholder: string;
   contactEmailPlaceholder: string;
   contactCompanyPlaceholder: string;
@@ -576,6 +580,10 @@ export const translations: Record<Locale, TranslationDict> = {
     contactCompanyLabel: "Firmenname",
     contactProductLabel: "Gewünschtes Produkt *",
     contactMessageLabel: "Anforderungen / Nachricht *",
+    contactWhatsappLabel: "WhatsApp / Telefon",
+    contactWhatsappPlaceholder: "+86 188 6788 6795",
+    contactQuantityLabel: "Geschätzte Menge",
+    contactQuantityPlaceholder: "z.B. 500 Stück / Probebestellung",
     contactNamePlaceholder: "Max Mustermann",
     contactEmailPlaceholder: "max@firma.de",
     contactCompanyPlaceholder: "Autoteile Import GmbH",
@@ -610,3 +618,4 @@ export const translations: Record<Locale, TranslationDict> = {
     footerAddress: "Bezirk Zhenhai, Stadt Ningbo, Provinz Zhejiang, Chine",
   },
 };
+

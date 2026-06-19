@@ -5,6 +5,7 @@ import Link from "next/link";
 import { translations, Locale } from "../translations";
 
 export default function AboutPage() {
+  const [mobileMenu, setMobileMenu] = useState(false);
   const [lang, setLang] = useState<Locale>("en");
 
   useEffect(() => {
@@ -13,6 +14,8 @@ export default function AboutPage() {
       setLang(savedLang);
     }
   }, []);
+
+  const closeMobileMenu = () => setMobileMenu(false);
 
   const handleLangChange = (newLang: Locale) => {
     setLang(newLang);
@@ -65,6 +68,9 @@ export default function AboutPage() {
             <span className="header-title">BOWANG WIPER</span>
             <span className="header-subtitle">Autoparts Manufacturer</span>
           </div>
+          <button className={"hamburger" + (mobileMenu ? " open" : "")} onClick={() => setMobileMenu(!mobileMenu)} aria-label="Toggle navigation menu">
+            <span></span><span></span><span></span>
+          </button>
           <nav className="nav">
             <Link href="/" className="nav-link">{t.navHome}</Link>
             <Link href="/products" className="nav-link">{t.navProducts}</Link>
@@ -78,6 +84,19 @@ export default function AboutPage() {
           </nav>
         </div>
       </header>
+      {/* Mobile Menu Overlay */}
+      <div className={"mobile-menu-overlay" + (mobileMenu ? " open" : "")}>
+        <a href="/" onClick={closeMobileMenu}>{t.navHome}</a>
+        <a href="/products" onClick={closeMobileMenu}>{t.navProducts}</a>
+        <a href="/blog" onClick={closeMobileMenu}>Blog</a>
+        <a href="/about" onClick={closeMobileMenu}>{t.navAboutUs}</a>
+        <a href="/Catalog.pdf" target="_blank" onClick={closeMobileMenu} style={color:"var(--accent-glow)",fontWeight:600}>{t.navCatalog}</a>
+        <a href="/contact" onClick={closeMobileMenu} style={className:"nav-cta"}>{t.navGetQuote}</a>
+        <select value={lang} onChange={(e) => { handleLangChange(e.target.value as Locale); closeMobileMenu(); }} className="lang-select-mobile">
+          <option value="en">English</option><option value="es">Español</option><option value="ru">Русский</option><option value="fr">Français</option><option value="de">Deutsch</option>
+        </select>
+      </div>
+
 
       {/* Hero / Banner */}
       <section style={{ 
@@ -113,7 +132,7 @@ export default function AboutPage() {
           </div>
           <div style={{ flex: "1 1 400px", position: "relative" }}>
              {/* Updated with real company storefront photo */}
-             <img src="https://sc02.alicdn.com/kf/H2533c3c14bc74cd3afe116f60a8357f4U.jpg" alt="Bowang Autoparts Factory Front" style={{ width: "100%", borderRadius: "16px", boxShadow: "0 20px 50px rgba(0,0,0,0.15)", border: "1px solid #e2e8f0" }} />
+             <img src="https://sc02.alicdn.com/kf/H2533c3c14bc74cd3afe116f60a8357f4U.jpg" loading="lazy"  alt="Bowang Autoparts Factory Front" style={{ width: "100%", borderRadius: "16px", boxShadow: "0 20px 50px rgba(0,0,0,0.15)", border: "1px solid #e2e8f0" }} />
           </div>
         </div>
       </section>
@@ -159,7 +178,7 @@ export default function AboutPage() {
                  transition: "transform 0.3s ease"
                }} className="cert-card-hover">
                  <div style={{ height: "400px", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center", marginBottom: "20px" }}>
-                   <img src={cert.url} alt={cert.title} style={{ maxWidth: "100%", maxHeight: "100%", borderRadius: "4px" }} />
+                   <img src={cert.url} loading="lazy"  alt={cert.title} style={{ maxWidth: "100%", maxHeight: "100%", borderRadius: "4px" }} />
                  </div>
                  <h3 style={{ color: "#0f172a", fontSize: "18px", fontWeight: 800, marginBottom: "8px" }}>{cert.title}</h3>
                  <p style={{ color: "#64748b", fontSize: "13px", fontWeight: 500 }}>{cert.desc}</p>

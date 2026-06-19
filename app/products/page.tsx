@@ -8,6 +8,7 @@ import { allProducts } from "../data/products";
 export default function ProductsPage() {
   const [lang, setLang] = useState<Locale>("en");
   const [activeCategory, setActiveCategory] = useState("All");
+  const [mobileMenu, setMobileMenu] = useState(false);
 
   useEffect(() => {
     const savedLang = localStorage.getItem("lelion_lang") as Locale;
@@ -15,6 +16,8 @@ export default function ProductsPage() {
       setLang(savedLang);
     }
   }, []);
+
+  const closeMobileMenu = () => setMobileMenu(false);
 
   const handleLangChange = (newLang: Locale) => {
     setLang(newLang);
@@ -53,6 +56,9 @@ export default function ProductsPage() {
             <span className="header-title">BOWANG WIPER</span>
             <span className="header-subtitle">Autoparts Manufacturer</span>
           </div>
+          <button className={"hamburger" + (mobileMenu ? " open" : "")} onClick={() => setMobileMenu(!mobileMenu)} aria-label="Toggle navigation menu">
+            <span></span><span></span><span></span>
+          </button>
           <nav className="nav">
             <Link href="/" className="nav-link">{t.navHome}</Link>
             <Link href="/products" className="nav-link active">{t.navProducts}</Link>
@@ -66,6 +72,19 @@ export default function ProductsPage() {
           </nav>
         </div>
       </header>
+      {/* Mobile Menu Overlay */}
+      <div className={"mobile-menu-overlay" + (mobileMenu ? " open" : "")}>
+        <a href="/" onClick={closeMobileMenu}>{t.navHome}</a>
+        <a href="/products" onClick={closeMobileMenu}>{t.navProducts}</a>
+        <a href="/blog" onClick={closeMobileMenu}>Blog</a>
+        <a href="/about" onClick={closeMobileMenu}>{t.navAboutUs}</a>
+        <a href="/Catalog.pdf" target="_blank" onClick={closeMobileMenu} style={{color:"var(--accent-glow)",fontWeight:600}}>{t.navCatalog}</a>
+        <a href="/contact" className="nav-cta" onClick={closeMobileMenu}>{t.navGetQuote}</a>
+        <select value={lang} onChange={(e) => { handleLangChange(e.target.value as Locale); closeMobileMenu(); }} className="lang-select-mobile">
+          <option value="en">English</option><option value="es">Español</option><option value="ru">Русский</option><option value="fr">Français</option><option value="de">Deutsch</option>
+        </select>
+      </div>
+
 
       {/* Banner */}
       <section style={{ backgroundColor: "#0f172a", padding: "60px 20px", color: "white", textAlign: "center", borderBottom: "1px solid #1e293b" }}>
@@ -107,7 +126,7 @@ export default function ProductsPage() {
                   }}>
                      <span style={{ position: "absolute", top: "20px", left: "20px", backgroundColor: "#ecfdf5", color: "#059669", fontSize: "11px", fontWeight: "bold", padding: "5px 12px", borderRadius: "6px", zIndex: 10 }}>{p.tag}</span>
                      <img 
-                      src={p.image} 
+                      src={p.image} loading="lazy"  
                       alt={p.name} 
                       style={{ 
                         maxWidth: "100%", 
