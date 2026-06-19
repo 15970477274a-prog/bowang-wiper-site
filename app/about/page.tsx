@@ -90,8 +90,8 @@ export default function AboutPage() {
         <a href="/products" onClick={closeMobileMenu}>{t.navProducts}</a>
         <a href="/blog" onClick={closeMobileMenu}>Blog</a>
         <a href="/about" onClick={closeMobileMenu}>{t.navAboutUs}</a>
-        <a href="/Catalog.pdf" target="_blank" onClick={closeMobileMenu} style={color:"var(--accent-glow)",fontWeight:600}>{t.navCatalog}</a>
-        <a href="/contact" onClick={closeMobileMenu} style={className:"nav-cta"}>{t.navGetQuote}</a>
+        <a href="/Catalog.pdf" target="_blank" onClick={closeMobileMenu} style={{color:"var(--accent-glow)",fontWeight:600}}>{t.navCatalog}</a>
+        <a href="/contact" onClick={closeMobileMenu} className="nav-cta">{t.navGetQuote}</a>
         <select value={lang} onChange={(e) => { handleLangChange(e.target.value as Locale); closeMobileMenu(); }} className="lang-select-mobile">
           <option value="en">English</option><option value="es">Español</option><option value="ru">Русский</option><option value="fr">Français</option><option value="de">Deutsch</option>
         </select>

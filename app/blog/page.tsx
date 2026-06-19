@@ -8,6 +8,7 @@ import { blogPosts } from "../data/blog";
 export default function BlogPage() {
   const [mobileMenu, setMobileMenu] = useState(false);
   const [lang, setLang] = useState<Locale>("en");
+  const closeMobileMenu = () => setMobileMenu(false);
   const [activeTag, setActiveTag] = useState("All");
 
   useEffect(() => {
@@ -17,8 +18,7 @@ export default function BlogPage() {
     }
   }, []);
 
-  const closeMobileMenu = () => setMobileMenu(false);
-
+  
   const handleLangChange = (newLang: Locale) => {
     setLang(newLang);
     localStorage.setItem("lelion_lang", newLang);
@@ -89,7 +89,7 @@ export default function BlogPage() {
         <a href="/products" onClick={closeMobileMenu}>Products</a>
         <a href="/blog" onClick={closeMobileMenu}>Blog</a>
         <a href="/about" onClick={closeMobileMenu}>About</a>
-        <a href="/contact" onClick={closeMobileMenu} style={className:"nav-cta"}>Contact Us</a>
+        <a href="/contact" onClick={closeMobileMenu} className="nav-cta">Contact Us</a>
         <select value={lang} onChange={(e) => { handleLangChange(e.target.value as Locale); closeMobileMenu(); }} className="lang-select-mobile">
           <option value="en">English</option><option value="es">Español</option><option value="ru">Русский</option><option value="fr">Français</option><option value="de">Deutsch</option>
         </select>
