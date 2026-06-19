@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
@@ -66,6 +66,30 @@ export default function Home() {
 
   const t = translations[lang];
 
+  // FAQPage structured data for AI engines (AEO)
+  const en = translations["en"];
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": en.faqQ1, "acceptedAnswer": { "@type": "Answer", "text": en.faqA1 } },
+      { "@type": "Question", "name": en.faqQ2, "acceptedAnswer": { "@type": "Answer", "text": en.faqA2 } },
+      { "@type": "Question", "name": en.faqQ3, "acceptedAnswer": { "@type": "Answer", "text": en.faqA3 } },
+      { "@type": "Question", "name": en.faqQ4, "acceptedAnswer": { "@type": "Answer", "text": en.faqA4 } },
+      { "@type": "Question", "name": en.faqQ5, "acceptedAnswer": { "@type": "Answer", "text": en.faqA5 } },
+      { "@type": "Question", "name": en.faqQ6, "acceptedAnswer": { "@type": "Answer", "text": en.faqA6 } },
+    ]
+  };
+
+  // BreadcrumbList schema for homepage
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.lelionautopart.com/" }
+    ]
+  };
+
   const faqItems = [
     { q: t.faqQ1, a: t.faqA1 },
     { q: t.faqQ2, a: t.faqA2 },
@@ -78,6 +102,16 @@ export default function Home() {
   return (
     <main style={{ fontFamily: "system-ui, -apple-system, sans-serif", color: "#1e293b", backgroundColor: "#fcfcfc" }}>
       
+      {/* FAQPage JSON-LD for AEO */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+
       <header style={{
         backgroundColor: "#0f172a", color: "#ffffff", position: "sticky", top: 0, zIndex: 50,
         boxShadow: "0 2px 10px rgba(0, 0, 0, 0.1)"
@@ -194,3 +228,6 @@ export default function Home() {
     </main>
   );
 }
+
+
+

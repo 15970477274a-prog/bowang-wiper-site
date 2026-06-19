@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
@@ -57,8 +57,24 @@ export default function ContactPage() {
 
   const t = translations[lang];
 
+  // BreadcrumbList schema for AEO
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.lelionautopart.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Contact", "item": "https://www.lelionautopart.com/contact" }
+    ]
+  };
+
   return (
     <main style={{ fontFamily: "system-ui, -apple-system, sans-serif", color: "#1e293b", backgroundColor: "#ffffff" }}>
+      
+      {/* BreadcrumbList JSON-LD for AEO */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       
       {/* Header */}
       <header style={{ backgroundColor: "#0f172a", color: "#ffffff", position: "sticky", top: 0, zIndex: 100 }}>
@@ -170,3 +186,4 @@ export default function ContactPage() {
     </main>
   );
 }
+

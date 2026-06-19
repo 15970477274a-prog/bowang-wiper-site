@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
@@ -27,9 +27,25 @@ export default function ProductsPage() {
     ? allProducts 
     : allProducts.filter(p => p.category === activeCategory);
 
+  // BreadcrumbList schema for AEO
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.lelionautopart.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Products", "item": "https://www.lelionautopart.com/products" }
+    ]
+  };
+
   return (
     <main style={{ fontFamily: "system-ui, -apple-system, sans-serif", color: "#1e293b", backgroundColor: "#fcfcfc" }}>
       
+      {/* BreadcrumbList JSON-LD for AEO */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+
       {/* Navigation Header */}
       <header style={{
         backgroundColor: "#0f172a", color: "#ffffff", position: "sticky", top: 0, zIndex: 50,
@@ -150,3 +166,4 @@ export default function ProductsPage() {
     </main>
   );
 }
+
