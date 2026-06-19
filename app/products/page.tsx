@@ -38,7 +38,7 @@ export default function ProductsPage() {
   };
 
   return (
-    <main style={{ fontFamily: "system-ui, -apple-system, sans-serif", color: "#1e293b", backgroundColor: "#fcfcfc" }}>
+    <main>
       
       {/* BreadcrumbList JSON-LD for AEO */}
       <script
@@ -48,8 +48,7 @@ export default function ProductsPage() {
 
       {/* Navigation Header */}
       <header style={{
-        backgroundColor: "#0f172a", color: "#ffffff", position: "sticky", top: 0, zIndex: 50,
-        boxShadow: "0 2px 10px rgba(0, 0, 0, 0.1)"
+        
       }}>
         <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "15px 20px", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
           <div style={{ display: "flex", flexDirection: "column" }}>
@@ -57,13 +56,13 @@ export default function ProductsPage() {
             <span style={{ fontSize: "10px", color: "#94a3b8", textTransform: "uppercase", letterSpacing: "1px" }}>Autoparts Manufacturer</span>
           </div>
           <nav style={{ display: "flex", gap: "20px", alignItems: "center" }}>
-            <Link href="/" style={{ color: "#f8fafc", textDecoration: "none", fontSize: "14px", fontWeight: 500 }}>{t.navHome}</Link>
-            <Link href="/products" style={{ color: "#38bdf8", textDecoration: "none", fontSize: "14px", fontWeight: 600 }}>{t.navProducts}</Link>
-            <Link href="/blog" style={{ color: "#f8fafc", textDecoration: "none", fontSize: "14px", fontWeight: 500 }}>Blog</Link>
-            <Link href="/about" style={{ color: "#f8fafc", textDecoration: "none", fontSize: "14px", fontWeight: 500 }}>{t.navAboutUs}</Link>
+            <Link href="/" className="nav-link">{t.navHome}</Link>
+            <Link href="/products" className="nav-link active">{t.navProducts}</Link>
+            <Link href="/blog" className="nav-link">Blog</Link>
+            <Link href="/about" className="nav-link">{t.navAboutUs}</Link>
             <a href="/Catalog.pdf" target="_blank" style={{ color: "#38bdf8", textDecoration: "none", fontSize: "14px", fontWeight: 600 }}>{t.navCatalog}</a>
             <Link href="/contact" style={{ backgroundColor: "#0284c7", color: "#ffffff", padding: "8px 16px", borderRadius: "4px", textDecoration: "none", fontSize: "14px", fontWeight: "bold" }}>{t.navGetQuote}</Link>
-            <select value={lang} onChange={(e) => handleLangChange(e.target.value as Locale)} style={{ backgroundColor: "#1e293b", color: "#ffffff", border: "1px solid #475569", padding: "6px 12px", borderRadius: "4px", cursor: "pointer", fontSize: "13px" }}>
+            <select value={lang} onChange={(e) => handleLangChange(e.target.value as Locale)} className="lang-select">
               <option value="en">English</option><option value="es">Español</option><option value="ru">Русский</option><option value="fr">Français</option><option value="de">Deutsch</option>
             </select>
           </nav>

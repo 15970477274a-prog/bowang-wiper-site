@@ -61,7 +61,7 @@ export default function ProductDetail() {
   };
 
   return (
-    <main style={{ fontFamily: "system-ui, -apple-system, sans-serif", color: "#1e293b", backgroundColor: "#ffffff" }}>
+    <main>
       
       {/* JSON-LD Injected into the page */}
       <script
@@ -74,15 +74,15 @@ export default function ProductDetail() {
       />
 
       {/* Navigation Header */}
-      <header style={{ backgroundColor: "#0f172a", padding: "15px 20px", position: "sticky", top: 0, zIndex: 100 }}>
-        <div style={{ maxWidth: "1200px", margin: "0 auto", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-          <Link href="/" style={{ color: "white", textDecoration: "none", fontWeight: "bold", fontSize: "18px" }}>BOWANG WIPER</Link>
-          <nav style={{ display: "flex", gap: "25px", alignItems: "center" }}>
+      <header className="header" style={{padding:"15px 20px"}}>
+        <div className="header-inner">
+          <Link href="/" style={{color:"white",textDecoration:"none",fontWeight:"bold",fontSize:"18px"}}>BOWANG WIPER</Link>
+          <nav className="nav">
             <Link href="/" style={{ color: "#f8fafc", textDecoration: "none", fontSize: "14px" }}>{t.navHome}</Link>
-            <Link href="/products" style={{ color: "#38bdf8", textDecoration: "none", fontSize: "14px", fontWeight: "bold" }}>{t.navProducts}</Link>
-            <Link href="/blog" style={{ color: "#f8fafc", textDecoration: "none", fontSize: "14px" }}>Blog</Link>
+            <Link href="/products" className="nav-link active">{t.navProducts}</Link>
+            <Link href="/blog" className="nav-link">Blog</Link>
             <Link href="/about" style={{ color: "#f8fafc", textDecoration: "none", fontSize: "14px" }}>{t.navAboutUs}</Link>
-            <Link href="/contact" style={{ backgroundColor: "#0284c7", color: "white", padding: "8px 16px", borderRadius: "4px", textDecoration: "none", fontSize: "14px", fontWeight: "bold" }}>{t.navGetQuote}</Link>
+            <Link href="/contact" className="nav-cta">{t.navGetQuote}</Link>
           </nav>
         </div>
       </header>
