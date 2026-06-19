@@ -56,11 +56,11 @@ export const allProducts: Product[] = [
   {
     id: "bw-861-multifunction-wiper-blade",
     category: "Multifunction",
-    name: "BW-861 Multi-Function Universal Wiper Blade with 12 Adapters",
+    name: "BW-861 Multi-Function Universal Wiper Blade with 22 Adapters",
     moq: "500 PCS",
-    desc: "Premium multi-adapter wiper blade system fitting 95% of global vehicles with 12 included adapters - ideal for distributors.",
-    longDesc: "The BW-861 is a master-class engineering solution designed for diverse global markets. Featuring a patented multi-adapter hub system, this premium wiper blade effortlessly transitions between different wiper arm types including U-Hook (9x3, 9x4), Push Button, Side Pin, Pinch Tab, and BMW/Hook types. With 12 adapters included in every package, it covers over 95% of vehicles on the road worldwide. The high-performance aerodynamic design features a premium natural rubber wiping edge with Teflon coating, ensuring crystal-clear visibility and whisper-quiet operation under all weather conditions - from tropical heat to arctic cold. The flexible memory spring steel frame maintains consistent pressure across the entire windshield curve. Perfect for wholesale distributors and importers looking to minimize SKU inventory while maximizing vehicle coverage. As a trusted China wiper blade supplier, we offer full OEM/ODM support including custom branding, retail packaging, and private label services for the BW-861.",
-    specs: ["Multi-Adapter Hub System with 12 Adapters (Fits 95%+ Vehicles)", "A-Grade Natural Rubber with Teflon Coating", "All-Weather Performance (-40°C to +100°C)", "Tested for 1.5 Million Wipes Durability", "Aerodynamic Frameless Design", "Flexible Memory Spring Steel Frame", "Custom OEM Branding Available"],
+    desc: "Premium multi-adapter wiper blade system fitting 98% of global vehicles with 22 included adapters - ideal for distributors.",
+    longDesc: "The BW-861 is a master-class engineering solution designed for diverse global markets. Featuring a patented multi-adapter hub system, this premium wiper blade effortlessly transitions between different wiper arm types including U-Hook (9x3, 9x4), Push Button, Side Pin, Pinch Tab, and BMW/Hook types. With 22 adapters included in every package, it covers over 98% of vehicles on the road worldwide. The high-performance aerodynamic design features a premium natural rubber wiping edge with Teflon coating, ensuring crystal-clear visibility and whisper-quiet operation under all weather conditions - from tropical heat to arctic cold. The flexible memory spring steel frame maintains consistent pressure across the entire windshield curve. Perfect for wholesale distributors and importers looking to minimize SKU inventory while maximizing vehicle coverage. As a trusted China wiper blade supplier, we offer full OEM/ODM support including custom branding, retail packaging, and private label services for the BW-861.",
+    specs: ["Multi-Adapter Hub System with 22 Adapters (Fits 98%+ Vehicles)", "A-Grade Natural Rubber with Teflon Coating", "All-Weather Performance (-40°C to +100°C)", "Tested for 1.5 Million Wipes Durability", "Aerodynamic Frameless Design", "Flexible Memory Spring Steel Frame", "Custom OEM Branding Available"],
     tag: "High Efficiency",
     image: "https://sc02.alicdn.com/kf/Hb0410965e6194f008a583d7f500e1b7at.png",
     gallery: [
@@ -73,7 +73,7 @@ export const allProducts: Product[] = [
       "Wiper Type": "Flat / Frameless Beam Blade - Multi-Adapter",
       "Main Material": "Class A+ Natural Rubber + Teflon Surface Coating",
       "Frame Material": "Flexible Memory Spring Steel (High Carbon)",
-      "Adapters Included": "12 pcs (U-Hook 9x3, 9x4, Push Button, Side Pin, Pinch Tab, BMW, etc.)",
+      "Adapters Included": "22 pcs (U-Hook 9x3, 9x4, Push Button, Side Pin, Pinch Tab, BMW, etc.)",
       "Size Range": '12" - 30" (300mm - 750mm) Available',
       "Color Options": "Black Frame + Black Rubber (Custom Colors Available)",
       "Durability": "Verified 1.5 Million Wipes",
@@ -83,7 +83,7 @@ export const allProducts: Product[] = [
     keywords: ["universal wiper blade", "multifunction wiper blade", "multi-adapter wiper", "wholesale wiper blades", "wiper blade with adapters", "auto parts distributor", "aftermarket wiper blades", "China wiper manufacturer", "OEM wiper blade supplier", "BW-861 wiper", "private label wiper blades"],
     applications: ["Passenger Cars (Sedans, SUVs, Hatchbacks)", "Aftermarket Distribution", "Auto Parts Wholesale", "North America, Europe, Middle East, Asia Markets", "Retail & E-commerce"],
     features: [
-      "12 multi-adapters eliminate complex inventory management - one SKU fits 95%+ vehicles",
+      "22 multi-adapters eliminate complex inventory management - one SKU fits 98%+ vehicles",
       "Frameless aerodynamic design reduces wind noise and snow/ice buildup",
       "Memory spring steel maintains optimal windshield contact pressure over entire lifecycle",
       "Teflon-coated wiping edge reduces friction, chatter, and noise",

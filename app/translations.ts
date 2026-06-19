@@ -151,7 +151,7 @@ export const translations: Record<Locale, TranslationDict> = {
     multifunctionDesc: "Equipped with interchangeable adapters. Solves inventory problems by fitting 15+ different wiper arms with only a few SKU models.",
     multifunctionSpec1: "Silicone / Natural Rubber",
     multifunctionSpec2: '12" to 30"',
-    multifunctionSpec3: "10+ adaptors included",
+    multifunctionSpec3: "22 adapters included",
     multifunctionSpec4: "Drastically reduce inventory cost",
     getCatalogBtn: "Get Catalog & Price",
     whyTitle: "Factory Manufacturing Advantages",
