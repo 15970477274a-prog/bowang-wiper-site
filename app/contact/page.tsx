@@ -78,9 +78,9 @@ export default function ContactPage() {
       
       {/* Header */}
       <header style={{ backgroundColor: "#0f172a", color: "#ffffff", position: "sticky", top: 0, zIndex: 100 }}>
-        <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "15px 20px", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+        <div className="header-inner">
           <Link href="/" style={{ color: "white", textDecoration: "none", fontWeight: "bold", fontSize: "18px" }}>BOWANG WIPER</Link>
-          <nav style={{ display: "flex", gap: "20px", alignItems: "center" }}>
+          <nav className="nav">
             <Link href="/" style={{ color: "#f8fafc", textDecoration: "none", fontSize: "14px" }}>{t.navHome}</Link>
             <Link href="/products" style={{ color: "#f8fafc", textDecoration: "none", fontSize: "14px" }}>{t.navProducts}</Link>
             <Link href="/blog" className="nav-link">Blog</Link>
