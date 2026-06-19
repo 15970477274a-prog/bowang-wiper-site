@@ -47,9 +47,7 @@ export default function ProductsPage() {
       />
 
       {/* Navigation Header */}
-      <header style={{
-        
-      }}>
+      <header className="header">
         <div className="header-inner">
           <div className="header-brand">
             <span className="header-title">BOWANG WIPER</span>
