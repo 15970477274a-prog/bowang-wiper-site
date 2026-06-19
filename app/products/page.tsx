@@ -80,18 +80,12 @@ export default function ProductsPage() {
           {/* Categories Sidebar */}
           <aside style={{ flex: "1 1 250px", borderRight: "1px solid #e2e8f0", paddingRight: "20px" }}>
             <h3 style={{ fontSize: "18px", fontWeight: 700, marginBottom: "25px", color: "#0f172a" }}>Series Filter</h3>
-            <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
-              {["All", "Universal", "Specific Fit", "Multifunction"].map(cat => (
-                <li key={cat} onClick={() => setActiveCategory(cat)} style={{
-                  padding: "15px 20px", cursor: "pointer", borderRadius: "8px", marginBottom: "10px",
-                  transition: "all 0.3s ease", fontSize: "15px", fontWeight: activeCategory === cat ? 700 : 500,
-                  backgroundColor: activeCategory === cat ? "#0284c7" : "transparent",
-                  color: activeCategory === cat ? "#ffffff" : "#475569"
-                }}>
-                  {cat} Wipers
-                </li>
-              ))}
-            </ul>
+            <ul className="sidebar-list">
+                <Link href="/products" style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item active">All Wipers</li></Link>
+                <Link href="/products/category/universal" style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">Universal Wipers</li></Link>
+                <Link href="/products/category/specific-fit" style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">Specific Fit Wipers</li></Link>
+                <Link href="/products/category/multifunction" style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">Multifunction Wipers</li></Link>
+              </ul>
           </aside>
 
           {/* Product Grid - Fixed Image Display */}

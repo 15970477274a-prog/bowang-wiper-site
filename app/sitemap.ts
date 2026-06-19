@@ -19,7 +19,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: route === '' ? 1.0 : 0.8,
   }));
 
-  // 2. Product routes
+  // 2. Category routes
+  const categories = ['universal', 'specific-fit', 'multifunction'];
+  const categoryRoutes = categories.map((cat) => ({
+    url: baseUrl + '/products/category/' + cat,
+    lastModified: new Date(),
+    changeFrequency: 'weekly' as const,
+    priority: 0.7,
+  }));
+
+  // 3. Product routes
   const productRoutes = allProducts.map((product) => ({
     url: baseUrl + '/products/' + product.id,
     lastModified: new Date(),
@@ -35,5 +44,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticRoutes, ...productRoutes, ...blogRoutes];
+  return [...staticRoutes, ...categoryRoutes, ...productRoutes, ...blogRoutes];
 }
