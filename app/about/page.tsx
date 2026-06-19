@@ -59,9 +59,7 @@ export default function AboutPage() {
       />
       
       {/* Navigation Header */}
-      <header style={{
-        
-      }}>
+      <header className="header">
         <div className="header-inner">
           <div className="header-brand">
             <span className="header-title">BOWANG WIPER</span>
@@ -199,11 +197,11 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <footer style={{ backgroundColor: "#0f172a", color: "#94a3b8", padding: "60px 20px 40px 20px", textAlign: "center" }}>
-        <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
-          <h3 style={{ color: "white", marginBottom: "20px" }}>BOWANG WIPER</h3>
-          <p style={{ maxWidth: "600px", margin: "0 auto 40px", fontSize: "14px" }}>{t.footerDesc}</p>
-          <div style={{ borderTop: "1px solid #1e293b", paddingTop: "30px", fontSize: "12px" }}>
+      <footer className="footer">
+        <div className="container">
+          <h3 className="footer-brand">BOWANG WIPER</h3>
+          <p className="footer-desc">{t.footerDesc}</p>
+          <div className="footer-divider">
             &copy; 2026 Ningbo Zhenhai Bowang Autoparts Co., Ltd. All rights reserved.
           </div>
         </div>
