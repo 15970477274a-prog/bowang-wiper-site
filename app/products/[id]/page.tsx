@@ -12,6 +12,8 @@ export default function ProductDetail() {
   const id = params.id as string;
   const [mobileMenu, setMobileMenu] = useState(false);
   const [lang, setLang] = useState<Locale>("en");
+  const [selectedImg, setSelectedImg] = useState(0);
+  const [lightboxOpen, setLightboxOpen] = useState(false);
   const closeMobileMenu = () => setMobileMenu(false);
   const handleLangChange = (newLang: Locale) => {
     setLang(newLang);
@@ -21,6 +23,17 @@ export default function ProductDetail() {
   const [showFaq, setShowFaq] = useState<number | null>(null);
 
   const product = allProducts.find(p => p.id === id);
+
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (!lightboxOpen) return;
+      if (e.key === 'ArrowLeft') setSelectedImg((selectedImg - 1 + allImages.length) % allImages.length);
+      if (e.key === 'ArrowRight') setSelectedImg((selectedImg + 1) % allImages.length);
+      if (e.key === 'Escape') setLightboxOpen(false);
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [lightboxOpen, selectedImg]);
 
   useEffect(() => {
     const savedLang = localStorage.getItem("lelion_lang") as Locale;
@@ -91,6 +104,7 @@ export default function ProductDetail() {
   };
 
   // Related products (same category, exclude current)
+  const allImages = [product.image, ...(product.gallery || [])];
   const relatedProducts = allProducts.filter(p => p.category === product.category && p.id !== product.id);
   const relatedBlog = blogPosts.slice(0, 2);
 
@@ -136,21 +150,42 @@ export default function ProductDetail() {
       <section className="section product-detail-layout" style={{maxWidth:"1200px",margin:"0 auto"}}>
         {/* Image */}
         <div className="product-image-box">
-          <div className="product-image-frame">
-            <img src={product.image} loading="lazy"  alt={product.name + " - " + product.keywords[0]} style={{maxWidth:"100%",height:"auto",borderRadius:"8px"}} />
+          <div className="gallery-main" onClick={() => setLightboxOpen(true)}>
+            {/* Prev arrow */}
+            {allImages.length > 1 && (
+              <button className="gallery-arrow prev" onClick={(e) => { e.stopPropagation(); setSelectedImg((selectedImg - 1 + allImages.length) % allImages.length); }}>&lsaquo;</button>
+            )}
+            <img src={allImages[selectedImg]} alt={product.name + " - image " + (selectedImg + 1)} />
+            {allImages.length > 1 && (
+              <button className="gallery-arrow next" onClick={(e) => { e.stopPropagation(); setSelectedImg((selectedImg + 1) % allImages.length); }}>&rsaquo;</button>
+            )}
           </div>
-          {/* Gallery thumbnails */}
-          {product.gallery && product.gallery.length > 0 && (
-            <div style={{display:"flex",gap:"10px",marginTop:"20px",overflowX:"auto"}}>
-              {product.gallery.map((url, i) => (
-                <div key={i} style={{flex:"0 0 100px",height:"100px",backgroundColor:"#f8fafc",borderRadius:"8px",overflow:"hidden",border:"1px solid #e2e8f0",cursor:"pointer"}}>
-                  <img src={url} alt={product.name + " detail view " + (i+1)} style={{width:"100%",height:"100%",objectFit:"contain"}} loading="lazy" />
+          {/* Thumbnails */}
+          {allImages.length > 1 && (
+            <div className="gallery-thumbnails">
+              {allImages.map((url, i) => (
+                <div key={i} className={"gallery-thumb" + (i === selectedImg ? " active" : "")} onClick={() => setSelectedImg(i)}>
+                  <img src={url} alt={product.name + " thumbnail " + (i+1)} loading="lazy" />
                 </div>
               ))}
             </div>
           )}
-        </div>
 
+          {/* Lightbox Modal */}
+          {lightboxOpen && (
+            <div className="gallery-overlay" onClick={() => setLightboxOpen(false)}>
+              <button className="gallery-overlay-close" onClick={() => setLightboxOpen(false)}>&times;</button>
+              {allImages.length > 1 && (
+                <button className="gallery-overlay-arrow prev-lb" onClick={(e) => { e.stopPropagation(); setSelectedImg((selectedImg - 1 + allImages.length) % allImages.length); }}>&lsaquo;</button>
+              )}
+              <img src={allImages[selectedImg]} alt={product.name + " full view"} onClick={(e) => e.stopPropagation()} />
+              {allImages.length > 1 && (
+                <button className="gallery-overlay-arrow next-lb" onClick={(e) => { e.stopPropagation(); setSelectedImg((selectedImg + 1) % allImages.length); }}>&rsaquo;</button>
+              )}
+              <div className="gallery-overlay-counter">{selectedImg + 1} / {allImages.length}</div>
+            </div>
+          )}
+        </div>
         {/* Info */}
         <div className="product-info-box">
           <span className="tag-category">{product.category} Wiper Series</span>
