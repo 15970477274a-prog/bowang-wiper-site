@@ -133,7 +133,7 @@ export const allProducts: Product[] = [
   },
 
   {
-    id: "bw-benz-spray-w222",
+    id: "bw-203",
     category: "Specific Fit",
     name: "LELION Front Window Spray Wiper Blade for Mercedes Benz W222 (S-Class)",
     moq: "300 PCS",
@@ -158,7 +158,7 @@ export const allProducts: Product[] = [
       "https://30558985.s21i.faiusr.com/2/ABUIABACGAAg6YaKwgYo0L_gejCgBjigBg.jpg"
     ],
     technicalDetails: {
-      "Product Model": "BW-Benz-Spray-W222",
+      "Product Model": "BW-203",
       "Compatibility": "Mercedes Benz S-Class W222 (2014-2020)",
       "Wiper Type": "Specific Fit Beam Blade with Integrated Spray Nozzles",
       "Nozzle Type": "Integrated Spray System on Spoiler (Washer Fluid)",
