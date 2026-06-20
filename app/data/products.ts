@@ -478,7 +478,6 @@ export const allProducts: Product[] = [
     gallery: [
       "https://30558985.s21i.faiusr.com/2/ABUIABACGAAgn_2OvwYooOy-iQUw7gU4-gE.jpg",
       "https://30558985.s21i.faiusr.com/4/ABUIABAEGAAg3oroygYo5qXg8wUw6Ac46Ac.png",
-      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAgxoCpygYokMjkmgEwgBs4gBI.jpg"
     ],
     technicalDetails: {
       "Product Model": "BW-808",
