@@ -29,6 +29,8 @@ export default function ProductCategoryPage() {
   const slug = params.slug as string;
   const category = CATEGORY_MAP[slug];
   const [mobileMenu, setMobileMenu] = useState(false);
+  const [currentPage, setCurrentPage] = useState(1);
+  const ITEMS_PER_PAGE = 6;
   const [lang, setLang] = useState<Locale>("en");
 
   useEffect(() => {
@@ -137,27 +139,88 @@ export default function ProductCategoryPage() {
               {filtered.length === 0 ? (
                 <p style={{color:"#64748b",textAlign:"center",padding:"40px"}}>No products found in this category.</p>
               ) : (
-                <div className="grid-products">
-                  {filtered.map(product => (
-                    <Link key={product.id} href={"/products/" + product.id} style={{textDecoration:"none",color:"inherit"}}>
-                      <div className="product-card card-hover">
-                        <div className="product-card-img">
-                          <img src={product.image} loading="lazy"  alt={product.name} style={{maxWidth:"100%",maxHeight:"100%",objectFit:"contain"}} />
-                        </div>
-                        <div className="product-card-body">
-                          <span className="card-tag">{product.tag}</span>
-                          <h3 style={{fontSize:"18px",fontWeight:700,margin:"15px 0 10px",color:"#0f172a",lineHeight:1.4}}>{product.name}</h3>
-                          <p className="card-text" style={{marginBottom:"15px"}}>{product.desc}</p>
-                          <p className="text-muted" style={{fontSize:"13px",marginBottom:"10px"}}>MOQ: {product.moq}</p>
-                          <div className="product-card-footer">
-                            <span className="card-link">View Details →</span>
-                            <span style={{backgroundColor:"#e0f2fe",color:"#0369a1",padding:"2px 10px",borderRadius:"10px",fontSize:"11px",fontWeight:600}}>{product.category}</span>
+                <>
+                  <div style={{display:"grid",gridTemplateColumns:"repeat(3, 1fr)",gap:"30px"}}>
+                    {(filtered.length <= ITEMS_PER_PAGE ? filtered : filtered.slice((currentPage - 1) * ITEMS_PER_PAGE, currentPage * ITEMS_PER_PAGE)).map(product => (
+                      <div key={product.id} style={{
+                        backgroundColor:"white",borderRadius:"16px",overflow:"hidden",border:"1px solid #f1f5f9",
+                        display:"flex",flexDirection:"column",transition:"transform 0.3s ease"
+                      }}>
+                        <Link href={"/products/" + product.id} style={{
+                          height:"300px",backgroundColor:"#f8fafc",display:"flex",alignItems:"center",
+                          justifyContent:"center",position:"relative",padding:"20px"
+                        }}>
+                          <span style={{position:"absolute",top:"20px",left:"20px",backgroundColor:"#ecfdf5",
+                            color:"#059669",fontSize:"11px",fontWeight:"bold",padding:"5px 12px",borderRadius:"6px",zIndex:10
+                          }}>{product.tag}</span>
+                          <img src={product.image} loading="lazy" alt={product.name}
+                            style={{maxWidth:"100%",maxHeight:"100%",width:"auto",height:"auto",objectFit:"contain"}} />
+                        </Link>
+                        <div style={{padding:"25px",flexGrow:1,display:"flex",flexDirection:"column"}}>
+                          <h3 style={{fontSize:"19px",fontWeight:800,marginBottom:"10px"}}>
+                            <Link href={"/products/" + product.id} style={{color:"#0f172a",textDecoration:"none"}}>{product.name}</Link>
+                          </h3>
+                          <div style={{marginBottom:"20px"}}>
+                            <span style={{fontSize:"13px",color:"#64748b",fontWeight:600}}>MOQ: {product.moq}</span>
+                          </div>
+                          <ul style={{padding:0,margin:"0 0 25px 0",listStyle:"none"}}>
+                            {product.specs.slice(0, 3).map((s, i) => (
+                              <li key={i} style={{fontSize:"13.5px",color:"#475569",marginBottom:"8px",display:"flex",alignItems:"center"}}>
+                                <span style={{color:"#10b981",marginRight:"10px"}}>✓</span> {s}
+                              </li>
+                            ))}
+                          </ul>
+                          <div style={{display:"flex",gap:"12px",marginTop:"auto"}}>
+                            <Link href="/contact" style={{flex:1,textAlign:"center",backgroundColor:"#0284c7",color:"white",
+                              padding:"12px",borderRadius:"8px",fontSize:"14px",fontWeight:"bold",textDecoration:"none"
+                            }}>Inquiry</Link>
+                            <Link href={"/products/" + product.id} style={{flex:1,textAlign:"center",border:"1.5px solid #0f172a",
+                              color:"#0f172a",padding:"12px",borderRadius:"8px",fontSize:"14px",fontWeight:"bold",textDecoration:"none"
+                            }}>Details</Link>
                           </div>
                         </div>
                       </div>
-                    </Link>
-                  ))}
-                </div>
+                    ))}
+                  </div>
+
+                  {/* Pagination */}
+                  <div style={{display:"flex",justifyContent:"center",alignItems:"center",gap:"8px",marginTop:"50px",paddingTop:"30px",borderTop:"1px solid #e2e8f0"}}>
+                    <button
+                      onClick={() => setCurrentPage(Math.max(1, currentPage - 1))}
+                      disabled={currentPage === 1}
+                      style={{padding:"10px 18px",border:currentPage===1?"1px solid #e2e8f0":"1px solid #cbd5e1",
+                        borderRadius:"8px",background:currentPage===1?"#f1f5f9":"white",
+                        color:currentPage===1?"#94a3b8":"#0f172a",cursor:currentPage===1?"not-allowed":"pointer",
+                        fontSize:"14px",fontWeight:600,transition:"all 0.2s"
+                      }}
+                    >
+                      ← Prev
+                    </button>
+                    {Array.from({length: Math.ceil(filtered.length / ITEMS_PER_PAGE)}, (_, i) => i + 1).map(page => (
+                      <button key={page} onClick={() => setCurrentPage(page)}
+                        style={{width:"40px",height:"40px",border:page===currentPage?"none":"1px solid #e2e8f0",
+                          borderRadius:"8px",background:page===currentPage?"#0284c7":"white",
+                          color:page===currentPage?"white":"#475569",cursor:"pointer",
+                          fontSize:"14px",fontWeight:page===currentPage?700:500,transition:"all 0.2s"
+                        }}
+                      >
+                        {page}
+                      </button>
+                    ))}
+                    <button
+                      onClick={() => setCurrentPage(Math.min(Math.ceil(filtered.length / ITEMS_PER_PAGE), currentPage + 1))}
+                      disabled={currentPage === Math.ceil(filtered.length / ITEMS_PER_PAGE)}
+                      style={{padding:"10px 18px",border:currentPage===Math.ceil(filtered.length/ITEMS_PER_PAGE)?"1px solid #e2e8f0":"1px solid #cbd5e1",
+                        borderRadius:"8px",background:currentPage===Math.ceil(filtered.length/ITEMS_PER_PAGE)?"#f1f5f9":"white",
+                        color:currentPage===Math.ceil(filtered.length/ITEMS_PER_PAGE)?"#94a3b8":"#0f172a",
+                        cursor:currentPage===Math.ceil(filtered.length/ITEMS_PER_PAGE)?"not-allowed":"pointer",
+                        fontSize:"14px",fontWeight:600,transition:"all 0.2s"
+                      }}
+                    >
+                      Next →
+                    </button>
+                  </div>
+                </>
               )}
             </div>
           </div>
