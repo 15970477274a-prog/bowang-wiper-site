@@ -130,5 +130,72 @@ export const allProducts: Product[] = [
       "Passed 500,000 continuous wipe test in laboratory conditions",
       "Full OEM support: custom branding, retail-ready packaging, private label welcome"
     ]
-  }
+  },
+
+  {
+    id: "bw-benz-spray-w222",
+    category: "Specific Fit",
+    name: "LELION Front Window Spray Wiper Blade for Mercedes Benz W222 (S-Class)",
+    moq: "300 PCS",
+    desc: "OEM-grade spray-type windshield wiper blade specifically designed for Mercedes Benz S-Class W222 (2014-2020) with integrated washer nozzle system.",
+    longDesc: "The LELION Front Window Spray Wiper Blade is engineered specifically for the Mercedes Benz S-Class W222 (2014-2020). It features an innovative integrated spray-type nozzle system built into the spoiler, delivering washer fluid directly along the blade path for crystal-clear visibility in all conditions. Built with premium-grade natural rubber and a precision-engineered buckle system, this blade offers a perfect plug-and-play fitment without any modifications. The aerodynamic spoiler design reduces wind lift at high speeds, ensuring consistent wiping pressure across the entire windshield. As a leading China wiper blade manufacturer, we ensure every blade meets rigorous OE standards including salt spray, ozone, and cold resistance testing. Available in 25-inch + 23-inch (driver + passenger) configuration. Please confirm your vehicle model before purchasing as this is a specific-fit application.",
+    specs: [
+      "Integrated Spray-Type Nozzle System Built into Spoiler",
+      "OEM Fitment for Mercedes Benz S-Class W222 (2014-2020)",
+      "Ultra-Low Noise Wiping Technology with Aerodynamic Spoiler",
+      "Plug & Play Installation - Direct Fit on Original Wiper Arm",
+      "Premium Natural Rubber Wiping Edge with Teflon Coating",
+      "Memory High-Elastic Steel Frame for Uniform Pressure",
+      "Anti-Ozone & UV Resistant Coating for Extended Life",
+      "Size Configuration: 25-inch (635mm) Driver Side + 23-inch (580mm) Passenger Side"
+    ],
+    tag: "New Arrival",
+    image: "https://30558985.s21i.faiusr.com/2/ABUIABACGAAggdK2vQYo8OfGigcwuBc4uBc.jpg",
+    gallery: [
+      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAggdK2vQYo7ZOehwMwuBc4uBc.jpg",
+      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAggdK2vQYowKqwjwMwuBc4uBc.jpg",
+      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAg6YaKwgYo453_6gcw7gU4_wI.jpg",
+      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAg6YaKwgYo0L_gejCgBjigBg.jpg"
+    ],
+    technicalDetails: {
+      "Product Model": "BW-Benz-Spray-W222",
+      "Compatibility": "Mercedes Benz S-Class W222 (2014-2020)",
+      "Wiper Type": "Specific Fit Beam Blade with Integrated Spray Nozzles",
+      "Nozzle Type": "Integrated Spray System on Spoiler (Washer Fluid)",
+      "Size Specifications": "25-inch (635mm) Driver Side & 23-inch (580mm) Passenger Side",
+      "Main Material": "Premium Natural Rubber with Teflon Coating",
+      "Steel Sheet": "Memory High-Elastic Spring Steel",
+      "Installation": "Direct-Fit on OEM Wiper Arm (No Adapter Needed)",
+      "Wipe Life": "Tested for 1.5 Million Wipes",
+      "Operating Temperature": "-40°C to +100°C",
+      "HS Code": "85124000",
+      "OEM Service": "Custom Logo / Custom Packaging Available"
+    },
+    keywords: [
+      "Mercedes Benz W222 wiper blade",
+      "S-Class wiper replacement",
+      "spray wiper blade Benz",
+      "specific fit wiper blade Mercedes",
+      "W222 windshield wiper",
+      "integrated spray wiper",
+      "China wiper blade manufacturer",
+      "LELION wiper Benz",
+      "Mercedes S-Class 2014 2015 2016 2017 2018 2019 2020 wiper"
+    ],
+    applications: [
+      "Mercedes Benz S-Class W222 (2014-2020)",
+      "Luxury Sedan Aftermarket",
+      "OEM Replacement Market",
+      "Europe & North America Market",
+      "Middle East Luxury Vehicle Market"
+    ],
+    features: [
+      "Integrated spray nozzles built into the aerodynamic spoiler eliminate traditional spray jets for a cleaner windshield",
+      "Direct OEM replacement design - engineered specifically for W222 S-Class wiper arm connectors",
+      "Teflon-coated natural rubber wiping edge reduces friction, chatter, and extends service life",
+      "Aerodynamic profile reduces wind lift at autobahn/highway speeds (130km/h+)",
+      "Memory spring steel maintains 12+ contact points for even pressure across curved windshield",
+      "Tested for extreme weather conditions from -40°C to +100°C"
+    ]
+  },
 ];
