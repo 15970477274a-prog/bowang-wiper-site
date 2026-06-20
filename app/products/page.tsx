@@ -8,6 +8,8 @@ import { allProducts } from "../data/products";
 export default function ProductsPage() {
   const [lang, setLang] = useState<Locale>("en");
   const [activeCategory, setActiveCategory] = useState("All");
+  const [currentPage, setCurrentPage] = useState(1);
+  const ITEMS_PER_PAGE = 6;
   const [mobileMenu, setMobileMenu] = useState(false);
 
   useEffect(() => {
@@ -29,6 +31,14 @@ export default function ProductsPage() {
   const filteredProducts = activeCategory === "All" 
     ? allProducts 
     : allProducts.filter(p => p.category === activeCategory);
+  
+  const totalPages = Math.max(1, Math.ceil(filteredProducts.length / ITEMS_PER_PAGE));
+  const paginatedProducts = filteredProducts.slice((currentPage - 1) * ITEMS_PER_PAGE, currentPage * ITEMS_PER_PAGE);
+  
+  // Reset to page 1 when category changes
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [activeCategory]);
 
   // BreadcrumbList schema for AEO
   const breadcrumbSchema = {
@@ -112,8 +122,10 @@ export default function ProductsPage() {
 
           {/* Product Grid - Fixed Image Display */}
           <div style={{ flex: "3 1 600px" }}>
-             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))", gap: "30px" }}>
-              {filteredProducts.map(p => (
+             <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "30px" }}>
+              {paginatedProducts.length === 0 ? (
+                  <p style={{textAlign:"center",padding:"60px 20px",color:"#64748b",fontSize:"16px",width:"100%"}}>No products found in this category.</p>
+                ) : paginatedProducts.map(p => (
                 <div key={p.id} style={{
                   backgroundColor: "white", borderRadius: "16px", overflow: "hidden", border: "1px solid #f1f5f9",
                   display: "flex", flexDirection: "column", transition: "transform 0.3s ease"
@@ -162,6 +174,37 @@ export default function ProductsPage() {
                 </div>
               ))}
             </div>
+            
+            {/* Pagination */}
+            {totalPages > 1 && (
+              <div style={{display:"flex",justifyContent:"center",alignItems:"center",gap:"8px",marginTop:"50px",paddingTop:"30px",borderTop:"1px solid #e2e8f0"}}>
+                <button 
+                  onClick={() => setCurrentPage(Math.max(1, currentPage - 1))}
+                  disabled={currentPage === 1}
+                  style={{padding:"10px 18px",border:currentPage===1?"1px solid #e2e8f0":"1px solid #cbd5e1",borderRadius:"8px",background:currentPage===1?"#f1f5f9":"white",color:currentPage===1?"#94a3b8":"#0f172a",cursor:currentPage===1?"not-allowed":"pointer",fontSize:"14px",fontWeight:600,transition:"all 0.2s"}}
+                >
+                  ← Prev
+                </button>
+                
+                {Array.from({length: totalPages}, (_, i) => i + 1).map(page => (
+                  <button
+                    key={page}
+                    onClick={() => setCurrentPage(page)}
+                    style={{width:"40px",height:"40px",border:page===currentPage?"none":"1px solid #e2e8f0",borderRadius:"8px",background:page===currentPage?"#0284c7":"white",color:page===currentPage?"white":"#475569",cursor:"pointer",fontSize:"14px",fontWeight:page===currentPage?700:500,transition:"all 0.2s"}}
+                  >
+                    {page}
+                  </button>
+                ))}
+                
+                <button
+                  onClick={() => setCurrentPage(Math.min(totalPages, currentPage + 1))}
+                  disabled={currentPage === totalPages}
+                  style={{padding:"10px 18px",border:currentPage===totalPages?"1px solid #e2e8f0":"1px solid #cbd5e1",borderRadius:"8px",background:currentPage===totalPages?"#f1f5f9":"white",color:currentPage===totalPages?"#94a3b8":"#0f172a",cursor:currentPage===totalPages?"not-allowed":"pointer",fontSize:"14px",fontWeight:600,transition:"all 0.2s"}}
+                >
+                  Next →
+                </button>
+              </div>
+            )}
           </div>
 
         </div>
