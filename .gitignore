@@ -35,3 +35,11 @@ next-env.d.ts
 *_err.txt
 *_log.txt
 
+
+# flat backups
+/_flat_backup/
+*_flat_backup*
+
+# scrape artifacts
+_parse_product.py
+_scraped_page*.html

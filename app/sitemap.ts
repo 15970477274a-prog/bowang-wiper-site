@@ -1,4 +1,4 @@
-﻿import { MetadataRoute } from 'next';
+import { MetadataRoute } from 'next';
 import { allProducts } from './data/products';
 import { blogPosts } from './data/blog';
 
@@ -20,7 +20,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }));
 
   // 2. Category routes
-  const categories = ['universal', 'specific-fit', 'multifunction'];
+  const categories = ['universal', 'specific-fit', 'multifunction', 'wiper-arm', 'hybrid'];
   const categoryRoutes = categories.map((cat) => ({
     url: baseUrl + '/products/category/' + cat,
     lastModified: new Date(),

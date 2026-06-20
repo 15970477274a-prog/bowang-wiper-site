@@ -105,6 +105,7 @@ export default function ProductsPage() {
                 <Link href="/products/category/specific-fit" style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">Specific Fit Wipers</li></Link>
                 <Link href="/products/category/multifunction" style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">Multifunction Wipers</li></Link>
                 <Link href="/products/category/wiper-arm" style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">Wiper Arms</li></Link>
+                <Link href="/products/category/hybrid" style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">Hybrid Wipers</li></Link>
               </ul>
           </aside>
 

@@ -11,6 +11,7 @@ const CATEGORY_MAP: Record<string, string> = {
   "specific-fit": "Specific Fit",
   "multifunction": "Multifunction",
   "wiper-arm": "Wiper Arm",
+  "hybrid": "Hybrid",
 };
 
 const SLUG_MAP: Record<string, string> = {
@@ -18,6 +19,7 @@ const SLUG_MAP: Record<string, string> = {
   "Specific Fit": "specific-fit",
   "Multifunction": "multifunction",
   "Wiper Arm": "wiper-arm",
+  "Hybrid": "hybrid",
 };
 
 export default function ProductCategoryPage() {
