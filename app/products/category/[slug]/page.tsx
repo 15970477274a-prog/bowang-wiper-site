@@ -10,12 +10,14 @@ const CATEGORY_MAP: Record<string, string> = {
   "universal": "Universal",
   "specific-fit": "Specific Fit",
   "multifunction": "Multifunction",
+  "wiper-arm": "Wiper Arm",
 };
 
 const SLUG_MAP: Record<string, string> = {
   "Universal": "universal",
   "Specific Fit": "specific-fit",
   "Multifunction": "multifunction",
+  "Wiper Arm": "wiper-arm",
 };
 
 export default function ProductCategoryPage() {
