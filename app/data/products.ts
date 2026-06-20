@@ -396,6 +396,62 @@ export const allProducts: Product[] = [
       "Tool-free snap-on installation - replace in minutes without any tools"
     ]
   },
+  {
+    id: "bw-toyota-corolla-wiper-arm-93-96",
+    category: "Wiper Arm",
+    name: "Front Right Wiper Arm for Toyota Corolla 1993-1996 (RHD)",
+    moq: "100 PCS",
+    desc: "OEM replacement front right wiper arm for Toyota Corolla 1993-1996. Durable construction, direct fit, easy installation.",
+    longDesc: "This is a brand new front right wiper arm specifically designed for the 1993-1996 Toyota Corolla (RHD - Right Hand Drive). As a high-quality OEM replacement part, this wiper arm ensures a perfect fit and reliable performance for your windshield system. Crafted from premium materials with corrosion-resistant coating, it is built to last and provides clear visibility in all weather conditions. The direct replacement design makes installation quick and hassle-free - simply remove the old arm and attach this one. Maintains a secure connection with your wiper blade and ensures smooth, quiet operation. OE Part Number: 8521112300.",
+    specs: [
+      "Direct OEM Replacement - No Modification Required",
+      "Fits Toyota Corolla 1993-1996 (RHD - Right Hand Drive)",
+      "Premium Corrosion-Resistant Materials",
+      "Easy Installation - Direct Bolt-On Fit",
+      "Smooth and Quiet Operation",
+      "OE Part Number: 8521112300",
+      "1 Piece - Front Right Side"
+    ],
+    tag: "OEM Part",
+    image: "https://30558985.s21i.faiusr.com/4/ABUIABAEGAAgrtPRwwYo49Ch-QQw6Ac46Ac.png",
+    gallery: [],
+    technicalDetails: {
+      "Product Type": "Front Wiper Arm Assembly",
+      "Position": "Front Right (Passenger Side for RHD)",
+      "Vehicle Compatibility": "Toyota Corolla (1993-1996) RHD",
+      "Part Number": "8521112300",
+      "Material": "Premium Steel with Corrosion-Resistant Coating",
+      "Installation": "Direct Bolt-On Replacement",
+      "Fitment": "OEM Standard - No Modifications Required",
+      "HS Code": "85129000",
+      "OEM Service": "Custom Logo / Bulk Orders Available"
+    },
+    keywords: [
+      "Toyota Corolla wiper arm",
+      "front right wiper arm Corolla 1993",
+      "wiper arm replacement Toyota",
+      "Corolla windshield wiper arm",
+      "8521112300 wiper arm",
+      "OEM wiper arm Toyota",
+      "wiper arm assembly",
+      "China wiper arm manufacturer"
+    ],
+    applications: [
+      "Toyota Corolla (1993-1996) RHD",
+      "Asian Vehicle Aftermarket",
+      "OEM Replacement Parts",
+      "Southeast Asia & Japan Market"
+    ],
+    features: [
+      "Direct bolt-on OEM replacement - no modification or adapters needed",
+      "Premium steel construction with corrosion-resistant coating for long life",
+      "Maintains secure connection with wiper blade for consistent wiping pressure",
+      "Smooth and quiet operation in all weather conditions",
+      "Quick and hassle-free installation - replace in minutes",
+      "Ideal for Toyota Corolla owners seeking reliable OEM-quality replacement"
+    ]
+  },
+
 
 
 
