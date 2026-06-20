@@ -266,5 +266,72 @@ export const allProducts: Product[] = [
       "Tested for extreme weather conditions from -40°C to +100°C"
     ]
   },
+  {
+    id: "bw-204-mercedes-e-class-heated",
+    category: "Specific Fit",
+    name: "BW-204 Mercedes E-Class C238/A238 Heated Wiper Blade 24-inch + 21-inch (2017-2022)",
+    moq: "300 PCS",
+    desc: "Direct-fit heated front wiper blades for Mercedes-Benz E-Class C238/A238 (2017-2022). Water-spray compatible, OE-style fit, tool-free snap-on install.",
+    longDesc: "The BW-204 is a premium heated water-spray type windshield wiper blade set specifically designed for the Mercedes-Benz E-Class Coupe and Cabriolet (C238/A238, 2017-2022). These direct-fit replacement blades are engineered for vehicles equipped with heated wipers and integrated washer spray systems, matching the original system for all-weather visibility. The specific connector and profile for Mercedes arms means no adapters needed and no guesswork - genuine OEM look and seating. Precision rubber edge delivers quiet, streak-free wiping while the heated functionality ensures ice and snow clearance in winter conditions. Each set includes driver side 24-inch and passenger side 21-inch blades with tool-free snap-on installation. As a leading China wiper blade manufacturer, every BW-204 meets rigorous OE standards including salt spray, ozone, and cold resistance testing.",
+    specs: [
+      "Heated Water-Spray Type - Maintains Original Heating & Spray Function",
+      "OEM Fitment for Mercedes E-Class C238/A238 (2017-2022)",
+      "Direct-Fit Connector - No Adapters Required",
+      "Tool-Free Snap-On Installation",
+      "Premium Natural Rubber Wiping Edge",
+      "Memory Spring Steel Frame for Uniform Pressure",
+      "Anti-Ozone & UV Resistant Coating",
+      "24-inch (610mm) Driver Side + 21-inch (530mm) Passenger Side"
+    ],
+    tag: "New Arrival",
+    image: "https://30558985.s21i.faiusr.com/2/ABUIABACGAAg_ricxwYo4LbKlwMwuBc4uBc.jpg",
+    gallery: [
+      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAg_7icxwYo_IDonwYwuBc4uBc.jpg",
+      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAg_7icxwYopIO31QEwuBc4uBc.jpg",
+      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAg-LicxwYoqIDBhAIwuBc4uBc.jpg"
+    ],
+    technicalDetails: {
+      "Product Model": "BW-204",
+      "Compatibility": "Mercedes E-Class C238/A238 (2017-2022)",
+      "Wiper Type": "Heated Water-Spray Specific Fit Beam Blade",
+      "Heating Function": "Compatible with OEM Heated Wiper System",
+      "Spray Type": "Integrated Water-Spray System Compatible",
+      "Size Specifications": "24-inch (610mm) Driver Side & 21-inch (530mm) Passenger Side",
+      "Main Material": "Premium Natural Rubber",
+      "Steel Frame": "Memory Spring Steel",
+      "Installation": "Tool-Free Direct Snap-On (No Adapters)",
+      "Wipe Life": "Tested for 1.5 Million Wipes",
+      "Operating Temperature": "-40°C to +100°C",
+      "HS Code": "85124000",
+      "OEM Service": "Custom Logo / Custom Packaging Available"
+    },
+    keywords: [
+      "Mercedes E-Class wiper blades",
+      "C238 A238 wiper replacement",
+      "heated wiper blades Mercedes",
+      "water spray wiper E-Class",
+      "24 inch 21 inch wiper set Mercedes",
+      "direct fit Mercedes wiper",
+      "E-Class coupe cabriolet front wipers",
+      "China wiper blade manufacturer",
+      "BW-204 heated wiper"
+    ],
+    applications: [
+      "Mercedes E-Class C238 Coupe (2017-2022)",
+      "Mercedes E-Class A238 Cabriolet (2017-2022)",
+      "Luxury European Vehicle Aftermarket",
+      "OEM Replacement Market",
+      "Europe & North America Market"
+    ],
+    features: [
+      "Heated wiper function - clears ice and snow in winter conditions",
+      "Integrated water-spray compatible - maintains original washer system",
+      "Specific Mercedes connector profile - genuine OEM look and seating",
+      "Precision rubber edge for quiet, streak-free wiping",
+      "Memory spring steel maintains even pressure distribution across windshield",
+      "Tool-free snap-on installation - no adapters or special tools needed"
+    ]
+  },
+
 
 ];
