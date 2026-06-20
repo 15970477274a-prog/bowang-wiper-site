@@ -397,9 +397,9 @@ export const allProducts: Product[] = [
     ]
   },
   {
-    id: "bw-toyota-corolla-wiper-arm-93-96",
+    id: "bw-027-toyota-corolla-wiper-arm",
     category: "Wiper Arm",
-    name: "Front Right Wiper Arm for Toyota Corolla 1993-1996 (RHD)",
+    name: "BW-027 Front Right Wiper Arm for Toyota Corolla 1993-1996 (RHD)",
     moq: "100 PCS",
     desc: "OEM replacement front right wiper arm for Toyota Corolla 1993-1996. Durable construction, direct fit, easy installation.",
     longDesc: "This is a brand new front right wiper arm specifically designed for the 1993-1996 Toyota Corolla (RHD - Right Hand Drive). As a high-quality OEM replacement part, this wiper arm ensures a perfect fit and reliable performance for your windshield system. Crafted from premium materials with corrosion-resistant coating, it is built to last and provides clear visibility in all weather conditions. The direct replacement design makes installation quick and hassle-free - simply remove the old arm and attach this one. Maintains a secure connection with your wiper blade and ensures smooth, quiet operation. OE Part Number: 8521112300.",
@@ -416,6 +416,7 @@ export const allProducts: Product[] = [
     image: "https://30558985.s21i.faiusr.com/4/ABUIABAEGAAgrtPRwwYo49Ch-QQw6Ac46Ac.png",
     gallery: [],
     technicalDetails: {
+      "Product Model": "BW-027",
       "Product Type": "Front Wiper Arm Assembly",
       "Position": "Front Right (Passenger Side for RHD)",
       "Vehicle Compatibility": "Toyota Corolla (1993-1996) RHD",
@@ -432,9 +433,11 @@ export const allProducts: Product[] = [
       "wiper arm replacement Toyota",
       "Corolla windshield wiper arm",
       "8521112300 wiper arm",
+      "BW-027 Toyota Corolla wiper arm",
       "OEM wiper arm Toyota",
       "wiper arm assembly",
-      "China wiper arm manufacturer"
+      "China wiper arm manufacturer",
+      "BW-027 wiper arm"
     ],
     applications: [
       "Toyota Corolla (1993-1996) RHD",
