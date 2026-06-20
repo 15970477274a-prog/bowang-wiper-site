@@ -199,12 +199,12 @@ export const allProducts: Product[] = [
     ]
   },
   {
-    id: "bw-204-volvo-xc60-spray",
+    id: "bw-202-volvo-xc60-spray",
     category: "Specific Fit",
-    name: "BW-204 LELION Front Windshield Spray Wiper Blade for Volvo XC60 2018-2022",
+    name: "BW-202 LELION Front Windshield Spray Wiper Blade for Volvo XC60 2018-2022",
     moq: "300 PCS",
     desc: "OEM-grade spray-type windshield wiper blade specifically designed for Volvo XC60 (2018-2022) with integrated washer nozzle system.",
-    longDesc: "The BW-204 Front Windshield Spray Wiper Blade is engineered specifically for the Volvo XC60 (2018-2022). It features an innovative integrated spray-type nozzle system that delivers washer fluid directly along the blade path for crystal-clear visibility in all conditions. The aerodynamic design significantly reduces drag, noise and wind lift at highway speeds. Built with dual high-tenacity memory spring steel sheets and an asymmetrical wind spoiler, this blade delivers uniform pressure distribution and better windshield contact without leaving any gaps. Premium natural rubber with Teflon coating ensures streak-free wiping and whisper-quiet operation. As a leading China wiper blade manufacturer, every BW-204 meets rigorous OE standards including salt spray, ozone, and cold resistance testing. What You Get: Full set of 2 pieces (driver + passenger), easy installation instructions, and friendly customer service.",
+    longDesc: "The BW-202 Front Windshield Spray Wiper Blade is engineered specifically for the Volvo XC60 (2018-2022). It features an innovative integrated spray-type nozzle system that delivers washer fluid directly along the blade path for crystal-clear visibility in all conditions. The aerodynamic design significantly reduces drag, noise and wind lift at highway speeds. Built with dual high-tenacity memory spring steel sheets and an asymmetrical wind spoiler, this blade delivers uniform pressure distribution and better windshield contact without leaving any gaps. Premium natural rubber with Teflon coating ensures streak-free wiping and whisper-quiet operation. As a leading China wiper blade manufacturer, every BW-202 meets rigorous OE standards including salt spray, ozone, and cold resistance testing. What You Get: Full set of 2 pieces (driver + passenger), easy installation instructions, and friendly customer service.",
     specs: [
       "Integrated Spray-Type Nozzle System on Aerodynamic Spoiler",
       "OEM Fitment for Volvo XC60 (2018-2022)",
@@ -225,7 +225,7 @@ export const allProducts: Product[] = [
       "https://30558985.s21i.faiusr.com/2/ABUIABACGAAg08i2vQYo9KXWHTC4Fzi4Fw.jpg"
     ],
     technicalDetails: {
-      "Product Model": "BW-204",
+      "Product Model": "BW-202",
       "Compatibility": "Volvo XC60 (2018-2022) - Specific Fit",
       "Wiper Type": "Specific Fit Beam Blade with Integrated Spray Nozzles",
       "Nozzle Type": "Integrated Spray System on Aerodynamic Spoiler",
@@ -247,7 +247,7 @@ export const allProducts: Product[] = [
       "Volvo XC60 2019 2020 2021 2022 windshield wiper",
       "integrated spray wiper Volvo",
       "China wiper blade manufacturer",
-      "BW-204 wiper",
+      "BW-202 wiper",
       "Volvo SUV windshield wiper replacement"
     ],
     applications: [
