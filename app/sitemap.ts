@@ -33,7 +33,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     url: baseUrl + '/products/' + product.id,
     lastModified: new Date(),
     changeFrequency: 'weekly' as const,
-    priority: 0.6,
+    priority: 0.8,
   }));
 
   // 3. Blog routes
@@ -41,7 +41,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     url: baseUrl + '/blog/' + post.id,
     lastModified: new Date(post.date),
     changeFrequency: 'monthly' as const,
-    priority: 0.7,
+    priority: 0.8,
   }));
 
   return [...staticRoutes, ...categoryRoutes, ...productRoutes, ...blogRoutes];
