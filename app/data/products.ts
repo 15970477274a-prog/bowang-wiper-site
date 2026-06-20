@@ -589,5 +589,69 @@ export const allProducts: Product[] = [
       "Aerodynamic beam design ensures consistent pressure across curved rear windshields",
       "Rigorous factory testing: salt spray corrosion, ozone durability, cold flexibility"
     ]
+  },
+{
+    id: "bw-161-rear-wiper-blade",
+    category: "Rear Wiper",
+    name: "BW-161 Multi-Functional Rear Windshield Wiper Blade - Universal",
+    moq: "1000 PCS",
+    desc: "Wholesale multi-functional rear windshield wiper blade with universal fitment. Ideal for bulk distributors and OEM replacement market.",
+    longDesc: "The BW-161 is a wholesale-grade multi-functional rear windshield wiper blade designed for maximum vehicle coverage and durability. As a high-quality universal rear wiper solution, it is engineered to fit a wide range of vehicles including sedans, SUVs, hatchbacks, and wagons. The sleek black design matches original equipment specifications for seamless replacement. Built with durable synthetic rubber and an aerodynamic frame, the BW-161 ensures streak-free wiping and reliable performance in all weather conditions. With MOQ of 1000 PCS, it is ideal for bulk wholesale orders. As a trusted China wiper blade manufacturer, every BW-161 undergoes rigorous quality testing including salt spray corrosion, ozone durability, and cold flexibility tests. Full OEM/ODM support including custom logo, packaging, and private label available.",
+    specs: [
+      "Multi-Functional Rear Wiper Design",
+      "Universal Fitment - Fits Most Vehicles",
+      "Durable Synthetic Rubber Wiping Edge",
+      "Aerodynamic Frame Design",
+      "OE-Spec Design for Seamless Replacement",
+      "Bulk Wholesale - MOQ 1000 PCS",
+      "OEM/ODM: Custom Logo, Packaging, Private Label Available"
+    ],
+    tag: "Rear Wiper",
+    image: "https://30558985.s21i.faiusr.com/2/ABUIABACGAAg0vDQvQYo7L3S8QIwuBc4uBc.jpg",
+    gallery: [
+      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAg0vDQvQYo3NWu2QUwuBc4uBc.jpg",
+      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAg0vDQvQYo6I63lAMwuBc4uBc.jpg",
+      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAg0vDQvQYogPb2oQEw7gU4uwo.jpg"
+    ],
+    technicalDetails: {
+      "Product Model": "BW-161",
+      "Wiper Type": "Multi-Functional Rear Windshield Wiper Blade",
+      "Color": "Black",
+      "Frame Design": "Aerodynamic Beam Design",
+      "Rubber Material": "Durable Synthetic Rubber",
+      "Vehicle Coverage": "Universal Fit - Most Vehicles",
+      "MOQ": "1000 PCS",
+      "HS Code": "85124000",
+      "OEM Service": "Custom Logo / Custom Packaging Available"
+    },
+    keywords: [
+      "rear wiper blade",
+      "BW-161 rear wiper",
+      "multi-functional rear wiper",
+      "rear windshield wiper blade",
+      "rear wiper wholesale",
+      "universal rear wiper blade",
+      "BW-161 wiper blade",
+      "rear wiper blade manufacturer",
+      "China rear wiper factory",
+      "OEM rear wiper blade",
+      "bulk rear wiper wholesale",
+      "rear windshield wiper"
+    ],
+    applications: [
+      "Universal Fit - Sedans, SUVs, Hatchbacks, Wagons",
+      "OEM Replacement Market",
+      "Wholesale & Bulk Distribution",
+      "North America & Europe Aftermarket",
+      "Asia & Middle East Aftermarket"
+    ],
+    features: [
+      "Multi-functional rear wiper design for universal fitment across most vehicle models",
+      "Aerodynamic frame ensures consistent wiping pressure on curved rear windshields",
+      "Durable synthetic rubber wiping edge for long-lasting streak-free performance",
+      "OE-spec black design matches original equipment for seamless replacement",
+      "Bulk wholesale pricing available with MOQ of 1000 PCS",
+      "Full OEM/ODM support includes custom logo, retail packaging, and private label"
+    ]
   }
 ];
