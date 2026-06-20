@@ -198,4 +198,73 @@ export const allProducts: Product[] = [
       "Tested for extreme weather conditions from -40°C to +100°C"
     ]
   },
+  {
+    id: "bw-204-volvo-xc60-spray",
+    category: "Specific Fit",
+    name: "BW-204 LELION Front Windshield Spray Wiper Blade for Volvo XC60 2018-2022",
+    moq: "300 PCS",
+    desc: "OEM-grade spray-type windshield wiper blade specifically designed for Volvo XC60 (2018-2022) with integrated washer nozzle system.",
+    longDesc: "The BW-204 Front Windshield Spray Wiper Blade is engineered specifically for the Volvo XC60 (2018-2022). It features an innovative integrated spray-type nozzle system that delivers washer fluid directly along the blade path for crystal-clear visibility in all conditions. The aerodynamic design significantly reduces drag, noise and wind lift at highway speeds. Built with dual high-tenacity memory spring steel sheets and an asymmetrical wind spoiler, this blade delivers uniform pressure distribution and better windshield contact without leaving any gaps. Premium natural rubber with Teflon coating ensures streak-free wiping and whisper-quiet operation. As a leading China wiper blade manufacturer, every BW-204 meets rigorous OE standards including salt spray, ozone, and cold resistance testing. What You Get: Full set of 2 pieces (driver + passenger), easy installation instructions, and friendly customer service.",
+    specs: [
+      "Integrated Spray-Type Nozzle System on Aerodynamic Spoiler",
+      "OEM Fitment for Volvo XC60 (2018-2022)",
+      "Ultra-Low Noise Wiping with Asymmetrical Wind Spoiler",
+      "Plug & Play Installation - Direct Fit on Original Wiper Arm",
+      "Premium Natural Rubber Wiping Edge with Teflon Coating",
+      "Dual High-Tenacity Memory Spring Steel Frame",
+      "Anti-Ozone & UV Resistant Coating for Extended Life",
+      "Full Set: 2 Pieces (Driver Side + Passenger Side)"
+    ],
+    tag: "New Arrival",
+    image: "https://30558985.s21i.faiusr.com/2/ABUIABACGAAg08i2vQYorrq8mAUwuBc4uBc.jpg",
+    gallery: [
+      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAg08i2vQYo1LTonwMwuBc4uBc.jpg",
+      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAg08i2vQYo7Je6wwcwuBc4uBc.jpg",
+      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAg08i2vQYoguP74gcwuBc4uBc.jpg",
+      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAg08i2vQYo2OnjmQEwuBc4uBc.jpg",
+      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAg08i2vQYo9KXWHTC4Fzi4Fw.jpg"
+    ],
+    technicalDetails: {
+      "Product Model": "BW-204",
+      "Compatibility": "Volvo XC60 (2018-2022) - Specific Fit",
+      "Wiper Type": "Specific Fit Beam Blade with Integrated Spray Nozzles",
+      "Nozzle Type": "Integrated Spray System on Aerodynamic Spoiler",
+      "Size Specifications": "26-inch (660mm) Driver Side & 19-inch (480mm) Passenger Side",
+      "Main Material": "Premium Natural Rubber with Teflon Coating",
+      "Steel Frame": "Dual High-Tenacity Memory Spring Steel",
+      "Wind Spoiler": "Asymmetrical Design for Reduced Wind Lift",
+      "Installation": "Direct-Fit on OEM Wiper Arm (No Adapter Needed)",
+      "Wipe Life": "Tested for 1.5 Million Wipes",
+      "Operating Temperature": "-40°C to +100°C",
+      "HS Code": "85124000",
+      "OEM Service": "Custom Logo / Custom Packaging Available"
+    },
+    keywords: [
+      "Volvo XC60 wiper blade",
+      "XC60 spray wiper replacement",
+      "spray wiper blade Volvo 2018",
+      "specific fit wiper blade Volvo",
+      "Volvo XC60 2019 2020 2021 2022 windshield wiper",
+      "integrated spray wiper Volvo",
+      "China wiper blade manufacturer",
+      "BW-204 wiper",
+      "Volvo SUV windshield wiper replacement"
+    ],
+    applications: [
+      "Volvo XC60 (2018-2022)",
+      "Luxury SUV Aftermarket",
+      "OEM Replacement Market",
+      "Europe & North America Market",
+      "Nordic & Scandinavian Vehicle Market"
+    ],
+    features: [
+      "Integrated spray nozzles built into the asymmetrical spoiler eliminate traditional spray jets",
+      "Direct OEM replacement - engineered specifically for Volvo XC60 wiper arm connectors",
+      "Teflon-coated natural rubber wiping edge reduces friction and extends service life",
+      "Dual memory spring steel frame maintains 12+ contact points for even windshield pressure",
+      "Aerodynamic asymmetrical spoiler reduces wind lift at highway speeds (120km/h+)",
+      "Tested for extreme weather conditions from -40°C to +100°C"
+    ]
+  },
+
 ];
