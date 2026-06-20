@@ -522,5 +522,72 @@ export const allProducts: Product[] = [
       "Rigorous factory testing: salt spray corrosion, ozone durability, cold flexibility",
       "OEM cross-reference compatible with Denso Hybrid, Trico Sentry, Michelin Stealth, Bosch Vantage"
     ]
+  },
+{
+    id: "bw-160-rear-wiper-blade",
+    category: "Rear Wiper",
+    name: "BW-160 Multi-Functional Rear Wiper Blade - Universal Fit (98% Coverage)",
+    moq: "500 PCS",
+    desc: "Premium multi-functional rear wiper blade with universal adapter system covering 98% of vehicles. Ideal for wholesale distributors.",
+    longDesc: "The BW-160 is a high-performance multi-functional rear wiper blade designed for maximum vehicle coverage. With its specialized adapter system, the BW-160 fits 98% of original rear wiper arms, making it the perfect choice for automotive parts wholesalers looking to reduce inventory complexity. Features a precision-engineered OE-spec design that matches the look and performance of original equipment rear blades. The synthetic rubber wiping edge is treated with graphite for silent, long-lasting wiping in harsh environments. Universal Rear Fitment includes multiple adapters to fit various rear arm types including Rocker, Slide, Button types. As a trusted China wiper blade manufacturer, every BW-160 undergoes rigorous quality testing including salt spray corrosion, ozone durability, and cold flexibility tests. Available with full OEM/ODM support including custom logo and packaging.",
+    specs: [
+      "Multi-Adapter System - Fits 98% of Rear Wiper Arms",
+      "Universal Rear Fitment: Rocker, Slide, Button Types",
+      "OE-Spec Design - Matches OEM Performance",
+      "Graphite-Treated Synthetic Rubber for Silent Operation",
+      "Universal Adapter System for Maximum Coverage",
+      "Easy Installation - Quick Clip-On Design",
+      "Tested for Extreme Weather Conditions",
+      "OEM/ODM: Custom Logo, Packaging, Private Label Available"
+    ],
+    tag: "Rear Wiper",
+    image: "https://30558985.s21i.faiusr.com/4/ABUIABAEGAAgwpPQxAYooJLKoQQwuBc4uBc.png",
+    gallery: [
+      "https://30558985.s21i.faiusr.com/4/ABUIABAEGAAgmZ7QxAYosMW1iwUwuBc4uBc.png",
+      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAgxoCpygYokMjkmgEwgBs4gBI.jpg",
+      "https://30558985.s21i.faiusr.com/4/ABUIABAEGAAgrJeQyAYov_-RxAIwwQI4ywE.png"
+    ],
+    technicalDetails: {
+      "Product Model": "BW-160",
+      "Wiper Type": "Multi-Functional Rear Wiper Blade",
+      "Vehicle Coverage": "98% of Vehicles with Rear Wipers",
+      "Adapter Types": "Rocker, Slide, Button (Multiple Adapters Included)",
+      "Rubber Material": "Graphite-Treated Synthetic Rubber",
+      "Frame Design": "Aerodynamic Beam Design",
+      "Design Standard": "OE-Spec Design",
+      "Installation": "Quick Clip-On, Tool-Free",
+      "HS Code": "85124000",
+      "OEM Service": "Custom Logo / Custom Packaging Available"
+    },
+    keywords: [
+      "rear wiper blade",
+      "multi-functional rear wiper",
+      "BW-160 rear wiper",
+      "universal rear wiper blade",
+      "rear wiper blade manufacturer",
+      "rear wiper wholesale China",
+      "replacement rear wiper blade",
+      "OEM rear wiper blade",
+      "custom rear wiper manufacturer",
+      "China wiper blade factory",
+      "BW-160 wiper blade",
+      "rear windshield wiper blade"
+    ],
+    applications: [
+      "Universal Fit for Rear Wiper Arms (98% Coverage)",
+      "Sedans, SUVs, Hatchbacks, Wagons",
+      "OEM Replacement Market",
+      "North America & Europe Aftermarket",
+      "Asia & Middle East Aftermarket"
+    ],
+    features: [
+      "Multi-adapter system covers 98% of rear wiper arm types including Rocker, Slide, and Button",
+      "OE-spec design matches original equipment look and performance for seamless replacement",
+      "Graphite-treated synthetic rubber provides whisper-quiet, long-lasting wiping in harsh environments",
+      "Universal rear fitment reduces SKU complexity for wholesalers and distributors",
+      "Quick clip-on installation - tool-free replacement in seconds",
+      "Aerodynamic beam design ensures consistent pressure across curved rear windshields",
+      "Rigorous factory testing: salt spray corrosion, ozone durability, cold flexibility"
+    ]
   }
 ];

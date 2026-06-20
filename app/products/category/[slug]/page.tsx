@@ -11,6 +11,7 @@ const CATEGORY_MAP: Record<string, string> = {
   "specific-fit": "Specific Fit",
   "multifunction": "Multifunction",
   "wiper-arm": "Wiper Arm",
+  "rear-wiper": "Rear Wiper",
   "hybrid": "Hybrid",
 };
 
@@ -19,6 +20,7 @@ const SLUG_MAP: Record<string, string> = {
   "Specific Fit": "specific-fit",
   "Multifunction": "multifunction",
   "Wiper Arm": "wiper-arm",
+  "Rear Wiper": "rear-wiper",
   "Hybrid": "hybrid",
 };
 

@@ -20,7 +20,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }));
 
   // 2. Category routes
-  const categories = ['universal', 'specific-fit', 'multifunction', 'wiper-arm', 'hybrid'];
+  const categories = ['universal', 'specific-fit', 'multifunction', 'wiper-arm', 'hybrid', 'rear-wiper'];
   const categoryRoutes = categories.map((cat) => ({
     url: baseUrl + '/products/category/' + cat,
     lastModified: new Date(),
