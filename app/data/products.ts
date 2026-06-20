@@ -332,6 +332,71 @@ export const allProducts: Product[] = [
       "Tool-free snap-on installation - no adapters or special tools needed"
     ]
   },
+  {
+    id: "bw-205-volvo-v60-s60",
+    category: "Specific Fit",
+    name: "BW-205 Direct-Fit Wiper Blades for Volvo V60/S60 (2019-2022)",
+    moq: "300 PCS",
+    desc: "Direct-fit front windshield wiper blades for Volvo V60/S60 (2019-2022) and V60 Cross Country (2020-2022). Tool-free install, quiet and durable.",
+    longDesc: "The BW-205 is a premium direct-fit windshield wiper blade set specifically engineered for the Volvo V60, V60 Cross Country, and S60 models from 2019-2022. These beam-style blades feature dual memory spring steel for even pressure distribution across the entire windshield curvature, ensuring streak-free wiping performance. The aerodynamic spoiler significantly reduces wind drag, noise, and lift at highway speeds. Each blade features a graphite-coated natural rubber compound for low-noise, smooth gliding. Set includes driver and passenger side blades with tool-free snap-on installation. As a trusted China wiper blade manufacturer, every BW-205 undergoes rigorous quality testing including salt spray corrosion resistance, ozone durability, and cold flexibility tests before shipment.",
+    specs: [
+      "Direct-Fit for Volvo V60/S60 (2019-2022) & V60 CC (2020-2022)",
+      "Tool-Free Snap-On Installation",
+      "Beam-Style Design with Dual Memory Spring Steel",
+      "Graphite-Coated Natural Rubber for Low-Noise Wiping",
+      "Aerodynamic Spoiler - Reduces Wind Drag, Noise & Lift",
+      "Full-Contact Streak-Free Wipe",
+      "Set of 2: Driver Side + Passenger Side",
+      "6-Month Warranty & Customer Support"
+    ],
+    tag: "New Arrival",
+    image: "https://30558985.s21i.faiusr.com/2/ABUIABACGAAg9MCcxwYos5iaoAIwuBc4uBc.jpg",
+    gallery: [
+      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAg5sCcxwYovLHlwgQwuBc4uBc.jpg",
+      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAg5sCcxwYo8uKTlwUwuBc4uBc.jpg",
+      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAg6MCcxwYouqCLpQcwuBc4uBc.jpg"
+    ],
+    technicalDetails: {
+      "Product Model": "BW-205",
+      "Compatibility": "Volvo V60/S60 (2019-2022) & V60 Cross Country (2020-2022)",
+      "Wiper Type": "Beam-Style Direct-Fit Wiper Blade",
+      "Rubber Compound": "Graphite-Coated Natural Rubber",
+      "Frame Material": "Dual Memory Spring Steel",
+      "Spoiler": "Aerodynamic Asymmetrical Design",
+      "Installation": "Tool-Free Direct Snap-On",
+      "Set Includes": "Driver Side + Passenger Side (2 Pieces)",
+      "Wipe Life": "Tested for 1.5 Million Wipes",
+      "Operating Temperature": "-40°C to +100°C",
+      "HS Code": "85124000",
+      "OEM Service": "Custom Logo / Custom Packaging Available"
+    },
+    keywords: [
+      "Volvo V60 wiper blades",
+      "Volvo S60 windshield wiper replacement",
+      "direct fit wiper blades Volvo 2019",
+      "V60 Cross Country wiper blades",
+      "beam wiper blades Volvo",
+      "specific fit wiper blade Volvo",
+      "China wiper blade manufacturer",
+      "BW-205 wiper"
+    ],
+    applications: [
+      "Volvo V60 (2019-2022)",
+      "Volvo S60 (2019-2022)",
+      "Volvo V60 Cross Country (2020-2022)",
+      "Swedish Vehicle Aftermarket",
+      "Europe & North America Market"
+    ],
+    features: [
+      "Direct-fit beam-style design - no adapters or modifications needed",
+      "Dual memory spring steel maintains even pressure across entire windshield curve",
+      "Aerodynamic asymmetrical spoiler reduces wind lift and noise at highway speeds",
+      "Graphite-coated natural rubber for whisper-quiet, smooth gliding wipe",
+      "Full-contact streak-free wiping for clearer visibility in rain and snow",
+      "Tool-free snap-on installation - replace in minutes without any tools"
+    ]
+  },
+
 
 
 ];
