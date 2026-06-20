@@ -135,7 +135,7 @@ export const allProducts: Product[] = [
   {
     id: "bw-203",
     category: "Specific Fit",
-    name: "LELION Front Window Spray Wiper Blade for Mercedes Benz W222 (S-Class)",
+    name: "BW-203 LELION Front Window Spray Wiper Blade for Mercedes Benz W222 (S-Class)",
     moq: "300 PCS",
     desc: "OEM-grade spray-type windshield wiper blade specifically designed for Mercedes Benz S-Class W222 (2014-2020) with integrated washer nozzle system.",
     longDesc: "The LELION Front Window Spray Wiper Blade is engineered specifically for the Mercedes Benz S-Class W222 (2014-2020). It features an innovative integrated spray-type nozzle system built into the spoiler, delivering washer fluid directly along the blade path for crystal-clear visibility in all conditions. Built with premium-grade natural rubber and a precision-engineered buckle system, this blade offers a perfect plug-and-play fitment without any modifications. The aerodynamic spoiler design reduces wind lift at high speeds, ensuring consistent wiping pressure across the entire windshield. As a leading China wiper blade manufacturer, we ensure every blade meets rigorous OE standards including salt spray, ozone, and cold resistance testing. Available in 25-inch + 23-inch (driver + passenger) configuration. Please confirm your vehicle model before purchasing as this is a specific-fit application.",
