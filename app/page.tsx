@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
@@ -94,7 +94,7 @@ export default function Home() {
             <a href="/Catalog.pdf" target="_blank" style={{ color: "#38bdf8", textDecoration: "none", fontSize: "14px", fontWeight: 600 }}>{t.navCatalog}</a>
             <Link href="/contact" style={{ backgroundColor: "#0284c7", color: "#ffffff", padding: "8px 16px", borderRadius: "4px", textDecoration: "none", fontSize: "14px", fontWeight: "bold" }}>{t.navGetQuote}</Link>
             <select value={lang} onChange={(e) => handleLangChange(e.target.value as Locale)} style={{ backgroundColor: "#1e293b", color: "#ffffff", border: "1px solid #475569", padding: "6px 12px", borderRadius: "4px", cursor: "pointer", fontSize: "13px" }}>
-              <option value="en">English</option><option value="es">Espa帽ol</option><option value="ru">袪褍褋褋泻懈泄</option><option value="fr">Fran莽ais</option><option value="de">Deutsch</option>
+              <option value="en">English</option><option value="es">Español</option><option value="ru">Русский</option><option value="fr">Français</option><option value="de">Deutsch</option>
             </select>
           </nav>
         </div>
@@ -132,7 +132,7 @@ export default function Home() {
                <div style={{ padding: "30px" }}>
                  <h3 style={{ fontSize: "22px", fontWeight: 700, marginBottom: "15px" }}>{p.name}</h3>
                  <p style={{ color: "#64748b", fontSize: "15px", marginBottom: "25px", height: "45px", overflow: "hidden" }}>{p.desc}</p>
-                 <Link href={`/products/${p.id}`} style={{ color: "#0284c7", fontWeight: "bold", textDecoration: "none", fontSize: "15px" }}>Explore Detailed Specs 鈫?/Link>
+                 <Link href={`/products/${p.id}`} style={{ color: "#0284c7", fontWeight: "bold", textDecoration: "none", fontSize: "15px" }}>Explore Detailed Specs →</Link>
                </div>
             </div>
           ))}
