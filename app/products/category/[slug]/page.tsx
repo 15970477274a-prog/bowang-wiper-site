@@ -13,6 +13,7 @@ const CATEGORY_MAP: Record<string, string> = {
   "wiper-arm": "Wiper Arm",
   "rear-wiper": "Rear Wiper",
   "hybrid": "Hybrid",
+  "rear-wiper-combo": "Rear Wiper Combo",
 };
 
 const SLUG_MAP: Record<string, string> = {
@@ -21,7 +22,8 @@ const SLUG_MAP: Record<string, string> = {
   "Multifunction": "multifunction",
   "Wiper Arm": "wiper-arm",
   "Rear Wiper": "rear-wiper",
-  "Hybrid": "hybrid",
+  "hybrid": "Hybrid",
+  "rear-wiper-combo": "Rear Wiper Combo",
 };
 
 export default function ProductCategoryPage() {
