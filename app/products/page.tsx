@@ -92,7 +92,8 @@ export default function ProductsPage() {
                 <Link href="/products/category/multifunction" style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">Multifunction Wipers</li></Link>
                 <Link href="/products/category/wiper-arm" style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">Wiper Arms</li></Link>
                 <Link href="/products/category/hybrid" style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">Hybrid Wipers</li></Link>
-                <Link href="/products/category/rear-wiper" style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">Rear Wipers</li></Link>
+                <Link href="/products/category/rear-wiper" style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">Rear Wipers</li>
+              <li onClick={() => setActiveCategory("Rear Wiper Combo")} style={{ padding: "12px 16px", cursor: "pointer", borderRadius: "8px", marginBottom: "5px", fontSize: "14px", fontWeight: activeCategory === "Rear Wiper Combo" ? 700 : 500, backgroundColor: activeCategory === "Rear Wiper Combo" ? "#e0f2fe" : "transparent", color: activeCategory === "Rear Wiper Combo" ? "#0284c7" : "#475569" }}>Rear Wiper Combo</li></Link>
               </ul>
           </aside>
 

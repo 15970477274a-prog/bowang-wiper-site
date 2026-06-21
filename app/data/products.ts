@@ -784,7 +784,7 @@ export const allProducts: Product[] = [
 
   {
     id: "bw3002-mini-cooper-rear-wiper-arm",
-    category: "Wiper Arm",
+    category: "Rear Wiper Combo",
     name: "BW3002 Rear Wiper Blade Arm for MINI COOPER R50 R53 2001-2004",
     moq: "100 PCS",
     desc: "OEM-spec rear windshield wiper arm for MINI COOPER R50 R53 (2001-2004). Precision-engineered direct replacement with durable construction.",
