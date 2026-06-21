@@ -73,7 +73,7 @@ export default function ProductsPage() {
 
 
       {/* Banner */}
-      <section style={{ background: "linear-gradient(rgba(15,23,42,0.8), rgba(15,23,42,0.8)), url('https://sc02.alicdn.com/kf/H3fc79edf0c004afebbb2c992eb4cc6edX.png') center/cover no-repeat", padding: "60px 20px", color: "white", textAlign: "center", borderBottom: "1px solid #1e293b" }}>
+      <section style={{ background: "linear-gradient(rgba(15,23,42,0.8), rgba(15,23,42,0.8)), url('https://30558985.s21i.faiusr.com/2/ABUIABACGAAg08i2vQYorrq8mAUwuBc4uBc.jpg') center/cover no-repeat", padding: "60px 20px", color: "white", textAlign: "center", borderBottom: "1px solid #1e293b" }}>
         <h1 style={{ fontSize: "36px", fontWeight: 800, marginBottom: "15px" }}>Wholesale Wiper Blade Solutions</h1>
         <p style={{ color: "#94a3b8", maxWidth: "600px", margin: "0 auto" }}>Leading OEM/ODM manufacturer in China providing premium quality wiper components for global distributors.</p>
       </section>
