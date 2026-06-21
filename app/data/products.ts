@@ -841,4 +841,74 @@ export const allProducts: Product[] = [
       "ISO 9001 & IATF 16949 certified production ensures consistent automotive-grade quality"
     ]
   },
+  {
+    id: "bw-405-classic-frame-wiper-blade",
+    category: "Universal",
+    name: "LELION Classic Frame Wiper Blade Set BW-405 (12in.-28in.)",
+    moq: "300 PCS",
+    desc: "OEM-quality classic frame (bone) wiper blade set. Galvanized steel frame, premium natural rubber, universal fit, silent operation. Available in 12in.-28in. sizes.",
+    longDesc: "The BW-405 is a classic frame (bone) wiper blade set from LELION, engineered for universal fitment across a wide range of vehicles. Featuring a heavy-duty galvanized steel frame with anti-oxidation coating and premium natural rubber wiping edges, the BW-405 delivers reliable, streak-free performance in all weather conditions. The traditional frame design provides excellent pressure distribution across the windshield, while the universal U-Hook connector ensures compatibility with 98% of vehicles on the road. Available in sizes from 12 inches to 28 inches, this wiper blade is ideal for wholesale distributors, auto parts retailers, and fleet maintenance providers. Each set includes step-by-step installation instructions for quick, tool-free mounting. Backed by a 6-month warranty and manufactured to ISO 9001 and IATF 16949 standards, the BW-405 represents the perfect balance of quality and value in the classic wiper blade category.",
+    specs: [
+      "Classic Frame (Bone) Wiper Blade Design",
+      "Galvanized Steel Frame with Anti-Oxidation Coating",
+      "Premium Natural Rubber Wiping Edge",
+      "Universal U-Hook Connector - Fits 98% of Vehicles",
+      "Available in 12in. to 28in. Sizes",
+      "Silent and Smooth Wiping Performance",
+      "6-Month Warranty / ISO 9001 and IATF 16949 Certified"
+    ],
+    tag: "Universal",
+    image: "https://30558985.s21i.faiusr.com/2/ABUIABACGAAghvnLvQYovJmW7QYwuBc4uBc.jpg",
+    gallery: [
+      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAghvnLvQYojrLvuwcwuBc4uBc.jpg",
+      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAghfnLvQYo9sbrIjC4Fzi4Fw.jpg",
+      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAghfnLvQYo1qGhuQQwuBc4uBc.jpg",
+      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAghfnLvQYomN34uwcwuBc4uBc.jpg"
+    ],
+    technicalDetails: {
+      "Product Model": "BW-405",
+      "Wiper Type": "Classic Frame Wiper Blade (Bone Wiper)",
+      "Frame Material": "Galvanized Steel with Anti-Oxidation Coating",
+      "Rubber Material": "Premium Natural Rubber",
+      "Size Range": "12 inch (300mm) - 28 inch (700mm)",
+      "Connector Type": "Universal U-Hook",
+      "Color": "Black Frame + Black Rubber",
+      "Warranty": "6 Months",
+      "MOQ": "300 PCS",
+      "HS Code": "85124000",
+      "OEM Service": "Custom Logo / Custom Packaging Available"
+    },
+    keywords: [
+      "frame wiper blade",
+      "bone wiper blade",
+      "classic wiper blade",
+      "BW-405 wiper",
+      "universal wiper blade",
+      "galvanized steel wiper",
+      "natural rubber wiper",
+      "OEM wiper blade",
+      "LELION wiper",
+      "China wiper blade manufacturer",
+      "wholesale wiper blades",
+      "U-hook wiper blade",
+      "12 inch wiper blade",
+      "28 inch wiper blade"
+    ],
+    applications: [
+      "Passenger Cars (Universal U-Hook Fitment)",
+      "SUVs and Light Trucks",
+      "Fleet Maintenance",
+      "Auto Parts Retail and Wholesale",
+      "OEM Replacement Market"
+    ],
+    features: [
+      "Galvanized steel frame provides superior corrosion resistance and long-term durability",
+      "Premium natural rubber wiping edge ensures streak-free, silent wiping in all weather",
+      "Universal U-Hook connector fits 98% of vehicles without additional adapters",
+      "Traditional frame design distributes pressure evenly across the entire blade length",
+      "Available in sizes from 12 inch to 28 inch to cover virtually all passenger vehicles",
+      "Easy DIY installation with included step-by-step instructions - no tools required",
+      "Backed by 6-month warranty and manufactured to ISO 9001 and IATF 16949 standards"
+    ]
+  },
 ];
