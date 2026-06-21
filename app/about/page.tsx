@@ -67,7 +67,7 @@ export default function AboutPage() {
       {/* REPLACED WITH MODERN FACTORY PRODUCTION LINE BANNER */}
       <section style={{ 
         padding: "100px 20px", 
-        background: "linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.8)), url('https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=1600') center/cover no-repeat", 
+        background: "linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.8)), url('https://sc02.alicdn.com/kf/Hf62654b25ce145c596b525b489f1a81aW.png') center/cover no-repeat", 
         color: "white", 
         textAlign: "center" 
       }}>

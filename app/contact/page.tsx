@@ -78,7 +78,7 @@ export default function ContactPage() {
       {/* REPLACED WITH GLOBAL LOGISTICS / SHIPPING BANNER */}
       <section style={{ 
         padding: "100px 20px", 
-        background: "linear-gradient(rgba(15, 23, 42, 0.75), rgba(15, 23, 42, 0.75)), url('https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&q=80&w=1600') center/cover no-repeat", 
+        background: "linear-gradient(rgba(15, 23, 42, 0.75), rgba(15, 23, 42, 0.75)), url('https://sc02.alicdn.com/kf/Hb0410965e6194f008a583d7f500e1b7at.png') center/cover no-repeat", 
         color: "white", 
         textAlign: "center" 
       }}>
