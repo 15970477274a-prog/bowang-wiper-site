@@ -81,7 +81,7 @@ export default function Home() {
       <section id="hero" style={{ 
         padding: "140px 20px", 
         textAlign: "center", 
-        backgroundColor: "#0f172a", 
+        background: "linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.7)), url('https://silly-scarlet-g2b2cvpj.edgeone.dev/banner.png') center/cover no-repeat", 
         color: "white" 
       }}>
         <div style={{ maxWidth: "850px", margin: "0 auto" }}>
@@ -115,7 +115,7 @@ export default function Home() {
           ))}
         </div>
         <div style={{ textAlign: "center", marginTop: "60px" }}>
-           <Link href="/products" style={{ backgroundColor: "#0f172a", color: "white", padding: "15px 40px", borderRadius: "8px", textDecoration: "none", fontWeight: "bold" }}>Enter Full Product Center</Link>
+           <Link href="/products" style={{ background: "linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.7)), url('https://silly-scarlet-g2b2cvpj.edgeone.dev/banner.png') center/cover no-repeat", color: "white", padding: "15px 40px", borderRadius: "8px", textDecoration: "none", fontWeight: "bold" }}>Enter Full Product Center</Link>
         </div>
       </section>
 
