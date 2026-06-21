@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
@@ -46,7 +46,7 @@ export default function ProductCategoryPage() {
   };
 
   if (!category) {
-    return <div style={{padding:"100px",textAlign:"center"}}><h1>Category Not Found</h1><Link href="/products" style={{color:"#0284c7"}}>← All Products</Link></div>;
+    return <div style={{padding:"100px",textAlign:"center"}}><h1>Category Not Found</h1><Link href="/products" style={{color:"#0284c7"}}>? All Products</Link></div>;
   }
 
   const t = translations[lang];
@@ -95,7 +95,7 @@ export default function ProductCategoryPage() {
             <a href="/Catalog.pdf" target="_blank" className="nav-link" style={{color:"var(--accent-glow)",fontWeight:600}}>{t.navCatalog}</a>
             <Link href="/contact" className="nav-cta">{t.navGetQuote}</Link>
             <select value={lang} onChange={(e) => handleLangChange(e.target.value as Locale)} className="lang-select">
-              <option value="en">English</option><option value="es">Español</option><option value="ru">Русский</option><option value="fr">Français</option><option value="de">Deutsch</option>
+              <option value="en">English</option><option value="es">Espa?ol</option><option value="ru">???????</option><option value="fr">Fran?ais</option><option value="de">Deutsch</option>
             </select>
           </nav>
         </div>
@@ -108,7 +108,7 @@ export default function ProductCategoryPage() {
         <a href="/about" onClick={closeMobileMenu}>About</a>
         <a href="/contact" onClick={closeMobileMenu} className="nav-cta">Contact Us</a>
         <select value={lang} onChange={(e) => { handleLangChange(e.target.value as Locale); closeMobileMenu(); }} className="lang-select-mobile">
-          <option value="en">English</option><option value="es">Español</option><option value="ru">Русский</option><option value="fr">Français</option><option value="de">Deutsch</option>
+          <option value="en">English</option><option value="es">Espa?ol</option><option value="ru">???????</option><option value="fr">Fran?ais</option><option value="de">Deutsch</option>
         </select>
       </div>
 
@@ -166,7 +166,7 @@ export default function ProductCategoryPage() {
                           <ul style={{padding:0,margin:"0 0 25px 0",listStyle:"none"}}>
                             {product.specs.slice(0, 3).map((s, i) => (
                               <li key={i} style={{fontSize:"13.5px",color:"#475569",marginBottom:"8px",display:"flex",alignItems:"center"}}>
-                                <span style={{color:"#10b981",marginRight:"10px"}}>✓</span> {s}
+                                <span style={{color:"#10b981",marginRight:"10px"}}>?</span> {s}
                               </li>
                             ))}
                           </ul>
@@ -194,7 +194,7 @@ export default function ProductCategoryPage() {
                         fontSize:"14px",fontWeight:600,transition:"all 0.2s"
                       }}
                     >
-                      ← Prev
+                      ? Prev
                     </button>
                     {Array.from({length: Math.ceil(filtered.length / ITEMS_PER_PAGE)}, (_, i) => i + 1).map(page => (
                       <button key={page} onClick={() => setCurrentPage(page)}
@@ -217,7 +217,7 @@ export default function ProductCategoryPage() {
                         fontSize:"14px",fontWeight:600,transition:"all 0.2s"
                       }}
                     >
-                      Next →
+                      Next ?
                     </button>
                   </div>
                 </>
