@@ -21,6 +21,10 @@ const nextConfig = {
       },
       {
         protocol: "https",
+        hostname: "*.edgeone.dev",
+      },
+      {
+        protocol: "https",
         hostname: "*.r2.dev",
       },
     ],
@@ -30,7 +34,6 @@ const nextConfig = {
   },
   async headers() {
     return [
-      // Security headers for all routes
       {
         source: "/(.*)",
         headers: [
@@ -44,7 +47,7 @@ const nextConfig = {
               "default-src 'self'",
               "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://analytics.ahrefs.com",
               "style-src 'self' 'unsafe-inline'",
-              "img-src 'self' https://sc02.alicdn.com https://*.faiusr.com https://*.r2.dev https://images.unsplash.com data:",
+              "img-src 'self' https://sc02.alicdn.com https://*.faiusr.com https://*.r2.dev https://images.unsplash.com https://*.edgeone.dev data:",
               "font-src 'self'",
               "connect-src 'self' https://www.google-analytics.com https://analytics.ahrefs.com",
               "frame-src 'self'",
@@ -55,25 +58,16 @@ const nextConfig = {
           },
         ],
       },
-
-      // Cache for image assets
       {
         source: "/:path*.(png|jpg|jpeg|gif|webp|avif|ico|svg)",
         headers: [
-          {
-            key: "Cache-Control",
-            value: "public, max-age=86400, stale-while-revalidate=604800",
-          },
+          { key: "Cache-Control", value: "public, max-age=86400, stale-while-revalidate=604800" },
         ],
       },
-      // Cache for PDF and font assets
       {
         source: "/:path*.(pdf|woff|woff2)",
         headers: [
-          {
-            key: "Cache-Control",
-            value: "public, max-age=86400, stale-while-revalidate=604800",
-          },
+          { key: "Cache-Control", value: "public, max-age=86400, stale-while-revalidate=604800" },
         ],
       },
     ];
