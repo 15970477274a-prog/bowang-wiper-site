@@ -653,5 +653,192 @@ export const allProducts: Product[] = [
       "Bulk wholesale pricing available with MOQ of 1000 PCS",
       "Full OEM/ODM support includes custom logo, retail packaging, and private label"
     ]
-  }
+  },
+
+  {
+    id: "bw-001-audi-q7-rhd-wiper-arm",
+    category: "Wiper Arm",
+    name: "BW-001 Front Windshield RHD Wiper Arm for AUDI Q7 2007-2016",
+    moq: "10 PCS",
+    desc: "OEM-grade front windshield RHD (Right Hand Drive) wiper arm specifically designed for Audi Q7 2007-2016. Direct fit replacement, black finish.",
+    longDesc: "The BW-001 is a precision-engineered front windshield wiper arm for Audi Q7 (2007-2016) in RHD configuration. Manufactured to strict OE specifications, this wiper arm ensures perfect fitment and reliable wiping performance. The durable black finish provides corrosion resistance and maintains the factory appearance. As part of Bowang's comprehensive wiper arm lineup, the BW-001 delivers the same quality and durability that global distributors have trusted since 2011. Ideal for the European, Australian, and other RHD markets.",
+    specs: [
+      "Front Windshield RHD (Right Hand Drive) Configuration",
+      "Specific Fit for Audi Q7 2007-2016",
+      "OE-Spec Design for Direct Replacement",
+      "Durable Black Corrosion-Resistant Finish",
+      "Precision-Engineered for Perfect Fitment",
+      "Low MOQ - 10 PCS for New Partnerships",
+      "ISO 9001 & IATF 16949 Certified Manufacturing"
+    ],
+    tag: "Wiper Arm",
+    image: "https://30558985.s21i.faiusr.com/2/ABUIABACGAAgr-usvwYokMvmogcwuBc4uBc.jpg",
+    gallery: [
+      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAgi6WUvwYov5W02wIwuBc4uBc.jpg"
+    ],
+    technicalDetails: {
+      "Product Model": "BW-001",
+      "Compatibility": "Audi Q7 2007-2016 - RHD Specific Fit",
+      "Wiper Type": "Front Windshield Wiper Arm",
+      "Drive Configuration": "RHD (Right Hand Drive)",
+      "Color": "Black",
+      "Material": "High-Strength Steel with Corrosion-Resistant Coating",
+      "Installation": "Direct OE Replacement - No Modification Required",
+      "MOQ": "10 PCS",
+      "HS Code": "85124000",
+      "OEM Service": "Custom Logo / Custom Packaging Available"
+    },
+    keywords: [
+      "Audi Q7 wiper arm",
+      "RHD wiper arm",
+      "front windshield wiper arm",
+      "BW-001 wiper arm",
+      "Audi wiper arm replacement",
+      "wiper arm manufacturer China",
+      "OEM wiper arm",
+      "Audi Q7 2007-2016 wiper",
+      "right hand drive wiper arm",
+      "China wiper arm factory",
+      "Bowang wiper arm",
+      "automotive wiper arm wholesale"
+    ],
+    applications: [
+      "Audi Q7 2007-2016 (RHD Models)",
+      "European Aftermarket (UK, Ireland, Malta, Cyprus)",
+      "Australian & New Zealand Aftermarket",
+      "Japanese & Southeast Asian RHD Markets",
+      "OEM Replacement Market"
+    ],
+    features: [
+      "Precision-engineered RHD configuration for perfect Audi Q7 fitment (2007-2016)",
+      "OE-spec design ensures seamless direct replacement without vehicle modification",
+      "Durable black corrosion-resistant coating for long-lasting factory appearance",
+      "High-strength steel construction maintains consistent spring tension",
+      "Low MOQ of 10 PCS ideal for new distributor partnerships and sample orders",
+      "ISO 9001 & IATF 16949 certified manufacturing ensures automotive-grade quality"
+    ]
+  },
+
+  {
+    id: "bw-002-audi-q7-lhd-wiper-arm",
+    category: "Wiper Arm",
+    name: "BW-002 Front Windshield Wiper Arm for AUDI Q7 (LHD) 2007-2016",
+    moq: "10 PCS",
+    desc: "OEM-grade front windshield LHD (Left Hand Drive) wiper arm for Audi Q7 2007-2016. Direct replacement with corrosion-resistant black finish, low MOQ.",
+    longDesc: "The BW-002 is a precision-manufactured front windshield wiper arm designed for Audi Q7 (2007-2016) in LHD configuration. Featuring high-strength steel construction with a durable black anti-corrosion coating, this OE-spec replacement arm ensures perfect fit and reliable performance. As part of Bowang's comprehensive wiper arm series, the BW-002 serves the Americas, Europe, China, and other LHD markets. Backed by ISO 9001 & IATF 16949 certified manufacturing, this wiper arm meets the highest automotive quality standards. Low MOQ of 10 PCS makes it ideal for new distributor partnerships.",
+    specs: [
+      "Front Windshield LHD (Left Hand Drive) Configuration",
+      "Exact Fit for Audi Q7 2007-2016 Models",
+      "OE-Spec Direct Replacement Design",
+      "High-Strength Steel with Anti-Corrosion Black Coating",
+      "Precision Manufacturing for Perfect Fitment",
+      "Low MOQ - 10 PCS",
+      "ISO 9001 & IATF 16949 Certified Production"
+    ],
+    tag: "Wiper Arm",
+    image: "https://30558985.s21i.faiusr.com/2/ABUIABACGAAgxJSUvwYou7KG_gYwuBc4uBc.jpg",
+    gallery: [
+      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAgnZyUvwYozsncuwQwuBc4uBc.jpg",
+      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAg5JuUvwYo4OiTogQwuBc4uBc.jpg"
+    ],
+    technicalDetails: {
+      "Product Model": "BW-002",
+      "Compatibility": "Audi Q7 2007-2016 - LHD Specific Fit",
+      "Wiper Type": "Front Windshield Wiper Arm",
+      "Drive Configuration": "LHD (Left Hand Drive)",
+      "Color": "Black",
+      "Material": "High-Strength Steel with Anti-Corrosion Coating",
+      "Installation": "Direct OE Replacement",
+      "MOQ": "10 PCS",
+      "HS Code": "85124000",
+      "OEM Service": "Custom Logo / Custom Packaging Available"
+    },
+    keywords: [
+      "Audi Q7 LHD wiper arm",
+      "BW-002 wiper arm",
+      "front windshield wiper arm",
+      "left hand drive wiper arm",
+      "Audi Q7 replacement wiper",
+      "wiper arm manufacturer China",
+      "OEM wiper arm Audi",
+      "Bowang wiper arm",
+      "China wiper arm factory",
+      "automotive wiper arm wholesale"
+    ],
+    applications: [
+      "Audi Q7 2007-2016 (LHD Models)",
+      "North American Aftermarket",
+      "European LHD Markets (Germany, France, Italy, Spain)",
+      "China & Asian LHD Markets",
+      "OEM Replacement Market"
+    ],
+    features: [
+      "Precision-engineered LHD configuration for Audi Q7 2007-2016 perfect fitment",
+      "OE-spec design enables tool-free direct replacement without vehicle modification",
+      "High-strength steel with durable black anti-corrosion coating for long service life",
+      "Consistent spring tension maintained through premium material selection",
+      "Low MOQ of 10 PCS ideal for new distributor sampling and market testing",
+      "ISO 9001 & IATF 16949 certified manufacturing ensures automotive-grade quality"
+    ]
+  },
+
+  {
+    id: "bw3002-mini-cooper-rear-wiper-arm",
+    category: "Wiper Arm",
+    name: "BW3002 Rear Wiper Blade Arm for MINI COOPER R50 R53 2001-2004",
+    moq: "100 PCS",
+    desc: "OEM-spec rear windshield wiper arm for MINI COOPER R50 R53 (2001-2004). Precision-engineered direct replacement with durable construction.",
+    longDesc: "The BW3002 is a precision rear wiper arm designed specifically for MINI COOPER R50 and R53 models (2001-2004). Manufactured to strict OE specifications, this rear wiper arm ensures perfect noise-free operation and streak-free wiping for the distinctive MINI rear windshield. The compact design maintains the vehicle's iconic look while delivering reliable performance. As a trusted China wiper blade and arm manufacturer, Bowang Autoparts ensures every BW3002 meets rigorous quality standards including salt spray corrosion testing and mechanical durability testing. Ideal for European aftermarket distributors specializing in German and British vehicle parts.",
+    specs: [
+      "Specific Fit for MINI COOPER R50 R53 2001-2004",
+      "Rear Windshield Wiper Arm Configuration",
+      "OE-Spec Design for Direct Replacement",
+      "Durable Weather-Resistant Construction",
+      "Precision-Engineered for MINI Factory Fitment",
+      "Bulk Wholesale - MOQ 100 PCS",
+      "ISO 9001 & IATF 16949 Certified Manufacturing"
+    ],
+    tag: "Wiper Arm",
+    image: "https://30558985.s21i.faiusr.com/2/ABUIABACGAAgtsiEvgYow7nr6wQwuBc4uBc.jpg",
+    gallery: [],
+    technicalDetails: {
+      "Product Model": "BW3002",
+      "Compatibility": "MINI COOPER R50 R53 2001-2004 - Rear",
+      "Wiper Type": "Rear Windshield Wiper Arm",
+      "Vehicle Brand": "MINI / BMW Group",
+      "Color": "Black",
+      "Material": "High-Strength Steel with Weather-Resistant Coating",
+      "Installation": "Direct OE Replacement",
+      "MOQ": "100 PCS",
+      "HS Code": "85124000",
+      "OEM Service": "Custom Logo / Custom Packaging Available"
+    },
+    keywords: [
+      "MINI COOPER rear wiper arm",
+      "MINI R50 R53 wiper",
+      "BW3002 wiper arm",
+      "rear wiper arm MINI",
+      "MINI Cooper replacement wiper",
+      "wiper arm manufacturer China",
+      "OEM MINI wiper arm",
+      "Bowang wiper arm",
+      "British car wiper parts",
+      "European car wiper arm wholesale"
+    ],
+    applications: [
+      "MINI COOPER R50 (2001-2004) - Rear",
+      "MINI COOPER R53 (2001-2004) - Rear",
+      "European Aftermarket",
+      "British & German Vehicle Specialists",
+      "OEM Replacement Market"
+    ],
+    features: [
+      "Exact-fit OE-spec design for MINI COOPER R50 R53 rear windshield (2001-2004)",
+      "Precision-engineered to maintain MINI's iconic compact rear wiper profile",
+      "Durable weather-resistant construction ensures long service life in European climates",
+      "Direct bolt-on replacement - no modification or adapters required",
+      "Bulk wholesale available with MOQ of 100 PCS for established distributors",
+      "ISO 9001 & IATF 16949 certified production ensures consistent automotive-grade quality"
+    ]
+  },
 ];
