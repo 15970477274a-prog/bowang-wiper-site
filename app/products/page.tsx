@@ -138,7 +138,7 @@ export default function ProductsPage() {
                     <ul style={{ padding: 0, margin: "0 0 25px 0", listStyle: "none" }}>
                       {p.specs.slice(0, 3).map((s, i) => (
                         <li key={i} style={{ fontSize: "13.5px", color: "#475569", marginBottom: "8px", display: "flex", alignItems: "center" }}>
-                          <span style={{ color: "#10b981", marginRight: "10px" }}>?</span> {s}
+                          <span style={{ color: "#10b981", marginRight: "10px" }}>✓</span> {s}
                         </li>
                       ))}
                     </ul>
