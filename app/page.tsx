@@ -81,7 +81,7 @@ export default function Home() {
       <section id="hero" style={{ 
         padding: "140px 20px", 
         textAlign: "center", 
-        background: "linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.7)), url('https://silly-scarlet-g2b2cvpj.edgeone.dev/banner.png') center/cover no-repeat", 
+        backgroundColor: "#0f172a", 
         color: "white" 
       }}>
         <div style={{ maxWidth: "850px", margin: "0 auto" }}>
