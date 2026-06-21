@@ -206,11 +206,11 @@ export default function ProductCategoryPage() {
         </div>
       </section>
 
-      <section className="section section-alt text-center">
-        <div className="container-narrow">
-          <h2 style={{fontSize:"28px",fontWeight:800,marginBottom:"15px"}}>Need a Custom Solution?</h2>
-          <p className="section-subtitle">We offer OEM/ODM services with custom branding, packaging, and formulations.</p>
-          <Link href="/contact" className="btn-primary-lg">Contact Our Team</Link>
+      <section style={{ padding: "60px 20px", backgroundColor: "#f8fafc", textAlign: "center" }}>
+        <div style={{ maxWidth: "600px", margin: "0 auto" }}>
+          <h2 style={{ fontSize: "28px", fontWeight: 800, color: "#0f172a", marginBottom: "16px" }}>Need a Custom Solution?</h2>
+          <p style={{ fontSize: "16px", color: "#64748b", lineHeight: "1.7", marginBottom: "30px", maxWidth: "480px", marginLeft: "auto", marginRight: "auto" }}>We offer OEM/ODM services with custom branding, packaging, and formulations.</p>
+          <Link href="/contact" style={{ display: "inline-block", backgroundColor: "#0284c7", color: "#ffffff", padding: "14px 36px", borderRadius: "8px", fontSize: "16px", fontWeight: 600, textDecoration: "none" }}>Contact Our Team</Link>
         </div>
       </section>
 <a href="https://wa.me/8618867886795" target="_blank" rel="noopener noreferrer" className="whatsapp-float">
