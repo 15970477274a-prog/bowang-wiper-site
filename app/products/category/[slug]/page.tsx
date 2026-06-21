@@ -107,7 +107,7 @@ export default function ProductCategoryPage() {
                 <Link href="/products" style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">All Wipers</li></Link>
                 {Object.entries(CATEGORY_MAP).map(([s, c]) => (
                   <Link key={s} href={"/products/category/" + s} style={{textDecoration:"none",color:"inherit"}}>
-                    <li className={"sidebar-item" + (s === slug ? " active" : "")}>{c} Wipers</li>
+                    <li className={"sidebar-item" + (s === slug ? " active" : "")}>{c === "Wiper Arm" ? c : `${c} Wipers`}</li>
                   </Link>
                 ))}
               </ul>
