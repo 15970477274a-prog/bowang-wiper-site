@@ -1,19 +1,82 @@
-/** @type {import('next').NextConfig} */
+﻿/** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    // Allows loading images from Cloudflare R2 default domains and your custom subdomain
-    unoptimized: true, // Set to true to allow easy hosting and export
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "**.lelionautopart.com",
+        hostname: "*.lelionautopart.com",
       },
       {
         protocol: "https",
-        hostname: "pub-*.r2.dev", // Cloudflare R2 public dev bucket pattern
+        hostname: "sc02.alicdn.com",
+      },
+      {
+        protocol: "https",
+        hostname: "images.unsplash.com",
+      },
+      {
+        protocol: "https",
+        hostname: "*.faiusr.com",
+      },
+      {
+        protocol: "https",
+        hostname: "*.r2.dev",
       },
     ],
+    formats: ["image/avif", "image/webp"],
+    deviceSizes: [480, 640, 768, 1024, 1280, 1536],
+    imageSizes: [128, 256, 384],
+  },
+  async headers() {
+    return [
+      // Security headers for all routes
+      {
+        source: "/(.*)",
+        headers: [
+          { key: "X-Content-Type-Options", value: "nosniff" },
+          { key: "X-Frame-Options", value: "SAMEORIGIN" },
+          { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
+          { key: "X-XSS-Protection", value: "1; mode=block" },
+          {
+            key: "Content-Security-Policy",
+            value: [
+              "default-src 'self'",
+              "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://analytics.ahrefs.com",
+              "style-src 'self' 'unsafe-inline'",
+              "img-src 'self' https://sc02.alicdn.com https://*.faiusr.com https://*.r2.dev https://images.unsplash.com data:",
+              "font-src 'self'",
+              "connect-src 'self' https://www.google-analytics.com https://analytics.ahrefs.com",
+              "frame-src 'self'",
+              "object-src 'none'",
+              "base-uri 'self'",
+              "form-action 'self'",
+            ].join("; "),
+          },
+        ],
+      },
+
+      // Cache for image assets
+      {
+        source: "/:path*.(png|jpg|jpeg|gif|webp|avif|ico|svg)",
+        headers: [
+          {
+            key: "Cache-Control",
+            value: "public, max-age=86400, stale-while-revalidate=604800",
+          },
+        ],
+      },
+      // Cache for PDF and font assets
+      {
+        source: "/:path*.(pdf|woff|woff2)",
+        headers: [
+          {
+            key: "Cache-Control",
+            value: "public, max-age=86400, stale-while-revalidate=604800",
+          },
+        ],
+      },
+    ];
   },
 };
 

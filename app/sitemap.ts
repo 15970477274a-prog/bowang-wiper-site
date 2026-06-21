@@ -1,4 +1,4 @@
-import { MetadataRoute } from 'next';
+﻿import { MetadataRoute } from 'next';
 import { allProducts } from './data/products';
 import { blogPosts } from './data/blog';
 
