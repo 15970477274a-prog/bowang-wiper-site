@@ -58,31 +58,7 @@ export default function ProductsPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
-
-      {/* Navigation Header */}
-      <header className="header">
-        <div className="header-inner">
-          <div className="header-brand">
-            <span className="header-title">BOWANG WIPER</span>
-            <span className="header-subtitle">Autoparts Manufacturer</span>
-          </div>
-          <button className={"hamburger" + (mobileMenu ? " open" : "")} onClick={() => setMobileMenu(!mobileMenu)} aria-label="Toggle navigation menu">
-            <span></span><span></span><span></span>
-          </button>
-          <nav className="nav">
-            <Link href="/" className="nav-link">{t.navHome}</Link>
-            <Link href="/products" className="nav-link active">{t.navProducts}</Link>
-            <Link href="/blog" className="nav-link">Blog</Link>
-            <Link href="/about" className="nav-link">{t.navAboutUs}</Link>
-            <a href="/Catalog.pdf" target="_blank" className="nav-link" style={{color:"var(--accent-glow)",fontWeight:600}}>{t.navCatalog}</a>
-            <Link href="/contact" style={{ backgroundColor: "#0284c7", color: "#ffffff", padding: "8px 16px", borderRadius: "4px", textDecoration: "none", fontSize: "14px", fontWeight: "bold" }}>{t.navGetQuote}</Link>
-            <select value={lang} onChange={(e) => handleLangChange(e.target.value as Locale)} className="lang-select">
-              <option value="en">English</option><option value="es">Espa?ol</option><option value="ru">???????</option><option value="fr">Fran?ais</option><option value="de">Deutsch</option>
-            </select>
-          </nav>
-        </div>
-      </header>
-      {/* Mobile Menu Overlay */}
+{/* Mobile Menu Overlay */}
       <div className={"mobile-menu-overlay" + (mobileMenu ? " open" : "")}>
         <a href="/" onClick={closeMobileMenu}>{t.navHome}</a>
         <a href="/products" onClick={closeMobileMenu}>{t.navProducts}</a>

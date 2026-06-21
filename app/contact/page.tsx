@@ -59,23 +59,7 @@ export default function ContactPage() {
 
   return (
     <main style={{ fontFamily: "system-ui, -apple-system, sans-serif", color: "#1e293b", backgroundColor: "#ffffff" }}>
-      
-      <header style={{ backgroundColor: "#0f172a", color: "#ffffff", position: "sticky", top: 0, zIndex: 100 }}>
-        <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "15px 20px", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-          <Link href="/" style={{ color: "white", textDecoration: "none", fontWeight: "bold", fontSize: "18px" }}>BOWANG WIPER</Link>
-          <nav style={{ display: "flex", gap: "20px", alignItems: "center" }}>
-            <Link href="/" style={{ color: "#f8fafc", textDecoration: "none", fontSize: "14px" }}>{t.navHome}</Link>
-            <Link href="/products" style={{ color: "#f8fafc", textDecoration: "none", fontSize: "14px" }}>{t.navProducts}</Link>
-            <Link href="/about" style={{ color: "#f8fafc", textDecoration: "none", fontSize: "14px" }}>{t.navAboutUs}</Link>
-            <Link href="/contact" style={{ color: "#38bdf8", textDecoration: "none", fontSize: "14px", fontWeight: "bold" }}>{t.navGetQuote}</Link>
-            <select value={lang} onChange={(e) => handleLangChange(e.target.value as Locale)} style={{ backgroundColor: "#1e293b", color: "#ffffff", border: "1px solid #475569", padding: "6px 12px", borderRadius: "4px", fontSize: "12px" }}>
-               <option value="en">English</option><option value="es">Espa帽ol</option><option value="ru">袪褍褋褋泻懈泄</option><option value="fr">Fran莽ais</option><option value="de">Deutsch</option>
-            </select>
-          </nav>
-        </div>
-      </header>
-
-      {/* REPLACED WITH GLOBAL LOGISTICS / SHIPPING BANNER */}
+{/* REPLACED WITH GLOBAL LOGISTICS / SHIPPING BANNER */}
       <section style={{ 
         padding: "100px 20px", 
         background: "linear-gradient(rgba(15, 23, 42, 0.75), rgba(15, 23, 42, 0.75)), url('https://sc02.alicdn.com/kf/Hb0410965e6194f008a583d7f500e1b7at.png') center/cover no-repeat", 
