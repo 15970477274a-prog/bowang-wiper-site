@@ -114,10 +114,6 @@ export default function ContactPage() {
       <section style={{ height: "450px", width: "100%", backgroundColor: "#f1f5f9" }}>
          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108846.54924734346!2d121.49391033671239!3d29.98632662058356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x344d799015099f67%3A0x6b4430e461244517!2sZhenhai%20District%2C%20Ningbo%2C%20Zhejiang%2C%20China!5e0!3m2!1sen!2sus!4v1717891234567!5m2!1sen!2sus" width="100%" height="100%" style={{ border: 0 }} allowFullScreen={true} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
       </section>
-
-      <footer style={{ backgroundColor: "#0f172a", color: "#94a3b8", padding: "60px 20px", textAlign: "center" }}>
-        <p style={{ fontSize: "12px" }}>&copy; 2026 Ningbo Zhenhai Bowang Autoparts Co., Ltd. All rights reserved.</p>
-      </footer>
-    </main>
+</main>
   );
 }
