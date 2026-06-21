@@ -114,7 +114,7 @@ export default function ContactPage() {
 
 
       {/* Hero */}
-      <section style={{ padding: "80px 20px", backgroundColor: "#0f172a", color: "white", textAlign: "center" }}>
+      <section style={{ padding: "80px 20px", color: "white", textAlign: "center", background: "linear-gradient(rgba(15,23,42,0.85), rgba(15,23,42,0.85)), url('https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=1920&q=80') center/cover no-repeat" }}>
         <h1 style={{ fontSize: "42px", fontWeight: 800, marginBottom: "15px" }}>{t.contactPageTitle}</h1>
         <p style={{ color: "#94a3b8", maxWidth: "700px", margin: "0 auto" }}>{t.contactPageDesc}</p>
       </section>

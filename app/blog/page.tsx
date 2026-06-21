@@ -97,7 +97,7 @@ export default function BlogPage() {
 
 
       {/* Banner */}
-      <section style={{ backgroundColor: "#0f172a", padding: "80px 20px", color: "white", textAlign: "center", borderBottom: "1px solid #1e293b" }}>
+      <section style={{padding: "80px 20px", color: "white", textAlign: "center", borderBottom: "1px solid #1e293b", background: "linear-gradient(rgba(15,23,42,0.8), rgba(15,23,42,0.8)), url('https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1920&q=80') center/cover no-repeat" }}>
         <h1 style={{ fontSize: "42px", fontWeight: 800, marginBottom: "15px" }}>Wiper Blade Industry Blog</h1>
         <p style={{ color: "#94a3b8", maxWidth: "650px", margin: "0 auto", fontSize: "16px", lineHeight: 1.6 }}>
           Industry insights, buying guides, and technical articles from a leading Chinese wiper blade manufacturer.

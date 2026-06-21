@@ -101,7 +101,7 @@ export default function AboutPage() {
       {/* Hero / Banner */}
       <section style={{ 
         padding: "100px 20px", 
-        background: "linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.85)), url('https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80') center/cover no-repeat", 
+        background: "linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.85)), url('https://images.unsplash.com/photo-1507003211169-a6a2a5aee158?auto=format&fit=crop&q=80') center/cover no-repeat", 
         color: "white", 
         textAlign: "center" 
       }}>

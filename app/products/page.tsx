@@ -97,7 +97,7 @@ export default function ProductsPage() {
 
 
       {/* Banner */}
-      <section style={{ backgroundColor: "#0f172a", padding: "60px 20px", color: "white", textAlign: "center", borderBottom: "1px solid #1e293b" }}>
+      <section style={{padding: "60px 20px", color: "white", textAlign: "center", borderBottom: "1px solid #1e293b", background: "linear-gradient(rgba(15,23,42,0.8), rgba(15,23,42,0.8)), url('https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1920&q=80') center/cover no-repeat" }}>
         <h1 style={{ fontSize: "36px", fontWeight: 800, marginBottom: "15px" }}>Wholesale Wiper Blade Solutions</h1>
         <p style={{ color: "#94a3b8", maxWidth: "600px", margin: "0 auto" }}>Leading OEM/ODM manufacturer in China providing premium quality wiper components for global distributors.</p>
       </section>
