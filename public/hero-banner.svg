@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 600" width="1920" height="600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1628"/>
+      <stop offset="50%" stop-color="#0f1f3a"/>
+      <stop offset="100%" stop-color="#0a1628"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bladeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="50%" stop-color="#334155"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="rubber" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="drop" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0.05"/>
+    </linearGradient>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#1e293b" stroke-width="0.5" opacity="0.25"/>
+    </pattern>
+    <linearGradient id="windshield" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="streak" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#7dd3fc" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1920" height="600" fill="url(#bg)"/>
+  <rect width="1920" height="600" fill="url(#grid)"/>
+
+  <ellipse cx="1400" cy="300" rx="500" ry="400" fill="url(#glow)"/>
+  <ellipse cx="600" cy="200" rx="400" ry="300" fill="url(#glow)"/>
+
+  <g transform="translate(1100, 50)">
+    <path d="M50 480 L0 200 Q120 60 300 50 Q480 40 600 60 L700 200 L650 480 Z" 
+          fill="url(#windshield)" stroke="#334155" stroke-width="1.5"/>
+    <path d="M70 460 L25 210 Q130 80 300 70 Q470 60 585 80 L675 210 L630 460 Z" 
+          fill="none" stroke="#1e293b" stroke-width="1" opacity="0.4"/>
+    <path d="M200 80 Q190 200 210 400" fill="none" stroke="url(#streak)" stroke-width="2"/>
+    <path d="M350 70 Q340 200 360 380" fill="none" stroke="url(#streak)" stroke-width="1.5"/>
+    <path d="M500 75 Q490 200 510 400" fill="none" stroke="url(#streak)" stroke-width="2"/>
+    <ellipse cx="280" cy="120" rx="3" ry="5" fill="url(#drop)" transform="rotate(10,280,120)"/>
+    <ellipse cx="420" cy="90" rx="2" ry="4" fill="url(#drop)" transform="rotate(8,420,90)"/>
+    <ellipse cx="550" cy="100" rx="2.5" ry="4.5" fill="url(#drop)" transform="rotate(12,550,100)"/>
+    <ellipse cx="150" cy="150" rx="2" ry="3.5" fill="url(#drop)" transform="rotate(15,150,150)"/>
+    
+    <g transform="rotate(-25, 300, 240)">
+      <rect x="270" y="230" width="60" height="20" rx="4" fill="#475569" stroke="#334155" stroke-width="1"/>
+      <circle cx="300" cy="240" r="12" fill="#334155" stroke="#1e293b" stroke-width="1.5"/>
+      <circle cx="300" cy="240" r="5" fill="#475569"/>
+      <rect x="180" y="234" width="90" height="12" rx="2" fill="url(#bladeGrad)" transform="rotate(-5, 225, 240)"/>
+      <rect x="40" y="225" width="145" height="30" rx="8" fill="url(#bladeGrad)" stroke="#475569" stroke-width="0.5"/>
+      <rect x="40" y="248" width="140" height="5" rx="2" fill="url(#rubber)"/>
+      <path d="M50 225 L60 210 L170 210 L175 225 Z" fill="#334155" stroke="#475569" stroke-width="0.5"/>
+      <circle cx="80" cy="240" r="2" fill="#64748b"/>
+      <circle cx="110" cy="240" r="2" fill="#64748b"/>
+      <circle cx="140" cy="240" r="2" fill="#64748b"/>
+      <circle cx="165" cy="240" r="2" fill="#64748b"/>
+    </g>
+
+    <path d="M180 100 Q170 200 180 380 Q250 350 380 340 Q500 330 570 350 Q580 200 570 100 Q450 80 380 85 Q270 90 180 100 Z" fill="#38bdf8" opacity="0.03"/>
+    <path d="M50 480 L0 200" fill="none" stroke="#334155" stroke-width="1.5"/>
+    <path d="M700 200 L650 480" fill="none" stroke="#334155" stroke-width="1.5"/>
+    <path d="M20 480 L680 480" stroke="#1e293b" stroke-width="1.5"/>
+  </g>
+
+  <g opacity="0.025">
+    <circle cx="200" cy="500" r="150" fill="none" stroke="#38bdf8" stroke-width="1"/>
+    <circle cx="200" cy="500" r="200" fill="none" stroke="#38bdf8" stroke-width="0.5"/>
+    <circle cx="1700" cy="100" r="120" fill="none" stroke="#38bdf8" stroke-width="1"/>
+    <circle cx="1700" cy="100" r="180" fill="none" stroke="#38bdf8" stroke-width="0.5"/>
+  </g>
+
+  <rect x="0" y="595" width="1920" height="5" fill="#0284c7"/>
+  <rect x="0" y="0" width="1920" height="1" fill="#1e293b"/>
+</svg>
