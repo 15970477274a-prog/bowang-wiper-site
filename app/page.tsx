@@ -8,13 +8,10 @@ import { allProducts } from "./data/products";
 export default function Home() {
   const [lang, setLang] = useState<Locale>("en");
   const [openFaq, setOpenFaq] = useState<number | null>(null);
-  const [mobileMenu, setMobileMenu] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     company: "",
-    whatsapp: "",
-    quantity: "",
     product: "Universal Wiper Blades",
     message: ""
   });
@@ -30,8 +27,6 @@ export default function Home() {
       setLang(savedLang);
     }
   }, []);
-
-  const closeMobileMenu = () => setMobileMenu(false);
 
   const handleLangChange = (newLang: Locale) => {
     setLang(newLang);
@@ -60,7 +55,7 @@ export default function Home() {
       });
       if (response.ok) {
         setStatus({ submitted: true, loading: false, error: "" });
-        setFormData({ name: "", email: "", company: "", whatsapp: "", quantity: "", product: "Universal Wiper Blades", message: "" });
+        setFormData({ name: "", email: "", company: "", product: "Universal Wiper Blades", message: "" });
       } else {
         throw new Error("Failed to send inquiry.");
       }
@@ -70,30 +65,6 @@ export default function Home() {
   };
 
   const t = translations[lang];
-
-  // FAQPage structured data for AI engines (AEO)
-  const en = translations["en"];
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      { "@type": "Question", "name": en.faqQ1, "acceptedAnswer": { "@type": "Answer", "text": en.faqA1 } },
-      { "@type": "Question", "name": en.faqQ2, "acceptedAnswer": { "@type": "Answer", "text": en.faqA2 } },
-      { "@type": "Question", "name": en.faqQ3, "acceptedAnswer": { "@type": "Answer", "text": en.faqA3 } },
-      { "@type": "Question", "name": en.faqQ4, "acceptedAnswer": { "@type": "Answer", "text": en.faqA4 } },
-      { "@type": "Question", "name": en.faqQ5, "acceptedAnswer": { "@type": "Answer", "text": en.faqA5 } },
-      { "@type": "Question", "name": en.faqQ6, "acceptedAnswer": { "@type": "Answer", "text": en.faqA6 } },
-    ]
-  };
-
-  // BreadcrumbList schema for homepage
-  const breadcrumbSchema = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.lelionautopart.com/" }
-    ]
-  };
 
   const faqItems = [
     { q: t.faqQ1, a: t.faqA1 },
@@ -105,62 +76,44 @@ export default function Home() {
   ];
 
   return (
-    <main>
+    <main style={{ fontFamily: "system-ui, -apple-system, sans-serif", color: "#1e293b", backgroundColor: "#fcfcfc" }}>
       
-      {/* FAQPage JSON-LD for AEO */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
-      />
-
-      <header className="header">
-        <div className="header-inner">
-          <div className="header-brand">
-            <span className="header-title">BOWANG WIPER</span>
-            <span className="header-subtitle">Autoparts Manufacturer</span>
+      <header style={{
+        backgroundColor: "#0f172a", color: "#ffffff", position: "sticky", top: 0, zIndex: 50,
+        boxShadow: "0 2px 10px rgba(0, 0, 0, 0.1)"
+      }}>
+        <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "15px 20px", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+          <div style={{ display: "flex", flexDirection: "column" }}>
+            <span style={{ fontSize: "20px", fontWeight: "bold", letterSpacing: "0.05em", color: "#38bdf8" }}>BOWANG WIPER</span>
+            <span style={{ fontSize: "10px", color: "#94a3b8", textTransform: "uppercase", letterSpacing: "1px" }}>Autoparts Manufacturer</span>
           </div>
-          <button className={"hamburger" + (mobileMenu ? " open" : "")} onClick={() => setMobileMenu(!mobileMenu)} aria-label="Toggle navigation menu">
-            <span></span><span></span><span></span>
-          </button>
-          <nav className="nav">
-            <Link href="/" className="nav-link active">{t.navHome}</Link>
-            <Link href="/products" className="nav-link">{t.navProducts}</Link>
-            <Link href="/blog" className="nav-link">Blog</Link>
-            <Link href="/about" className="nav-link">{t.navAboutUs}</Link>
-            <a href="/Catalog.pdf" target="_blank" className="nav-link" style={{color:"var(--accent-glow)",fontWeight:600}}>{t.navCatalog}</a>
-            <Link href="/contact" className="nav-cta">{t.navGetQuote}</Link>
-            <select value={lang} onChange={(e) => handleLangChange(e.target.value as Locale)} className="lang-select">
-              <option value="en">English</option><option value="es">Español</option><option value="ru">Русский</option><option value="fr">Français</option><option value="de">Deutsch</option>
+          <nav style={{ display: "flex", gap: "20px", alignItems: "center" }}>
+            <Link href="/" style={{ color: "#38bdf8", textDecoration: "none", fontSize: "14px", fontWeight: 600 }}>{t.navHome}</Link>
+            <Link href="/products" style={{ color: "#f8fafc", textDecoration: "none", fontSize: "14px", fontWeight: 500 }}>{t.navProducts}</Link>
+            <Link href="/about" style={{ color: "#f8fafc", textDecoration: "none", fontSize: "14px", fontWeight: 500 }}>{t.navAboutUs}</Link>
+            <a href="/Catalog.pdf" target="_blank" style={{ color: "#38bdf8", textDecoration: "none", fontSize: "14px", fontWeight: 600 }}>{t.navCatalog}</a>
+            <Link href="/contact" style={{ backgroundColor: "#0284c7", color: "#ffffff", padding: "8px 16px", borderRadius: "4px", textDecoration: "none", fontSize: "14px", fontWeight: "bold" }}>{t.navGetQuote}</Link>
+            <select value={lang} onChange={(e) => handleLangChange(e.target.value as Locale)} style={{ backgroundColor: "#1e293b", color: "#ffffff", border: "1px solid #475569", padding: "6px 12px", borderRadius: "4px", cursor: "pointer", fontSize: "13px" }}>
+              <option value="en">English</option><option value="es">Espa帽ol</option><option value="ru">袪褍褋褋泻懈泄</option><option value="fr">Fran莽ais</option><option value="de">Deutsch</option>
             </select>
           </nav>
         </div>
       </header>
-      {/* Mobile Menu Overlay */}
-      <div className={"mobile-menu-overlay" + (mobileMenu ? " open" : "")}>
-        <a href="/" onClick={closeMobileMenu}>{t.navHome}</a>
-        <a href="/products" onClick={closeMobileMenu}>{t.navProducts}</a>
-        <a href="/blog" onClick={closeMobileMenu}>Blog</a>
-        <a href="/about" onClick={closeMobileMenu}>{t.navAboutUs}</a>
-        <a href="/Catalog.pdf" target="_blank" onClick={closeMobileMenu} style={{color:"var(--accent-glow)",fontWeight:600}}>{t.navCatalog}</a>
-        <a href="/contact" className="nav-cta" onClick={closeMobileMenu}>{t.navGetQuote}</a>
-        <select value={lang} onChange={(e) => { handleLangChange(e.target.value as Locale); closeMobileMenu(); }} className="lang-select-mobile">
-          <option value="en">English</option><option value="es">Español</option><option value="ru">Русский</option><option value="fr">Français</option><option value="de">Deutsch</option>
-        </select>
-      </div>
 
-
-      <section id="hero" className="hero-overlay">
-        <div className="container-narrow">
+      {/* REPLACED WITH PROFESSIONAL RAIN-DRIVING BANNER */}
+      <section id="hero" style={{ 
+        padding: "140px 20px", 
+        textAlign: "center", 
+        background: "linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.7)), url('https://images.unsplash.com/photo-1518063319789-7217e6706b04?auto=format&fit=crop&q=80&w=1600') center/cover no-repeat", 
+        color: "white" 
+      }}>
+        <div style={{ maxWidth: "850px", margin: "0 auto" }}>
           <span style={{ backgroundColor: "#0284c7", padding: "6px 16px", borderRadius: "20px", fontSize: "12px", fontWeight: "bold", textTransform: "uppercase", marginBottom: "25px", display: "inline-block" }}>{t.heroTag}</span>
-          <h1 style={{ fontSize: "52px", fontWeight: 800, marginBottom: "25px", lineHeight: 1.1 }}>{t.heroTitle}</h1>
+          <h1 style={{ fontSize: "56px", fontWeight: 800, marginBottom: "25px", lineHeight: 1.1, textShadow: "0 2px 10px rgba(0,0,0,0.3)" }}>{t.heroTitle}</h1>
           <p style={{ fontSize: "20px", color: "#cbd5e1", marginBottom: "45px", lineHeight: 1.6 }}>{t.heroSubtitle}</p>
           <div style={{ display: "flex", gap: "20px", justifyContent: "center" }}>
-            <Link href="/contact" className="btn-primary" style={{ padding: "16px 40px", fontSize: "18px", textDecoration: "none", backgroundColor: "#0284c7", color: "white", borderRadius: "8px", fontWeight: "bold" }}>{t.heroInquireBtn}</Link>
-            <Link href="/products" className="btn-secondary" style={{ padding: "16px 40px", fontSize: "18px", backgroundColor: "white", color: "#0f172a", textDecoration: "none", borderRadius: "8px", fontWeight: "bold" }}>View All Products</Link>
+            <Link href="/contact" className="btn-primary" style={{ padding: "18px 45px", fontSize: "18px", textDecoration: "none", backgroundColor: "#0284c7", color: "white", borderRadius: "8px", fontWeight: "bold", boxShadow: "0 10px 25px rgba(2, 132, 199, 0.4)" }}>{t.heroInquireBtn}</Link>
+            <Link href="/products" className="btn-secondary" style={{ padding: "18px 45px", fontSize: "18px", backgroundColor: "white", color: "#0f172a", textDecoration: "none", borderRadius: "8px", fontWeight: "bold" }}>View All Products</Link>
           </div>
         </div>
       </section>
@@ -174,12 +127,12 @@ export default function Home() {
           {allProducts.slice(0, 3).map(p => (
             <div key={p.id} style={{ backgroundColor: "white", borderRadius: "12px", overflow: "hidden", border: "1px solid #e2e8f0", textAlign: "center" }}>
                <div style={{ height: "300px", backgroundColor: "#f8fafc", display: "flex", alignItems: "center", justifyContent: "center", padding: "20px" }}>
-                 <img src={p.image} loading="lazy"  alt={p.name} style={{ maxWidth: "100%", maxHeight: "100%", width: "auto", height: "auto", objectFit: "contain" }} />
+                 <img src={p.image} alt={p.name} style={{ maxWidth: "100%", maxHeight: "100%", width: "auto", height: "auto", objectFit: "contain" }} />
                </div>
                <div style={{ padding: "30px" }}>
                  <h3 style={{ fontSize: "22px", fontWeight: 700, marginBottom: "15px" }}>{p.name}</h3>
                  <p style={{ color: "#64748b", fontSize: "15px", marginBottom: "25px", height: "45px", overflow: "hidden" }}>{p.desc}</p>
-                 <Link href={`/products/${p.id}`} style={{ color: "#0284c7", fontWeight: "bold", textDecoration: "none", fontSize: "15px" }}>Explore Detailed Specs →</Link>
+                 <Link href={`/products/${p.id}`} style={{ color: "#0284c7", fontWeight: "bold", textDecoration: "none", fontSize: "15px" }}>Explore Detailed Specs 鈫?/Link>
                </div>
             </div>
           ))}
@@ -204,7 +157,7 @@ export default function Home() {
                   <span style={{ fontSize: "24px", color: "#94a3b8", transform: openFaq === idx ? "rotate(45deg)" : "rotate(0)", transition: "transform 0.3s" }}>+</span>
                 </button>
                 <div style={{ maxHeight: openFaq === idx ? "300px" : "0", overflow: "hidden", transition: "all 0.3s ease-out", padding: openFaq === idx ? "0 30px 25px 30px" : "0 30px" }}>
-                  <p style={{lineHeight:1.6,margin:0}}>{item.a}</p>
+                  <p style={{ fontSize: "16px", color: "#64748b", lineHeight: 1.6, margin: 0 }}>{item.a}</p>
                 </div>
               </div>
             ))}
@@ -212,43 +165,38 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="contact" className="section section-white">
-        <div className="form-card">
-          <div className="text-center mb-40">
-            <h2 className="section-title">{t.contactTitle}</h2>
-            <p className="text-muted">{t.contactSubtitle}</p>
+      <section id="contact" style={{ padding: "100px 20px", backgroundColor: "#ffffff" }}>
+        <div style={{ maxWidth: "900px", margin: "0 auto", backgroundColor: "#f8fafc", padding: "60px", borderRadius: "16px", border: "1px solid #e2e8f0" }}>
+          <div style={{ textAlign: "center", marginBottom: "45px" }}>
+            <h2 style={{ fontSize: "32px", fontWeight: 800, color: "#0f172a" }}>{t.contactTitle}</h2>
+            <p style={{ color: "#64748b" }}>{t.contactSubtitle}</p>
           </div>
           <form onSubmit={handleSubmit}>
-            <div className="form-grid">
-              <input type="text" name="name" required value={formData.name} onChange={handleChange} placeholder={t.contactNameLabel} className="form-input" />
-              <input type="email" name="email" required value={formData.email} onChange={handleChange} placeholder={t.contactEmailLabel} className="form-input" />
+            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "25px", marginBottom: "25px" }}>
+              <input type="text" name="name" required value={formData.name} onChange={handleChange} placeholder={t.contactNameLabel} style={{ width: "100%", padding: "14px", border: "1px solid #e2e8f0", borderRadius: "8px" }} />
+              <input type="email" name="email" required value={formData.email} onChange={handleChange} placeholder={t.contactEmailLabel} style={{ width: "100%", padding: "14px", border: "1px solid #e2e8f0", borderRadius: "8px" }} />
             </div>
-            <input type="text" name="company" value={formData.company} onChange={handleChange} placeholder={t.contactCompanyLabel} className="form-input" style={{marginBottom:"25px"}} />
-            <select name="product" value={formData.product} onChange={handleChange} className="form-select" style={{marginBottom:"25px"}}>
+            <input type="text" name="company" value={formData.company} onChange={handleChange} placeholder={t.contactCompanyLabel} style={{ width: "100%", padding: "14px", border: "1px solid #e2e8f0", borderRadius: "8px", marginBottom: "25px" }} />
+            <select name="product" value={formData.product} onChange={handleChange} style={{ width: "100%", padding: "14px", border: "1px solid #e2e8f0", borderRadius: "8px", marginBottom: "25px" }}>
               <option value="Universal Wiper Blades">Universal</option><option value="Specific Fit Wiper Blades">Specific Fit</option><option value="Multifunction Wiper Blades">Multifunction</option>
             </select>
-            <textarea name="message" required rows={4} value={formData.message} onChange={handleChange} placeholder={t.contactMessagePlaceholder} className="form-textarea" style={{marginBottom:"35px"}} />
-            {status.submitted && <div className="form-success"><strong>{t.contactSuccessMsg}</strong></div>}
-            <button type="submit" disabled={status.loading} className="form-submit">{status.loading ? t.contactSubmittingBtn : t.contactSubmitBtn}</button>
+            <textarea name="message" required rows={4} value={formData.message} onChange={handleChange} placeholder={t.contactMessagePlaceholder} style={{ width: "100%", padding: "14px", border: "1px solid #e2e8f0", borderRadius: "8px", marginBottom: "35px" }} />
+            {status.submitted && <div style={{ backgroundColor: "#ecfdf5", color: "#065f46", padding: "15px", borderRadius: "8px", marginBottom: "25px" }}><strong>{t.contactSuccessMsg}</strong></div>}
+            <button type="submit" disabled={status.loading} style={{ width: "100%", backgroundColor: "#0284c7", color: "white", padding: "16px", borderRadius: "8px", fontSize: "16px", fontWeight: "bold", cursor: "pointer" }}>{status.loading ? t.contactSubmittingBtn : t.contactSubmitBtn}</button>
           </form>
         </div>
       </section>
 
-      <footer className="footer">
-        <div className="container">
-          <h3 className="footer-brand">BOWANG WIPER</h3>
-          <p className="footer-desc">{t.footerDesc}</p>
-          <div className="footer-divider">&copy; 2026 Ningbo Zhenhai Bowang Autoparts Co., Ltd. All rights reserved.</div>
+      <footer style={{ backgroundColor: "#0f172a", color: "#94a3b8", padding: "80px 20px 40px 20px", textAlign: "center" }}>
+        <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
+          <h3 style={{ color: "white", marginBottom: "20px" }}>BOWANG WIPER</h3>
+          <p style={{ maxWidth: "600px", margin: "0 auto 40px", fontSize: "14px" }}>{t.footerDesc}</p>
+          <div style={{ borderTop: "1px solid #1e293b", paddingTop: "30px", fontSize: "12px" }}>&copy; 2026 Ningbo Zhenhai Bowang Autoparts Co., Ltd. All rights reserved.</div>
         </div>
       </footer>
-      <a href="https://wa.me/8618867886795" target="_blank" rel="noopener noreferrer" className="whatsapp-float">
+      <a href="https://wa.me/8618867886795" target="_blank" rel="noopener noreferrer" style={{ position: "fixed", bottom: "30px", right: "30px", width: "60px", height: "60px", backgroundColor: "#25d366", borderRadius: "50%", display: "flex", justifyContent: "center", alignItems: "center", boxShadow: "0 4px 12px rgba(0, 0, 0, 0.2)", zIndex: 9999 }}>
         <svg width="30" height="30" viewBox="0 0 448 512" fill="white"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.1 0-65.6-8.9-93.3-25.7l-6.7-4.1-69.5 18.3 18.7-67.7-4.5-7.1C51.3 322.2 42.1 289 42.1 254c0-100.1 81.3-181.5 181.6-181.5 48.5 0 94.1 18.9 128.4 53.3 34.3 34.4 53.2 80 53.2 128.4 0 100.2-81.4 181.5-181.4 181.5zm113.8-154.2c-6.2-3.1-36.8-18.1-42.5-20.1-5.7-2-9.8-3.1-13.9 3.1-4.1 6.2-15.8 20.1-19.4 24.1-3.6 4-7.2 4.5-13.4 1.5-6.2-3.1-26.2-9.6-49.9-27.5-18.4-16.4-30.8-36.7-34.4-42.8-3.6-6.2-.4-9.6 2.7-12.7 2.8-2.8 6.2-7.2 9.3-10.8 3.1-3.6 4.1-6.2 6.2-10.3 2-4.1 1-7.7-.5-10.8-1.5-3.1-13.9-33.5-19.1-45.8-5-12.2-10.2-10.5-13.9-10.6-3.6-.1-7.7-.1-11.8-.1-4.1 0-10.8 1.5-16.5 7.7-5.7 6.2-21.6 21.1-21.6 51.5 0 30.4 22.1 59.8 25.2 64 3.1 4.1 43.5 33.2 105.3 59.8 14.7 6.3 26.2 10.1 35.1 13 14.8 2.8 28.2 2.4 38.9 1c11.9-1.5 36.8-4.8 42-9.5 5.1-4.6 5.1-8.7 3.6-10.8-1.5-2.1-5.7-3.1-11.8-6.2z" /></svg>
       </a>
     </main>
   );
 }
-
-
-
-
-
