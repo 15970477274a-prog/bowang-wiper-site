@@ -134,14 +134,14 @@ export default function Home() {
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(250px, 1fr))", gap: "24px" }}>
             {[
-              { name: "PP Package", img: "https://ecdn6.globalso.com/upload/p/643/image_other/2026-05/pp-package-1.png" },
-              { name: "PVC Package", img: "https://ecdn6.globalso.com/upload/p/643/image_other/2026-05/pvc-package-1.png" },
-              { name: "Single Blister Package", img: "https://ecdn6.globalso.com/upload/p/643/image_other/2026-05/single-blister-package-1.png" },
-              { name: "Paper Box Package", img: "https://ecdn6.globalso.com/upload/p/643/image_other/2026-05/paper-box-package-1.png" },
-              { name: "Window Box Package", img: "https://ecdn6.globalso.com/upload/p/643/image_other/2026-05/window-box-package-1.png" },
-              { name: "Kraft Paper Box Package", img: "https://ecdn6.globalso.com/upload/p/643/image_other/2026-05/kraft-paper-box-package-1.png" },
-              { name: "OPP&amp;PE Bag Package", img: "https://ecdn6.globalso.com/upload/p/643/image_other/2026-05/opp-pe-bag-package-4.png" },
-              { name: "Double Blister Package", img: "https://ecdn6.globalso.com/upload/p/643/image_other/2026-05/double-blister-package-1.png" },
+              { name: "PP Package", img: "/packaging/pp-package.png" },
+              { name: "PVC Package", img: "/packaging/pvc-package.png" },
+              { name: "Single Blister Package", img: "/packaging/single-blister-package.png" },
+              { name: "Paper Box Package", img: "/packaging/paper-box-package.png" },
+              { name: "Window Box Package", img: "/packaging/window-box-package.png" },
+              { name: "Kraft Paper Box Package", img: "/packaging/kraft-paper-box-package.png" },
+              { name: "OPP&amp;PE Bag Package", img: "/packaging/opp-pe-bag-package.png" },
+              { name: "Double Blister Package", img: "/packaging/double-blister-package.png" },
             ].map((item, i) => (
               <div key={i} style={{
                 backgroundColor: "#f8fafc",
