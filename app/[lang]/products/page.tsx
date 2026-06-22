@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { useParams } from "next/navigation";
 import Link from "next/link";
 import { translations, Locale } from "../../translations";
 import { allProducts } from "../../data/products";

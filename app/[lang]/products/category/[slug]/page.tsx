@@ -1,8 +1,8 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Link from "next/link";
 import { useParams } from "next/navigation";
+import Link from "next/link";
 import { translations, Locale } from "../../../../translations";
 import { allProducts } from "../../../../data/products";
 import { getProductTranslation } from "../../../../data/productTranslations";
@@ -30,15 +30,16 @@ const SLUG_MAP: Record<string, string> = {
 export default function ProductCategoryPage() {
   const params = useParams();
   const slug = params.slug as string;
+  const urlLang = (params.lang as Locale) || "en";
   const category = CATEGORY_MAP[slug];
   const [mobileMenu, setMobileMenu] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
   const ITEMS_PER_PAGE = 6;
-  const [lang, setLang] = useState<Locale>("en");
+  const [lang, setLang] = useState<Locale>(urlLang);
 
   useEffect(() => {
     const savedLang = localStorage.getItem("lelion_lang") as Locale;
-    if (savedLang && ["en", "es", "ru", "fr", "de"].includes(savedLang)) setLang(savedLang);
+    if (savedLang && ["en", "es", "ru", "fr", "de", "zh"].includes(savedLang)) setLang(savedLang);
   }, []);
 
   const closeMobileMenu = () => setMobileMenu(false);

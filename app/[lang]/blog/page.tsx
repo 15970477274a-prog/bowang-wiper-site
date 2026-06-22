@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { useParams } from "next/navigation";
 import Link from "next/link";
 import { translations, Locale } from "../../translations";
 import { blogPosts } from "../../data/blog";
@@ -14,7 +15,7 @@ export default function BlogPage() {
 
   useEffect(() => {
     const savedLang = localStorage.getItem("lelion_lang") as Locale;
-    if (savedLang && ["en", "es", "ru", "fr", "de"].includes(savedLang)) {
+    if (savedLang && ["en", "es", "ru", "fr", "de", "zh"].includes(savedLang)) {
       setLang(savedLang);
     }
   }, []);
