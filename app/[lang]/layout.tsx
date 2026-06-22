@@ -13,6 +13,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
     ru: "\u041f\u0440\u043e\u0444\u0435\u0441\u0441\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439 \u041f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044c \u0421\u0442\u0435\u043a\u043b\u043e\u043e\u0447\u0438\u0441\u0442\u0438\u0442\u0435\u043b\u0435\u0439 | Bowang Autoparts",
     fr: "Fabricant Professionnel de Balais d''Essuie-glace | Bowang Autoparts",
     de: "Professioneller Wischerblatt-Hersteller | Bowang Autoparts",
+    zh: "专业雨刮片制造商 | 博旺汽配",
   };
 
   const descriptions: Record<string, string> = {
@@ -21,6 +22,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
     ru: "\u0412\u0435\u0434\u0443\u0449\u0438\u0439 \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044c \u0441\u0442\u0435\u043a\u043b\u043e\u043e\u0447\u0438\u0441\u0442\u0438\u0442\u0435\u043b\u0435\u0439 OEM/ODM \u0432 \u041a\u0438\u0442\u0430\u0435.",
     fr: "Principal fabricant de balais d''essuie-glace OEM/ODM en Chine. Usine certifiee ISO 9001 et IATF 16949.",
     de: "Fuhrender OEM/ODM-Wischerblatt-Hersteller in China. ISO 9001 und IATF 16949 zertifizierte Fabrik.",
+    zh: "中国领先的OEM/ODM雨刮片制造商。ISO 9001和IATF 16949认证工厂。",
   };
 
   return {
@@ -29,7 +31,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
     description: descriptions[lang] || descriptions.en,
     alternates: {
       canonical: "https://www.lelionautopart.com/" + lang,
-      languages: { en: "/en", es: "/es", ru: "/ru", fr: "/fr", de: "/de" },
+      languages: { en: "/en", es: "/es", ru: "/ru", fr: "/fr", de: "/de", zh: "/zh" },
     },
     openGraph: {
       type: "website",

@@ -20,7 +20,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     setMounted(true);
     const savedLang = localStorage.getItem("lelion_lang") as Locale;
-    if (savedLang && ["en", "es", "ru", "fr", "de"].includes(savedLang)) {
+    if (savedLang && ["en", "es", "ru", "fr", "de", "zh"].includes(savedLang)) {
       setLangState(savedLang);
     }
   }, []);

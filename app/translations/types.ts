@@ -1,4 +1,4 @@
-export type Locale = "en" | "es" | "ru" | "fr" | "de";
+export type Locale = "en" | "es" | "ru" | "fr" | "de" | "zh";
 
 export interface TranslationDict {
   navHome: string;

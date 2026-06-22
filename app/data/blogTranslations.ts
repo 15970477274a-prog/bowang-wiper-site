@@ -34,6 +34,10 @@ export const blogTranslations: Record<string, Record<string, BlogTranslation>> =
     de: {
       title: "So wählen Sie den richtigen Wischerblatt-Hersteller für Ihr Unternehmen",
       excerpt: "Ein umfassender Leitfaden für globale Distributoren und Importeure, die hochwertige Wischerblätter aus China beziehen möchten. Erfahren Sie mehr über Qualitätsstandards, MOQ, Zertifizierungen und Lieferantenbewertung."
+    },
+    zh: {
+      title: "如何为您的业务选择合适的雨刮片制造商",
+      excerpt: "面向全球分销商和进口商的综合指南，帮助您从中国采购高品质雨刮片。了解质量标准、起订量、认证和供应商评估。"
     }
   },
 
@@ -53,6 +57,10 @@ export const blogTranslations: Record<string, Record<string, BlogTranslation>> =
     de: {
       title: "Vollständiger Materialleitfaden: Naturkautschuk vs. Silikon-Wischerblätter für Einkäufer",
       excerpt: "Verstehen Sie die Unterschiede zwischen Naturkautschuk, Silikon und Hybrid-Wischerblattmaterialien. Treffen Sie fundierte Beschaffungsentscheidungen für Ihren Zielmarkt."
+    },
+    zh: {
+      title: "天然橡胶与硅胶雨刮片：买家完整材料指南",
+      excerpt: "了解天然橡胶、硅胶和混合雨刮片材料之间的差异。为您的目标市场做出明智的采购决策。"
     }
   },
 
@@ -72,6 +80,10 @@ export const blogTranslations: Record<string, Record<string, BlogTranslation>> =
     de: {
       title: "B2B-Importleitfaden: So importieren Sie Wischerblätter aus China (Komplettanleitung 2026)",
       excerpt: "Alles, was Distributoren über den Import von Wischerblättern aus China wissen müssen: Vorschriften, Zollgebühren, Versandlogistik und Qualitätskontrolle."
+    },
+    zh: {
+      title: "B2B进口指南：如何从中国进口雨刮片（2026完整指南）",
+      excerpt: "分销商需要了解的有关从中国进口雨刮片的一切：法规、关税、运输物流和质量控制。"
     }
   },
 
@@ -91,6 +103,10 @@ export const blogTranslations: Record<string, Record<string, BlogTranslation>> =
     de: {
       title: "Wischerblatt-Qualitätszertifizierungen erklärt: ISO, IATF, CE und mehr",
       excerpt: "Was bedeuten ISO 9001, IATF 16949 und CE-Zertifizierungen für die Wischerblattqualität? Eine detaillierte Erklärung für B2B-Einkäufer und Beschaffungsprofis."
+    },
+    zh: {
+      title: "雨刮片质量认证详解：ISO、IATF、CE及更多",
+      excerpt: "ISO 9001、IATF 16949和CE认证对雨刮片质量意味着什么？为B2B买家和采购专业人士提供的详细解释。"
     }
   },
 
@@ -110,6 +126,10 @@ export const blogTranslations: Record<string, Record<string, BlogTranslation>> =
     de: {
       title: "Automobil-Ersatzteilmarkt Trends 2026: Chancen für Wischerblatt-Distributoren",
       excerpt: "Entdecken Sie die wichtigsten Trends, die den globalen Automobil-Ersatzteilmarkt 2026 prägen, und wie Wischerblatt-Distributoren von neuen Chancen profitieren können."
+    },
+    zh: {
+      title: "2026年汽车后市场趋势：雨刮片分销商的机遇",
+      excerpt: "探索塑造2026年全球汽车后市场的关键趋势，以及雨刮片分销商如何把握新兴机遇。"
     }
   },
 };

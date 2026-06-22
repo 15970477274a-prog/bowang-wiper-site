@@ -101,6 +101,26 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "Teflonbeschichtete Naturkautschukkante reduziert Reibung und verlängert die Lebensdauer",
         "Getestet für extreme Wetterbedingungen von -30°C bis +80°C"
       ]
+    },
+    zh: {
+      name: "BW-201 特斯拉 Model X 专用喷水雨刮片",
+      desc: "OEM级喷水式挡风玻璃雨刮片，专为特斯拉Model X设计，配备集成式洗涤喷嘴系统。",
+      specs: [
+        "集成喷水式喷嘴系统",
+        "OEM特斯拉Model X直接安装",
+        "超低噪音刮拭技术",
+        "即插即用安装 - 无需适配器",
+        "AA+级天然橡胶刮拭边缘",
+        "记忆高弹性钢架",
+        "抗臭氧和抗紫外线涂层"
+      ],
+      features: [
+        "集成喷水喷嘴取代传统喷射方式，挡风玻璃更清洁",
+        "空气动力学扰流板在高速行驶时减少风阻升力，保持恒定刮拭压力",
+        "直接OEM替换 - 与原装特斯拉雨刮片相同的连接器",
+        "特氟龙涂层天然橡胶边缘减少摩擦，延长使用寿命",
+        "经过-30°C至+80°C极端天气条件测试"
+      ]
     }
   },
 
@@ -188,6 +208,27 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "Memory-Stahlrahmen hält konstanten Druck über die gesamte Windschutzscheibenkrümmung",
         "Einzelhandelsfertige Verpackung mit Optionen für individuelles Branding",
         "Perfekt für Distributoren, die SKU-Inventar minimieren und Abdeckung maximieren möchten"
+      ]
+    },
+    zh: {
+      name: "BW-861 多功能通用雨刮片（含22个适配器）",
+      desc: "高级多适配器雨刮片系统，配备22个适配器，可适配全球98%的车辆 - 理想的分销商选择。",
+      specs: [
+        "多适配器集线系统，含22个适配器（适配98%以上车辆）",
+        "集成扰流板的空气动力学梁式设计",
+        "优质天然橡胶刮拭边缘，特氟龙涂层",
+        "柔性记忆弹簧钢框架",
+        "无噪音无痕刮拭",
+        "零售级包装，可定制品牌",
+        "ISO 9001和IATF 16949认证"
+      ],
+      features: [
+        "22个适配器系统覆盖全球98%以上车辆",
+        "空气动力学梁式设计降低高速公路风噪",
+        "特氟龙涂层橡胶边缘确保顺滑安静的运行",
+        "记忆钢框架在整个挡风玻璃曲面上保持恒定压力",
+        "零售级包装，可选定制品牌",
+        "完美适合希望减少SKU库存同时最大化覆盖范围的分销商"
       ]
     }
   },
@@ -277,6 +318,27 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "Breiter Größenbereich von 12\" bis 28\" deckt die meisten Pkw und SUVs ab",
         "Wettbewerbsfähige Fabrikpreise mit niedrigem MOQ für neue Distributoren"
       ]
+    },
+    zh: {
+      name: "BW-802 通用无骨雨刮片 - U型钩 (12\"-28\")",
+      desc: "高性能通用无骨雨刮片，预装U型钩适配器。中国工厂直销价格。",
+      specs: [
+        "无骨梁式设计（平刮片）",
+        "预装U型钩适配器",
+        "尺寸范围12英寸至28英寸",
+        "优质天然橡胶刮拭边缘",
+        "集成空气动力学扰流板",
+        "无噪音无痕刮拭",
+        "ISO 9001认证 / OEM就绪"
+      ],
+      features: [
+        "无骨设计防止冬季积雪结冰",
+        "集成空气动力学扰流板确保高速恒定刮拭压力",
+        "预装U型钩适配器，无需工具即可瞬间安装",
+        "优质天然橡胶边缘提供高达100万次刮拭循环",
+        "12英寸至28英寸宽尺寸范围覆盖大多数轿车和SUV",
+        "有竞争力的工厂价格，新分销商低起订量"
+      ]
     }
   },
 
@@ -361,6 +423,26 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "Teflonbeschichtete Gummikante sorgt für reibungsloses Gleiten und lange Lebensdauer",
         "Getestet für extreme Wetterbedingungen von -30°C bis +80°C"
       ]
+    },
+    zh: {
+      name: "BW-203 LELION 奔驰W222（S级）前窗喷水雨刮片",
+      desc: "OEM级喷水式挡风玻璃雨刮片，专为奔驰S级W222（2014-2020）设计，配备集成式洗涤喷嘴系统。",
+      specs: [
+        "集成喷水式喷嘴系统",
+        "直接适配奔驰W222 S级（2014-2020）",
+        "超低噪音刮拭技术",
+        "即插即用安装 - 无需适配器",
+        "AA+级天然橡胶刮拭边缘，特氟龙涂层",
+        "记忆高弹性钢架",
+        "抗臭氧和抗紫外线涂层"
+      ],
+      features: [
+        "集成喷水喷嘴沿雨刮片路径均匀分配洗涤液",
+        "完美OEM适配奔驰S级 - 无需改装",
+        "超低噪音运行，适合豪华车辆",
+        "特氟龙涂层橡胶边缘确保顺滑滑动和长久寿命",
+        "经过-30°C至+80°C极端天气条件测试"
+      ]
     }
   },
 
@@ -444,6 +526,26 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "Ultra-leiser Betrieb, geeignet für einen Premium-SUV",
         "Teflonbeschichtete Gummikante für langanhaltende Leistung",
         "Getestet unter extremen nordischen Wetterbedingungen von -30°C bis +80°C"
+      ]
+    },
+    zh: {
+      name: "BW-202 LELION 沃尔沃XC60前挡喷水雨刮片（2018-2022）",
+      desc: "OEM级喷水式挡风玻璃雨刮片，专为沃尔沃XC60（2018-2022）设计，配备集成式洗涤喷嘴系统。",
+      specs: [
+        "集成喷水式喷嘴系统",
+        "直接适配沃尔沃XC60（2018-2022）",
+        "超低噪音刮拭技术",
+        "即插即用安装 - 无需适配器",
+        "AA+级天然橡胶刮拭边缘，特氟龙涂层",
+        "记忆高弹性钢架",
+        "抗臭氧和抗紫外线涂层"
+      ],
+      features: [
+        "集成喷水系统优化洗涤液分配",
+        "精确直接适配沃尔沃XC60，无需改装",
+        "超低噪音运行，适合高端SUV",
+        "特氟龙涂层橡胶边缘确保持久性能",
+        "经过-30°C至+80°C北欧极端天气条件测试"
       ]
     }
   },
@@ -533,6 +635,27 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "Werkzeuglose Montage in Sekunden mit Snap-In-Anschluss",
         "Ideal für europäische Märkte und kaltes Klima"
       ]
+    },
+    zh: {
+      name: "BW-204 奔驰E级C238/A238加热雨刮片 24\"+21\"（2017-2022）",
+      desc: "奔驰E级C238/A238（2017-2022）直接安装加热前雨刮片。兼容喷水系统，OE风格，免工具卡扣安装。",
+      specs: [
+        "集成加热功能，冬季性能优异",
+        "直接适配奔驰E级C238/A238（2017-2022）",
+        "兼容喷水系统",
+        "24英寸+21英寸套装",
+        "免工具快速安装",
+        "OE风格和安装",
+        "ISO 9001和IATF 16949认证"
+      ],
+      features: [
+        "集成加热元件防止寒冷天气结冰",
+        "精确直接适配奔驰E级 - 无需适配器",
+        "兼容奔驰原装喷水系统",
+        "OE级设计，与车辆无缝集成",
+        "卡扣式连接器，秒级免工具安装",
+        "理想适用于欧洲市场和寒冷气候"
+      ]
     }
   },
 
@@ -616,6 +739,26 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "Ultra-leiser Betrieb, geeignet für Premium-Fahrzeuge",
         "Langlebige Konstruktion mit OE-Materialien",
         "Getestet unter nordischen Wetterbedingungen"
+      ]
+    },
+    zh: {
+      name: "BW-205 沃尔沃V60/S60直接安装雨刮片（2019-2022）",
+      desc: "沃尔沃V60/S60（2019-2022）及V60 Cross Country（2020-2022）直接安装前挡雨刮片。免工具安装，安静耐用。",
+      specs: [
+        "直接适配沃尔沃V60/S60（2019-2022）",
+        "兼容V60 Cross Country（2020-2022）",
+        "免工具快速安装",
+        "静音刮拭技术",
+        "优质天然橡胶刮拭边缘",
+        "记忆高弹性钢架",
+        "抗紫外线和臭氧涂层"
+      ],
+      features: [
+        "精确直接适配沃尔沃车辆，无需适配器",
+        "秒级免工具安装",
+        "超低噪音运行，适合高端车辆",
+        "OE级材料的耐用结构",
+        "经过北欧天气条件测试"
       ]
     }
   },
@@ -705,6 +848,27 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "Präzise Passform der Keilnabenbuchse für wackelfreien Betrieb",
         "Ideal für Aftermarket- und Flottenmärkte in RHD-Regionen"
       ]
+    },
+    zh: {
+      name: "BW-027 丰田卡罗拉1993-1996前右雨刮臂（右舵）",
+      desc: "丰田卡罗拉1993-1996年前右雨刮臂OEM替换件。耐用结构，直接安装，轻松便捷。",
+      specs: [
+        "前右雨刮臂（右舵RHD）",
+        "直接适配丰田卡罗拉1993-1996",
+        "耐用钢结构",
+        "耐腐蚀黑色涂层",
+        "含安装螺母和盖子",
+        "ISO 9001认证",
+        "低起订量 - 100支"
+      ],
+      features: [
+        "直接替换丰田原装雨刮臂",
+        "高强度钢结构，持久耐用",
+        "耐候黑色粉末涂层",
+        "包含完整安装配件",
+        "精密花键衬套安装，无晃动运行",
+        "理想适用于右舵地区的售后和车队市场"
+      ]
     }
   },
 
@@ -792,6 +956,27 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "Aerodynamischer Spoiler reduziert Windauftrieb bei Autobahngeschwindigkeit",
         "Breite Kompatibilität mit U-Hook-Armen über alle Fahrzeugmarken hinweg",
         "Ideal für Distributoren, die ein Mittelklasse-Leistungsprodukt suchen"
+      ]
+    },
+    zh: {
+      name: "BW-808 三段式混合雨刮片（12-28英寸）",
+      desc: "高级三段式混合雨刮片，结合空气动力学梁式设计与耐用金属框架结构。适配95%配备U型钩臂的车辆。",
+      specs: [
+        "三段式混合设计",
+        "兼容U型钩臂 - 覆盖95%车辆",
+        "尺寸范围12英寸至28英寸",
+        "优质天然橡胶刮拭边缘",
+        "集成空气动力学扰流板",
+        "耐用金属框架，柔性铰链",
+        "ISO 9001认证"
+      ],
+      features: [
+        "独特三段式混合设计，卓越适应挡风玻璃曲面",
+        "梁式技术与传统框架结合，均衡压力分布",
+        "柔性铰链使雨刮片精确贴合玻璃曲面",
+        "空气动力学扰流板降低高速公路风阻升力",
+        "广泛兼容各品牌车辆的U型钩臂",
+        "理想适用于寻找中端性能产品的分销商"
       ]
     }
   },
@@ -881,6 +1066,27 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "Einzelhandelsfertige Verpackung mit optionalem individuellem Branding",
         "Perfekt für Distributoren, die Heckwischer-Inventar konsolidieren möchten"
       ]
+    },
+    zh: {
+      name: "BW-160 多功能后雨刮片 - 通用安装（98%覆盖率）",
+      desc: "高级多功能后雨刮片，配备通用适配器系统，覆盖98%车辆。理想适用于批发分销商。",
+      specs: [
+        "通用多连接器适配器系统",
+        "覆盖全球98%车辆",
+        "专为后挡风玻璃设计",
+        "优质天然橡胶刮拭边缘",
+        "无噪音无痕刮拭",
+        "简单即插即用安装",
+        "ISO 9001认证"
+      ],
+      features: [
+        "通用适配器系统覆盖几乎所有配备后雨刮的车辆",
+        "紧凑设计，优化后挡风玻璃曲面适配",
+        "优质橡胶边缘，顺滑静音刮拭",
+        "无需特殊工具，快速安装",
+        "零售级包装，可选定制品牌",
+        "完美适合希望整合后雨刮库存的分销商"
+      ]
     }
   },
 
@@ -968,6 +1174,27 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "Einfache Installation ohne Spezialwerkzeug",
         "Wettbewerbsfähige Großhandelspreise für Großbestellungen",
         "OEM/ODM-Anpassungsoptionen verfügbar"
+      ]
+    },
+    zh: {
+      name: "BW-161 多功能通用后挡风雨刮片",
+      desc: "批发多功能通用后挡风雨刮片，通用安装。理想适用于批量分销商和OEM替换市场。",
+      specs: [
+        "后挡风玻璃多功能设计",
+        "通用安装，多适配器",
+        "优质天然橡胶刮拭边缘",
+        "无噪音无痕刮拭",
+        "简单安装",
+        "ISO 9001认证",
+        "OEM/ODM就绪"
+      ],
+      features: [
+        "多功能设计，兼容大多数配备后雨刮的车辆",
+        "含多个适配器，最大化车辆覆盖",
+        "优质橡胶边缘，持久刮拭",
+        "简单安装，无需特殊工具",
+        "有竞争力的大批量批发价格",
+        "OEM/ODM定制选项可用"
       ]
     }
   },
@@ -1057,6 +1284,27 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "OEM-Spezifikationen für perfekte Passform und Verarbeitung",
         "Ideal für europäische Aftermarket-Distributoren in RHD-Märkten"
       ]
+    },
+    zh: {
+      name: "BW-001 奥迪Q7前挡右舵雨刮臂（2007-2016）",
+      desc: "OEM级前挡右舵（RHD）雨刮臂，专为奥迪Q7 2007-2016设计。直接替换安装，黑色涂层。",
+      specs: [
+        "前挡右舵雨刮臂（RHD）",
+        "直接适配奥迪Q7 2007-2016",
+        "OEM级钢结构",
+        "耐腐蚀黑色涂层",
+        "含安装螺母和盖子",
+        "ISO 9001和IATF 16949认证",
+        "起订量100支"
+      ],
+      features: [
+        "专为右舵奥迪Q7车辆设计（英国、日本、澳大利亚）",
+        "高强度钢结构，黑色粉末涂层",
+        "精密花键衬套安装，无晃动运行",
+        "包含完整安装配件",
+        "OEM级规格，完美安装和表面处理",
+        "理想适用于右舵市场的欧洲售后分销商"
+      ]
     }
   },
 
@@ -1145,6 +1393,27 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "Langlebige, witterungsbeständige schwarze Oberfläche",
         "Niedriger MOQ von 100 Stück, geeignet für kleine und mittlere Distributoren"
       ]
+    },
+    zh: {
+      name: "BW-002 奥迪Q7前挡左舵雨刮臂（2007-2016）",
+      desc: "OEM级前挡左舵（LHD）雨刮臂，适配奥迪Q7 2007-2016。直接替换，耐腐蚀黑色涂层，低起订量。",
+      specs: [
+        "前挡左舵雨刮臂（LHD）",
+        "直接适配奥迪Q7 2007-2016",
+        "OEM级钢结构",
+        "耐腐蚀黑色涂层",
+        "含安装螺母和盖子",
+        "ISO 9001和IATF 16949认证",
+        "起订量100支"
+      ],
+      features: [
+        "专为左舵奥迪Q7车辆设计（北美、欧洲大陆、中国）",
+        "高强度钢结构，黑色粉末涂层",
+        "精密花键衬套安装，符合OEM规格",
+        "包含完整安装配件",
+        "耐候耐用黑色涂层",
+        "低起订量100支，适合中小型分销商"
+      ]
     }
   },
 
@@ -1232,6 +1501,27 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "Direkter verschraubter Ersatz - keine Modifikationen oder Adapter erforderlich",
         "Großhandel verfügbar mit MOQ von 100 Stück für etablierte Distributoren",
         "ISO 9001 und IATF 16949 zertifizierte Produktion für gleichbleibende Automobilqualität"
+      ]
+    },
+    zh: {
+      name: "BW3002 MINI COOPER R50 R53后雨刮臂（2001-2004）",
+      desc: "OEM规格后挡风雨刮臂，适配MINI COOPER R50 R53（2001-2004）。精密工程设计，直接替换，耐用结构。",
+      specs: [
+        "MINI COOPER R50 R53后雨刮臂",
+        "车型年份：2001-2004",
+        "耐用钢结构",
+        "耐腐蚀黑色涂层",
+        "含安装螺母和盖子",
+        "ISO 9001和IATF 16949认证",
+        "起订量100支"
+      ],
+      features: [
+        "精确OE规格安装，适配MINI COOPER R50 R53（2001-2004）",
+        "精密工程设计，保持MINI经典紧凑后雨刮轮廓",
+        "耐候耐用结构，适合欧洲气候",
+        "直接螺栓替换 - 无需改装或适配器",
+        "批发供应，成熟分销商起订量100支",
+        "ISO 9001和IATF 16949认证生产，确保稳定汽车级品质"
       ]
     }
   },
@@ -1324,6 +1614,28 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "Erhältlich in Größen von 12 bis 28 Zoll für praktisch alle Pkw",
         "Einfache DIY-Installation mit Schritt-für-Schritt-Anleitung - kein Werkzeug erforderlich",
         "6 Monate Garantie, hergestellt nach ISO 9001 und IATF 16949 Standards"
+      ]
+    },
+    zh: {
+      name: "LELION 经典有骨雨刮片套装 BW-405（12-28英寸）",
+      desc: "OEM品质经典有骨雨刮片套装。镀锌钢架，优质天然橡胶，通用安装，静音运行。尺寸范围12英寸至28英寸。",
+      specs: [
+        "经典有骨雨刮片设计",
+        "镀锌钢架，抗氧化涂层",
+        "优质天然橡胶刮拭边缘",
+        "通用U型钩连接器 - 适配98%车辆",
+        "尺寸范围12英寸至28英寸",
+        "静音顺滑刮拭性能",
+        "6个月质保 / ISO 9001和IATF 16949认证"
+      ],
+      features: [
+        "镀锌钢架提供卓越耐腐蚀性和长期耐用性",
+        "优质天然橡胶边缘确保全天候无痕静音刮拭",
+        "通用U型钩连接器无需额外适配器即适配98%车辆",
+        "传统框架设计沿整个雨刮片长度均匀分配压力",
+        "尺寸范围12英寸至28英寸，覆盖几乎所有乘用车",
+        "附带逐步安装说明，DIY轻松安装 - 无需工具",
+        "6个月质保支持，按照ISO 9001和IATF 16949标准制造"
       ]
     }
   },
