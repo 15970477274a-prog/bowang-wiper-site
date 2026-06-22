@@ -11,14 +11,15 @@ export default function Header() {
   const closeMobileMenu = () => setMobileMenu(false);
   const t = translations[lang];
 
-  const handleLangChange = (newLang: Locale) => setLang(newLang);
+  const handleLangChange = (newLang: Locale) => { setLang(newLang); localStorage.setItem("lelion_lang", newLang); };
+  const l = (path: string) => "/" + lang + path;
 
   return (
     <>
       <header className="header">
         <div className="header-inner">
           <div className="header-brand">
-            <Link href="/" style={{ textDecoration: "none", display: "flex", alignItems: "center", gap: "12px" }}>
+            <Link href={l("/")} style={{ textDecoration: "none", display: "flex", alignItems: "center", gap: "12px" }}>
               <img src="/logo.jpg" alt="Bowang Wiper" style={{ height: "56px", width: "auto" }} />
               <div>
                 <span className="header-title">BOWANG WIPER</span>
@@ -34,12 +35,12 @@ export default function Header() {
             <span></span><span></span><span></span>
           </button>
           <nav className="nav">
-            <Link href="/" className="nav-link">{t.navHome}</Link>
-            <Link href="/products" className="nav-link">{t.navProducts}</Link>
-            <Link href="/blog" className="nav-link">Blog</Link>
-            <Link href="/about" className="nav-link">{t.navAboutUs}</Link>
-            <a href="/Catalog.pdf" target="_blank" className="nav-link" style={{color:"var(--accent-glow)",fontWeight:600}}>{t.navCatalog}</a>
-            <Link href="/contact" className="nav-cta">{t.navGetQuote}</Link>
+            <Link href={l("/")} className="nav-link">{t.navHome}</Link>
+            <Link href={l("/products")} className="nav-link">{t.navProducts}</Link>
+            <Link href={l("/blog")} className="nav-link">Blog</Link>
+            <Link href={l("/about")} className="nav-link">{t.navAboutUs}</Link>
+            <a href={l("/Catalog.pdf")} target="_blank" className="nav-link" style={{color:"var(--accent-glow)",fontWeight:600}}>{t.navCatalog}</a>
+            <Link href={l("/contact")} className="nav-cta">{t.navGetQuote}</Link>
             <select value={lang} onChange={(e) => handleLangChange(e.target.value as Locale)} className="lang-select">
               <option value="en">English</option><option value="es">Español</option><option value="ru">Русский</option><option value="fr">Français</option><option value="de">Deutsch</option>
             </select>
@@ -47,12 +48,12 @@ export default function Header() {
         </div>
       </header>
       <div className={"mobile-menu-overlay" + (mobileMenu ? " open" : "")}>
-        <a href="/" onClick={closeMobileMenu}>{t.navHome}</a>
-        <a href="/products" onClick={closeMobileMenu}>{t.navProducts}</a>
-        <a href="/blog" onClick={closeMobileMenu}>Blog</a>
-        <a href="/about" onClick={closeMobileMenu}>{t.navAboutUs}</a>
-        <a href="/Catalog.pdf" target="_blank" onClick={closeMobileMenu} style={{color:"var(--accent-glow)",fontWeight:600}}>{t.navCatalog}</a>
-        <a href="/contact" className="nav-cta" onClick={closeMobileMenu}>{t.navGetQuote}</a>
+        <a href={l("/")} onClick={closeMobileMenu}>{t.navHome}</a>
+        <a href={l("/products")} onClick={closeMobileMenu}>{t.navProducts}</a>
+        <a href={l("/blog")} onClick={closeMobileMenu}>Blog</a>
+        <a href={l("/about")} onClick={closeMobileMenu}>{t.navAboutUs}</a>
+        <a href={l("/Catalog.pdf")} target="_blank" onClick={closeMobileMenu} style={{color:"var(--accent-glow)",fontWeight:600}}>{t.navCatalog}</a>
+        <a href={l("/contact")} className="nav-cta" onClick={closeMobileMenu}>{t.navGetQuote}</a>
         <select value={lang} onChange={(e) => { handleLangChange(e.target.value as Locale); closeMobileMenu(); }} className="lang-select-mobile">
           <option value="en">English</option><option value="es">Español</option><option value="ru">Русский</option><option value="fr">Français</option><option value="de">Deutsch</option>
         </select>

@@ -1,9 +1,5 @@
 ﻿import type { Metadata } from "next";
 import Script from "next/script";
-import { LanguageProvider } from "../components/LanguageContext";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-import WhatsAppFloat from "../components/WhatsAppFloat";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -123,12 +119,7 @@ export default function RootLayout({
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
       </head>
       <body style={{ margin: 0, padding: 0 }}>
-        <LanguageProvider>
-          <Header />
-          {children}
-          <Footer />
-          <WhatsAppFloat />
-        </LanguageProvider>
+        {children}
       </body>
     </html>
   );

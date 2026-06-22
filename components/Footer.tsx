@@ -7,6 +7,7 @@ import { translations } from "../app/translations";
 export default function Footer() {
   const { lang } = useLanguage();
   const t = translations[lang];
+  const l = (path: string) => "/" + lang + path;
 
   return (
     <footer style={{ background: "linear-gradient(135deg, #093D6A 0%, #0a1628 100%)", color: "#cbd5e1", fontSize: "14px", position: "relative" }}>
@@ -24,7 +25,7 @@ export default function Footer() {
           Lelion Wiper — Not all wipers understand the heartbeat of glass
         </span>
         <a
-          href="/contact"
+          href={l("/contact")}
           style={{
             display: "inline-flex",
             alignItems: "center",
@@ -71,12 +72,12 @@ export default function Footer() {
             <span style={{ position: "absolute", bottom: 0, left: 0, width: "40px", height: "2px", background: "#0D68B0", display: "block" }}></span>
           </h4>
           <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "10px" }}>
-            <li><Link href="/products/category/universal" style={{ color: "#94a3b8", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>Universal Wiper Blade</Link></li>
-            <li><Link href="/products/category/specific-fit" style={{ color: "#94a3b8", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>Specific Fit Wiper Blade</Link></li>
-            <li><Link href="/products/category/multifunction" style={{ color: "#94a3b8", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>Multifunction Wiper Blade</Link></li>
-            <li><Link href="/products/category/hybrid" style={{ color: "#94a3b8", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>Hybrid Wiper Blade</Link></li>
-            <li><Link href="/products/category/wiper-arm" style={{ color: "#94a3b8", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>Wiper Arm</Link></li>
-            <li><Link href="/products/category/rear-wiper-combo" style={{ color: "#94a3b8", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>Rear Wiper Combo</Link></li>
+            <li><Link href={l("/products/category/universal")} style={{ color: "#94a3b8", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>Universal Wiper Blade</Link></li>
+            <li><Link href={l("/products/category/specific-fit")} style={{ color: "#94a3b8", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>Specific Fit Wiper Blade</Link></li>
+            <li><Link href={l("/products/category/multifunction")} style={{ color: "#94a3b8", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>Multifunction Wiper Blade</Link></li>
+            <li><Link href={l("/products/category/hybrid")} style={{ color: "#94a3b8", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>Hybrid Wiper Blade</Link></li>
+            <li><Link href={l("/products/category/wiper-arm")} style={{ color: "#94a3b8", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>Wiper Arm</Link></li>
+            <li><Link href={l("/products/category/rear-wiper-combo")} style={{ color: "#94a3b8", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>Rear Wiper Combo</Link></li>
           </ul>
         </div>
 
@@ -87,12 +88,12 @@ export default function Footer() {
             <span style={{ position: "absolute", bottom: 0, left: 0, width: "40px", height: "2px", background: "#0D68B0", display: "block" }}></span>
           </h4>
           <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "10px" }}>
-            <li><Link href="/" style={{ color: "#94a3b8", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>Home</Link></li>
-            <li><Link href="/products" style={{ color: "#94a3b8", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>Products</Link></li>
-            <li><Link href="/about" style={{ color: "#94a3b8", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>About Us</Link></li>
-            <li><Link href="/blog" style={{ color: "#94a3b8", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>Blog</Link></li>
-            <li><Link href="/contact" style={{ color: "#94a3b8", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>Contact Us</Link></li>
-            <li><a href="/Catalog.pdf" target="_blank" style={{ color: "#94a3b8", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>Catalog (PDF)</a></li>
+            <li><Link href={l("/")} style={{ color: "#94a3b8", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>Home</Link></li>
+            <li><Link href={l("/products")} style={{ color: "#94a3b8", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>Products</Link></li>
+            <li><Link href={l("/about")} style={{ color: "#94a3b8", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>About Us</Link></li>
+            <li><Link href={l("/blog")} style={{ color: "#94a3b8", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>Blog</Link></li>
+            <li><Link href={l("/contact")} style={{ color: "#94a3b8", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>Contact Us</Link></li>
+            <li><a href={l("/Catalog.pdf")} target="_blank" style={{ color: "#94a3b8", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>Catalog (PDF)</a></li>
           </ul>
         </div>
 
