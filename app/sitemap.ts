@@ -1,48 +1,56 @@
-﻿import { MetadataRoute } from 'next';
-import { allProducts } from './data/products';
-import { blogPosts } from './data/blog';
+﻿import { MetadataRoute } from "next";
+import { allProducts } from "./data/products";
+import { blogPosts } from "./data/blog";
+
+const locales = ["en", "es", "ru", "fr", "de"];
+const baseUrl = "https://www.lelionautopart.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://www.lelionautopart.com';
+  const entries: MetadataRoute.Sitemap = [];
 
-  // 1. Static routes
-  const staticRoutes = [
-    '',
-    '/products',
-    '/about',
-    '/contact',
-    '/blog',
-  ].map((route) => ({
-    url: baseUrl + route,
-    lastModified: new Date(),
-    changeFrequency: 'weekly' as const,
-    priority: route === '' ? 1.0 : 0.8,
-  }));
+  for (const locale of locales) {
+    const prefix = "/" + locale;
 
-  // 2. Category routes
-  const categories = ['universal', 'specific-fit', 'multifunction', 'wiper-arm', 'hybrid', 'rear-wiper', 'rear-wiper-combo'];
-  const categoryRoutes = categories.map((cat) => ({
-    url: baseUrl + '/products/category/' + cat,
-    lastModified: new Date(),
-    changeFrequency: 'weekly' as const,
-    priority: 0.7,
-  }));
+    // Static routes
+    entries.push(
+      { url: baseUrl + prefix, lastModified: new Date(), changeFrequency: "weekly" as const, priority: 1.0 },
+      { url: baseUrl + prefix + "/products", lastModified: new Date(), changeFrequency: "weekly" as const, priority: 0.8 },
+      { url: baseUrl + prefix + "/about", lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.7 },
+      { url: baseUrl + prefix + "/contact", lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.7 },
+      { url: baseUrl + prefix + "/blog", lastModified: new Date(), changeFrequency: "weekly" as const, priority: 0.7 },
+    );
 
-  // 3. Product routes
-  const productRoutes = allProducts.map((product) => ({
-    url: baseUrl + '/products/' + product.id,
-    lastModified: new Date(),
-    changeFrequency: 'weekly' as const,
-    priority: 0.8,
-  }));
+    // Category routes
+    const categories = ["universal", "specific-fit", "multifunction", "wiper-arm", "hybrid", "rear-wiper", "rear-wiper-combo"];
+    for (const cat of categories) {
+      entries.push({
+        url: baseUrl + prefix + "/products/category/" + cat,
+        lastModified: new Date(),
+        changeFrequency: "weekly" as const,
+        priority: 0.7,
+      });
+    }
 
-  // 3. Blog routes
-  const blogRoutes = blogPosts.map((post) => ({
-    url: baseUrl + '/blog/' + post.id,
-    lastModified: new Date(post.date),
-    changeFrequency: 'monthly' as const,
-    priority: 0.8,
-  }));
+    // Product routes
+    for (const product of allProducts) {
+      entries.push({
+        url: baseUrl + prefix + "/products/" + product.id,
+        lastModified: new Date(),
+        changeFrequency: "weekly" as const,
+        priority: 0.8,
+      });
+    }
 
-  return [...staticRoutes, ...categoryRoutes, ...productRoutes, ...blogRoutes];
+    // Blog routes
+    for (const post of blogPosts) {
+      entries.push({
+        url: baseUrl + prefix + "/blog/" + post.id,
+        lastModified: new Date(post.date),
+        changeFrequency: "monthly" as const,
+        priority: 0.8,
+      });
+    }
+  }
+
+  return entries;
 }
