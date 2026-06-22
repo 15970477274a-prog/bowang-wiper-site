@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { translations, Locale } from "../../translations";
 import { blogPosts } from "../../data/blog";
+import { getBlogTranslation } from "../../data/blogTranslations";
 
 export default function BlogPage() {
   const [mobileMenu, setMobileMenu] = useState(false);
@@ -120,8 +121,8 @@ export default function BlogPage() {
                     <span style={{ backgroundColor: "#e0f2fe", color: "#0369a1", padding: "4px 12px", borderRadius: "12px", fontSize: "12px", fontWeight: 600 }}>{post.category}</span>
                     <span style={{ color: "#94a3b8", fontSize: "12px" }}>{post.date}</span>
                   </div>
-                  <h2 style={{ fontSize: "18px", fontWeight: 700, margin: "0 0 12px 0", lineHeight: 1.4, color: "#0f172a" }}>{post.title}</h2>
-                  <p style={{ color: "#64748b", fontSize: "14px", lineHeight: 1.6, flex: 1, margin: "0 0 15px 0" }}>{post.excerpt}</p>
+                  <h2 style={{ fontSize: "18px", fontWeight: 700, margin: "0 0 12px 0", lineHeight: 1.4, color: "#0f172a" }}>{(getBlogTranslation(post.id, lang)?.title || post.title)}</h2>
+                  <p style={{ color: "#64748b", fontSize: "14px", lineHeight: 1.6, flex: 1, margin: "0 0 15px 0" }}>{(getBlogTranslation(post.id, lang)?.excerpt || post.excerpt)}</p>
                   <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", borderTop: "1px solid #f1f5f9", paddingTop: "15px" }}>
                     <span style={{ color: "#0284c7", fontSize: "13px", fontWeight: 700 }}>Read More →</span>
                     <span style={{ color: "#94a3b8", fontSize: "12px" }}>{post.author}</span>

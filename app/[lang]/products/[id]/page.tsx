@@ -7,6 +7,7 @@ import { useLanguage } from "../../../../components/LanguageContext";
 import { translations } from "../../../translations";
 import { allProducts } from "../../../data/products";
 import { blogPosts } from "../../../data/blog";
+import { getProductTranslation } from "../../../data/productTranslations";
 
 export default function ProductDetail() {
   const params = useParams();
@@ -20,6 +21,11 @@ export default function ProductDetail() {
 
   const product = allProducts.find(p => p.id === id);
   const t = translations[lang];
+  const productTrans = getProductTranslation(id, lang);
+  const productName = productTrans?.name || product?.name || "";
+  const productDesc = productTrans?.desc || product?.desc || "";
+  const productSpecs = productTrans?.specs || product?.specs || [];
+  const productFeatures = productTrans?.features || product?.features || [];
   const images = (product?.gallery && product.gallery.length > 0) ? [product.image, ...product.gallery] : [product?.image || ""];
 
   const faqItems = [
@@ -154,7 +160,7 @@ const relatedBlog = blogPosts.slice(0, 2);
         {/* Info */}
         <div className="product-info-box">
           <span className="tag-category">{product.category} Wiper Series</span>
-          <h1 style={{fontSize:"36px",fontWeight:800,margin:"10px 0 20px",color:"#0f172a",lineHeight:1.2}}>{product.name}</h1>
+          <h1 style={{fontSize:"36px",fontWeight:800,margin:"10px 0 20px",color:"#0f172a",lineHeight:1.2}}>{productName}</h1>
 
           {/* Wholesale status box */}
           <div style={{backgroundColor:"#f8fafc",padding:"25px",borderRadius:"12px",marginBottom:"30px",borderLeft:"4px solid var(--accent)"}}>
@@ -173,7 +179,7 @@ const relatedBlog = blogPosts.slice(0, 2);
           <div style={{marginBottom:"30px"}}>
             <h4 style={{fontSize:"16px",marginBottom:"15px",color:"#0f172a"}}>Product Highlights:</h4>
             <ul style={{listStyle:"none",padding:0,margin:0}}>
-              {product.specs.map((spec, i) => (
+              {productSpecs.map((spec, i) => (
                 <li key={i} style={{marginBottom:"10px",display:"flex",alignItems:"flex-start",fontSize:"14px",color:"#475569"}}>
                   <span style={{color:"var(--accent)",marginRight:"10px",flexShrink:0}}>✓</span> {spec}
                 </li>
@@ -203,7 +209,7 @@ const relatedBlog = blogPosts.slice(0, 2);
 
           {/* CTA Buttons */}
           <div style={{display:"flex",gap:"15px"}}>
-            <Link href={"/contact?product=" + encodeURIComponent(product.name)} className="btn-primary" style={{flex:1,padding:"16px",textAlign:"center"}}>Get Bulk Price →</Link>
+            <Link href={"/contact?product=" + encodeURIComponent(productName)} className="btn-primary" style={{flex:1,padding:"16px",textAlign:"center"}}>Get Bulk Price →</Link>
             <a href="/Catalog.pdf" target="_blank" className="btn-outline" style={{flex:1,padding:"16px",textAlign:"center"}}>Download Catalog</a>
           </div>
 
@@ -242,7 +248,7 @@ const relatedBlog = blogPosts.slice(0, 2);
           <h2 className="section-title">Why Choose the {modelNo}?</h2>
           <p className="section-subtitle">Engineered for performance, built for durability, backed by a certified Chinese wiper blade factory.</p>
           <div className="grid-2col" style={{maxWidth:"900px",margin:"0 auto"}}>
-            {product.features.map((feature, i) => (
+            {productFeatures.map((feature, i) => (
               <div key={i} className="card" style={{padding:"30px"}}>
                 <div className="feature-icon" style={{width:"48px",height:"48px",fontSize:"24px",fontWeight:800,color:"var(--accent)",marginBottom:"15px"}}>
                   <span>{["❶","❷","❸","❹","❺","❻"][i]}</span>

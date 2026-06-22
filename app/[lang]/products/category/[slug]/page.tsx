@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useParams } from "next/navigation";
 import { translations, Locale } from "../../../../translations";
 import { allProducts } from "../../../../data/products";
+import { getProductTranslation } from "../../../../data/productTranslations";
 
 const CATEGORY_MAP: Record<string, string> = {
   "universal": "Universal",

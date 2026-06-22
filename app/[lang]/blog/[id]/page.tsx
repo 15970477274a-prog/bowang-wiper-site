@@ -6,6 +6,7 @@ import { useParams } from "next/navigation";
 import { useLanguage } from "../../../../components/LanguageContext";
 import { translations } from "../../../translations";
 import { blogPosts } from "../../../data/blog";
+import { getBlogTranslation } from "../../../data/blogTranslations";
 
 export default function BlogDetail() {
   const params = useParams();
@@ -16,19 +17,22 @@ export default function BlogDetail() {
   if (!post) return (<main><div style={{padding:"100px 20px",textAlign:"center"}}><h1>Not Found</h1><Link href="/blog" style={{color:"#0284c7"}}>Back</Link></div></main>);
 
   const t = translations[lang];
+  const blogTrans = getBlogTranslation(id, lang);
+  const postTitle = blogTrans?.title || post.title;
+  const postExcerpt = blogTrans?.excerpt || post.excerpt;
 
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": post.title,
-    "description": post.excerpt,
+    "headline": postTitle,
+    "description": postExcerpt,
     "image": post.image,
     "datePublished": post.date,
     "dateModified": post.date,
     "author": {"@type":"Organization","name":post.author,"url":"https://www.lelionautopart.com"},
     "publisher": {"@type":"Organization","name":"Ningbo Zhenhai Bowang Autoparts Co., Ltd."},
     "mainEntityOfPage": {"@type":"WebPage","@id":"https://www.lelionautopart.com/blog/" + post.id},
-    "keywords": post.tags.join(", ")
+    "keywords": post.tags.join(", "),
   };
 
   const breadcrumbSchema = {
@@ -37,7 +41,7 @@ export default function BlogDetail() {
     "itemListElement": [
       {"@type":"ListItem","position":1,"name":"Home","item":"https://www.lelionautopart.com/"},
       {"@type":"ListItem","position":2,"name":"Blog","item":"https://www.lelionautopart.com/blog"},
-      {"@type":"ListItem","position":3,"name":post.title,"item":"https://www.lelionautopart.com/blog/" + post.id}
+      {"@type":"ListItem","position":3,"name":postTitle,"item":"https://www.lelionautopart.com/blog/" + post.id}
     ]
   };
 

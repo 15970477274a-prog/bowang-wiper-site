@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { translations, Locale } from "../../translations";
 import { allProducts } from "../../data/products";
+import { getProductTranslation } from "../../data/productTranslations";
 
 export default function ProductsPage() {
   const [lang, setLang] = useState<Locale>("en");
@@ -131,13 +132,13 @@ export default function ProductsPage() {
                   </Link>
                   <div style={{ padding: "25px", flexGrow: 1, display: "flex", flexDirection: "column" }}>
                     <h3 style={{ fontSize: "19px", fontWeight: 800, marginBottom: "10px" }}>
-                      <Link href={`/products/${p.id}`} style={{ color: "#0f172a", textDecoration: "none" }}>{p.name}</Link>
+                      <Link href={`/products/${p.id}`} style={{ color: "#0f172a", textDecoration: "none" }}>{(getProductTranslation(p.id, lang)?.name || p.name)}</Link>
                     </h3>
                     <div style={{ marginBottom: "20px" }}>
                       <span style={{ fontSize: "13px", color: "#64748b", fontWeight: 600 }}>MOQ: {p.moq}</span>
                     </div>
                     <ul style={{ padding: 0, margin: "0 0 25px 0", listStyle: "none" }}>
-                      {p.specs.slice(0, 3).map((s, i) => (
+                      {(getProductTranslation(p.id, lang)?.specs || p.specs).slice(0, 3).map((s, i) => (
                         <li key={i} style={{ fontSize: "13.5px", color: "#475569", marginBottom: "8px", display: "flex", alignItems: "center" }}>
                           <span style={{ color: "#10b981", marginRight: "10px" }}>✓</span> {s}
                         </li>
