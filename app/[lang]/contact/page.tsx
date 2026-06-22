@@ -1,11 +1,14 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { useParams } from "next/navigation";
 import Link from "next/link";
 import { translations, Locale } from "../../translations";
 
 export default function ContactPage() {
-  const [lang, setLang] = useState<Locale>("en");
+  const params = useParams();
+  const urlLang = (params.lang as Locale) || "en";
+  const [lang, setLang] = useState<Locale>(urlLang);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -21,7 +24,7 @@ export default function ContactPage() {
 
   useEffect(() => {
     const savedLang = localStorage.getItem("lelion_lang") as Locale;
-    if (savedLang && ["en", "es", "ru", "fr", "de"].includes(savedLang)) {
+    if (savedLang && ["en", "es", "ru", "fr", "de", "zh"].includes(savedLang)) {
       setLang(savedLang);
     }
   }, []);

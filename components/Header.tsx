@@ -42,7 +42,7 @@ export default function Header() {
             <a href={l("/Catalog.pdf")} target="_blank" className="nav-link" style={{color:"var(--accent-glow)",fontWeight:600}}>{t.navCatalog}</a>
             <Link href={l("/contact")} className="nav-cta">{t.navGetQuote}</Link>
             <select value={lang} onChange={(e) => handleLangChange(e.target.value as Locale)} className="lang-select">
-              <option value="en">English</option><option value="es">Español</option><option value="ru">Русский</option><option value="fr">Français</option><option value="de">Deutsch</option><option value="zh">中文</option><option value="zh">中文</option>
+              <option value="en">English</option><option value="es">Español</option><option value="ru">Русский</option><option value="fr">Français</option><option value="de">Deutsch</option><option value="zh">中文</option>
             </select>
           </nav>
         </div>
@@ -55,7 +55,7 @@ export default function Header() {
         <a href={l("/Catalog.pdf")} target="_blank" onClick={closeMobileMenu} style={{color:"var(--accent-glow)",fontWeight:600}}>{t.navCatalog}</a>
         <a href={l("/contact")} className="nav-cta" onClick={closeMobileMenu}>{t.navGetQuote}</a>
         <select value={lang} onChange={(e) => { handleLangChange(e.target.value as Locale); closeMobileMenu(); }} className="lang-select-mobile">
-          <option value="en">English</option><option value="es">Español</option><option value="ru">Русский</option><option value="fr">Français</option><option value="de">Deutsch</option>
+          <option value="en">English</option><option value="es">Español</option><option value="ru">Русский</option><option value="fr">Français</option><option value="de">Deutsch</option><option value="zh">中文</option>
         </select>
       </div>
     </>
