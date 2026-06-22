@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { LanguageProvider } from "../../components/LanguageContext";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import WhatsAppFloat from "../../components/WhatsAppFloat";
@@ -50,11 +51,11 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
 
 export default function LangLayout({ children }: { children: React.ReactNode }) {
   return (
-    <>
+    <LanguageProvider>
       <Header />
       {children}
       <Footer />
       <WhatsAppFloat />
-    </>
+    </LanguageProvider>
   );
 }
