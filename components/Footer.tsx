@@ -56,13 +56,8 @@ export default function Footer() {
         {/* Column 1: Brand + Description */}
         <div>
           <div style={{ marginBottom: "20px" }}>
-            <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
-              <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
-                <rect width="48" height="48" rx="10" fill="#0D68B0"/>
-                <path d="M14 34V14l10 8 10-8v20" stroke="#fff" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-              <span style={{ fontSize: "22px", fontWeight: 800, color: "#ffffff", letterSpacing: "0.05em" }}>BOWANG WIPER</span>
-            </div>
+            <img src="/logo.jpg" alt="Bowang Wiper" style={{ height: "52px", width: "auto", marginBottom: "8px" }} />
+            <div style={{ fontSize: "20px", fontWeight: 800, color: "#ffffff", letterSpacing: "0.05em" }}>BOWANG WIPER</div>
           </div>
           <p style={{ color: "#94a3b8", lineHeight: "1.8", fontSize: "14px", maxWidth: "300px" }}>
             LELION is a leading manufacturer in the windshield wiper blade industry, with over 15 years experience and customers in more than 50 countries.

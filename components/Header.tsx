@@ -18,9 +18,12 @@ export default function Header() {
       <header className="header">
         <div className="header-inner">
           <div className="header-brand">
-            <Link href="/" style={{ textDecoration: "none" }}>
-              <span className="header-title">BOWANG WIPER</span>
-              <span className="header-subtitle">Autoparts Manufacturer</span>
+            <Link href="/" style={{ textDecoration: "none", display: "flex", alignItems: "center", gap: "12px" }}>
+              <img src="/logo.jpg" alt="Bowang Wiper" style={{ height: "42px", width: "auto" }} />
+              <div>
+                <span className="header-title">BOWANG WIPER</span>
+                <span className="header-subtitle">Autoparts Manufacturer</span>
+              </div>
             </Link>
           </div>
           <button
