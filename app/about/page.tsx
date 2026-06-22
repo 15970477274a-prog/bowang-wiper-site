@@ -73,7 +73,7 @@ export default function AboutPage() {
              </div>
           </div>
           <div style={{ flex: "1 1 400px", position: "relative" }}>
-             <img src="https://sc02.alicdn.com/kf/H2533c3c14bc74cd3afe116f60a8357f4U.jpg" alt="Bowang Autoparts Factory Front" style={{ width: "100%", borderRadius: "16px", boxShadow: "0 20px 50px rgba(0,0,0,0.15)", border: "1px solid #e2e8f0" }} />
+             <img src="https://sc02.alicdn.com/kf/H2533c3c14bc74cd3afe116f60a8357f4U.jpg" alt="Bowang Autoparts Factory Front" loading="lazy" style={{ width: "100%", borderRadius: "16px", boxShadow: "0 20px 50px rgba(0,0,0,0.15)", border: "1px solid #e2e8f0" }} />
           </div>
         </div>
       </section>
@@ -95,7 +95,7 @@ export default function AboutPage() {
              {certificates.map((cert, i) => (
                <div key={i} style={{ backgroundColor: "white", borderRadius: "16px", padding: "20px", textAlign: "center", boxShadow: "0 10px 30px rgba(0,0,0,0.3)" }}>
                  <div style={{ height: "400px", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center", marginBottom: "20px" }}>
-                   <img src={cert.url} alt={cert.title} style={{ maxWidth: "100%", maxHeight: "100%", borderRadius: "4px" }} />
+                   <img src={cert.url} alt={cert.title} loading="lazy" style={{ maxWidth: "100%", maxHeight: "100%", borderRadius: "4px" }} />
                  </div>
                  <h3 style={{ color: "#0f172a", fontSize: "18px", fontWeight: 800, marginBottom: "8px" }}>{cert.title}</h3>
                  <p style={{ color: "#64748b", fontSize: "13px" }}>{cert.desc}</p>
