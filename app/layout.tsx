@@ -69,7 +69,7 @@ const organizationSchema = {
     "addressCountry": "CN"
   },
   "contactPoint": [
-    { "@type": "ContactPoint", "telephone": "+86-18867886795", "contactType": "sales", "email": "15970477274a@gmail.com", "areaServed": "Worldwide", "availableLanguage": ["English", "Spanish", "Russian", "French", "German"] },
+    { "@type": "ContactPoint", "telephone": "+86-18867886795", "contactType": "sales", "email": "bwb@bwwiper.com", "areaServed": "Worldwide", "availableLanguage": ["English", "Spanish", "Russian", "French", "German"] },
     { "@type": "ContactPoint", "telephone": "+86-18867886795", "contactType": "technical support", "areaServed": "Worldwide", "availableLanguage": ["English", "Chinese"] }
   ],
   "sameAs": [
