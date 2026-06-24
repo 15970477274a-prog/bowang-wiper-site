@@ -134,7 +134,7 @@ export const zh: TranslationDict = {
     footerMultifunction: "多功能雨刮片",
     footerHybrid: "混合雨刮片",
     footerWiperArm: "雨刮臂",
-    footerRearWiper: "后雨刮",
+    footerRearWiper: "后雨刮片",
     footerRearCombo: "后雨刮组合",
     footerAddress: "中国浙江省宁波市镇海区九龙湖镇田顾工业区",
     categoryBannerSub: "来自中国领先OEM/ODM制造商的雨刮片批发。",

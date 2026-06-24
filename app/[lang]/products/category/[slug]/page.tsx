@@ -52,13 +52,13 @@ export default function ProductCategoryPage() {
   const t = translations[lang];
   const getCategoryName = () => {
     const map: Record<string, string> = {
-      "Universal": t.catUniversal,
-      "Specific Fit": t.catSpecificFit,
-      "Multifunction": t.catMultifunction,
-      "Wiper Arm": t.catWiperArm,
-      "Rear Wiper": t.catRearWiper,
-      "Hybrid": t.catHybrid,
-      "Rear Wiper Combo": t.catRearWiperCombo,
+      "Universal": t.footerUniversal,
+      "Specific Fit": t.footerSpecific,
+      "Multifunction": t.footerMultifunction,
+      "Wiper Arm": t.footerWiperArm,
+      "Rear Wiper": t.footerRearWiper,
+      "Hybrid": t.footerHybrid,
+      "Rear Wiper Combo": t.footerRearCombo,
     };
     return map[category] || category;
   };
@@ -122,7 +122,7 @@ export default function ProductCategoryPage() {
                 <Link href={l("/products")} style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">{t.allWipers}</li></Link>
                 {Object.entries(CATEGORY_MAP).map(([s, c]) => (
                   <Link key={s} href={l("/products/category/" + s)} style={{textDecoration:"none",color:"inherit"}}>
-                    <li className={"sidebar-item" + (s === slug ? " active" : "")}>{(() => { const catMap: Record<string, string> = { "Universal": t.catUniversal, "Specific Fit": t.catSpecificFit, "Multifunction": t.catMultifunction, "Wiper Arm": t.catWiperArm, "Rear Wiper": t.catRearWiper, "Hybrid": t.catHybrid, "Rear Wiper Combo": t.catRearWiperCombo }; return catMap[c] || (c + " Wipers"); })()}</li>
+                    <li className={"sidebar-item" + (s === slug ? " active" : "")}>{(() => { const catMap: Record<string, string> = { "Universal": t.footerUniversal, "Specific Fit": t.footerSpecific, "Multifunction": t.footerMultifunction, "Wiper Arm": t.footerWiperArm, "Rear Wiper": t.footerRearWiper, "Hybrid": t.footerHybrid, "Rear Wiper Combo": t.footerRearCombo }; return catMap[c] || c; })()}</li>
                   </Link>
                 ))}
               </ul>

@@ -113,7 +113,7 @@ export const fr: TranslationDict = {
     footerMultifunction: "Balai Multifonction",
     footerHybrid: "Balai Hybride",
     footerWiperArm: "Bras d\'Essuie-glace",
-    footerRearWiper: "Essuie-glace Arrière",
+    footerRearWiper: "Balai Arrière",
     footerRearCombo: "Combo Arrière",
     footerAddress: "District de Zhenhai, Ville de Ningbo, Province du Zhejiang, Chine",
     featuredCategories: "Catégories en Vedette",

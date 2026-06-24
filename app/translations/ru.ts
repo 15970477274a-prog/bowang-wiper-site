@@ -113,7 +113,7 @@ export const ru: TranslationDict = {
     footerMultifunction: "Многофункциональный Стеклоочиститель",
     footerHybrid: "Гибридный Стеклоочиститель",
     footerWiperArm: "Рычаг Стеклоочистителя",
-    footerRearWiper: "Задний Стеклоочиститель",
+    footerRearWiper: "Задняя Щетка",
     footerRearCombo: "Задний Комплект",
     footerAddress: "Район Чжэньхай, город Нинбо, провинция Чжэцзян, Китай",
     featuredCategories: "Популярные Категории",

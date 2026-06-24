@@ -114,7 +114,7 @@ export const en: TranslationDict = {
     footerMultifunction: "Multifunction Wiper Blade",
     footerHybrid: "Hybrid Wiper Blade",
     footerWiperArm: "Wiper Arm",
-    footerRearWiper: "Rear Wiper",
+    footerRearWiper: "Rear Wiper Blade",
     footerRearCombo: "Rear Wiper Combo",
     footerAddress: "Zhenhai District, Ningbo City, Zhejiang Province, China",
     featuredCategories: "Featured Categories",

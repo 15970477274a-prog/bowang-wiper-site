@@ -113,7 +113,7 @@ export const es: TranslationDict = {
     footerMultifunction: "Escobilla Multifunción",
     footerHybrid: "Escobilla Híbrida",
     footerWiperArm: "Brazo Limpiaparabrisas",
-    footerRearWiper: "Limpiaparabrisas Trasero",
+    footerRearWiper: "Escobilla Trasera",
     footerRearCombo: "Combo Trasero",
     footerAddress: "Distrito de Zhenhai, Ciudad de Ningbo, Provincia de Zhejiang, China",
     featuredCategories: "Categorías Destacadas",
