@@ -118,5 +118,7 @@ export const fr: TranslationDict = {
     inquiry: "Demander",
     details: "Détails",
     prev: "← Précédent",
+    packagingTitle: "Solutions d'Emballage OEM et Marque Privée",
+    packagingDesc: "Options d'emballage flexibles pour la distribution au détail, en gros et après-vente, y compris boîtes couleur, blisters, impression de logos, étiquettes code-barres, instructions multilingues et marquage des cartons d'exportation.",
     next: "Suivant →",
   };

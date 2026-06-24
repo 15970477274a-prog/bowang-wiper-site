@@ -119,5 +119,7 @@ export const en: TranslationDict = {
     inquiry: "Inquiry",
     details: "Details",
     prev: "← Prev",
+    packagingTitle: "OEM & Private Label Packaging Solutions",
+    packagingDesc: "Flexible packaging options for retail, wholesale, and aftermarket distribution, including color boxes, blister cards, logo printing, barcode labels, multilingual instructions, and export carton marking.",
     next: "Next →",
   };

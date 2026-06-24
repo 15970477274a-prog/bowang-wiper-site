@@ -11,17 +11,18 @@ const packages = [
   { name: "Double Blister Package", img: "/packaging/double-blister-package.jpg" },
 ];
 
-export default function PackagingSection() {
+interface PackagingProps { title: string; desc: string; }
+export default function PackagingSection({ title, desc }: PackagingProps) {
   return (
     <section style={{ padding: "100px 20px", backgroundColor: "#ffffff" }}>
       <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
         <div style={{ textAlign: "center", marginBottom: "60px" }}>
           <h2 style={{ fontSize: "36px", fontWeight: 800, color: "#0f172a", marginBottom: "12px" }}>
-            OEM &amp; Private Label Packaging Solutions
+            {title}
           </h2>
           <div style={{ height: "4px", width: "60px", backgroundColor: "#0284c7", margin: "15px auto" }}></div>
           <p style={{ color: "#64748b", fontSize: "16px", maxWidth: "700px", margin: "0 auto", lineHeight: "1.7" }}>
-            Flexible packaging options for retail, wholesale, and aftermarket distribution, including color boxes, blister cards, logo printing, barcode labels, multilingual instructions, and export carton marking.
+            {desc}
           </p>
         </div>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(250px, 1fr))", gap: "24px" }}>

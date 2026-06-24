@@ -130,7 +130,7 @@ export default function Home() {
       </section>
 
       
-      <PackagingSection />
+      <PackagingSection title={t.packagingTitle} desc={t.packagingDesc} />
 
       <section style={{ padding: "100px 20px", backgroundColor: "#f8fafc" }}>
         <div style={{ maxWidth: "900px", margin: "0 auto" }}>

@@ -118,6 +118,8 @@ export const zh: TranslationDict = {
     inquiry: "询价",
     details: "详情",
     prev: "← 上一页",
+    packagingTitle: "OEM与自有品牌包装解决方案",
+    packagingDesc: "为零售、批发和售后市场提供灵活的包装方案，包括彩盒、吸塑卡、logo印刷、条码标签、多语言说明书和出口纸箱标记。",
     next: "下一页 →",
     footerAddress: "中国浙江省宁波市镇海区九龙湖镇田顾工业区",
 };

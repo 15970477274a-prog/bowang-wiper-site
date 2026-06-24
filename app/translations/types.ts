@@ -120,4 +120,6 @@ export interface TranslationDict {
   details: string;
   prev: string;
   next: string;
+  packagingTitle: string;
+  packagingDesc: string;
 }
