@@ -8,7 +8,9 @@ import { allProducts } from "../data/products";
 import PackagingSection from "../../components/PackagingSection";
 
 export default function Home() {
-  const [lang, setLang] = useState<Locale>("en");
+  const params = useParams();
+  const urlLang = (params.lang as Locale) || "en";
+  const [lang, setLang] = useState<Locale>(urlLang);
   const [openFaq, setOpenFaq] = useState<number | null>(null);
   const [formData, setFormData] = useState({
     name: "",
