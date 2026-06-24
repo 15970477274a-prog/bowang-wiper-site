@@ -23,11 +23,8 @@ export default function ContactPage() {
   });
 
   useEffect(() => {
+    setLang(urlLang);
     localStorage.setItem("lelion_lang", urlLang);
-    const savedLang = localStorage.getItem("lelion_lang") as Locale;
-    if (savedLang && ["en", "es", "ru", "fr", "de", "zh"].includes(savedLang)) {
-      setLang(savedLang);
-    }
   }, [urlLang]);
 
   const handleLangChange = (newLang: Locale) => {
