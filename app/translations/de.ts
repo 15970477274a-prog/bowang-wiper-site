@@ -139,4 +139,11 @@ export const de: TranslationDict = {
     next: "Weiter →",
     categoryBannerSub: "Wischerblätter im Großhandel von einem führenden chinesischen OEM/ODM-Hersteller.",
     categoryNotFoundDesc: "Keine Produkte in dieser Kategorie gefunden.",
+    catUniversal: "Universal",
+    catSpecificFit: "Spezifische Passform",
+    catMultifunction: "Multifunktion",
+    catWiperArm: "Wischerarm",
+    catRearWiper: "Heckwischer",
+    catHybrid: "Hybrid",
+    catRearWiperCombo: "Heck-Kombi",
   };

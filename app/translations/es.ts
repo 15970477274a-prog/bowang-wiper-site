@@ -138,4 +138,11 @@ export const es: TranslationDict = {
     next: "Siguiente →",
     categoryBannerSub: "Escobillas al por mayor de un fabricante líder chino OEM/ODM.",
     categoryNotFoundDesc: "No se encontraron productos en esta categoría.",
+    catUniversal: "Universal",
+    catSpecificFit: "Ajuste Específico",
+    catMultifunction: "Multifunción",
+    catWiperArm: "Brazo Limpiaparabrisas",
+    catRearWiper: "Trasero",
+    catHybrid: "Híbrido",
+    catRearWiperCombo: "Combo Trasero",
   };

@@ -137,6 +137,13 @@ export interface TranslationDict {
   next: string;
   packagingTitle: string;
   packagingDesc: string;
+  catUniversal: string;
+  catSpecificFit: string;
+  catMultifunction: string;
+  catWiperArm: string;
+  catRearWiper: string;
+  catHybrid: string;
+  catRearWiperCombo: string;
   categoryBannerSub: string;
   categoryNotFoundDesc: string;
 }

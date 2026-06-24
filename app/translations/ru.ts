@@ -138,4 +138,11 @@ export const ru: TranslationDict = {
     next: "Вперед →",
     categoryBannerSub: "Оптовые щетки стеклоочистителя от ведущего китайского OEM/ODM производителя.",
     categoryNotFoundDesc: "В этой категории нет товаров.",
+    catUniversal: "Универсальные",
+    catSpecificFit: "Специальные",
+    catMultifunction: "Многофункциональные",
+    catWiperArm: "Рычаг",
+    catRearWiper: "Задний",
+    catHybrid: "Гибридные",
+    catRearWiperCombo: "Задний Комплект",
   };

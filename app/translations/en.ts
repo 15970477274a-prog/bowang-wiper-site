@@ -139,4 +139,11 @@ export const en: TranslationDict = {
     next: "Next →",
     categoryBannerSub: "Wholesale wiper blades from a leading Chinese OEM/ODM manufacturer.",
     categoryNotFoundDesc: "No products found in this category.",
+    catUniversal: "Universal",
+    catSpecificFit: "Specific Fit",
+    catMultifunction: "Multifunction",
+    catWiperArm: "Wiper Arm",
+    catRearWiper: "Rear Wiper",
+    catHybrid: "Hybrid",
+    catRearWiperCombo: "Rear Wiper Combo",
   };

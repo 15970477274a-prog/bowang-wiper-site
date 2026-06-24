@@ -139,4 +139,11 @@ export const zh: TranslationDict = {
     footerAddress: "中国浙江省宁波市镇海区九龙湖镇田顾工业区",
     categoryBannerSub: "来自中国领先OEM/ODM制造商的雨刮片批发。",
     categoryNotFoundDesc: "该分类中暂无产品。",
+    catUniversal: "通用",
+    catSpecificFit: "专用",
+    catMultifunction: "多功能",
+    catWiperArm: "雨刮臂",
+    catRearWiper: "后雨刮",
+    catHybrid: "混合",
+    catRearWiperCombo: "后雨刮组合",
   };

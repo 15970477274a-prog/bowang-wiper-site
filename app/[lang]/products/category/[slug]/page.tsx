@@ -50,6 +50,18 @@ export default function ProductCategoryPage() {
   };
 
   const t = translations[lang];
+  const getCategoryName = () => {
+    const map: Record<string, string> = {
+      "Universal": t.catUniversal,
+      "Specific Fit": t.catSpecificFit,
+      "Multifunction": t.catMultifunction,
+      "Wiper Arm": t.catWiperArm,
+      "Rear Wiper": t.catRearWiper,
+      "Hybrid": t.catHybrid,
+      "Rear Wiper Combo": t.catRearWiperCombo,
+    };
+    return map[category] || category;
+  };
   const l = (p: string) => "/" + lang + p;
 
   if (!category) {
@@ -96,7 +108,7 @@ export default function ProductCategoryPage() {
 
 
       <section className="banner-dark">
-        <h1 className="banner-title">{category} Wiper Blades</h1>
+        <h1 className="banner-title">{getCategoryName()} Wiper Blades</h1>
         <p className="banner-subtitle">{t.categoryBannerSub}</p>
       </section>
 
@@ -110,7 +122,7 @@ export default function ProductCategoryPage() {
                 <Link href={l("/products")} style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">{t.allWipers}</li></Link>
                 {Object.entries(CATEGORY_MAP).map(([s, c]) => (
                   <Link key={s} href={l("/products/category/" + s)} style={{textDecoration:"none",color:"inherit"}}>
-                    <li className={"sidebar-item" + (s === slug ? " active" : "")}>{c === "Wiper Arm" ? c : `${c} Wipers`}</li>
+                    <li className={"sidebar-item" + (s === slug ? " active" : "")}>{(() => { const catMap: Record<string, string> = { "Universal": t.catUniversal, "Specific Fit": t.catSpecificFit, "Multifunction": t.catMultifunction, "Wiper Arm": t.catWiperArm, "Rear Wiper": t.catRearWiper, "Hybrid": t.catHybrid, "Rear Wiper Combo": t.catRearWiperCombo }; return catMap[c] || (c + " Wipers"); })()}</li>
                   </Link>
                 ))}
               </ul>

@@ -138,4 +138,11 @@ export const fr: TranslationDict = {
     next: "Suivant →",
     categoryBannerSub: "Balais d'essuie-glace en gros d'un fabricant chinois leader OEM/ODM.",
     categoryNotFoundDesc: "Aucun produit trouvé dans cette catégorie.",
+    catUniversal: "Universel",
+    catSpecificFit: "Ajustement Spécifique",
+    catMultifunction: "Multifonction",
+    catWiperArm: "Bras d'Essuie-glace",
+    catRearWiper: "Arrière",
+    catHybrid: "Hybride",
+    catRearWiperCombo: "Combo Arrière",
   };
