@@ -108,7 +108,7 @@ export default function ProductCategoryPage() {
 
 
       <section className="banner-dark">
-        <h1 className="banner-title">{getCategoryName()} Wiper Blades</h1>
+        <h1 className="banner-title">{getCategoryName()}</h1>
         <p className="banner-subtitle">{t.categoryBannerSub}</p>
       </section>
 
