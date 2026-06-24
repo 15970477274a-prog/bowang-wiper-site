@@ -38,9 +38,10 @@ export default function ProductCategoryPage() {
   const [lang, setLang] = useState<Locale>(urlLang);
 
   useEffect(() => {
+    localStorage.setItem("lelion_lang", urlLang);
     const savedLang = localStorage.getItem("lelion_lang") as Locale;
     if (savedLang && ["en", "es", "ru", "fr", "de", "zh"].includes(savedLang)) setLang(savedLang);
-  }, []);
+  }, [urlLang]);
 
   const closeMobileMenu = () => setMobileMenu(false);
 

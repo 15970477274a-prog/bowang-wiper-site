@@ -8,18 +8,21 @@ import { allProducts } from "../../data/products";
 import { getProductTranslation } from "../../data/productTranslations";
 
 export default function ProductsPage() {
-  const [lang, setLang] = useState<Locale>("en");
+  const params = useParams();
+  const urlLang = (params.lang as Locale) || "en";
+  const [lang, setLang] = useState<Locale>(urlLang);
   const [activeCategory, setActiveCategory] = useState("All");
   const [currentPage, setCurrentPage] = useState(1);
   const ITEMS_PER_PAGE = 6;
   const [mobileMenu, setMobileMenu] = useState(false);
 
   useEffect(() => {
+    localStorage.setItem("lelion_lang", urlLang);
     const savedLang = localStorage.getItem("lelion_lang") as Locale;
-    if (savedLang && ["en", "es", "ru", "fr", "de"].includes(savedLang)) {
+    if (savedLang && ["en", "es", "ru", "fr", "de", "zh"].includes(savedLang)) {
       setLang(savedLang);
     }
-  }, []);
+  }, [urlLang]);
 
   const closeMobileMenu = () => setMobileMenu(false);
 

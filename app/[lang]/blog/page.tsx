@@ -8,17 +8,20 @@ import { blogPosts } from "../../data/blog";
 import { getBlogTranslation } from "../../data/blogTranslations";
 
 export default function BlogPage() {
+  const params = useParams();
+  const urlLang = (params.lang as Locale) || "en";
   const [mobileMenu, setMobileMenu] = useState(false);
-  const [lang, setLang] = useState<Locale>("en");
+  const [lang, setLang] = useState<Locale>(urlLang);
   const closeMobileMenu = () => setMobileMenu(false);
   const [activeTag, setActiveTag] = useState("All");
 
   useEffect(() => {
+    localStorage.setItem("lelion_lang", urlLang);
     const savedLang = localStorage.getItem("lelion_lang") as Locale;
     if (savedLang && ["en", "es", "ru", "fr", "de", "zh"].includes(savedLang)) {
       setLang(savedLang);
     }
-  }, []);
+  }, [urlLang]);
 
   
   const handleLangChange = (newLang: Locale) => {
