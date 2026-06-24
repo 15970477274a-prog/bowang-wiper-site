@@ -11,7 +11,17 @@ export default function Header() {
   const closeMobileMenu = () => setMobileMenu(false);
   const t = translations[lang];
 
-  const handleLangChange = (newLang: Locale) => { setLang(newLang); localStorage.setItem("lelion_lang", newLang); };
+  const handleLangChange = (newLang: Locale) => {
+    setLang(newLang);
+    localStorage.setItem("lelion_lang", newLang);
+    const pathParts = window.location.pathname.split("/").filter(Boolean);
+    if (pathParts.length > 0 && ["en","es","ru","fr","de","zh"].includes(pathParts[0])) {
+      pathParts[0] = newLang;
+    } else {
+      pathParts.unshift(newLang);
+    }
+    window.location.href = "/" + pathParts.join("/") + window.location.search;
+  };
   const l = (path: string) => "/" + lang + path;
 
   return (
@@ -54,7 +64,7 @@ export default function Header() {
         <a href={l("/about")} onClick={closeMobileMenu}>{t.navAboutUs}</a>
         <a href={l("/Catalog.pdf")} target="_blank" onClick={closeMobileMenu} style={{color:"var(--accent-glow)",fontWeight:600}}>{t.navCatalog}</a>
         <a href={l("/contact")} className="nav-cta" onClick={closeMobileMenu}>{t.navGetQuote}</a>
-        <select value={lang} onChange={(e) => { handleLangChange(e.target.value as Locale); closeMobileMenu(); }} className="lang-select-mobile">
+        <select value={lang} onChange={(e) => { handleLangChange(e.target.value as Locale); }} className="lang-select-mobile">
           <option value="en">English</option><option value="es">Español</option><option value="ru">Русский</option><option value="fr">Français</option><option value="de">Deutsch</option><option value="zh">中文</option>
         </select>
       </div>
