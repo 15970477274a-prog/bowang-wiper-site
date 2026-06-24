@@ -2,7 +2,7 @@
 import { allProducts } from "./data/products";
 import { blogPosts } from "./data/blog";
 
-const locales = ["en", "es", "ru", "fr", "de"];
+const locales = ["en", "es", "ru", "fr", "de", "zh"];
 const baseUrl = "https://www.lelionautopart.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
