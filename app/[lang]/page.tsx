@@ -5,6 +5,7 @@ import { useParams } from "next/navigation";
 import Link from "next/link";
 import { translations, Locale } from "../translations";
 import { allProducts } from "../data/products";
+import { getProductTranslation } from "../data/productTranslations";
 import PackagingSection from "../../components/PackagingSection";
 
 export default function Home() {
@@ -95,7 +96,7 @@ export default function Home() {
           <p style={{ fontSize: "20px", color: "#cbd5e1", marginBottom: "45px", lineHeight: 1.6 }}>{t.heroSubtitle}</p>
           <div style={{ display: "flex", gap: "20px", justifyContent: "center" }}>
             <Link href="/contact" className="btn-primary" style={{ padding: "18px 45px", fontSize: "18px", textDecoration: "none", backgroundColor: "#0284c7", color: "white", borderRadius: "8px", fontWeight: "bold", boxShadow: "0 10px 25px rgba(2, 132, 199, 0.4)" }}>{t.heroInquireBtn}</Link>
-            <Link href="/products" className="btn-secondary" style={{ padding: "18px 45px", fontSize: "18px", backgroundColor: "white", color: "#0f172a", textDecoration: "none", borderRadius: "8px", fontWeight: "bold" }}>View All Products</Link>
+            <Link href="/products" className="btn-secondary" style={{ padding: "18px 45px", fontSize: "18px", backgroundColor: "white", color: "#0f172a", textDecoration: "none", borderRadius: "8px", fontWeight: "bold" }}>{t.heroProductsBtn}</Link>
           </div>
         </div>
       </section>
@@ -106,18 +107,22 @@ export default function Home() {
           <div style={{ height: "4px", width: "60px", backgroundColor: "#0284c7", margin: "15px auto" }}></div>
         </div>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(350px, 1fr))", gap: "30px" }}>
-          {allProducts.slice(0, 3).map(p => (
+          {allProducts.slice(0, 3).map(p => {
+              const pt = getProductTranslation(p.id, lang);
+              const pName = pt?.name || p.name;
+              const pDesc = pt?.desc || p.desc;
+              return (
             <div key={p.id} style={{ backgroundColor: "white", borderRadius: "12px", overflow: "hidden", border: "1px solid #e2e8f0", textAlign: "center" }}>
                <div style={{ height: "300px", backgroundColor: "#f8fafc", display: "flex", alignItems: "center", justifyContent: "center", padding: "20px" }}>
-                 <img loading="lazy" src={p.image} alt={p.name} style={{ maxWidth: "100%", maxHeight: "100%", width: "auto", height: "auto", objectFit: "contain" }} />
+                 <img loading="lazy" src={p.image} alt={pName} style={{ maxWidth: "100%", maxHeight: "100%", width: "auto", height: "auto", objectFit: "contain" }} />
                </div>
                <div style={{ padding: "30px" }}>
-                 <h3 style={{ fontSize: "22px", fontWeight: 700, marginBottom: "15px" }}>{p.name}</h3>
-                 <p style={{ color: "#64748b", fontSize: "15px", marginBottom: "25px", height: "45px", overflow: "hidden" }}>{p.desc}</p>
-                 <Link href={`/products/${p.id}`} style={{ color: "#0284c7", fontWeight: "bold", textDecoration: "none", fontSize: "15px" }}>Explore Detailed Specs →</Link>
+                 <h3 style={{ fontSize: "22px", fontWeight: 700, marginBottom: "15px" }}>{pName}</h3>
+                 <p style={{ color: "#64748b", fontSize: "15px", marginBottom: "25px", height: "45px", overflow: "hidden" }}>{pDesc}</p>
+                 <Link href={`/products/${p.id}`} style={{ color: "#0284c7", fontWeight: "bold", textDecoration: "none", fontSize: "15px" }}>{t.viewProducts}</Link>
                </div>
             </div>
-          ))}
+          )})}
         </div>
         <div style={{ textAlign: "center", marginTop: "60px" }}>
            <Link href="/products" style={{ background: "linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.7)), url('/banner.png') center/cover no-repeat", color: "white", padding: "15px 40px", borderRadius: "8px", textDecoration: "none", fontWeight: "bold" }}>{t.enterProductCenter}</Link>
