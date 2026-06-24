@@ -27,6 +27,11 @@ export function middleware(request: NextRequest) {
     return NextResponse.next();
   }
 
+  // Skip file extensions even with locale prefix (e.g., /zh/Catalog.pdf)
+  if (pathname.match(/\.(jpg|png|svg|ico|pdf|xml|txt|js|css|woff2?|ttf|eot)$/)) {
+    return NextResponse.next();
+  }
+
   // Check if path already has a locale prefix
   const pathnameHasLocale = locales.some(
     (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`

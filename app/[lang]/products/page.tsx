@@ -67,7 +67,7 @@ export default function ProductsPage() {
         <a href={l("/products")} onClick={closeMobileMenu}>{t.navProducts}</a>
         <a href={l("/blog")} onClick={closeMobileMenu}>Blog</a>
         <a href={l("/about")} onClick={closeMobileMenu}>{t.navAboutUs}</a>
-        <a href={l("/Catalog.pdf")} target="_blank" onClick={closeMobileMenu} style={{color:"var(--accent-glow)",fontWeight:600}}>{t.navCatalog}</a>
+        <a href="/Catalog.pdf" target="_blank" onClick={closeMobileMenu} style={{color:"var(--accent-glow)",fontWeight:600}}>{t.navCatalog}</a>
         <a href={l("/contact")} className="nav-cta" onClick={closeMobileMenu}>{t.navGetQuote}</a>
         <select value={lang} onChange={(e) => { handleLangChange(e.target.value as Locale); closeMobileMenu(); }} className="lang-select-mobile">
           <option value="en">English</option><option value="es">Español</option><option value="ru">Русский</option><option value="fr">Français</option><option value="de">Deutsch</option><option value="zh">中文</option>
