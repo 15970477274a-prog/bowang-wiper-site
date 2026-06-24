@@ -12,9 +12,10 @@ export default function BlogDetail() {
   const params = useParams();
   const id = params.id as string;
   const { lang } = useLanguage();
+  const l = (p: string) => "/" + lang + p;
   const post = blogPosts.find(p => p.id === id);
 
-  if (!post) return (<main><div style={{padding:"100px 20px",textAlign:"center"}}><h1>Not Found</h1><Link href="/blog" style={{color:"#0284c7"}}>Back</Link></div></main>);
+  if (!post) return (<main><div style={{padding:"100px 20px",textAlign:"center"}}><h1>Not Found</h1><Link href={l("/blog")} style={{color:"#0284c7"}}>Back</Link></div></main>);
 
   const t = translations[lang];
   const blogTrans = getBlogTranslation(id, lang);

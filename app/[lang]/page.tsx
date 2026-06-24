@@ -71,6 +71,7 @@ export default function Home() {
   };
 
   const t = translations[lang];
+  const l = (p: string) => "/" + lang + p;
 
   const faqItems = [
     { q: t.faqQ1, a: t.faqA1 },
@@ -95,8 +96,8 @@ export default function Home() {
           <h1 style={{ fontSize: "56px", fontWeight: 800, marginBottom: "25px", lineHeight: 1.1, textShadow: "0 2px 10px rgba(0,0,0,0.3)" }}>{t.heroTitle}</h1>
           <p style={{ fontSize: "20px", color: "#cbd5e1", marginBottom: "45px", lineHeight: 1.6 }}>{t.heroSubtitle}</p>
           <div style={{ display: "flex", gap: "20px", justifyContent: "center" }}>
-            <Link href="/contact" className="btn-primary" style={{ padding: "18px 45px", fontSize: "18px", textDecoration: "none", backgroundColor: "#0284c7", color: "white", borderRadius: "8px", fontWeight: "bold", boxShadow: "0 10px 25px rgba(2, 132, 199, 0.4)" }}>{t.heroInquireBtn}</Link>
-            <Link href="/products" className="btn-secondary" style={{ padding: "18px 45px", fontSize: "18px", backgroundColor: "white", color: "#0f172a", textDecoration: "none", borderRadius: "8px", fontWeight: "bold" }}>{t.heroProductsBtn}</Link>
+            <Link href={l("/contact")} className="btn-primary" style={{ padding: "18px 45px", fontSize: "18px", textDecoration: "none", backgroundColor: "#0284c7", color: "white", borderRadius: "8px", fontWeight: "bold", boxShadow: "0 10px 25px rgba(2, 132, 199, 0.4)" }}>{t.heroInquireBtn}</Link>
+            <Link href={l("/products")} className="btn-secondary" style={{ padding: "18px 45px", fontSize: "18px", backgroundColor: "white", color: "#0f172a", textDecoration: "none", borderRadius: "8px", fontWeight: "bold" }}>{t.heroProductsBtn}</Link>
           </div>
         </div>
       </section>
@@ -125,7 +126,7 @@ export default function Home() {
           )})}
         </div>
         <div style={{ textAlign: "center", marginTop: "60px" }}>
-           <Link href="/products" style={{ background: "linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.7)), url('/banner.png') center/cover no-repeat", color: "white", padding: "15px 40px", borderRadius: "8px", textDecoration: "none", fontWeight: "bold" }}>{t.enterProductCenter}</Link>
+           <Link href={l("/products")} style={{ background: "linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.7)), url('/banner.png') center/cover no-repeat", color: "white", padding: "15px 40px", borderRadius: "8px", textDecoration: "none", fontWeight: "bold" }}>{t.enterProductCenter}</Link>
         </div>
       </section>
 

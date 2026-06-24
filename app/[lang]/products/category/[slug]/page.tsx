@@ -51,9 +51,10 @@ export default function ProductCategoryPage() {
   };
 
   const t = translations[lang];
+  const l = (p: string) => "/" + lang + p;
 
   if (!category) {
-    return <div style={{padding:"100px",textAlign:"center"}}><h1>{t.categoryNotFound}</h1><Link href="/products" style={{color:"#0284c7"}}>{t.backToProducts}</Link></div>;
+    return <div style={{padding:"100px",textAlign:"center"}}><h1>{t.categoryNotFound}</h1><Link href={l("/products")} style={{color:"#0284c7"}}>{t.backToProducts}</Link></div>;
   }
   const filtered = allProducts.filter(p => p.category === category);
 
@@ -84,13 +85,13 @@ export default function ProductCategoryPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(collectionSchema)}} />
 {/* Mobile Menu Overlay */}
       <div className={"mobile-menu-overlay" + (mobileMenu ? " open" : "")}>
-        <a href="/" onClick={closeMobileMenu}>Home</a>
-        <a href="/products" onClick={closeMobileMenu}>Products</a>
-        <a href="/blog" onClick={closeMobileMenu}>Blog</a>
-        <a href="/about" onClick={closeMobileMenu}>About</a>
-        <a href="/contact" onClick={closeMobileMenu} className="nav-cta">Contact Us</a>
+        <a href={l("/")} onClick={closeMobileMenu}>Home</a>
+        <a href={l("/products")} onClick={closeMobileMenu}>Products</a>
+        <a href={l("/blog")} onClick={closeMobileMenu}>Blog</a>
+        <a href={l("/about")} onClick={closeMobileMenu}>About</a>
+        <a href={l("/contact")} onClick={closeMobileMenu} className="nav-cta">Contact Us</a>
         <select value={lang} onChange={(e) => { handleLangChange(e.target.value as Locale); closeMobileMenu(); }} className="lang-select-mobile">
-          <option value="en">English</option><option value="es">Espa?ol</option><option value="ru">???????</option><option value="fr">Fran?ais</option><option value="de">Deutsch</option>
+          <option value="en">English</option><option value="es">Español</option><option value="ru">Русский</option><option value="fr">Français</option><option value="de">Deutsch</option><option value="zh">中文</option>
         </select>
       </div>
 
@@ -107,9 +108,9 @@ export default function ProductCategoryPage() {
             <aside className="sidebar">
               <h3 className="sidebar-title">Series Filter</h3>
               <ul className="sidebar-list">
-                <Link href="/products" style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">All Wipers</li></Link>
+                <Link href={l("/products")} style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">All Wipers</li></Link>
                 {Object.entries(CATEGORY_MAP).map(([s, c]) => (
-                  <Link key={s} href={"/products/category/" + s} style={{textDecoration:"none",color:"inherit"}}>
+                  <Link key={s} href={l("/products/category/" + s)} style={{textDecoration:"none",color:"inherit"}}>
                     <li className={"sidebar-item" + (s === slug ? " active" : "")}>{c === "Wiper Arm" ? c : `${c} Wipers`}</li>
                   </Link>
                 ))}
@@ -128,7 +129,7 @@ export default function ProductCategoryPage() {
                         backgroundColor:"white",borderRadius:"16px",overflow:"hidden",border:"1px solid #f1f5f9",
                         display:"flex",flexDirection:"column",transition:"transform 0.3s ease"
                       }}>
-                        <Link href={"/products/" + product.id} style={{
+                        <Link href={l("/products/" + product.id)} style={{
                           height:"300px",backgroundColor:"#f8fafc",display:"flex",alignItems:"center",
                           justifyContent:"center",position:"relative",padding:"20px"
                         }}>
@@ -153,7 +154,7 @@ export default function ProductCategoryPage() {
                             ))}
                           </ul>
                           <div style={{display:"flex",gap:"12px",marginTop:"auto"}}>
-                            <Link href="/contact" style={{flex:1,textAlign:"center",backgroundColor:"#0284c7",color:"white",
+                            <Link href={l("/contact")} style={{flex:1,textAlign:"center",backgroundColor:"#0284c7",color:"white",
                               padding:"12px",borderRadius:"8px",fontSize:"14px",fontWeight:"bold",textDecoration:"none"
                             }}>{t.inquiry}</Link>
                             <Link href={"/products/" + product.id} style={{flex:1,textAlign:"center",border:"1.5px solid #0f172a",
@@ -213,7 +214,7 @@ export default function ProductCategoryPage() {
         <div style={{ maxWidth: "600px", margin: "0 auto" }}>
           <h2 style={{ fontSize: "28px", fontWeight: 800, color: "#0f172a", marginBottom: "16px" }}>{t.needCustomSolution}</h2>
           <p style={{ fontSize: "16px", color: "#64748b", lineHeight: "1.7", marginBottom: "30px", maxWidth: "480px", marginLeft: "auto", marginRight: "auto" }}>{t.needCustomSolutionDesc}</p>
-          <Link href="/contact" style={{ display: "inline-block", backgroundColor: "#0284c7", color: "#ffffff", padding: "14px 36px", borderRadius: "8px", fontSize: "16px", fontWeight: 600, textDecoration: "none" }}>{t.contactOurTeam}</Link>
+          <Link href={l("/contact")} style={{ display: "inline-block", backgroundColor: "#0284c7", color: "#ffffff", padding: "14px 36px", borderRadius: "8px", fontSize: "16px", fontWeight: 600, textDecoration: "none" }}>{t.contactOurTeam}</Link>
         </div>
       </section>
 <a href="https://wa.me/8618867886795" target="_blank" rel="noopener noreferrer" className="whatsapp-float">

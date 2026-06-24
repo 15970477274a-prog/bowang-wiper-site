@@ -32,6 +32,7 @@ export default function ProductsPage() {
   };
 
   const t = translations[lang];
+  const l = (p: string) => "/" + lang + p;
 
   const filteredProducts = activeCategory === "All" 
     ? allProducts 
@@ -65,14 +66,14 @@ export default function ProductsPage() {
       />
 {/* Mobile Menu Overlay */}
       <div className={"mobile-menu-overlay" + (mobileMenu ? " open" : "")}>
-        <a href="/" onClick={closeMobileMenu}>{t.navHome}</a>
-        <a href="/products" onClick={closeMobileMenu}>{t.navProducts}</a>
-        <a href="/blog" onClick={closeMobileMenu}>Blog</a>
-        <a href="/about" onClick={closeMobileMenu}>{t.navAboutUs}</a>
-        <a href="/Catalog.pdf" target="_blank" onClick={closeMobileMenu} style={{color:"var(--accent-glow)",fontWeight:600}}>{t.navCatalog}</a>
-        <a href="/contact" className="nav-cta" onClick={closeMobileMenu}>{t.navGetQuote}</a>
+        <a href={l("/")} onClick={closeMobileMenu}>{t.navHome}</a>
+        <a href={l("/products")} onClick={closeMobileMenu}>{t.navProducts}</a>
+        <a href={l("/blog")} onClick={closeMobileMenu}>Blog</a>
+        <a href={l("/about")} onClick={closeMobileMenu}>{t.navAboutUs}</a>
+        <a href={l("/Catalog.pdf")} target="_blank" onClick={closeMobileMenu} style={{color:"var(--accent-glow)",fontWeight:600}}>{t.navCatalog}</a>
+        <a href={l("/contact")} className="nav-cta" onClick={closeMobileMenu}>{t.navGetQuote}</a>
         <select value={lang} onChange={(e) => { handleLangChange(e.target.value as Locale); closeMobileMenu(); }} className="lang-select-mobile">
-          <option value="en">English</option><option value="es">Espa?ol</option><option value="ru">???????</option><option value="fr">Fran?ais</option><option value="de">Deutsch</option>
+          <option value="en">English</option><option value="es">Español</option><option value="ru">Русский</option><option value="fr">Français</option><option value="de">Deutsch</option><option value="zh">中文</option>
         </select>
       </div>
 
@@ -91,13 +92,13 @@ export default function ProductsPage() {
           <aside style={{ flex: "1 1 250px", borderRight: "1px solid #e2e8f0", paddingRight: "20px" }}>
             <h3 style={{ fontSize: "18px", fontWeight: 700, marginBottom: "25px", color: "#0f172a" }}>{t.seriesFilter}</h3>
             <ul className="sidebar-list">
-                <Link href="/products" style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item active">{t.allWipers}</li></Link>
-                <Link href="/products/category/universal" style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">Universal Wipers</li></Link>
-                <Link href="/products/category/specific-fit" style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">Specific Fit Wipers</li></Link>
-                <Link href="/products/category/multifunction" style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">Multifunction Wipers</li></Link>
-                <Link href="/products/category/wiper-arm" style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">Wiper Arm</li></Link>
-                <Link href="/products/category/hybrid" style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">Hybrid Wipers</li></Link>
-                <Link href="/products/category/rear-wiper" style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">Rear Wipers</li>
+                <Link href={l("/products")} style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item active">{t.allWipers}</li></Link>
+                <Link href={l("/products/category/universal")} style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">Universal Wipers</li></Link>
+                <Link href={l("/products/category/specific-fit")} style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">Specific Fit Wipers</li></Link>
+                <Link href={l("/products/category/multifunction")} style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">Multifunction Wipers</li></Link>
+                <Link href={l("/products/category/wiper-arm")} style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">Wiper Arm</li></Link>
+                <Link href={l("/products/category/hybrid")} style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">Hybrid Wipers</li></Link>
+                <Link href={l("/products/category/rear-wiper")} style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">Rear Wipers</li>
               <li onClick={() => setActiveCategory("Rear Wiper Combo")} style={{ padding: "12px 16px", cursor: "pointer", borderRadius: "8px", marginBottom: "5px", fontSize: "14px", fontWeight: activeCategory === "Rear Wiper Combo" ? 700 : 500, backgroundColor: activeCategory === "Rear Wiper Combo" ? "#e0f2fe" : "transparent", color: activeCategory === "Rear Wiper Combo" ? "#0284c7" : "#475569" }}>Rear Wiper Combo</li></Link>
               </ul>
           </aside>
@@ -136,7 +137,7 @@ export default function ProductsPage() {
                   </Link>
                   <div style={{ padding: "25px", flexGrow: 1, display: "flex", flexDirection: "column" }}>
                     <h3 style={{ fontSize: "19px", fontWeight: 800, marginBottom: "10px" }}>
-                      <Link href={`/products/${p.id}`} style={{ color: "#0f172a", textDecoration: "none" }}>{(getProductTranslation(p.id, lang)?.name || p.name)}</Link>
+                      <Link href={l(`/products/${p.id}`)} style={{ color: "#0f172a", textDecoration: "none" }}>{(getProductTranslation(p.id, lang)?.name || p.name)}</Link>
                     </h3>
                     <div style={{ marginBottom: "20px" }}>
                       <span style={{ fontSize: "13px", color: "#64748b", fontWeight: 600 }}>MOQ: {p.moq}</span>
@@ -149,8 +150,8 @@ export default function ProductsPage() {
                       ))}
                     </ul>
                     <div style={{ display: "flex", gap: "12px", marginTop: "auto" }}>
-                      <Link href="/contact" style={{ flex: 1, textAlign: "center", backgroundColor: "#0284c7", color: "white", padding: "12px", borderRadius: "8px", fontSize: "14px", fontWeight: "bold", textDecoration: "none" }}>{t.inquiry}</Link>
-                      <Link href={`/products/${p.id}`} style={{ flex: 1, textAlign: "center", border: "1.5px solid #0f172a", color: "#0f172a", padding: "12px", borderRadius: "8px", fontSize: "14px", fontWeight: "bold", textDecoration: "none" }}>{t.details}</Link>
+                      <Link href={l("/contact")} style={{ flex: 1, textAlign: "center", backgroundColor: "#0284c7", color: "white", padding: "12px", borderRadius: "8px", fontSize: "14px", fontWeight: "bold", textDecoration: "none" }}>{t.inquiry}</Link>
+                      <Link href={l(`/products/${p.id}`)} style={{ flex: 1, textAlign: "center", border: "1.5px solid #0f172a", color: "#0f172a", padding: "12px", borderRadius: "8px", fontSize: "14px", fontWeight: "bold", textDecoration: "none" }}>{t.details}</Link>
                     </div>
                   </div>
                 </div>

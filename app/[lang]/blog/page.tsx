@@ -30,6 +30,7 @@ export default function BlogPage() {
   };
 
   const t = translations[lang];
+  const l = (p: string) => "/" + lang + p;
   
   // BreadcrumbList schema
   const breadcrumbSchema = {
@@ -71,13 +72,13 @@ export default function BlogPage() {
       {/* Navigation Header */}
 {/* Mobile Menu Overlay */}
       <div className={"mobile-menu-overlay" + (mobileMenu ? " open" : "")}>
-        <a href="/" onClick={closeMobileMenu}>Home</a>
-        <a href="/products" onClick={closeMobileMenu}>Products</a>
-        <a href="/blog" onClick={closeMobileMenu}>Blog</a>
-        <a href="/about" onClick={closeMobileMenu}>About</a>
-        <a href="/contact" onClick={closeMobileMenu} className="nav-cta">Contact Us</a>
+        <a href={l("/")} onClick={closeMobileMenu}>Home</a>
+        <a href={l("/products")} onClick={closeMobileMenu}>Products</a>
+        <a href={l("/blog")} onClick={closeMobileMenu}>Blog</a>
+        <a href={l("/about")} onClick={closeMobileMenu}>About</a>
+        <a href={l("/contact")} onClick={closeMobileMenu} className="nav-cta">Contact Us</a>
         <select value={lang} onChange={(e) => { handleLangChange(e.target.value as Locale); closeMobileMenu(); }} className="lang-select-mobile">
-          <option value="en">English</option><option value="es">Español</option><option value="ru">Русский</option><option value="fr">Français</option><option value="de">Deutsch</option>
+          <option value="en">English</option><option value="es">Español</option><option value="ru">Русский</option><option value="fr">Français</option><option value="de">Deutsch</option><option value="zh">中文</option>
         </select>
       </div>
 
@@ -111,7 +112,7 @@ export default function BlogPage() {
       <section style={{ padding: "0 20px 80px", maxWidth: "1250px", margin: "0 auto" }}>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(370px, 1fr))", gap: "35px" }}>
           {filteredPosts.map(post => (
-            <Link key={post.id} href={`/blog/${post.id}`} style={{ textDecoration: "none", color: "inherit" }}>
+            <Link key={post.id} href={l(`/blog/${post.id}`)} style={{ textDecoration: "none", color: "inherit" }}>
               <article style={{
                 backgroundColor: "#ffffff", borderRadius: "12px", overflow: "hidden",
                 border: "1px solid #e2e8f0", transition: "transform 0.3s ease, box-shadow 0.3s ease",
@@ -144,8 +145,8 @@ export default function BlogPage() {
           <h2 style={{ fontSize: "30px", fontWeight: 800, marginBottom: "15px", color: "#0f172a" }}>Want to Learn More About Our Products?</h2>
           <p style={{ color: "#64748b", marginBottom: "30px" }}>Browse our complete wiper blade catalog or contact our export team for bulk pricing.</p>
           <div style={{ display: "flex", gap: "15px", justifyContent: "center", flexWrap: "wrap" }}>
-            <Link href="/products" style={{ backgroundColor: "#0284c7", color: "white", padding: "14px 35px", borderRadius: "8px", textDecoration: "none", fontWeight: "bold", fontSize: "15px" }}>{t.viewProducts}</Link>
-            <Link href="/contact" style={{ backgroundColor: "#ffffff", color: "#0284c7", padding: "14px 35px", borderRadius: "8px", textDecoration: "none", fontWeight: "bold", fontSize: "15px", border: "2px solid #0284c7" }}>Contact Us</Link>
+            <Link href={l("/products")} style={{ backgroundColor: "#0284c7", color: "white", padding: "14px 35px", borderRadius: "8px", textDecoration: "none", fontWeight: "bold", fontSize: "15px" }}>{t.viewProducts}</Link>
+            <Link href={l("/contact")} style={{ backgroundColor: "#ffffff", color: "#0284c7", padding: "14px 35px", borderRadius: "8px", textDecoration: "none", fontWeight: "bold", fontSize: "15px", border: "2px solid #0284c7" }}>Contact Us</Link>
           </div>
         </div>
       </section>

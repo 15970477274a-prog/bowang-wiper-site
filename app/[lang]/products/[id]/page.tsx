@@ -21,6 +21,7 @@ export default function ProductDetail() {
 
   const product = allProducts.find(p => p.id === id);
   const t = translations[lang];
+  const l = (p: string) => "/" + lang + p;
   const productTrans = getProductTranslation(id, lang);
   const productName = productTrans?.name || product?.name || "";
   const productDesc = productTrans?.desc || product?.desc || "";
@@ -57,7 +58,7 @@ export default function ProductDetail() {
       <main>
         <div style={{ padding: "100px 20px", textAlign: "center" }}>
           <h1>Product Not Found</h1>
-          <Link href="/products" style={{ color: "#0284c7" }}>Back to Products</Link>
+          <Link href={l("/products")} style={{ color: "#0284c7" }}>Back to Products</Link>
         </div>
       </main>
     );
@@ -94,7 +95,7 @@ const relatedBlog = blogPosts.slice(0, 2);
     "@type": "BreadcrumbList",
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.lelionautopart.com/" },
-      { "@type": "ListItem", "position": 2, "name": "Products", "item": "https://www.lelionautopart.com/products" },
+      { "@type": "ListItem", "position": 2, "name": "Products", "item": "https://www.lelionautopart.com/de/products" },
       { "@type": "ListItem", "position": 3, "name": product.name }
     ]
   };
@@ -289,7 +290,7 @@ const relatedBlog = blogPosts.slice(0, 2);
             <p className="section-subtitle">Browse our complete range of " + product.category.toLowerCase() + " wiper blades from the same series.</p>
             <div className="grid-products">
               {relatedProducts.map(rp => (
-                <Link key={rp.id} href={"/products/" + rp.id} style={{textDecoration:"none",color:"inherit"}}>
+                <Link key={rp.id} href={l("/products/" + rp.id)} style={{textDecoration:"none",color:"inherit"}}>
                   <div className="product-card card-hover">
                     <div className="product-card-img">
                       <img src={rp.image} alt={rp.name} width={400} height={300} style={{maxWidth:"100%",maxHeight:"100%",objectFit:"contain"}} loading="lazy" />
@@ -319,7 +320,7 @@ const relatedBlog = blogPosts.slice(0, 2);
             <p className="section-subtitle">Learn more about wiper blade quality, sourcing, and industry trends from our blog.</p>
             <div className="grid-auto" style={{gridTemplateColumns:"repeat(auto-fill, minmax(300px, 1fr))"}}>
               {relatedBlog.map(post => (
-                <Link key={post.id} href={"/blog/" + post.id} style={{textDecoration:"none",color:"inherit"}}>
+                <Link key={post.id} href={l("/blog/" + post.id)} style={{textDecoration:"none",color:"inherit"}}>
                   <div className="blog-card" style={{margin:0}}>
                     <div className="blog-card-img">
                       <img src={post.image} alt={post.title} width={400} height={225} loading="lazy" />
@@ -342,7 +343,7 @@ const relatedBlog = blogPosts.slice(0, 2);
         <div className="container-narrow">
           <h2 style={{fontSize:"32px",fontWeight:800,marginBottom:"15px"}}>Ready to Place a Bulk Order?</h2>
           <p style={{color:"#cbd5e1",marginBottom:"35px",fontSize:"17px"}}>Contact our export team for competitive factory pricing on the " + modelNo + " and other wiper blade models.</p>
-          <Link href="/contact" className="btn-hero">Inquire Now</Link>
+          <Link href={l("/contact")} className="btn-hero">Inquire Now</Link>
           <a href="/Catalog.pdf" target="_blank" className="btn-hero-outline" style={{marginLeft:"15px"}}>Download Full Catalog</a>
         </div>
       </section>
