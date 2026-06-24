@@ -85,11 +85,11 @@ export default function ProductCategoryPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(collectionSchema)}} />
 {/* Mobile Menu Overlay */}
       <div className={"mobile-menu-overlay" + (mobileMenu ? " open" : "")}>
-        <a href={l("/")} onClick={closeMobileMenu}>Home</a>
-        <a href={l("/products")} onClick={closeMobileMenu}>Products</a>
+        <a href={l("/")} onClick={closeMobileMenu}>{t.navHome}</a>
+        <a href={l("/products")} onClick={closeMobileMenu}>{t.navProducts}</a>
         <a href={l("/blog")} onClick={closeMobileMenu}>Blog</a>
-        <a href={l("/about")} onClick={closeMobileMenu}>About</a>
-        <a href={l("/contact")} onClick={closeMobileMenu} className="nav-cta">Contact Us</a>
+        <a href={l("/about")} onClick={closeMobileMenu}>{t.navAboutUs}</a>
+        <a href={l("/contact")} onClick={closeMobileMenu} className="nav-cta">{t.navGetQuote}</a>
         <select value={lang} onChange={(e) => { handleLangChange(e.target.value as Locale); closeMobileMenu(); }} className="lang-select-mobile">
           <option value="en">English</option><option value="es">Español</option><option value="ru">Русский</option><option value="fr">Français</option><option value="de">Deutsch</option><option value="zh">中文</option>
         </select>
@@ -98,7 +98,7 @@ export default function ProductCategoryPage() {
 
       <section className="banner-dark">
         <h1 className="banner-title">{category} Wiper Blades</h1>
-        <p className="banner-subtitle">Wholesale " + category.toLowerCase() + " wiper blades from a leading Chinese OEM/ODM manufacturer.</p>
+        <p className="banner-subtitle">{t.categoryBannerSub}</p>
       </section>
 
       <section className="section">
@@ -106,9 +106,9 @@ export default function ProductCategoryPage() {
           <div style={{display:"flex",gap:"40px",flexWrap:"wrap"}}>
             {/* Sidebar */}
             <aside className="sidebar">
-              <h3 className="sidebar-title">Series Filter</h3>
+              <h3 className="sidebar-title">{t.seriesFilter}</h3>
               <ul className="sidebar-list">
-                <Link href={l("/products")} style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">All Wipers</li></Link>
+                <Link href={l("/products")} style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">{t.allWipers}</li></Link>
                 {Object.entries(CATEGORY_MAP).map(([s, c]) => (
                   <Link key={s} href={l("/products/category/" + s)} style={{textDecoration:"none",color:"inherit"}}>
                     <li className={"sidebar-item" + (s === slug ? " active" : "")}>{c === "Wiper Arm" ? c : `${c} Wipers`}</li>
@@ -120,7 +120,7 @@ export default function ProductCategoryPage() {
             {/* Product Grid */}
             <div style={{flex:"1 1 800px"}}>
               {filtered.length === 0 ? (
-                <p style={{color:"#64748b",textAlign:"center",padding:"40px"}}>No products found in this category.</p>
+                <p style={{color:"#64748b",textAlign:"center",padding:"40px"}}>{t.categoryNotFoundDesc || "No products found in this category."}</p>
               ) : (
                 <>
                   <div style={{display:"grid",gridTemplateColumns:"repeat(3, 1fr)",gap:"30px"}}>

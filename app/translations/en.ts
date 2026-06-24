@@ -114,6 +114,7 @@ export const en: TranslationDict = {
     footerMultifunction: "Multifunction Wiper Blade",
     footerHybrid: "Hybrid Wiper Blade",
     footerWiperArm: "Wiper Arm",
+    footerRearWiper: "Rear Wiper",
     footerRearCombo: "Rear Wiper Combo",
     footerAddress: "Zhenhai District, Ningbo City, Zhejiang Province, China",
     featuredCategories: "Featured Categories",
@@ -136,4 +137,6 @@ export const en: TranslationDict = {
     packagingTitle: "OEM & Private Label Packaging Solutions",
     packagingDesc: "Flexible packaging options for retail, wholesale, and aftermarket distribution, including color boxes, blister cards, logo printing, barcode labels, multilingual instructions, and export carton marking.",
     next: "Next →",
+    categoryBannerSub: "Wholesale wiper blades from a leading Chinese OEM/ODM manufacturer.",
+    categoryNotFoundDesc: "No products found in this category.",
   };

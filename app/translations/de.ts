@@ -114,6 +114,7 @@ export const de: TranslationDict = {
     footerMultifunction: "Multifunktions-Wischerblatt",
     footerHybrid: "Hybrid-Wischerblatt",
     footerWiperArm: "Wischerarm",
+    footerRearWiper: "Heckwischer",
     footerRearCombo: "Heckwischer-Kombi",
     footerAddress: "Bezirk Zhenhai, Stadt Ningbo, Provinz Zhejiang, Chine",
     featuredCategories: "Beliebte Kategorien",
@@ -136,4 +137,6 @@ export const de: TranslationDict = {
     packagingTitle: "OEM & Private Label Verpackungslösungen",
     packagingDesc: "Flexible Verpackungsoptionen für Einzelhandel, Großhandel und Aftermarket-Vertrieb, einschließlich Farbboxen, Blisterkarten, Logodruck, Barcode-Etiketten, mehrsprachige Anleitungen und Exportkarton-Markierung.",
     next: "Weiter →",
+    categoryBannerSub: "Wischerblätter im Großhandel von einem führenden chinesischen OEM/ODM-Hersteller.",
+    categoryNotFoundDesc: "Keine Produkte in dieser Kategorie gefunden.",
   };

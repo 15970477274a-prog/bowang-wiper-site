@@ -93,13 +93,13 @@ export default function ProductsPage() {
             <h3 style={{ fontSize: "18px", fontWeight: 700, marginBottom: "25px", color: "#0f172a" }}>{t.seriesFilter}</h3>
             <ul className="sidebar-list">
                 <Link href={l("/products")} style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item active">{t.allWipers}</li></Link>
-                <Link href={l("/products/category/universal")} style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">Universal Wipers</li></Link>
-                <Link href={l("/products/category/specific-fit")} style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">Specific Fit Wipers</li></Link>
-                <Link href={l("/products/category/multifunction")} style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">Multifunction Wipers</li></Link>
-                <Link href={l("/products/category/wiper-arm")} style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">Wiper Arm</li></Link>
-                <Link href={l("/products/category/hybrid")} style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">Hybrid Wipers</li></Link>
-                <Link href={l("/products/category/rear-wiper")} style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">Rear Wipers</li>
-              <li onClick={() => setActiveCategory("Rear Wiper Combo")} style={{ padding: "12px 16px", cursor: "pointer", borderRadius: "8px", marginBottom: "5px", fontSize: "14px", fontWeight: activeCategory === "Rear Wiper Combo" ? 700 : 500, backgroundColor: activeCategory === "Rear Wiper Combo" ? "#e0f2fe" : "transparent", color: activeCategory === "Rear Wiper Combo" ? "#0284c7" : "#475569" }}>Rear Wiper Combo</li></Link>
+                <Link href={l("/products/category/universal")} style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">{t.footerUniversal}</li></Link>
+                <Link href={l("/products/category/specific-fit")} style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">{t.footerSpecific}</li></Link>
+                <Link href={l("/products/category/multifunction")} style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">{t.footerMultifunction}</li></Link>
+                <Link href={l("/products/category/wiper-arm")} style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">{t.footerWiperArm}</li></Link>
+                <Link href={l("/products/category/hybrid")} style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">{t.footerHybrid}</li></Link>
+                <Link href={l("/products/category/rear-wiper")} style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">{t.footerRearWiper}</li>
+              <li onClick={() => setActiveCategory("Rear Wiper Combo")} style={{ padding: "12px 16px", cursor: "pointer", borderRadius: "8px", marginBottom: "5px", fontSize: "14px", fontWeight: activeCategory === "Rear Wiper Combo" ? 700 : 500, backgroundColor: activeCategory === "Rear Wiper Combo" ? "#e0f2fe" : "transparent", color: activeCategory === "Rear Wiper Combo" ? "#0284c7" : "#475569" }}>{t.footerRearCombo}</li></Link>
               </ul>
           </aside>
 

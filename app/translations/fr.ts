@@ -113,6 +113,7 @@ export const fr: TranslationDict = {
     footerMultifunction: "Balai Multifonction",
     footerHybrid: "Balai Hybride",
     footerWiperArm: "Bras d\'Essuie-glace",
+    footerRearWiper: "Essuie-glace Arrière",
     footerRearCombo: "Combo Arrière",
     footerAddress: "District de Zhenhai, Ville de Ningbo, Province du Zhejiang, Chine",
     featuredCategories: "Catégories en Vedette",
@@ -135,4 +136,6 @@ export const fr: TranslationDict = {
     packagingTitle: "Solutions d'Emballage OEM et Marque Privée",
     packagingDesc: "Options d'emballage flexibles pour la distribution au détail, en gros et après-vente, y compris boîtes couleur, blisters, impression de logos, étiquettes code-barres, instructions multilingues et marquage des cartons d'exportation.",
     next: "Suivant →",
+    categoryBannerSub: "Balais d'essuie-glace en gros d'un fabricant chinois leader OEM/ODM.",
+    categoryNotFoundDesc: "Aucun produit trouvé dans cette catégorie.",
   };

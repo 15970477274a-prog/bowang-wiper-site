@@ -113,6 +113,7 @@ export const es: TranslationDict = {
     footerMultifunction: "Escobilla Multifunción",
     footerHybrid: "Escobilla Híbrida",
     footerWiperArm: "Brazo Limpiaparabrisas",
+    footerRearWiper: "Limpiaparabrisas Trasero",
     footerRearCombo: "Combo Trasero",
     footerAddress: "Distrito de Zhenhai, Ciudad de Ningbo, Provincia de Zhejiang, China",
     featuredCategories: "Categorías Destacadas",
@@ -135,4 +136,6 @@ export const es: TranslationDict = {
     packagingTitle: "Soluciones de Embalaje OEM y Marca Privada",
     packagingDesc: "Opciones de embalaje flexibles para distribución minorista, mayorista y posventa, incluyendo cajas de color, blísteres, impresión de logotipos, etiquetas de códigos de barras, instrucciones multilingües y marcado de cajas de exportación.",
     next: "Siguiente →",
+    categoryBannerSub: "Escobillas al por mayor de un fabricante líder chino OEM/ODM.",
+    categoryNotFoundDesc: "No se encontraron productos en esta categoría.",
   };

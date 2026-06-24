@@ -116,6 +116,7 @@ export interface TranslationDict {
   footerHybrid: string;
   footerWiperArm: string;
   footerRearCombo: string;
+  footerRearWiper: string;
   featuredCategories: string;
   enterProductCenter: string;
   productsBannerTitle: string;
@@ -136,4 +137,6 @@ export interface TranslationDict {
   next: string;
   packagingTitle: string;
   packagingDesc: string;
+  categoryBannerSub: string;
+  categoryNotFoundDesc: string;
 }
