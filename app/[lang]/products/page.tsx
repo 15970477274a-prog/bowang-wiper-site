@@ -76,8 +76,8 @@ export default function ProductsPage() {
 
       {/* Banner */}
       <section style={{ backgroundColor: "#0f172a", padding: "60px 20px", color: "white", textAlign: "center", borderBottom: "1px solid #1e293b" }}>
-        <h1 style={{ fontSize: "36px", fontWeight: 800, marginBottom: "15px" }}>Wholesale Wiper Blade Solutions</h1>
-        <p style={{ color: "#94a3b8", maxWidth: "600px", margin: "0 auto" }}>Leading OEM/ODM manufacturer in China providing premium quality wiper components for global distributors.</p>
+        <h1 style={{ fontSize: "36px", fontWeight: 800, marginBottom: "15px" }}>{t.productsBannerTitle}</h1>
+        <p style={{ color: "#94a3b8", maxWidth: "600px", margin: "0 auto" }}>{t.productsBannerSub}</p>
       </section>
 
       {/* Main Content */}
@@ -86,9 +86,9 @@ export default function ProductsPage() {
           
           {/* Categories Sidebar */}
           <aside style={{ flex: "1 1 250px", borderRight: "1px solid #e2e8f0", paddingRight: "20px" }}>
-            <h3 style={{ fontSize: "18px", fontWeight: 700, marginBottom: "25px", color: "#0f172a" }}>Series Filter</h3>
+            <h3 style={{ fontSize: "18px", fontWeight: 700, marginBottom: "25px", color: "#0f172a" }}>{t.seriesFilter}</h3>
             <ul className="sidebar-list">
-                <Link href="/products" style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item active">All Wipers</li></Link>
+                <Link href="/products" style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item active">{t.allWipers}</li></Link>
                 <Link href="/products/category/universal" style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">Universal Wipers</li></Link>
                 <Link href="/products/category/specific-fit" style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">Specific Fit Wipers</li></Link>
                 <Link href="/products/category/multifunction" style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">Multifunction Wipers</li></Link>
@@ -146,8 +146,8 @@ export default function ProductsPage() {
                       ))}
                     </ul>
                     <div style={{ display: "flex", gap: "12px", marginTop: "auto" }}>
-                      <Link href="/contact" style={{ flex: 1, textAlign: "center", backgroundColor: "#0284c7", color: "white", padding: "12px", borderRadius: "8px", fontSize: "14px", fontWeight: "bold", textDecoration: "none" }}>Inquiry</Link>
-                      <Link href={`/products/${p.id}`} style={{ flex: 1, textAlign: "center", border: "1.5px solid #0f172a", color: "#0f172a", padding: "12px", borderRadius: "8px", fontSize: "14px", fontWeight: "bold", textDecoration: "none" }}>Details</Link>
+                      <Link href="/contact" style={{ flex: 1, textAlign: "center", backgroundColor: "#0284c7", color: "white", padding: "12px", borderRadius: "8px", fontSize: "14px", fontWeight: "bold", textDecoration: "none" }}>{t.inquiry}</Link>
+                      <Link href={`/products/${p.id}`} style={{ flex: 1, textAlign: "center", border: "1.5px solid #0f172a", color: "#0f172a", padding: "12px", borderRadius: "8px", fontSize: "14px", fontWeight: "bold", textDecoration: "none" }}>{t.details}</Link>
                     </div>
                   </div>
                 </div>

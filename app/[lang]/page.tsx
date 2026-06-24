@@ -101,7 +101,7 @@ export default function Home() {
 
       <section style={{ padding: "100px 20px", maxWidth: "1200px", margin: "0 auto" }}>
         <div style={{ textAlign: "center", marginBottom: "60px" }}>
-          <h2 style={{ fontSize: "36px", fontWeight: 800, color: "#0f172a" }}>Featured Categories</h2>
+          <h2 style={{ fontSize: "36px", fontWeight: 800, color: "#0f172a" }}>{t.featuredCategories}</h2>
           <div style={{ height: "4px", width: "60px", backgroundColor: "#0284c7", margin: "15px auto" }}></div>
         </div>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(350px, 1fr))", gap: "30px" }}>
@@ -119,7 +119,7 @@ export default function Home() {
           ))}
         </div>
         <div style={{ textAlign: "center", marginTop: "60px" }}>
-           <Link href="/products" style={{ background: "linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.7)), url('/banner.png') center/cover no-repeat", color: "white", padding: "15px 40px", borderRadius: "8px", textDecoration: "none", fontWeight: "bold" }}>Enter Full Product Center</Link>
+           <Link href="/products" style={{ background: "linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.7)), url('/banner.png') center/cover no-repeat", color: "white", padding: "15px 40px", borderRadius: "8px", textDecoration: "none", fontWeight: "bold" }}>{t.enterProductCenter}</Link>
         </div>
       </section>
 

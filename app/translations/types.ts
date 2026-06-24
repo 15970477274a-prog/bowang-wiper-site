@@ -102,4 +102,22 @@ export interface TranslationDict {
   footerQuickLinks: string;
   footerContactInfo: string;
   footerAddress: string;
+  featuredCategories: string;
+  enterProductCenter: string;
+  productsBannerTitle: string;
+  productsBannerSub: string;
+  seriesFilter: string;
+  allWipers: string;
+  categoryNotFound: string;
+  backToProducts: string;
+  needCustomSolution: string;
+  needCustomSolutionDesc: string;
+  contactOurTeam: string;
+  blogPageTitle: string;
+  blogPageSub: string;
+  viewProducts: string;
+  inquiry: string;
+  details: string;
+  prev: string;
+  next: string;
 }

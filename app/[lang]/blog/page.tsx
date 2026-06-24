@@ -81,7 +81,7 @@ export default function BlogPage() {
 
       {/* Banner */}
       <section style={{padding: "80px 20px", color: "white", textAlign: "center", borderBottom: "1px solid #1e293b", backgroundColor: "#0f172a" }}>
-        <h1 style={{ fontSize: "42px", fontWeight: 800, marginBottom: "15px" }}>Wiper Blade Industry Blog</h1>
+        <h1 style={{ fontSize: "42px", fontWeight: 800, marginBottom: "15px" }}>{t.blogPageTitle}</h1>
         <p style={{ color: "#94a3b8", maxWidth: "650px", margin: "0 auto", fontSize: "16px", lineHeight: 1.6 }}>
           Industry insights, buying guides, and technical articles from a leading Chinese wiper blade manufacturer.
         </p>
@@ -141,7 +141,7 @@ export default function BlogPage() {
           <h2 style={{ fontSize: "30px", fontWeight: 800, marginBottom: "15px", color: "#0f172a" }}>Want to Learn More About Our Products?</h2>
           <p style={{ color: "#64748b", marginBottom: "30px" }}>Browse our complete wiper blade catalog or contact our export team for bulk pricing.</p>
           <div style={{ display: "flex", gap: "15px", justifyContent: "center", flexWrap: "wrap" }}>
-            <Link href="/products" style={{ backgroundColor: "#0284c7", color: "white", padding: "14px 35px", borderRadius: "8px", textDecoration: "none", fontWeight: "bold", fontSize: "15px" }}>View Products</Link>
+            <Link href="/products" style={{ backgroundColor: "#0284c7", color: "white", padding: "14px 35px", borderRadius: "8px", textDecoration: "none", fontWeight: "bold", fontSize: "15px" }}>{t.viewProducts}</Link>
             <Link href="/contact" style={{ backgroundColor: "#ffffff", color: "#0284c7", padding: "14px 35px", borderRadius: "8px", textDecoration: "none", fontWeight: "bold", fontSize: "15px", border: "2px solid #0284c7" }}>Contact Us</Link>
           </div>
         </div>

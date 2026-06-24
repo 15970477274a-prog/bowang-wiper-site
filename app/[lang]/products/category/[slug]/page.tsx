@@ -49,11 +49,11 @@ export default function ProductCategoryPage() {
     localStorage.setItem("lelion_lang", newLang);
   };
 
-  if (!category) {
-    return <div style={{padding:"100px",textAlign:"center"}}><h1>Category Not Found</h1><Link href="/products" style={{color:"#0284c7"}}>? All Products</Link></div>;
-  }
-
   const t = translations[lang];
+
+  if (!category) {
+    return <div style={{padding:"100px",textAlign:"center"}}><h1>{t.categoryNotFound}</h1><Link href="/products" style={{color:"#0284c7"}}>{t.backToProducts}</Link></div>;
+  }
   const filtered = allProducts.filter(p => p.category === category);
 
   // BreadcrumbList Schema
@@ -154,10 +154,10 @@ export default function ProductCategoryPage() {
                           <div style={{display:"flex",gap:"12px",marginTop:"auto"}}>
                             <Link href="/contact" style={{flex:1,textAlign:"center",backgroundColor:"#0284c7",color:"white",
                               padding:"12px",borderRadius:"8px",fontSize:"14px",fontWeight:"bold",textDecoration:"none"
-                            }}>Inquiry</Link>
+                            }}>{t.inquiry}</Link>
                             <Link href={"/products/" + product.id} style={{flex:1,textAlign:"center",border:"1.5px solid #0f172a",
                               color:"#0f172a",padding:"12px",borderRadius:"8px",fontSize:"14px",fontWeight:"bold",textDecoration:"none"
-                            }}>Details</Link>
+                            }}>{t.details}</Link>
                           </div>
                         </div>
                       </div>
@@ -210,9 +210,9 @@ export default function ProductCategoryPage() {
 
       <section style={{ padding: "60px 20px", backgroundColor: "#f8fafc", textAlign: "center" }}>
         <div style={{ maxWidth: "600px", margin: "0 auto" }}>
-          <h2 style={{ fontSize: "28px", fontWeight: 800, color: "#0f172a", marginBottom: "16px" }}>Need a Custom Solution?</h2>
-          <p style={{ fontSize: "16px", color: "#64748b", lineHeight: "1.7", marginBottom: "30px", maxWidth: "480px", marginLeft: "auto", marginRight: "auto" }}>We offer OEM/ODM services with custom branding, packaging, and formulations.</p>
-          <Link href="/contact" style={{ display: "inline-block", backgroundColor: "#0284c7", color: "#ffffff", padding: "14px 36px", borderRadius: "8px", fontSize: "16px", fontWeight: 600, textDecoration: "none" }}>Contact Our Team</Link>
+          <h2 style={{ fontSize: "28px", fontWeight: 800, color: "#0f172a", marginBottom: "16px" }}>{t.needCustomSolution}</h2>
+          <p style={{ fontSize: "16px", color: "#64748b", lineHeight: "1.7", marginBottom: "30px", maxWidth: "480px", marginLeft: "auto", marginRight: "auto" }}>{t.needCustomSolutionDesc}</p>
+          <Link href="/contact" style={{ display: "inline-block", backgroundColor: "#0284c7", color: "#ffffff", padding: "14px 36px", borderRadius: "8px", fontSize: "16px", fontWeight: 600, textDecoration: "none" }}>{t.contactOurTeam}</Link>
         </div>
       </section>
 <a href="https://wa.me/8618867886795" target="_blank" rel="noopener noreferrer" className="whatsapp-float">
