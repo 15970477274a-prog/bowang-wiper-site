@@ -152,13 +152,13 @@ export default function ProductCategoryPage() {
                         </Link>
                         <div style={{padding:"25px",flexGrow:1,display:"flex",flexDirection:"column"}}>
                           <h3 style={{fontSize:"19px",fontWeight:800,marginBottom:"10px"}}>
-                            <Link href={"/products/" + product.id} style={{color:"#0f172a",textDecoration:"none"}}>{product.name}</Link>
+                            <Link href={l("/products/" + product.id)} style={{color:"#0f172a",textDecoration:"none"}}>{(getProductTranslation(product.id, lang)?.name || product.name)}</Link>
                           </h3>
                           <div style={{marginBottom:"20px"}}>
                             <span style={{fontSize:"13px",color:"#64748b",fontWeight:600}}>MOQ: {product.moq}</span>
                           </div>
                           <ul style={{padding:0,margin:"0 0 25px 0",listStyle:"none"}}>
-                            {product.specs.slice(0, 3).map((s, i) => (
+                            {(getProductTranslation(product.id, lang)?.specs || product.specs).slice(0, 3).map((s, i) => (
                               <li key={i} style={{fontSize:"13.5px",color:"#475569",marginBottom:"8px",display:"flex",alignItems:"center"}}>
                                 <span style={{color:"#10b981",marginRight:"10px"}}>✓</span> {s}
                               </li>
