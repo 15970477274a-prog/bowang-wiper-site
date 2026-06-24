@@ -137,6 +137,9 @@ export interface TranslationDict {
   next: string;
   packagingTitle: string;
   packagingDesc: string;
+  readMore: string;
+  blogCtaTitle: string;
+  blogCtaSub: string;
   catUniversal: string;
   catSpecificFit: string;
   catMultifunction: string;

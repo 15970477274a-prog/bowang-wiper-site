@@ -146,4 +146,7 @@ export const de: TranslationDict = {
     catRearWiper: "Heckwischer",
     catHybrid: "Hybrid-Wischer",
     catRearWiperCombo: "Heck-Kombi",
+    readMore: "Weiterlesen →",
+    blogCtaTitle: "Mehr Über Unsere Produkte Erfahren?",
+    blogCtaSub: "Durchsuchen Sie unseren vollständigen Wischerblatt-Katalog oder kontaktieren Sie unser Exportteam für Großhandelspreise.",
   };

@@ -145,4 +145,7 @@ export const fr: TranslationDict = {
     catRearWiper: "Balai Arrière",
     catHybrid: "Balais Hybrides",
     catRearWiperCombo: "Combo Arrière",
+    readMore: "Lire Plus →",
+    blogCtaTitle: "En Savoir Plus Sur Nos Produits ?",
+    blogCtaSub: "Parcourez notre catalogue complet de balais d'essuie-glace ou contactez notre équipe export pour des prix de gros.",
   };

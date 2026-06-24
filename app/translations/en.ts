@@ -146,4 +146,7 @@ export const en: TranslationDict = {
     catRearWiper: "Rear Wiper",
     catHybrid: "Hybrid Wipers",
     catRearWiperCombo: "Rear Wiper Combo",
+    readMore: "Read More →",
+    blogCtaTitle: "Want to Learn More About Our Products?",
+    blogCtaSub: "Browse our complete wiper blade catalog or contact our export team for bulk pricing.",
   };

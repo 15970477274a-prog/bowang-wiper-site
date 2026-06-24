@@ -73,7 +73,7 @@ export default function BlogPage() {
         <a href={l("/products")} onClick={closeMobileMenu}>Products</a>
         <a href={l("/blog")} onClick={closeMobileMenu}>Blog</a>
         <a href={l("/about")} onClick={closeMobileMenu}>About</a>
-        <a href={l("/contact")} onClick={closeMobileMenu} className="nav-cta">Contact Us</a>
+        <a href={l("/contact")} onClick={closeMobileMenu} className="nav-cta">{t.navGetQuote}</a>
         <select value={lang} onChange={(e) => { handleLangChange(e.target.value as Locale); closeMobileMenu(); }} className="lang-select-mobile">
           <option value="en">English</option><option value="es">Español</option><option value="ru">Русский</option><option value="fr">Français</option><option value="de">Deutsch</option><option value="zh">中文</option>
         </select>
@@ -84,7 +84,7 @@ export default function BlogPage() {
       <section style={{padding: "80px 20px", color: "white", textAlign: "center", borderBottom: "1px solid #1e293b", backgroundColor: "#0f172a" }}>
         <h1 style={{ fontSize: "42px", fontWeight: 800, marginBottom: "15px" }}>{t.blogPageTitle}</h1>
         <p style={{ color: "#94a3b8", maxWidth: "650px", margin: "0 auto", fontSize: "16px", lineHeight: 1.6 }}>
-          Industry insights, buying guides, and technical articles from a leading Chinese wiper blade manufacturer.
+          {t.blogPageSub}
         </p>
       </section>
 
@@ -126,7 +126,7 @@ export default function BlogPage() {
                   <h2 style={{ fontSize: "18px", fontWeight: 700, margin: "0 0 12px 0", lineHeight: 1.4, color: "#0f172a" }}>{(getBlogTranslation(post.id, lang)?.title || post.title)}</h2>
                   <p style={{ color: "#64748b", fontSize: "14px", lineHeight: 1.6, flex: 1, margin: "0 0 15px 0" }}>{(getBlogTranslation(post.id, lang)?.excerpt || post.excerpt)}</p>
                   <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", borderTop: "1px solid #f1f5f9", paddingTop: "15px" }}>
-                    <span style={{ color: "#0284c7", fontSize: "13px", fontWeight: 700 }}>Read More →</span>
+                    <span style={{ color: "#0284c7", fontSize: "13px", fontWeight: 700 }}>{t.readMore || "Read More →"}</span>
                     <span style={{ color: "#94a3b8", fontSize: "12px" }}>{post.author}</span>
                   </div>
                 </div>
@@ -139,11 +139,11 @@ export default function BlogPage() {
       {/* CTA */}
       <section style={{ padding: "80px 20px", textAlign: "center", backgroundColor: "#f8fafc" }}>
         <div style={{ maxWidth: "700px", margin: "0 auto" }}>
-          <h2 style={{ fontSize: "30px", fontWeight: 800, marginBottom: "15px", color: "#0f172a" }}>Want to Learn More About Our Products?</h2>
-          <p style={{ color: "#64748b", marginBottom: "30px" }}>Browse our complete wiper blade catalog or contact our export team for bulk pricing.</p>
+          <h2 style={{ fontSize: "30px", fontWeight: 800, marginBottom: "15px", color: "#0f172a" }}>{t.blogCtaTitle || "Want to Learn More About Our Products?"}</h2>
+          <p style={{ color: "#64748b", marginBottom: "30px" }}>{t.blogCtaSub || "Browse our complete wiper blade catalog or contact our export team for bulk pricing."}</p>
           <div style={{ display: "flex", gap: "15px", justifyContent: "center", flexWrap: "wrap" }}>
             <Link href={l("/products")} style={{ backgroundColor: "#0284c7", color: "white", padding: "14px 35px", borderRadius: "8px", textDecoration: "none", fontWeight: "bold", fontSize: "15px" }}>{t.viewProducts}</Link>
-            <Link href={l("/contact")} style={{ backgroundColor: "#ffffff", color: "#0284c7", padding: "14px 35px", borderRadius: "8px", textDecoration: "none", fontWeight: "bold", fontSize: "15px", border: "2px solid #0284c7" }}>Contact Us</Link>
+            <Link href={l("/contact")} style={{ backgroundColor: "#ffffff", color: "#0284c7", padding: "14px 35px", borderRadius: "8px", textDecoration: "none", fontWeight: "bold", fontSize: "15px", border: "2px solid #0284c7" }}>{t.navGetQuote}</Link>
           </div>
         </div>
       </section>

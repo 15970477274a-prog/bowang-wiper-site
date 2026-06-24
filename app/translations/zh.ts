@@ -146,4 +146,7 @@ export const zh: TranslationDict = {
     catRearWiper: "后雨刮片",
     catHybrid: "混合雨刮片",
     catRearWiperCombo: "后雨刮组合",
+    readMore: "阅读更多 →",
+    blogCtaTitle: "想了解更多产品信息？",
+    blogCtaSub: "浏览我们完整的雨刮片目录，或联系我们的出口团队获取批发价格。",
   };

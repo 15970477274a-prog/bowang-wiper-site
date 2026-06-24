@@ -145,4 +145,7 @@ export const es: TranslationDict = {
     catRearWiper: "Escobilla Trasera",
     catHybrid: "Escobillas Híbridas",
     catRearWiperCombo: "Combo Trasero",
+    readMore: "Leer Más →",
+    blogCtaTitle: "¿Quiere Saber Más Sobre Nuestros Productos?",
+    blogCtaSub: "Explore nuestro catálogo completo de escobillas o contacte a nuestro equipo de exportación para precios al por mayor.",
   };
