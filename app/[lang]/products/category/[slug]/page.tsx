@@ -176,7 +176,7 @@ export default function ProductCategoryPage() {
                         fontSize:"14px",fontWeight:600,transition:"all 0.2s"
                       }}
                     >
-                      ? Prev
+                      {t.prev}
                     </button>
                     {Array.from({length: Math.ceil(filtered.length / ITEMS_PER_PAGE)}, (_, i) => i + 1).map(page => (
                       <button key={page} onClick={() => setCurrentPage(page)}
@@ -199,7 +199,7 @@ export default function ProductCategoryPage() {
                         fontSize:"14px",fontWeight:600,transition:"all 0.2s"
                       }}
                     >
-                      Next ?
+                      {t.next}
                     </button>
                   </div>
                 </>

@@ -165,7 +165,7 @@ export default function ProductsPage() {
                   disabled={currentPage === 1}
                   style={{padding:"10px 18px",border:currentPage===1?"1px solid #e2e8f0":"1px solid #cbd5e1",borderRadius:"8px",background:currentPage===1?"#f1f5f9":"white",color:currentPage===1?"#94a3b8":"#0f172a",cursor:currentPage===1?"not-allowed":"pointer",fontSize:"14px",fontWeight:600,transition:"all 0.2s"}}
                 >
-                  ? Prev
+                  {t.prev}
                 </button>
                 
                 {Array.from({length: totalPages}, (_, i) => i + 1).map(page => (
@@ -183,7 +183,7 @@ export default function ProductsPage() {
                   disabled={currentPage === totalPages}
                   style={{padding:"10px 18px",border:currentPage===totalPages?"1px solid #e2e8f0":"1px solid #cbd5e1",borderRadius:"8px",background:currentPage===totalPages?"#f1f5f9":"white",color:currentPage===totalPages?"#94a3b8":"#0f172a",cursor:currentPage===totalPages?"not-allowed":"pointer",fontSize:"14px",fontWeight:600,transition:"all 0.2s"}}
                 >
-                  Next ?
+                  {t.next}
                 </button>
               </div>
             )}
