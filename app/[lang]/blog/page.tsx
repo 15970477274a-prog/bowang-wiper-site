@@ -27,6 +27,15 @@ export default function BlogPage() {
   };
 
   const t = translations[lang];
+  const tagMap: Record<string, Record<string, string>> = {
+    en: { "All": "All Posts", "wiper blade manufacturer": "Wiper Blade Manufacturer", "China supplier": "China Supplier", "OEM wiper blades": "OEM Wiper Blades", "sourcing guide": "Sourcing Guide", "B2B procurement": "B2B Procurement", "wiper blade materials": "Wiper Blade Materials", "natural rubber": "Natural Rubber", "silicone wiper": "Silicone Wiper", "wiper blade quality": "Wiper Blade Quality" },
+    zh: { "All": "全部文章", "wiper blade manufacturer": "雨刮片制造商", "China supplier": "中国供应商", "OEM wiper blades": "OEM雨刮片", "sourcing guide": "采购指南", "B2B procurement": "B2B采购", "wiper blade materials": "雨刮片材料", "natural rubber": "天然橡胶", "silicone wiper": "硅胶雨刮", "wiper blade quality": "雨刮片质量" },
+    es: { "All": "Todos", "wiper blade manufacturer": "Fabricante", "China supplier": "Proveedor Chino", "OEM wiper blades": "OEM", "sourcing guide": "Guía", "B2B procurement": "B2B", "wiper blade materials": "Materiales", "natural rubber": "Caucho Natural", "silicone wiper": "Silicona", "wiper blade quality": "Calidad" },
+    ru: { "All": "Все", "wiper blade manufacturer": "Производитель", "China supplier": "Китайский Поставщик", "OEM wiper blades": "OEM", "sourcing guide": "Гид", "B2B procurement": "B2B", "wiper blade materials": "Материалы", "natural rubber": "Натуральный Каучук", "silicone wiper": "Силикон", "wiper blade quality": "Качество" },
+    fr: { "All": "Tout", "wiper blade manufacturer": "Fabricant", "China supplier": "Fournisseur Chinois", "OEM wiper blades": "OEM", "sourcing guide": "Guide", "B2B procurement": "B2B", "wiper blade materials": "Matériaux", "natural rubber": "Caoutchouc Naturel", "silicone wiper": "Silicone", "wiper blade quality": "Qualité" },
+    de: { "All": "Alle", "wiper blade manufacturer": "Hersteller", "China supplier": "China-Lieferant", "OEM wiper blades": "OEM", "sourcing guide": "Leitfaden", "B2B procurement": "B2B", "wiper blade materials": "Materialien", "natural rubber": "Naturkautschuk", "silicone wiper": "Silikon", "wiper blade quality": "Qualität" }
+  };
+  const getTag = (tag: string) => (tagMap[lang] || tagMap.en)[tag] || tag;
   const l = (p: string) => "/" + lang + p;
   
   // BreadcrumbList schema
@@ -99,7 +108,7 @@ export default function BlogPage() {
               color: activeTag === tag ? "#ffffff" : "#64748b",
               transition: "all 0.2s ease"
             }}>
-              {tag === "All" ? "All Posts" : tag}
+              {getTag(tag)}
             </button>
           ))}
         </div>
