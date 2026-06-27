@@ -6,6 +6,7 @@ export const fr: TranslationDict = {
     navAdvantages: "Avantages",
     navAboutUs: "À Propos",
     navGetQuote: "Contact",
+    navBlog: "Blog",
     navCatalog: "Catalogue (PDF)",
     heroTag: "Usine Certifiée ISO9001",
     heroTitle: "Fabricant Professionnel d'Essuie-Glaces en Chine",

@@ -6,6 +6,7 @@ export const en: TranslationDict = {
     navAdvantages: "Advantages",
     navAboutUs: "About Us",
     navGetQuote: "Contact Us",
+    navBlog: "Blog",
     navCatalog: "E-Catalog (PDF)",
     heroTag: "ISO9001 Certified Factory",
     heroTitle: "Professional Wiper Blade Manufacturer From China",

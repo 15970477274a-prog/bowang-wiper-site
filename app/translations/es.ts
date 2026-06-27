@@ -6,6 +6,7 @@ export const es: TranslationDict = {
     navAdvantages: "Ventajas",
     navAboutUs: "Nosotros",
     navGetQuote: "Contacto",
+    navBlog: "Blog",
     navCatalog: "Catálogo (PDF)",
     heroTag: "Fábrica Certificada ISO9001",
     heroTitle: "Fabricante Profesional de Escobillas Limpiaparabrisas en China",

@@ -6,6 +6,7 @@ export interface TranslationDict {
   navAdvantages: string;
   navAboutUs: string;
   navGetQuote: string;
+  navBlog: string;
   navCatalog: string;
   heroTag: string;
   heroTitle: string;

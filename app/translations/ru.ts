@@ -6,6 +6,7 @@ export const ru: TranslationDict = {
     navAdvantages: "Преимущества",
     navAboutUs: "О нас",
     navGetQuote: "Контакты",
+    navBlog: "Блог",
     navCatalog: "Каталог (PDF)",
     heroTag: "Завод сертифицирован по ISO9001",
     heroTitle: "Профессиональный производитель щеток стеклоочистителя из Китая",

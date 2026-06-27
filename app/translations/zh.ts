@@ -6,6 +6,7 @@ export const zh: TranslationDict = {
     navAdvantages: "优势",
     navAboutUs: "关于我们",
     navGetQuote: "联系我们",
+    navBlog: "博客",
     navCatalog: "电子目录 (PDF)",
     heroTag: "ISO9001 认证工厂",
     heroTitle: "来自中国的专业雨刮片制造商",

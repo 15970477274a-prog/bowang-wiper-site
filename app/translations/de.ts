@@ -6,6 +6,7 @@ export const de: TranslationDict = {
     navAdvantages: "Vorteile",
     navAboutUs: "Über Uns",
     navGetQuote: "Kontakt",
+    navBlog: "Blog",
     navCatalog: "Katalog (PDF)",
     heroTag: "ISO9001-Zertifizierte Fabrik",
     heroTitle: "Professioneller Scheibenwischer-Hersteller aus China",
