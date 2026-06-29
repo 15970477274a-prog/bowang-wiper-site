@@ -178,11 +178,11 @@ const relatedBlog = blogPosts.slice(0, 2);
 
           {/* Key Features */}
           <div style={{marginBottom:"30px"}}>
-            <h4 style={{fontSize:"16px",marginBottom:"15px",color:"#0f172a"}}>Product Highlights:</h4>
+            <h3 style="fontSize:18px;fontWeight:700;marginBottom:15px;color:#0f172a">Product Highlights:</h3>
             <ul style={{listStyle:"none",padding:0,margin:0}}>
               {productSpecs.map((spec, i) => (
                 <li key={i} style={{marginBottom:"10px",display:"flex",alignItems:"flex-start",fontSize:"14px",color:"#475569"}}>
-                  <span style={{color:"var(--accent)",marginRight:"10px",flexShrink:0}}>✓</span> {spec}
+                  <span style={{color:"var(--accent)",marginRight:"10px",flexShrink:0}}>�?/span> {spec}
                 </li>
               ))}
             </ul>
@@ -190,7 +190,7 @@ const relatedBlog = blogPosts.slice(0, 2);
 
           {/* Application tags */}
           <div style={{marginBottom:"30px"}}>
-            <h4 style={{fontSize:"16px",marginBottom:"15px",color:"#0f172a"}}>Target Markets:</h4>
+            <h3 style="fontSize:18px;fontWeight:700;marginBottom:15px;color:#0f172a">Target Markets:</h3>
             <div style={{display:"flex",gap:"8px",flexWrap:"wrap"}}>
               {product.applications.map((app, i) => (
                 <span key={i} className="tag">{app}</span>
@@ -200,17 +200,17 @@ const relatedBlog = blogPosts.slice(0, 2);
 
           {/* B2B Support */}
           <div style={{borderTop:"1px solid var(--border-light)",paddingTop:"25px",marginBottom:"30px"}}>
-            <h4 style={{fontSize:"16px",marginBottom:"15px",color:"#0f172a"}}>OEM/ODM Services Available:</h4>
+            <h3 style="fontSize:18px;fontWeight:700;marginBottom:15px;color:#0f172a">OEM/ODM Services Available:</h3>
             <ul style={{listStyle:"none",padding:0,margin:0,fontSize:"14px",color:"#64748b"}}>
-              <li style={{marginBottom:"8px",display:"flex",alignItems:"center"}}><span style={{color:"var(--accent)",marginRight:"10px"}}>★</span> Private Label & Laser Logo Printing</li>
-              <li style={{marginBottom:"8px",display:"flex",alignItems:"center"}}><span style={{color:"var(--accent)",marginRight:"10px"}}>★</span> Customized Retail & Export Packaging</li>
-              <li style={{display:"flex",alignItems:"center"}}><span style={{color:"var(--accent)",marginRight:"10px"}}>★</span> Global Logistics & Customs Documentation</li>
+              <li style={{marginBottom:"8px",display:"flex",alignItems:"center"}}><span style={{color:"var(--accent)",marginRight:"10px"}}>�?/span> Private Label & Laser Logo Printing</li>
+              <li style={{marginBottom:"8px",display:"flex",alignItems:"center"}}><span style={{color:"var(--accent)",marginRight:"10px"}}>�?/span> Customized Retail & Export Packaging</li>
+              <li style={{display:"flex",alignItems:"center"}}><span style={{color:"var(--accent)",marginRight:"10px"}}>�?/span> Global Logistics & Customs Documentation</li>
             </ul>
           </div>
 
           {/* CTA Buttons */}
           <div style={{display:"flex",gap:"15px"}}>
-            <Link href={"/contact?product=" + encodeURIComponent(productName)} className="btn-primary" style={{flex:1,padding:"16px",textAlign:"center"}}>Get Bulk Price →</Link>
+            <Link href={"/contact?product=" + encodeURIComponent(productName)} className="btn-primary" style={{flex:1,padding:"16px",textAlign:"center"}}>Get Bulk Price �?/Link>
             <a href="/Catalog.pdf" target="_blank" className="btn-outline" style={{flex:1,padding:"16px",textAlign:"center"}}>Download Catalog</a>
           </div>
 
@@ -228,7 +228,7 @@ const relatedBlog = blogPosts.slice(0, 2);
       {/* Technical Specifications */}
       <section className="section section-alt">
         <div className="container">
-          <h2 className="section-title">Technical Specifications — {modelNo}</h2>
+          <h2 className="section-title">Technical Specifications �?{modelNo}</h2>
           <p className="section-subtitle">Detailed engineering specifications for the " + modelNo + " " + product.category.toLowerCase() + " wiper blade series from Bowang Autoparts.</p>
           <table className="spec-table" style={{maxWidth:"900px",margin:"0 auto",backgroundColor:"var(--bg-white)",borderRadius:"12px",overflow:"hidden",boxShadow:"var(--shadow-sm)"}}>
             <tbody>
@@ -252,7 +252,7 @@ const relatedBlog = blogPosts.slice(0, 2);
             {productFeatures.map((feature, i) => (
               <div key={i} className="card" style={{padding:"30px"}}>
                 <div className="feature-icon" style={{width:"48px",height:"48px",fontSize:"24px",fontWeight:800,color:"var(--accent)",marginBottom:"15px"}}>
-                  <span>{["❶","❷","❸","❹","❺","❻"][i]}</span>
+                  <span>{["�?,"�?,"�?,"�?,"�?,"�?][i]}</span>
                 </div>
                 <p style={{color:"#475569",fontSize:"15px",lineHeight:1.6,margin:0}}>{feature}</p>
               </div>
@@ -264,7 +264,7 @@ const relatedBlog = blogPosts.slice(0, 2);
       {/* Product FAQ Section */}
       <section className="section section-alt">
         <div className="container">
-          <h2 className="section-title">Frequently Asked Questions — {modelNo}</h2>
+          <h2 className="section-title">Frequently Asked Questions �?{modelNo}</h2>
           <p className="section-subtitle">Common B2B inquiries about our " + product.category.toLowerCase() + " wiper blades.</p>
           <div className="faq-container">
             {faqItems.map((item, idx) => (
@@ -300,7 +300,7 @@ const relatedBlog = blogPosts.slice(0, 2);
                       <h3 style={{fontSize:"16px",fontWeight:700,margin:"12px 0 8px",color:"#0f172a",lineHeight:1.4}}>{rp.name}</h3>
                       <p className="card-text">{rp.desc}</p>
                       <div className="product-card-footer">
-                        <span className="card-link">View Details →</span>
+                        <span className="card-link">View Details �?/span>
                         <span className="text-muted" style={{fontSize:"12px"}}>MOQ: {rp.moq}</span>
                       </div>
                     </div>
