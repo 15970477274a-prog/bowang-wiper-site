@@ -351,3 +351,6 @@ const relatedBlog = blogPosts.slice(0, 2);
     </main>
   );
 }
+
+
+            
