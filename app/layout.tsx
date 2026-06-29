@@ -1,11 +1,11 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Script from "next/script";
 import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.lelionautopart.com"),
   title: "Professional Wiper Blade Manufacturer | Bowang Autoparts",
-  description: "Ningbo Zhenhai Bowang Autoparts Co., Ltd. is a leading OEM/ODM wiper blade manufacturer in China. High-quality universal, specific fit, and multifunction wiper blades.",
+  description: "Ningbo Zhenhai Bowang is a leading OEM/ODM wiper blade manufacturer in China. ISO 9001 & IATF 16949 certified factory with global shipping since 2011.",
   keywords: "wiper blades, windshield wipers, China manufacturer, autoparts, Bowang, OEM wiper blade, ODM wiper blade",
   verification: {
     google: "1k31SR_2_8VvfchohXge3PuhcLUPc69UfIAgA0samO8",
