@@ -45,26 +45,26 @@ export default function AboutPage() {
       cert3Desc: "Physical Property & Durability Analysis"
     },
     zh: {
-      bannerTitle: "卓越制造",
-      bannerSub: "通过持续创新和严格的质量控制标准引领全球雨刮片行业。",
-      missionTitle: "我们的使命",
-      missionText: "为全球每一位驾驶者提供清晰的视野和安全保障。",
+      bannerTitle: "卓越制�?,
+      bannerSub: "通过持续创新和严格的质量控制标准引领全球雨刮片行业�?,
+      missionTitle: "我们的使�?,
+      missionText: "为全球每一位驾驶者提供清晰的视野和安全保障�?,
       visionTitle: "全球愿景",
-      visionText: "成为汽车售后市场首选的OEM合作伙伴。",
-      annualCapacity: "年产能",
-      qualityTitle: "质量与认证",
-      qualitySub: "我们严格遵守全球汽车质量管理标准。每一支雨刮片都经过严格测试。",
-      milestonesTitle: "发展里程碑",
-      milestone1: "博旺汽配在宁波成立。",
-      milestone2: "扩建至8,000平方米生产基地并引入自动化产线。",
-      milestone3: "获得IATF 16949国际质量认证。",
-      milestone4: "出口覆盖50多个国家，推出高性能硅胶系列。",
+      visionText: "成为汽车售后市场首选的OEM合作伙伴�?,
+      annualCapacity: "年产�?,
+      qualityTitle: "质量与认�?,
+      qualitySub: "我们严格遵守全球汽车质量管理标准。每一支雨刮片都经过严格测试�?,
+      milestonesTitle: "发展里程�?,
+      milestone1: "博旺汽配在宁波成立�?,
+      milestone2: "扩建�?,000平方米生产基地并引入自动化产线�?,
+      milestone3: "获得IATF 16949国际质量认证�?,
+      milestone4: "出口覆盖50多个国家，推出高性能硅胶系列�?,
       cert1Title: "ISO 9001:2015 认证",
       cert1Desc: "国际质量管理标准",
       cert2Title: "CE 认证",
       cert2Desc: "欧洲市场合规",
       cert3Title: "雨刮胶条测试报告",
-      cert3Desc: "物理性能与耐久性分析"
+      cert3Desc: "物理性能与耐久性分�?
     },
     es: {
       bannerTitle: "Excelencia en Fabricación",
@@ -94,7 +94,7 @@ export default function AboutPage() {
       missionTitle: "Наша Миссия",
       missionText: "Обеспечить кристально чистый обзор и безопасность каждому водителю в мире.",
       visionTitle: "Глобальное Видение",
-      visionText: "Стать надежным OEM-партнером №1 для автомобильного послепродажного рынка.",
+      visionText: "Стать надежным OEM-партнером �? для автомобильного послепродажного рынка.",
       annualCapacity: "Годовая Мощность",
       qualityTitle: "Качество и Сертификация",
       qualitySub: "Мы строго соблюдаем мировые стандарты управления качеством. Каждая щетка проходит тщательное тестирование.",
@@ -187,11 +187,11 @@ export default function AboutPage() {
              
              <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "20px", marginTop: "40px" }}>
                 <div style={{ backgroundColor: "#f8fafc", padding: "20px", borderRadius: "10px", borderLeft: "4px solid #0284c7" }}>
-                   <h4 style={{ margin: "0 0 5px 0", color: "#0f172a" }}>{aboutText.missionTitle}</h4>
+                   <h3 style={{ fontSize: "18px", fontWeight: 700, margin: "0 0 5px 0", color: "#0f172a" }}>{aboutText.missionTitle}</h3>
                    <p style={{ margin: 0, fontSize: "14px", color: "#64748b" }}>{aboutText.missionText}</p>
                 </div>
                 <div style={{ backgroundColor: "#f8fafc", padding: "20px", borderRadius: "10px", borderLeft: "4px solid #0284c7" }}>
-                   <h4 style={{ margin: "0 0 5px 0", color: "#0f172a" }}>{aboutText.visionTitle}</h4>
+                   <h3 style={{ fontSize: "18px", fontWeight: 700, margin: "0 0 5px 0", color: "#0f172a" }}>{aboutText.visionTitle}</h3>
                    <p style={{ margin: 0, fontSize: "14px", color: "#64748b" }}>{aboutText.visionText}</p>
                 </div>
              </div>
