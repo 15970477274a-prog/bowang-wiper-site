@@ -165,6 +165,19 @@ export default function AboutPage() {
 
   return (
     <main style={{ fontFamily: "system-ui, -apple-system, sans-serif", color: "#1e293b", backgroundColor: "#ffffff" }}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "AboutPage",
+            "name": aboutText.bannerTitle,
+            "description": aboutText.bannerSub,
+            "url": "https://www.lelionautopart.com/" + urlLang + "/about",
+            "inLanguage": urlLang === "zh" ? "zh-Hans" : urlLang
+          })
+        }}
+      />
 {/* REPLACED WITH MODERN FACTORY PRODUCTION LINE BANNER */}
       <section style={{ 
         padding: "100px 20px", 

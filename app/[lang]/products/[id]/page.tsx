@@ -95,7 +95,7 @@ const relatedBlog = blogPosts.slice(0, 2);
     "@type": "BreadcrumbList",
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.lelionautopart.com/" },
-      { "@type": "ListItem", "position": 2, "name": "Products", "item": "https://www.lelionautopart.com/de/products" },
+      { "@type": "ListItem", "position": 2, "name": "Products", "item": `https://www.lelionautopart.com/${lang}/products` },
       { "@type": "ListItem", "position": 3, "name": product.name }
     ]
   };
