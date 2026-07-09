@@ -75,4 +75,4 @@ const nextConfig = {
   },
 };
 
-module.exports = nextConfig;
+module.exports = { ...nextConfig, async redirects() { return [ { source: '/:lang/Catalog.pdf', destination: '/Catalog.pdf', permanent: true } ]; } };

@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import Link from "next/link";
 import { useLanguage } from "./LanguageContext";
@@ -93,7 +93,7 @@ export default function Footer() {
             <li><Link href={l("/about")} style={{ color: "#94a3b8", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>About Us</Link></li>
             <li><Link href={l("/blog")} style={{ color: "#94a3b8", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>Blog</Link></li>
             <li><Link href={l("/contact")} style={{ color: "#94a3b8", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>Contact Us</Link></li>
-            <li><a href={l("/Catalog.pdf")} target="_blank" style={{ color: "#94a3b8", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>Catalog (PDF)</a></li>
+            <li><a href="/Catalog.pdf" target="_blank" style={{ color: "#94a3b8", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>Catalog (PDF)</a></li>
           </ul>
         </div>
 
