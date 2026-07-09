@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title,
     description,
     keywords: product.keywords.join(", "),
-    alternates: alternatesWithHreflang(/products/ + id, /products/ + id),
+    alternates: alternatesWithHreflang('/products/' + id, '/en/products/' + id),
     openGraph: {
       title,
       description,

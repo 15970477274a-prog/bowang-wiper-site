@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title,
     description: post.excerpt,
     keywords: post.tags.join(", "),
-    alternates: alternatesWithHreflang(/blog/ + id, /blog/ + id),
+    alternates: alternatesWithHreflang('/blog/' + id, '/en/blog/' + id),
     openGraph: {
       title,
       description: post.excerpt,
