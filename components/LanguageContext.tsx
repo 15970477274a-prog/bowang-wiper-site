@@ -13,26 +13,23 @@ const LanguageContext = createContext<LanguageContextType>({
   setLang: () => {},
 });
 
-export function LanguageProvider({ children }: { children: ReactNode }) {
-  const [lang, setLangState] = useState<Locale>("en");
+export function LanguageProvider({ children, initialLang = "en" }: { children: ReactNode; initialLang?: Locale }) {
+  const [lang, setLangState] = useState<Locale>(initialLang);
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    setMounted(true);
+    // Check localStorage for persisted language
     const savedLang = localStorage.getItem("lelion_lang") as Locale;
-    if (savedLang && ["en", "es", "ru", "fr", "de", "zh"].includes(savedLang)) {
+    if (savedLang && ["en", "es", "ru", "fr", "de", "zh"].includes(savedLang) && savedLang !== initialLang) {
       setLangState(savedLang);
     }
+    setMounted(true);
   }, []);
 
   const setLang = (newLang: Locale) => {
     setLangState(newLang);
     localStorage.setItem("lelion_lang", newLang);
   };
-
-  if (!mounted) {
-    return <>{children}</>;
-  }
 
   return (
     <LanguageContext.Provider value={{ lang, setLang }}>
