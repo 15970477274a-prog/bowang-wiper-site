@@ -2,10 +2,10 @@ import { alternatesWithHreflang } from "../../../../lib/hreflang";
 import type { Metadata } from "next";
 import { blogPosts } from "../../../data/blog";
 
-type Props = { params: Promise<{ id: string }> };
+type Props = { params: Promise<{ lang: string; id: string }> };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { id } = await params;
+  const { lang, id } = await params;
   const post = blogPosts.find((p) => p.id === id);
 
   if (!post) {
@@ -17,18 +17,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const title = post.title + " | Bowang Autoparts Blog";
   const description = post.excerpt.length > 160 ? post.excerpt.substring(0, 157) + "..." : post.excerpt;
-  const url = "https://www.lelionautopart.com/en/blog/" + post.id;
+  const canonicalPath = "/" + lang + "/blog/" + post.id;
 
   return {
     metadataBase: new URL("https://www.lelionautopart.com"),
     title,
     description,
     keywords: post.tags.join(", "),
-    alternates: alternatesWithHreflang("/blog/" + id, "/en/blog/" + id),
+    alternates: alternatesWithHreflang("/blog/" + id, canonicalPath),
     openGraph: {
       title,
       description,
-      url,
+      url: "https://www.lelionautopart.com" + canonicalPath,
       type: "article",
       publishedTime: post.date,
       authors: [post.author],
