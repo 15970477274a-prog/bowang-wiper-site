@@ -1,11 +1,11 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.lelionautopart.com"),
   title: "About Bowang Autoparts | OEM/ODM Wiper Blade Manufacturer Since 2011",
   description: "Ningbo Zhenhai Bowang Autoparts Co., Ltd. is an ISO 9001 & IATF 16949 certified wiper blade manufacturer. 8,000sqm factory, 200+ employees, exporting to 50+ countries since 2011.",
   keywords: "about Bowang Autoparts, wiper blade manufacturer China, Ningbo wiper factory, ISO 9001 wiper manufacturer, IATF 16949 certified, OEM ODM wiper blades",
-  alternates: { canonical: "https://www.lelionautopart.com/about" },
+  alternates: { canonical: "https://www.lelionautopart.com/en/about" },
   openGraph: {
     title: "About Bowang Autoparts | OEM/ODM Wiper Blade Manufacturer",
     description: "ISO 9001 & IATF 16949 certified wiper blade manufacturer. 8,000sqm factory, 200+ employees, exporting to 50+ countries since 2011.",

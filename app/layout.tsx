@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     images: ["https://sc02.alicdn.com/kf/H2533c3c14bc74cd3afe116f60a8357f4U.jpg"],
   },
   alternates: {
-    canonical: "https://www.lelionautopart.com",
+    canonical: "https://www.lelionautopart.com/en",
   },
   robots: {
     index: true,

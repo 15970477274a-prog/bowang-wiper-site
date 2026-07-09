@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import { allProducts } from "../../data/products";
 
 type Props = { params: Promise<{ id: string }> };
@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const title = `${product.name} | OEM/ODM ${product.category} Wiper Blade - Bowang Autoparts`;
   const description = product.desc;
-  const url = `https://www.lelionautopart.com/products/${product.id}`;
+  const url = `https://www.lelionautopart.com/en/products/${product.id}`;
 
   return {
     metadataBase: new URL("https://www.lelionautopart.com"),
