@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Wholesale Wiper Blade Products | Bowang Autoparts - OEM/ODM Manufacturer",
   description: "Browse our complete range of OEM/ODM wiper blades: universal, specific fit, multifunction, hybrid, and rear wiper blades. Factory-direct wholesale pricing with global shipping from Ningbo, China.",
   keywords: "wiper blades wholesale, OEM wiper blade, universal wiper blade, specific fit wiper, multifunction wiper blade, China wiper manufacturer, bulk wiper blades",
-  alternates: alternatesWithHreflang("/about"), 
+  alternates: alternatesWithHreflang("/en/products", "/en/products"), 
   openGraph: {
     title: "Wholesale Wiper Blade Products | Bowang Autoparts",
     description: "Browse our complete range of OEM/ODM wiper blades. Factory-direct wholesale pricing with global shipping.",
