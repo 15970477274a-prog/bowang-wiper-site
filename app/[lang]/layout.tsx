@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
     metadataBase: new URL("https://www.lelionautopart.com"),
     title: titles[lang] || titles.en,
     description: descriptions[lang] || descriptions.en,
-    alternates: alternatesWithHreflang("/" + lang, "/" + lang),
+    alternates: alternatesWithHreflang("", "/" + lang),
     openGraph: {
       type: "website",
       siteName: "Bowang Wiper - LeLion Autoparts",

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { hreflangUrls } from "../lib/hreflang";
 import Script from "next/script";
 import HtmlLangFix from "../components/HtmlLangFix";
 import "./globals.css";
@@ -35,6 +36,7 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: "https://www.lelionautopart.com/en",
+    languages: hreflangUrls(""),
   },
   robots: {
     index: true,
