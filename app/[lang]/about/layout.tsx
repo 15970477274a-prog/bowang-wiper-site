@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "About Bowang Autoparts | OEM/ODM Wiper Blade Manufacturer Since 2011",
   description: "Ningbo Zhenhai Bowang Autoparts Co., Ltd. is an ISO 9001 & IATF 16949 certified wiper blade manufacturer. 8,000sqm factory, 200+ employees, exporting to 50+ countries since 2011.",
   keywords: "about Bowang Autoparts, wiper blade manufacturer China, Ningbo wiper factory, ISO 9001 wiper manufacturer, IATF 16949 certified, OEM ODM wiper blades",
-  alternates: { canonical: "https://www.lelionautopart.com/about" },
+  alternates: { languages: { en: "https://www.lelionautopart.com/en", es: "https://www.lelionautopart.com/es", ru: "https://www.lelionautopart.com/ru", fr: "https://www.lelionautopart.com/fr", de: "https://www.lelionautopart.com/de", zh: "https://www.lelionautopart.com/zh" },  canonical: "https://www.lelionautopart.com/about" },
   openGraph: {
     title: "About Bowang Autoparts | OEM/ODM Wiper Blade Manufacturer",
     description: "ISO 9001 & IATF 16949 certified wiper blade manufacturer. 8,000sqm factory, 200+ employees, exporting to 50+ countries since 2011.",

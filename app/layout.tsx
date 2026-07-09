@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
+import HtmlLangFix from "../components/HtmlLangFix";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -80,7 +81,7 @@ const websiteSchema = {
   "name": "Bowang Wiper - LeLion Autoparts",
   "url": "https://www.lelionautopart.com",
   "description": "Leading OEM/ODM wiper blade manufacturer in China. Factory-direct pricing, ISO certified, global shipping.",
-  "inLanguage": ["en", "es", "ru", "fr", "de"],
+  "inLanguage": ["en", "es", "ru", "fr", "de", "zh"],
   "isAccessibleForFree": true,
   "potentialAction": {
     "@type": "SearchAction",
@@ -98,7 +99,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
         <link rel="preconnect" href="https://sc02.alicdn.com" />
         <link rel="dns-prefetch" href="https://sc02.alicdn.com" />
@@ -119,6 +120,7 @@ export default function RootLayout({
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
       </head>
       <body style={{ margin: 0, padding: 0 }}>
+        <HtmlLangFix />
         {children}
       </body>
     </html>

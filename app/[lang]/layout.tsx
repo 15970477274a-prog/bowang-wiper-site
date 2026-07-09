@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
     description: descriptions[lang] || descriptions.en,
     alternates: {
       canonical: "https://www.lelionautopart.com/" + lang,
-      languages: { en: "/en", es: "/es", ru: "/ru", fr: "/fr", de: "/de", zh: "/zh" },
+      languages: { en: "https://www.lelionautopart.com/en", es: "https://www.lelionautopart.com/es", ru: "https://www.lelionautopart.com/ru", fr: "https://www.lelionautopart.com/fr", de: "https://www.lelionautopart.com/de", zh: "https://www.lelionautopart.com/zh" },
     },
     openGraph: {
       type: "website",
@@ -51,9 +51,10 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   };
 }
 
-export default function LangLayout({ children }: { children: React.ReactNode }) {
+export default async function LangLayout({ children, params }: { children: React.ReactNode; params: Promise<{ lang: string }> }) {
+  const { lang } = await params;
   return (
-    <LanguageProvider>
+    <LanguageProvider initialLang={lang as any}>
       <Header />
       {children}
       <Footer />

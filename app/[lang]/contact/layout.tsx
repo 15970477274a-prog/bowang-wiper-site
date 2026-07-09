@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Contact Bowang Autoparts | Get Wiper Blade Quote & Samples",
   description: "Contact our sales team for wiper blade inquiries, OEM/ODM requests, bulk pricing, and free samples. WhatsApp: +86-18867886795. Global shipping from Ningbo, China.",
   keywords: "contact Bowang Autoparts, wiper blade quote, OEM wiper inquiry, wiper blade samples, China wiper factory contact, B2B wiper blades",
-  alternates: { canonical: "https://www.lelionautopart.com/contact" },
+  alternates: { languages: { en: "https://www.lelionautopart.com/en", es: "https://www.lelionautopart.com/es", ru: "https://www.lelionautopart.com/ru", fr: "https://www.lelionautopart.com/fr", de: "https://www.lelionautopart.com/de", zh: "https://www.lelionautopart.com/zh" },  canonical: "https://www.lelionautopart.com/contact" },
   openGraph: {
     title: "Contact Bowang Autoparts | Get Wiper Blade Quote & Samples",
     description: "Contact our sales team for wiper blade inquiries, OEM/ODM requests, bulk pricing, and free samples.",
