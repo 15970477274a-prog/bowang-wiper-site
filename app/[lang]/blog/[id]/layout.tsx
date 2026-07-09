@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   const title = `${post.title} | Bowang Autoparts Blog`;
-  const url = `https://www.lelionautopart.com/blog/${post.id}`;
+  const url = `https://www.lelionautopart.com/en/blog/${post.id}`;
 
   return {
     metadataBase: new URL("https://www.lelionautopart.com"),

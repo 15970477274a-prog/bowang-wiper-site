@@ -12,7 +12,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const title = `${categoryName} Wiper Blades Wholesale | Bowang Autoparts`;
   const description = `Factory-direct wholesale ${categoryName.toLowerCase()} wiper blades for global distributors. ISO 9001 & IATF 16949 certified manufacturer. OEM/ODM available, competitive bulk pricing.`;
-  const url = `https://www.lelionautopart.com/products/category/${slug}`;
+  const url = `https://www.lelionautopart.com/en/products/category/${slug}`;
 
   return {
     metadataBase: new URL("https://www.lelionautopart.com"),
