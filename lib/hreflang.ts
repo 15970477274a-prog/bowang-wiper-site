@@ -8,6 +8,8 @@ export function hreflangUrls(path: string): Record<string, string> {
   for (const locale of locales) {
     result[locale] = `${baseUrl}/${locale}${path}`;
   }
+  // x-default points to English version
+  result["x-default"] = `${baseUrl}/en${path}`;
   return result;
 }
 
