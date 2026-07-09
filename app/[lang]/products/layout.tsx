@@ -1,11 +1,12 @@
-﻿import type { Metadata } from "next";
+import { alternatesWithHreflang } from "../../../lib/hreflang";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.lelionautopart.com"),
   title: "Wholesale Wiper Blade Products | Bowang Autoparts - OEM/ODM Manufacturer",
   description: "Browse our complete range of OEM/ODM wiper blades: universal, specific fit, multifunction, hybrid, and rear wiper blades. Factory-direct wholesale pricing with global shipping from Ningbo, China.",
   keywords: "wiper blades wholesale, OEM wiper blade, universal wiper blade, specific fit wiper, multifunction wiper blade, China wiper manufacturer, bulk wiper blades",
-  alternates: { languages: { en: "https://www.lelionautopart.com/en", es: "https://www.lelionautopart.com/es", ru: "https://www.lelionautopart.com/ru", fr: "https://www.lelionautopart.com/fr", de: "https://www.lelionautopart.com/de", zh: "https://www.lelionautopart.com/zh" },  canonical: "https://www.lelionautopart.com/products" },
+  alternates: alternatesWithHreflang("/about"), 
   openGraph: {
     title: "Wholesale Wiper Blade Products | Bowang Autoparts",
     description: "Browse our complete range of OEM/ODM wiper blades. Factory-direct wholesale pricing with global shipping.",

@@ -1,3 +1,4 @@
+import { alternatesWithHreflang } from "../../lib/hreflang";
 import type { Metadata } from "next";
 import { LanguageProvider } from "../../components/LanguageContext";
 import Header from "../../components/Header";

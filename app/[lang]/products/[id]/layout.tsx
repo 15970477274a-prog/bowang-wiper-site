@@ -1,3 +1,4 @@
+import { alternatesWithHreflang } from "../../../../lib/hreflang";
 import type { Metadata } from "next";
 import { allProducts } from "../../../data/products";
 
@@ -23,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title,
     description,
     keywords: product.keywords.join(", "),
-    alternates: { languages: { en: "https://www.lelionautopart.com/en", es: "https://www.lelionautopart.com/es", ru: "https://www.lelionautopart.com/ru", fr: "https://www.lelionautopart.com/fr", de: "https://www.lelionautopart.com/de", zh: "https://www.lelionautopart.com/zh" },  canonical: url },
+    alternates: alternatesWithHreflang(/products/ + id, /products/ + id),
     openGraph: {
       title,
       description,

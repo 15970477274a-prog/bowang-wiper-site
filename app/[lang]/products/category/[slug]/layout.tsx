@@ -1,4 +1,5 @@
-﻿import type { Metadata } from "next";
+import { alternatesWithHreflang } from "../../../../../lib/hreflang";
+import type { Metadata } from "next";
 
 type Props = { params: Promise<{ slug: string }> };
 

@@ -1,11 +1,12 @@
-﻿import type { Metadata } from "next";
+import { alternatesWithHreflang } from "../../../lib/hreflang";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.lelionautopart.com"),
   title: "Wiper Blade Industry Blog | Sourcing Guides & Market Insights - Bowang Autoparts",
   description: "Expert insights on wiper blade sourcing, quality standards, industry trends, and B2B procurement. Read our guides for global automotive parts distributors and importers.",
   keywords: "wiper blade blog, automotive aftermarket blog, wiper blade sourcing guide, B2B auto parts, China wiper manufacturer blog",
-  alternates: { languages: { en: "https://www.lelionautopart.com/en", es: "https://www.lelionautopart.com/es", ru: "https://www.lelionautopart.com/ru", fr: "https://www.lelionautopart.com/fr", de: "https://www.lelionautopart.com/de", zh: "https://www.lelionautopart.com/zh" },  canonical: "https://www.lelionautopart.com/blog" },
+  alternates: alternatesWithHreflang("/about"), 
   openGraph: {
     title: "Wiper Blade Industry Blog | Bowang Autoparts",
     description: "Expert insights on wiper blade sourcing, quality standards, and industry trends for global distributors.",
