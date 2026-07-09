@@ -30,10 +30,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
     metadataBase: new URL("https://www.lelionautopart.com"),
     title: titles[lang] || titles.en,
     description: descriptions[lang] || descriptions.en,
-    alternates: {
-      canonical: "https://www.lelionautopart.com/" + lang,
-      languages: { en: "https://www.lelionautopart.com/en", es: "https://www.lelionautopart.com/es", ru: "https://www.lelionautopart.com/ru", fr: "https://www.lelionautopart.com/fr", de: "https://www.lelionautopart.com/de", zh: "https://www.lelionautopart.com/zh" },
-    },
+    alternates: alternatesWithHreflang("/" + lang, "/" + lang),
     openGraph: {
       type: "website",
       siteName: "Bowang Wiper - LeLion Autoparts",
