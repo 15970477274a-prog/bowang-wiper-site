@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Wiper Blade Industry Blog | Sourcing Guides & Market Insights - Bowang Autoparts",
   description: "Expert insights on wiper blade sourcing, quality standards, industry trends, and B2B procurement. Read our guides for global automotive parts distributors and importers.",
   keywords: "wiper blade blog, automotive aftermarket blog, wiper blade sourcing guide, B2B auto parts, China wiper manufacturer blog",
-  alternates: alternatesWithHreflang("/en/blog", "/en/blog"), 
+  alternates: alternatesWithHreflang("/blog", "/en/blog"), 
   openGraph: {
     title: "Wiper Blade Industry Blog | Bowang Autoparts",
     description: "Expert insights on wiper blade sourcing, quality standards, and industry trends for global distributors.",

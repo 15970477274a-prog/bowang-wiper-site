@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     metadataBase: new URL("https://www.lelionautopart.com"),
     title,
     description,
-    alternates: { canonical: url },
+    alternates: alternatesWithHreflang("/products/category/" + slug, "/en/products/category/" + slug),
     openGraph: { title, description, url, type: "website" },
     twitter: { card: "summary_large_image", title, description },
   };
