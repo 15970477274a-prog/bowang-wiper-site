@@ -132,6 +132,27 @@ export const blogTranslations: Record<string, Record<string, BlogTranslation>> =
       excerpt: "探索塑造2026年全球汽车后市场的关键趋势，以及雨刮片分销商如何把握新兴机遇。"
     }
   },
-};
+  "oem-private-label-wiper-blades-guide": {
+    es: {
+      title: "OEM y Marca Blanca de Escobillas: Gu��a Completa para Importadores y Distribuidores",
+      excerpt: "Todo lo que los compradores B2B necesitan saber sobre la fabricaci��n OEM y de marca blanca de escobillas. Desde marca personalizada y empaque hasta MOQ y plazos de producci��n."
+    },
+    ru: {
+      title: "OEM �� Private Label ����֧ܧݧ���ڧ��ڧ�֧ݧ�: ����ݧߧ�� ����ܧ�ӧ�է��ӧ� �էݧ� ���ާ����֧��� �� ���ڧ���ڧҧ�������",
+      excerpt: "�����, ���� �ߧ�اߧ� �٧ߧѧ�� B2B-���ܧ��ѧ�֧ݧ�� �� ����ڧ٧ӧ�է��ӧ� OEM �� private label ���֧ܧݧ���ڧ��ڧ�֧ݧ֧�. ���� �ڧߧէڧӧڧէ�ѧݧ�ߧ�ԧ� �ҧ�֧ߧէڧߧԧ� �� ���ѧܧ�ӧܧ� �է� MOQ �� ����ܧ�� ����ڧ٧ӧ�է��ӧ�."
+    },
+    fr: {
+      title: "Balais d'Essuie-glace OEM et Marque Blanche : Guide Complet pour Importateurs et Distributeurs",
+      excerpt: "Tout ce que les acheteurs B2B doivent savoir sur la fabrication de balais d'essuie-glace OEM et marque blanche. De la personnalisation et l'emballage aux MOQ et d��lais de production."
+    },
+    de: {
+      title: "OEM & Private Label Wischerbl?tter: Vollst?ndiger Leitfaden f��r Importeure und Distributoren",
+      excerpt: "Alles, was B2B-K?ufer ��ber die Herstellung von OEM- und Private-Label-Wischerbl?ttern wissen m��ssen. Von individuellem Branding und Verpackung bis hin zu MOQ und Produktionszeiten."
+    },
+    zh: {
+      title: "OEM������Ʒ�����Ƭ�������̺ͷ���������ָ��",
+      excerpt: "B2B�����Ҫ�˽���й�OEM������Ʒ�����Ƭ�����������Ϣ���Ӷ���Ʒ�ƺͰ�װ���������������ڡ�"
+    }
+  },
 
-export default blogTranslations;
+};
