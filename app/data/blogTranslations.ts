@@ -155,4 +155,27 @@ export const blogTranslations: Record<string, Record<string, BlogTranslation>> =
     }
   },
 
+  "wiper-blade-import-cost-guide": {
+    es: {
+      title: "Gu��a de Costos de Importaci��n de Escobillas: Desglose FOB, Flete, Aranceles y Precio Final",
+      excerpt: "Gu��a completa para calcular los costos reales de importaci��n de escobillas desde China. Precios FOB, tarifas de flete mar��timo, aranceles de importaci��n y ejemplos de costo final para compradores B2B."
+    },
+    ru: {
+      title: "���ѧ��֧� ����ڧާ���� �ڧާ����� ���֧ܧݧ���ڧ��ڧ�֧ݧ֧�: FOB, ���ѧ��, ����ݧڧߧ� �� �ڧ��ԧ�ӧѧ� ��֧ߧ�",
+      excerpt: "����ݧߧ�� ���ܧ�ӧ�է��ӧ� ��� ��ѧ��֧�� ��֧ѧݧ�ߧ��� �٧ѧ��ѧ� �ߧ� �ڧާ���� ���֧ܧݧ���ڧ��ڧ�֧ݧ֧� �ڧ� ���ڧ�ѧ�. ���֧ߧ� FOB, ����ڧާ���� �ާ���ܧ�ԧ� ���ѧ���, �ڧާ����ߧ��� ����ݧڧߧ� �� ���ڧާ֧�� �ڧ��ԧ�ӧ�� ����ڧާ���� �էݧ� B2B-���ܧ��ѧ�֧ݧ֧�."
+    },
+    fr: {
+      title: "Guide des Co?ts d'Importation de Balais d'Essuie-glace : FOB, Fret, Droits et Prix Final",
+      excerpt: "Guide complet pour calculer les co?ts r��els d'importation de balais d'essuie-glace depuis la Chine. Prix FOB, tarifs de fret maritime, droits d'importation et exemples de co?t final pour acheteurs B2B."
+    },
+    de: {
+      title: "Importkosten f��r Wischerbl?tter: FOB, Fracht, Z?lle und Gesamtpreis im Detail",
+      excerpt: "Vollst?ndiger Leitfaden zur Berechnung der tats?chlichen Importkosten f��r Wischerbl?tter aus China. FOB-Preise, Seefrachtraten, Einfuhrz?lle und Gesamtkostenbeispiele f��r B2B-K?ufer."
+    },
+    zh: {
+      title: "���Ƭ���ڳɱ�ָ�ϣ�FOB�۸��˷ѡ���˰�͵����ɱ����",
+      excerpt: "����������й��������Ƭʵ�ʳɱ���ָ�ϡ�FOB���ۡ����˷��á����ڹ�˰��B2B��ҵ����ɱ�ʾ����"
+    }
+  },
+
 };
