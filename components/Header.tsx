@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { useLanguage } from "./LanguageContext";
 import { translations, Locale } from "../app/translations";
@@ -30,7 +31,7 @@ export default function Header() {
         <div className="header-inner">
           <div className="header-brand">
             <Link href={l("/")} style={{ textDecoration: "none", display: "flex", alignItems: "center", gap: "12px" }}>
-              <img src="/logo.jpg" alt="Bowang Wiper" style={{ height: "56px", width: "auto" }} />
+              <Image src="/logo.jpg" alt="Bowang Wiper" width={112} height={56} priority style={{ height: "56px", width: "auto" }} />
               <div>
                 <span className="header-title">BOWANG WIPER</span>
                 <span className="header-subtitle" style={{ display: "block" }}>Autoparts Manufacturer</span>

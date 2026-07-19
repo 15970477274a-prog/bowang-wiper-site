@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { useParams } from "next/navigation";
 import Link from "next/link";
 import { translations, Locale } from "../translations";
+import Image from "next/image";
 import { allProducts } from "../data/products";
 import { getProductTranslation } from "../data/productTranslations";
 import PackagingSection from "../../components/PackagingSection";
@@ -79,8 +80,47 @@ export default function Home() {
     { q: t.faqQ6, a: t.faqA6 }
   ];
 
+  
+  // FAQ Structured Data
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqItems.map(item => ({
+      "@type": "Question",
+      "name": item.q,
+      "acceptedAnswer": { "@type": "Answer", "text": item.a }
+    }))
+  };
+
+  // LocalBusiness Structured Data
+  const localBusinessSchema = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Ningbo Zhenhai Bowang Autoparts Co., Ltd.",
+    "image": "https://www.lelionautopart.com/banner.webp",
+    "@id": "https://www.lelionautopart.com/",
+    "url": "https://www.lelionautopart.com/",
+    "telephone": "+86-18867886795",
+    "email": "bwb@bwwiper.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Ningbo",
+      "addressRegion": "Zhejiang",
+      "addressCountry": "CN"
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+      "opens": "08:00",
+      "closes": "18:00"
+    },
+    "priceRange": "$"
+  };
+
   return (
     <main style={{ fontFamily: "system-ui, -apple-system, sans-serif", color: "#1e293b", backgroundColor: "#fcfcfc" }}>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }} />
 {/* REPLACED WITH PROFESSIONAL RAIN-DRIVING BANNER */}
       <section id="hero" style={{ 
         padding: "140px 20px", 
