@@ -222,7 +222,7 @@ const relatedBlog = blogPosts.slice(0, 2);
       <section className="section section-alt">
         <div className="container">
           <h2 className="section-title">Technical Specifications — {modelNo}</h2>
-          <p className="section-subtitle">Detailed engineering specifications for the " + modelNo + " " + product.category.toLowerCase() + " wiper blade series from Bowang Autoparts.</p>
+           <p className="section-subtitle">Detailed engineering specifications for the {modelNo} {product.category.toLowerCase()} wiper blade series from Bowang Autoparts.</p>
           <table className="spec-table" style={{maxWidth:"900px",margin:"0 auto",backgroundColor:"var(--bg-white)",borderRadius:"12px",overflow:"hidden",boxShadow:"var(--shadow-sm)"}}>
             <tbody>
               {Object.entries(product.technicalDetails).map(([key, value], idx) => (
@@ -279,8 +279,8 @@ const relatedBlog = blogPosts.slice(0, 2);
       {relatedProducts.length > 0 && (
         <section className="section section-white">
           <div className="container">
-            <h2 className="section-title">More " + product.category + " Wiper Blades</h2>
-            <p className="section-subtitle">Browse our complete range of " + product.category.toLowerCase() + " wiper blades from the same series.</p>
+            <h2 className="section-title">More {product.category} Wiper Blades</h2>
+            <p className="section-subtitle">Browse our complete range of {product.category.toLowerCase()} wiper blades from the same series.</p>
             <div className="grid-products">
               {relatedProducts.map(rp => (
                 <Link key={rp.id} href={"/products/" + rp.id} style={{textDecoration:"none",color:"inherit"}}>
@@ -335,7 +335,7 @@ const relatedBlog = blogPosts.slice(0, 2);
       <section className="section section-lg text-center" style={{background:"linear-gradient(rgba(15,23,42,0.92),rgba(15,23,42,0.92))",color:"white"}}>
         <div className="container-narrow">
           <h2 style={{fontSize:"32px",fontWeight:800,marginBottom:"15px"}}>Ready to Place a Bulk Order?</h2>
-          <p style={{color:"#cbd5e1",marginBottom:"35px",fontSize:"17px"}}>Contact our export team for competitive factory pricing on the " + modelNo + " and other wiper blade models.</p>
+          <p style={{color:"#cbd5e1",marginBottom:"35px",fontSize:"17px"}}>Contact our export team for competitive factory pricing on the {modelNo} and other wiper blade models.</p>
           <Link href="/contact" className="btn-hero">Inquire Now</Link>
           <a href="/Catalog.pdf" target="_blank" className="btn-hero-outline" style={{marginLeft:"15px"}}>Download Full Catalog</a>
         </div>
