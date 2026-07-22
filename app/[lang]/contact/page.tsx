@@ -86,7 +86,7 @@ export default function ContactPage() {
             </div>
             <div style={{ marginBottom: "30px" }}>
               <h4 style={{ color: "#0284c7", textTransform: "uppercase", fontSize: "13px", fontWeight: 800, marginBottom: "10px" }}>Official Email</h4>
-              <p style={{ fontSize: "18px", fontWeight: 700, color: "#0f172a" }}>15970477274a@gmail.com</p>
+              <p style={{ fontSize: "18px", fontWeight: 700, color: "#0f172a" }}>bwb@bwwiper.com</p>
             </div>
             <div style={{ marginTop: "50px", padding: "30px", backgroundColor: "#f8fafc", borderRadius: "16px", border: "1px solid #e2e8f0" }}>
                <h4 style={{ fontSize: "16px", fontWeight: 800, marginBottom: "15px" }}>Wholesale & OEM Support</h4>

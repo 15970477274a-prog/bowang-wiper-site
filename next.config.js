@@ -46,12 +46,12 @@ const nextConfig = {
             key: "Content-Security-Policy",
             value: [
               "default-src 'self'",
-              "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://analytics.ahrefs.com",
+              "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.gstatic.com https://analytics.ahrefs.com",
               "style-src 'self' 'unsafe-inline'",
               "img-src 'self' https://sc02.alicdn.com https://*.faiusr.com https://*.r2.dev https://images.unsplash.com https://*.edgeone.dev data:",
               "font-src 'self'",
               "connect-src 'self' https://www.google-analytics.com https://analytics.ahrefs.com",
-              "frame-src 'self'",
+              "frame-src 'self' https://www.google.com",
               "object-src 'none'",
               "base-uri 'self'",
               "form-action 'self'",
@@ -75,4 +75,4 @@ const nextConfig = {
   },
 };
 
-module.exports = { ...nextConfig, async redirects() { return [ { source: '/:lang/Catalog.pdf', destination: '/Catalog.pdf', permanent: true } ]; } };
+module.exports = { ...nextConfig, async redirects() { return [ { source: '/:lang/Catalog.pdf', destination: '/Catalog.pdf', permanent: true } ]; } };;
