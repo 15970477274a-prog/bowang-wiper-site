@@ -75,4 +75,4 @@ const nextConfig = {
   },
 };
 
-module.exports = { ...nextConfig, async redirects() { return [ { source: '/:lang/Catalog.pdf', destination: '/Catalog.pdf', permanent: true } ]; } };;
+module.exports = { ...nextConfig, async redirects() { return [ { source: '/:lang/Catalog.pdf', destination: '/Catalog.pdf', permanent: true }, { source: '/about-us', destination: '/en/about', permanent: true }, { source: '/contact-us', destination: '/en/contact', permanent: true } ]; } };
