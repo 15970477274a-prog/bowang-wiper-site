@@ -118,8 +118,8 @@ export default function BlogDetail() {
 
       {/* CTA */}
       <section style={{ padding: "60px 20px", textAlign: "center" }}>
-        <h2 style={{ fontSize: "24px", fontWeight: 800, marginBottom: "10px", color: "#0f172a" }}>{t.readyToOrderTitle || "Ready to Source Premium Wiper Blades?"}</h2>
-        <p style={{ color: "#64748b", marginBottom: "25px" }}>{t.readyToOrderDesc || "Contact our export team for bulk pricing and OEM solutions."}</p>
+        <h2 style={{ fontSize: "24px", fontWeight: 800, marginBottom: "10px", color: "#0f172a" }}>Ready to Source Premium Wiper Blades?</h2>
+        <p style={{ color: "#64748b", marginBottom: "25px" }}>Contact our export team for bulk pricing and OEM solutions.</p>
         <Link href={l("/contact")} className="btn-primary" style={{ padding: "14px 32px", display: "inline-block" }}>Inquire Now</Link>
       </section>
     </main>
