@@ -286,8 +286,8 @@ const relatedBlog = blogPosts.slice(0, 2);
       {relatedProducts.length > 0 && (
         <section className="section section-white">
           <div className="container">
-            <h2 className="section-title">More " + product.category + " Wiper Blades</h2>
-            <p className="section-subtitle">Browse our complete range of " + product.category.toLowerCase() + " wiper blades from the same series.</p>
+            <h2 className="section-title">More {product.category} Wiper Blades</h2>
+            <p className="section-subtitle">Browse our complete range of {product.category.toLowerCase()} wiper blades from the same series.</p>
             <div className="grid-products">
               {relatedProducts.map(rp => (
                 <Link key={rp.id} href={l("/products/" + rp.id)} style={{textDecoration:"none",color:"inherit"}}>
@@ -350,4 +350,6 @@ const relatedBlog = blogPosts.slice(0, 2);
 
     </main>
   );
+}
+;
 }
