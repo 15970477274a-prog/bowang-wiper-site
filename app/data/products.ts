@@ -1,4 +1,4 @@
-﻿export interface Product {
+export interface Product {
   id: string;
   category: string;
   name: string;
@@ -150,12 +150,12 @@ export const allProducts: Product[] = [
       "Size Configuration: 25-inch (635mm) Driver Side + 23-inch (580mm) Passenger Side"
     ],
     tag: "New Arrival",
-    image: "https://30558985.s21i.faiusr.com/2/ABUIABACGAAggdK2vQYo8OfGigcwuBc4uBc.jpg",
+    image: "/products/ABUIABACGAAggdK2vQYo8OfGigcwuBc4uBc.jpg",
     gallery: [
-      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAggdK2vQYo7ZOehwMwuBc4uBc.jpg",
-      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAggdK2vQYowKqwjwMwuBc4uBc.jpg",
-      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAg6YaKwgYo453_6gcw7gU4_wI.jpg",
-      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAg6YaKwgYo0L_gejCgBjigBg.jpg"
+      "/products/ABUIABACGAAggdK2vQYo7ZOehwMwuBc4uBc.jpg",
+      "/products/ABUIABACGAAggdK2vQYowKqwjwMwuBc4uBc.jpg",
+      "/products/ABUIABACGAAg6YaKwgYo453_6gcw7gU4_wI.jpg",
+      "/products/ABUIABACGAAg6YaKwgYo0L_gejCgBjigBg.jpg"
     ],
     technicalDetails: {
       "Product Model": "BW-203",
@@ -216,13 +216,13 @@ export const allProducts: Product[] = [
       "Full Set: 2 Pieces (Driver Side + Passenger Side)"
     ],
     tag: "New Arrival",
-    image: "https://30558985.s21i.faiusr.com/2/ABUIABACGAAg08i2vQYorrq8mAUwuBc4uBc.jpg",
+    image: "/products/ABUIABACGAAg08i2vQYorrq8mAUwuBc4uBc.jpg",
     gallery: [
-      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAg08i2vQYo1LTonwMwuBc4uBc.jpg",
-      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAg08i2vQYo7Je6wwcwuBc4uBc.jpg",
-      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAg08i2vQYoguP74gcwuBc4uBc.jpg",
-      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAg08i2vQYo2OnjmQEwuBc4uBc.jpg",
-      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAg08i2vQYo9KXWHTC4Fzi4Fw.jpg"
+      "/products/ABUIABACGAAg08i2vQYo1LTonwMwuBc4uBc.jpg",
+      "/products/ABUIABACGAAg08i2vQYo7Je6wwcwuBc4uBc.jpg",
+      "/products/ABUIABACGAAg08i2vQYoguP74gcwuBc4uBc.jpg",
+      "/products/ABUIABACGAAg08i2vQYo2OnjmQEwuBc4uBc.jpg",
+      "/products/ABUIABACGAAg08i2vQYo9KXWHTC4Fzi4Fw.jpg"
     ],
     technicalDetails: {
       "Product Model": "BW-202",
@@ -284,11 +284,11 @@ export const allProducts: Product[] = [
       "24-inch (610mm) Driver Side + 21-inch (530mm) Passenger Side"
     ],
     tag: "New Arrival",
-    image: "https://30558985.s21i.faiusr.com/2/ABUIABACGAAg_ricxwYo4LbKlwMwuBc4uBc.jpg",
+    image: "/products/ABUIABACGAAg_ricxwYo4LbKlwMwuBc4uBc.jpg",
     gallery: [
-      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAg_7icxwYo_IDonwYwuBc4uBc.jpg",
-      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAg_7icxwYopIO31QEwuBc4uBc.jpg",
-      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAg-LicxwYoqIDBhAIwuBc4uBc.jpg"
+      "/products/ABUIABACGAAg_7icxwYo_IDonwYwuBc4uBc.jpg",
+      "/products/ABUIABACGAAg_7icxwYopIO31QEwuBc4uBc.jpg",
+      "/products/ABUIABACGAAg-LicxwYoqIDBhAIwuBc4uBc.jpg"
     ],
     technicalDetails: {
       "Product Model": "BW-204",
@@ -350,11 +350,11 @@ export const allProducts: Product[] = [
       "6-Month Warranty & Customer Support"
     ],
     tag: "New Arrival",
-    image: "https://30558985.s21i.faiusr.com/2/ABUIABACGAAg9MCcxwYos5iaoAIwuBc4uBc.jpg",
+    image: "/products/ABUIABACGAAg9MCcxwYos5iaoAIwuBc4uBc.jpg",
     gallery: [
-      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAg5sCcxwYovLHlwgQwuBc4uBc.jpg",
-      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAg5sCcxwYo8uKTlwUwuBc4uBc.jpg",
-      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAg6MCcxwYouqCLpQcwuBc4uBc.jpg"
+      "/products/ABUIABACGAAg5sCcxwYovLHlwgQwuBc4uBc.jpg",
+      "/products/ABUIABACGAAg5sCcxwYo8uKTlwUwuBc4uBc.jpg",
+      "/products/ABUIABACGAAg6MCcxwYouqCLpQcwuBc4uBc.jpg"
     ],
     technicalDetails: {
       "Product Model": "BW-205",
@@ -413,7 +413,7 @@ export const allProducts: Product[] = [
       "1 Piece - Front Right Side"
     ],
     tag: "OEM Part",
-    image: "https://30558985.s21i.faiusr.com/4/ABUIABAEGAAgrtPRwwYo49Ch-QQw6Ac46Ac.png",
+    image: "/products/ABUIABAEGAAgrtPRwwYo49Ch-QQw6Ac46Ac.png",
     gallery: [],
     technicalDetails: {
       "Product Model": "BW-027",
@@ -474,10 +474,10 @@ export const allProducts: Product[] = [
       "OEM/ODM: Custom Logo, Packaging, Private Label Available"
     ],
     tag: "Hybrid",
-    image: "https://30558985.s21i.faiusr.com/2/ABUIABACGAAgl8y2vQYorPOy7QIwuBc4uBc.jpg",
+    image: "/products/ABUIABACGAAgl8y2vQYorPOy7QIwuBc4uBc.jpg",
     gallery: [
-      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAgn_2OvwYooOy-iQUw7gU4-gE.jpg",
-      "https://30558985.s21i.faiusr.com/4/ABUIABAEGAAg3oroygYo5qXg8wUw6Ac46Ac.png",
+      "/products/ABUIABACGAAgn_2OvwYooOy-iQUw7gU4-gE.jpg",
+      "/products/ABUIABAEGAAg3oroygYo5qXg8wUw6Ac46Ac.png",
     ],
     technicalDetails: {
       "Product Model": "BW-808",
@@ -541,11 +541,11 @@ export const allProducts: Product[] = [
       "OEM/ODM: Custom Logo, Packaging, Private Label Available"
     ],
     tag: "Rear Wiper",
-    image: "https://30558985.s21i.faiusr.com/4/ABUIABAEGAAgwpPQxAYooJLKoQQwuBc4uBc.png",
+    image: "/products/ABUIABAEGAAgwpPQxAYooJLKoQQwuBc4uBc.png",
     gallery: [
-      "https://30558985.s21i.faiusr.com/4/ABUIABAEGAAgmZ7QxAYosMW1iwUwuBc4uBc.png",
-      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAgxoCpygYokMjkmgEwgBs4gBI.jpg",
-      "https://30558985.s21i.faiusr.com/4/ABUIABAEGAAgrJeQyAYov_-RxAIwwQI4ywE.png"
+      "/products/ABUIABAEGAAgmZ7QxAYosMW1iwUwuBc4uBc.png",
+      "/products/ABUIABACGAAgxoCpygYokMjkmgEwgBs4gBI.jpg",
+      "/products/ABUIABAEGAAgrJeQyAYov_-RxAIwwQI4ywE.png"
     ],
     technicalDetails: {
       "Product Model": "BW-160",
@@ -607,11 +607,11 @@ export const allProducts: Product[] = [
       "OEM/ODM: Custom Logo, Packaging, Private Label Available"
     ],
     tag: "Rear Wiper",
-    image: "https://30558985.s21i.faiusr.com/2/ABUIABACGAAg0vDQvQYo7L3S8QIwuBc4uBc.jpg",
+    image: "/products/ABUIABACGAAg0vDQvQYo7L3S8QIwuBc4uBc.jpg",
     gallery: [
-      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAg0vDQvQYo3NWu2QUwuBc4uBc.jpg",
-      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAg0vDQvQYo6I63lAMwuBc4uBc.jpg",
-      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAg0vDQvQYogPb2oQEw7gU4uwo.jpg"
+      "/products/ABUIABACGAAg0vDQvQYo3NWu2QUwuBc4uBc.jpg",
+      "/products/ABUIABACGAAg0vDQvQYo6I63lAMwuBc4uBc.jpg",
+      "/products/ABUIABACGAAg0vDQvQYogPb2oQEw7gU4uwo.jpg"
     ],
     technicalDetails: {
       "Product Model": "BW-161",
@@ -672,9 +672,9 @@ export const allProducts: Product[] = [
       "ISO 9001 & IATF 16949 Certified Manufacturing"
     ],
     tag: "Wiper Arm",
-    image: "https://30558985.s21i.faiusr.com/2/ABUIABACGAAgr-usvwYokMvmogcwuBc4uBc.jpg",
+    image: "/products/ABUIABACGAAgr-usvwYokMvmogcwuBc4uBc.jpg",
     gallery: [
-      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAgi6WUvwYov5W02wIwuBc4uBc.jpg"
+      "/products/ABUIABACGAAgi6WUvwYov5W02wIwuBc4uBc.jpg"
     ],
     technicalDetails: {
       "Product Model": "BW-001",
@@ -736,10 +736,10 @@ export const allProducts: Product[] = [
       "ISO 9001 & IATF 16949 Certified Production"
     ],
     tag: "Wiper Arm",
-    image: "https://30558985.s21i.faiusr.com/2/ABUIABACGAAgxJSUvwYou7KG_gYwuBc4uBc.jpg",
+    image: "/products/ABUIABACGAAgxJSUvwYou7KG_gYwuBc4uBc.jpg",
     gallery: [
-      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAgnZyUvwYozsncuwQwuBc4uBc.jpg",
-      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAg5JuUvwYo4OiTogQwuBc4uBc.jpg"
+      "/products/ABUIABACGAAgnZyUvwYozsncuwQwuBc4uBc.jpg",
+      "/products/ABUIABACGAAg5JuUvwYo4OiTogQwuBc4uBc.jpg"
     ],
     technicalDetails: {
       "Product Model": "BW-002",
@@ -799,7 +799,7 @@ export const allProducts: Product[] = [
       "ISO 9001 & IATF 16949 Certified Manufacturing"
     ],
     tag: "Wiper Arm",
-    image: "https://30558985.s21i.faiusr.com/2/ABUIABACGAAgtsiEvgYow7nr6wQwuBc4uBc.jpg",
+    image: "/products/ABUIABACGAAgtsiEvgYow7nr6wQwuBc4uBc.jpg",
     gallery: [],
     technicalDetails: {
       "Product Model": "BW3002",
@@ -858,12 +858,12 @@ export const allProducts: Product[] = [
       "6-Month Warranty / ISO 9001 and IATF 16949 Certified"
     ],
     tag: "Universal",
-    image: "https://30558985.s21i.faiusr.com/2/ABUIABACGAAghvnLvQYovJmW7QYwuBc4uBc.jpg",
+    image: "/products/ABUIABACGAAghvnLvQYovJmW7QYwuBc4uBc.jpg",
     gallery: [
-      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAghvnLvQYojrLvuwcwuBc4uBc.jpg",
-      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAghfnLvQYo9sbrIjC4Fzi4Fw.jpg",
-      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAghfnLvQYo1qGhuQQwuBc4uBc.jpg",
-      "https://30558985.s21i.faiusr.com/2/ABUIABACGAAghfnLvQYomN34uwcwuBc4uBc.jpg"
+      "/products/ABUIABACGAAghvnLvQYojrLvuwcwuBc4uBc.jpg",
+      "/products/ABUIABACGAAghfnLvQYo9sbrIjC4Fzi4Fw.jpg",
+      "/products/ABUIABACGAAghfnLvQYo1qGhuQQwuBc4uBc.jpg",
+      "/products/ABUIABACGAAghfnLvQYomN34uwcwuBc4uBc.jpg"
     ],
     technicalDetails: {
       "Product Model": "BW-405",
