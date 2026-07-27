@@ -1,4 +1,4 @@
-﻿export interface BlogPost {
+export interface BlogPost {
   id: string;
   title: string;
   excerpt: string;
@@ -19,7 +19,7 @@ export const blogPosts: BlogPost[] = [
     author: "Bowang Technical Team",
     category: "Buying Guide",
     tags: ["wiper blade manufacturer", "China supplier", "OEM wiper blades", "sourcing guide", "B2B procurement"],
-    image: "https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&q=80&w=800",
+    image: "https://sc02.alicdn.com/kf/H2533c3c14bc74cd3afe116f60a8357f4U.jpg",
     content: `
 ## Why Partner with a Professional Wiper Blade Manufacturer?
 
@@ -80,7 +80,7 @@ We offer:
     author: "Bowang Technical Team",
     category: "Technical Guide",
     tags: ["wiper blade materials", "natural rubber", "silicone wiper", "wiper blade quality", "automotive parts"],
-    image: "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&q=80&w=800",
+    image: "https://sc02.alicdn.com/kf/H3fc79edf0c004afebbb2c992eb4cc6edX.png",
     content: `
 ## Wiper Blade Material Comparison: What Distributors Need to Know
 
@@ -137,7 +137,7 @@ At Bowang Autoparts, we manufacture all three types:
     author: "Bowang Technical Team",
     category: "Import Guide",
     tags: ["import from China", "wiper blade wholesale", "B2B import guide", "shipping", "customs clearance"],
-    image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=800",
+    image: "https://sc02.alicdn.com/kf/Hb0410965e6194f008a583d7f500e1b7at.png",
     content: `
 ## Your Complete Guide to Importing Wiper Blades from China
 
@@ -202,7 +202,7 @@ Bowang Autoparts welcomes new distributors worldwide. We offer sample support, f
     author: "Bowang Technical Team",
     category: "Industry Knowledge",
     tags: ["ISO 9001", "IATF 16949", "CE certification", "wiper blade quality", "automotive standards"],
-    image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&q=80&w=800",
+    image: "https://sc02.alicdn.com/kf/He68d042a711e42babef62c2ebea3ee2fN.png",
     content: `
 ## Understanding Wiper Blade Quality Certifications
 
@@ -255,7 +255,7 @@ Our facility holds ISO 9001:2015 and is IATF 16949 certified. We provide full te
     author: "Bowang Technical Team",
     category: "Market Insights",
     tags: ["automotive aftermarket", "market trends", "wiper blade industry", "B2B opportunities", "2026 trends"],
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800",
+    image: "https://sc02.alicdn.com/kf/Hf62654b25ce145c596b525b489f1a81aW.png",
     content: `
 ## 2026 Automotive Aftermarket: Key Trends & Opportunities
 
@@ -313,7 +313,7 @@ We are continuously expanding our product line to meet evolving market demands:
     author: "Bowang Technical Team",
     category: "Buying Guide",
     tags: ["OEM wiper blades", "private label wiper", "custom wiper blade", "wiper blade branding", "wiper blade packaging", "B2B sourcing"],
-    image: "https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?auto=format&fit=crop&q=80&w=800",
+    image: "/packaging/paper-box-package.jpg",
     content: `## Why OEM & Private Label Matters for Wiper Blade Importers
 
 In the competitive automotive aftermarket, selling generic wiper blades is no longer enough. Distributors who offer branded products see higher margins, stronger customer loyalty, and better market positioning. This guide covers everything you need to know about OEM and private label wiper blade manufacturing.
@@ -418,7 +418,7 @@ At Bowang, we offer flexible MOQ for new partnerships.
     author: "Bowang Technical Team",
     category: "Buying Guide",
     tags: ["wiper blade import cost", "wiper blade FOB price", "sea freight China", "import duties wiper", "landed cost", "B2B sourcing", "China shipping"],
-    image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=800",
+    image: "https://sc02.alicdn.com/kf/Hb0410965e6194f008a583d7f500e1b7at.png",
     content: `## Why Understanding Wiper Blade Import Costs Matters
 
 For auto parts distributors, knowing the true cost of importing wiper blades from China is the difference between profit and loss. Many first-time importers underestimate the total landed cost by 15-25%, which can wipe out margins. This guide breaks down every cost component so you can build accurate pricing models.
