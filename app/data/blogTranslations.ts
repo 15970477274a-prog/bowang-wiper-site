@@ -178,4 +178,27 @@ export const blogTranslations: Record<string, Record<string, BlogTranslation>> =
     }
   },
 
+  "wiper-blade-quality-testing-guide": {
+    es: {
+      title: "Pruebas de Calidad de Escobillas: Gu��a Completa de Inspecci��n Antes de Pedidos al por Mayor",
+      excerpt: "Aprenda a inspeccionar la calidad de las escobillas antes de realizar pedidos al por mayor. Cubre pruebas de laboratorio, muestreo AQL, auditor��as de f��brica y verificaci��n de materiales para compradores B2B."
+    },
+    ru: {
+      title: "����ߧ���ݧ� �ܧѧ�֧��ӧ� ���֧ܧݧ���ڧ��ڧ�֧ݧ֧�: ����ݧߧ�� ���ܧ�ӧ�է��ӧ� ��� ����ӧ֧�ܧ� ��֧�֧� �����ӧ��ާ� �٧ѧܧѧ٧ѧާ�",
+      excerpt: "���٧ߧѧۧ��, �ܧѧ� ����ӧ֧���� �ܧѧ�֧��ӧ� ���֧ܧݧ���ڧ��ڧ�֧ݧ֧� ��֧�֧� ��ѧ٧ާ֧�֧ߧڧ֧� �����ӧ��� �٧ѧܧѧ٧��. ����ӧѧ���ӧѧ֧� �ݧѧҧ��ѧ���ߧ��� �ڧ�����ѧߧڧ�, �ӧ��ҧ��ܧ� AQL, �ѧ�էڧ� ��ѧҧ�ڧܧ� �� ����ӧ֧�ܧ� �ާѧ�֧�ڧѧݧ�� �էݧ� B2B-���ܧ��ѧ�֧ݧ֧�."
+    },
+    fr: {
+      title: "Contr?le Qualit�� des Balais d'Essuie-glace : Guide Complet d'Inspection Avant Commandes en Gros",
+      excerpt: "Apprenez �� inspecter la qualit�� des balais d'essuie-glace avant de passer des commandes en gros. Couvre les tests en laboratoire, l'��chantillonnage AQL, les audits d'usine et la v��rification des mat��riaux pour acheteurs B2B."
+    },
+    de: {
+      title: "Qualit?tspr��fung von Wischerbl?ttern: Vollst?ndiger Inspektionsleitfaden vor Gro?bestellungen",
+      excerpt: "Erfahren Sie, wie Sie die Qualit?t von Wischerbl?ttern vor Gro?bestellungen pr��fen. Behandelt Labortests, AQL-Stichproben, Fabrikaudits und Materialpr��fungen f��r B2B-K?ufer."
+    },
+    zh: {
+      title: "���Ƭ������⣺��������ǰ����������ָ��",
+      excerpt: "�˽������ɹ�ǰ��μ������Ƭ����������ʵ���Ҳ��ԡ�AQL������������˺Ͳ�����֤������B2B�ɹ��̡�"
+    }
+  },
+
 };
