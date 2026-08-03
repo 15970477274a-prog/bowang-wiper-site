@@ -1,6 +1,13 @@
 // Blog content translations for es, ru, fr, de, zh
 // English content is in blog.ts
 // title/excerpt/content fall back to English when a language lacks an entry
+// Full article bodies for es/ru/fr/de live in the blog-contents-{lang}.ts
+// fragment files and are merged in below.
+
+import { esContents } from "./blog-contents-es";
+import { ruContents } from "./blog-contents-ru";
+import { frContents } from "./blog-contents-fr";
+import { deContents } from "./blog-contents-de";
 
 export interface BlogTranslation {
   title: string;
@@ -862,3 +869,21 @@ FOB（船上交货）价格是您支付给制造商、货物在中国港口备�
   },
 
 };
+
+// Merge full article bodies from the per-language fragment files.
+const contentsByLang: Record<string, Record<string, string>> = {
+  es: esContents,
+  ru: ruContents,
+  fr: frContents,
+  de: deContents,
+};
+
+for (const lang of Object.keys(contentsByLang)) {
+  const contents = contentsByLang[lang];
+  for (const postId of Object.keys(contents)) {
+    const entry = blogTranslations[postId];
+    if (entry && entry[lang]) {
+      entry[lang].content = contents[postId];
+    }
+  }
+}
