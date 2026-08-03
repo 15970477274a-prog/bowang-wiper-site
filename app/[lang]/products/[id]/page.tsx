@@ -229,7 +229,7 @@ const relatedBlog = blogPosts.slice(0, 2);
       <section className="section section-alt">
         <div className="container">
           <h2 className="section-title">Technical Specifications — {modelNo}</h2>
-           <p className="section-subtitle">Detailed engineering specifications for the {modelNo} {product.category.toLowerCase()} wiper blade series from Bowang Autoparts.</p>
+           <p className="section-subtitle">Detailed engineering specifications for the {modelNo}{" "}{product.category.toLowerCase()} wiper blade series from Bowang Autoparts.</p>
           <table className="spec-table" style={{maxWidth:"900px",margin:"0 auto",backgroundColor:"var(--bg-white)",borderRadius:"12px",overflow:"hidden",boxShadow:"var(--shadow-sm)"}}>
             <tbody>
               {Object.entries(product.technicalDetails).map(([key, value], idx) => (
