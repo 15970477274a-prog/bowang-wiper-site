@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { useParams } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 import { translations, Locale } from "../../../../translations";
 import { allProducts } from "../../../../data/products";
 import { getProductTranslation } from "../../../../data/productTranslations";
@@ -32,7 +33,6 @@ export default function ProductCategoryPage() {
   const slug = params.slug as string;
   const urlLang = (params.lang as Locale) || "en";
   const category = CATEGORY_MAP[slug];
-  const [mobileMenu, setMobileMenu] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
   const ITEMS_PER_PAGE = 6;
   const [lang, setLang] = useState<Locale>(urlLang);
@@ -41,13 +41,6 @@ export default function ProductCategoryPage() {
     setLang(urlLang);
     localStorage.setItem("lelion_lang", urlLang);
   }, [urlLang]);
-
-  const closeMobileMenu = () => setMobileMenu(false);
-
-  const handleLangChange = (newLang: Locale) => {
-    setLang(newLang);
-    localStorage.setItem("lelion_lang", newLang);
-  };
 
   const t = translations[lang];
   const getCategoryName = () => {
@@ -74,9 +67,9 @@ export default function ProductCategoryPage() {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      {"@type":"ListItem","position":1,"name":"Home","item":"https://www.lelionautopart.com/"},
-      {"@type":"ListItem","position":2,"name":"Products","item":"https://www.lelionautopart.com/products"},
-      {"@type":"ListItem","position":3,"name":category + " Wipers","item":"https://www.lelionautopart.com/products/category/" + slug}
+      {"@type":"ListItem","position":1,"name":"Home","item":"https://www.lelionautopart.com/" + lang},
+      {"@type":"ListItem","position":2,"name":"Products","item":"https://www.lelionautopart.com/" + lang + "/products"},
+      {"@type":"ListItem","position":3,"name":category + " " + t.wiperBladesWord,"item":"https://www.lelionautopart.com/" + lang + "/products/category/" + slug}
     ]
   };
 
@@ -84,9 +77,10 @@ export default function ProductCategoryPage() {
   const collectionSchema = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    "name": category + " Wiper Blades - Wholesale | Bowang Autoparts",
-    "description": "Browse our wholesale " + category.toLowerCase() + " wiper blades. OEM/ODM manufacturer with factory-direct pricing, ISO certified, global shipping.",
-    "url": "https://www.lelionautopart.com/products/category/" + slug,
+    "name": category + " " + t.wiperBladesWord + " - Wholesale | Bowang Autoparts",
+    "description": "Browse our wholesale " + category.toLowerCase() + " " + t.wiperBladesWord.toLowerCase() + ". OEM/ODM manufacturer with factory-direct pricing, ISO certified, global shipping.",
+    "url": "https://www.lelionautopart.com/" + lang + "/products/category/" + slug,
+    "inLanguage": lang,
     "isPartOf": {"@type":"WebSite","name":"Bowang Wiper - LeLion Autoparts"}
   };
 
@@ -94,17 +88,6 @@ export default function ProductCategoryPage() {
     <main>
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(breadcrumbSchema)}} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(collectionSchema)}} />
-{/* Mobile Menu Overlay */}
-      <div className={"mobile-menu-overlay" + (mobileMenu ? " open" : "")}>
-        <a href={l("/")} onClick={closeMobileMenu}>{t.navHome}</a>
-        <a href={l("/products")} onClick={closeMobileMenu}>{t.navProducts}</a>
-        <a href={l("/blog")} onClick={closeMobileMenu}>Blog</a>
-        <a href={l("/about")} onClick={closeMobileMenu}>{t.navAboutUs}</a>
-        <a href={l("/contact")} onClick={closeMobileMenu} className="nav-cta">{t.navGetQuote}</a>
-        <select value={lang} onChange={(e) => { handleLangChange(e.target.value as Locale); closeMobileMenu(); }} className="lang-select-mobile">
-          <option value="en">English</option><option value="es">Español</option><option value="ru">Русский</option><option value="fr">Français</option><option value="de">Deutsch</option><option value="zh">中文</option>
-        </select>
-      </div>
 
 
       <section className="banner-dark">
@@ -147,8 +130,7 @@ export default function ProductCategoryPage() {
                           <span style={{position:"absolute",top:"20px",left:"20px",backgroundColor:"#ecfdf5",
                             color:"#059669",fontSize:"11px",fontWeight:"bold",padding:"5px 12px",borderRadius:"6px",zIndex:10
                           }}>{product.tag}</span>
-                          <img src={product.image} loading="lazy" alt={product.name}
-                            style={{maxWidth:"100%",maxHeight:"100%",width:"auto",height:"auto",objectFit:"contain"}} />
+                          <Image src={product.image} alt={product.name} fill sizes="(max-width: 768px) 100vw, 33vw" style={{ objectFit: "contain" }} />
                         </Link>
                         <div style={{padding:"25px",flexGrow:1,display:"flex",flexDirection:"column"}}>
                           <h3 style={{fontSize:"19px",fontWeight:800,marginBottom:"10px"}}>

@@ -82,18 +82,18 @@ export default function ContactPage() {
             <div style={{ marginBottom: "30px" }}>
               <h4 style={{ color: "#0284c7", textTransform: "uppercase", fontSize: "13px", fontWeight: 800, marginBottom: "10px" }}>{t.contactPhoneTitle}</h4>
               <p style={{ fontSize: "18px", fontWeight: 700, color: "#0f172a" }}>+86 188 6788 6795</p>
-              <p style={{ fontSize: "14px", color: "#64748b" }}>Available on WhatsApp & WeChat</p>
+              <p style={{ fontSize: "14px", color: "#64748b" }}>{t.contactAvailableOn}</p>
             </div>
             <div style={{ marginBottom: "30px" }}>
-              <h4 style={{ color: "#0284c7", textTransform: "uppercase", fontSize: "13px", fontWeight: 800, marginBottom: "10px" }}>Official Email</h4>
+              <h4 style={{ color: "#0284c7", textTransform: "uppercase", fontSize: "13px", fontWeight: 800, marginBottom: "10px" }}>{t.contactOfficialEmail}</h4>
               <p style={{ fontSize: "18px", fontWeight: 700, color: "#0f172a" }}>bwb@bwwiper.com</p>
             </div>
             <div style={{ marginTop: "50px", padding: "30px", backgroundColor: "#f8fafc", borderRadius: "16px", border: "1px solid #e2e8f0" }}>
-               <h4 style={{ fontSize: "16px", fontWeight: 800, marginBottom: "15px" }}>Wholesale & OEM Support</h4>
-               <p style={{ fontSize: "14px", color: "#64748b", lineHeight: 1.6 }}>Our export department provides 1-on-1 technical consultation.</p>
+               <h4 style={{ fontSize: "16px", fontWeight: 800, marginBottom: "15px" }}>{t.contactSupportTitle}</h4>
+               <p style={{ fontSize: "14px", color: "#64748b", lineHeight: 1.6 }}>{t.contactSupportDesc}</p>
                <div style={{ display: "flex", gap: "15px", marginTop: "20px" }}>
-                  <a href="https://wa.me/8618867886795" target="_blank" style={{ flex: 1, textAlign: "center", backgroundColor: "#25d366", color: "white", padding: "12px", borderRadius: "8px", textDecoration: "none", fontWeight: "bold", fontSize: "14px" }}>WhatsApp Me</a>
-                  <a href="mailto:bwb@bwwiper.com" style={{ flex: 1, textAlign: "center", backgroundColor: "#0f172a", color: "white", padding: "12px", borderRadius: "8px", textDecoration: "none", fontWeight: "bold", fontSize: "14px" }}>Email Us</a>
+                  <a href="https://wa.me/8618867886795" target="_blank" style={{ flex: 1, textAlign: "center", backgroundColor: "#25d366", color: "white", padding: "12px", borderRadius: "8px", textDecoration: "none", fontWeight: "bold", fontSize: "14px" }}>{t.whatsappMe}</a>
+                  <a href="mailto:bwb@bwwiper.com" style={{ flex: 1, textAlign: "center", backgroundColor: "#0f172a", color: "white", padding: "12px", borderRadius: "8px", textDecoration: "none", fontWeight: "bold", fontSize: "14px" }}>{t.emailUs}</a>
                </div>
             </div>
           </div>
@@ -101,6 +101,7 @@ export default function ContactPage() {
             <h3 style={{ fontSize: "22px", fontWeight: 800, marginBottom: "10px" }}>{t.contactTitle}</h3>
             <p style={{ color: "#64748b", fontSize: "14px", marginBottom: "30px" }}>{t.contactSubtitle}</p>
             <form onSubmit={handleSubmit}>
+              <input type="text" name="website" tabIndex={-1} autoComplete="off" style={{ position: "absolute", left: "-9999px", opacity: 0 }} aria-hidden="true" />
               <div style={{ marginBottom: "20px" }}><label style={{ display: "block", fontSize: "13px", fontWeight: 700, marginBottom: "8px" }}>{t.contactNameLabel}</label><input type="text" name="name" required value={formData.name} onChange={handleChange} style={{ width: "100%", padding: "12px", border: "1px solid #e2e8f0", borderRadius: "6px" }} placeholder={t.contactNamePlaceholder} /></div>
               <div style={{ marginBottom: "20px" }}><label style={{ display: "block", fontSize: "13px", fontWeight: 700, marginBottom: "8px" }}>{t.contactEmailLabel}</label><input type="email" name="email" required value={formData.email} onChange={handleChange} style={{ width: "100%", padding: "12px", border: "1px solid #e2e8f0", borderRadius: "6px" }} placeholder={t.contactEmailPlaceholder} /></div>
               <div style={{ marginBottom: "20px" }}><label style={{ display: "block", fontSize: "13px", fontWeight: 700, marginBottom: "8px" }}>{t.contactCompanyLabel}</label><input type="text" name="company" value={formData.company} onChange={handleChange} style={{ width: "100%", padding: "12px", border: "1px solid #e2e8f0", borderRadius: "6px" }} placeholder={t.contactCompanyPlaceholder} /></div>

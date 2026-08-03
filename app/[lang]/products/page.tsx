@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { useParams } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 import { translations, Locale } from "../../translations";
 import { allProducts } from "../../data/products";
 import { getProductTranslation } from "../../data/productTranslations";
@@ -14,19 +15,11 @@ export default function ProductsPage() {
   const [activeCategory, setActiveCategory] = useState("All");
   const [currentPage, setCurrentPage] = useState(1);
   const ITEMS_PER_PAGE = 6;
-  const [mobileMenu, setMobileMenu] = useState(false);
 
   useEffect(() => {
     setLang(urlLang);
     localStorage.setItem("lelion_lang", urlLang);
   }, [urlLang]);
-
-  const closeMobileMenu = () => setMobileMenu(false);
-
-  const handleLangChange = (newLang: Locale) => {
-    setLang(newLang);
-    localStorage.setItem("lelion_lang", newLang);
-  };
 
   const t = translations[lang];
   const l = (p: string) => "/" + lang + p;
@@ -48,8 +41,8 @@ export default function ProductsPage() {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.lelionautopart.com/" },
-      { "@type": "ListItem", "position": 2, "name": "Products", "item": "https://www.lelionautopart.com/products" }
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.lelionautopart.com/" + lang },
+      { "@type": "ListItem", "position": 2, "name": "Products", "item": "https://www.lelionautopart.com/" + lang + "/products" }
     ]
   };
 
@@ -61,19 +54,6 @@ export default function ProductsPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
-{/* Mobile Menu Overlay */}
-      <div className={"mobile-menu-overlay" + (mobileMenu ? " open" : "")}>
-        <a href={l("/")} onClick={closeMobileMenu}>{t.navHome}</a>
-        <a href={l("/products")} onClick={closeMobileMenu}>{t.navProducts}</a>
-        <a href={l("/blog")} onClick={closeMobileMenu}>Blog</a>
-        <a href={l("/about")} onClick={closeMobileMenu}>{t.navAboutUs}</a>
-        <a href="/Catalog.pdf" target="_blank" onClick={closeMobileMenu} style={{color:"var(--accent-glow)",fontWeight:600}}>{t.navCatalog}</a>
-        <a href={l("/contact")} className="nav-cta" onClick={closeMobileMenu}>{t.navGetQuote}</a>
-        <select value={lang} onChange={(e) => { handleLangChange(e.target.value as Locale); closeMobileMenu(); }} className="lang-select-mobile">
-          <option value="en">English</option><option value="es">Español</option><option value="ru">Русский</option><option value="fr">Français</option><option value="de">Deutsch</option><option value="zh">中文</option>
-        </select>
-      </div>
-
 
       {/* Banner */}
       <section style={{ backgroundColor: "#0f172a", padding: "60px 20px", color: "white", textAlign: "center", borderBottom: "1px solid #1e293b" }}>
@@ -110,7 +90,7 @@ export default function ProductsPage() {
                   backgroundColor: "white", borderRadius: "16px", overflow: "hidden", border: "1px solid #f1f5f9",
                   display: "flex", flexDirection: "column", transition: "transform 0.3s ease"
                 }}>
-                  <Link href={`/products/${p.id}`} style={{ 
+                  <Link href={l(`/products/${p.id}`)} style={{ 
                     height: "300px", 
                     backgroundColor: "#f8fafc", 
                     display: "flex", 
@@ -120,17 +100,7 @@ export default function ProductsPage() {
                     padding: "20px"
                   }}>
                      <span style={{ position: "absolute", top: "20px", left: "20px", backgroundColor: "#ecfdf5", color: "#059669", fontSize: "11px", fontWeight: "bold", padding: "5px 12px", borderRadius: "6px", zIndex: 10 }}>{p.tag}</span>
-                     <img 
-                      src={p.image} loading="lazy"  
-                      alt={p.name} 
-                      style={{ 
-                        maxWidth: "100%", 
-                        maxHeight: "100%", 
-                        width: "auto", 
-                        height: "auto", 
-                        objectFit: "contain" 
-                      }} 
-                     />
+                     <Image src={p.image} alt={p.name} fill sizes="(max-width: 768px) 100vw, 33vw" style={{ objectFit: "contain" }} />
                   </Link>
                   <div style={{ padding: "25px", flexGrow: 1, display: "flex", flexDirection: "column" }}>
                     <h3 style={{ fontSize: "19px", fontWeight: 800, marginBottom: "10px" }}>

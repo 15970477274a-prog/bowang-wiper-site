@@ -1,23 +1,35 @@
 import { alternatesWithHreflang } from "../../../lib/hreflang";
 import type { Metadata } from "next";
+import { translations, Locale } from "../../translations";
 
-export const metadata: Metadata = {
-  metadataBase: new URL("https://www.lelionautopart.com"),
-  title: "Contact Bowang Autoparts | Get Wiper Blade Quote & Samples",
-  description: "Contact our sales team for wiper blade inquiries, OEM/ODM requests, bulk pricing, and free samples. WhatsApp: +86-18867886795. Global shipping from Ningbo, China.",
-  keywords: "contact Bowang Autoparts, wiper blade quote, OEM wiper inquiry, wiper blade samples, China wiper factory contact, B2B wiper blades",
-  alternates: alternatesWithHreflang("/contact", "/en/contact"), 
-  openGraph: {
-    title: "Contact Bowang Autoparts | Get Wiper Blade Quote & Samples",
-    description: "Contact our sales team for wiper blade inquiries, OEM/ODM requests, bulk pricing, and free samples.",
-    url: "https://www.lelionautopart.com/contact",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Contact Bowang Autoparts | Get Wiper Blade Quote",
-    description: "Contact our sales team for wiper blade inquiries, OEM/ODM requests, bulk pricing.",
-  },
-};
+type Props = { params: Promise<{ lang: string }> };
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { lang } = await params;
+  const t = translations[(lang as Locale)] || translations.en;
+  const title = t.contactPageTitle + " | Bowang Autoparts";
+  const description = t.contactPageDesc;
+  const canonicalPath = "/" + lang + "/contact";
+
+  return {
+    metadataBase: new URL("https://www.lelionautopart.com"),
+    title,
+    description,
+    keywords: "contact Bowang Autoparts, wiper blade quote, OEM wiper inquiry, wiper blade samples, China wiper factory contact, B2B wiper blades",
+    alternates: alternatesWithHreflang("/contact", canonicalPath),
+    openGraph: {
+      title,
+      description,
+      url: "https://www.lelionautopart.com" + canonicalPath,
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+    },
+  };
+}
 
 export default function ContactLayout({ children }: { children: React.ReactNode }) {
   return children;

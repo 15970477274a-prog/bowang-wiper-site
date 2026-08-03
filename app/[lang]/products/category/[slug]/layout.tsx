@@ -1,17 +1,40 @@
 import { alternatesWithHreflang } from "../../../../../lib/hreflang";
 import type { Metadata } from "next";
+import { translations, Locale } from "../../../../translations";
 
 type Props = { params: Promise<{ lang: string; slug: string }> };
 
+const locales = ["en", "es", "ru", "fr", "de", "zh"];
+const categorySlugs = ["universal", "specific-fit", "multifunction", "wiper-arm", "hybrid", "rear-wiper", "rear-wiper-combo"];
+
+export function generateStaticParams() {
+  return categorySlugs.flatMap((slug) => locales.map((lang) => ({ lang, slug })));
+}
+
+export const dynamicParams = false;
+
+const categoryKeyMap: Record<string, keyof (typeof translations)["en"]> = {
+  universal: "catUniversal",
+  "specific-fit": "catSpecificFit",
+  multifunction: "catMultifunction",
+  "wiper-arm": "catWiperArm",
+  "rear-wiper": "catRearWiper",
+  hybrid: "catHybrid",
+  "rear-wiper-combo": "catRearWiperCombo",
+};
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { lang, slug } = await params;
-  const categoryName = slug
-    .split("-")
-    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
-    .join(" ");
-
-  const title = categoryName + " Wiper Blades | Bowang Autoparts";
-  const description = "Factory-direct wholesale " + categoryName.toLowerCase() + " wiper blades. ISO 9001 & IATF 16949 certified OEM/ODM manufacturer. Global shipping, competitive bulk pricing.";
+  const t = translations[(lang as Locale)] || translations.en;
+  const catKey = categoryKeyMap[slug];
+  const categoryName = catKey
+    ? t[catKey]
+    : slug
+        .split("-")
+        .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+        .join(" ");
+  const title = categoryName + " " + t.wiperBladesWord + " | Bowang Autoparts";
+  const description = t.categoryBannerSub;
   const canonicalPath = "/" + lang + "/products/category/" + slug;
 
   return {

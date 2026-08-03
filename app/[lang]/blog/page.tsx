@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { useParams } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 import { translations, Locale } from "../../translations";
 import { blogPosts } from "../../data/blog";
 import { getBlogTranslation } from "../../data/blogTranslations";
@@ -10,21 +11,13 @@ import { getBlogTranslation } from "../../data/blogTranslations";
 export default function BlogPage() {
   const params = useParams();
   const urlLang = (params.lang as Locale) || "en";
-  const [mobileMenu, setMobileMenu] = useState(false);
   const [lang, setLang] = useState<Locale>(urlLang);
-  const closeMobileMenu = () => setMobileMenu(false);
   const [activeTag, setActiveTag] = useState("All");
 
   useEffect(() => {
     setLang(urlLang);
     localStorage.setItem("lelion_lang", urlLang);
   }, [urlLang]);
-
-  
-  const handleLangChange = (newLang: Locale) => {
-    setLang(newLang);
-    localStorage.setItem("lelion_lang", newLang);
-  };
 
   const t = translations[lang];
   const tagMap: Record<string, Record<string, string>> = {
@@ -43,8 +36,8 @@ export default function BlogPage() {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.lelionautopart.com/" },
-      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.lelionautopart.com/blog" }
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.lelionautopart.com/" + lang },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.lelionautopart.com/" + lang + "/blog" }
     ]
   };
 
@@ -74,20 +67,6 @@ export default function BlogPage() {
       {/* JSON-LD Schemas */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogListingSchema) }} />
-
-      {/* Navigation Header */}
-{/* Mobile Menu Overlay */}
-      <div className={"mobile-menu-overlay" + (mobileMenu ? " open" : "")}>
-        <a href={l("/")} onClick={closeMobileMenu}>Home</a>
-        <a href={l("/products")} onClick={closeMobileMenu}>Products</a>
-        <a href={l("/blog")} onClick={closeMobileMenu}>Blog</a>
-        <a href={l("/about")} onClick={closeMobileMenu}>About</a>
-        <a href={l("/contact")} onClick={closeMobileMenu} className="nav-cta">{t.navGetQuote}</a>
-        <select value={lang} onChange={(e) => { handleLangChange(e.target.value as Locale); closeMobileMenu(); }} className="lang-select-mobile">
-          <option value="en">English</option><option value="es">Español</option><option value="ru">Русский</option><option value="fr">Français</option><option value="de">Deutsch</option><option value="zh">中文</option>
-        </select>
-      </div>
-
 
       {/* Banner */}
       <section style={{padding: "80px 20px", color: "white", textAlign: "center", borderBottom: "1px solid #1e293b", backgroundColor: "#0f172a" }}>
@@ -125,7 +104,7 @@ export default function BlogPage() {
                 height: "100%", display: "flex", flexDirection: "column"
               }} className="card-hover">
                 <div style={{ height: "200px", overflow: "hidden", backgroundColor: "#f1f5f9" }}>
-                  <img src={post.image} alt={post.title} style={{ width: "100%", height: "100%", objectFit: "cover" }} loading="lazy" />
+                  <Image src={post.image} alt={post.title} width={400} height={225} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
                 </div>
                 <div style={{ padding: "25px", flex: 1, display: "flex", flexDirection: "column" }}>
                   <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "12px" }}>

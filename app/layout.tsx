@@ -72,8 +72,12 @@ const organizationSchema = {
     { "@type": "ContactPoint", "telephone": "+86-18867886795", "contactType": "technical support", "areaServed": "Worldwide", "availableLanguage": ["English", "Chinese"] }
   ],
   "sameAs": [
-    "https://wa.me/8618867886795",
-    "https://www.lelionautopart.com"
+    "https://nb-bowang.en.alibaba.com/",
+    "https://nbzhbw.en.made-in-china.com/",
+    "https://www.bwwiper.com/",
+    "https://www.facebook.com/groups/750483250868131/",
+    "https://www.instagram.com/lelionwiper/",
+    "https://wa.me/8618867886795"
   ]
 };
 
@@ -84,15 +88,7 @@ const websiteSchema = {
   "url": "https://www.lelionautopart.com",
   "description": "Leading OEM/ODM wiper blade manufacturer in China. Factory-direct pricing, ISO certified, global shipping.",
   "inLanguage": ["en", "es", "ru", "fr", "de", "zh"],
-  "isAccessibleForFree": true,
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": {
-      "@type": "EntryPoint",
-      "urlTemplate": "https://www.lelionautopart.com/?s={search_term_string}"
-    },
-    "query-input": "required name=search_term_string"
-  }
+  "isAccessibleForFree": true
 };
 
 export default function RootLayout({

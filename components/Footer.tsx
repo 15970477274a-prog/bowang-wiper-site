@@ -89,19 +89,19 @@ export default function Footer() {
             <span style={{ position: "absolute", bottom: 0, left: 0, width: "40px", height: "2px", background: "#0D68B0", display: "block" }}></span>
           </h4>
           <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "10px" }}>
-            <li><Link href={l("/")} style={{ color: "#94a3b8", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>Home</Link></li>
-            <li><Link href={l("/products")} style={{ color: "#94a3b8", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>Products</Link></li>
-            <li><Link href={l("/about")} style={{ color: "#94a3b8", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>About Us</Link></li>
-            <li><Link href={l("/blog")} style={{ color: "#94a3b8", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>Blog</Link></li>
-            <li><Link href={l("/contact")} style={{ color: "#94a3b8", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>Contact Us</Link></li>
-            <li><a href="/Catalog.pdf" target="_blank" style={{ color: "#94a3b8", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>Catalog (PDF)</a></li>
+            <li><Link href={l("/")} style={{ color: "#94a3b8", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>{t.navHome}</Link></li>
+            <li><Link href={l("/products")} style={{ color: "#94a3b8", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>{t.navProducts}</Link></li>
+            <li><Link href={l("/about")} style={{ color: "#94a3b8", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>{t.navAboutUs}</Link></li>
+            <li><Link href={l("/blog")} style={{ color: "#94a3b8", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>{t.navBlog}</Link></li>
+            <li><Link href={l("/contact")} style={{ color: "#94a3b8", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>{t.navGetQuote}</Link></li>
+            <li><a href="/Catalog.pdf" target="_blank" style={{ color: "#94a3b8", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>{t.navCatalog}</a></li>
           </ul>
         </div>
 
         {/* Column 4: Contact Us */}
         <div>
           <h4 style={{ color: "#ffffff", fontSize: "16px", fontWeight: 700, marginBottom: "20px", textTransform: "uppercase", letterSpacing: "0.05em", position: "relative", paddingBottom: "12px" }}>
-            Contact Us
+            {t.footerContact}
             <span style={{ position: "absolute", bottom: 0, left: 0, width: "40px", height: "2px", background: "#0D68B0", display: "block" }}></span>
           </h4>
           <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "14px" }}>
@@ -110,7 +110,7 @@ export default function Footer() {
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" strokeWidth="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
               </div>
               <div>
-                <span style={{ color: "#64748b", fontSize: "11px", textTransform: "uppercase", display: "block", marginBottom: "2px" }}>EMAIL:</span>
+                <span style={{ color: "#64748b", fontSize: "11px", textTransform: "uppercase", display: "block", marginBottom: "2px" }}>{t.emailLabel}</span>
                 <a href="mailto:bwb@bwwiper.com" style={{ color: "#e2e8f0", textDecoration: "none", fontSize: "14px" }}>bwb@bwwiper.com</a>
               </div>
             </li>
@@ -128,8 +128,8 @@ export default function Footer() {
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" strokeWidth="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
               </div>
               <div>
-                <span style={{ color: "#64748b", fontSize: "11px", textTransform: "uppercase", display: "block", marginBottom: "2px" }}>Address:</span>
-                <span style={{ color: "#e2e8f0", fontSize: "14px", lineHeight: "1.6" }}>Zhenhai District, Ningbo City, Zhejiang Province, China</span>
+                <span style={{ color: "#64748b", fontSize: "11px", textTransform: "uppercase", display: "block", marginBottom: "2px" }}>{t.addressLabel}</span>
+                <span style={{ color: "#e2e8f0", fontSize: "14px", lineHeight: "1.6" }}>{t.footerAddress}</span>
               </div>
             </li>
           </ul>

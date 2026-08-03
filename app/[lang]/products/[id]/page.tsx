@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { useParams } from "next/navigation";
 import { useLanguage } from "../../../../components/LanguageContext";
 import { translations } from "../../../translations";
@@ -16,8 +17,6 @@ export default function ProductDetail() {
   const [selectedImg, setSelectedImg] = useState(0);
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [showFaq, setShowFaq] = useState<number | null>(null);
-  const [formData, setFormData] = useState({ name: "", email: "", company: "", whatsapp: "", quantity: "", product: "", message: "" });
-  const [status, setStatus] = useState({ submitted: false, loading: false, error: "" });
 
   const product = allProducts.find(p => p.id === id);
   const t = translations[lang];
@@ -34,47 +33,35 @@ export default function ProductDetail() {
     { q: t.faqQ4, a: t.faqA4 }, { q: t.faqQ5, a: t.faqA5 }, { q: t.faqQ6, a: t.faqA6 }
   ];
 
-  const handleChange = (e: any) => setFormData({ ...formData, [e.target.name]: e.target.value });
-  const handleSubmit = async (e: any) => {
-    e.preventDefault();
-    setStatus({ submitted: false, loading: true, error: "" });
-    try {
-      const resp = await fetch("/api/inquiry", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ...formData, product: product?.name || formData.product }),
-      });
-      if (resp.ok) {
-        setStatus({ submitted: true, loading: false, error: "" });
-        setFormData({ name: "", email: "", company: "", whatsapp: "", quantity: "", product: "", message: "" });
-      } else throw new Error("Failed");
-    } catch (err: any) {
-      setStatus({ submitted: false, loading: false, error: err.message });
-    }
-  };
-
   if (!product) {
     return (
       <main>
         <div style={{ padding: "100px 20px", textAlign: "center" }}>
-          <h1>Product Not Found</h1>
-          <Link href={l("/products")} style={{ color: "#0284c7" }}>Back to Products</Link>
+          <h1>{t.productNotFoundTitle}</h1>
+          <Link href={l("/products")} style={{ color: "#0284c7" }}>{t.backToProducts}</Link>
         </div>
       </main>
     );
   }
 
-  const post = blogPosts[0];
   const relatedProducts = allProducts.filter(p => p.category === product.category && p.id !== product.id).slice(0, 4);
   const modelNo = product.id.split("-").slice(0, 2).join("-").toUpperCase();
 const categorySlug = product.category.toLowerCase().replace(/ /g, "-");
-const relatedBlog = blogPosts.slice(0, 2);
+const productKeywords = (product.keywords || []).join(" ").toLowerCase();
+const relatedBlog = blogPosts
+  .slice()
+  .sort((a, b) => {
+    const aScore = a.tags.filter((tag) => productKeywords.includes(tag.toLowerCase())).length;
+    const bScore = b.tags.filter((tag) => productKeywords.includes(tag.toLowerCase())).length;
+    return bScore - aScore;
+  })
+  .slice(0, 2);
   // Product structured data for SEO
   const productSchema = {
     "@context": "https://schema.org",
     "@type": "Product",
-    "name": product.name,
-    "description": product.desc,
+    "name": productName,
+    "description": productDesc,
     "image": product.gallery && product.gallery.length > 0 ? [product.image, ...product.gallery] : [product.image],
     "sku": modelNo,
     "brand": { "@type": "Brand", "name": "Bowang" },
@@ -94,24 +81,20 @@ const relatedBlog = blogPosts.slice(0, 2);
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.lelionautopart.com/" },
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": `https://www.lelionautopart.com/${lang}` },
       { "@type": "ListItem", "position": 2, "name": "Products", "item": `https://www.lelionautopart.com/${lang}/products` },
-      { "@type": "ListItem", "position": 3, "name": product.name }
+      { "@type": "ListItem", "position": 3, "name": productName }
     ]
   };
 
-  const en = translations["en"];
   const productFaqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    "mainEntity": [
-      { "@type": "Question", "name": en.faqQ1, "acceptedAnswer": { "@type": "Answer", "text": en.faqA1 } },
-      { "@type": "Question", "name": en.faqQ2, "acceptedAnswer": { "@type": "Answer", "text": en.faqA2 } },
-      { "@type": "Question", "name": en.faqQ3, "acceptedAnswer": { "@type": "Answer", "text": en.faqA3 } },
-      { "@type": "Question", "name": en.faqQ4, "acceptedAnswer": { "@type": "Answer", "text": en.faqA4 } },
-      { "@type": "Question", "name": en.faqQ5, "acceptedAnswer": { "@type": "Answer", "text": en.faqA5 } },
-      { "@type": "Question", "name": en.faqQ6, "acceptedAnswer": { "@type": "Answer", "text": en.faqA6 } }
-    ]
+    "mainEntity": faqItems.map((item) => ({
+      "@type": "Question",
+      "name": item.q,
+      "acceptedAnswer": { "@type": "Answer", "text": item.a }
+    }))
   };
 
   return (
@@ -127,7 +110,7 @@ const relatedBlog = blogPosts.slice(0, 2);
             {images.length > 1 && (
               <button className="gallery-arrow prev" onClick={(e) => { e.stopPropagation(); setSelectedImg((selectedImg - 1 + images.length) % images.length); }}>&lsaquo;</button>
             )}
-            <img src={images[selectedImg]} alt={product.name + " - image " + (selectedImg + 1)} width={800} height={600} loading="lazy" />
+            <Image src={images[selectedImg]} alt={product.name + " - image " + (selectedImg + 1)} width={800} height={600} sizes="(max-width: 768px) 100vw, 50vw" />
             {images.length > 1 && (
               <button className="gallery-arrow next" onClick={(e) => { e.stopPropagation(); setSelectedImg((selectedImg + 1) % images.length); }}>&rsaquo;</button>
             )}
@@ -137,7 +120,7 @@ const relatedBlog = blogPosts.slice(0, 2);
             <div className="gallery-thumbnails">
               {images.map((url, i) => (
                 <div key={i} className={"gallery-thumb" + (i === selectedImg ? " active" : "")} onClick={() => setSelectedImg(i)}>
-                  <img src={url} alt={product.name + " thumbnail " + (i+1)} width={100} height={75} loading="lazy" />
+                  <Image src={url} alt={product.name + " thumbnail " + (i+1)} width={100} height={75} sizes="80px" />
                 </div>
               ))}
             </div>
@@ -150,7 +133,7 @@ const relatedBlog = blogPosts.slice(0, 2);
               {images.length > 1 && (
                 <button className="gallery-overlay-arrow prev-lb" onClick={(e) => { e.stopPropagation(); setSelectedImg((selectedImg - 1 + images.length) % images.length); }}>&lsaquo;</button>
               )}
-              <img src={images[selectedImg]} alt={product.name + " full view"} width={1200} height={900} loading="lazy" onClick={(e) => e.stopPropagation()} />
+              <Image src={images[selectedImg]} alt={product.name + " full view"} width={1200} height={900} style={{ maxWidth: "90vw", maxHeight: "80vh", width: "auto", height: "auto", objectFit: "contain", borderRadius: "12px" }} onClick={(e) => e.stopPropagation()} />
               {images.length > 1 && (
                 <button className="gallery-overlay-arrow next-lb" onClick={(e) => { e.stopPropagation(); setSelectedImg((selectedImg + 1) % images.length); }}>&rsaquo;</button>
               )}
@@ -165,10 +148,10 @@ const relatedBlog = blogPosts.slice(0, 2);
 
           {/* Wholesale status box */}
           <div style={{backgroundColor:"#f8fafc",padding:"25px",borderRadius:"12px",marginBottom:"30px",borderLeft:"4px solid var(--accent)"}}>
-            <span className="text-muted" style={{fontWeight:600}}>Wholesale Status:</span>
-            <p style={{fontSize:"20px",fontWeight:700,color:"#1e293b",margin:"5px 0"}}>Factory Direct · In Stock · Ready to Ship</p>
+            <span className="text-muted" style={{fontWeight:600}}>{t.wholesaleStatus}</span>
+            <p style={{fontSize:"20px",fontWeight:700,color:"#1e293b",margin:"5px 0"}}>{t.wholesaleStatusValue}</p>
             <div style={{marginTop:"10px"}}>
-              <span className="text-muted">Minimum Order Quantity:</span>
+              <span className="text-muted">{t.minOrderQty}</span>
               <p style={{fontSize:"16px",fontWeight:800,color:"var(--accent)",margin:"2px 0"}}>{product.moq}</p>
             </div>
           </div>
@@ -178,7 +161,7 @@ const relatedBlog = blogPosts.slice(0, 2);
 
           {/* Key Features */}
           <div style={{marginBottom:"30px"}}>
-            <h4 style={{fontSize:"16px",marginBottom:"15px",color:"#0f172a"}}>Product Highlights:</h4>
+            <h4 style={{fontSize:"16px",marginBottom:"15px",color:"#0f172a"}}>{t.productHighlights}</h4>
             <ul style={{listStyle:"none",padding:0,margin:0}}>
               {productSpecs.map((spec, i) => (
                 <li key={i} style={{marginBottom:"10px",display:"flex",alignItems:"flex-start",fontSize:"14px",color:"#475569"}}>
@@ -190,7 +173,7 @@ const relatedBlog = blogPosts.slice(0, 2);
 
           {/* Application tags */}
           <div style={{marginBottom:"30px"}}>
-            <h4 style={{fontSize:"16px",marginBottom:"15px",color:"#0f172a"}}>Target Markets:</h4>
+            <h4 style={{fontSize:"16px",marginBottom:"15px",color:"#0f172a"}}>{t.targetMarkets}</h4>
             <div style={{display:"flex",gap:"8px",flexWrap:"wrap"}}>
               {product.applications.map((app, i) => (
                 <span key={i} className="tag">{app}</span>
@@ -200,18 +183,18 @@ const relatedBlog = blogPosts.slice(0, 2);
 
           {/* B2B Support */}
           <div style={{borderTop:"1px solid var(--border-light)",paddingTop:"25px",marginBottom:"30px"}}>
-            <h4 style={{fontSize:"16px",marginBottom:"15px",color:"#0f172a"}}>OEM/ODM Services Available:</h4>
+            <h4 style={{fontSize:"16px",marginBottom:"15px",color:"#0f172a"}}>{t.oemServicesTitle}</h4>
             <ul style={{listStyle:"none",padding:0,margin:0,fontSize:"14px",color:"#64748b"}}>
-              <li style={{marginBottom:"8px",display:"flex",alignItems:"center"}}><span style={{color:"var(--accent)",marginRight:"10px"}}>★</span> Private Label & Laser Logo Printing</li>
-              <li style={{marginBottom:"8px",display:"flex",alignItems:"center"}}><span style={{color:"var(--accent)",marginRight:"10px"}}>★</span> Customized Retail & Export Packaging</li>
-              <li style={{display:"flex",alignItems:"center"}}><span style={{color:"var(--accent)",marginRight:"10px"}}>★</span> Global Logistics & Customs Documentation</li>
+              <li style={{marginBottom:"8px",display:"flex",alignItems:"center"}}><span style={{color:"var(--accent)",marginRight:"10px"}}>★</span> {t.oemService1}</li>
+              <li style={{marginBottom:"8px",display:"flex",alignItems:"center"}}><span style={{color:"var(--accent)",marginRight:"10px"}}>★</span> {t.oemService2}</li>
+              <li style={{display:"flex",alignItems:"center"}}><span style={{color:"var(--accent)",marginRight:"10px"}}>★</span> {t.oemService3}</li>
             </ul>
           </div>
 
           {/* CTA Buttons */}
           <div style={{display:"flex",gap:"15px"}}>
-            <Link href={"/contact?product=" + encodeURIComponent(productName)} className="btn-primary" style={{flex:1,padding:"16px",textAlign:"center"}}>Get Bulk Price →</Link>
-            <a href="/Catalog.pdf" target="_blank" className="btn-outline" style={{flex:1,padding:"16px",textAlign:"center"}}>Download Catalog</a>
+            <Link href={l("/contact?product=" + encodeURIComponent(productName))} className="btn-primary" style={{flex:1,padding:"16px",textAlign:"center"}}>{t.getBulkPrice}</Link>
+            <a href="/Catalog.pdf" target="_blank" className="btn-outline" style={{flex:1,padding:"16px",textAlign:"center"}}>{t.downloadCatalog}</a>
           </div>
 
           {/* SEO Keywords */}
@@ -228,8 +211,8 @@ const relatedBlog = blogPosts.slice(0, 2);
       {/* Technical Specifications */}
       <section className="section section-alt">
         <div className="container">
-          <h2 className="section-title">Technical Specifications — {modelNo}</h2>
-           <p className="section-subtitle">Detailed engineering specifications for the {modelNo}{" "}{product.category.toLowerCase()} wiper blade series from Bowang Autoparts.</p>
+          <h2 className="section-title">{t.techSpecsTitle} {modelNo}</h2>
+           <p className="section-subtitle">{t.techSpecsSubtitle} {modelNo}{" "}{product.category.toLowerCase()} {t.wiperBladesWord}.</p>
           <table className="spec-table" style={{maxWidth:"900px",margin:"0 auto",backgroundColor:"var(--bg-white)",borderRadius:"12px",overflow:"hidden",boxShadow:"var(--shadow-sm)"}}>
             <tbody>
               {Object.entries(product.technicalDetails).map(([key, value], idx) => (
@@ -246,8 +229,8 @@ const relatedBlog = blogPosts.slice(0, 2);
       {/* Features Section */}
       <section className="section section-white">
         <div className="container">
-          <h2 className="section-title">Why Choose the {modelNo}?</h2>
-          <p className="section-subtitle">Engineered for performance, built for durability, backed by a certified Chinese wiper blade factory.</p>
+          <h2 className="section-title">{t.whyChooseTitle} {modelNo}?</h2>
+          <p className="section-subtitle">{t.whyChooseSubtitle}</p>
           <div className="grid-2col" style={{maxWidth:"900px",margin:"0 auto"}}>
             {productFeatures.map((feature, i) => (
               <div key={i} className="card" style={{padding:"30px"}}>
@@ -264,8 +247,8 @@ const relatedBlog = blogPosts.slice(0, 2);
       {/* Product FAQ Section */}
       <section className="section section-alt">
         <div className="container">
-          <h2 className="section-title">Frequently Asked Questions — {modelNo}</h2>
-           <p className="section-subtitle">Common B2B inquiries about our {product.category.toLowerCase()} wiper blades.</p>
+          <h2 className="section-title">{t.faqSectionTitle} {modelNo}</h2>
+           <p className="section-subtitle">{t.faqSectionSubtitle} {product.category.toLowerCase()} {t.wiperBladesWord}.</p>
           <div className="faq-container">
             {faqItems.map((item, idx) => (
               <div key={idx} className="faq-item">
@@ -286,21 +269,21 @@ const relatedBlog = blogPosts.slice(0, 2);
       {relatedProducts.length > 0 && (
         <section className="section section-white">
           <div className="container">
-            <h2 className="section-title">More {product.category} Wiper Blades</h2>
-            <p className="section-subtitle">Browse our complete range of {product.category.toLowerCase()} wiper blades from the same series.</p>
+            <h2 className="section-title">{t.moreCatProductsTitle} {product.category} {t.wiperBladesWord}</h2>
+            <p className="section-subtitle">{t.moreCatProductsSubtitle} {product.category.toLowerCase()} {t.wiperBladesWord}.</p>
             <div className="grid-products">
               {relatedProducts.map(rp => (
                 <Link key={rp.id} href={l("/products/" + rp.id)} style={{textDecoration:"none",color:"inherit"}}>
                   <div className="product-card card-hover">
                     <div className="product-card-img">
-                      <img src={rp.image} alt={rp.name} width={400} height={300} style={{maxWidth:"100%",maxHeight:"100%",objectFit:"contain"}} loading="lazy" />
+                      <Image src={rp.image} alt={rp.name} width={400} height={300} style={{ maxWidth: "100%", maxHeight: "100%", width: "auto", height: "auto", objectFit: "contain" }} />
                     </div>
                     <div className="product-card-body">
                       <span className="card-tag">{rp.tag}</span>
                       <h3 style={{fontSize:"16px",fontWeight:700,margin:"12px 0 8px",color:"#0f172a",lineHeight:1.4}}>{rp.name}</h3>
                       <p className="card-text">{rp.desc}</p>
                       <div className="product-card-footer">
-                        <span className="card-link">View Details →</span>
+                        <span className="card-link">{t.viewDetails}</span>
                         <span className="text-muted" style={{fontSize:"12px"}}>MOQ: {rp.moq}</span>
                       </div>
                     </div>
@@ -316,14 +299,14 @@ const relatedBlog = blogPosts.slice(0, 2);
       {relatedBlog.length > 0 && (
         <section className="section section-alt">
           <div className="container">
-            <h2 className="section-title">Related Industry Insights</h2>
-            <p className="section-subtitle">Learn more about wiper blade quality, sourcing, and industry trends from our blog.</p>
+            <h2 className="section-title">{t.relatedInsightsTitle}</h2>
+            <p className="section-subtitle">{t.relatedInsightsSubtitle}</p>
             <div className="grid-auto" style={{gridTemplateColumns:"repeat(auto-fill, minmax(300px, 1fr))"}}>
               {relatedBlog.map(post => (
                 <Link key={post.id} href={l("/blog/" + post.id)} style={{textDecoration:"none",color:"inherit"}}>
                   <div className="blog-card" style={{margin:0}}>
                     <div className="blog-card-img">
-                      <img src={post.image} alt={post.title} width={400} height={225} loading="lazy" />
+                      <Image src={post.image} alt={post.title} width={400} height={225} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
                     </div>
                     <div className="blog-card-body">
                       <span className="card-tag">{post.category}</span>
@@ -341,10 +324,10 @@ const relatedBlog = blogPosts.slice(0, 2);
       {/* Final CTA */}
       <section className="section section-lg text-center" style={{background:"linear-gradient(rgba(15,23,42,0.92),rgba(15,23,42,0.92))",color:"white"}}>
         <div className="container-narrow">
-          <h2 style={{fontSize:"32px",fontWeight:800,marginBottom:"15px"}}>Ready to Place a Bulk Order?</h2>
-          <p style={{color:"#cbd5e1",marginBottom:"35px",fontSize:"17px"}}>Contact our export team for competitive factory pricing on the {modelNo} and other wiper blade models.</p>
-          <Link href={l("/contact")} className="btn-hero">Inquire Now</Link>
-          <a href="/Catalog.pdf" target="_blank" className="btn-hero-outline" style={{marginLeft:"15px"}}>Download Full Catalog</a>
+          <h2 style={{fontSize:"32px",fontWeight:800,marginBottom:"15px"}}>{t.finalCtaTitle}</h2>
+          <p style={{color:"#cbd5e1",marginBottom:"35px",fontSize:"17px"}}>{t.finalCtaSub} {modelNo}.</p>
+          <Link href={l("/contact")} className="btn-hero">{t.inquireNow}</Link>
+          <a href="/Catalog.pdf" target="_blank" className="btn-hero-outline" style={{marginLeft:"15px"}}>{t.downloadFullCatalog}</a>
         </div>
       </section>
 

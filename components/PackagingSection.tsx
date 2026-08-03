@@ -1,5 +1,7 @@
 ﻿"use client";
 
+import Image from "next/image";
+
 const packages = [
   { name: "PP Package", img: "/packaging/pp-package.jpg" },
   { name: "PVC Package", img: "/packaging/pvc-package.jpg" },
@@ -42,7 +44,7 @@ export default function PackagingSection({ title, desc }: PackagingProps) {
                 <div style={{ fontSize: "40px", fontWeight: 800, color: "#0284c7", opacity: 0.15, marginBottom: "-20px" }}>
                   {String(i + 1).padStart(2, "0")}
                 </div>
-                <img src={item.img} alt={item.name} loading="lazy" style={{ width: "100%", height: "180px", objectFit: "contain" }} />
+                <Image src={item.img} alt={item.name} width={400} height={300} style={{ width: "100%", height: "180px", objectFit: "contain" }} />
               </div>
               <div style={{ padding: "16px 20px 20px", textAlign: "center" }}>
                 <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#0f172a", margin: 0 }}>{item.name}</h3>

@@ -49,6 +49,14 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   };
 }
 
+const locales = ["en", "es", "ru", "fr", "de", "zh"];
+
+export function generateStaticParams() {
+  return locales.map((lang) => ({ lang }));
+}
+
+export const dynamicParams = false;
+
 export default async function LangLayout({ children, params }: { children: React.ReactNode; params: Promise<{ lang: string }> }) {
   const { lang } = await params;
   return (
