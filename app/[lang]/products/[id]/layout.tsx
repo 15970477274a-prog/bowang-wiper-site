@@ -1,4 +1,5 @@
 import { alternatesWithHreflang } from "../../../../lib/hreflang";
+import { truncateTitle } from "../../../../lib/seo";
 import type { Metadata } from "next";
 import { allProducts } from "../../../data/products";
 import { getProductTranslation } from "../../../data/productTranslations";
@@ -27,7 +28,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const trans = getProductTranslation(id, lang);
   const name = trans?.name || product.name;
   const desc = trans?.desc || product.desc;
-  const title = name + " | Bowang Autoparts";
+  const title = truncateTitle(name) + " | Bowang Autoparts";
   const description = desc.length > 160 ? desc.substring(0, 157) + "..." : desc;
   const canonicalPath = "/" + lang + "/products/" + product.id;
 
@@ -35,7 +36,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     metadataBase: new URL("https://www.lelionautopart.com"),
     title,
     description,
-    keywords: product.keywords.join(", "),
     alternates: alternatesWithHreflang("/products/" + id, canonicalPath),
     openGraph: {
       title,

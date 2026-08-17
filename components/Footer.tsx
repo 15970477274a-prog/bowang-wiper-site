@@ -68,10 +68,10 @@ export default function Footer() {
 
         {/* Column 2: Products */}
         <div>
-          <h4 style={{ color: "#ffffff", fontSize: "16px", fontWeight: 700, marginBottom: "20px", textTransform: "uppercase", letterSpacing: "0.05em", position: "relative", paddingBottom: "12px" }}>
+          <h3 style={{ color: "#ffffff", fontSize: "16px", fontWeight: 700, marginBottom: "20px", textTransform: "uppercase", letterSpacing: "0.05em", position: "relative", paddingBottom: "12px" }}>
             {t.footerProducts}
             <span style={{ position: "absolute", bottom: 0, left: 0, width: "40px", height: "2px", background: "#0D68B0", display: "block" }}></span>
-          </h4>
+          </h3>
           <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "10px" }}>
             <li><Link href={l("/products/category/universal")} style={{ color: "#94a3b8", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>{t.footerUniversal}</Link></li>
             <li><Link href={l("/products/category/specific-fit")} style={{ color: "#94a3b8", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>{t.footerSpecific}</Link></li>
@@ -84,10 +84,10 @@ export default function Footer() {
 
         {/* Column 3: Information */}
         <div>
-          <h4 style={{ color: "#ffffff", fontSize: "16px", fontWeight: 700, marginBottom: "20px", textTransform: "uppercase", letterSpacing: "0.05em", position: "relative", paddingBottom: "12px" }}>
+          <h3 style={{ color: "#ffffff", fontSize: "16px", fontWeight: 700, marginBottom: "20px", textTransform: "uppercase", letterSpacing: "0.05em", position: "relative", paddingBottom: "12px" }}>
             {t.footerInformation}
             <span style={{ position: "absolute", bottom: 0, left: 0, width: "40px", height: "2px", background: "#0D68B0", display: "block" }}></span>
-          </h4>
+          </h3>
           <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "10px" }}>
             <li><Link href={l("/")} style={{ color: "#94a3b8", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>{t.navHome}</Link></li>
             <li><Link href={l("/products")} style={{ color: "#94a3b8", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>{t.navProducts}</Link></li>
@@ -100,10 +100,10 @@ export default function Footer() {
 
         {/* Column 4: Contact Us */}
         <div>
-          <h4 style={{ color: "#ffffff", fontSize: "16px", fontWeight: 700, marginBottom: "20px", textTransform: "uppercase", letterSpacing: "0.05em", position: "relative", paddingBottom: "12px" }}>
+          <h3 style={{ color: "#ffffff", fontSize: "16px", fontWeight: 700, marginBottom: "20px", textTransform: "uppercase", letterSpacing: "0.05em", position: "relative", paddingBottom: "12px" }}>
             {t.footerContact}
             <span style={{ position: "absolute", bottom: 0, left: 0, width: "40px", height: "2px", background: "#0D68B0", display: "block" }}></span>
-          </h4>
+          </h3>
           <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "14px" }}>
             <li style={{ display: "flex", gap: "12px", alignItems: "flex-start" }}>
               <div style={{ width: "20px", height: "20px", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0, marginTop: "2px" }}>

@@ -1,4 +1,5 @@
 import { alternatesWithHreflang } from "../../../../lib/hreflang";
+import { truncateTitle } from "../../../../lib/seo";
 import type { Metadata } from "next";
 import { blogPosts } from "../../../data/blog";
 import { getBlogTranslation } from "../../../data/blogTranslations";
@@ -27,7 +28,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const trans = getBlogTranslation(id, lang);
   const postTitle = trans?.title || post.title;
   const excerpt = trans?.excerpt || post.excerpt;
-  const title = postTitle + " | Bowang Autoparts Blog";
+  const title = truncateTitle(postTitle, 36) + " | Bowang Autoparts";
   const description = excerpt.length > 160 ? excerpt.substring(0, 157) + "..." : excerpt;
   const canonicalPath = "/" + lang + "/blog/" + post.id;
 
@@ -35,7 +36,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     metadataBase: new URL("https://www.lelionautopart.com"),
     title,
     description,
-    keywords: post.tags.join(", "),
     alternates: alternatesWithHreflang("/blog/" + id, canonicalPath),
     openGraph: {
       title,

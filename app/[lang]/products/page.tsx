@@ -67,7 +67,7 @@ export default function ProductsPage() {
           
           {/* Categories Sidebar */}
           <aside style={{ flex: "1 1 250px", borderRight: "1px solid #e2e8f0", paddingRight: "20px" }}>
-            <h3 style={{ fontSize: "18px", fontWeight: 700, marginBottom: "25px", color: "#0f172a" }}>{t.seriesFilter}</h3>
+            <h2 style={{ fontSize: "18px", fontWeight: 700, marginBottom: "25px", color: "#0f172a" }}>{t.seriesFilter}</h2>
             <ul className="sidebar-list">
                 <Link href={l("/products")} style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item active">{t.allWipers}</li></Link>
                 <Link href={l("/products/category/universal")} style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">{t.footerUniversal}</li></Link>
