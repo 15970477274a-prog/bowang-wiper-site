@@ -16,8 +16,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     metadataBase: new URL("https://www.lelionautopart.com"),
     title,
     description,
-    keywords:
-      "wiper blades wholesale, OEM wiper blade, universal wiper blade, specific fit wiper, multifunction wiper blade, China wiper manufacturer, bulk wiper blades",
     alternates: alternatesWithHreflang("/products", canonicalPath),
     openGraph: {
       title,

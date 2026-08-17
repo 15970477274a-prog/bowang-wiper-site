@@ -16,7 +16,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     metadataBase: new URL("https://www.lelionautopart.com"),
     title,
     description,
-    keywords: "about Bowang Autoparts, wiper blade manufacturer China, Ningbo wiper factory, ISO 9001 wiper manufacturer, IATF 16949 certified, OEM ODM wiper blades",
     alternates: alternatesWithHreflang("/about", canonicalPath),
     openGraph: {
       title,

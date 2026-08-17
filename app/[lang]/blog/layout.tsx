@@ -15,7 +15,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     metadataBase: new URL("https://www.lelionautopart.com"),
     title,
     description,
-    keywords: "wiper blade blog, automotive aftermarket blog, wiper blade sourcing guide, B2B auto parts, China wiper manufacturer blog",
     alternates: alternatesWithHreflang("/blog", canonicalPath),
     openGraph: {
       title,
