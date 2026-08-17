@@ -180,6 +180,7 @@ export const ru: TranslationDict = {
     downloadFullCatalog: "Скачать Полный Каталог",
     productNotFoundTitle: "Товар Не Найден",
     relatedArticles: "Похожие Статьи",
+  popularProducts: "Популярные модели щеток",
     notFoundGeneric: "Не Найдено",
     back: "Назад",
     emailLabel: "ПОЧТА:",

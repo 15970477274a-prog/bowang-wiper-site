@@ -181,6 +181,7 @@ export interface TranslationDict {
   downloadFullCatalog: string;
   productNotFoundTitle: string;
   relatedArticles: string;
+  popularProducts: string;
   notFoundGeneric: string;
   back: string;
   emailLabel: string;

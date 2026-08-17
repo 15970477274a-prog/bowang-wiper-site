@@ -181,6 +181,7 @@ export const zh: TranslationDict = {
     downloadFullCatalog: "下载完整目录",
     productNotFoundTitle: "产品未找到",
     relatedArticles: "相关文章",
+  popularProducts: "热门雨划片型号",
     notFoundGeneric: "未找到",
     back: "返回",
     emailLabel: "邮箱：",

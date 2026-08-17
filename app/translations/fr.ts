@@ -180,6 +180,7 @@ export const fr: TranslationDict = {
     downloadFullCatalog: "Télécharger le Catalogue Complet",
     productNotFoundTitle: "Produit Introuvable",
     relatedArticles: "Articles Connexes",
+  popularProducts: "Balais d’Essuie-glace Populaires",
     notFoundGeneric: "Introuvable",
     back: "Retour",
     emailLabel: "E-MAIL :",

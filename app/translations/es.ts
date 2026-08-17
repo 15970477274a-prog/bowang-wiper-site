@@ -180,6 +180,7 @@ export const es: TranslationDict = {
     downloadFullCatalog: "Descargar Catálogo Completo",
     productNotFoundTitle: "Producto No Encontrado",
     relatedArticles: "Artículos Relacionados",
+  popularProducts: "Modelos de Escobillas Populares",
     notFoundGeneric: "No Encontrado",
     back: "Volver",
     emailLabel: "CORREO:",

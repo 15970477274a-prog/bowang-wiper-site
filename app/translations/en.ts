@@ -181,6 +181,7 @@ export const en: TranslationDict = {
     downloadFullCatalog: "Download Full Catalog",
     productNotFoundTitle: "Product Not Found",
     relatedArticles: "Related Articles",
+  popularProducts: "Popular Wiper Blade Models",
     notFoundGeneric: "Not Found",
     back: "Back",
     emailLabel: "EMAIL:",

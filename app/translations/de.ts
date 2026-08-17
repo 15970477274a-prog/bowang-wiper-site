@@ -181,6 +181,7 @@ export const de: TranslationDict = {
     downloadFullCatalog: "Vollständigen Katalog Herunterladen",
     productNotFoundTitle: "Produkt Nicht Gefunden",
     relatedArticles: "Verwandte Artikel",
+  popularProducts: "Beliebte Wischerblatt-Modelle",
     notFoundGeneric: "Nicht Gefunden",
     back: "Zurück",
     emailLabel: "E-MAIL:",
