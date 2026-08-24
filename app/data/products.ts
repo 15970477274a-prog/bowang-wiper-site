@@ -413,7 +413,7 @@ export const allProducts: Product[] = [
       "1 Piece - Front Right Side"
     ],
     tag: "OEM Part",
-    image: "/products/ABUIABAEGAAgrtPRwwYo49Ch-QQw6Ac46Ac.png",
+    image: "/products/ABUIABAEGAAgrtPRwwYo49Ch-QQw6Ac46Ac.jpg",
     gallery: [],
     technicalDetails: {
       "Product Model": "BW-027",
@@ -477,7 +477,7 @@ export const allProducts: Product[] = [
     image: "/products/ABUIABACGAAgl8y2vQYorPOy7QIwuBc4uBc.jpg",
     gallery: [
       "/products/ABUIABACGAAgn_2OvwYooOy-iQUw7gU4-gE.jpg",
-      "/products/ABUIABAEGAAg3oroygYo5qXg8wUw6Ac46Ac.png",
+      "/products/ABUIABAEGAAg3oroygYo5qXg8wUw6Ac46Ac.jpg",
     ],
     technicalDetails: {
       "Product Model": "BW-808",
@@ -541,11 +541,11 @@ export const allProducts: Product[] = [
       "OEM/ODM: Custom Logo, Packaging, Private Label Available"
     ],
     tag: "Rear Wiper",
-    image: "/products/ABUIABAEGAAgwpPQxAYooJLKoQQwuBc4uBc.png",
+    image: "/products/ABUIABAEGAAgwpPQxAYooJLKoQQwuBc4uBc.jpg",
     gallery: [
-      "/products/ABUIABAEGAAgmZ7QxAYosMW1iwUwuBc4uBc.png",
+      "/products/ABUIABAEGAAgmZ7QxAYosMW1iwUwuBc4uBc.jpg",
       "/products/ABUIABACGAAgxoCpygYokMjkmgEwgBs4gBI.jpg",
-      "/products/ABUIABAEGAAgrJeQyAYov_-RxAIwwQI4ywE.png"
+      "/products/ABUIABAEGAAgrJeQyAYov_-RxAIwwQI4ywE.jpg"
     ],
     technicalDetails: {
       "Product Model": "BW-160",
