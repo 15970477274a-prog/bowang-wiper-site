@@ -136,7 +136,7 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "Marco de acero elástico con memoria de forma flexible",
         "Operación sin ruido y sin rayas",
         "Listo para venta al por menor con caja de marca personalizada",
-        "Certificado ISO 9001 e IATF 16949"
+        "Certificado ISO 9001"
       ],
       features: [
         "El sistema de 22 adaptadores cubre más del 98% de los vehículos a nivel mundial",
@@ -157,7 +157,7 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "Гибкий стальной каркас из пружинной стали с эффектом памяти",
         "Бесшумная работа без разводов",
         "Готовая розничная упаковка с индивидуальным брендированием",
-        "Сертифицировано ISO 9001 и IATF 16949"
+        "Сертифицировано ISO 9001"
       ],
       features: [
         "Система с 22 адаптерами охватывает более 98% автомобилей по всему миру",
@@ -178,7 +178,7 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "Cadre flexible en acier à ressort à mémoire de forme",
         "Fonctionnement silencieux et sans traces",
         "Emballage prêt pour la vente au détail avec marque personnalisée",
-        "Certifié ISO 9001 et IATF 16949"
+        "Certifié ISO 9001"
       ],
       features: [
         "Le système à 22 adaptateurs couvre plus de 98% des véhicules dans le monde",
@@ -199,7 +199,7 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "Flexibler Memory-Federstahlrahmen",
         "Geräuschloses und streifenfreies Wischen",
         "Einzelhandelsfertige Verpackung mit individuellem Branding",
-        "ISO 9001 und IATF 16949 zertifiziert"
+        "ISO 9001 zertifiziert"
       ],
       features: [
         "Das 22-Adapter-System deckt über 98% der Fahrzeuge weltweit ab",
@@ -220,7 +220,7 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "柔性记忆弹簧钢框架",
         "无噪音无痕刮拭",
         "零售级包装，可定制品牌",
-        "ISO 9001和IATF 16949认证"
+        "ISO 9001认证"
       ],
       features: [
         "22个适配器系统覆盖全球98%以上车辆",
@@ -562,7 +562,7 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "Conjunto de 24 pulgadas + 21 pulgadas",
         "Instalación rápida sin herramientas",
         "Estilo y ajuste OE",
-        "Certificado ISO 9001 e IATF 16949"
+        "Certificado ISO 9001"
       ],
       features: [
         "El elemento calefactor integrado evita la acumulación de hielo en climas fríos",
@@ -583,7 +583,7 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "Комплект 24 дюйма + 21 дюйм",
         "Быстрая установка без инструментов",
         "Стиль и посадка OE",
-        "Сертифицировано ISO 9001 и IATF 16949"
+        "Сертифицировано ISO 9001"
       ],
       features: [
         "Встроенный нагревательный элемент предотвращает образование льда в холодную погоду",
@@ -604,7 +604,7 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "Ensemble 24 pouces + 21 pouces",
         "Installation rapide sans outils",
         "Style et ajustement OE",
-        "Certifié ISO 9001 et IATF 16949"
+        "Certifié ISO 9001"
       ],
       features: [
         "L'élément chauffant intégré empêche l'accumulation de glace par temps froid",
@@ -625,7 +625,7 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "Set mit 24 Zoll + 21 Zoll",
         "Werkzeuglose Schnellmontage",
         "OE-Stil und Passform",
-        "ISO 9001 und IATF 16949 zertifiziert"
+        "ISO 9001 zertifiziert"
       ],
       features: [
         "Integriertes Heizelement verhindert Eisbildung bei kaltem Wetter",
@@ -646,7 +646,7 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "24英寸+21英寸套装",
         "免工具快速安装",
         "OE风格和安装",
-        "ISO 9001和IATF 16949认证"
+        "ISO 9001认证"
       ],
       features: [
         "集成加热元件防止寒冷天气结冰",
@@ -1210,7 +1210,7 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "Construcción de acero de grado OEM",
         "Acabado negro resistente a la corrosión",
         "Incluye tuerca de montaje y cubierta",
-        "Certificado ISO 9001 e IATF 16949",
+        "Certificado ISO 9001",
         "MOQ 100 PCS"
       ],
       features: [
@@ -1231,7 +1231,7 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "Стальная конструкция класса OEM",
         "Коррозионностойкое черное покрытие",
         "В комплекте монтажная гайка и крышка",
-        "Сертифицировано ISO 9001 и IATF 16949",
+        "Сертифицировано ISO 9001",
         "Минимальный заказ 100 шт."
       ],
       features: [
@@ -1252,7 +1252,7 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "Construction en acier de qualité OEM",
         "Finition noire résistante à la corrosion",
         "Écrou de montage et capuchon inclus",
-        "Certifié ISO 9001 et IATF 16949",
+        "Certifié ISO 9001",
         "MOQ 100 PCS"
       ],
       features: [
@@ -1273,7 +1273,7 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "OEM-Stahlkonstruktion",
         "Korrosionsbeständige schwarze Oberfläche",
         "Montagemutter und Abdeckung inklusive",
-        "ISO 9001 und IATF 16949 zertifiziert",
+        "ISO 9001 zertifiziert",
         "MOQ 100 Stück"
       ],
       features: [
@@ -1294,7 +1294,7 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "OEM级钢结构",
         "耐腐蚀黑色涂层",
         "含安装螺母和盖子",
-        "ISO 9001和IATF 16949认证",
+        "ISO 9001认证",
         "起订量100支"
       ],
       features: [
@@ -1319,7 +1319,7 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "Construcción de acero de grado OEM",
         "Acabado negro resistente a la corrosión",
         "Incluye tuerca de montaje y cubierta",
-        "Certificado ISO 9001 e IATF 16949",
+        "Certificado ISO 9001",
         "MOQ 100 PCS"
       ],
       features: [
@@ -1340,7 +1340,7 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "Стальная конструкция класса OEM",
         "Коррозионностойкое черное покрытие",
         "В комплекте монтажная гайка и крышка",
-        "Сертифицировано ISO 9001 и IATF 16949",
+        "Сертифицировано ISO 9001",
         "Минимальный заказ 100 шт."
       ],
       features: [
@@ -1361,7 +1361,7 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "Construction en acier de qualité OEM",
         "Finition noire résistante à la corrosion",
         "Écrou de montage et capuchon inclus",
-        "Certifié ISO 9001 et IATF 16949",
+        "Certifié ISO 9001",
         "MOQ 100 PCS"
       ],
       features: [
@@ -1382,7 +1382,7 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "OEM-Stahlkonstruktion",
         "Korrosionsbeständige schwarze Oberfläche",
         "Montagemutter und Abdeckung inklusive",
-        "ISO 9001 und IATF 16949 zertifiziert",
+        "ISO 9001 zertifiziert",
         "MOQ 100 Stück"
       ],
       features: [
@@ -1403,7 +1403,7 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "OEM级钢结构",
         "耐腐蚀黑色涂层",
         "含安装螺母和盖子",
-        "ISO 9001和IATF 16949认证",
+        "ISO 9001认证",
         "起订量100支"
       ],
       features: [
@@ -1428,7 +1428,7 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "Construcción de acero duradero",
         "Acabado negro resistente a la corrosión",
         "Incluye tuerca de montaje y cubierta",
-        "Certificado ISO 9001 e IATF 16949",
+        "Certificado ISO 9001",
         "MOQ 100 PCS"
       ],
       features: [
@@ -1437,7 +1437,7 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "Construcción duradera y resistente a la intemperie para climas europeos",
         "Reemplazo directo atornillado - sin modificaciones ni adaptadores necesarios",
         "Disponible al por mayor con MOQ de 100 PCS para distribuidores establecidos",
-        "Producción certificada ISO 9001 e IATF 16949 para calidad automotriz consistente"
+        "Producción certificada ISO 9001 para calidad automotriz consistente"
       ]
     },
     ru: {
@@ -1449,7 +1449,7 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "Прочная стальная конструкция",
         "Коррозионностойкое черное покрытие",
         "В комплекте монтажная гайка и крышка",
-        "Сертифицировано ISO 9001 и IATF 16949",
+        "Сертифицировано ISO 9001",
         "Минимальный заказ 100 шт."
       ],
       features: [
@@ -1458,7 +1458,7 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "Прочная атмосферостойкая конструкция для европейского климата",
         "Прямая замена на болтах - без модификаций и адаптеров",
         "Доступна оптовая продажа с минимальным заказом 100 шт. для постоянных дистрибьюторов",
-        "Сертифицированное производство ISO 9001 и IATF 16949 для стабильного автомобильного качества"
+        "Сертифицированное производство ISO 9001 для стабильного автомобильного качества"
       ]
     },
     fr: {
@@ -1470,7 +1470,7 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "Construction en acier durable",
         "Finition noire résistante à la corrosion",
         "Écrou de montage et capuchon inclus",
-        "Certifié ISO 9001 et IATF 16949",
+        "Certifié ISO 9001",
         "MOQ 100 PCS"
       ],
       features: [
@@ -1479,7 +1479,7 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "Construction durable et résistante aux intempéries pour les climats européens",
         "Remplacement direct boulonné - aucune modification ni adaptateur requis",
         "Disponible en gros avec MOQ de 100 PCS pour les distributeurs établis",
-        "Production certifiée ISO 9001 et IATF 16949 pour une qualité automobile constante"
+        "Production certifiée ISO 9001 pour une qualité automobile constante"
       ]
     },
     de: {
@@ -1491,7 +1491,7 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "Langlebige Stahlkonstruktion",
         "Korrosionsbeständige schwarze Oberfläche",
         "Montagemutter und Abdeckung inklusive",
-        "ISO 9001 und IATF 16949 zertifiziert",
+        "ISO 9001 zertifiziert",
         "MOQ 100 Stück"
       ],
       features: [
@@ -1500,7 +1500,7 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "Langlebige, witterungsbeständige Konstruktion für europäisches Klima",
         "Direkter verschraubter Ersatz - keine Modifikationen oder Adapter erforderlich",
         "Großhandel verfügbar mit MOQ von 100 Stück für etablierte Distributoren",
-        "ISO 9001 und IATF 16949 zertifizierte Produktion für gleichbleibende Automobilqualität"
+        "ISO 9001 zertifizierte Produktion für gleichbleibende Automobilqualität"
       ]
     },
     zh: {
@@ -1512,7 +1512,7 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "耐用钢结构",
         "耐腐蚀黑色涂层",
         "含安装螺母和盖子",
-        "ISO 9001和IATF 16949认证",
+        "ISO 9001认证",
         "起订量100支"
       ],
       features: [
@@ -1521,7 +1521,7 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "耐候耐用结构，适合欧洲气候",
         "直接螺栓替换 - 无需改装或适配器",
         "批发供应，成熟分销商起订量100支",
-        "ISO 9001和IATF 16949认证生产，确保稳定汽车级品质"
+        "ISO 9001认证生产，确保稳定汽车级品质"
       ]
     }
   },
@@ -1538,7 +1538,7 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "Conector U-Hook universal - se ajusta al 98% de los vehículos",
         "Disponible en tamaños de 12\" a 28\"",
         "Rendimiento de limpieza silencioso y suave",
-        "Garantía de 6 meses / Certificado ISO 9001 e IATF 16949"
+        "Garantía de 6 meses / Certificado ISO 9001"
       ],
       features: [
         "El marco de acero galvanizado proporciona una resistencia superior a la corrosión y durabilidad a largo plazo",
@@ -1547,7 +1547,7 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "El diseño de marco tradicional distribuye la presión uniformemente en toda la longitud de la escobilla",
         "Disponible en tamaños de 12 a 28 pulgadas para cubrir prácticamente todos los turismos",
         "Fácil instalación DIY con instrucciones paso a paso incluidas - no se necesitan herramientas",
-        "Respaldado por garantía de 6 meses y fabricado según las normas ISO 9001 e IATF 16949"
+        "Respaldado por garantía de 6 meses y fabricado según las normas ISO 9001"
       ]
     },
     ru: {
@@ -1560,7 +1560,7 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "Универсальный разъем U-Hook - подходит для 98% автомобилей",
         "Доступны размеры от 12\" до 28\"",
         "Бесшумная и плавная очистка",
-        "Гарантия 6 месяцев / Сертифицировано ISO 9001 и IATF 16949"
+        "Гарантия 6 месяцев / Сертифицировано ISO 9001"
       ],
       features: [
         "Оцинкованный стальной каркас обеспечивает превосходную коррозионную стойкость и длительную долговечность",
@@ -1569,7 +1569,7 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "Традиционная каркасная конструкция равномерно распределяет давление по всей длине щетки",
         "Доступны размеры от 12 до 28 дюймов для охвата практически всех легковых автомобилей",
         "Простая самостоятельная установка с пошаговыми инструкциями - инструменты не требуются",
-        "Гарантия 6 месяцев, изготовлено по стандартам ISO 9001 и IATF 16949"
+        "Гарантия 6 месяцев, изготовлено по стандартам ISO 9001"
       ]
     },
     fr: {
@@ -1582,7 +1582,7 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "Connecteur U-Hook universel - compatible avec 98% des véhicules",
         "Disponible en tailles de 12\" à 28\"",
         "Performance d'essuyage silencieuse et fluide",
-        "Garantie 6 mois / Certifié ISO 9001 et IATF 16949"
+        "Garantie 6 mois / Certifié ISO 9001"
       ],
       features: [
         "L'armature en acier galvanisé offre une résistance supérieure à la corrosion et une durabilité à long terme",
@@ -1591,7 +1591,7 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "La conception traditionnelle à armature répartit la pression uniformément sur toute la longueur du balai",
         "Disponible en tailles de 12 à 28 pouces pour couvrir pratiquement tous les véhicules particuliers",
         "Installation DIY facile avec instructions étape par étape incluses - aucun outil requis",
-        "Garantie 6 mois et fabriqué selon les normes ISO 9001 et IATF 16949"
+        "Garantie 6 mois et fabriqué selon les normes ISO 9001"
       ]
     },
     de: {
@@ -1604,7 +1604,7 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "Universeller U-Hook-Anschluss - passt für 98% der Fahrzeuge",
         "Erhältlich in Größen von 12\" bis 28\"",
         "Geräuschlose und sanfte Wischleistung",
-        "6 Monate Garantie / ISO 9001 und IATF 16949 zertifiziert"
+        "6 Monate Garantie / ISO 9001 zertifiziert"
       ],
       features: [
         "Verzinkter Stahlrahmen bietet überlegene Korrosionsbeständigkeit und langfristige Haltbarkeit",
@@ -1613,7 +1613,7 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "Traditionelles Rahmendesign verteilt den Druck gleichmäßig über die gesamte Blattlänge",
         "Erhältlich in Größen von 12 bis 28 Zoll für praktisch alle Pkw",
         "Einfache DIY-Installation mit Schritt-für-Schritt-Anleitung - kein Werkzeug erforderlich",
-        "6 Monate Garantie, hergestellt nach ISO 9001 und IATF 16949 Standards"
+        "6 Monate Garantie, hergestellt nach ISO 9001 Standards"
       ]
     },
     zh: {
@@ -1626,7 +1626,7 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "通用U型钩连接器 - 适配98%车辆",
         "尺寸范围12英寸至28英寸",
         "静音顺滑刮拭性能",
-        "6个月质保 / ISO 9001和IATF 16949认证"
+        "6个月质保 / ISO 9001认证"
       ],
       features: [
         "镀锌钢架提供卓越耐腐蚀性和长期耐用性",
@@ -1635,7 +1635,7 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "传统框架设计沿整个雨刮片长度均匀分配压力",
         "尺寸范围12英寸至28英寸，覆盖几乎所有乘用车",
         "附带逐步安装说明，DIY轻松安装 - 无需工具",
-        "6个月质保支持，按照ISO 9001和IATF 16949标准制造"
+        "6个月质保支持，按照ISO 9001标准制造"
       ]
     }
   },

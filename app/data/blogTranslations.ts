@@ -89,7 +89,7 @@ export const blogTranslations: Record<string, Record<string, BlogTranslation>> =
 Lelion 位于中国宁波，自2011年起专业制造高品质雨刮片。我们8,000平方米的工厂年产超过1,200万件，服务50多个国家的分销商。
 
 我们提供：
-- ISO 9001与IATF 16949认证生产
+- ISO 9001认证生产
 - 完整的OEM/ODM定制品牌支持
 - 灵活的首单起订量
 - 宁波港可靠发货
@@ -302,7 +302,7 @@ Lelion 欢迎全球新分销商。我们提供样品支持、灵活起订量和�
 
 ### Lelion 的认证
 
-我们的工厂持有ISO 9001:2015认证并通过IATF 16949认证。每批出货均提供完整的测试文件。[查看我们的证书](/about)或[下载我们的质量手册](/Catalog.pdf)。`
+我们的工厂持有ISO 9001:2015认证。每批出货均提供完整的测试文件。[查看我们的证书](/about)或[下载我们的质量手册](/Catalog.pdf)。`
     }
   },
 
@@ -475,7 +475,7 @@ Lelion 为新合作提供灵活的起订量。
 ### 为什么选择 Lelion 做您的OEM/ODM项目？
 
 - 2011年至今15年以上雨刮片制造经验
-- ISO 9001与IATF 16949认证工厂
+- ISO 9001认证工厂
 - 中国宁波8,000平方米生产基地
 - 7大品类200多款产品
 - 完整的一体化品牌与包装能力
@@ -857,7 +857,7 @@ FOB（船上交货）价格是您支付给制造商、货物在中国港口备�
 
 我们见过买家用过这份清单上的每一个错误后才找到我们。因此我们把防错机制建进了流程：
 
-- **工厂直供、完全透明** — 实时视频参观、可审计文件、ISO 9001与IATF 16949认证
+- **工厂直供、完全透明** — 实时视频参观、可审计文件、ISO 9001认证
 - **灵活起订量** — 支持每型号300-500件的试单
 - **免费产前样品** — 只需承担运费，费用可抵扣首单货款
 - **详细规格确认** — 每笔订单都有涵盖材料、尺寸、包装、标签和测试标准的书面确认
@@ -999,7 +999,7 @@ FOB（船上交货）价格是您支付给制造商、货物在中国港口备�
 
 ## \u535a\u65fa\u5982\u4f55\u652f\u6301\u8fd9\u4e09\u7c7b\u4ea7\u54c1
 
-\u535a\u65fa\u6c7d\u914d\u5728\u4e00\u4e2a8,000\u5e73\u65b9\u7c73\u7684ISO 9001\u548cIATF 16949\u8ba4\u8bc1\u5de5\u5382\u5185\u751f\u4ea7\u901a\u7528\u578b\u3001\u65e0\u9aa8\u578b\u3001\u6df7\u5408\u578b\u548c\u4e13\u7528\u578b\u96e8\u522e\u7247\uff0c\u53ef\u4ece\u5355\u4e00\u4f9b\u5e94\u5546\u6e90\u91c7\u5168\u90e8\u4e09\u7c7b\u4ea7\u54c1\uff0c\u7b80\u5316\u8d28\u91cf\u63a7\u5236\u3001\u5305\u88c5\u4e00\u81f4\u6027\u548c\u96c6\u88c5\u7bb1\u5408\u5e76\u3002\u4e3e\u4f8b\uff1a[BW-802\u901a\u7528\u578b\u65e0\u9aa8\u96e8\u522e\u7247](/products/bw-802-universal-wiper-blade)\u3001[BW-861\u591a\u529f\u80fd\u96e8\u522e\u7247\uff0822\u8f6c\u63a5\u5668\uff09](/products/bw-861-multifunction-wiper-blade)\uff0c\u4ee5\u53ca[BW-201\u7279\u6b3e\u7279\u65af\u62c9Model X](/products/bw-201-specific-fit-tesla-model-x)\u7b49\u4e13\u7528\u578b\u53f7\u3002
+\u535a\u65fa\u6c7d\u914d\u5728\u4e00\u4e2a8,000\u5e73\u65b9\u7c73\u7684ISO 9001\u8ba4\u8bc1\u5de5\u5382\u5185\u751f\u4ea7\u901a\u7528\u578b\u3001\u65e0\u9aa8\u578b\u3001\u6df7\u5408\u578b\u548c\u4e13\u7528\u578b\u96e8\u522e\u7247\uff0c\u53ef\u4ece\u5355\u4e00\u4f9b\u5e94\u5546\u6e90\u91c7\u5168\u90e8\u4e09\u7c7b\u4ea7\u54c1\uff0c\u7b80\u5316\u8d28\u91cf\u63a7\u5236\u3001\u5305\u88c5\u4e00\u81f4\u6027\u548c\u96c6\u88c5\u7bb1\u5408\u5e76\u3002\u4e3e\u4f8b\uff1a[BW-802\u901a\u7528\u578b\u65e0\u9aa8\u96e8\u522e\u7247](/products/bw-802-universal-wiper-blade)\u3001[BW-861\u591a\u529f\u80fd\u96e8\u522e\u7247\uff0822\u8f6c\u63a5\u5668\uff09](/products/bw-861-multifunction-wiper-blade)\uff0c\u4ee5\u53ca[BW-201\u7279\u6b3e\u7279\u65af\u62c9Model X](/products/bw-201-specific-fit-tesla-model-x)\u7b49\u4e13\u7528\u578b\u53f7\u3002
 
 ## \u5e38\u89c1\u95ee\u9898
 

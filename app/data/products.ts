@@ -669,7 +669,7 @@ export const allProducts: Product[] = [
       "Durable Black Corrosion-Resistant Finish",
       "Precision-Engineered for Perfect Fitment",
       "Low MOQ - 10 PCS for New Partnerships",
-      "ISO 9001 & IATF 16949 Certified Manufacturing"
+      "ISO 9001 Certified Manufacturing"
     ],
     tag: "Wiper Arm",
     image: "/products/ABUIABACGAAgr-usvwYokMvmogcwuBc4uBc.jpg",
@@ -715,7 +715,7 @@ export const allProducts: Product[] = [
       "Durable black corrosion-resistant coating for long-lasting factory appearance",
       "High-strength steel construction maintains consistent spring tension",
       "Low MOQ of 10 PCS ideal for new distributor partnerships and sample orders",
-      "ISO 9001 & IATF 16949 certified manufacturing ensures automotive-grade quality"
+      "ISO 9001 certified manufacturing ensures automotive-grade quality"
     ]
   },
 
@@ -725,7 +725,7 @@ export const allProducts: Product[] = [
     name: "BW-002 Front Windshield Wiper Arm for AUDI Q7 (LHD) 2007-2016",
     moq: "10 PCS",
     desc: "OEM-grade front windshield LHD (Left Hand Drive) wiper arm for Audi Q7 2007-2016. Direct replacement with corrosion-resistant black finish, low MOQ.",
-    longDesc: "The BW-002 is a precision-manufactured front windshield wiper arm designed for Audi Q7 (2007-2016) in LHD configuration. Featuring high-strength steel construction with a durable black anti-corrosion coating, this OE-spec replacement arm ensures perfect fit and reliable performance. As part of Lelion's comprehensive wiper arm series, the BW-002 serves the Americas, Europe, China, and other LHD markets. Backed by ISO 9001 & IATF 16949 certified manufacturing, this wiper arm meets the highest automotive quality standards. Low MOQ of 10 PCS makes it ideal for new distributor partnerships.",
+    longDesc: "The BW-002 is a precision-manufactured front windshield wiper arm designed for Audi Q7 (2007-2016) in LHD configuration. Featuring high-strength steel construction with a durable black anti-corrosion coating, this OE-spec replacement arm ensures perfect fit and reliable performance. As part of Lelion's comprehensive wiper arm series, the BW-002 serves the Americas, Europe, China, and other LHD markets. Backed by ISO 9001 certified manufacturing, this wiper arm meets the highest automotive quality standards. Low MOQ of 10 PCS makes it ideal for new distributor partnerships.",
     specs: [
       "Front Windshield LHD (Left Hand Drive) Configuration",
       "Exact Fit for Audi Q7 2007-2016 Models",
@@ -733,7 +733,7 @@ export const allProducts: Product[] = [
       "High-Strength Steel with Anti-Corrosion Black Coating",
       "Precision Manufacturing for Perfect Fitment",
       "Low MOQ - 10 PCS",
-      "ISO 9001 & IATF 16949 Certified Production"
+      "ISO 9001 Certified Production"
     ],
     tag: "Wiper Arm",
     image: "/products/ABUIABACGAAgxJSUvwYou7KG_gYwuBc4uBc.jpg",
@@ -778,7 +778,7 @@ export const allProducts: Product[] = [
       "High-strength steel with durable black anti-corrosion coating for long service life",
       "Consistent spring tension maintained through premium material selection",
       "Low MOQ of 10 PCS ideal for new distributor sampling and market testing",
-      "ISO 9001 & IATF 16949 certified manufacturing ensures automotive-grade quality"
+      "ISO 9001 certified manufacturing ensures automotive-grade quality"
     ]
   },
 
@@ -796,7 +796,7 @@ export const allProducts: Product[] = [
       "Durable Weather-Resistant Construction",
       "Precision-Engineered for MINI Factory Fitment",
       "Bulk Wholesale - MOQ 100 PCS",
-      "ISO 9001 & IATF 16949 Certified Manufacturing"
+      "ISO 9001 Certified Manufacturing"
     ],
     tag: "Wiper Arm",
     image: "/products/ABUIABACGAAgtsiEvgYow7nr6wQwuBc4uBc.jpg",
@@ -838,7 +838,7 @@ export const allProducts: Product[] = [
       "Durable weather-resistant construction ensures long service life in European climates",
       "Direct bolt-on replacement - no modification or adapters required",
       "Bulk wholesale available with MOQ of 100 PCS for established distributors",
-      "ISO 9001 & IATF 16949 certified production ensures consistent automotive-grade quality"
+      "ISO 9001 certified production ensures consistent automotive-grade quality"
     ]
   },
   {
@@ -847,7 +847,7 @@ export const allProducts: Product[] = [
     name: "LELION Classic Frame Wiper Blade Set BW-405 (12in.-28in.)",
     moq: "300 PCS",
     desc: "OEM-quality classic frame (bone) wiper blade set. Galvanized steel frame, premium natural rubber, universal fit, silent operation. Available in 12in.-28in. sizes.",
-    longDesc: "The BW-405 is a classic frame (bone) wiper blade set from LELION, engineered for universal fitment across a wide range of vehicles. Featuring a heavy-duty galvanized steel frame with anti-oxidation coating and premium natural rubber wiping edges, the BW-405 delivers reliable, streak-free performance in all weather conditions. The traditional frame design provides excellent pressure distribution across the windshield, while the universal U-Hook connector ensures compatibility with 98% of vehicles on the road. Available in sizes from 12 inches to 28 inches, this wiper blade is ideal for wholesale distributors, auto parts retailers, and fleet maintenance providers. Each set includes step-by-step installation instructions for quick, tool-free mounting. Backed by a 6-month warranty and manufactured to ISO 9001 and IATF 16949 standards, the BW-405 represents the perfect balance of quality and value in the classic wiper blade category.",
+    longDesc: "The BW-405 is a classic frame (bone) wiper blade set from LELION, engineered for universal fitment across a wide range of vehicles. Featuring a heavy-duty galvanized steel frame with anti-oxidation coating and premium natural rubber wiping edges, the BW-405 delivers reliable, streak-free performance in all weather conditions. The traditional frame design provides excellent pressure distribution across the windshield, while the universal U-Hook connector ensures compatibility with 98% of vehicles on the road. Available in sizes from 12 inches to 28 inches, this wiper blade is ideal for wholesale distributors, auto parts retailers, and fleet maintenance providers. Each set includes step-by-step installation instructions for quick, tool-free mounting. Backed by a 6-month warranty and manufactured to ISO 9001 standards, the BW-405 represents the perfect balance of quality and value in the classic wiper blade category.",
     specs: [
       "Classic Frame (Bone) Wiper Blade Design",
       "Galvanized Steel Frame with Anti-Oxidation Coating",
@@ -855,7 +855,7 @@ export const allProducts: Product[] = [
       "Universal U-Hook Connector - Fits 98% of Vehicles",
       "Available in 12in. to 28in. Sizes",
       "Silent and Smooth Wiping Performance",
-      "6-Month Warranty / ISO 9001 and IATF 16949 Certified"
+      "6-Month Warranty / ISO 9001 Certified"
     ],
     tag: "Universal",
     image: "/products/ABUIABACGAAghvnLvQYovJmW7QYwuBc4uBc.jpg",
@@ -908,7 +908,7 @@ export const allProducts: Product[] = [
       "Traditional frame design distributes pressure evenly across the entire blade length",
       "Available in sizes from 12 inch to 28 inch to cover virtually all passenger vehicles",
       "Easy DIY installation with included step-by-step instructions - no tools required",
-      "Backed by 6-month warranty and manufactured to ISO 9001 and IATF 16949 standards"
+      "Backed by 6-month warranty and manufactured to ISO 9001 standards"
     ]
   },
 ];

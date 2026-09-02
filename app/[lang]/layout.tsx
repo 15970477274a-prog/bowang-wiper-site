@@ -18,12 +18,12 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   };
 
   const descriptions: Record<string, string> = {
-    en: "Leading OEM/ODM wiper blade manufacturer in China. ISO 9001 and IATF 16949 certified factory.",
-    es: "Fabricante lider de escobillas limpiaparabrisas OEM/ODM en China. Fabrica certificada ISO 9001 e IATF 16949.",
+    en: "Leading OEM/ODM wiper blade manufacturer in China. ISO 9001 certified factory.",
+    es: "Fabricante lider de escobillas limpiaparabrisas OEM/ODM en China. Fabrica certificada ISO 9001.",
     ru: "\u0412\u0435\u0434\u0443\u0449\u0438\u0439 \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044c \u0441\u0442\u0435\u043a\u043b\u043e\u043e\u0447\u0438\u0441\u0442\u0438\u0442\u0435\u043b\u0435\u0439 OEM/ODM \u0432 \u041a\u0438\u0442\u0430\u0435.",
-    fr: "Principal fabricant de balais d''essuie-glace OEM/ODM en Chine. Usine certifiee ISO 9001 et IATF 16949.",
-    de: "Fuhrender OEM/ODM-Wischerblatt-Hersteller in China. ISO 9001 und IATF 16949 zertifizierte Fabrik.",
-    zh: "中国领先的OEM/ODM雨刮片制造商。ISO 9001和IATF 16949认证工厂。",
+    fr: "Principal fabricant de balais d''essuie-glace OEM/ODM en Chine. Usine certifiee ISO 9001.",
+    de: "Fuhrender OEM/ODM-Wischerblatt-Hersteller in China. ISO 9001 zertifizierte Fabrik.",
+    zh: "中国领先的OEM/ODM雨刮片制造商。ISO 9001认证工厂。",
   };
 
   return {

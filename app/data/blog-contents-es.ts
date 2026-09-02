@@ -42,7 +42,7 @@ Pregunte sobre su proceso de control de calidad:
 Ubicada en Ningbo, China, Lelion Autoparts fabrica escobillas limpiaparabrisas de alta calidad desde 2011. Nuestra planta de 8.000 m2 produce mas de 12 millones de unidades al ano, abasteciendo a distribuidores en mas de 50 paises.
 
 Ofrecemos:
-- Produccion certificada ISO 9001 e IATF 16949
+- Produccion certificada ISO 9001
 - Soporte completo OEM/ODM con marca personalizada
 - Cantidad minima de pedido flexible para nuevas colaboraciones
 - Envios fiables desde el puerto de Ningbo
@@ -189,7 +189,7 @@ Mas alla de las certificaciones, solicite:
 
 ### Certificaciones de Lelion Autoparts
 
-Nuestra planta cuenta con ISO 9001:2015 y esta certificada IATF 16949. Proporcionamos documentacion completa de pruebas con cada envio. [Vea nuestros certificados](/about) o [descargue nuestro manual de calidad](/Catalog.pdf).`,
+Nuestra planta cuenta con ISO 9001:2015. Proporcionamos documentacion completa de pruebas con cada envio. [Vea nuestros certificados](/about) o [descargue nuestro manual de calidad](/Catalog.pdf).`,
 
   "automotive-aftermarket-trends-2026": `## Mercado de posventa automotriz 2026: tendencias y oportunidades clave
 
@@ -323,7 +323,7 @@ En Lelion ofrecemos MOQ flexible para nuevas colaboraciones.
 ### Por que elegir Lelion para su proyecto OEM/ODM?
 
 - Mas de 15 anos de fabricacion de escobillas desde 2011
-- Fabrica certificada ISO 9001 e IATF 16949
+- Fabrica certificada ISO 9001
 - Planta de produccion de 8.000 m2 en Ningbo, China
 - Mas de 200 modelos de productos en 7 categorias
 - Capacidades completas internas de marca y embalaje
@@ -652,7 +652,7 @@ El error mas caro en el abastecimiento de autopartes. Un envio al por mayor que 
 
 Hemos visto a compradores cometer cada error de esta lista antes de llegar a nosotros. Por eso disenamos nuestro proceso para prevenirlos:
 
-- **Directo de fabrica con total transparencia** -- recorridos en video en directo, documentacion lista para auditoria, certificado ISO 9001 e IATF 16949
+- **Directo de fabrica con total transparencia** -- recorridos en video en directo, documentacion lista para auditoria, certificado ISO 9001
 - **MOQ flexible** -- aceptamos pedidos de prueba desde 300-500 pcs por modelo
 - **Muestras de preproduccion gratuitas** -- usted solo cubre el envio, y el coste se descuenta de su primer pedido al por mayor
 - **Confirmacion detallada de especificaciones** -- cada pedido recibe una confirmacion por escrito que cubre material, dimensiones, embalaje, etiquetado y estandares de prueba

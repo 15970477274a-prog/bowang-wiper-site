@@ -7,7 +7,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.lelionautopart.com"),
   title: "Professional Wiper Blade Manufacturer | Lelion Autoparts",
-  description: "Ningbo Zhenhai Bowang is a leading OEM/ODM wiper blade manufacturer in China. ISO 9001 & IATF 16949 certified factory with global shipping since 2011.",
+  description: "Ningbo Zhenhai Bowang is a leading OEM/ODM wiper blade manufacturer in China. ISO 9001 certified factory with global shipping since 2011.",
   verification: {
     google: "1k31SR_2_8VvfchohXge3PuhcLUPc69UfIAgA0samO8",
   },
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     type: "website",
     siteName: "Lelion Autoparts",
     title: "Professional Wiper Blade Manufacturer | Lelion Autoparts",
-    description: "Leading OEM/ODM wiper blade manufacturer in China. ISO 9001 & IATF 16949 certified factory producing universal, specific fit, and multifunction wiper blades since 2011.",
+    description: "Leading OEM/ODM wiper blade manufacturer in China. ISO 9001 certified factory producing universal, specific fit, and multifunction wiper blades since 2011.",
     url: "https://www.lelionautopart.com",
     images: [
       {
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Professional Wiper Blade Manufacturer | Lelion Autoparts",
-    description: "Leading OEM/ODM wiper blade manufacturer in China. ISO 9001 & IATF 16949 certified factory since 2011.",
+    description: "Leading OEM/ODM wiper blade manufacturer in China. ISO 9001 certified factory since 2011.",
     images: ["https://sc02.alicdn.com/kf/H2533c3c14bc74cd3afe116f60a8357f4U.jpg"],
   },
   alternates: {
@@ -55,7 +55,7 @@ const organizationSchema = {
   "@type": "Organization",
   "name": "Ningbo Zhenhai Bowang Autoparts Co., Ltd.",
   "alternateName": "Lelion Autoparts",
-  "description": "Leading OEM/ODM wiper blade manufacturer in Ningbo, China. ISO 9001 & IATF 16949 certified factory producing universal, specific fit, and multifunction wiper blades since 2011.",
+  "description": "Leading OEM/ODM wiper blade manufacturer in Ningbo, China. ISO 9001 certified factory producing universal, specific fit, and multifunction wiper blades since 2011.",
   "url": "https://www.lelionautopart.com",
   "logo": "https://sc02.alicdn.com/kf/H2533c3c14bc74cd3afe116f60a8357f4U.jpg",
   "foundingDate": "2011",

@@ -42,7 +42,7 @@ Erkundigen Sie sich nach dem QC-Prozess:
 Lelion Autoparts mit Sitz in Ningbo, China, stellt seit 2011 Premium-Wischerblätter her. Unsere 8.000 qm große Produktionsstätte fertigt jährlich über 12 Millionen Einheiten und beliefert Distributoren in über 50 Ländern.
 
 Wir bieten:
-- ISO 9001- und IATF 16949-zertifizierte Produktion
+- ISO 9001-zertifizierte Produktion
 - Vollständige OEM/ODM-Unterstützung mit individuellem Branding
 - Flexible Mindestbestellmenge (MOQ) für neue Partnerschaften
 - Zuverlässiger Versand ab Hafen Ningbo
@@ -189,7 +189,7 @@ Fordern Sie über Zertifizierungen hinaus an:
 
 ### Lelion Autoparts Zertifizierungen
 
-Unser Werk verfügt über ISO 9001:2015 und ist IATF 16949-zertifiziert. Wir stellen bei jeder Lieferung vollständige Prüfdokumentationen bereit. [Sehen Sie unsere Zertifikate ein](/about) oder [laden Sie unser Qualitätshandbuch herunter](/Catalog.pdf).`,
+Unser Werk verfügt über ISO 9001:2015-Zertifizierung. Wir stellen bei jeder Lieferung vollständige Prüfdokumentationen bereit. [Sehen Sie unsere Zertifikate ein](/about) oder [laden Sie unser Qualitätshandbuch herunter](/Catalog.pdf).`,
 
   "automotive-aftermarket-trends-2026": `## Automobil-Ersatzteilmarkt 2026: Wichtige Trends und Chancen
 
@@ -323,7 +323,7 @@ Bei Lelion bieten wir flexible MOQ für neue Partnerschaften.
 ### Warum Lelion für Ihr OEM/ODM-Projekt wählen?
 
 - Über 15 Jahre Erfahrung in der Wischerblatt-Fertigung seit 2011
-- ISO 9001- und IATF 16949-zertifizierte Fabrik
+- ISO 9001-zertifizierte Fabrik
 - 8.000 qm Produktionsstätte in Ningbo, China
 - Über 200 Produktmodelle in 7 Kategorien
 - Vollständige hauseigene Branding- und Verpackungskapazitäten
@@ -652,7 +652,7 @@ Der teuerste Einzelfehler bei der Autoteile-Beschaffung. Eine Großlieferung, di
 
 Wir haben jeden Fehler auf dieser Liste bei Einkäufern gesehen, bevor sie zu uns kamen. Deshalb haben wir unseren Prozess so aufgebaut, dass diese Fehler vermieden werden:
 
-- **Direkt ab Werk mit vollständiger Transparenz** — Live-Videoführungen, auditbereite Dokumentation, ISO 9001- und IATF 16949-zertifiziert
+- **Direkt ab Werk mit vollständiger Transparenz** — Live-Videoführungen, auditbereite Dokumentation, ISO 9001-zertifiziert
 - **Flexible MOQ** — wir unterstützen Probelieferungen ab 300–500 Stück pro Modell
 - **Kostenlose Vorproduktionsmuster** — Sie übernehmen nur den Versand, die Kosten werden mit Ihrer ersten Großbestellung verrechnet
 - **Detaillierte Spezifikationsbestätigung** — jede Bestellung erhält eine schriftliche Bestätigung zu Material, Abmessungen, Verpackung, Kennzeichnung und Prüfnormen

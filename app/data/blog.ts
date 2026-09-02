@@ -64,7 +64,7 @@ Ask about their QC process:
 Located in Ningbo, China, Lelion Autoparts has been manufacturing premium wiper blades since 2011. Our 8,000sqm facility produces over 12 million units annually, serving distributors in 50+ countries.
 
 We offer:
-- ISO 9001 & IATF 16949 certified production
+- ISO 9001 certified production
 - Full OEM/ODM support with custom branding
 - Flexible MOQ for new partnerships
 - Reliable shipping from Ningbo port
@@ -244,7 +244,7 @@ Beyond certifications, ask for:
 
 ### Lelion Autoparts Certifications
 
-Our facility holds ISO 9001:2015 and is IATF 16949 certified. We provide full test documentation with every shipment. [View our certificates](/about) or [download our quality manual](/Catalog.pdf).
+Our facility holds ISO 9001:2015 certification. We provide full test documentation with every shipment. [View our certificates](/about) or [download our quality manual](/Catalog.pdf).
     `.trim()
   },
   {
@@ -400,7 +400,7 @@ At Lelion, we offer flexible MOQ for new partnerships.
 ### Why Choose Lelion for Your OEM/ODM Project?
 
 - 15+ years of wiper blade manufacturing since 2011
-- ISO 9001 & IATF 16949 certified factory
+- ISO 9001 certified factory
 - 8,000sqm production facility in Ningbo, China
 - 200+ product models across 7 categories
 - Full in-house branding & packaging capabilities
@@ -759,7 +759,7 @@ The single most expensive mistake in auto parts sourcing. A bulk shipment that d
 
 We have seen every mistake on this list made by buyers before they came to us. That is why we built our process to prevent them:
 
-- **Factory-direct with full transparency** — live video tours, audit-ready documentation, ISO 9001 & IATF 16949 certified
+- **Factory-direct with full transparency** — live video tours, audit-ready documentation, ISO 9001 certified
 - **Flexible MOQ** — we support trial orders starting at 300-500 pcs per model
 - **Free pre-production samples** — you only cover shipping, and the cost is credited to your first bulk order
 - **Detailed specification confirmation** — every order gets a written confirmation covering material, dimensions, packaging, labeling, and testing standards
@@ -892,7 +892,7 @@ Packaging also shifts by type: universal and beam blades fit blister cards and c
 
 ## How Lelion Supports All Three Types
 
-Lelion Autoparts manufactures universal, beam, hybrid, and specific-fit wiper blades in one 8,000 sqm ISO 9001 and IATF 16949 certified factory. You can source all three types from a single supplier — which simplifies quality control, packaging consistency, and container consolidation. Examples from our catalog: the [BW-802 universal frameless blade](/products/bw-802-universal-wiper-blade), the [BW-861 multi-function blade with 22 adapters](/products/bw-861-multifunction-wiper-blade), and specific-fit models such as the [BW-201 for Tesla Model X](/products/bw-201-specific-fit-tesla-model-x).
+Lelion Autoparts manufactures universal, beam, hybrid, and specific-fit wiper blades in one 8,000 sqm ISO 9001 certified factory. You can source all three types from a single supplier — which simplifies quality control, packaging consistency, and container consolidation. Examples from our catalog: the [BW-802 universal frameless blade](/products/bw-802-universal-wiper-blade), the [BW-861 multi-function blade with 22 adapters](/products/bw-861-multifunction-wiper-blade), and specific-fit models such as the [BW-201 for Tesla Model X](/products/bw-201-specific-fit-tesla-model-x).
 
 All models support private label branding, custom packaging, and pre-production samples before bulk orders.
 

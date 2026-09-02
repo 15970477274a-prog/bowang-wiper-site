@@ -42,7 +42,7 @@ Renseignez-vous sur leur processus de contrôle qualité :
 Située à Ningbo, en Chine, Lelion Autoparts fabrique des balais d'essuie-glace haut de gamme depuis 2011. Notre installation de 8 000 m² produit plus de 12 millions d'unités par an, au service de distributeurs dans plus de 50 pays.
 
 Nous offrons :
-- Production certifiée ISO 9001 & IATF 16949
+- Production certifiée ISO 9001
 - Support OEM/ODM complet avec marque personnalisée
 - MOQ flexible pour les nouveaux partenariats
 - Expédition fiable depuis le port de Ningbo
@@ -189,7 +189,7 @@ Au-delà des certifications, demandez :
 
 ### Certifications de Lelion Autoparts
 
-Notre installation détient la certification ISO 9001:2015 et est certifiée IATF 16949. Nous fournissons une documentation de test complète avec chaque expédition. [Consultez nos certificats](/about) ou [téléchargez notre manuel qualité](/Catalog.pdf).`,
+Notre installation détient la certification ISO 9001:2015. Nous fournissons une documentation de test complète avec chaque expédition. [Consultez nos certificats](/about) ou [téléchargez notre manuel qualité](/Catalog.pdf).`,
 
   "automotive-aftermarket-trends-2026": `## Marché secondaire automobile 2026 : tendances clés et opportunités
 
@@ -323,7 +323,7 @@ Chez Lelion, nous offrons un MOQ flexible pour les nouveaux partenariats.
 ### Pourquoi choisir Lelion pour votre projet OEM/ODM ?
 
 - Plus de 15 ans de fabrication de balais d'essuie-glace depuis 2011
-- Usine certifiée ISO 9001 & IATF 16949
+- Usine certifiée ISO 9001
 - Installation de production de 8 000 m² à Ningbo, Chine
 - Plus de 200 modèles de produits dans 7 catégories
 - Capacités complètes de marquage et d'emballage en interne
@@ -652,7 +652,7 @@ L'erreur la plus coûteuse dans l'approvisionnement en pièces automobiles. Une 
 
 Nous avons vu chaque erreur de cette liste commise par des acheteurs avant qu'ils ne viennent chez nous. C'est pourquoi nous avons conçu notre processus pour les prévenir :
 
-- **Direct usine avec transparence totale** — visites vidéo en direct, documentation prête pour l'audit, certifié ISO 9001 & IATF 16949
+- **Direct usine avec transparence totale** — visites vidéo en direct, documentation prête pour l'audit, certifié ISO 9001
 - **MOQ flexible** — nous soutenons les commandes d'essai à partir de 300-500 pièces par modèle
 - **Échantillons de pré-production gratuits** — vous ne payez que l'expédition, et le coût est déduit de votre première commande en gros
 - **Confirmation détaillée des spécifications** — chaque commande reçoit une confirmation écrite couvrant le matériau, les dimensions, l'emballage, l'étiquetage et les normes de test
