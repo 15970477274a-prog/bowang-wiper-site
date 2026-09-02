@@ -229,6 +229,7 @@ export default function AboutPage() {
         <div style={{ maxWidth: "1200px", margin: "0 auto", textAlign: "center" }}>
           <h2 style={{ fontSize: "36px", fontWeight: 800, marginBottom: "20px" }}>{aboutText.qualityTitle}</h2>
           <p style={{ color: "#94a3b8", marginBottom: "60px", maxWidth: "700px", margin: "0 auto" }}>{aboutText.qualitySub}</p>
+          <p style={{ color: "#cbd5e1", margin: "20px auto 40px", maxWidth: "700px", fontSize: "14px" }}>ISO 9001:2015 · No. 134956 (NQA) &nbsp;|&nbsp; IATF 16949:2016 · No. M.2022.206.C79712 (UDEM)</p>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "40px" }}>
              {certificates.map((cert, i) => (
                <div key={i} style={{ backgroundColor: "white", borderRadius: "16px", padding: "20px", textAlign: "center", boxShadow: "0 10px 30px rgba(0,0,0,0.3)" }}>
@@ -243,7 +244,14 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section style={{ padding: "100px 20px", maxWidth: "1100px", margin: "0 auto" }}>
+            <section style={{ padding: "80px 20px", maxWidth: "900px", margin: "0 auto" }}>
+        <h2 style={{ fontSize: "32px", fontWeight: 800, textAlign: "center", marginBottom: "40px" }}>Factory Tour</h2>
+        <div style={{ position: "relative", paddingBottom: "56.25%", height: 0, borderRadius: "16px", overflow: "hidden", boxShadow: "0 20px 50px rgba(0,0,0,0.15)" }}>
+          <iframe src="https://www.youtube.com/embed/ppMeBaDm2hk" title="Lelion Wiper Factory Tour" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", border: 0 }} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        </div>
+      </section>
+
+<section style={{ padding: "100px 20px", maxWidth: "1100px", margin: "0 auto" }}>
         <h2 style={{ fontSize: "32px", fontWeight: 800, textAlign: "center", marginBottom: "60px" }}>{aboutText.milestonesTitle}</h2>
         <div style={{ borderLeft: "2px solid #e2e8f0", paddingLeft: "30px", marginLeft: "20px" }}>
            {[

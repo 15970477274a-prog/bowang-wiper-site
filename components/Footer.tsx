@@ -120,7 +120,7 @@ export default function Footer() {
               </div>
               <div>
                 <span style={{ color: "#64748b", fontSize: "11px", textTransform: "uppercase", display: "block", marginBottom: "2px" }}>{t.footerWhatsapp}</span>
-                <a href="https://api.whatsapp.com/send?phone=8618867886795" style={{ color: "#e2e8f0", textDecoration: "none", fontSize: "14px" }}>+86 188 6788 6795</a>
+                <a href="https://api.whatsapp.com/send?phone=8618967886795" style={{ color: "#e2e8f0", textDecoration: "none", fontSize: "14px" }}>+86 189 6788 6795</a>
               </div>
             </li>
             <li style={{ display: "flex", gap: "12px", alignItems: "flex-start" }}>

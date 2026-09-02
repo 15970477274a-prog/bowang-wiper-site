@@ -67,8 +67,8 @@ const organizationSchema = {
     "addressCountry": "CN"
   },
   "contactPoint": [
-    { "@type": "ContactPoint", "telephone": "+86-18867886795", "contactType": "sales", "email": "bwb@bwwiper.com", "areaServed": "Worldwide", "availableLanguage": ["English", "Spanish", "Russian", "French", "German"] },
-    { "@type": "ContactPoint", "telephone": "+86-18867886795", "contactType": "technical support", "areaServed": "Worldwide", "availableLanguage": ["English", "Chinese"] }
+    { "@type": "ContactPoint", "telephone": "+86-18967886795", "contactType": "sales", "email": "bwb@bwwiper.com", "areaServed": "Worldwide", "availableLanguage": ["English", "Spanish", "Russian", "French", "German"] },
+    { "@type": "ContactPoint", "telephone": "+86-18967886795", "contactType": "technical support", "areaServed": "Worldwide", "availableLanguage": ["English", "Chinese"] }
   ],
   "sameAs": [
     "https://nb-bowang.en.alibaba.com/",
@@ -76,7 +76,7 @@ const organizationSchema = {
     "https://www.bwwiper.com/",
     "https://www.facebook.com/groups/750483250868131/",
     "https://www.instagram.com/lelionwiper/",
-    "https://wa.me/8618867886795"
+    "https://wa.me/8618967886795"
   ]
 };
 
