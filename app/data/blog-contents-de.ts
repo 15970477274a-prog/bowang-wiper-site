@@ -37,9 +37,9 @@ Erkundigen Sie sich nach dem QC-Prozess:
 - Endkontrolle vor dem Versand
 - Labor-Dauertests (über 1 Mio. Wischzyklen)
 
-### Warum Bowang Autoparts herausragt
+### Warum Lelion Autoparts herausragt
 
-Bowang Autoparts mit Sitz in Ningbo, China, stellt seit 2011 Premium-Wischerblätter her. Unsere 8.000 qm große Produktionsstätte fertigt jährlich über 12 Millionen Einheiten und beliefert Distributoren in über 50 Ländern.
+Lelion Autoparts mit Sitz in Ningbo, China, stellt seit 2011 Premium-Wischerblätter her. Unsere 8.000 qm große Produktionsstätte fertigt jährlich über 12 Millionen Einheiten und beliefert Distributoren in über 50 Ländern.
 
 Wir bieten:
 - ISO 9001- und IATF 16949-zertifizierte Produktion
@@ -88,7 +88,7 @@ Moderne Hybridblätter kombinieren eine Wischkante aus Naturkautschuk mit einer 
 
 ### Unsere Empfehlung
 
-Bei Bowang Autoparts stellen wir alle drei Typen her:
+Bei Lelion Autoparts stellen wir alle drei Typen her:
 - **BW-802 Serie:** AA-Naturkautschuk mit Teflon-Beschichtung — unser meistverkauftes Universalblatt
 - **BW-861 Serie:** Premium-Mehrkomponentenblatt mit 12 Adaptern — deckt 95 % aller Fahrzeuge ab
 - **Kundenspezifisches OEM:** Wir können die Gummimischung nach Ihren Vorgaben formulieren
@@ -145,7 +145,7 @@ Stellen Sie sicher, dass Sie Folgendes haben:
 
 ### Bereit zum Start?
 
-Bowang Autoparts heißt neue Distributoren weltweit willkommen. Wir bieten Musterunterstützung, flexible MOQ und vollständige Exportdokumentation.
+Lelion Autoparts heißt neue Distributoren weltweit willkommen. Wir bieten Musterunterstützung, flexible MOQ und vollständige Exportdokumentation.
 
 [Kontaktieren Sie uns noch heute](/contact), um Ihren Zielmarkt und Ihre Mengenanforderungen zu besprechen.`,
 
@@ -187,7 +187,7 @@ Fordern Sie über Zertifizierungen hinaus an:
 - **Kältebeständigkeitstest** — Flexibilität bei -20 °C
 - **Wischdauertest** — Zyklen bis zum Ausfall
 
-### Bowang Autoparts Zertifizierungen
+### Lelion Autoparts Zertifizierungen
 
 Unser Werk verfügt über ISO 9001:2015 und ist IATF 16949-zertifiziert. Wir stellen bei jeder Lieferung vollständige Prüfdokumentationen bereit. [Sehen Sie unsere Zertifikate ein](/about) oder [laden Sie unser Qualitätshandbuch herunter](/Catalog.pdf).`,
 
@@ -227,7 +227,7 @@ Umweltbedenken beeinflussen das Kaufverhalten:
 - Recycelbare Verpackungsmaterialien
 - Nachhaltige Herstellungsprozesse
 
-### Wie Bowang Autoparts reagiert
+### Wie Lelion Autoparts reagiert
 
 Wir erweitern kontinuierlich unser Produktsortiment, um den sich wandelnden Marktanforderungen gerecht zu werden:
 - Neue Silikon-Serie ab 2026
@@ -235,7 +235,7 @@ Wir erweitern kontinuierlich unser Produktsortiment, um den sich wandelnden Mark
 - Umweltfreundliche Verpackungsoptionen verfügbar
 - Digitaler Katalog mit vollständigen technischen Spezifikationen
 
-[Partnern Sie mit Bowang](/contact), um diesen Markttrends voraus zu sein.`,
+[Partnern Sie mit Lelion](/contact), um diesen Markttrends voraus zu sein.`,
 
   "oem-private-label-wiper-blades-guide": `## Warum OEM und Private Label für Wischerblatt-Importeure entscheidend sind
 
@@ -249,7 +249,7 @@ Das Verständnis dieser Begriffe ist vor der Kontaktaufnahme mit Lieferanten une
 - **ODM (Original Design Manufacturer):** Die Fabrik bietet bestehende Produktdesigns an, die Sie mit Ihrem Branding individualisieren können. Geringere Vorabkosten und schnellere Markteinführung. Ideal für die meisten Importeure.
 - **Private Label:** Sie wählen aus dem Fabrikkatalog aus und versehen die Produkte mit Ihrem eigenen Markennamen, Logo und Ihrer Verpackung. Schnellste Umsetzung, minimale Investition.
 
-Die meisten Bowang-Kunden beginnen mit Private Label oder ODM, bevor sie auf kundenspezifische OEM-Projekte skalieren.
+Die meisten Lelion-Kunden beginnen mit Private Label oder ODM, bevor sie auf kundenspezifische OEM-Projekte skalieren.
 
 ### Individuelle Branding-Optionen für Wischerblätter
 
@@ -309,7 +309,7 @@ Die Verpackung ist Ihr stiller Verkäufer auf den Regalen des Einzelhandels und 
 - **Voll-OEM mit kundenspezifischer Form:** 3.000–5.000 Stück pro SKU
 - **Mischcontainer (mehrere SKUs):** 5.000–10.000 Stück insgesamt
 
-Bei Bowang bieten wir flexible MOQ für neue Partnerschaften.
+Bei Lelion bieten wir flexible MOQ für neue Partnerschaften.
 
 ### So starten Sie
 
@@ -320,7 +320,7 @@ Bei Bowang bieten wir flexible MOQ für neue Partnerschaften.
 5. **Bestätigen Sie die Spezifikationen** — Legen Sie alle Details in einer schriftlichen Auftragsbestätigung fest
 6. **Produktion und QC** — Wir fertigen und prüfen vor dem Versand
 
-### Warum Bowang für Ihr OEM/ODM-Projekt wählen?
+### Warum Lelion für Ihr OEM/ODM-Projekt wählen?
 
 - Über 15 Jahre Erfahrung in der Wischerblatt-Fertigung seit 2011
 - ISO 9001- und IATF 16949-zertifizierte Fabrik
@@ -444,7 +444,7 @@ Die Landed Cost liegt nur $0,07 über dem FOB-Preis — lediglich 8,2 % mehr. De
 6. **Vorausplanen** — Eilsendungen kosten 30–50 % mehr
 7. **FTA-Berechtigung prüfen** — Mit korrekter Dokumentation Zölle sparen
 
-### Warum mit Bowang Autoparts zusammenarbeiten?
+### Warum mit Lelion Autoparts zusammenarbeiten?
 
 - Wettbewerbsfähige FOB-Preise mit Mengenrabatten
 - FCL- und LCL-Versandunterstützung
@@ -558,9 +558,9 @@ Standard-AQL-Niveau: **2,5 für Hauptfehler, 4,0 für Nebenfehler.**
 - Gemischte Produktionsdaten in einem Karton — schlechtes Bestandsmanagement
 - Unterschiedliche Farbtöne zwischen Mustern — inkonsistente Produktion
 
-### Wie Bowang Autoparts Qualität sicherstellt
+### Wie Lelion Autoparts Qualität sicherstellt
 
-Bei Bowang ist Qualität in jeder Produktionsstufe verankert:
+Bei Lelion ist Qualität in jeder Produktionsstufe verankert:
 
 - 100 % Wareneingangsprüfung der Rohstoffe
 - 3 Inline-QC-Prüfpunkte pro Produktionslinie
@@ -648,7 +648,7 @@ Der teuerste Einzelfehler bei der Autoteile-Beschaffung. Eine Großlieferung, di
 - Geben Sie die Restzahlung erst nach Musterfreigabe frei
 - Bei OEM-Aufträgen: Geben Sie Verpackungsproof und Produktmuster gemeinsam frei
 
-### Warum mit Bowang Autoparts zusammenarbeiten?
+### Warum mit Lelion Autoparts zusammenarbeiten?
 
 Wir haben jeden Fehler auf dieser Liste bei Einkäufern gesehen, bevor sie zu uns kamen. Deshalb haben wir unseren Prozess so aufgebaut, dass diese Fehler vermieden werden:
 

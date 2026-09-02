@@ -661,7 +661,7 @@ export const allProducts: Product[] = [
     name: "BW-001 Front Windshield RHD Wiper Arm for AUDI Q7 2007-2016",
     moq: "10 PCS",
     desc: "OEM-grade front windshield RHD (Right Hand Drive) wiper arm specifically designed for Audi Q7 2007-2016. Direct fit replacement, black finish.",
-    longDesc: "The BW-001 is a precision-engineered front windshield wiper arm for Audi Q7 (2007-2016) in RHD configuration. Manufactured to strict OE specifications, this wiper arm ensures perfect fitment and reliable wiping performance. The durable black finish provides corrosion resistance and maintains the factory appearance. As part of Bowang's comprehensive wiper arm lineup, the BW-001 delivers the same quality and durability that global distributors have trusted since 2011. Ideal for the European, Australian, and other RHD markets.",
+    longDesc: "The BW-001 is a precision-engineered front windshield wiper arm for Audi Q7 (2007-2016) in RHD configuration. Manufactured to strict OE specifications, this wiper arm ensures perfect fitment and reliable wiping performance. The durable black finish provides corrosion resistance and maintains the factory appearance. As part of Lelion's comprehensive wiper arm lineup, the BW-001 delivers the same quality and durability that global distributors have trusted since 2011. Ideal for the European, Australian, and other RHD markets.",
     specs: [
       "Front Windshield RHD (Right Hand Drive) Configuration",
       "Specific Fit for Audi Q7 2007-2016",
@@ -699,7 +699,7 @@ export const allProducts: Product[] = [
       "Audi Q7 2007-2016 wiper",
       "right hand drive wiper arm",
       "China wiper arm factory",
-      "Bowang wiper arm",
+      "Lelion wiper arm",
       "automotive wiper arm wholesale"
     ],
     applications: [
@@ -725,7 +725,7 @@ export const allProducts: Product[] = [
     name: "BW-002 Front Windshield Wiper Arm for AUDI Q7 (LHD) 2007-2016",
     moq: "10 PCS",
     desc: "OEM-grade front windshield LHD (Left Hand Drive) wiper arm for Audi Q7 2007-2016. Direct replacement with corrosion-resistant black finish, low MOQ.",
-    longDesc: "The BW-002 is a precision-manufactured front windshield wiper arm designed for Audi Q7 (2007-2016) in LHD configuration. Featuring high-strength steel construction with a durable black anti-corrosion coating, this OE-spec replacement arm ensures perfect fit and reliable performance. As part of Bowang's comprehensive wiper arm series, the BW-002 serves the Americas, Europe, China, and other LHD markets. Backed by ISO 9001 & IATF 16949 certified manufacturing, this wiper arm meets the highest automotive quality standards. Low MOQ of 10 PCS makes it ideal for new distributor partnerships.",
+    longDesc: "The BW-002 is a precision-manufactured front windshield wiper arm designed for Audi Q7 (2007-2016) in LHD configuration. Featuring high-strength steel construction with a durable black anti-corrosion coating, this OE-spec replacement arm ensures perfect fit and reliable performance. As part of Lelion's comprehensive wiper arm series, the BW-002 serves the Americas, Europe, China, and other LHD markets. Backed by ISO 9001 & IATF 16949 certified manufacturing, this wiper arm meets the highest automotive quality standards. Low MOQ of 10 PCS makes it ideal for new distributor partnerships.",
     specs: [
       "Front Windshield LHD (Left Hand Drive) Configuration",
       "Exact Fit for Audi Q7 2007-2016 Models",
@@ -761,7 +761,7 @@ export const allProducts: Product[] = [
       "Audi Q7 replacement wiper",
       "wiper arm manufacturer China",
       "OEM wiper arm Audi",
-      "Bowang wiper arm",
+      "Lelion wiper arm",
       "China wiper arm factory",
       "automotive wiper arm wholesale"
     ],
@@ -788,7 +788,7 @@ export const allProducts: Product[] = [
     name: "BW3002 Rear Wiper Blade Arm for MINI COOPER R50 R53 2001-2004",
     moq: "100 PCS",
     desc: "OEM-spec rear windshield wiper arm for MINI COOPER R50 R53 (2001-2004). Precision-engineered direct replacement with durable construction.",
-    longDesc: "The BW3002 is a precision rear wiper arm designed specifically for MINI COOPER R50 and R53 models (2001-2004). Manufactured to strict OE specifications, this rear wiper arm ensures perfect noise-free operation and streak-free wiping for the distinctive MINI rear windshield. The compact design maintains the vehicle's iconic look while delivering reliable performance. As a trusted China wiper blade and arm manufacturer, Bowang Autoparts ensures every BW3002 meets rigorous quality standards including salt spray corrosion testing and mechanical durability testing. Ideal for European aftermarket distributors specializing in German and British vehicle parts.",
+    longDesc: "The BW3002 is a precision rear wiper arm designed specifically for MINI COOPER R50 and R53 models (2001-2004). Manufactured to strict OE specifications, this rear wiper arm ensures perfect noise-free operation and streak-free wiping for the distinctive MINI rear windshield. The compact design maintains the vehicle's iconic look while delivering reliable performance. As a trusted China wiper blade and arm manufacturer, Lelion Autoparts ensures every BW3002 meets rigorous quality standards including salt spray corrosion testing and mechanical durability testing. Ideal for European aftermarket distributors specializing in German and British vehicle parts.",
     specs: [
       "Specific Fit for MINI COOPER R50 R53 2001-2004",
       "Rear Windshield Wiper Arm Configuration",
@@ -821,7 +821,7 @@ export const allProducts: Product[] = [
       "MINI Cooper replacement wiper",
       "wiper arm manufacturer China",
       "OEM MINI wiper arm",
-      "Bowang wiper arm",
+      "Lelion wiper arm",
       "British car wiper parts",
       "European car wiper arm wholesale"
     ],

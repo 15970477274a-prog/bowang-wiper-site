@@ -21,14 +21,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!post) {
     return {
       metadataBase: new URL("https://www.lelionautopart.com"),
-      title: "Post Not Found | Bowang Autoparts",
+      title: "Post Not Found | Lelion Autoparts",
     };
   }
 
   const trans = getBlogTranslation(id, lang);
   const postTitle = trans?.title || post.title;
   const excerpt = trans?.excerpt || post.excerpt;
-  const title = truncateTitle(postTitle, 36) + " | Bowang Autoparts";
+  const title = truncateTitle(postTitle, 36) + " | Lelion Autoparts";
   const description = excerpt.length > 160 ? excerpt.substring(0, 157) + "..." : excerpt;
   const canonicalPath = "/" + lang + "/blog/" + post.id;
 

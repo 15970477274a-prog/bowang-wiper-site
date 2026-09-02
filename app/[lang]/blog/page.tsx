@@ -45,10 +45,10 @@ export default function BlogPage() {
   const blogListingSchema = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    "name": "Wiper Blade Industry Blog | Bowang Autoparts",
+    "name": "Wiper Blade Industry Blog | Lelion Autoparts",
     "description": "Industry insights, buying guides, and technical articles about wiper blade manufacturing and the automotive aftermarket.",
     "url": "https://www.lelionautopart.com/blog",
-    "isPartOf": { "@type": "WebSite", "name": "Bowang Wiper - LeLion Autoparts" }
+    "isPartOf": { "@type": "WebSite", "name": "Lelion Autoparts" }
   };
 
   // Extract unique tags

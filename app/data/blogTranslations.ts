@@ -84,9 +84,9 @@ export const blogTranslations: Record<string, Record<string, BlogTranslation>> =
 - 出货前的终检
 - 实验室耐久测试（100万次以上刮刷）
 
-### 博旺汽配的独特优势
+### Lelion 的独特优势
 
-博旺汽配位于中国宁波，自2011年起专业制造高品质雨刮片。我们8,000平方米的工厂年产超过1,200万件，服务50多个国家的分销商。
+Lelion 位于中国宁波，自2011年起专业制造高品质雨刮片。我们8,000平方米的工厂年产超过1,200万件，服务50多个国家的分销商。
 
 我们提供：
 - ISO 9001与IATF 16949认证生产
@@ -157,7 +157,7 @@ export const blogTranslations: Record<string, Record<string, BlogTranslation>> =
 
 ### 我们的建议
 
-博旺汽配三种类型均可生产：
+Lelion 三种类型均可生产：
 - **BW-802系列：** AA级天然橡胶加特氟龙涂层 — 我们的畅销通用型产品
 - **BW-861系列：** 优质多复合材料，含12个转接头 — 覆盖95%的车型
 - **定制OEM：** 可根据您的规格调配胶条配方
@@ -236,7 +236,7 @@ export const blogTranslations: Record<string, Record<string, BlogTranslation>> =
 
 ### 准备开始？
 
-博旺汽配欢迎全球新分销商。我们提供样品支持、灵活起订量和完整的出口文件。
+Lelion 欢迎全球新分销商。我们提供样品支持、灵活起订量和完整的出口文件。
 
 [立即联系我们](/contact)，讨论您的目标市场和数量需求。`
     }
@@ -300,7 +300,7 @@ export const blogTranslations: Record<string, Record<string, BlogTranslation>> =
 - **耐低温测试** — -20°C下的柔韧性
 - **刮刷耐久测试** — 失效循环次数
 
-### 博旺汽配的认证
+### Lelion 的认证
 
 我们的工厂持有ISO 9001:2015认证并通过IATF 16949认证。每批出货均提供完整的测试文件。[查看我们的证书](/about)或[下载我们的质量手册](/Catalog.pdf)。`
     }
@@ -362,7 +362,7 @@ export const blogTranslations: Record<string, Record<string, BlogTranslation>> =
 - 可回收包装材料
 - 可持续制造工艺
 
-### 博旺汽配的应对
+### Lelion 的应对
 
 我们持续扩展产品线以满足不断变化的市场需求：
 - 2026年推出新的硅胶系列
@@ -370,7 +370,7 @@ export const blogTranslations: Record<string, Record<string, BlogTranslation>> =
 - 提供环保包装选项
 - 含完整技术参数的电子目录
 
-[与博旺合作](/contact)，走在这些市场趋势的前面。`
+[与 Lelion 合作](/contact)，走在这些市场趋势的前面。`
     }
   },
     "oem-private-label-wiper-blades-guide": {
@@ -405,7 +405,7 @@ export const blogTranslations: Record<string, Record<string, BlogTranslation>> =
 - **ODM（原始设计制造商）：** 工厂提供现有产品设计，您可通过品牌定制来个性化。前期成本更低，上市更快。适合大多数进口商。
 - **贴牌（Private Label）：** 您从工厂目录中选品，加上自己的品牌名、logo和包装。周转最快，投入最小。
 
-大多数博旺客户从贴牌或ODM起步，再扩展到定制OEM项目。
+大多数 Lelion 客户从贴牌或ODM起步，再扩展到定制OEM项目。
 
 ### 雨刮片的品牌定制选项
 
@@ -461,7 +461,7 @@ export const blogTranslations: Record<string, Record<string, BlogTranslation>> =
 - 含开模的全OEM：每个SKU 3,000-5,000件
 - 混柜（多个SKU）：总计5,000-10,000件
 
-博旺为新合作提供灵活的起订量。
+Lelion 为新合作提供灵活的起订量。
 
 ### 如何开始
 
@@ -472,7 +472,7 @@ export const blogTranslations: Record<string, Record<string, BlogTranslation>> =
 5. **确认规格** — 以书面订单确认所有细节
 6. **生产与质检** — 我们生产并验货后发货
 
-### 为什么选择博旺做您的OEM/ODM项目？
+### 为什么选择 Lelion 做您的OEM/ODM项目？
 
 - 2011年至今15年以上雨刮片制造经验
 - ISO 9001与IATF 16949认证工厂
@@ -609,7 +609,7 @@ FOB（船上交货）价格是您支付给制造商、货物在中国港口备�
 6. **提前规划** — 加急运费高30-50%
 7. **查询FTA资格** — 凭正确文件节省关税
 
-### 为什么选择博旺汽配？
+### 为什么选择 Lelion？
 
 - 具有竞争力的FOB价格与数量折扣
 - 整柜与拼柜运输支持
@@ -741,9 +741,9 @@ FOB（船上交货）价格是您支付给制造商、货物在中国港口备�
 - 一箱内混有不同生产日期 — 库存管理混乱
 - 样品间色差明显 — 生产不稳定
 
-### 博旺汽配如何保证质量
+### Lelion 如何保证质量
 
-在博旺，质量融入每个生产环节：
+在 Lelion，质量融入每个生产环节：
 
 - 100%来料检验
 - 每条生产线3个在线QC检查点
@@ -853,7 +853,7 @@ FOB（船上交货）价格是您支付给制造商、货物在中国港口备�
 - 样品确认通过后再付尾款
 - OEM订单要同时确认包装样稿和产品样品
 
-### 为什么选择博旺汽配？
+### 为什么选择 Lelion？
 
 我们见过买家用过这份清单上的每一个错误后才找到我们。因此我们把防错机制建进了流程：
 

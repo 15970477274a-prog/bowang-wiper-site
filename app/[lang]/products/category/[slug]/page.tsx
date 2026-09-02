@@ -77,11 +77,11 @@ export default function ProductCategoryPage() {
   const collectionSchema = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    "name": category + " " + t.wiperBladesWord + " - Wholesale | Bowang Autoparts",
+    "name": category + " " + t.wiperBladesWord + " - Wholesale | Lelion Autoparts",
     "description": "Browse our wholesale " + category.toLowerCase() + " " + t.wiperBladesWord.toLowerCase() + ". OEM/ODM manufacturer with factory-direct pricing, ISO certified, global shipping.",
     "url": "https://www.lelionautopart.com/" + lang + "/products/category/" + slug,
     "inLanguage": lang,
-    "isPartOf": {"@type":"WebSite","name":"Bowang Wiper - LeLion Autoparts"}
+    "isPartOf": {"@type":"WebSite","name":"Lelion Autoparts"}
   };
 
   return (

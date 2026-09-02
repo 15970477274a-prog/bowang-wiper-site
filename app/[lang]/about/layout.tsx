@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title,
       description,
       url: "https://www.lelionautopart.com" + canonicalPath,
-      images: [{ url: ogImage, width: 800, height: 600, alt: "Bowang Autoparts Factory" }],
+      images: [{ url: ogImage, width: 800, height: 600, alt: "Lelion Autoparts Factory" }],
     },
     twitter: {
       card: "summary_large_image",

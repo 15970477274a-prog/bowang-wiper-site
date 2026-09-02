@@ -7,7 +7,7 @@ type Props = { params: Promise<{ lang: string }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { lang } = await params;
   const t = translations[(lang as Locale)] || translations.en;
-  const title = t.blogPageTitle + " | Bowang Autoparts";
+  const title = t.blogPageTitle + " | Lelion Autoparts";
   const description = t.blogPageSub;
   const canonicalPath = "/" + lang + "/blog";
 

@@ -58,8 +58,8 @@ export default function Footer() {
         {/* Column 1: Brand + Description */}
         <div>
           <div style={{ marginBottom: "20px" }}>
-            <Image src="/logo.jpg" alt="Bowang Wiper" width={104} height={52} style={{ height: "52px", width: "auto", marginBottom: "8px" }} />
-            <div style={{ fontSize: "20px", fontWeight: 800, color: "#ffffff", letterSpacing: "0.05em" }}>BOWANG WIPER</div>
+            <Image src="/logo.jpg" alt="Lelion Wiper" width={104} height={52} style={{ height: "52px", width: "auto", marginBottom: "8px" }} />
+            <div style={{ fontSize: "20px", fontWeight: 800, color: "#ffffff", letterSpacing: "0.05em" }}>LELION WIPER</div>
           </div>
           <p style={{ color: "#94a3b8", lineHeight: "1.8", fontSize: "14px", maxWidth: "300px" }}>
             {t.footerBrandDesc}

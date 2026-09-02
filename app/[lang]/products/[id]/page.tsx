@@ -64,7 +64,7 @@ const relatedBlog = blogPosts
     "description": productDesc,
     "image": product.gallery && product.gallery.length > 0 ? [product.image, ...product.gallery] : [product.image],
     "sku": modelNo,
-    "brand": { "@type": "Brand", "name": "Bowang" },
+    "brand": { "@type": "Brand", "name": "Lelion" },
     "manufacturer": {
       "@type": "Organization",
       "name": "Ningbo Zhenhai Bowang Autoparts Co., Ltd."

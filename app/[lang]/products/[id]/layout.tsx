@@ -21,14 +21,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!product) {
     return {
       metadataBase: new URL("https://www.lelionautopart.com"),
-      title: "Product Not Found | Bowang Autoparts",
+      title: "Product Not Found | Lelion Autoparts",
     };
   }
 
   const trans = getProductTranslation(id, lang);
   const name = trans?.name || product.name;
   const desc = trans?.desc || product.desc;
-  const title = truncateTitle(name) + " | Bowang Autoparts";
+  const title = truncateTitle(name) + " | Lelion Autoparts";
   const description = desc.length > 160 ? desc.substring(0, 157) + "..." : desc;
   const canonicalPath = "/" + lang + "/products/" + product.id;
 

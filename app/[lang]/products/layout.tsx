@@ -7,7 +7,7 @@ type Props = { params: Promise<{ lang: string }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { lang } = await params;
   const t = translations[(lang as Locale)] || translations.en;
-  const title = t.productsBannerTitle + " | Bowang Autoparts - OEM/ODM Manufacturer";
+  const title = t.productsBannerTitle + " | Lelion Autoparts - OEM/ODM Manufacturer";
   const description = t.productsBannerSub;
   const canonicalPath = "/" + lang + "/products";
   const ogImage = "https://sc02.alicdn.com/kf/Hb0410965e6194f008a583d7f500e1b7at.png";
@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title,
       description,
       url: "https://www.lelionautopart.com" + canonicalPath,
-      images: [{ url: ogImage, width: 800, height: 600, alt: "Bowang Wiper Blade Product Range" }],
+      images: [{ url: ogImage, width: 800, height: 600, alt: "Lelion Wiper Blade Product Range" }],
     },
     twitter: {
       card: "summary_large_image",

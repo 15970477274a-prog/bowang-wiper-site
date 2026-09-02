@@ -33,7 +33,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         .split("-")
         .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
         .join(" ");
-  const title = categoryName + " " + t.wiperBladesWord + " | Bowang Autoparts";
+  const title = categoryName + " " + t.wiperBladesWord + " | Lelion Autoparts";
   const description = t.categoryBannerSub;
   const canonicalPath = "/" + lang + "/products/category/" + slug;
 

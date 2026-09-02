@@ -37,9 +37,9 @@ Renseignez-vous sur leur processus de contrôle qualité :
 - Inspection finale avant expédition
 - Tests en laboratoire de durabilité (1 million de cycles d'essuyage ou plus)
 
-### Pourquoi Bowang Autoparts se démarque
+### Pourquoi Lelion Autoparts se démarque
 
-Située à Ningbo, en Chine, Bowang Autoparts fabrique des balais d'essuie-glace haut de gamme depuis 2011. Notre installation de 8 000 m² produit plus de 12 millions d'unités par an, au service de distributeurs dans plus de 50 pays.
+Située à Ningbo, en Chine, Lelion Autoparts fabrique des balais d'essuie-glace haut de gamme depuis 2011. Notre installation de 8 000 m² produit plus de 12 millions d'unités par an, au service de distributeurs dans plus de 50 pays.
 
 Nous offrons :
 - Production certifiée ISO 9001 & IATF 16949
@@ -88,7 +88,7 @@ Les balais hybrides modernes combinent un bord d'essuyage en caoutchouc naturel 
 
 ### Notre recommandation
 
-Chez Bowang Autoparts, nous fabriquons les trois types :
+Chez Lelion Autoparts, nous fabriquons les trois types :
 - **Série BW-802 :** Caoutchouc naturel de qualité AA avec revêtement Teflon — notre balai universel le plus vendu
 - **Série BW-861 :** Balai multi-composé premium avec 12 adaptateurs — couvre 95 % des véhicules
 - **OEM sur mesure :** Nous pouvons formuler le composé de caoutchouc selon vos spécifications
@@ -145,7 +145,7 @@ Assurez-vous d'avoir :
 
 ### Prêt à commencer ?
 
-Bowang Autoparts accueille les nouveaux distributeurs du monde entier. Nous offrons un support d'échantillons, un MOQ flexible et une documentation d'exportation complète.
+Lelion Autoparts accueille les nouveaux distributeurs du monde entier. Nous offrons un support d'échantillons, un MOQ flexible et une documentation d'exportation complète.
 
 [Contactez-nous dès aujourd'hui](/contact) pour discuter de votre marché cible et de vos besoins en volume.`,
 
@@ -187,7 +187,7 @@ Au-delà des certifications, demandez :
 - **Test de résistance au froid** — flexibilité à -20 °C
 - **Test de durabilité d'essuyage** — cycles jusqu'à défaillance
 
-### Certifications de Bowang Autoparts
+### Certifications de Lelion Autoparts
 
 Notre installation détient la certification ISO 9001:2015 et est certifiée IATF 16949. Nous fournissons une documentation de test complète avec chaque expédition. [Consultez nos certificats](/about) ou [téléchargez notre manuel qualité](/Catalog.pdf).`,
 
@@ -227,7 +227,7 @@ Les préoccupations environnementales influencent les achats :
 - Matériaux d'emballage recyclables
 - Processus de fabrication durables
 
-### Comment Bowang Autoparts répond à ces tendances
+### Comment Lelion Autoparts répond à ces tendances
 
 Nous élargissons continuellement notre gamme de produits pour répondre à l'évolution des demandes du marché :
 - Nouvelle série silicone lancée en 2026
@@ -235,7 +235,7 @@ Nous élargissons continuellement notre gamme de produits pour répondre à l'é
 - Options d'emballage écologiques disponibles
 - Catalogue numérique avec spécifications techniques complètes
 
-[Devenez partenaire de Bowang](/contact) pour garder une longueur d'avance sur ces tendances du marché.`,
+[Devenez partenaire de Lelion](/contact) pour garder une longueur d'avance sur ces tendances du marché.`,
 
   "oem-private-label-wiper-blades-guide": `## Pourquoi l'OEM et la marque blanche sont essentiels pour les importateurs de balais d'essuie-glace
 
@@ -249,7 +249,7 @@ Comprendre ces termes est essentiel avant de contacter les fournisseurs :
 - **ODM (Fabricant de Design Original) :** L'usine propose des conceptions de produits existantes que vous pouvez personnaliser avec votre marque. Coût initial plus faible et mise sur le marché plus rapide. Idéal pour la plupart des importateurs.
 - **Marque blanche (Private Label) :** Vous sélectionnez dans le catalogue de l'usine et ajoutez votre propre nom de marque, logo et emballage. Délai le plus court, investissement minimal.
 
-La plupart des clients de Bowang commencent par la marque blanche ou l'ODM avant de passer à des projets OEM sur mesure.
+La plupart des clients de Lelion commencent par la marque blanche ou l'ODM avant de passer à des projets OEM sur mesure.
 
 ### Options de personnalisation de marque pour les balais d'essuie-glace
 
@@ -309,7 +309,7 @@ L'emballage est votre vendeur silencieux en rayon et sur les plateformes e-comme
 - **OEM complet avec moule personnalisé :** 3 000-5 000 pièces par SKU
 - **Conteneur mixte (plusieurs SKU) :** 5 000-10 000 pièces au total
 
-Chez Bowang, nous offrons un MOQ flexible pour les nouveaux partenariats.
+Chez Lelion, nous offrons un MOQ flexible pour les nouveaux partenariats.
 
 ### Comment démarrer
 
@@ -320,7 +320,7 @@ Chez Bowang, nous offrons un MOQ flexible pour les nouveaux partenariats.
 5. **Confirmez les spécifications** — Finalisez tous les détails dans une confirmation de commande écrite
 6. **Production et contrôle qualité** — Nous fabriquons et inspectons avant expédition
 
-### Pourquoi choisir Bowang pour votre projet OEM/ODM ?
+### Pourquoi choisir Lelion pour votre projet OEM/ODM ?
 
 - Plus de 15 ans de fabrication de balais d'essuie-glace depuis 2011
 - Usine certifiée ISO 9001 & IATF 16949
@@ -444,7 +444,7 @@ Le coût rendu n'est que de 0,07 $ supérieur au prix FOB — soit seulement 8,2
 6. **Planifiez à l'avance** — Les expéditions urgentes coûtent 30 à 50 % de plus
 7. **Vérifiez l'éligibilité ALE** — Économisez sur les droits avec une documentation appropriée
 
-### Pourquoi choisir Bowang Autoparts ?
+### Pourquoi choisir Lelion Autoparts ?
 
 - Prix FOB compétitifs avec remises sur volume
 - Support d'expédition FCL et LCL
@@ -558,9 +558,9 @@ Niveau AQL standard : **2,5 pour les défauts majeurs, 4,0 pour les défauts min
 - Dates de production mélangées dans un même carton — mauvaise gestion des stocks
 - Différences de teinte entre les échantillons — production incohérente
 
-### Comment Bowang Autoparts garantit la qualité
+### Comment Lelion Autoparts garantit la qualité
 
-Chez Bowang, la qualité est intégrée à chaque étape de production :
+Chez Lelion, la qualité est intégrée à chaque étape de production :
 
 - 100 % d'inspection des matières premières à la réception
 - 3 postes de contrôle qualité en ligne par ligne de production
@@ -648,7 +648,7 @@ L'erreur la plus coûteuse dans l'approvisionnement en pièces automobiles. Une 
 - Ne versez le solde du paiement qu'après approbation des échantillons
 - Pour les commandes OEM, approuvez ensemble l'épreuve d'emballage et l'échantillon du produit
 
-### Pourquoi choisir Bowang Autoparts ?
+### Pourquoi choisir Lelion Autoparts ?
 
 Nous avons vu chaque erreur de cette liste commise par des acheteurs avant qu'ils ne viennent chez nous. C'est pourquoi nous avons conçu notre processus pour les prévenir :
 

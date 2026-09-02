@@ -31,9 +31,9 @@ export default function Header() {
         <div className="header-inner">
           <div className="header-brand">
             <Link href={l("/")} style={{ textDecoration: "none", display: "flex", alignItems: "center", gap: "12px" }}>
-              <Image src="/logo.jpg" alt="Bowang Wiper" width={112} height={56} priority style={{ height: "56px", width: "auto" }} />
+              <Image src="/logo.jpg" alt="Lelion Wiper" width={112} height={56} priority style={{ height: "56px", width: "auto" }} />
               <div>
-                <span className="header-title">BOWANG WIPER</span>
+                <span className="header-title">LELION WIPER</span>
                 <span className="header-subtitle" style={{ display: "block" }}>Autoparts Manufacturer</span>
               </div>
             </Link>

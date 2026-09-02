@@ -34,7 +34,7 @@ export default function AboutPage() {
       qualityTitle: "Quality & Certifications",
       qualitySub: "We strictly adhere to global automotive quality management standards. Every wiper blade undergoes rigorous testing.",
       milestonesTitle: "Our Development Milestones",
-      milestone1: "Foundation of Bowang Autoparts in Ningbo.",
+      milestone1: "Foundation of Lelion Autoparts in Ningbo.",
       milestone2: "Expanded manufacturing facility to 8,000sqm and introduced automated lines.",
       milestone3: "Obtained IATF 16949 international quality certification.",
       milestone4: "Reaching 50+ export countries and launching high-performance silicone series.",
@@ -56,7 +56,7 @@ export default function AboutPage() {
       qualityTitle: "质量与认证",
       qualitySub: "我们严格遵守全球汽车质量管理标准。每一支雨刮片都经过严格测试。",
       milestonesTitle: "发展里程碑",
-      milestone1: "博旺汽配在宁波成立。",
+      milestone1: "Lelion 在宁波成立。",
       milestone2: "扩建至8,000平方米生产基地并引入自动化产线。",
       milestone3: "获得IATF 16949国际质量认证。",
       milestone4: "出口覆盖50多个国家，推出高性能硅胶系列。",
@@ -78,7 +78,7 @@ export default function AboutPage() {
       qualityTitle: "Calidad y Certificaciones",
       qualitySub: "Nos adherimos estrictamente a los estándares globales de gestión de calidad automotriz. Cada escobilla se somete a pruebas rigurosas.",
       milestonesTitle: "Hitos de Desarrollo",
-      milestone1: "Fundación de Bowang Autoparts en Ningbo.",
+      milestone1: "Fundación de Lelion Autoparts en Ningbo.",
       milestone2: "Ampliación a 8.000m² e introducción de líneas automatizadas.",
       milestone3: "Obtención de la certificación IATF 16949.",
       milestone4: "Exportación a más de 50 países y lanzamiento de serie de silicona de alto rendimiento.",
@@ -100,7 +100,7 @@ export default function AboutPage() {
       qualityTitle: "Качество и Сертификация",
       qualitySub: "Мы строго соблюдаем мировые стандарты управления качеством. Каждая щетка проходит тщательное тестирование.",
       milestonesTitle: "Вехи Развития",
-      milestone1: "Основание Bowang Autoparts в Нинбо.",
+      milestone1: "Основание Lelion Autoparts в Нинбо.",
       milestone2: "Расширение до 8 000 м² и внедрение автоматизированных линий.",
       milestone3: "Получение международной сертификации IATF 16949.",
       milestone4: "Экспорт в более 50 стран и запуск высокопроизводительной силиконовой серии.",
@@ -122,7 +122,7 @@ export default function AboutPage() {
       qualityTitle: "Qualité et Certifications",
       qualitySub: "Nous respectons strictement les normes mondiales de gestion de la qualité automobile. Chaque balai est soumis à des tests rigoureux.",
       milestonesTitle: "Jalons de Développement",
-      milestone1: "Création de Bowang Autoparts à Ningbo.",
+      milestone1: "Création de Lelion Autoparts à Ningbo.",
       milestone2: "Extension à 8 000 m² et introduction de lignes automatisées.",
       milestone3: "Obtention de la certification IATF 16949.",
       milestone4: "Exportation vers plus de 50 pays et lancement de la série silicone haute performance.",
@@ -144,7 +144,7 @@ export default function AboutPage() {
       qualityTitle: "Qualität und Zertifizierungen",
       qualitySub: "Wir halten uns strikt an globale automobile Qualitätsmanagement-Standards. Jedes Wischerblatt wird strengen Tests unterzogen.",
       milestonesTitle: "Entwicklungsmeilensteine",
-      milestone1: "Gründung von Bowang Autoparts in Ningbo.",
+      milestone1: "Gründung von Lelion Autoparts in Ningbo.",
       milestone2: "Erweiterung auf 8.000 m² und Einführung automatisierter Linien.",
       milestone3: "Erhalt der IATF 16949 Zertifizierung.",
       milestone4: "Export in über 50 Länder und Einführung der Hochleistungs-Silikonserie.",
@@ -211,7 +211,7 @@ export default function AboutPage() {
              </div>
           </div>
           <div style={{ flex: "1 1 400px", position: "relative", aspectRatio: "4 / 3" }}>
-             <Image src="https://sc02.alicdn.com/kf/H2533c3c14bc74cd3afe116f60a8357f4U.jpg" alt="Bowang Autoparts Factory Front" fill sizes="(max-width: 900px) 100vw, 50vw" style={{ objectFit: "cover", borderRadius: "16px", boxShadow: "0 20px 50px rgba(0,0,0,0.15)", border: "1px solid #e2e8f0" }} />
+             <Image src="https://sc02.alicdn.com/kf/H2533c3c14bc74cd3afe116f60a8357f4U.jpg" alt="Lelion Autoparts Factory Front" fill sizes="(max-width: 900px) 100vw, 50vw" style={{ objectFit: "cover", borderRadius: "16px", boxShadow: "0 20px 50px rgba(0,0,0,0.15)", border: "1px solid #e2e8f0" }} />
           </div>
         </div>
       </section>

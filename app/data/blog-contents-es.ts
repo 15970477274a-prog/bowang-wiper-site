@@ -37,9 +37,9 @@ Pregunte sobre su proceso de control de calidad:
 - Inspeccion final antes del envio
 - Pruebas de laboratorio de durabilidad (1M+ ciclos de barrido)
 
-### Por que destaca Bowang Autoparts
+### Por que destaca Lelion Autoparts
 
-Ubicada en Ningbo, China, Bowang Autoparts fabrica escobillas limpiaparabrisas de alta calidad desde 2011. Nuestra planta de 8.000 m2 produce mas de 12 millones de unidades al ano, abasteciendo a distribuidores en mas de 50 paises.
+Ubicada en Ningbo, China, Lelion Autoparts fabrica escobillas limpiaparabrisas de alta calidad desde 2011. Nuestra planta de 8.000 m2 produce mas de 12 millones de unidades al ano, abasteciendo a distribuidores en mas de 50 paises.
 
 Ofrecemos:
 - Produccion certificada ISO 9001 e IATF 16949
@@ -88,7 +88,7 @@ Las escobillas hibridas modernas combinan un borde de barrido de caucho natural 
 
 ### Nuestra recomendacion
 
-En Bowang Autoparts fabricamos los tres tipos:
+En Lelion Autoparts fabricamos los tres tipos:
 - **Serie BW-802:** Caucho natural grado AA con recubrimiento de teflon -- nuestra escobilla universal mas vendida
 - **Serie BW-861:** Escobilla multicompuesto premium con 12 adaptadores -- cubre el 95% de los vehiculos
 - **OEM personalizado:** Podemos formular el compuesto de caucho segun sus especificaciones
@@ -145,7 +145,7 @@ Asegurese de tener:
 
 ### Listo para empezar?
 
-Bowang Autoparts da la bienvenida a nuevos distribuidores en todo el mundo. Ofrecemos apoyo con muestras, MOQ flexible y documentacion completa de exportacion.
+Lelion Autoparts da la bienvenida a nuevos distribuidores en todo el mundo. Ofrecemos apoyo con muestras, MOQ flexible y documentacion completa de exportacion.
 
 [Contactenos hoy](/contact) para hablar de su mercado objetivo y sus necesidades de volumen.`,
 
@@ -187,7 +187,7 @@ Mas alla de las certificaciones, solicite:
 - **Prueba de resistencia al frio** -- flexibilidad a -20 grados C
 - **Prueba de durabilidad de barrido** -- ciclos hasta fallo
 
-### Certificaciones de Bowang Autoparts
+### Certificaciones de Lelion Autoparts
 
 Nuestra planta cuenta con ISO 9001:2015 y esta certificada IATF 16949. Proporcionamos documentacion completa de pruebas con cada envio. [Vea nuestros certificados](/about) o [descargue nuestro manual de calidad](/Catalog.pdf).`,
 
@@ -227,7 +227,7 @@ Las preocupaciones medioambientales influyen en las compras:
 - Materiales de embalaje reciclables
 - Procesos de fabricacion sostenibles
 
-### Como esta respondiendo Bowang Autoparts
+### Como esta respondiendo Lelion Autoparts
 
 Ampliamos continuamente nuestra linea de productos para satisfacer las demandas cambiantes del mercado:
 - Nueva serie de silicona que se lanza en 2026
@@ -235,7 +235,7 @@ Ampliamos continuamente nuestra linea de productos para satisfacer las demandas 
 - Opciones de embalaje ecologico disponibles
 - Catalogo digital con especificaciones tecnicas completas
 
-[Asociese con Bowang](/contact) para mantenerse a la vanguardia de estas tendencias del mercado.`,
+[Asociese con Lelion](/contact) para mantenerse a la vanguardia de estas tendencias del mercado.`,
 
   "oem-private-label-wiper-blades-guide": `## Por que el OEM y la marca privada son importantes para los importadores de escobillas
 
@@ -249,7 +249,7 @@ Comprender estos terminos es esencial antes de contactar con proveedores:
 - **ODM (Fabricante de Diseno Original):** La fabrica ofrece disenos de producto existentes que usted puede personalizar con su marca. Menor coste inicial y llegada mas rapida al mercado. Ideal para la mayoria de los importadores.
 - **Marca Privada:** Usted selecciona del catalogo de la fabrica y anade su propio nombre de marca, logotipo y embalaje. Plazo mas rapido, inversion minima.
 
-La mayoria de los clientes de Bowang comienzan con marca privada u ODM antes de pasar a proyectos OEM personalizados.
+La mayoria de los clientes de Lelion comienzan con marca privada u ODM antes de pasar a proyectos OEM personalizados.
 
 ### Opciones de personalizacion de marca para escobillas
 
@@ -309,7 +309,7 @@ El embalaje es su vendedor silencioso en las estanterias y plataformas de comerc
 - **OEM completo con molde personalizado:** 3.000-5.000 pcs por SKU
 - **Contenedor mixto (varios SKU):** 5.000-10.000 pcs en total
 
-En Bowang ofrecemos MOQ flexible para nuevas colaboraciones.
+En Lelion ofrecemos MOQ flexible para nuevas colaboraciones.
 
 ### Como empezar
 
@@ -320,7 +320,7 @@ En Bowang ofrecemos MOQ flexible para nuevas colaboraciones.
 5. **Confirme las especificaciones** -- Finalice todos los detalles en una confirmacion de pedido por escrito
 6. **Produccion y control de calidad** -- Fabricamos e inspeccionamos antes del envio
 
-### Por que elegir Bowang para su proyecto OEM/ODM?
+### Por que elegir Lelion para su proyecto OEM/ODM?
 
 - Mas de 15 anos de fabricacion de escobillas desde 2011
 - Fabrica certificada ISO 9001 e IATF 16949
@@ -444,7 +444,7 @@ El coste en destino es solo $0.07 superior al precio FOB: apenas un 8.2% mas. Po
 6. **Planifique con antelacion** -- Los envios urgentes cuestan un 30-50% mas
 7. **Verifique la elegibilidad para TLC** -- Ahorre en aranceles con la documentacion adecuada
 
-### Por que asociarse con Bowang Autoparts?
+### Por que asociarse con Lelion Autoparts?
 
 - Precios FOB competitivos con descuentos por volumen
 - Soporte para envio FCL y LCL
@@ -558,9 +558,9 @@ Nivel AQL estandar: **2.5 para defectos mayores, 4.0 para defectos menores.**
 - Fechas de produccion mezcladas en una misma caja -- mala gestion de inventario
 - Diferencias de tono de color entre muestras -- produccion inconsistente
 
-### Como Bowang Autoparts garantiza la calidad
+### Como Lelion Autoparts garantiza la calidad
 
-En Bowang, la calidad esta integrada en cada etapa de produccion:
+En Lelion, la calidad esta integrada en cada etapa de produccion:
 
 - Inspeccion del 100% de materias primas entrantes
 - 3 puntos de control de calidad en linea por linea de produccion
@@ -648,7 +648,7 @@ El error mas caro en el abastecimiento de autopartes. Un envio al por mayor que 
 - Solo libere el pago del saldo despues de aprobar las muestras
 - Para pedidos OEM, apruebe la prueba de embalaje y la muestra del producto simultaneamente
 
-### Por que asociarse con Bowang Autoparts?
+### Por que asociarse con Lelion Autoparts?
 
 Hemos visto a compradores cometer cada error de esta lista antes de llegar a nosotros. Por eso disenamos nuestro proceso para prevenirlos:
 

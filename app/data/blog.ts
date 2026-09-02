@@ -16,7 +16,7 @@ export const blogPosts: BlogPost[] = [
     title: "How to Choose the Right Wiper Blade Manufacturer for Your Business",
     excerpt: "A comprehensive guide for global distributors and importers looking to source high-quality wiper blades from China. Learn about quality standards, MOQ, certifications, and supplier evaluation.",
     date: "2026-06-15",
-    author: "Bowang Technical Team",
+    author: "Lelion Technical Team",
     category: "Buying Guide",
     tags: ["wiper blade manufacturer", "China supplier", "OEM wiper blades", "sourcing guide", "B2B procurement"],
     image: "https://sc02.alicdn.com/kf/H2533c3c14bc74cd3afe116f60a8357f4U.jpg",
@@ -59,9 +59,9 @@ Ask about their QC process:
 - Final inspection before shipment
 - Lab testing for durability (1M+ wipe cycles)
 
-### Why Bowang Autoparts Stands Out
+### Why Lelion Autoparts Stands Out
 
-Located in Ningbo, China, Bowang Autoparts has been manufacturing premium wiper blades since 2011. Our 8,000sqm facility produces over 12 million units annually, serving distributors in 50+ countries.
+Located in Ningbo, China, Lelion Autoparts has been manufacturing premium wiper blades since 2011. Our 8,000sqm facility produces over 12 million units annually, serving distributors in 50+ countries.
 
 We offer:
 - ISO 9001 & IATF 16949 certified production
@@ -77,7 +77,7 @@ We offer:
     title: "Natural Rubber vs Silicone Wiper Blades: Complete Material Guide for Buyers",
     excerpt: "Understand the differences between natural rubber, silicone, and hybrid wiper blade materials. Make informed sourcing decisions for your target market.",
     date: "2026-06-10",
-    author: "Bowang Technical Team",
+    author: "Lelion Technical Team",
     category: "Technical Guide",
     tags: ["wiper blade materials", "natural rubber", "silicone wiper", "wiper blade quality", "automotive parts"],
     image: "https://sc02.alicdn.com/kf/H3fc79edf0c004afebbb2c992eb4cc6edX.png",
@@ -121,7 +121,7 @@ Modern hybrid blades combine a natural rubber wiping edge with a silicone-coated
 
 ### Our Recommendation
 
-At Bowang Autoparts, we manufacture all three types:
+At Lelion Autoparts, we manufacture all three types:
 - **BW-802 Series:** AA-grade natural rubber with Teflon coating — our best-selling universal blade
 - **BW-861 Series:** Premium multi-compound blade with 12 adapters — covers 95% of vehicles
 - **Custom OEM:** We can formulate the rubber compound to your specifications
@@ -134,7 +134,7 @@ At Bowang Autoparts, we manufacture all three types:
     title: "How to Import Wiper Blades from China: A Complete B2B Guide",
     excerpt: "Step-by-step guide for first-time importers of wiper blades from Chinese manufacturers. Covering MOQ, pricing, shipping, customs, and quality assurance.",
     date: "2026-06-05",
-    author: "Bowang Technical Team",
+    author: "Lelion Technical Team",
     category: "Import Guide",
     tags: ["import from China", "wiper blade wholesale", "B2B import guide", "shipping", "customs clearance"],
     image: "https://sc02.alicdn.com/kf/Hb0410965e6194f008a583d7f500e1b7at.png",
@@ -189,7 +189,7 @@ Ensure you have:
 
 ### Ready to Start?
 
-Bowang Autoparts welcomes new distributors worldwide. We offer sample support, flexible MOQ, and full export documentation.
+Lelion Autoparts welcomes new distributors worldwide. We offer sample support, flexible MOQ, and full export documentation.
 
 [Contact us today](/contact) to discuss your target market and volume requirements.
     `.trim()
@@ -199,7 +199,7 @@ Bowang Autoparts welcomes new distributors worldwide. We offer sample support, f
     title: "Wiper Blade Quality Certifications Explained: ISO, IATF, CE, and More",
     excerpt: "What do ISO 9001, IATF 16949, and CE certifications mean for wiper blade quality? A detailed explanation for B2B buyers and procurement professionals.",
     date: "2026-05-28",
-    author: "Bowang Technical Team",
+    author: "Lelion Technical Team",
     category: "Industry Knowledge",
     tags: ["ISO 9001", "IATF 16949", "CE certification", "wiper blade quality", "automotive standards"],
     image: "https://sc02.alicdn.com/kf/He68d042a711e42babef62c2ebea3ee2fN.png",
@@ -242,7 +242,7 @@ Beyond certifications, ask for:
 - **Cold resistance test** — flexibility at -20°C
 - **Wipe durability test** — cycles to failure
 
-### Bowang Autoparts Certifications
+### Lelion Autoparts Certifications
 
 Our facility holds ISO 9001:2015 and is IATF 16949 certified. We provide full test documentation with every shipment. [View our certificates](/about) or [download our quality manual](/Catalog.pdf).
     `.trim()
@@ -252,7 +252,7 @@ Our facility holds ISO 9001:2015 and is IATF 16949 certified. We provide full te
     title: "2026 Automotive Aftermarket Trends: Opportunities for Wiper Blade Distributors",
     excerpt: "Discover the key trends shaping the global automotive aftermarket in 2026 and how wiper blade distributors can capitalize on emerging opportunities.",
     date: "2026-05-20",
-    author: "Bowang Technical Team",
+    author: "Lelion Technical Team",
     category: "Market Insights",
     tags: ["automotive aftermarket", "market trends", "wiper blade industry", "B2B opportunities", "2026 trends"],
     image: "https://sc02.alicdn.com/kf/Hf62654b25ce145c596b525b489f1a81aW.png",
@@ -293,7 +293,7 @@ Environmental concerns are influencing purchasing:
 - Recyclable packaging materials
 - Sustainable manufacturing processes
 
-### How Bowang Autoparts Is Responding
+### How Lelion Autoparts Is Responding
 
 We are continuously expanding our product line to meet evolving market demands:
 - New silicone series launching in 2026
@@ -301,7 +301,7 @@ We are continuously expanding our product line to meet evolving market demands:
 - Eco-friendly packaging options available
 - Digital catalog with full technical specs
 
-[Partner with Bowang](/contact) to stay ahead of these market trends.
+[Partner with Lelion](/contact) to stay ahead of these market trends.
     `.trim()
   }
 ,
@@ -310,7 +310,7 @@ We are continuously expanding our product line to meet evolving market demands:
     title: "OEM & Private Label Wiper Blades: Complete Guide for Importers & Distributors",
     excerpt: "Everything B2B buyers need to know about OEM and private label wiper blade manufacturing. From custom branding and packaging to MOQ and production timelines.",
     date: "2026-07-12",
-    author: "Bowang Technical Team",
+    author: "Lelion Technical Team",
     category: "Buying Guide",
     tags: ["OEM wiper blades", "private label wiper", "custom wiper blade", "wiper blade branding", "wiper blade packaging", "B2B sourcing"],
     image: "/packaging/paper-box-package.jpg",
@@ -326,7 +326,7 @@ Understanding these terms is essential before contacting suppliers:
 - **ODM (Original Design Manufacturer)**: The factory offers existing product designs that you can customize with your branding. Lower upfront cost and faster to market. Ideal for most importers.
 - **Private Label**: You select from the factory catalog and add your own brand name, logo, and packaging. Quickest turnaround, minimal investment.
 
-Most Bowang clients start with private label or ODM before scaling to custom OEM projects.
+Most Lelion clients start with private label or ODM before scaling to custom OEM projects.
 
 ### Custom Branding Options for Wiper Blades
 
@@ -386,7 +386,7 @@ Packaging is your silent salesperson on retail shelves and e-commerce platforms:
 - **Full OEM with custom mold**: 3,000-5,000 pcs per SKU
 - **Mixed container (multiple SKUs)**: 5,000-10,000 pcs total
 
-At Bowang, we offer flexible MOQ for new partnerships.
+At Lelion, we offer flexible MOQ for new partnerships.
 
 ### How to Get Started
 
@@ -397,7 +397,7 @@ At Bowang, we offer flexible MOQ for new partnerships.
 5. **Confirm Specifications** �� Finalize all details in a written order confirmation
 6. **Production & QC** �� We manufacture and inspect before shipping
 
-### Why Choose Bowang for Your OEM/ODM Project?
+### Why Choose Lelion for Your OEM/ODM Project?
 
 - 15+ years of wiper blade manufacturing since 2011
 - ISO 9001 & IATF 16949 certified factory
@@ -415,7 +415,7 @@ At Bowang, we offer flexible MOQ for new partnerships.
     title: "Wiper Blade Import Cost Guide: FOB, Freight, Duties & Landed Price Breakdown",
     excerpt: "Complete guide to calculating true import costs for wiper blades from China. FOB pricing, sea freight rates, import duties, and landed cost examples for B2B buyers.",
     date: "2026-07-19",
-    author: "Bowang Technical Team",
+    author: "Lelion Technical Team",
     category: "Buying Guide",
     tags: ["wiper blade import cost", "wiper blade FOB price", "sea freight China", "import duties wiper", "landed cost", "B2B sourcing", "China shipping"],
     image: "https://sc02.alicdn.com/kf/Hb0410965e6194f008a583d7f500e1b7at.png",
@@ -531,7 +531,7 @@ The landed cost is only $0.07 higher than the FOB price �� just 8.2% more. T
 6. **Plan ahead** �� Rush shipments cost 30-50% more
 7. **Check FTA eligibility** �� Save on duties with proper documentation
 
-### Why Partner with Bowang Autoparts?
+### Why Partner with Lelion Autoparts?
 
 - Competitive FOB pricing with volume discounts
 - FCL and LCL shipping support
@@ -547,7 +547,7 @@ The landed cost is only $0.07 higher than the FOB price �� just 8.2% more. T
     title: "Wiper Blade Quality Testing: Complete Inspection Guide Before Bulk Orders",
     excerpt: "Learn how to inspect wiper blade quality before placing bulk orders. Covers lab testing, AQL sampling, factory audits, material verification, and packaging tests for B2B buyers.",
     date: "2026-07-29",
-    author: "Bowang Technical Team",
+    author: "Lelion Technical Team",
     category: "Quality Control",
     tags: ["wiper blade quality testing", "AQL inspection", "wiper blade lab test", "factory audit", "bulk order QC", "B2B quality control", "wiper blade inspection"],
     image: "https://sc02.alicdn.com/kf/Hb31ab6aad6c947558d269b45b921199bz.png",
@@ -655,9 +655,9 @@ Standard AQL level: **2.5 for major defects, 4.0 for minor defects.**
 - Mixed production dates in one carton �� poor inventory management
 - Different shade colors between samples �� inconsistent production
 
-### How Bowang Autoparts Ensures Quality
+### How Lelion Autoparts Ensures Quality
 
-At Bowang, quality is built into every production stage:
+At Lelion, quality is built into every production stage:
 
 - 100% incoming raw material inspection
 - 3 in-line QC checkpoints per production line
@@ -674,7 +674,7 @@ At Bowang, quality is built into every production stage:
     title: "7 Common Mistakes When Sourcing Auto Parts from China (And How to Avoid Them)",
     excerpt: "Avoid costly errors when importing auto parts from Chinese manufacturers. Learn the 7 most common sourcing mistakes and practical strategies to ensure quality, cost control, and reliable delivery.",
     date: "2026-08-03",
-    author: "Bowang Technical Team",
+    author: "Lelion Technical Team",
     category: "Sourcing Guide",
     tags: ["auto parts sourcing China", "China supplier mistakes", "B2B procurement", "import from China", "supplier evaluation", "quality control China", "sourcing guide"],
     image: "https://sc02.alicdn.com/kf/H1be823d630b64d1f853a7537099aab2bJ.jpg",
@@ -755,7 +755,7 @@ The single most expensive mistake in auto parts sourcing. A bulk shipment that d
 - Only release the balance payment after sample approval
 - For OEM orders, approve the packaging proof and product sample together
 
-### Why Partner with Bowang Autoparts?
+### Why Partner with Lelion Autoparts?
 
 We have seen every mistake on this list made by buyers before they came to us. That is why we built our process to prevent them:
 
@@ -774,7 +774,7 @@ We have seen every mistake on this list made by buyers before they came to us. T
     title: "Universal vs Beam vs Hybrid Wiper Blades: Complete Sourcing Guide (2026)",
     excerpt: "Compare framed universal, beam, and hybrid wiper blades for your market. Price ranges, durability, wind lift, winter performance, MOQ, and sourcing recommendations for importers and distributors.",
     date: "2026-08-17",
-    author: "Bowang Technical Team",
+    author: "Lelion Technical Team",
     category: "Technical Guide",
     tags: ["universal wiper blades", "beam wiper blades", "hybrid wiper blades", "wiper blade comparison", "wiper blade types", "windshield wiper sourcing"],
     image: "https://sc02.alicdn.com/kf/Hb0410965e6194f008a583d7f500e1b7at.png",
@@ -890,9 +890,9 @@ For factory-direct sourcing in 2026:
 
 Packaging also shifts by type: universal and beam blades fit blister cards and color boxes; hybrid blades often need window boxes due to the shell. If you sell on Amazon FBA, compact beam packaging can meaningfully reduce per-unit FBA fees. See our [wiper blade import cost guide](/blog/wiper-blade-import-cost-guide) for the full landed-cost calculation.
 
-## How Bowang Supports All Three Types
+## How Lelion Supports All Three Types
 
-Bowang Autoparts manufactures universal, beam, hybrid, and specific-fit wiper blades in one 8,000 sqm ISO 9001 and IATF 16949 certified factory. You can source all three types from a single supplier — which simplifies quality control, packaging consistency, and container consolidation. Examples from our catalog: the [BW-802 universal frameless blade](/products/bw-802-universal-wiper-blade), the [BW-861 multi-function blade with 22 adapters](/products/bw-861-multifunction-wiper-blade), and specific-fit models such as the [BW-201 for Tesla Model X](/products/bw-201-specific-fit-tesla-model-x).
+Lelion Autoparts manufactures universal, beam, hybrid, and specific-fit wiper blades in one 8,000 sqm ISO 9001 and IATF 16949 certified factory. You can source all three types from a single supplier — which simplifies quality control, packaging consistency, and container consolidation. Examples from our catalog: the [BW-802 universal frameless blade](/products/bw-802-universal-wiper-blade), the [BW-861 multi-function blade with 22 adapters](/products/bw-861-multifunction-wiper-blade), and specific-fit models such as the [BW-201 for Tesla Model X](/products/bw-201-specific-fit-tesla-model-x).
 
 All models support private label branding, custom packaging, and pre-production samples before bulk orders.
 
@@ -916,7 +916,7 @@ Usually yes, if the blade ships with the right adapter set. Many beam blades inc
 
 ### What is the MOQ when mixing wiper blade types in one order?
 
-Most manufacturers, including Bowang, allow mixed-model containers. A typical starting order is 500 pcs per model with 2-3 models combined to reach container volume. Combining universal, beam, and hybrid in one shipment is standard practice and improves freight efficiency.
+Most manufacturers, including Lelion, allow mixed-model containers. A typical starting order is 500 pcs per model with 2-3 models combined to reach container volume. Combining universal, beam, and hybrid in one shipment is standard practice and improves freight efficiency.
 
 ### Which wiper blade type should I stock for e-commerce?
 
@@ -924,6 +924,6 @@ For Amazon and online retail, beam blades dominate search demand in the US and E
 
 ---
 
-**About the Author:** This guide was prepared by the Bowang Technical Team, the export engineering group at Ningbo Zhenhai Bowang Autoparts Co., Ltd. The team has 15+ years of combined experience in wiper blade design, quality testing (ISO 9259, SAE J903, ASTM B117), and aftermarket export to 50+ countries. For specification questions or sourcing advice, [contact our export team](/contact) or request pre-production samples.`
+**About the Author:** This guide was prepared by the Lelion Technical Team, the export engineering group at Ningbo Zhenhai Bowang Autoparts Co., Ltd. The team has 15+ years of combined experience in wiper blade design, quality testing (ISO 9259, SAE J903, ASTM B117), and aftermarket export to 50+ countries. For specification questions or sourcing advice, [contact our export team](/contact) or request pre-production samples.`
   }
 ];
