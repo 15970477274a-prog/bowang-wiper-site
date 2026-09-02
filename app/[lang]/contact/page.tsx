@@ -103,7 +103,7 @@ export default function ContactPage() {
             <div style={{ backgroundColor: "#f8fafc", border: "1px solid #e2e8f0", borderRadius: "10px", padding: "16px 18px", marginBottom: "24px", fontSize: "13px", color: "#334155", lineHeight: 1.8 }}>
               <div style={{ fontWeight: 800, color: "#0f172a", marginBottom: "6px" }}>✓ Verified Factory & Certifications</div>
               <div>ISO 9001:2015 · No. 134956 (NQA)</div>
-              <div>IATF 16949:2016 · No. M.2022.206.C79712 (UDEM)</div>
+              <div>CE Certificate · No. M.2022.206.C79712 (UDEM)</div>
               <div>MOQ from 100 pcs per size (most models)</div>
               <a href="https://youtu.be/ppMeBaDm2hk" target="_blank" rel="noopener noreferrer" style={{ color: "#0284c7", fontWeight: 700 }}>▶ Watch Factory Video</a>
             </div>
