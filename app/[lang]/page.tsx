@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useState, useEffect } from "react";
 import { useParams } from "next/navigation";
@@ -100,7 +100,7 @@ export default function Home() {
     "image": "https://www.lelionautopart.com/banner.webp",
     "@id": "https://www.lelionautopart.com/",
     "url": "https://www.lelionautopart.com/",
-    "telephone": "+86-18967886795",
+    "telephone": "+86-18867886795",
     "email": "bwb@bwwiper.com",
     "address": {
       "@type": "PostalAddress",

@@ -118,7 +118,7 @@ export async function POST(request: Request) {
             '</tr>' +
             '<tr>' +
               '<td style="padding: 10px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;">WhatsApp / Phone:</td>' +
-              '<td style="padding: 10px 0; border-bottom: 1px solid #f1f5f9;"><a href="https://wa.me/' + (eWhatsapp ? eWhatsapp.replace(/[^0-9]/g, "") : "8618967886795") + '">' + (eWhatsapp || "N/A") + '</a></td>' +
+              '<td style="padding: 10px 0; border-bottom: 1px solid #f1f5f9;"><a href="https://wa.me/' + (eWhatsapp ? eWhatsapp.replace(/[^0-9]/g, "") : "8618867886795") + '">' + (eWhatsapp || "N/A") + '</a></td>' +
             '</tr>' +
             '<tr>' +
               '<td style="padding: 10px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;">Est. Quantity:</td>' +

@@ -68,7 +68,7 @@ export const de: TranslationDict = {
     contactProductLabel: "Gewünschtes Produkt *",
     contactMessageLabel: "Anforderungen / Nachricht *",
     contactWhatsappLabel: "WhatsApp / Telefon",
-    contactWhatsappPlaceholder: "+86 189 6788 6795",
+    contactWhatsappPlaceholder: "+86 188 6788 6795",
     contactQuantityLabel: "Geschätzte Menge",
     contactQuantityPlaceholder: "z.B. 500 Stück / Probebestellung",
     contactNamePlaceholder: "Max Mustermann",
