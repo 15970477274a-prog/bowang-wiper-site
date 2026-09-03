@@ -18,12 +18,12 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   };
 
   const descriptions: Record<string, string> = {
-    en: "Leading OEM/ODM wiper blade manufacturer in China. ISO 9001 certified factory.",
-    es: "Fabricante lider de escobillas limpiaparabrisas OEM/ODM en China. Fabrica certificada ISO 9001.",
-    ru: "\u0412\u0435\u0434\u0443\u0449\u0438\u0439 \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044c \u0441\u0442\u0435\u043a\u043b\u043e\u043e\u0447\u0438\u0441\u0442\u0438\u0442\u0435\u043b\u0435\u0439 OEM/ODM \u0432 \u041a\u0438\u0442\u0430\u0435.",
-    fr: "Principal fabricant de balais d''essuie-glace OEM/ODM en Chine. Usine certifiee ISO 9001.",
-    de: "Fuhrender OEM/ODM-Wischerblatt-Hersteller in China. ISO 9001 zertifizierte Fabrik.",
-    zh: "中国领先的OEM/ODM雨刮片制造商。ISO 9001认证工厂。",
+    en: "Lelion is a leading OEM/ODM wiper blade manufacturer in China. ISO 9001 & CE certified factory, MOQ 100 pcs/size, 15-day lead time, free samples, and global shipping.",
+    es: "Lelion es un fabricante líder de escobillas limpiaparabrisas OEM/ODM en China. Fábrica certificada ISO 9001 y CE, MOQ 100 uds/talla, plazo de 15 días, muestras gratis y envío global.",
+    ru: "Lelion — ведущий OEM/ODM производитель стеклоочистителей в Китае. Сертификация ISO 9001 и CE, MOQ 100 шт/размер, срок 15 дней, бесплатные образцы и доставка по всему миру.",
+    fr: "Lelion est un fabricant leader de balais d'essuie-glace OEM/ODM en Chine. Usine certifiée ISO 9001 et CE, MOQ 100 pcs/taille, délai de 15 jours, échantillons gratuits et expédition mondiale.",
+    de: "Lelion ist ein führender OEM/ODM-Hersteller von Wischerblättern in China. ISO 9001- und CE-zertifizierte Fabrik, MOQ 100 Stk./Größe, Lieferzeit 15 Tage, kostenlose Muster und weltweiter Versand.",
+    zh: "Lelion 是中国领先的 OEM/ODM 雨刮片制造商。ISO 9001 与 CE 认证工厂，MOQ 100 支/尺寸，交期 15 天，免费打样，全球发货。",
   };
 
   return {
