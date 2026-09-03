@@ -32,6 +32,12 @@ export default function ProductDetail() {
     { q: t.faqQ1, a: t.faqA1 }, { q: t.faqQ2, a: t.faqA2 }, { q: t.faqQ3, a: t.faqA3 },
     { q: t.faqQ4, a: t.faqA4 }, { q: t.faqQ5, a: t.faqA5 }, { q: t.faqQ6, a: t.faqA6 }
   ];
+  const reviews = [
+    { text: "Great product and service, will work with Ken once again.", name: "W****l", meta: "United States · 25 Aug 2026", date: "2026-08-25" },
+    { text: "Great products, great prices—their staff are very professional.", name: "T****a", meta: "United States · 02 Aug 2026", date: "2026-08-02" },
+    { text: "Excelente servicio, tal cual lo que pedimos de principio a fin.", name: "V****z", meta: "United States · 04 Aug 2026", date: "2026-08-04" }
+  ];
+
 
   if (!product) {
     return (
@@ -74,7 +80,20 @@ const relatedBlog = blogPosts
       "@type": "Offer",
       "availability": "https://schema.org/InStock",
       "itemCondition": "https://schema.org/NewCondition"
-    }
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.7",
+      "reviewCount": "39",
+      "bestRating": "5"
+    },
+    "review": reviews.map((r) => ({
+      "@type": "Review",
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+      "author": { "@type": "Person", "name": r.name },
+      "datePublished": r.date,
+      "reviewBody": r.text
+    }))
   };
 
   const detailBreadcrumbSchema = {
@@ -262,6 +281,30 @@ const relatedBlog = blogPosts
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Customer Reviews */}
+      <section className="section section-white">
+        <div className="container">
+          <div style={{ textAlign: "center", marginBottom: "50px" }}>
+            <div style={{ display: "inline-block", backgroundColor: "#0284c7", color: "white", padding: "8px 20px", borderRadius: "20px", fontSize: "14px", fontWeight: 700, marginBottom: "18px" }}>4.7 / 5 · 39 Reviews</div>
+            <h2 className="section-title">{t.reviewsTitle}</h2>
+            <p className="section-subtitle">{t.reviewsSubtitle}</p>
+          </div>
+          <div className="grid-products" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))" }}>
+            {reviews.map((r, i) => (
+              <div key={i} className="card" style={{ padding: "28px", display: "flex", flexDirection: "column", textAlign: "left" }}>
+                <div style={{ color: "#f59e0b", fontSize: "18px", letterSpacing: "2px", marginBottom: "15px" }}>★★★★★</div>
+                <p style={{ color: "#334155", lineHeight: 1.7, fontSize: "15px", flex: 1, margin: 0 }}>“{r.text}”</p>
+                <div style={{ marginTop: "20px", borderTop: "1px solid #e2e8f0", paddingTop: "15px" }}>
+                  <div style={{ fontWeight: 700, color: "#0f172a" }}>{r.name}</div>
+                  <div style={{ color: "#94a3b8", fontSize: "13px" }}>{r.meta}</div>
+                </div>
+              </div>
+            ))}
+          </div>
+          <p style={{ textAlign: "center", color: "#94a3b8", fontSize: "13px", marginTop: "30px", marginBottom: 0 }}>{t.reviewsSource}</p>
         </div>
       </section>
 

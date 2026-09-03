@@ -460,7 +460,7 @@ export const allProducts: Product[] = [
     name: "BW-808 Hybrid Wiper Blade - Three-Section Design (12-28 inch)",
     moq: "500 PCS",
     desc: "Premium three-section hybrid wiper blade combining aerodynamic beam design with durable metal-frame construction. Fits 95% of vehicles with U-Hook arms.",
-    longDesc: "The BW-808 Hybrid Wiper Blade combines the aerodynamic properties of a beam blade with the robust construction of a conventional metal-frame wiper. As a professional three-section hybrid design, it provides multiple pressure points for a streak-free wipe across the entire blade length. The protective shell shields the internal tension spring from ice, snow, and debris build-up, ensuring reliable year-round performance. Features graphite-coated natural rubber for silent operation in extreme temperatures from -40?C to +100?C. The universal hook adapter fits most J-Hook and U-Hook wiper arms, covering 95% of vehicles. Compatible with Denso Hybrid, Trico Sentry, Michelin Stealth, and Bosch Vantage series. As a trusted China wiper blade manufacturer, every BW-808 undergoes rigorous quality testing including salt spray corrosion, ozone durability, and cold flexibility tests. Available in sizes 12 to 28 inches with full OEM/ODM support including custom logo and packaging.",
+    longDesc: "The BW-808 Hybrid Wiper Blade combines the aerodynamic properties of a beam blade with the robust construction of a conventional metal-frame wiper. As a professional three-section hybrid design, it provides multiple pressure points for a streak-free wipe across the entire blade length. The protective shell shields the internal tension spring from ice, snow, and debris build-up, ensuring reliable year-round performance. Features graphite-coated natural rubber for silent operation in extreme temperatures from -40°C to +100°C. The universal hook adapter fits most J-Hook and U-Hook wiper arms, covering 95% of vehicles. Compatible with Denso Hybrid, Trico Sentry, Michelin Stealth, and Bosch Vantage series. As a trusted China wiper blade manufacturer, every BW-808 undergoes rigorous quality testing including salt spray corrosion, ozone durability, and cold flexibility tests. Available in sizes 12 to 28 inches with full OEM/ODM support including custom logo and packaging.",
     specs: [
       "Three-Section Hybrid Design - Beam + Metal Frame Construction",
       "Multiple Pressure Points for Streak-Free Wipe",
@@ -468,7 +468,7 @@ export const allProducts: Product[] = [
       "Graphite-Coated Natural Rubber for Silent Operation",
       "Universal U-Hook Adapter - Fits 9x3 & 9x4 Hook Arms",
       "Vehicle Coverage: 95% of Vehicles with Hook-Type Arms",
-      "Temperature Range: -40?C to +100?C",
+      "Temperature Range: -40°C to +100°C",
       "Available Sizes: 12 to 28 inch",
       "Compatible: Denso Hybrid, Trico Sentry, Michelin Stealth, Bosch Vantage",
       "OEM/ODM: Custom Logo, Packaging, Private Label Available"
@@ -487,7 +487,7 @@ export const allProducts: Product[] = [
       "Adapter Type": "Universal U-Hook (Fits 9x3 & 9x4)",
       "Vehicle Coverage": "95% of Vehicles with Hook-Type Arms",
       "Available Sizes": "12 to 28 inch",
-      "Operating Temperature": "-40?C to +100?C",
+      "Operating Temperature": "-40°C to +100°C",
       "Compatible Series": "Denso Hybrid, Trico Sentry, Michelin Stealth, Bosch Vantage",
       "HS Code": "85124000",
       "OEM Service": "Custom Logo / Custom Packaging Available"
