@@ -100,14 +100,14 @@ export default function ProductsPage() {
                     padding: "20px"
                   }}>
                      <span style={{ position: "absolute", top: "20px", left: "20px", backgroundColor: "#ecfdf5", color: "#059669", fontSize: "11px", fontWeight: "bold", padding: "5px 12px", borderRadius: "6px", zIndex: 10 }}>{p.tag}</span>
-                     <Image src={p.image} alt={p.name} fill sizes="(max-width: 768px) 100vw, 33vw" style={{ objectFit: "contain" }} />
+                     <Image src={p.image} alt={p.name} fill sizes="(max-width: 768px) 100vw, 33vw" style={{ objectFit: "contain" }} loading="lazy" />
                   </Link>
                   <div style={{ padding: "25px", flexGrow: 1, display: "flex", flexDirection: "column" }}>
                     <h3 style={{ fontSize: "19px", fontWeight: 800, marginBottom: "10px" }}>
                       <Link href={l(`/products/${p.id}`)} style={{ color: "#0f172a", textDecoration: "none" }}>{(getProductTranslation(p.id, lang)?.name || p.name)}</Link>
                     </h3>
                     <div style={{ marginBottom: "20px" }}>
-                      <span style={{ fontSize: "13px", color: "#64748b", fontWeight: 600 }}>MOQ: {p.moq}</span>
+                      <span style={{ fontSize: "13px", color: "#64748b", fontWeight: 600 }}>MOQ: {p.moq}</span><span style={{ fontSize: "13px", color: "#64748b", fontWeight: 600 }}>{t.leadTimeLabel}: {t.leadTimeValue}</span>
                     </div>
                     <ul style={{ padding: 0, margin: "0 0 25px 0", listStyle: "none" }}>
                       {(getProductTranslation(p.id, lang)?.specs || p.specs).slice(0, 3).map((s, i) => (

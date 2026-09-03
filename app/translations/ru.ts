@@ -191,6 +191,8 @@ export const ru: TranslationDict = {
     contactAvailableOn: "Доступно в WhatsApp и WeChat",
     whatsappMe: "Написать в WhatsApp",
     emailUs: "Написать Нам",
+    leadTimeLabel: "Срок поставки",
+    leadTimeValue: "15-25 дней",
     trustMoa: "MOQ 100 шт/размер",
     trustLeadTime: "Срок 15 дней",
     trustShipping: "50+ стран",

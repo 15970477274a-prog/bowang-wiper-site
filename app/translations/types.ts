@@ -192,6 +192,8 @@ export interface TranslationDict {
   contactAvailableOn: string;
   whatsappMe: string;
   emailUs: string;
+  leadTimeLabel: string;
+  leadTimeValue: string;
   trustMoa: string;
   trustLeadTime: string;
   trustShipping: string;

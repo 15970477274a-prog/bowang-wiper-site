@@ -194,11 +194,12 @@ export default function Home() {
               return (
             <div key={p.id} style={{ backgroundColor: "white", borderRadius: "12px", overflow: "hidden", border: "1px solid #e2e8f0", textAlign: "center" }}>
                <div style={{ height: "300px", backgroundColor: "#f8fafc", display: "flex", alignItems: "center", justifyContent: "center", padding: "20px" }}>
-                 <Image src={p.image} alt={pName} width={400} height={300} style={{ maxWidth: "100%", maxHeight: "100%", width: "auto", height: "auto", objectFit: "contain" }} />
+                 <Image src={p.image} alt={pName} width={400} height={300} style={{ maxWidth: "100%", maxHeight: "100%", width: "auto", height: "auto", objectFit: "contain" }} loading="lazy" />
                </div>
                <div style={{ padding: "30px" }}>
                  <h3 style={{ fontSize: "22px", fontWeight: 700, marginBottom: "15px" }}>{pName}</h3>
                  <p style={{ color: "#64748b", fontSize: "15px", marginBottom: "25px", height: "45px", overflow: "hidden" }}>{pDesc}</p>
+                <div style={{ display: "flex", justifyContent: "center", gap: "18px", marginBottom: "20px", color: "#64748b", fontSize: "14px", fontWeight: 600 }}><span>MOQ: {p.moq}</span><span>{t.leadTimeLabel}: {t.leadTimeValue}</span></div>
                  <Link href={l(`/products/${p.id}`)} style={{ color: "#0284c7", fontWeight: "bold", textDecoration: "none", fontSize: "15px" }}>{t.viewProducts}</Link>
                </div>
             </div>

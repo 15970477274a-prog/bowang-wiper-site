@@ -192,6 +192,8 @@ export const zh: TranslationDict = {
     contactAvailableOn: "支持 WhatsApp 与微信联系",
     whatsappMe: "WhatsApp 联系",
     emailUs: "发送邮件",
+    leadTimeLabel: "交期",
+    leadTimeValue: "15-25 天",
     trustMoa: "MOQ 100 支/尺寸",
     trustLeadTime: "交期 15 天",
     trustShipping: "出口 50+ 国家",

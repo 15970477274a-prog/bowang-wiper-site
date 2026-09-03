@@ -192,6 +192,8 @@ export const en: TranslationDict = {
     contactAvailableOn: "Available on WhatsApp & WeChat",
     whatsappMe: "WhatsApp Me",
     emailUs: "Email Us",
+    leadTimeLabel: "Lead Time",
+    leadTimeValue: "15-25 Days",
     trustMoa: "MOQ 100 pcs/size",
     trustLeadTime: "15-Day Lead Time",
     trustShipping: "50+ Countries",

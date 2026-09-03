@@ -319,7 +319,7 @@ const relatedBlog = blogPosts
                 <Link key={rp.id} href={l("/products/" + rp.id)} style={{textDecoration:"none",color:"inherit"}}>
                   <div className="product-card card-hover">
                     <div className="product-card-img">
-                      <Image src={rp.image} alt={rp.name} width={400} height={300} style={{ maxWidth: "100%", maxHeight: "100%", width: "auto", height: "auto", objectFit: "contain" }} />
+                      <Image src={rp.image} alt={rp.name} width={400} height={300} style={{ maxWidth: "100%", maxHeight: "100%", width: "auto", height: "auto", objectFit: "contain" }} loading="lazy" />
                     </div>
                     <div className="product-card-body">
                       <span className="card-tag">{rp.tag}</span>
@@ -327,7 +327,7 @@ const relatedBlog = blogPosts
                       <p className="card-text">{rp.desc}</p>
                       <div className="product-card-footer">
                         <span className="card-link">{t.viewDetails}</span>
-                        <span className="text-muted" style={{fontSize:"12px"}}>MOQ: {rp.moq}</span>
+                        <span className="text-muted" style={{fontSize:"12px"}}>MOQ: {rp.moq} · {t.leadTimeLabel}: {t.leadTimeValue}</span>
                       </div>
                     </div>
                   </div>
