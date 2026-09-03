@@ -70,6 +70,11 @@ export default function Home() {
 
   const t = translations[lang];
   const l = (p: string) => "/" + lang + p;
+  const reviews = [
+    { text: "Great product and service, will work with Ken once again.", name: "W****l", meta: "United States · 25 Aug 2026" },
+    { text: "Great products, great prices—their staff are very professional.", name: "T****a", meta: "United States · 02 Aug 2026" },
+    { text: "Excelente servicio, tal cual lo que pedimos de principio a fin.", name: "V****z", meta: "United States · 04 Aug 2026" }
+  ];
 
   const faqItems = [
     { q: t.faqQ1, a: t.faqA1 },
@@ -136,9 +141,46 @@ export default function Home() {
             <Link href={l("/contact")} className="btn-primary" style={{ padding: "18px 45px", fontSize: "18px", textDecoration: "none", backgroundColor: "#0284c7", color: "white", borderRadius: "8px", fontWeight: "bold", boxShadow: "0 10px 25px rgba(2, 132, 199, 0.4)" }}>{t.heroInquireBtn}</Link>
             <Link href={l("/products")} className="btn-secondary" style={{ padding: "18px 45px", fontSize: "18px", backgroundColor: "white", color: "#0f172a", textDecoration: "none", borderRadius: "8px", fontWeight: "bold" }}>{t.heroProductsBtn}</Link>
           </div>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "14px", justifyContent: "center", marginTop: "50px" }}>
+            {[t.trustMoa, t.trustLeadTime, t.trustShipping, t.trustCert, t.trustSample].map((item, i) => (
+              <span key={i} style={{ backgroundColor: "rgba(255,255,255,0.12)", border: "1px solid rgba(255,255,255,0.25)", padding: "10px 18px", borderRadius: "8px", fontSize: "14px", fontWeight: 600 }}>{item}</span>
+            ))}
+          </div>
+          <p style={{ marginTop: "18px", fontSize: "13px", color: "#e2e8f0" }}>{t.trustSampleNote}</p>
         </div>
       </section>
 
+      <section style={{ padding: "90px 20px", backgroundColor: "#ffffff" }}>
+        <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
+          <div style={{ textAlign: "center", marginBottom: "55px" }}>
+            <h2 style={{ fontSize: "34px", fontWeight: 800, color: "#0f172a" }}>{t.statsTitle}</h2>
+            <div style={{ height: "4px", width: "60px", backgroundColor: "#0284c7", margin: "15px auto" }}></div>
+            <p style={{ color: "#64748b", maxWidth: "640px", margin: "0 auto" }}>{t.statsSubtitle}</p>
+          </div>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "25px", marginBottom: "50px" }}>
+            {[
+              { v: t.stat1Value, l: t.stat1Label },
+              { v: t.stat2Value, l: t.stat2Label },
+              { v: t.stat3Value, l: t.stat3Label },
+              { v: t.stat4Value, l: t.stat4Label }
+            ].map((s, i) => (
+              <div key={i} style={{ textAlign: "center", padding: "35px 20px", backgroundColor: "#f8fafc", borderRadius: "12px", border: "1px solid #e2e8f0" }}>
+                <div style={{ fontSize: "38px", fontWeight: 800, color: "#0284c7" }}>{s.v}</div>
+                <div style={{ color: "#475569", fontSize: "15px", marginTop: "8px" }}>{s.l}</div>
+              </div>
+            ))}
+          </div>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: "30px", alignItems: "stretch" }}>
+            <div style={{ backgroundColor: "#0f172a", color: "white", borderRadius: "14px", padding: "40px", display: "flex", flexDirection: "column", justifyContent: "center" }}>
+              <div style={{ fontSize: "26px", fontWeight: 800, marginBottom: "15px" }}>{t.videoQcTitle}</div>
+              <p style={{ color: "#cbd5e1", lineHeight: 1.7, fontSize: "16px", margin: 0 }}>{t.videoQcDesc}</p>
+            </div>
+            <div style={{ position: "relative", borderRadius: "14px", overflow: "hidden", minHeight: "300px", backgroundColor: "#000" }}>
+              <iframe src="https://www.youtube.com/embed/ppMeBaDm2hk" title="Lelion Wiper Factory Tour" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", border: 0 }} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
       <section style={{ padding: "100px 20px", maxWidth: "1200px", margin: "0 auto" }}>
         <div style={{ textAlign: "center", marginBottom: "60px" }}>
           <h2 style={{ fontSize: "36px", fontWeight: 800, color: "#0f172a" }}>{t.featuredCategories}</h2>
@@ -169,6 +211,31 @@ export default function Home() {
 
       
       <PackagingSection title={t.packagingTitle} desc={t.packagingDesc} />
+
+      <section style={{ padding: "90px 20px", backgroundColor: "#f8fafc" }}>
+        <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
+          <div style={{ textAlign: "center", marginBottom: "55px" }}>
+            <div style={{ display: "inline-block", backgroundColor: "#0284c7", color: "white", padding: "8px 20px", borderRadius: "20px", fontSize: "14px", fontWeight: 700, marginBottom: "18px" }}>4.7 / 5 · 39 Reviews</div>
+            <h2 style={{ fontSize: "34px", fontWeight: 800, color: "#0f172a" }}>{t.reviewsTitle}</h2>
+            <div style={{ height: "4px", width: "60px", backgroundColor: "#0284c7", margin: "15px auto" }}></div>
+            <p style={{ color: "#64748b" }}>{t.reviewsSubtitle}</p>
+          </div>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "25px" }}>
+            {reviews.map((r, i) => (
+              <div key={i} style={{ backgroundColor: "#ffffff", borderRadius: "12px", border: "1px solid #e2e8f0", padding: "30px", display: "flex", flexDirection: "column" }}>
+                <div style={{ color: "#f59e0b", fontSize: "18px", letterSpacing: "2px", marginBottom: "15px" }}>★★★★★</div>
+                <p style={{ color: "#334155", lineHeight: 1.7, fontSize: "15px", flex: 1, margin: 0 }}>“{r.text}”</p>
+                <div style={{ marginTop: "20px", borderTop: "1px solid #f1f5f9", paddingTop: "15px" }}>
+                  <div style={{ fontWeight: 700, color: "#0f172a" }}>{r.name}</div>
+                  <div style={{ color: "#94a3b8", fontSize: "13px" }}>{r.meta}</div>
+                </div>
+              </div>
+            ))}
+          </div>
+          <p style={{ textAlign: "center", color: "#94a3b8", fontSize: "13px", marginTop: "30px", marginBottom: 0 }}>{t.reviewsSource}</p>
+        </div>
+      </section>
+
 
       <section style={{ padding: "100px 20px", backgroundColor: "#f8fafc" }}>
         <div style={{ maxWidth: "900px", margin: "0 auto" }}>
