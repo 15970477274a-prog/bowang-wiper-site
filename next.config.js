@@ -26,7 +26,7 @@ const nextConfig = {
           "img-src 'self' https://sc02.alicdn.com https://*.r2.dev https://*.edgeone.dev data:",
           "font-src 'self'",
           "connect-src 'self' https://www.google-analytics.com https://analytics.ahrefs.com",
-          "frame-src 'self' https://www.google.com",
+          "frame-src 'self' https://www.google.com https://www.youtube.com https://www.youtube-nocookie.com",
           "object-src 'none'",
           "base-uri 'self'",
           "form-action 'self'",
