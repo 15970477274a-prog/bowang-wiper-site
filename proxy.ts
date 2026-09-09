@@ -39,11 +39,12 @@ export default function proxy(request: NextRequest) {
 
   if (pathnameHasLocale) return NextResponse.next();
 
-  // Redirect to default locale
+  // Redirect to default locale (permanent — collapses link equity and
+  // prevents duplicate-content pairs for legacy non-prefixed URLs)
   const locale = getLocale(request);
   const newUrl = new URL(`/${locale}${pathname}`, request.url);
   newUrl.search = request.nextUrl.search;
-  return NextResponse.redirect(newUrl);
+  return NextResponse.redirect(newUrl, 308);
 }
 
 export const config = {
