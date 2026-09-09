@@ -60,6 +60,19 @@ export default function ContactPage() {
 
   return (
     <main style={{ fontFamily: "system-ui, -apple-system, sans-serif", color: "#1e293b", backgroundColor: "#ffffff" }}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": t.navHome, "item": "https://www.lelionautopart.com/" + urlLang },
+              { "@type": "ListItem", "position": 2, "name": t.contactPageTitle, "item": "https://www.lelionautopart.com/" + urlLang + "/contact" }
+            ]
+          })
+        }}
+      />
 {/* REPLACED WITH GLOBAL LOGISTICS / SHIPPING BANNER */}
       <section style={{ 
         padding: "100px 20px", 
