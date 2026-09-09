@@ -179,6 +179,19 @@ export default function AboutPage() {
           })
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": t.navHome, "item": "https://www.lelionautopart.com/" + urlLang },
+              { "@type": "ListItem", "position": 2, "name": aboutText.bannerTitle, "item": "https://www.lelionautopart.com/" + urlLang + "/about" }
+            ]
+          })
+        }}
+      />
 {/* REPLACED WITH MODERN FACTORY PRODUCTION LINE BANNER */}
       <section style={{ 
         padding: "100px 20px", 
