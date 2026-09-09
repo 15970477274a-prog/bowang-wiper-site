@@ -660,4 +660,118 @@ Hemos visto a compradores cometer cada error de esta lista antes de llegar a nos
 - **Documentacion completa** -- CO, Form A, Form E, informes de pruebas y certificados de cumplimiento proporcionados con cada envio
 
 [Contacte con nuestro equipo hoy](/contact) para hablar de sus necesidades. Cuentenos su mercado objetivo y volumen, y le ayudaremos a crear un plan de abastecimiento que evite todos los errores de esta lista.`
+,
+  "how-to-vet-a-wiper-blade-manufacturer": `
+**Respuesta breve:** Antes de realizar su primer pedido al por mayor de escobillas limpiaparabrisas, verifique la fábrica en cinco niveles: identidad legal, certificaciones, evidencia del producto, calidad de las muestras y condiciones de pago. Nunca confíe únicamente en el sitio web del proveedor: contraste cada afirmación con fuentes independientes (organismos de certificación, registros de plataformas, cotizaciones de flete e inspectores de terceros) antes de enviar un depósito.
+
+Esta guía acompaña a importadores, vendedores de marca propia y distribuidores por una lista de verificación repetible. Usa fábricas de escobillas limpiaparabrisas como ejemplo por ser la categoría que mejor conocemos, pero el método aplica a cualquier componente automotriz de posventa que se compre en Asia.
+
+## Por qué la verificación del proveedor decide su margen (y su marca)
+
+Una mala fábrica puede costarle más que el valor del pedido: un contenedor de escobillas con tiras de goma deformadas, conectores incorrectos o sin marcado de cumplimiento no puede revenderse con su etiqueta, y las devoluciones se comen el margen de dos pedidos buenos. La Comisión Federal de Comercio de EE. UU. (FTC) advierte que las piezas de automóvil falsas y de calidad inferior son un canal conocido de fraude de importación, y la Comisión de Comercio Internacional de EE. UU. (USITC) publica datos de importación con los que puede contrastar el historial de exportación de un proveedor. En otras palabras: las herramientas de verificación son públicas; solo hay que usarlas en el orden correcto.
+
+## Paso 1. Verifique la identidad legal detrás del dominio
+
+Empiece por saber a quién pertenece la empresa, no cómo se llama el comercial.
+
+- **Verificación registral.** Solicite la licencia comercial (营业执照) y confirme que la razón social, el número de registro y la dirección coinciden con el pie de página del sitio web y los documentos de exportación. En China, los registros comerciales son públicos; su agente de carga puede confirmar la licencia durante la cotización.
+- **Coherencia de web y correo.** El titular del dominio y el dominio del correo corporativo deben coincidir con la empresa registrada. Una "fábrica" que solo tiene un correo gratuito y un catálogo simple es, en el mejor de los casos, una mesa de comercio.
+- **Prueba de coherencia de datos.** Señal de alarma: la misma fábrica declara distintos años de fundación o distintos tamaños de plantilla en su web, en Alibaba y en su propio sitio. Las fábricas profesionales mantienen un perfil único y consistente porque compradores e inspectores verifican estos datos. Si las cifras cambian, pregunte por qué y verifique la respuesta.
+- **Presencia física.** Una fábrica real puede mostrarle la planta en una videollamada en vivo y darle una dirección que geolocaliza en una zona industrial, no en un edificio de viviendas.
+
+## Paso 2. Verifique las certificaciones ante los organismos emisores
+
+Las certificaciones solo valen si existen en el organismo emisor y cubren los productos que compra.
+
+| Declaración | Qué verificar | Dónde |
+| --- | --- | --- |
+| ISO 9001 | Número de certificado, alcance, vigencia | Registro en línea del organismo emisor |
+| Marcado CE | Directiva correcta para la categoría | Base de datos oficial de normas armonizadas de la UE |
+| Cumplimiento de rendimiento | Informe de ensayo, no solo un logotipo | Laboratorio o informe del fabricante |
+| Historial de exportación | Registro aduanero hacia su mercado | Datos de importación USITC, registros del agente |
+
+No acepte un PDF como prueba. Tome el número de certificado y consúltelo en el registro. Para escobillas, pregunte contra qué norma se ensayó el producto (por ejemplo, SAE J903 para EE. UU.) y solicite el informe de ensayo real, no la diapositiva de marketing.
+
+## Paso 3. Compruebe dónde aparece la fábrica (y dónde no)
+
+Este paso es barato y sorprendentemente predictivo.
+
+- **Huella en plataformas.** Los compradores B2B se abastecen habitualmente a través de directorios; los fabricantes serios mantienen perfiles en Alibaba.com y Made-in-China.com con datos, certificaciones y trayectoria consistentes. Una fábrica que presume años de exportación sin perfil rastreable, sin registro de exportación y sin menciones de terceros le pide que confíe en su palabra.
+- **Búsqueda inversa de imágenes.** Pase las fotos de fábrica, líneas de producción y muestras por una búsqueda inversa. Las fotos de archivo copiadas de otros proveedores son uno de los signos más comunes de una empresa comercial que se hace pasar por fábrica.
+- **Observe qué citan las fuentes independientes.** Cuando los buscadores de IA responden preguntas de abastecimiento de escobillas, las fuentes que aparecen repetidamente son páginas gubernamentales y directorios consolidados, no sitios de fábricas individuales. Esa es también una señal para el comprador: la presencia verificable en terceros genera confianza; un sitio solitario, no.
+
+## Paso 4. Pida muestras y pruébelas como un cliente
+
+Nunca omita las muestras, y no acepte una "muestra" sin referencia a la especificación del pedido al por mayor.
+
+- **Exija la especificación exacta en la muestra.** Número de modelo, compuesto de goma, tipo de conector y posición del logo deben coincidir con su especificación, no con "lo más parecido que tenemos".
+- **Pruebe lo que probarán sus clientes.** En escobillas: instale en los brazos reales de los vehículos objetivo (gancho J, fijación lateral), pruebe en mojado, escuche ruidos y revise el filo de la goma. Treinta segundos de instalación revelan más que cualquier ficha técnica.
+- **Compare la muestra con las fotos del catálogo.** Si el marco, las fijaciones o el embalaje difieren de la página del producto, el catálogo no es el producto.
+- **Compre a la fábrica, no a una dirección intermediaria.** La dirección de remite de la muestra debe coincidir con la dirección de la fábrica del Paso 1. Una muestra enviada desde otra ciudad significa que la "fábrica" revende mercancía de otra planta: aceptable si se declara, y un riesgo si no.
+
+## Paso 5. Verifique MOQ, plazo y condiciones de pago por escrito
+
+Las condiciones comerciales son el último filtro. Las fábricas reales cotizan rangos que reflejan su planificación de producción; los intermediarios prometen cualquier cosa.
+
+- **Un MOQ con sentido.** Una fábrica real de escobillas suele exigir cientos o unos pocos miles de piezas por tamaño o modelo, no "sin MOQ, cualquier cantidad" (eso es un comercial) ni un primer pedido enorme sin fase de muestras.
+- **Un plazo comprobable.** Pregunte por la posición actual de producción. De dos a cuatro semanas para un pedido estándar de escobillas beam o híbridas tras aprobar la muestra es normal; "7 días, siempre" en un primer pedido con etiqueta propia es marketing optimista.
+- **La estructura de pago como señal de riesgo.** En primeros pedidos es habitual un depósito (30% normalmente) más el saldo contra copia del conocimiento de embarque, o carta de crédito para valores mayores. Desconfíe de pagos anticipados del 100% o a cuentas personales.
+- **Contrate inspección en el primer pedido.** Una inspección previa al embarque con un organismo de terceros (SGS, Bureau Veritas o una firma de confianza) cuesta una fracción del pedido y le da recuento, control visual y revisión de embalaje independientes antes de liberar el saldo.
+
+## Paso 6. Haga un primer pedido pequeño antes de escalar
+
+El método más fiable es un ensayo pagado: un MOQ, un SKU, su etiqueta, su inspección. Mida lo que realmente ocurre —embarque a tiempo, exactitud documental, consistencia del producto frente a la muestra aprobada— y solo entonces amplíe la gama y el volumen.
+
+## Lista de verificación del proveedor (imprimible)
+
+- La licencia comercial coincide con web, dominio y registros
+- Año de fundación, plantilla y dirección consistentes en todos los perfiles
+- Números de certificado ISO/CE verificados ante el organismo emisor
+- Informe de ensayo de rendimiento (p. ej., SAE J903) disponible, no solo un logotipo
+- Visita por videollamada y dirección geolocalizable
+- Perfiles activos en directorios (Alibaba / Made-in-China) con datos consistentes
+- La búsqueda inversa de imágenes no devuelve fotos de archivo
+- La muestra coincide con la especificación y se envía desde la dirección de la fábrica
+- MOQ y plazo por escrito y realistas
+- Condiciones de pago estándar (depósito + saldo contra documentos, o carta de crédito)
+- Inspección de terceros previa al embarque reservada para el primer pedido
+
+## Preguntas frecuentes sobre verificación de proveedores
+
+### ¿Cómo sé si una fábrica de escobillas es real y no una empresa comercial?
+
+Verifique la licencia contra la empresa registrada, haga una visita por videollamada, confirme que la muestra se envía desde la dirección de la fábrica y compruebe que tiene huella rastreable en directorios y exportaciones. Los comerciales pueden ser socios legítimos, pero debe saber que trata con uno.
+
+### ¿Qué certificaciones debe tener un fabricante de escobillas?
+
+ISO 9001 es la base. Para la UE, verifique el marcado CE contra la directiva correcta; para EE. UU., pregunte contra qué norma se ensayó (por ejemplo, SAE J903) y solicite el informe real.
+
+### ¿Cuál es un MOQ razonable para escobillas de una fábrica china?
+
+Varía por modelo, pero un fabricante real suele exigir unos cientos de piezas por tamaño o modelo para estándar y más para productos con etiqueta propia o utillaje. Un MOQ inusualmente bajo suele indicar que habla con un comercial.
+
+### ¿Cuánto tarda un pedido OEM típico de escobillas?
+
+Para una escobilla beam o híbrida estándar con su etiqueta, son habituales dos a cuatro semanas de producción tras aprobar la muestra, más el envío. El utillaje o embalaje especial añade tiempo: confirme el calendario por escrito antes del depósito.
+
+### ¿Debo usar inspección previa al embarque en mi primer pedido?
+
+Sí. Una inspección de terceros antes del pago del saldo le protege en cantidad, calidad y embalaje. Cuesta una fracción del valor del contenedor y es la palanca más fuerte en un primer pedido.
+
+### ¿Qué condiciones de pago son habituales para compradores primerizos?
+
+Depósito del 30% con saldo contra copia del conocimiento de embarque, o carta de crédito para importes mayores. Evite anticipos del 100% y pagos a cuentas personales.
+
+### ¿Las certificaciones como ISO 9001 garantizan la calidad de las escobillas?
+
+No: demuestran que la fábrica opera un sistema de calidad certificado, lo que mejora las probabilidades, pero no garantizan el rendimiento en sus vehículos objetivo. Pruebe muestras con su propia especificación antes de escalar.
+
+## Conclusión
+
+Verificar un fabricante de escobillas es un proceso de cinco capas: identidad legal, certificaciones verificables, huella en terceros, muestras físicas y condiciones comerciales por escrito, seguido de un pedido de prueba pagado con inspección independiente. Cada capa usa evidencia pública o de bajo coste y, juntas, eliminan la mayor parte del riesgo de su primer pedido al por mayor.
+
+Nota sobre fuentes: esta guía referencia canales públicos de verificación, incluida la guía de la FTC sobre fraude de importación, los datos de importación de la USITC, los registros ISO/CE y la práctica estándar de inspección de terceros. Consulte la normativa vigente en ftc.gov y usitc.gov antes de basarse en reglas concretas, porque los requisitos de importación cambian.
+
+**Sobre el autor:** Esta guía fue escrita por el equipo técnico de Lelion en Ningbo Zhenhai Bowang Autoparts Co., Ltd. Somos un fabricante de escobillas certificado ISO 9001 y CE, y publicamos guías de abastecimiento como esta porque los compradores verificados e informados son los clientes que queremos. Para dudas o muestras, [contacte con nuestro equipo de exportación](/contact).
+`,
 };
