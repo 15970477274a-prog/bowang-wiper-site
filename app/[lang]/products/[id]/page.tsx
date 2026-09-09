@@ -80,28 +80,15 @@ const relatedBlog = blogPosts
       "@type": "Offer",
       "availability": "https://schema.org/InStock",
       "itemCondition": "https://schema.org/NewCondition"
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.7",
-      "reviewCount": "39",
-      "bestRating": "5"
-    },
-    "review": reviews.map((r) => ({
-      "@type": "Review",
-      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
-      "author": { "@type": "Person", "name": r.name },
-      "datePublished": r.date,
-      "reviewBody": r.text
-    }))
+    }
   };
 
   const detailBreadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": `https://www.lelionautopart.com/${lang}` },
-      { "@type": "ListItem", "position": 2, "name": "Products", "item": `https://www.lelionautopart.com/${lang}/products` },
+      { "@type": "ListItem", "position": 1, "name": t.navHome, "item": `https://www.lelionautopart.com/${lang}` },
+      { "@type": "ListItem", "position": 2, "name": t.navProducts, "item": `https://www.lelionautopart.com/${lang}/products` },
       { "@type": "ListItem", "position": 3, "name": productName }
     ]
   };
@@ -121,6 +108,14 @@ const relatedBlog = blogPosts
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(detailBreadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productFaqSchema) }} />
+      {/* Visible breadcrumb — internal links to home + products hub */}
+      <nav aria-label="Breadcrumb" style={{ maxWidth: "1200px", margin: "0 auto", padding: "16px 20px 0", fontSize: "13px", color: "#64748b" }}>
+        <Link href={l("/")} style={{ color: "#0284c7", textDecoration: "none" }}>{t.navHome}</Link>
+        {" / "}
+        <Link href={l("/products")} style={{ color: "#0284c7", textDecoration: "none" }}>{t.navProducts}</Link>
+        {" / "}
+        <span style={{ fontWeight: 600 }}>{productName}</span>
+      </nav>
       <section className="section product-detail-layout" style={{maxWidth:"1200px",margin:"0 auto"}}>
         {/* Image */}
         <div className="product-image-box">
