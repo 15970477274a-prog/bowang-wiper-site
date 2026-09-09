@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { useParams } from "next/navigation";
 import Link from "next/link";
-import { Locale } from "../../translations";
+import { translations, Locale } from "../../translations";
 
 type Dict = Record<string, string>;
 
@@ -228,6 +228,19 @@ export default function TestingPage() {
 
   return (
     <main style={{ fontFamily: "system-ui, -apple-system, sans-serif", color: "#1e293b", backgroundColor: "#ffffff" }}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": translations[lang].navHome, "item": "https://www.lelionautopart.com/" + urlLang },
+              { "@type": "ListItem", "position": 2, "name": t.title, "item": "https://www.lelionautopart.com/" + urlLang + "/testing" }
+            ]
+          })
+        }}
+      />
       <section style={{ padding: "90px 20px 60px", background: "linear-gradient(135deg, #0f172a 0%, #093D6A 100%)", color: "white", textAlign: "center" }}>
         <h1 style={{ fontSize: "38px", fontWeight: 800, margin: "0 auto 15px", maxWidth: "900px" }}>{t.title}</h1>
         <p style={{ color: "#cbd5e1", maxWidth: "720px", margin: "0 auto", fontSize: "16px" }}>{t.subtitle}</p>
