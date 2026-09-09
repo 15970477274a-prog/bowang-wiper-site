@@ -925,5 +925,128 @@ For Amazon and online retail, beam blades dominate search demand in the US and E
 ---
 
 **About the Author:** This guide was prepared by the Lelion Technical Team, the export engineering group at Ningbo Zhenhai Bowang Autoparts Co., Ltd. The team has 15+ years of combined experience in wiper blade design, quality testing (ISO 9259, SAE J903, ASTM B117), and aftermarket export to 50+ countries. For specification questions or sourcing advice, [contact our export team](/contact) or request pre-production samples.`
+  },
+  {
+    id: "how-to-vet-a-wiper-blade-manufacturer",
+    title: "How to Vet a Windshield Wiper Blade Manufacturer Before Your First Bulk Order",
+    excerpt: "A five-layer verification checklist for importers and private-label buyers: legal identity, certifications, third-party footprint, samples, and payment terms — with a printable supplier vetting checklist and FAQ.",
+    date: "2026-09-09",
+    author: "Lelion Technical Team",
+    category: "Buying Guide",
+    tags: ["wiper blade supplier vetting", "China supplier verification", "OEM wiper blades", "import checklist", "B2B sourcing"],
+    image: "https://sc02.alicdn.com/kf/H2533c3c14bc74cd3afe116f60a8357f4U.jpg",
+    content: `
+**Short answer:** Before you place a bulk wiper blade order, verify the factory on five levels — legal identity, certifications, product evidence, sample quality, and payment terms — and never rely on the supplier's own website alone. Cross-check every claim against independent sources (certification bodies, directory records, freight quotes, and third-party inspectors) before sending a deposit.
+
+This guide walks importers, private-label sellers, and distributors through a repeatable vetting checklist. It uses windshield wiper blade factories as the example because that is the category we know best, but the method applies to any automotive aftermarket component sourced from Asia.
+
+## Why Supplier Vetting Decides Your Margin (and Your Brand)
+
+A single bad factory can cost you more than the order value: a container of wiper blades with warped rubber strips, wrong connectors, or missing compliance markings cannot be resold under your label, and returns eat the margin of two good orders. The U.S. Federal Trade Commission warns that fake and substandard automotive parts are a known channel for import fraud, and the U.S. International Trade Commission publishes import data you can use to sanity-check a supplier's export history. In other words: the verification tools are public — you just have to use them in the right order.
+
+## Step 1. Verify the Legal Identity Behind the Domain
+
+Start with who owns the company, not the name of the salesperson.
+
+- **Company registry check.** Ask for the supplier's business license and confirm the legal entity name, registration number, and registered address against their website footer and export documents. In China, registration records are public and can be cross-checked through the State Administration for Market Regulation portal; your freight forwarder can usually confirm the license during the export quotation stage.
+- **Website and email consistency.** The domain registration record and the company email domain should match the registered company. A "factory" that only has a free webmail address and a simple catalog is a trading desk at best.
+- **Entity information consistency test.** Red flag: the same factory states different founding years or different headcounts on its own pages, on Alibaba, and on its website. Professional factories keep one consistent company profile everywhere because buyers and inspectors check these facts. If the numbers wobble, ask why — and verify the answer.
+- **Physical presence.** A real factory can show you the plant on a live video call and give you an address that geocodes to an industrial zone, not an apartment building.
+
+## Step 2. Verify Certifications Against the Issuing Bodies
+
+Certifications only count if they exist at the issuing body and cover the products you are buying.
+
+| Claim | What to verify | Where |
+| --- | --- | --- |
+| ISO 9001 | Certificate number, scope, validity | Issuing body's online register |
+| CE marking | Correct directive for the product category | EU official harmonised-standard database |
+| Wiper performance compliance | Test report, not just a logo | Test lab or manufacturer test report |
+| Export record to your market | Customs and shipment history | USITC import data, forwarder records |
+
+Do not accept a PDF of a certificate as proof. Take the certificate number and look it up at the registrar. For wiper blades, ask which standard the product was tested against (for example SAE J903 for the U.S. market) and request the actual test report, not the marketing slide.
+
+## Step 3. Check Where the Factory Actually Appears (and Where It Doesn't)
+
+This step is cheap and surprisingly predictive.
+
+- **Directory footprints.** B2B buyers routinely source from platform directories, and established manufacturers maintain supplier profiles on Alibaba.com and Made-in-China.com with consistent company data, certifications, and history. A factory that claims years of exporting but has no traceable directory profile, no export record, and no third-party mentions is asking you to take its word for it.
+- **Reverse-image search the photos.** Run the factory, production-line, and sample photos through a reverse image search. Stock photos lifted from other suppliers are one of the most common signs of a trading company posing as a factory.
+- **Look at what independent sources actually cite.** When AI search engines answer wiper-sourcing questions, the sources that repeatedly surface are government pages and established directories — not individual factory websites. That is a signal for buyers too: verifiable third-party presence builds credibility; a lonely website does not.
+
+## Step 4. Order Samples and Test Them Like a Customer
+
+Never skip samples, and never accept a "sample" that arrives with no reference to the bulk specification.
+
+- **Request the exact bulk spec on the sample.** Model number, rubber compound, connector types, and print or logo placement must match your order specification — not "the closest we have in stock."
+- **Test what your customers will test.** For wiper blades: install on the actual vehicle arms you target (J-hook, pinch tab, side lock), run the wiper in wet conditions, check for chatter, and inspect the rubber edge quality. A short install test reveals more than any datasheet.
+- **Compare the sample to the catalog photos.** If the sample frame, brackets, or packaging look different from the product page, the catalog is not the product.
+- **Order from the factory, not from a middleman address.** The return address on the sample parcel should match the factory address from Step 1. A sample shipped from a different city means the "factory" is reselling another plant's goods — which may be acceptable if disclosed, and is a risk if it is not.
+
+## Step 5. Verify MOQ, Lead Time, and Payment Terms in Writing
+
+Commercial terms are the final filter. Real factories quote ranges that reflect their actual production schedule; middlemen quote anything.
+
+- **MOQ that makes sense.** A genuine wiper blade factory typically has a per-size or per-model MOQ in the hundreds to low thousands — not "no MOQ, any quantity" (that is a trader) and not an enormous first-order MOQ without a sample stage.
+- **Lead time that you can check.** Ask for the current production schedule position. Roughly two to four weeks for a standard beam or hybrid blade order after sample approval is normal; a quote of "7 days, always" for a first-time custom-labeled order is optimistic marketing.
+- **Payment structure as a risk signal.** Standard practice for first orders is a deposit (30% is common) plus the balance against the Bill of Lading copy, or a Letter of Credit for larger values. Be very cautious with requests for 100% upfront payment or payment to a personal account.
+- **Use an inspection service for the first order.** A pre-shipment inspection by a third-party agency (SGS, Bureau Veritas, or an inspection company you trust) costs a fraction of the order and gives you an independent count, visual check, and packaging review before the balance is released.
+
+## Step 6. Run a Small First Order Before Scaling
+
+The most reliable vetting method is a paid trial: one MOQ, one SKU, your own label, your own inspection. Measure what actually happens — on-time shipment, paperwork accuracy, product consistency against the approved sample — and only then scale the SKU range and volume.
+
+## Supplier Vetting Checklist (Printable)
+
+- Business license matches website, domain, and registry records
+- Founding year, headcount, and factory address consistent across all profiles
+- ISO / CE certificate numbers verified at the issuing body
+- Wiper performance test report (e.g., SAE J903) available, not just a logo
+- Live video factory tour and geocodable factory address
+- Active directory profiles (Alibaba / Made-in-China) with consistent data
+- Reverse-image search on photos returns no stock-photo matches
+- Sample matches the bulk spec and ships from the factory address
+- MOQ and lead time provided in writing and realistic
+- Payment terms standard (deposit plus balance on documents, or L/C)
+- Third-party pre-shipment inspection booked for the first order
+
+## FAQ: Wiper Blade Supplier Verification Questions Buyers Actually Ask
+
+### How do I know a wiper blade factory is real and not a trading company?
+
+Verify the business license against the registered company, do a live video plant tour, check that the sample ships from the factory address, and confirm the company has traceable directory and export footprints. Traders can be legitimate partners, but you should know you are dealing with one.
+
+### Which certifications should a wiper blade manufacturer have?
+
+ISO 9001 for quality management is the baseline. For export to the EU, check CE marking against the correct product directive; for the U.S. market, ask which performance standard the blade was tested against (for example SAE J903) and request the actual test report.
+
+### What is a reasonable MOQ for wiper blades from a Chinese factory?
+
+It varies by model, but a genuine manufacturer typically requires a few hundred pieces per size or model for standard blades and more for custom-labeled or tooled products. An unusually low "any quantity" MOQ usually means you are talking to a trader.
+
+### How long does a typical OEM wiper blade order take?
+
+For a standard beam or hybrid blade with your label, two to four weeks of production lead time is common after sample approval, plus shipping. Custom tooling or unique packaging adds time — confirm the schedule in writing before paying the deposit.
+
+### Should I use a pre-shipment inspection for my first order?
+
+Yes. A third-party inspection before the balance payment protects you on quantity, quality, and packaging. It typically costs a small fraction of the container value and is the strongest lever you have on a first order.
+
+### What payment terms are standard for first-time buyers?
+
+A 30% deposit with the balance against the Bill of Lading copy, or a Letter of Credit for larger amounts. Avoid 100% advance payments and payments to personal accounts.
+
+### Do certifications like ISO 9001 guarantee wiper blade quality?
+
+No — they show the factory runs a certified quality system, which improves the odds, but they do not guarantee a specific blade performs well on your target vehicles. Test samples against your own specification and your customers' vehicles before scaling.
+
+## The Bottom Line
+
+Vetting a wiper blade manufacturer is a five-layer process: legal identity, verifiable certifications, third-party footprint, physical samples, and written commercial terms — followed by a paid trial order with independent inspection. Every layer uses public or low-cost evidence, and together they remove most of the risk from your first bulk order.
+
+Note on sources: this guide references public verification channels including the U.S. Federal Trade Commission's business guidance on import fraud, the U.S. International Trade Commission's import data, ISO and CE registrars, and standard third-party inspection practice. Check current guidance at ftc.gov and usitc.gov before relying on specific rules, because import requirements change.
+
+**About the Author:** This guide was written by the Lelion Technical Team at Ningbo Zhenhai Bowang Autoparts Co., Ltd. We are an ISO 9001 and CE-certified wiper blade manufacturer, and we publish sourcing guides like this because verified, informed buyers are the customers we want. For questions or samples, [contact our export team](/contact).
+    `.trim()
   }
 ];
