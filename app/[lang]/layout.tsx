@@ -26,23 +26,27 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
     zh: "Lelion 是中国领先的 OEM/ODM 雨刮片制造商。ISO 9001 与 CE 认证工厂，MOQ 100 支/尺寸，交期 15 天，免费打样，全球发货。",
   };
 
+  const homepageDescription = (descriptions[lang] || descriptions.en).length > 160
+    ? (descriptions[lang] || descriptions.en).substring(0, 157) + "..."
+    : (descriptions[lang] || descriptions.en);
+
   return {
     metadataBase: new URL("https://www.lelionautopart.com"),
     title: titles[lang] || titles.en,
-    description: descriptions[lang] || descriptions.en,
+    description: homepageDescription,
     alternates: alternatesWithHreflang("", "/" + lang),
     openGraph: {
       type: "website",
       siteName: "Lelion Autoparts",
       title: titles[lang] || titles.en,
-      description: descriptions[lang] || descriptions.en,
+      description: homepageDescription,
       url: "https://www.lelionautopart.com/" + lang,
       images: [{ url: "https://sc02.alicdn.com/kf/H2533c3c14bc74cd3afe116f60a8357f4U.jpg", width: 800, height: 600, alt: "Lelion Wiper Blades" }],
     },
     twitter: {
       card: "summary_large_image",
       title: titles[lang] || titles.en,
-      description: descriptions[lang] || descriptions.en,
+      description: homepageDescription,
       images: ["https://sc02.alicdn.com/kf/H2533c3c14bc74cd3afe116f60a8357f4U.jpg"],
     },
     robots: { index: true, follow: true },
