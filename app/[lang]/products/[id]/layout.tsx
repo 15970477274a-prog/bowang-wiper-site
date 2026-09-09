@@ -28,7 +28,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const trans = getProductTranslation(id, lang);
   const name = trans?.name || product.name;
   const desc = trans?.desc || product.desc;
-  const title = truncateTitle(name) + " | Lelion Autoparts";
+  // name part max 39 so that name + "..." + " | Lelion Autoparts" stays <= 60 chars
+  const title = truncateTitle(name, 39) + " | Lelion Autoparts";
   const description = desc.length > 160 ? desc.substring(0, 157) + "..." : desc;
   const canonicalPath = "/" + lang + "/products/" + product.id;
 
