@@ -1,10 +1,12 @@
 // Product content translations for es, ru, fr, de
 // English content is in products.ts
 // longDesc and technicalDetails fall back to English
+import { migratedProductTranslations } from "./migratedProductTranslations";
 
 export interface ProductTranslation {
   name: string;
   desc: string;
+  longDesc?: string;
   specs: string[];
   features: string[];
 }
@@ -13,7 +15,7 @@ export function getProductTranslation(
   productId: string,
   lang: string
 ): ProductTranslation | null {
-  const t = productTranslations[productId];
+  const t = productTranslations[productId] ?? migratedProductTranslations[productId];
   if (!t) return null;
   return t[lang] || null;
 }

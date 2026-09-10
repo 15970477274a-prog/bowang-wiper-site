@@ -9,6 +9,7 @@ import { translations } from "../../../translations";
 import { allProducts } from "../../../data/products";
 import { blogPosts } from "../../../data/blog";
 import { getProductTranslation } from "../../../data/productTranslations";
+import { CATEGORY_LABEL_KEYS } from "../../../data/categories";
 
 export default function ProductDetail() {
   const params = useParams();
@@ -24,6 +25,7 @@ export default function ProductDetail() {
   const productTrans = getProductTranslation(id, lang);
   const productName = productTrans?.name || product?.name || "";
   const productDesc = productTrans?.desc || product?.desc || "";
+  const productLongDesc = productTrans?.longDesc || product?.longDesc || "";
   const productSpecs = productTrans?.specs || product?.specs || [];
   const productFeatures = productTrans?.features || product?.features || [];
   const images = (product?.gallery && product.gallery.length > 0) ? [product.image, ...product.gallery] : [product?.image || ""];
@@ -50,6 +52,8 @@ export default function ProductDetail() {
     );
   }
 
+  const categoryKey = CATEGORY_LABEL_KEYS[product.category];
+  const categoryLabel = categoryKey ? String(t[categoryKey as keyof typeof t]) : product.category;
   const relatedProducts = allProducts.filter(p => p.category === product.category && p.id !== product.id).slice(0, 4);
   const modelNo = product.id.split("-").slice(0, 2).join("-").toUpperCase();
 const categorySlug = product.category.toLowerCase().replace(/ /g, "-");
@@ -157,7 +161,7 @@ const relatedBlog = blogPosts
         </div>
         {/* Info */}
         <div className="product-info-box">
-          <span className="tag-category">{product.category} Wiper Series</span>
+          <span className="tag-category">{categoryLabel}</span>
           <h1 style={{fontSize:"36px",fontWeight:800,margin:"10px 0 20px",color:"#0f172a",lineHeight:1.2}}>{productName}</h1>
 
           {/* Wholesale status box */}
@@ -171,7 +175,7 @@ const relatedBlog = blogPosts
           </div>
 
           {/* Description */}
-          <p style={{fontSize:"16px",lineHeight:1.8,color:"#475569",marginBottom:"25px"}}>{product.longDesc}</p>
+          <p style={{fontSize:"16px",lineHeight:1.8,color:"#475569",marginBottom:"25px"}}>{productLongDesc}</p>
 
           {/* Key Features */}
           <div style={{marginBottom:"30px"}}>
@@ -226,7 +230,7 @@ const relatedBlog = blogPosts
       <section className="section section-alt">
         <div className="container">
           <h2 className="section-title">{t.techSpecsTitle} {modelNo}</h2>
-           <p className="section-subtitle">{t.techSpecsSubtitle} {modelNo}{" "}{product.category.toLowerCase()} {t.wiperBladesWord}.</p>
+           <p className="section-subtitle">{t.techSpecsSubtitle} {modelNo}{" "}{categoryLabel} {t.wiperBladesWord}.</p>
           <table className="spec-table" style={{maxWidth:"900px",margin:"0 auto",backgroundColor:"var(--bg-white)",borderRadius:"12px",overflow:"hidden",boxShadow:"var(--shadow-sm)"}}>
             <tbody>
               {Object.entries(product.technicalDetails).map(([key, value], idx) => (
@@ -307,19 +311,19 @@ const relatedBlog = blogPosts
       {relatedProducts.length > 0 && (
         <section className="section section-white">
           <div className="container">
-            <h2 className="section-title">{t.moreCatProductsTitle} {product.category} {t.wiperBladesWord}</h2>
-            <p className="section-subtitle">{t.moreCatProductsSubtitle} {product.category.toLowerCase()} {t.wiperBladesWord}.</p>
+            <h2 className="section-title">{t.moreCatProductsTitle} {categoryLabel} {t.wiperBladesWord}</h2>
+            <p className="section-subtitle">{t.moreCatProductsSubtitle} {categoryLabel} {t.wiperBladesWord}.</p>
             <div className="grid-products">
               {relatedProducts.map(rp => (
                 <Link key={rp.id} href={l("/products/" + rp.id)} style={{textDecoration:"none",color:"inherit"}}>
                   <div className="product-card card-hover">
                     <div className="product-card-img">
-                      <Image src={rp.image} alt={rp.name} width={400} height={300} style={{ maxWidth: "100%", maxHeight: "100%", width: "auto", height: "auto", objectFit: "contain" }} loading="lazy" />
+                      <Image src={rp.image} alt={(getProductTranslation(rp.id, lang)?.name || rp.name)} width={400} height={300} style={{ maxWidth: "100%", maxHeight: "100%", width: "auto", height: "auto", objectFit: "contain" }} loading="lazy" />
                     </div>
                     <div className="product-card-body">
                       <span className="card-tag">{rp.tag}</span>
-                      <h3 style={{fontSize:"16px",fontWeight:700,margin:"12px 0 8px",color:"#0f172a",lineHeight:1.4}}>{rp.name}</h3>
-                      <p className="card-text">{rp.desc}</p>
+                      <h3 style={{fontSize:"16px",fontWeight:700,margin:"12px 0 8px",color:"#0f172a",lineHeight:1.4}}>{(getProductTranslation(rp.id, lang)?.name || rp.name)}</h3>
+                      <p className="card-text">{(getProductTranslation(rp.id, lang)?.desc || rp.desc)}</p>
                       <div className="product-card-footer">
                         <span className="card-link">{t.viewDetails}</span>
                         <span className="text-muted" style={{fontSize:"12px"}}>MOQ: {rp.moq} · {t.leadTimeLabel}: {t.leadTimeValue}</span>
