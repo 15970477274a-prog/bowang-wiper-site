@@ -7,6 +7,7 @@ export interface ProductTranslation {
   name: string;
   desc: string;
   longDesc?: string;
+  technicalDetails?: Record<string, string>;
   specs: string[];
   features: string[];
 }

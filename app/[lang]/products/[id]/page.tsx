@@ -26,6 +26,7 @@ export default function ProductDetail() {
   const productName = productTrans?.name || product?.name || "";
   const productDesc = productTrans?.desc || product?.desc || "";
   const productLongDesc = productTrans?.longDesc || product?.longDesc || "";
+  const productTechnicalDetails = productTrans?.technicalDetails || product?.technicalDetails || {};
   const productSpecs = productTrans?.specs || product?.specs || [];
   const productFeatures = productTrans?.features || product?.features || [];
   const images = (product?.gallery && product.gallery.length > 0) ? [product.image, ...product.gallery] : [product?.image || ""];
@@ -233,7 +234,7 @@ const relatedBlog = blogPosts
            <p className="section-subtitle">{t.techSpecsSubtitle} {modelNo}{" "}{categoryLabel} {t.wiperBladesWord}.</p>
           <table className="spec-table" style={{maxWidth:"900px",margin:"0 auto",backgroundColor:"var(--bg-white)",borderRadius:"12px",overflow:"hidden",boxShadow:"var(--shadow-sm)"}}>
             <tbody>
-              {Object.entries(product.technicalDetails).map(([key, value], idx) => (
+              {Object.entries(productTechnicalDetails).map(([key, value], idx) => (
                 <tr key={key} style={{backgroundColor: idx % 2 === 0 ? "#fafafa" : "transparent"}}>
                   <td style={{padding:"15px 25px",fontWeight:600,color:"#0f172a",width:"35%",borderBottom:"1px solid var(--border-light)"}}>{key}</td>
                   <td style={{padding:"15px 25px",color:"#475569",borderBottom:"1px solid var(--border-light)"}}>{value}</td>
