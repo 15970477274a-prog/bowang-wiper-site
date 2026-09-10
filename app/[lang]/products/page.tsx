@@ -7,6 +7,7 @@ import Image from "next/image";
 import { translations, Locale } from "../../translations";
 import { allProducts } from "../../data/products";
 import { getProductTranslation } from "../../data/productTranslations";
+import { CATEGORY_MAP, CATEGORY_LABEL_KEYS } from "../../data/categories";
 
 export default function ProductsPage() {
   const params = useParams();
@@ -70,13 +71,14 @@ export default function ProductsPage() {
             <h2 style={{ fontSize: "18px", fontWeight: 700, marginBottom: "25px", color: "#0f172a" }}>{t.seriesFilter}</h2>
             <ul className="sidebar-list">
                 <Link href={l("/products")} style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item active">{t.allWipers}</li></Link>
-                <Link href={l("/products/category/universal")} style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">{t.footerUniversal}</li></Link>
-                <Link href={l("/products/category/specific-fit")} style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">{t.footerSpecific}</li></Link>
-                <Link href={l("/products/category/multifunction")} style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">{t.footerMultifunction}</li></Link>
-                <Link href={l("/products/category/wiper-arm")} style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">{t.footerWiperArm}</li></Link>
-                <Link href={l("/products/category/hybrid")} style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">{t.footerHybrid}</li></Link>
-                <Link href={l("/products/category/rear-wiper")} style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">{t.footerRearWiper}</li>
-              <li onClick={() => setActiveCategory("Rear Wiper Combo")} style={{ padding: "12px 16px", cursor: "pointer", borderRadius: "8px", marginBottom: "5px", fontSize: "14px", fontWeight: activeCategory === "Rear Wiper Combo" ? 700 : 500, backgroundColor: activeCategory === "Rear Wiper Combo" ? "#e0f2fe" : "transparent", color: activeCategory === "Rear Wiper Combo" ? "#0284c7" : "#475569" }}>{t.footerRearCombo}</li></Link>
+                {Object.entries(CATEGORY_MAP).map(([slug, catName]) => {
+                  const key = CATEGORY_LABEL_KEYS[catName];
+                  return (
+                    <Link key={slug} href={l("/products/category/" + slug)} style={{textDecoration:"none",color:"inherit"}}>
+                      <li className="sidebar-item">{key ? t[key as keyof typeof t] : catName}</li>
+                    </Link>
+                  );
+                })}
               </ul>
           </aside>
 

@@ -7,26 +7,7 @@ import Image from "next/image";
 import { translations, Locale } from "../../../../translations";
 import { allProducts } from "../../../../data/products";
 import { getProductTranslation } from "../../../../data/productTranslations";
-
-const CATEGORY_MAP: Record<string, string> = {
-  "universal": "Universal",
-  "specific-fit": "Specific Fit",
-  "multifunction": "Multifunction",
-  "wiper-arm": "Wiper Arm",
-  "rear-wiper": "Rear Wiper",
-  "hybrid": "Hybrid",
-  "rear-wiper-combo": "Rear Wiper Combo",
-};
-
-const SLUG_MAP: Record<string, string> = {
-  "Universal": "universal",
-  "Specific Fit": "specific-fit",
-  "Multifunction": "multifunction",
-  "Wiper Arm": "wiper-arm",
-  "Rear Wiper": "rear-wiper",
-  "hybrid": "Hybrid",
-  "rear-wiper-combo": "Rear Wiper Combo",
-};
+import { CATEGORY_MAP, CATEGORY_LABEL_KEYS } from "../../../../data/categories";
 
 export default function ProductCategoryPage() {
   const params = useParams();
@@ -44,16 +25,8 @@ export default function ProductCategoryPage() {
 
   const t = translations[lang];
   const getCategoryName = () => {
-    const map: Record<string, string> = {
-      "Universal": t.footerUniversal,
-      "Specific Fit": t.footerSpecific,
-      "Multifunction": t.footerMultifunction,
-      "Wiper Arm": t.footerWiperArm,
-      "Rear Wiper": t.footerRearWiper,
-      "Hybrid": t.footerHybrid,
-      "Rear Wiper Combo": t.footerRearCombo,
-    };
-    return map[category] || category;
+    const key = CATEGORY_LABEL_KEYS[category];
+    return key ? t[key as keyof typeof t] : category;
   };
   const l = (p: string) => "/" + lang + p;
 
@@ -103,11 +76,14 @@ export default function ProductCategoryPage() {
               <h3 className="sidebar-title">{t.seriesFilter}</h3>
               <ul className="sidebar-list">
                 <Link href={l("/products")} style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">{t.allWipers}</li></Link>
-                {Object.entries(CATEGORY_MAP).map(([s, c]) => (
-                  <Link key={s} href={l("/products/category/" + s)} style={{textDecoration:"none",color:"inherit"}}>
-                    <li className={"sidebar-item" + (s === slug ? " active" : "")}>{(() => { const catMap: Record<string, string> = { "Universal": t.footerUniversal, "Specific Fit": t.footerSpecific, "Multifunction": t.footerMultifunction, "Wiper Arm": t.footerWiperArm, "Rear Wiper": t.footerRearWiper, "Hybrid": t.footerHybrid, "Rear Wiper Combo": t.footerRearCombo }; return catMap[c] || c; })()}</li>
-                  </Link>
-                ))}
+                {Object.entries(CATEGORY_MAP).map(([s, c]) => {
+                  const key = CATEGORY_LABEL_KEYS[c];
+                  return (
+                    <Link key={s} href={l("/products/category/" + s)} style={{textDecoration:"none",color:"inherit"}}>
+                      <li className={"sidebar-item" + (s === slug ? " active" : "")}>{key ? t[key as keyof typeof t] : c}</li>
+                    </Link>
+                  );
+                })}
               </ul>
             </aside>
 

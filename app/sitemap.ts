@@ -1,5 +1,6 @@
 import { MetadataRoute } from "next";
 import { allProducts } from "./data/products";
+import { CATEGORY_SLUGS } from "./data/categories";
 import { blogPosts } from "./data/blog";
 
 const locales = ["en", "es", "ru", "fr", "de", "zh"];
@@ -7,7 +8,7 @@ const baseUrl = "https://www.lelionautopart.com";
 // Real last-commit dates of the content data files (from git history).
 // Products: 2026-07-27 (image migration commit); blog posts use their publish date.
 const PRODUCT_LASTMOD = new Date("2026-07-27");
-const categorySlugs = ["universal", "specific-fit", "multifunction", "wiper-arm", "hybrid", "rear-wiper", "rear-wiper-combo"];
+const categorySlugs = CATEGORY_SLUGS;
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [];
