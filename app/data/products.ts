@@ -1,3 +1,5 @@
+import { migratedProducts } from "./migratedProducts";
+
 export interface Product {
   id: string;
   category: string;
@@ -911,4 +913,5 @@ export const allProducts: Product[] = [
       "Backed by 6-month warranty and manufactured to ISO 9001 standards"
     ]
   },
+  ...migratedProducts,
 ];

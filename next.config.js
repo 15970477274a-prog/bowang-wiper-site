@@ -4,6 +4,7 @@ const nextConfig = {
     remotePatterns: [
       { protocol: "https", hostname: "*.lelionautopart.com" },
       { protocol: "https", hostname: "sc02.alicdn.com" },
+      { protocol: "https", hostname: "**.faiusr.com" },
       { protocol: "https", hostname: "*.edgeone.dev" },
       { protocol: "https", hostname: "*.r2.dev" },
     ],
