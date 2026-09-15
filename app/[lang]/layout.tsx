@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   };
 
   const descriptions: Record<string, string> = {
-    en: "Lelion is a leading OEM/ODM wiper blade manufacturer in China. ISO 9001 & CE certified factory, MOQ 100 pcs/size, 15-day lead time, free samples, and global shipping.",
+    en: "Lelion is an OEM/ODM wiper blade manufacturer in China. ISO 9001 & CE certified factory, MOQ 100 pcs/size, 15-day lead time, free samples, and global shipping.",
     es: "Lelion es un fabricante líder de escobillas limpiaparabrisas OEM/ODM en China. Fábrica certificada ISO 9001 y CE, MOQ 100 uds/talla, plazo de 15 días, muestras gratis y envío global.",
     ru: "Lelion — ведущий OEM/ODM производитель стеклоочистителей в Китае. Сертификация ISO 9001 и CE, MOQ 100 шт/размер, срок 15 дней, бесплатные образцы и доставка по всему миру.",
     fr: "Lelion est un fabricant leader de balais d'essuie-glace OEM/ODM en Chine. Usine certifiée ISO 9001 et CE, MOQ 100 pcs/taille, délai de 15 jours, échantillons gratuits et expédition mondiale.",
@@ -26,9 +26,17 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
     zh: "Lelion 是中国领先的 OEM/ODM 雨刮片制造商。ISO 9001 与 CE 认证工厂，MOQ 100 支/尺寸，交期 15 天，免费打样，全球发货。",
   };
 
-  const homepageDescription = (descriptions[lang] || descriptions.en).length > 160
-    ? (descriptions[lang] || descriptions.en).substring(0, 157) + "..."
-    : (descriptions[lang] || descriptions.en);
+  // Cap the description at 160 chars, trimming on a word boundary so the
+  // truncated text never ends with a half word.
+  const clampDescription = (text: string, max = 160) => {
+    if (text.length <= max) return text;
+    const head = text.slice(0, max - 3);
+    const boundary = head.lastIndexOf(" ");
+    const body = boundary > 0 ? head.slice(0, boundary) : head;
+    return body.replace(/[\s,;:.]+$/, "") + "...";
+  };
+
+  const homepageDescription = clampDescription(descriptions[lang] || descriptions.en);
 
   return {
     metadataBase: new URL("https://www.lelionautopart.com"),

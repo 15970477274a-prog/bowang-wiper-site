@@ -7,7 +7,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.lelionautopart.com"),
   title: "Professional Wiper Blade Manufacturer | Lelion Autoparts",
-  description: "Lelion is a leading OEM/ODM wiper blade manufacturer in China. ISO 9001 & CE certified factory, MOQ 100 pcs/size, 15-day lead time, free samples, and global shipping.",
+  description: "Lelion is an OEM/ODM wiper blade manufacturer in China. ISO 9001 & CE certified factory, MOQ 100 pcs/size, 15-day lead time, free samples, and global shipping.",
   verification: {
     google: "1k31SR_2_8VvfchohXge3PuhcLUPc69UfIAgA0samO8",
   },
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     type: "website",
     siteName: "Lelion Autoparts",
     title: "Professional Wiper Blade Manufacturer | Lelion Autoparts",
-    description: "Lelion is a leading OEM/ODM wiper blade manufacturer in China. ISO 9001 & CE certified factory, MOQ 100 pcs/size, 15-day lead time, free samples, and global shipping.",
+    description: "Lelion is an OEM/ODM wiper blade manufacturer in China. ISO 9001 & CE certified factory, MOQ 100 pcs/size, 15-day lead time, free samples, and global shipping.",
     url: "https://www.lelionautopart.com",
     images: [
       {
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Professional Wiper Blade Manufacturer | Lelion Autoparts",
-    description: "Lelion is a leading OEM/ODM wiper blade manufacturer in China. ISO 9001 & CE certified factory, MOQ 100 pcs/size, 15-day lead time, free samples, and global shipping.",
+    description: "Lelion is an OEM/ODM wiper blade manufacturer in China. ISO 9001 & CE certified factory, MOQ 100 pcs/size, 15-day lead time, free samples, and global shipping.",
     images: ["https://sc02.alicdn.com/kf/H2533c3c14bc74cd3afe116f60a8357f4U.jpg"],
   },
   alternates: {
@@ -85,7 +85,7 @@ const websiteSchema = {
   "@type": "WebSite",
   "name": "Lelion Autoparts",
   "url": "https://www.lelionautopart.com",
-  "description": "Lelion is a leading OEM/ODM wiper blade manufacturer in China. ISO 9001 & CE certified factory, MOQ 100 pcs/size, 15-day lead time, free samples, and global shipping.",
+  "description": "Lelion is an OEM/ODM wiper blade manufacturer in China. ISO 9001 & CE certified factory, MOQ 100 pcs/size, 15-day lead time, free samples, and global shipping.",
   "inLanguage": ["en", "es", "ru", "fr", "de", "zh"],
   "isAccessibleForFree": true
 };
