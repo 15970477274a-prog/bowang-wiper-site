@@ -80,6 +80,18 @@ export default function BlogDetail() {
     let i = 0;
     while (i < lines.length) {
       const line = lines[i];
+      const img = line.trim().match(/^!\[([^\]]*)\]\(([^)|]+)(?:\|(\d+)x(\d+))?\)$/);
+      if (img) {
+        const iw = img[3] ? parseInt(img[3], 10) : 1200;
+        const ih = img[4] ? parseInt(img[4], 10) : 675;
+        out.push(
+          <figure key={i} style={{ margin: "25px 0" }}>
+            <Image src={img[2]} alt={img[1]} width={iw} height={ih} sizes="(max-width: 720px) 100vw, 720px" style={{ width: "100%", height: "auto", borderRadius: "12px" }} />
+          </figure>
+        );
+        i++;
+        continue;
+      }
       if (line.trim().startsWith("|")) {
         const rows: string[][] = [];
         while (i < lines.length && lines[i].trim().startsWith("|")) {
@@ -150,7 +162,7 @@ export default function BlogDetail() {
 
       {/* Featured Image */}
       <section style={{ maxWidth: "800px", margin: "0 auto", padding: "20px" }}>
-        <Image src={post.image} alt={postTitle} width={800} height={450} sizes="(max-width: 800px) 100vw, 800px" style={{ width: "100%", height: "auto", borderRadius: "12px" }} />
+        <Image src={post.image} alt={post.imageAlt || postTitle} width={800} height={450} sizes="(max-width: 800px) 100vw, 800px" style={{ width: "100%", height: "auto", borderRadius: "12px" }} />
       </section>
 
       {/* Article Content */}

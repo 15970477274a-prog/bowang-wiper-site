@@ -8,6 +8,7 @@ export interface BlogPost {
   category: string;
   tags: string[];
   image: string;
+  imageAlt?: string;
 }
 
 export const blogPosts: BlogPost[] = [
@@ -1047,6 +1048,114 @@ Vetting a wiper blade manufacturer is a five-layer process: legal identity, veri
 Note on sources: this guide references public verification channels including the U.S. Federal Trade Commission's business guidance on import fraud, the U.S. International Trade Commission's import data, ISO and CE registrars, and standard third-party inspection practice. Check current guidance at ftc.gov and usitc.gov before relying on specific rules, because import requirements change.
 
 **About the Author:** This guide was written by the Lelion Technical Team at Ningbo Zhenhai Bowang Autoparts Co., Ltd. We are an ISO 9001 and CE-certified wiper blade manufacturer, and we publish sourcing guides like this because verified, informed buyers are the customers we want. For questions or samples, [contact our export team](/contact).
+    `.trim()
+  },
+  {
+    id: "what-is-a-coated-silicone-wiper",
+    title: "What Is a Coated Silicone Wiper? How It Works",
+    excerpt: "A coated silicone wiper clears water and leaves a water-repellent layer on the glass. How the strip works — and what to know before you buy.",
+    date: "2026-09-23",
+    author: "Lelion Technical Team",
+    category: "Technical Guide",
+    tags: ["silicone wiper", "wiper blade materials", "wiper blade quality"],
+    image: "/blog/coated-silicone-wiper-hero-16x9.png",
+    imageAlt: "Coated silicone wiper blade on a windshield with rain beading and rolling off the glass",
+    content: `
+## The Short Answer
+
+A normal wiper pushes water off your windshield. A coated silicone wiper does that and leaves a water-repellent layer on the glass at the same time. That is the whole idea in one line.
+
+The difference is not in what the blade does — both clear the glass — but in what the blade is made of and what it carries onto the glass. The strip is silicone rather than ordinary rubber, and a water-repellent agent is built into that strip. As the blade sweeps, a little of the agent is transferred to the windshield, so the glass itself starts to behave differently in the rain.
+
+It also sets up the two notes at the end of this page. A water-repellent layer that lives on the glass is something you maintain rather than something you apply once, and the fluid you put in your washer reservoir is what decides whether that layer stays or gets stripped away.
+
+Below are the three differences that separate a coated silicone wiper from a standard wiper, how the two jobs happen in a single sweep, and two honest notes to weigh before you buy.
+
+## Three Differences That Matter
+
+Three things explain a coated silicone wiper: what the strip is made of, where the water-repellent agent comes from, and what changes on the glass as a result. Each one is simple on its own. Together they are the reason this type of blade is described as doing two jobs at once.
+
+### 1. The Strip Is Silicone
+
+The strip is silicone. That is the first difference, and it is a difference in material rather than a trick of design.
+
+Silicone handles heat and cold better than ordinary rubber, so it lasts longer and does not go hard. Both halves of that sentence matter. Lasting longer is the part you notice over time, because you are not replacing the blade as often. Not going hard is the part you notice in use, because the strip is meant to keep its softness through the conditions that are harder on ordinary rubber.
+
+The ordinary wiper is the baseline the whole comparison starts from: it pushes water off your windshield, and that is where its work ends. A silicone strip is what makes the second job possible in the first place, because the water-repellent agent has to sit inside the material for the blade to carry it onto the glass.
+
+### 2. The Water-Repellent Agent Sits Inside the Strip
+
+The second difference is where the water-repellent agent lives. It is not sprayed on top of the blade, and it is not something you apply to the windshield afterwards. It is mixed into the silicone when the blade is made.
+
+Because the agent is inside the material, it is not fixed in place. Over time it works its way to the surface. Each time the blade sweeps across the glass, a little of it is carried onto your windshield.
+
+That is the mechanism behind the one-line description. The same sweep that pushes water off the glass also leaves a small amount of water-repellent agent behind, so both effects come from a single action. It is a gradual process rather than a one-time treatment, which is why a coated silicone wiper is judged by how it behaves over many sweeps rather than by a single pass.
+
+### 3. The Glass Gets Slick
+
+The third difference is the one you notice from the driver's seat: the glass gets slick.
+
+Rain pulls into beads and rolls away instead of smearing into a film. A film of water clings to the glass and has to be pushed aside; beads leave on their own. That change is what turns the windshield from a surface you are constantly clearing into one that is already shedding water as you drive.
+
+At night, oncoming headlights glare less. It is the same behaviour, seen after dark, and it is often the first thing a driver mentions about the glass once the water-repellent layer is doing its work.
+
+Put the three together and the logic is short: a silicone strip, a water-repellent agent mixed inside it, and a glass surface that sheds water instead of smearing it.
+
+## How the Two Jobs Happen in One Sweep
+
+The one-line description is worth unpacking, because both jobs use the same motion.
+
+![Diagram of a coated silicone wiper strip: water-repellent agent mixed inside the silicone at manufacture, transferred to the glass with each sweep](/blog/coated-silicone-wiper-coating-transfer-diagram-3x2.png|1536x1024)
+
+When the blade sweeps across the windshield, it clears water the way any wiper does. At the same time, the surface of the silicone strip is carrying a little water-repellent agent that has worked its way out of the material, and that agent is transferred to the glass along the path of the sweep. Nothing extra is required of the driver: there is no second product to apply and no separate treatment step, because the transfer happens while the windshield is being cleared.
+
+In practice, that means the water-repellent layer is maintained by the act of wiping rather than by a maintenance routine of its own. The blade works on the glass in two ways at once — mechanically, by moving water off it, and by leaving behind the agent that changes how the next rain behaves. One motion, two effects, and no extra step asked of the driver.
+
+## Coated Silicone vs a Standard Wiper at a Glance
+
+| | Standard wiper | Coated silicone wiper |
+|---|---|---|
+| Strip | Ordinary rubber | Silicone |
+| Heat and cold | Baseline | Handles heat and cold better than ordinary rubber: lasts longer and does not go hard |
+| Water-repellent agent | None | Mixed into the silicone when the blade is made |
+| What happens to the glass | Water is pushed off | Glass gets slick: rain beads and rolls away instead of smearing into a film, and oncoming headlights glare less at night |
+| Washer fluid | — | Dedicated washer fluid; ammonia cleaners strip the coating |
+
+The table is the article in condensed form, and one row deserves a second look: the last one. Everything above it explains why the coating is there; the washer-fluid row explains what keeps it working. If you remember a single line from this page, it is that ammonia cleaners strip the coating.
+
+Read the table from top to bottom and it also answers the question most buyers actually arrive with: whether a coated silicone wiper does anything beyond what a standard wiper does. It clears water, and it leaves the water-repellent layer on the glass at the same time — the same two jobs described in one line at the top of this page.
+
+## Two Honest Notes Before You Buy
+
+Two honest notes go with everything above.
+
+The first is that the coating wears out over time. The water-repellent effect is not a permanent property of the glass: it comes from the agent the blade carries onto it, and the effect fades as the coating is used up. So the slick, beading behaviour belongs to the period when the coating is doing its work, and it is something that changes gradually rather than suddenly.
+
+The second is about washer fluid: you need dedicated washer fluid. Ammonia cleaners strip it. That makes the fluid you top up with a real choice rather than an incidental one, because an ammonia-based cleaner works against the layer the blade has been laying down. If your current washer fluid is an ammonia cleaner, changing it is the single most useful thing you can do to protect the coating.
+
+Neither note changes what the product is. Both belong on the page, because a buyer who understands that the coating wears out and that the wrong washer fluid strips it will get more out of the blade than one who is surprised by either.
+
+## Frequently Asked Questions
+
+### What is a coated silicone wiper?
+
+A coated silicone wiper pushes water off your windshield like a normal wiper, and at the same time leaves a water-repellent layer on the glass.
+
+### How is the water-repellent agent applied?
+
+It is mixed into the silicone when the blade is made — it is not sprayed on top. Over time it works its way to the surface, and each sweep carries a little onto your glass.
+
+### Does the water-repellent layer last forever?
+
+No. The coating wears out over time, so the effect is not permanent.
+
+### What washer fluid should I use?
+
+Dedicated washer fluid. Ammonia cleaners strip the coating, so an ammonia-based cleaner should not be used.
+
+### Why does the glass get slick?
+
+Rain pulls into beads and rolls away instead of smearing into a film. At night, oncoming headlights glare less.
     `.trim()
   }
 ];
