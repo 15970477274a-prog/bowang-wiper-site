@@ -31,7 +31,7 @@ export default function BlogDetail() {
     "@type": "Article",
     "headline": postTitle,
     "description": postExcerpt,
-    "image": post.image,
+    "image": post.image.startsWith("http") ? post.image : "https://www.lelionautopart.com" + post.image,
     "datePublished": post.date,
     "dateModified": post.date,
     "author": {"@type":"Organization","name":post.author,"url":"https://www.lelionautopart.com"},
