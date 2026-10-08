@@ -8,6 +8,8 @@ import { translations, Locale } from "../../../../translations";
 import { allProducts } from "../../../../data/products";
 import { getProductTranslation } from "../../../../data/productTranslations";
 import { CATEGORY_MAP, CATEGORY_LABEL_KEYS } from "../../../../data/categories";
+import { getCategoryMetaTitle, getCategoryMetaDescription } from "../../../../data/categoryMeta";
+import { getPageItems } from "../../../../../lib/pagination";
 
 export default function ProductCategoryPage() {
   const params = useParams();
@@ -42,7 +44,7 @@ export default function ProductCategoryPage() {
     "itemListElement": [
       {"@type":"ListItem","position":1,"name":"Home","item":"https://www.lelionautopart.com/" + lang},
       {"@type":"ListItem","position":2,"name":"Products","item":"https://www.lelionautopart.com/" + lang + "/products"},
-      {"@type":"ListItem","position":3,"name":category + " " + t.wiperBladesWord,"item":"https://www.lelionautopart.com/" + lang + "/products/category/" + slug}
+      {"@type":"ListItem","position":3,"name":getCategoryName(),"item":"https://www.lelionautopart.com/" + lang + "/products/category/" + slug}
     ]
   };
 
@@ -50,8 +52,8 @@ export default function ProductCategoryPage() {
   const collectionSchema = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    "name": category + " " + t.wiperBladesWord + " - Wholesale | Lelion Autoparts",
-    "description": "Browse our wholesale " + category.toLowerCase() + " " + t.wiperBladesWord.toLowerCase() + ". OEM/ODM manufacturer with factory-direct pricing, ISO certified, global shipping.",
+    "name": getCategoryMetaTitle(slug, getCategoryName(), lang),
+    "description": getCategoryMetaDescription(slug, getCategoryName(), lang),
     "url": "https://www.lelionautopart.com/" + lang + "/products/category/" + slug,
     "inLanguage": lang,
     "isPartOf": {"@type":"WebSite","name":"Lelion Autoparts"}
@@ -88,12 +90,12 @@ export default function ProductCategoryPage() {
             </aside>
 
             {/* Product Grid */}
-            <div style={{flex:"1 1 800px"}}>
+            <div style={{flex:"1 1 800px",minWidth:0}}>
               {filtered.length === 0 ? (
                 <p style={{color:"#64748b",textAlign:"center",padding:"40px"}}>{t.categoryNotFoundDesc || "No products found in this category."}</p>
               ) : (
                 <>
-                  <div style={{display:"grid",gridTemplateColumns:"repeat(3, 1fr)",gap:"30px"}}>
+                  <div className="grid-3col">
                     {(filtered.length <= ITEMS_PER_PAGE ? filtered : filtered.slice((currentPage - 1) * ITEMS_PER_PAGE, currentPage * ITEMS_PER_PAGE)).map(product => (
                       <div key={product.id} style={{
                         backgroundColor:"white",borderRadius:"16px",overflow:"hidden",border:"1px solid #f1f5f9",
@@ -141,8 +143,9 @@ export default function ProductCategoryPage() {
                     </p>
                   )}
 
-                  {/* Pagination */}
-                  <div style={{display:"flex",justifyContent:"center",alignItems:"center",gap:"8px",marginTop:"50px",paddingTop:"30px",borderTop:"1px solid #e2e8f0"}}>
+                  {/* Pagination - hidden when the whole category fits on one page */}
+                  {Math.ceil(filtered.length / ITEMS_PER_PAGE) > 1 && (
+                  <div style={{display:"flex",justifyContent:"center",alignItems:"center",gap:"8px",flexWrap:"wrap",marginTop:"50px",paddingTop:"30px",borderTop:"1px solid #e2e8f0"}}>
                     <button
                       onClick={() => setCurrentPage(Math.max(1, currentPage - 1))}
                       disabled={currentPage === 1}
@@ -154,17 +157,22 @@ export default function ProductCategoryPage() {
                     >
                       {t.prev}
                     </button>
-                    {Array.from({length: Math.ceil(filtered.length / ITEMS_PER_PAGE)}, (_, i) => i + 1).map(page => (
-                      <button key={page} onClick={() => setCurrentPage(page)}
-                        style={{width:"40px",height:"40px",border:page===currentPage?"none":"1px solid #e2e8f0",
-                          borderRadius:"8px",background:page===currentPage?"#0284c7":"white",
-                          color:page===currentPage?"white":"#475569",cursor:"pointer",
-                          fontSize:"14px",fontWeight:page===currentPage?700:500,transition:"all 0.2s"
-                        }}
-                      >
-                        {page}
-                      </button>
-                    ))}
+                    {getPageItems(currentPage, Math.ceil(filtered.length / ITEMS_PER_PAGE)).map((item, i) =>
+                      item === "gap" ? (
+                        <span key={"gap" + i} aria-hidden="true"
+                          style={{width:"40px",textAlign:"center",color:"#94a3b8",fontSize:"14px",userSelect:"none"}}>…</span>
+                      ) : (
+                        <button key={item} onClick={() => setCurrentPage(item)}
+                          style={{width:"40px",height:"40px",border:item===currentPage?"none":"1px solid #e2e8f0",
+                            borderRadius:"8px",background:item===currentPage?"#0284c7":"white",
+                            color:item===currentPage?"white":"#475569",cursor:"pointer",
+                            fontSize:"14px",fontWeight:item===currentPage?700:500,transition:"all 0.2s"
+                          }}
+                        >
+                          {item}
+                        </button>
+                      )
+                    )}
                     <button
                       onClick={() => setCurrentPage(Math.min(Math.ceil(filtered.length / ITEMS_PER_PAGE), currentPage + 1))}
                       disabled={currentPage === Math.ceil(filtered.length / ITEMS_PER_PAGE)}
@@ -178,6 +186,7 @@ export default function ProductCategoryPage() {
                       {t.next}
                     </button>
                   </div>
+                  )}
                 </>
               )}
             </div>

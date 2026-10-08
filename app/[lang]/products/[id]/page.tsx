@@ -10,6 +10,9 @@ import { allProducts } from "../../../data/products";
 import { blogPosts } from "../../../data/blog";
 import { getProductTranslation } from "../../../data/productTranslations";
 import { CATEGORY_LABEL_KEYS } from "../../../data/categories";
+// NOTE: the Product structured-data block was removed upstream (see the comment
+// above detailBreadcrumbSchema), so lib/productMeta is no longer imported here.
+// It is still used by app/[lang]/products/[id]/layout.tsx for the meta description.
 
 export default function ProductDetail() {
   const params = useParams();

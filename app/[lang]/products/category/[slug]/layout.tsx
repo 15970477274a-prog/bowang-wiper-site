@@ -1,6 +1,7 @@
 import { alternatesWithHreflang } from "../../../../../lib/hreflang";
 import type { Metadata } from "next";
 import { translations, Locale } from "../../../../translations";
+import { getCategoryMetaTitle, getCategoryMetaDescription } from "../../../../data/categoryMeta";
 
 type Props = { params: Promise<{ lang: string; slug: string }> };
 
@@ -42,8 +43,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         .split("-")
         .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
         .join(" ");
-  const title = categoryName + " " + t.wiperBladesWord + " | Lelion Autoparts";
-  const description = t.categoryBannerSub;
+  const title = getCategoryMetaTitle(slug, categoryName, lang);
+  const description = getCategoryMetaDescription(slug, categoryName, lang);
   const canonicalPath = "/" + lang + "/products/category/" + slug;
 
   return {

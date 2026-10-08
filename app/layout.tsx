@@ -1,8 +1,16 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { hreflangUrls } from "../lib/hreflang";
 import Script from "next/script";
 import HtmlLangFix from "../components/HtmlLangFix";
 import "./globals.css";
+
+// theme-color must live on the `viewport` export in Next.js 15+.
+// #0f172a matches the dark banner background used across the site.
+export const viewport: Viewport = {
+  themeColor: "#0f172a",
+  width: "device-width",
+  initialScale: 1,
+};
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.lelionautopart.com"),

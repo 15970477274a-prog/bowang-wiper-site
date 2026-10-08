@@ -1,5 +1,6 @@
 import { alternatesWithHreflang } from "../../../../lib/hreflang";
 import { truncateTitle } from "../../../../lib/seo";
+import { buildProductMetaDescription } from "../../../../lib/productMeta";
 import type { Metadata } from "next";
 import { allProducts } from "../../../data/products";
 import { getProductTranslation } from "../../../data/productTranslations";
@@ -30,7 +31,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const desc = trans?.desc || product.desc;
   // name part max 39 so that name + "..." + " | Lelion Autoparts" stays <= 60 chars
   const title = truncateTitle(name, 39) + " | Lelion Autoparts";
-  const description = desc.length > 160 ? desc.substring(0, 157) + "..." : desc;
+  // `desc` is a stub for ~74% of the catalogue, so fall back to a composed
+  // description that leads with the product name. See lib/productMeta.ts.
+  const description = buildProductMetaDescription(name, desc, lang);
   const canonicalPath = "/" + lang + "/products/" + product.id;
 
   return {

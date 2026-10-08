@@ -41,8 +41,13 @@ export default function proxy(request: NextRequest) {
 
   // Redirect to default locale (permanent — collapses link equity and
   // prevents duplicate-content pairs for legacy non-prefixed URLs)
+  //
+  // Strip trailing slashes before prefixing. The root pathname "/" used to
+  // produce "/en/", which Next.js then normalised to "/en", adding a second
+  // (and avoidable) redirect hop to every entry from the bare domain.
   const locale = getLocale(request);
-  const newUrl = new URL(`/${locale}${pathname}`, request.url);
+  const normalizedPath = pathname.replace(/\/+$/, "");
+  const newUrl = new URL(`/${locale}${normalizedPath}`, request.url);
   newUrl.search = request.nextUrl.search;
   return NextResponse.redirect(newUrl, 308);
 }

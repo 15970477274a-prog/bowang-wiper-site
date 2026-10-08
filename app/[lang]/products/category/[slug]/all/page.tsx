@@ -84,7 +84,7 @@ export default function CategoryAllProductsPage() {
               </ul>
             </aside>
 
-            <div style={{flex:"1 1 800px"}}>
+            <div style={{flex:"1 1 800px",minWidth:0}}>
               <p style={{marginBottom:"25px"}}>
                 <Link href={l("/products/category/" + slug)} style={{color:"#0284c7",fontWeight:600,textDecoration:"none",fontSize:"14px"}}>{t.backToProducts}</Link>
               </p>

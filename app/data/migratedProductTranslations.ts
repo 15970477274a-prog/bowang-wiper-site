@@ -1,6 +1,6 @@
 // Auto-generated from legacy bwwiper catalog.
 // Provides en-fallback translations for migrated products.
-import type { ProductTranslation } from "./productTranslations";
+import type { ProductTranslation } from "./productTranslationsBase";
 
 export const migratedProductTranslations: Record<string, Record<string, ProductTranslation>> = {
   "bw-829-front-wiper-blade-peugeot-308-2014-2020": {
@@ -9662,8 +9662,8 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
   "bw-849-165": {
     "es": {
       "name": "LELION Personalizado 18+22 Pulgadas Limpiaparabrisas Especiales Limpiaparabrisas Delantero Para Coche Limpiaparabrisas Suave Para BMW X1 X5 X",
-      "desc": "LELION escobilla limpiaparabrisas sepcial AL por mayor",
-      "longDesc": "LELION Personalizado 18+22 Pulgadas Limpiaparabrisas Especiales Limpiaparabrisas Delantero Para Coche Limpiaparabrisas Suave Para BMW X1 X5 X. LELION escobilla limpiaparabrisas sepcial AL por mayor",
+      "desc": "LELION escobilla limpiaparabrisas special AL por mayor",
+      "longDesc": "LELION Personalizado 18+22 Pulgadas Limpiaparabrisas Especiales Limpiaparabrisas Delantero Para Coche Limpiaparabrisas Suave Para BMW X1 X5 X. LELION escobilla limpiaparabrisas special AL por mayor",
       "specs": [
         "Modelo del producto: BW-849",
         "Tamaño: Estándar",
@@ -10940,8 +10940,8 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
   "bw-824-162": {
     "es": {
       "name": "Limpiaparabrisas delanteros LELION Fabricantes de Limpiaparabrisas sin marco de silicona para BMW Serie 3 2004-2009",
-      "desc": "LELION escobilla limpiaparabrisas sepcial AL por mayor",
-      "longDesc": "Limpiaparabrisas delanteros LELION Fabricantes de Limpiaparabrisas sin marco de silicona para BMW Serie 3 2004-2009. LELION escobilla limpiaparabrisas sepcial AL por mayor",
+      "desc": "LELION escobilla limpiaparabrisas special AL por mayor",
+      "longDesc": "Limpiaparabrisas delanteros LELION Fabricantes de Limpiaparabrisas sin marco de silicona para BMW Serie 3 2004-2009. LELION escobilla limpiaparabrisas special AL por mayor",
       "specs": [
         "Modelo del producto: BW-824",
         "Tamaño: Estándar",
@@ -11934,8 +11934,8 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
   "bw-829-230": {
     "es": {
       "name": "LELION Calidad Coche de goma Parabrisas delantero Fabricantes de escobillas suaves para Peugeot 307 2004-2008",
-      "desc": "LELION escobilla limpiaparabrisas sepcial AL por mayor",
-      "longDesc": "LELION Calidad Coche de goma Parabrisas delantero Fabricantes de escobillas suaves para Peugeot 307 2004-2008. LELION escobilla limpiaparabrisas sepcial AL por mayor",
+      "desc": "LELION escobilla limpiaparabrisas special AL por mayor",
+      "longDesc": "LELION Calidad Coche de goma Parabrisas delantero Fabricantes de escobillas suaves para Peugeot 307 2004-2008. LELION escobilla limpiaparabrisas special AL por mayor",
       "specs": [
         "Modelo del producto: BW-829",
         "Tamaño: Estándar",
@@ -14348,8 +14348,8 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
   "bw-829-188": {
     "es": {
       "name": "LELION Mayorista Parabrisas Delantero Fabricantes de Limpiaparabrisas Especial para SKODA FABIA 2007-2014",
-      "desc": "LELION escobilla limpiaparabrisas sepcial AL por mayor",
-      "longDesc": "LELION Mayorista Parabrisas Delantero Fabricantes de Limpiaparabrisas Especial para SKODA FABIA 2007-2014. LELION escobilla limpiaparabrisas sepcial AL por mayor",
+      "desc": "LELION escobilla limpiaparabrisas special AL por mayor",
+      "longDesc": "LELION Mayorista Parabrisas Delantero Fabricantes de Limpiaparabrisas Especial para SKODA FABIA 2007-2014. LELION escobilla limpiaparabrisas special AL por mayor",
       "specs": [
         "Modelo del producto: BW-829",
         "Tamaño: Estándar",
@@ -20453,9 +20453,9 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
   },
   "bw0869p-rear-wiper-balde-fiat-punto-2008-2011": {
     "es": {
-      "name": "Limpiaparabrisas trasero Balde para Fiat Europe PUNTO 2008--2011",
-      "desc": "Limpiaparabrisas trasero Balde para Fiat Europe PUNTO 2008--2011",
-      "longDesc": "Limpiaparabrisas trasero Balde para Fiat Europe PUNTO 2008--2011. Repuesto premium de posventa de LELION, un fabricante líder chino de limpiaparabrisas OEM/ODM. Precio directo de fábrica con logística de exportación global.",
+      "name": "Limpiaparabrisas trasero Blade para Fiat Europe PUNTO 2008--2011",
+      "desc": "Limpiaparabrisas trasero Blade para Fiat Europe PUNTO 2008--2011",
+      "longDesc": "Limpiaparabrisas trasero Blade para Fiat Europe PUNTO 2008--2011. Repuesto premium de posventa de LELION, un fabricante líder chino de limpiaparabrisas OEM/ODM. Precio directo de fábrica con logística de exportación global.",
       "specs": [
         "Modelo del producto: BW0869P",
         "Tamaño: Estándar",
@@ -20475,7 +20475,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Categoría": "Escobilla Trasera",
         "Tamaño": "Estándar",
         "Color": "Negro",
-        "Aplicación": "Limpiaparabrisas trasero Balde para Fiat Europe PUNTO 2008--2011",
+        "Aplicación": "Limpiaparabrisas trasero Blade para Fiat Europe PUNTO 2008--2011",
         "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
@@ -20595,9 +20595,9 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
   },
   "bw0875p-377": {
     "es": {
-      "name": "Limpiaparabrisas trasero Balde para Ford Explorer 2016-2016",
-      "desc": "Limpiaparabrisas trasero Balde para Ford Explorer 2016-2016",
-      "longDesc": "Limpiaparabrisas trasero Balde para Ford Explorer 2016-2016. Repuesto premium de posventa de LELION, un fabricante líder chino de limpiaparabrisas OEM/ODM. Precio directo de fábrica con logística de exportación global.",
+      "name": "Limpiaparabrisas trasero Blade para Ford Explorer 2016-2016",
+      "desc": "Limpiaparabrisas trasero Blade para Ford Explorer 2016-2016",
+      "longDesc": "Limpiaparabrisas trasero Blade para Ford Explorer 2016-2016. Repuesto premium de posventa de LELION, un fabricante líder chino de limpiaparabrisas OEM/ODM. Precio directo de fábrica con logística de exportación global.",
       "specs": [
         "Modelo del producto: BW0875P",
         "Tamaño: Estándar",
@@ -20617,7 +20617,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Categoría": "Escobilla Trasera",
         "Tamaño": "Estándar",
         "Color": "Negro",
-        "Aplicación": "Limpiaparabrisas trasero Balde para Ford Explorer 2016-2016",
+        "Aplicación": "Limpiaparabrisas trasero Blade para Ford Explorer 2016-2016",
         "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
@@ -20737,9 +20737,9 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
   },
   "bw0521p-rear-wiper-blade-nissan-juke-2010-2016": {
     "es": {
-      "name": "Limpiaparabrisas trasero Balde para Nissan Juke 2010-2016",
-      "desc": "Limpiaparabrisas trasero Balde para Nissan Juke 2010-2016",
-      "longDesc": "Limpiaparabrisas trasero Balde para Nissan Juke 2010-2016. Repuesto premium de posventa de LELION, un fabricante líder chino de limpiaparabrisas OEM/ODM. Precio directo de fábrica con logística de exportación global.",
+      "name": "Limpiaparabrisas trasero Blade para Nissan Juke 2010-2016",
+      "desc": "Limpiaparabrisas trasero Blade para Nissan Juke 2010-2016",
+      "longDesc": "Limpiaparabrisas trasero Blade para Nissan Juke 2010-2016. Repuesto premium de posventa de LELION, un fabricante líder chino de limpiaparabrisas OEM/ODM. Precio directo de fábrica con logística de exportación global.",
       "specs": [
         "Modelo del producto: BW0521P",
         "Tamaño: Estándar",
@@ -20759,7 +20759,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Categoría": "Escobilla Trasera",
         "Tamaño": "Estándar",
         "Color": "Negro",
-        "Aplicación": "Limpiaparabrisas trasero Balde para Nissan Juke 2010-2016",
+        "Aplicación": "Limpiaparabrisas trasero Blade para Nissan Juke 2010-2016",
         "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
@@ -20879,9 +20879,9 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
   },
   "bw1136p-rear-wiper-balde-peugeot-508-2011-2013": {
     "es": {
-      "name": "Limpiaparabrisas trasero Balde para PEUGEOT 508 2011--2013",
-      "desc": "Limpiaparabrisas trasero Balde para PEUGEOT 508 2011--2013",
-      "longDesc": "Limpiaparabrisas trasero Balde para PEUGEOT 508 2011--2013. Repuesto premium de posventa de LELION, un fabricante líder chino de limpiaparabrisas OEM/ODM. Precio directo de fábrica con logística de exportación global.",
+      "name": "Limpiaparabrisas trasero Blade para PEUGEOT 508 2011--2013",
+      "desc": "Limpiaparabrisas trasero Blade para PEUGEOT 508 2011--2013",
+      "longDesc": "Limpiaparabrisas trasero Blade para PEUGEOT 508 2011--2013. Repuesto premium de posventa de LELION, un fabricante líder chino de limpiaparabrisas OEM/ODM. Precio directo de fábrica con logística de exportación global.",
       "specs": [
         "Modelo del producto: BW1136P",
         "Tamaño: Estándar",
@@ -20901,7 +20901,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Categoría": "Escobilla Trasera",
         "Tamaño": "Estándar",
         "Color": "Negro",
-        "Aplicación": "Limpiaparabrisas trasero Balde para PEUGEOT 508 2011--2013",
+        "Aplicación": "Limpiaparabrisas trasero Blade para PEUGEOT 508 2011--2013",
         "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
@@ -21021,9 +21021,9 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
   },
   "bw1703p-rear-wiper-balde-fiat-sedici-2002": {
     "es": {
-      "name": "Limpiaparabrisas trasero Baldes para Fiat Europe Sedici 2002",
-      "desc": "Limpiaparabrisas trasero Baldes para Fiat Europe Sedici 2002",
-      "longDesc": "Limpiaparabrisas trasero Baldes para Fiat Europe Sedici 2002. Repuesto premium de posventa de LELION, un fabricante líder chino de limpiaparabrisas OEM/ODM. Precio directo de fábrica con logística de exportación global.",
+      "name": "Limpiaparabrisas trasero Blades para Fiat Europe Sedici 2002",
+      "desc": "Limpiaparabrisas trasero Blades para Fiat Europe Sedici 2002",
+      "longDesc": "Limpiaparabrisas trasero Blades para Fiat Europe Sedici 2002. Repuesto premium de posventa de LELION, un fabricante líder chino de limpiaparabrisas OEM/ODM. Precio directo de fábrica con logística de exportación global.",
       "specs": [
         "Modelo del producto: BW1703P",
         "Tamaño: Estándar",
@@ -21043,7 +21043,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Categoría": "Escobilla Trasera",
         "Tamaño": "Estándar",
         "Color": "Negro",
-        "Aplicación": "Limpiaparabrisas trasero Baldes para Fiat Europe Sedici 2002",
+        "Aplicación": "Limpiaparabrisas trasero Blades para Fiat Europe Sedici 2002",
         "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
@@ -21163,9 +21163,9 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
   },
   "bw0857p-403": {
     "es": {
-      "name": "Limpiaparabrisas trasero Baldes para Mercedes-Benz CLASE M W164 2005-2011",
-      "desc": "Limpiaparabrisas trasero Baldes para Mercedes-Benz CLASE M W164 2005-2011",
-      "longDesc": "Limpiaparabrisas trasero Baldes para Mercedes-Benz CLASE M W164 2005-2011. Repuesto premium de posventa de LELION, un fabricante líder chino de limpiaparabrisas OEM/ODM. Precio directo de fábrica con logística de exportación global.",
+      "name": "Limpiaparabrisas trasero Blades para Mercedes-Benz CLASE M W164 2005-2011",
+      "desc": "Limpiaparabrisas trasero Blades para Mercedes-Benz CLASE M W164 2005-2011",
+      "longDesc": "Limpiaparabrisas trasero Blades para Mercedes-Benz CLASE M W164 2005-2011. Repuesto premium de posventa de LELION, un fabricante líder chino de limpiaparabrisas OEM/ODM. Precio directo de fábrica con logística de exportación global.",
       "specs": [
         "Modelo del producto: BW0857P",
         "Tamaño: Estándar",
@@ -21185,7 +21185,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Categoría": "Escobilla Trasera",
         "Tamaño": "Estándar",
         "Color": "Negro",
-        "Aplicación": "Limpiaparabrisas trasero Baldes para Mercedes-Benz CLASE M W164 2005-2011",
+        "Aplicación": "Limpiaparabrisas trasero Blades para Mercedes-Benz CLASE M W164 2005-2011",
         "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
@@ -21305,9 +21305,9 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
   },
   "bw0841p-rear-wiper-balde-nissan-qashqai-2008-2017": {
     "es": {
-      "name": "Limpiaparabrisas trasero Baldes para NISSAN DONGFENG Qashqai 2008-2017",
-      "desc": "Limpiaparabrisas trasero Baldes para NISSAN DONGFENG Qashqai 2008--2017",
-      "longDesc": "Limpiaparabrisas trasero Baldes para NISSAN DONGFENG Qashqai 2008-2017. Limpiaparabrisas trasero Baldes para NISSAN DONGFENG Qashqai 2008--2017",
+      "name": "Limpiaparabrisas trasero Blades para NISSAN DONGFENG Qashqai 2008-2017",
+      "desc": "Limpiaparabrisas trasero Blades para NISSAN DONGFENG Qashqai 2008--2017",
+      "longDesc": "Limpiaparabrisas trasero Blades para NISSAN DONGFENG Qashqai 2008-2017. Limpiaparabrisas trasero Blades para NISSAN DONGFENG Qashqai 2008--2017",
       "specs": [
         "Modelo del producto: BW0841P",
         "Tamaño: Estándar",
@@ -21327,7 +21327,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Categoría": "Escobilla Trasera",
         "Tamaño": "Estándar",
         "Color": "Negro",
-        "Aplicación": "Limpiaparabrisas trasero Baldes para NISSAN DONGFENG Qashqai 2008-2017",
+        "Aplicación": "Limpiaparabrisas trasero Blades para NISSAN DONGFENG Qashqai 2008-2017",
         "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
@@ -21447,9 +21447,9 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
   },
   "bw0874p-rear-wiper-balde-opel-corsad-2006-2013": {
     "es": {
-      "name": "Limpiaparabrisas trasero Baldes para Opel Corsa D 2006-2013",
-      "desc": "Limpiaparabrisas trasero Baldes para Opel Corsa D 2006-2013",
-      "longDesc": "Limpiaparabrisas trasero Baldes para Opel Corsa D 2006-2013. Repuesto premium de posventa de LELION, un fabricante líder chino de limpiaparabrisas OEM/ODM. Precio directo de fábrica con logística de exportación global.",
+      "name": "Limpiaparabrisas trasero Blades para Opel Corsa D 2006-2013",
+      "desc": "Limpiaparabrisas trasero Blades para Opel Corsa D 2006-2013",
+      "longDesc": "Limpiaparabrisas trasero Blades para Opel Corsa D 2006-2013. Repuesto premium de posventa de LELION, un fabricante líder chino de limpiaparabrisas OEM/ODM. Precio directo de fábrica con logística de exportación global.",
       "specs": [
         "Modelo del producto: BW0874P",
         "Tamaño: Estándar",
@@ -21469,7 +21469,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Categoría": "Escobilla Trasera",
         "Tamaño": "Estándar",
         "Color": "Negro",
-        "Aplicación": "Limpiaparabrisas trasero Baldes para Opel Corsa D 2006-2013",
+        "Aplicación": "Limpiaparabrisas trasero Blades para Opel Corsa D 2006-2013",
         "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
@@ -31814,8 +31814,8 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
   "bw-825-155": {
     "es": {
       "name": "Accesorios externos para automóviles al por mayor Limpiaparabrisas delantero Limpiaparabrisas especiales para Land Rover Freelander",
-      "desc": "LELION escobilla limpiaparabrisas sepcial AL por mayor",
-      "longDesc": "Accesorios externos para automóviles al por mayor Limpiaparabrisas delantero Limpiaparabrisas especiales para Land Rover Freelander. LELION escobilla limpiaparabrisas sepcial AL por mayor",
+      "desc": "LELION escobilla limpiaparabrisas special AL por mayor",
+      "longDesc": "Accesorios externos para automóviles al por mayor Limpiaparabrisas delantero Limpiaparabrisas especiales para Land Rover Freelander. LELION escobilla limpiaparabrisas special AL por mayor",
       "specs": [
         "Modelo del producto: BW-825",
         "Tamaño: Estándar",
@@ -33660,8 +33660,8 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
   "bw-831-170": {
     "es": {
       "name": "Venta al por mayor Accesorios externos para automóviles Limpiaparabrisas delantero para Audi A1 A3 A4 A5 A6 A7 A8",
-      "desc": "LELION escobilla limpiaparabrisas sepcial AL por mayor",
-      "longDesc": "Venta al por mayor Accesorios externos para automóviles Limpiaparabrisas delantero para Audi A1 A3 A4 A5 A6 A7 A8. LELION escobilla limpiaparabrisas sepcial AL por mayor",
+      "desc": "LELION escobilla limpiaparabrisas special AL por mayor",
+      "longDesc": "Venta al por mayor Accesorios externos para automóviles Limpiaparabrisas delantero para Audi A1 A3 A4 A5 A6 A7 A8. LELION escobilla limpiaparabrisas special AL por mayor",
       "specs": [
         "Modelo del producto: BW-831",
         "Tamaño: Estándar",
@@ -34938,8 +34938,8 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
   "bw-835-200": {
     "es": {
       "name": "Venta al por mayor de accesorios externos para automóviles Limpiaparabrisas delantero para VW TOUAREG 2002-2017",
-      "desc": "LELION escobilla limpiaparabrisas sepcial AL por mayor",
-      "longDesc": "Venta al por mayor de accesorios externos para automóviles Limpiaparabrisas delantero para VW TOUAREG 2002-2017. LELION escobilla limpiaparabrisas sepcial AL por mayor",
+      "desc": "LELION escobilla limpiaparabrisas special AL por mayor",
+      "longDesc": "Venta al por mayor de accesorios externos para automóviles Limpiaparabrisas delantero para VW TOUAREG 2002-2017. LELION escobilla limpiaparabrisas special AL por mayor",
       "specs": [
         "Modelo del producto: BW-835",
         "Tamaño: Estándar",
@@ -37920,8 +37920,8 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
   "bw-826-205": {
     "es": {
       "name": "Venta al por mayor de accesorios externos para automóviles Limpiaparabrisas delantero para BMW SERIE 5 2004-2009",
-      "desc": "LELION escobilla limpiaparabrisas sepcial AL por mayor",
-      "longDesc": "Venta al por mayor de accesorios externos para automóviles Limpiaparabrisas delantero para BMW SERIE 5 2004-2009. LELION escobilla limpiaparabrisas sepcial AL por mayor",
+      "desc": "LELION escobilla limpiaparabrisas special AL por mayor",
+      "longDesc": "Venta al por mayor de accesorios externos para automóviles Limpiaparabrisas delantero para BMW SERIE 5 2004-2009. LELION escobilla limpiaparabrisas special AL por mayor",
       "specs": [
         "Modelo del producto: BW-826",
         "Tamaño: Estándar",
@@ -38062,8 +38062,8 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
   "bw-709-217": {
     "es": {
       "name": "Accesorios externos para automóviles al por mayor Limpiaparabrisas delantero para Land Rover Range Rover 2003-2012",
-      "desc": "LELION escobilla limpiaparabrisas sepcial AL por mayor",
-      "longDesc": "Accesorios externos para automóviles al por mayor Limpiaparabrisas delantero para Land Rover Range Rover 2003-2012. LELION escobilla limpiaparabrisas sepcial AL por mayor",
+      "desc": "LELION escobilla limpiaparabrisas special AL por mayor",
+      "longDesc": "Accesorios externos para automóviles al por mayor Limpiaparabrisas delantero para Land Rover Range Rover 2003-2012. LELION escobilla limpiaparabrisas special AL por mayor",
       "specs": [
         "Modelo del producto: BW-709",
         "Tamaño: Estándar",
@@ -38204,8 +38204,8 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
   "bw-830-194": {
     "es": {
       "name": "Venta al por mayor de accesorios externos para automóviles Limpiaparabrisas delantero para AUDI A6L 2006-2011",
-      "desc": "LELION escobilla limpiaparabrisas sepcial AL por mayor",
-      "longDesc": "Venta al por mayor de accesorios externos para automóviles Limpiaparabrisas delantero para AUDI A6L 2006-2011. LELION escobilla limpiaparabrisas sepcial AL por mayor",
+      "desc": "LELION escobilla limpiaparabrisas special AL por mayor",
+      "longDesc": "Venta al por mayor de accesorios externos para automóviles Limpiaparabrisas delantero para AUDI A6L 2006-2011. LELION escobilla limpiaparabrisas special AL por mayor",
       "specs": [
         "Modelo del producto: BW-830",
         "Tamaño: Estándar",
@@ -39198,8 +39198,8 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
   "bw-835-164": {
     "es": {
       "name": "Venta al por mayor Accesorios externos para automóviles Limpiaparabrisas delantero para automóviles PORSCHE CAYENNE",
-      "desc": "LELION escobilla limpiaparabrisas sepcial AL por mayor",
-      "longDesc": "Venta al por mayor Accesorios externos para automóviles Limpiaparabrisas delantero para automóviles PORSCHE CAYENNE. LELION escobilla limpiaparabrisas sepcial AL por mayor",
+      "desc": "LELION escobilla limpiaparabrisas special AL por mayor",
+      "longDesc": "Venta al por mayor Accesorios externos para automóviles Limpiaparabrisas delantero para automóviles PORSCHE CAYENNE. LELION escobilla limpiaparabrisas special AL por mayor",
       "specs": [
         "Modelo del producto: BW-835",
         "Tamaño: 26+26\"",
@@ -39908,8 +39908,8 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
   "bw-825-158": {
     "es": {
       "name": "Accesorios externos para automóviles al por mayor Limpiaparabrisas delantero para Renault Koleos 2008-2016",
-      "desc": "LELION escobilla limpiaparabrisas sepcial AL por mayor",
-      "longDesc": "Accesorios externos para automóviles al por mayor Limpiaparabrisas delantero para Renault Koleos 2008-2016. LELION escobilla limpiaparabrisas sepcial AL por mayor",
+      "desc": "LELION escobilla limpiaparabrisas special AL por mayor",
+      "longDesc": "Accesorios externos para automóviles al por mayor Limpiaparabrisas delantero para Renault Koleos 2008-2016. LELION escobilla limpiaparabrisas special AL por mayor",
       "specs": [
         "Modelo del producto: BW-825",
         "Tamaño: Estándar",
@@ -40760,8 +40760,8 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
   "bw-825-174": {
     "es": {
       "name": "Venta al por mayor Accesorios externos para automóviles Limpiaparabrisas delantero para Viano ML350 ML300 R300 R350 R50",
-      "desc": "LELION escobilla limpiaparabrisas sepcial AL por mayor",
-      "longDesc": "Venta al por mayor Accesorios externos para automóviles Limpiaparabrisas delantero para Viano ML350 ML300 R300 R350 R50. LELION escobilla limpiaparabrisas sepcial AL por mayor",
+      "desc": "LELION escobilla limpiaparabrisas special AL por mayor",
+      "longDesc": "Venta al por mayor Accesorios externos para automóviles Limpiaparabrisas delantero para Viano ML350 ML300 R300 R350 R50. LELION escobilla limpiaparabrisas special AL por mayor",
       "specs": [
         "Modelo del producto: BW-825",
         "Tamaño: Estándar",
@@ -47434,8 +47434,8 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
   "bw-825-223": {
     "es": {
       "name": "Venta al por mayor Accesorios externos para automóviles Parabrisas delantero especial 24+ 19 pulgadas Limpiaparabrisas suave para Jagua",
-      "desc": "LELION escobilla limpiaparabrisas sepcial AL por mayor",
-      "longDesc": "Venta al por mayor Accesorios externos para automóviles Parabrisas delantero especial 24+ 19 pulgadas Limpiaparabrisas suave para Jagua. LELION escobilla limpiaparabrisas sepcial AL por mayor",
+      "desc": "LELION escobilla limpiaparabrisas special AL por mayor",
+      "longDesc": "Venta al por mayor Accesorios externos para automóviles Parabrisas delantero especial 24+ 19 pulgadas Limpiaparabrisas suave para Jagua. LELION escobilla limpiaparabrisas special AL por mayor",
       "specs": [
         "Modelo del producto: BW-825",
         "Tamaño: Estándar",
@@ -48002,8 +48002,8 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
   "bw-825-231": {
     "es": {
       "name": "Venta al por mayor Accesorios externos para automóviles Limpiaparabrisas delantero Limpiaparabrisas suave para VOLVO XC90 S80",
-      "desc": "LELION escobilla limpiaparabrisas sepcial AL por mayor",
-      "longDesc": "Venta al por mayor Accesorios externos para automóviles Limpiaparabrisas delantero Limpiaparabrisas suave para VOLVO XC90 S80. LELION escobilla limpiaparabrisas sepcial AL por mayor",
+      "desc": "LELION escobilla limpiaparabrisas special AL por mayor",
+      "longDesc": "Venta al por mayor Accesorios externos para automóviles Limpiaparabrisas delantero Limpiaparabrisas suave para VOLVO XC90 S80. LELION escobilla limpiaparabrisas special AL por mayor",
       "specs": [
         "Modelo del producto: BW-825",
         "Tamaño: Estándar",

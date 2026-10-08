@@ -17,7 +17,6 @@ Un fabricant fiable doit disposer de :
 
 Vérifiez toujours ces certifications :
 - ISO 9001:2015 — Management de la qualité de base
-- IATF 16949 — Norme qualité spécifique à l'automobile
 - Marquage CE — Conformité pour le marché européen
 - Rapports de tests de matériaux (ozone, brouillard salin, résistance au froid)
 
@@ -160,17 +159,6 @@ C'est la certification qualité fondamentale. Elle garantit que le fabricant dis
 - Processus d'amélioration continue
 - Orientation client et systèmes de retour d'information
 - Audits internes et externes réguliers
-
-### IATF 16949 — Norme qualité automobile
-
-C'est la référence absolue pour les fabricants de pièces automobiles. Elle inclut tout ce que contient l'ISO 9001, plus :
-- Gestion des risques spécifique à l'automobile (FMEA)
-- Processus d'approbation des pièces de production (PPAP)
-- Analyse des systèmes de mesure (MSA)
-- Maîtrise statistique des processus (SPC)
-- Exigences strictes de traçabilité
-
-**Pourquoi c'est important :** Les fabricants certifiés IATF 16949 suivent les mêmes normes de qualité que les fournisseurs automobiles de rang 1.
 
 ### Marquage CE — Conformité européenne
 
@@ -591,7 +579,7 @@ Un site web professionnel et une équipe commerciale réactive ne font pas une v
 
 **Comment l'éviter :**
 - Demandez une visite vidéo de l'usine montrant les lignes de production, pas seulement la salle d'exposition
-- Vérifiez les certifications directement — les certificats ISO et IATF peuvent être vérifiés sur les sites web des organismes émetteurs
+- Vérifiez les certifications directement — les certificats ISO peuvent être vérifiés sur les sites web des organismes émetteurs
 - Demandez un appel vidéo en direct parcourant l'atelier de production
 - Vérifiez les antécédents d'exportation : une usine qui expédie vers plus de 50 pays construit sa crédibilité au fil du temps
 - Pour les grosses commandes, organisez un audit d'usine par un tiers (SGS, Bureau Veritas, TÜV)

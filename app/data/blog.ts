@@ -40,7 +40,6 @@ A reliable manufacturer should have:
 
 Always verify these certifications:
 - ISO 9001:2015 — Basic quality management
-- IATF 16949 — Automotive-specific quality standard
 - CE marking — European market compliance
 - Material test reports (ozone, salt spray, cold resistance)
 
@@ -197,12 +196,12 @@ Lelion Autoparts welcomes new distributors worldwide. We offer sample support, f
   },
   {
     id: "wiper-blade-quality-certifications-explained",
-    title: "Wiper Blade Quality Certifications Explained: ISO, IATF, CE, and More",
-    excerpt: "What do ISO 9001, IATF 16949, and CE certifications mean for wiper blade quality? A detailed explanation for B2B buyers and procurement professionals.",
+    title: "Wiper Blade Quality Certifications Explained: ISO, CE, and More",
+    excerpt: "What do ISO 9001 and CE certifications mean for wiper blade quality? A detailed explanation for B2B buyers and procurement professionals.",
     date: "2026-05-28",
     author: "Lelion Technical Team",
     category: "Industry Knowledge",
-    tags: ["ISO 9001", "IATF 16949", "CE certification", "wiper blade quality", "automotive standards"],
+    tags: ["ISO 9001", "CE certification", "wiper blade quality", "automotive standards"],
     image: "https://sc02.alicdn.com/kf/He68d042a711e42babef62c2ebea3ee2fN.png",
     content: `
 ## Understanding Wiper Blade Quality Certifications
@@ -216,17 +215,6 @@ This is the fundamental quality certification. It ensures the manufacturer has:
 - Continuous improvement processes
 - Customer focus and feedback systems
 - Regular internal and external audits
-
-### IATF 16949 — Automotive Quality Standard
-
-This is the gold standard for automotive parts manufacturers. It includes everything in ISO 9001, plus:
-- Automotive-specific risk management (FMEA)
-- Production part approval process (PPAP)
-- Measurement system analysis (MSA)
-- Statistical process control (SPC)
-- Strict traceability requirements
-
-**Why it matters:** IATF 16949 certified manufacturers follow the same quality standards as Tier 1 automotive suppliers.
 
 ### CE Marking — European Conformity
 
@@ -699,7 +687,7 @@ A professional website and responsive sales team do not equal a real factory. Ma
 
 **How to avoid it:**
 - Request a factory video tour showing production lines, not just the showroom
-- Verify certifications directly — ISO and IATF certificates can be checked on issuing bodies' websites
+- Verify certifications directly — ISO certificates can be checked on issuing bodies' websites
 - Ask for a live video call walking through the production floor
 - Check export records: a factory shipping to 50+ countries builds credibility over time
 - For large orders, arrange a third-party factory audit (SGS, Bureau Veritas, TÜV)
