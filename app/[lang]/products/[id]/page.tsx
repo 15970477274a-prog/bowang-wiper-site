@@ -67,26 +67,15 @@ const relatedBlog = blogPosts
     return bScore - aScore;
   })
   .slice(0, 2);
-  // Product structured data for SEO
-  const productSchema = {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": productName,
-    "description": productDesc,
-    "image": product.gallery && product.gallery.length > 0 ? [product.image, ...product.gallery] : [product.image],
-    "sku": modelNo,
-    "brand": { "@type": "Brand", "name": "Lelion" },
-    "manufacturer": {
-      "@type": "Organization",
-      "name": "Ningbo Zhenhai Bowang Autoparts Co., Ltd."
-    },
-    "category": product.category,
-    "offers": {
-      "@type": "Offer",
-      "availability": "https://schema.org/InStock",
-      "itemCondition": "https://schema.org/NewCondition"
-    }
-  };
+  // NOTE: Product structured data is intentionally NOT emitted on product pages.
+  // Google's "product snippet" enhancement requires `name` PLUS at least one of
+  // `offers` / `review` / `aggregateRating`, and a nested Offer requires `price`
+  // (merchant listings additionally require `price` > 0 and a purchasable page).
+  // This site is an inquiry-only catalogue: it does not publish prices, and it has
+  // no first-party reviews on the page. Emitting a Product node under those
+  // conditions only produces "invalid item" errors in Search Console
+  // (Product snippets / Merchant listings), so the enhancement is not declared.
+  // Re-add Product markup only if prices are published or genuine on-site reviews exist.
 
   const detailBreadcrumbSchema = {
     "@context": "https://schema.org",
@@ -110,7 +99,6 @@ const relatedBlog = blogPosts
 
   return (
     <main>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(detailBreadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productFaqSchema) }} />
       {/* Visible breadcrumb — internal links to home + products hub */}
