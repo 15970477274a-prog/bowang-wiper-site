@@ -12,19 +12,24 @@ const categorySlugs = CATEGORY_SLUGS;
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [];
-  const now = new Date();
 
+  // NOTE: `lastModified` is intentionally omitted for pages whose content has no
+  // real modification date. These entries previously used `new Date()` (build
+  // time), which stamped every deploy date onto the homepage, about, testing,
+  // contact and blog index for all six locales — that tells crawlers the pages
+  // changed on every deploy and quickly devalues the signal. Omit the field
+  // rather than publish a date we cannot stand behind.
   for (const locale of locales) {
     const prefix = "/" + locale;
 
     // Static routes
     entries.push(
-      { url: baseUrl + prefix, lastModified: now, changeFrequency: "weekly" as const, priority: 1.0 },
+      { url: baseUrl + prefix, changeFrequency: "weekly" as const, priority: 1.0 },
       { url: baseUrl + prefix + "/products", lastModified: PRODUCT_LASTMOD, changeFrequency: "weekly" as const, priority: 0.8 },
-      { url: baseUrl + prefix + "/about", lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 },
-      { url: baseUrl + prefix + "/testing", lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 },
-      { url: baseUrl + prefix + "/contact", lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 },
-      { url: baseUrl + prefix + "/blog", lastModified: now, changeFrequency: "weekly" as const, priority: 0.7 },
+      { url: baseUrl + prefix + "/about", changeFrequency: "monthly" as const, priority: 0.7 },
+      { url: baseUrl + prefix + "/testing", changeFrequency: "monthly" as const, priority: 0.7 },
+      { url: baseUrl + prefix + "/contact", changeFrequency: "monthly" as const, priority: 0.7 },
+      { url: baseUrl + prefix + "/blog", changeFrequency: "weekly" as const, priority: 0.7 },
     );
 
     // Category routes

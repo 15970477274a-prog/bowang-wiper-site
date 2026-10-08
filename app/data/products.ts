@@ -17,7 +17,10 @@ export interface Product {
   features: string[];
 }
 
-export const allProducts: Product[] = [
+// Curated base catalogue. Kept as its own export so client components that only
+// render these products do not pull the whole migrated catalogue into their
+// JavaScript bundle - import this instead of `allProducts` where possible.
+export const baseProducts: Product[] = [
   {
     id: "bw-201-specific-fit-tesla-model-x",
     category: "Specific Fit",
@@ -913,5 +916,8 @@ export const allProducts: Product[] = [
       "Backed by 6-month warranty and manufactured to ISO 9001 standards"
     ]
   },
-  ...migratedProducts,
 ];
+
+// Full catalogue: curated base products followed by the migrated entries.
+// Order is significant - several pages slice the head of this array.
+export const allProducts: Product[] = [...baseProducts, ...migratedProducts];

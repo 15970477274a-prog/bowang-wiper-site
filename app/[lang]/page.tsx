@@ -5,8 +5,12 @@ import { useParams } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import { translations, Locale } from "../translations";
-import { allProducts } from "../data/products";
-import { getProductTranslation } from "../data/productTranslations";
+// The homepage only renders the first three curated products, so it imports the
+// base catalogue and base translations. Using allProducts / getProductTranslation
+// here would bundle the entire migrated catalogue (~3.3 MB of source) into the
+// homepage JavaScript.
+import { baseProducts } from "../data/products";
+import { getBaseProductTranslation } from "../data/productTranslationsBase";
 import PackagingSection from "../../components/PackagingSection";
 
 export default function Home() {
@@ -187,8 +191,8 @@ export default function Home() {
           <div style={{ height: "4px", width: "60px", backgroundColor: "#0284c7", margin: "15px auto" }}></div>
         </div>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(350px, 1fr))", gap: "30px" }}>
-          {allProducts.slice(0, 3).map(p => {
-              const pt = getProductTranslation(p.id, lang);
+          {baseProducts.slice(0, 3).map(p => {
+              const pt = getBaseProductTranslation(p.id, lang);
               const pName = pt?.name || p.name;
               const pDesc = pt?.desc || p.desc;
               return (

@@ -8,6 +8,7 @@ import { translations, Locale } from "../../translations";
 import { allProducts } from "../../data/products";
 import { getProductTranslation } from "../../data/productTranslations";
 import { CATEGORY_MAP, CATEGORY_LABEL_KEYS } from "../../data/categories";
+import { getPageItems } from "../../../lib/pagination";
 
 export default function ProductsPage() {
   const params = useParams();
@@ -86,8 +87,8 @@ export default function ProductsPage() {
           </aside>
 
           {/* Product Grid - Fixed Image Display */}
-          <div style={{ flex: "3 1 600px" }}>
-             <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "30px" }}>
+          <div style={{ flex: "3 1 600px", minWidth: 0 }}>
+             <div className="grid-3col">
               {paginatedProducts.length === 0 ? (
                   <p style={{textAlign:"center",padding:"60px 20px",color:"#64748b",fontSize:"16px",width:"100%"}}>No products found in this category.</p>
                 ) : paginatedProducts.map(p => (
@@ -132,7 +133,7 @@ export default function ProductsPage() {
             
             {/* Pagination */}
             {totalPages > 1 && (
-              <div style={{display:"flex",justifyContent:"center",alignItems:"center",gap:"8px",marginTop:"50px",paddingTop:"30px",borderTop:"1px solid #e2e8f0"}}>
+               <div style={{display:"flex",justifyContent:"center",alignItems:"center",gap:"8px",flexWrap:"wrap",marginTop:"50px",paddingTop:"30px",borderTop:"1px solid #e2e8f0"}}>
                 <button 
                   onClick={() => setCurrentPage(Math.max(1, currentPage - 1))}
                   disabled={currentPage === 1}
@@ -141,15 +142,20 @@ export default function ProductsPage() {
                   {t.prev}
                 </button>
                 
-                {Array.from({length: totalPages}, (_, i) => i + 1).map(page => (
-                  <button
-                    key={page}
-                    onClick={() => setCurrentPage(page)}
-                    style={{width:"40px",height:"40px",border:page===currentPage?"none":"1px solid #e2e8f0",borderRadius:"8px",background:page===currentPage?"#0284c7":"white",color:page===currentPage?"white":"#475569",cursor:"pointer",fontSize:"14px",fontWeight:page===currentPage?700:500,transition:"all 0.2s"}}
-                  >
-                    {page}
-                  </button>
-                ))}
+                {getPageItems(currentPage, totalPages).map((item, i) =>
+                  item === "gap" ? (
+                    <span key={"gap" + i} aria-hidden="true"
+                      style={{width:"40px",textAlign:"center",color:"#94a3b8",fontSize:"14px",userSelect:"none"}}>…</span>
+                  ) : (
+                    <button
+                      key={item}
+                      onClick={() => setCurrentPage(item)}
+                      style={{width:"40px",height:"40px",border:item===currentPage?"none":"1px solid #e2e8f0",borderRadius:"8px",background:item===currentPage?"#0284c7":"white",color:item===currentPage?"white":"#475569",cursor:"pointer",fontSize:"14px",fontWeight:item===currentPage?700:500,transition:"all 0.2s"}}
+                    >
+                      {item}
+                    </button>
+                  )
+                )}
                 
                 <button
                   onClick={() => setCurrentPage(Math.min(totalPages, currentPage + 1))}
