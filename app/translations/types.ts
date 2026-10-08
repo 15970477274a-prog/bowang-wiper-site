@@ -133,6 +133,9 @@ export interface TranslationDict {
   productsBannerSub: string;
   seriesFilter: string;
   allWipers: string;
+  viewAllInSeries: string;
+  viewFullCatalog: string;
+  fullCatalogTitle: string;
   categoryNotFound: string;
   backToProducts: string;
   needCustomSolution: string;

@@ -60,6 +60,9 @@ export default function ProductsPage() {
       <section style={{ backgroundColor: "#0f172a", padding: "60px 20px", color: "white", textAlign: "center", borderBottom: "1px solid #1e293b" }}>
         <h1 style={{ fontSize: "36px", fontWeight: 800, marginBottom: "15px" }}>{t.productsBannerTitle}</h1>
         <p style={{ color: "#94a3b8", maxWidth: "600px", margin: "0 auto" }}>{t.productsBannerSub}</p>
+        <p style={{ marginTop: "22px" }}>
+          <Link href={l("/products/all")} style={{ display: "inline-block", backgroundColor: "#0284c7", color: "#ffffff", padding: "12px 28px", borderRadius: "8px", fontSize: "15px", fontWeight: 600, textDecoration: "none" }}>{t.viewFullCatalog}</Link>
+        </p>
       </section>
 
       {/* Main Content */}

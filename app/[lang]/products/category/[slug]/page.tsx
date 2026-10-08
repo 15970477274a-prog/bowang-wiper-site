@@ -126,7 +126,7 @@ export default function ProductCategoryPage() {
                             <Link href={l("/contact")} style={{flex:1,textAlign:"center",backgroundColor:"#0284c7",color:"white",
                               padding:"12px",borderRadius:"8px",fontSize:"14px",fontWeight:"bold",textDecoration:"none"
                             }}>{t.inquiry}</Link>
-                            <Link href={"/products/" + product.id} style={{flex:1,textAlign:"center",border:"1.5px solid #0f172a",
+                            <Link href={l("/products/" + product.id)} style={{flex:1,textAlign:"center",border:"1.5px solid #0f172a",
                               color:"#0f172a",padding:"12px",borderRadius:"8px",fontSize:"14px",fontWeight:"bold",textDecoration:"none"
                             }}>{t.details}</Link>
                           </div>
@@ -134,6 +134,12 @@ export default function ProductCategoryPage() {
                       </div>
                     ))}
                   </div>
+
+                  {filtered.length > ITEMS_PER_PAGE && (
+                    <p style={{textAlign:"center",marginTop:"35px"}}>
+                      <Link href={l("/products/category/" + slug + "/all")} style={{color:"#0284c7",fontWeight:600,textDecoration:"none",fontSize:"15px"}}>{t.viewAllInSeries} →</Link>
+                    </p>
+                  )}
 
                   {/* Pagination */}
                   <div style={{display:"flex",justifyContent:"center",alignItems:"center",gap:"8px",marginTop:"50px",paddingTop:"30px",borderTop:"1px solid #e2e8f0"}}>
