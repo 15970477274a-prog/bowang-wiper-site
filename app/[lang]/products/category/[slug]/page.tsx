@@ -70,11 +70,11 @@ export default function ProductCategoryPage() {
 
       <section className="section">
         <div className="container">
-          <div style={{display:"flex",gap:"40px",flexWrap:"wrap"}}>
+          <div className="pl-layout">
             {/* Sidebar */}
-            <aside className="sidebar">
+            <aside className="sidebar pl-aside">
               <h3 className="sidebar-title">{t.seriesFilter}</h3>
-              <ul className="sidebar-list">
+              <ul className="sidebar-list pl-aside-list">
                 <Link href={l("/products")} style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">{t.allWipers}</li></Link>
                 {Object.entries(CATEGORY_MAP).map(([s, c]) => {
                   const key = CATEGORY_LABEL_KEYS[c];
@@ -88,12 +88,12 @@ export default function ProductCategoryPage() {
             </aside>
 
             {/* Product Grid */}
-            <div style={{flex:"1 1 800px"}}>
+            <div className="pl-gridcol">
               {filtered.length === 0 ? (
                 <p style={{color:"#64748b",textAlign:"center",padding:"40px"}}>{t.categoryNotFoundDesc || "No products found in this category."}</p>
               ) : (
                 <>
-                  <div style={{display:"grid",gridTemplateColumns:"repeat(3, 1fr)",gap:"30px"}}>
+                  <div className="pl-grid">
                     {(filtered.length <= ITEMS_PER_PAGE ? filtered : filtered.slice((currentPage - 1) * ITEMS_PER_PAGE, currentPage * ITEMS_PER_PAGE)).map(product => (
                       <div key={product.id} style={{
                         backgroundColor:"white",borderRadius:"16px",overflow:"hidden",border:"1px solid #f1f5f9",
@@ -136,7 +136,7 @@ export default function ProductCategoryPage() {
                   </div>
 
                   {/* Pagination */}
-                  <div style={{display:"flex",justifyContent:"center",alignItems:"center",gap:"8px",marginTop:"50px",paddingTop:"30px",borderTop:"1px solid #e2e8f0"}}>
+                  <div className="pl-pager">
                     <button
                       onClick={() => setCurrentPage(Math.max(1, currentPage - 1))}
                       disabled={currentPage === 1}

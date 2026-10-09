@@ -67,12 +67,12 @@ export default function ProductsPage() {
 
       {/* Main Content */}
       <section style={{ padding: "80px 20px", maxWidth: "1250px", margin: "0 auto" }}>
-        <div style={{ display: "flex", gap: "40px", flexDirection: "row", flexWrap: "wrap" }}>
+        <div className="pl-layout">
           
           {/* Categories Sidebar */}
-          <aside style={{ flex: "1 1 250px", borderRight: "1px solid #e2e8f0", paddingRight: "20px" }}>
+          <aside className="pl-aside">
             <h2 style={{ fontSize: "18px", fontWeight: 700, marginBottom: "25px", color: "#0f172a" }}>{t.seriesFilter}</h2>
-            <ul className="sidebar-list">
+            <ul className="sidebar-list pl-aside-list">
                 <Link href={l("/products")} style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item active">{t.allWipers}</li></Link>
                 {Object.entries(CATEGORY_MAP).map(([slug, catName]) => {
                   const key = CATEGORY_LABEL_KEYS[catName];
@@ -86,8 +86,8 @@ export default function ProductsPage() {
           </aside>
 
           {/* Product Grid - Fixed Image Display */}
-          <div style={{ flex: "3 1 600px" }}>
-             <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "30px" }}>
+          <div className="pl-gridcol">
+             <div className="pl-grid">
               {paginatedProducts.length === 0 ? (
                   <p style={{textAlign:"center",padding:"60px 20px",color:"#64748b",fontSize:"16px",width:"100%"}}>No products found in this category.</p>
                 ) : paginatedProducts.map(p => (
@@ -132,7 +132,7 @@ export default function ProductsPage() {
             
             {/* Pagination */}
             {totalPages > 1 && (
-              <div style={{display:"flex",justifyContent:"center",alignItems:"center",gap:"8px",marginTop:"50px",paddingTop:"30px",borderTop:"1px solid #e2e8f0"}}>
+              <div className="pl-pager">
                 <button 
                   onClick={() => setCurrentPage(Math.max(1, currentPage - 1))}
                   disabled={currentPage === 1}

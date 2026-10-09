@@ -604,3 +604,66 @@ a { color: inherit; text-decoration: none; }
   .gallery-overlay-arrow.next-lb { right: 5px; }
 }
 
+
+/* ===== Product listing layout (list + category pages) =====
+   Fix: the pagination control rendered one 40px button per page in a single
+   non-wrapping flex row. With 63 pages (374 products / 6) that row demanded
+   ~3200px, so the flex row it lives in could not shrink, the two-column block
+   wrapped, and the grid stretched to ~3169px (three 1036px columns) -> 2.3x
+   horizontal overflow. The pager now wraps, the sidebar has a fixed width and
+   can no longer be stretched, and the grid columns may shrink. */
+
+.pl-layout {
+  display: flex;
+  gap: 40px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.pl-aside {
+  flex: 0 0 260px;
+  min-width: 0;
+  border-right: 1px solid var(--border);
+  padding-right: 20px;
+}
+/* flex-basis deliberately 0, not 600px: with flex-wrap: wrap a non-zero basis
+   participates in line breaking, and at a 900px viewport the content box is
+   845px, so 260 (aside) + 40 (gap) + 600 (basis) = 900 > 845 forced the grid
+   onto its own line. A 0 basis lets the column take the remaining space and
+   never forces a wrap, while min-width: 0 still allows it to shrink. */
+.pl-gridcol {
+  flex: 1 1 0;
+  min-width: 0;
+}
+/* 240px minimum so the grid still forms 2 columns in the narrowest two-column
+   case (900px viewport -> 545px grid -> 2 x 257px). At 260px it fell 5px short
+   and collapsed to a single column. */
+.pl-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 30px;
+  min-width: 0;
+}
+.pl-pager {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 50px;
+  padding-top: 30px;
+  border-top: 1px solid var(--border);
+  flex-wrap: wrap;
+}
+
+/* Breakpoint kept at 768px on purpose: at 900px and above the sidebar and the
+   grid still share one row (sidebar fixed at 260px, grid shrinks), which is the
+   required desktop layout. Only at <=768px does the sidebar switch to its
+   horizontal chip form and the layout stack. */
+
+@media (max-width: 768px) {
+  .pl-layout { flex-direction: column; gap: 25px; }
+  .pl-aside { flex: 1 1 auto; width: 100%; border-right: none; padding-right: 0; }
+  .pl-aside-list { display: flex; flex-wrap: wrap; gap: 8px; }
+  .pl-aside-list > a { flex: 0 1 auto; }
+  .pl-aside-list .sidebar-item { margin-bottom: 0; }
+}
+
