@@ -131,6 +131,7 @@ export const es: TranslationDict = {
     productsBannerTitle: "Soluciones de Escobillas al por Mayor",
     productsBannerSub: "Fabricante líder OEM/ODM en China que proporciona componentes de limpiaparabrisas de calidad premium para distribuidores globales.",
     seriesFilter: "Filtro de Series",
+    allSeriesTitle: "Todas las Series",
     allWipers: "Todos los Limpiaparabrisas",
     viewAllInSeries: "Ver todos los productos de esta serie",
     viewFullCatalog: "Ver el catálogo completo de productos",

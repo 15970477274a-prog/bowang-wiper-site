@@ -132,6 +132,7 @@ export interface TranslationDict {
   productsBannerTitle: string;
   productsBannerSub: string;
   seriesFilter: string;
+  allSeriesTitle: string;
   allWipers: string;
   viewAllInSeries: string;
   viewFullCatalog: string;

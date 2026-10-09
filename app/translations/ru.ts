@@ -131,6 +131,7 @@ export const ru: TranslationDict = {
     productsBannerTitle: "Оптовые Решения Стеклоочистителей",
     productsBannerSub: "Ведущий OEM/ODM производитель в Китае, поставляющий качественные компоненты стеклоочистителей для глобальных дистрибьюторов.",
     seriesFilter: "Фильтр Серий",
+    allSeriesTitle: "Все Серии Стеклоочистителей",
     allWipers: "Все Стеклоочистители",
     viewAllInSeries: "Показать все товары этой серии",
     viewFullCatalog: "Показать полный каталог товаров",

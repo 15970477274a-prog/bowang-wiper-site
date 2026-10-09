@@ -132,6 +132,7 @@ export const en: TranslationDict = {
     productsBannerTitle: "Wholesale Wiper Blade Solutions",
     productsBannerSub: "Leading OEM/ODM manufacturer in China providing premium quality wiper components for global distributors.",
     seriesFilter: "Series Filter",
+    allSeriesTitle: "All Wiper Series",
     allWipers: "All Wipers",
     viewAllInSeries: "View all products in this series",
     viewFullCatalog: "View the full product catalog",

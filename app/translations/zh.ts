@@ -107,6 +107,7 @@ export const zh: TranslationDict = {
     productsBannerTitle: "雨刮片批发解决方案",
     productsBannerSub: "中国领先的OEM/ODM制造商，为全球分销商提供优质雨刮组件。",
     seriesFilter: "系列筛选",
+    allSeriesTitle: "全部雨刮系列",
     allWipers: "全部雨刮",
     viewAllInSeries: "查看该系列全部产品",
     viewFullCatalog: "查看完整产品目录",

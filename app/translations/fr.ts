@@ -131,6 +131,7 @@ export const fr: TranslationDict = {
     productsBannerTitle: "Solutions de Balais d'Essuie-glace en Gros",
     productsBannerSub: "Fabricant OEM/ODM leader en Chine fournissant des composants d'essuie-glace de qualité premium aux distributeurs mondiaux.",
     seriesFilter: "Filtre par Série",
+    allSeriesTitle: "Toutes les Séries",
     allWipers: "Tous les Essuie-glaces",
     viewAllInSeries: "Voir tous les produits de cette série",
     viewFullCatalog: "Voir le catalogue complet des produits",

@@ -132,6 +132,7 @@ export const de: TranslationDict = {
     productsBannerTitle: "Großhandel Wischerblatt Lösungen",
     productsBannerSub: "Führender OEM/ODM-Hersteller in China, der Premium-Wischerkomponenten für globale Distributoren liefert.",
     seriesFilter: "Serienfilter",
+    allSeriesTitle: "Alle Wischer-Serien",
     allWipers: "Alle Wischer",
     viewAllInSeries: "Alle Produkte dieser Serie anzeigen",
     viewFullCatalog: "Den vollständigen Produktkatalog ansehen",
