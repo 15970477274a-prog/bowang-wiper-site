@@ -654,12 +654,19 @@ a { color: inherit; text-decoration: none; }
   flex-wrap: wrap;
 }
 
-/* Breakpoint kept at 768px on purpose: at 900px and above the sidebar and the
-   grid still share one row (sidebar fixed at 260px, grid shrinks), which is the
-   required desktop layout. Only at <=768px does the sidebar switch to its
-   horizontal chip form and the layout stack. */
+/* Breakpoint is 600px on purpose (not 768px).
+   1) The acceptance criteria require the sidebar and the product grid to share
+      ONE ROW at 1440 / 1280 / 1024 / 900 / 768 - including 768. Stacking them at
+      768 would reproduce the very symptom under test ("sidebar spanning the full
+      row + grid pushed below"), so the stacked / horizontal form starts only
+      below 768, at <=600px, where a 260px column would leave too little room.
+   2) At 768px the sidebar therefore stays a 260px column and the grid column
+      shrinks to ~453px (a single card column). No horizontal overflow.
+   Note on the cascade: above 600px the .pl-aside rules above win over globals'
+   own @media (max-width:768px) ".sidebar" rule, because .pl-aside appears later
+   in this file and both selectors have the same specificity. */
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .pl-layout { flex-direction: column; gap: 25px; }
   .pl-aside { flex: 1 1 auto; width: 100%; border-right: none; padding-right: 0; }
   .pl-aside-list { display: flex; flex-wrap: wrap; gap: 8px; }
