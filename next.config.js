@@ -47,4 +47,8 @@ module.exports = { ...nextConfig, async redirects() { return [
   { source: "/:lang/Catalog.pdf", destination: "/Catalog.pdf", permanent: true },
   { source: "/about-us", destination: "/en/about", permanent: true },
   { source: "/contact-us", destination: "/en/contact", permanent: true },
+  // Product 8512900000-124 was renamed to bw-866-multifunction-wiper-blade.
+  // statusCode 301 (rather than permanent:true, which Next maps to 308) matches the
+  // requested permanent-redirect status exactly. :lang keeps the language prefix.
+  { source: "/:lang/products/8512900000-124", destination: "/:lang/products/bw-866-multifunction-wiper-blade", statusCode: 301 },
 ]; } };

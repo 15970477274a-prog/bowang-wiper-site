@@ -562,20 +562,20 @@ export const migratedProducts: Product[] = [
     features: ["Model BW-821 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
   },
   {
-    id: "8512900000-124",
-    category: "Specific Fit",
+     id: "bw-866-multifunction-wiper-blade",
+     category: "Multifunction",
     name: "Car Windshield Wiper - Ningbo Zhenhai Bowang Auto Parts Co., Ltd",
     moq: "300 PCS",
     desc: "Discover high-quality car windshield wipers from Ningbo Zhenhai Bowang Auto Parts Co., Ltd. Our products ensure clear vision during rainy days.",
     longDesc: "Car Windshield Wiper - Ningbo Zhenhai Bowang Auto Parts Co., Ltd. Discover high-quality car windshield wipers from Ningbo Zhenhai Bowang Auto Parts Co., Ltd. Our products ensure clear vision during rainy days.",
-    specs: ["Product Model: 8512900000", "Size: 12\" 13\" 14\" 15\" 16\" 17\" 18\" 19\" 20\" 21\" 22\" 23\" 24\" 25\" 26\" 27\" 28\"", "Color: Black", "OEM/ODM custom branding & packaging available", "Factory-direct wholesale pricing", "ISO 9001 manufacturing quality"],
+    specs: ["Product Model: BW-866", "Size: 12\" 13\" 14\" 15\" 16\" 17\" 18\" 19\" 20\" 21\" 22\" 23\" 24\" 25\" 26\" 27\" 28\"", "Color: Black", "OEM/ODM custom branding & packaging available", "Factory-direct wholesale pricing", "ISO 9001 manufacturing quality"],
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgoLe2vQYoxuKW4wMwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgoLe2vQYoxN2tpAYwuBc4uBc.jpg", "/products/ABUIABACGAAgoLe2vQYoh9eHWDC4Fzi4Fw.jpg", "/products/ABUIABACGAAgoLe2vQYo9_bU9gEwuBc4uBc.jpg", "/products/ABUIABACGAAgoLe2vQYoxNDrjAcwuBc4uBc.jpg", "/products/ABUIABACGAAgoLe2vQYolMb08wQwuBc4uBc.jpg", "/products/ABUIABACGAAgoLe2vQYo1Mul7AcwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"8512900000","Category":"Specific Fit","Size":"12\" 13\" 14\" 15\" 16\" 17\" 18\" 19\" 20\" 21\" 22\" 23\" 24\" 25\" 26\" 27\" 28\"","Color":"Black","Fitment":"Car Windshield Wiper - Ningbo Zhenhai Bowang Auto Parts Co., Ltd","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-866","Category":"Multifunction","Size":"12\" 13\" 14\" 15\" 16\" 17\" 18\" 19\" 20\" 21\" 22\" 23\" 24\" 25\" 26\" 27\" 28\"","Color":"Black","Fitment":"Car Windshield Wiper - Ningbo Zhenhai Bowang Auto Parts Co., Ltd","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Car Windshield Wiper", "Ningbo Zhenhai Bowang Auto Parts Co.", "Ltd", "Auto Accessories", "Rainy Day Visibility"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
-    features: ["Model 8512900000 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
+     features: ["Model BW-866 for reliable, streak-free wiping performance", "Built for multifunction applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
   },
   {
     id: "bw-842-colored-wiper-blade-bw-842",

@@ -70,7 +70,7 @@ export const allProducts: Product[] = [
       "https://sc02.alicdn.com/kf/H1f15201a978647bab1f01360a4aeadf91.png"
     ],
     technicalDetails: {
-      "Model Number": "BW-861",
+      "Product Model": "BW-861",
       "Compatibility": "Universal - 95%+ Vehicles (U-Hook, Push Button, Side Pin, Pinch Tab, BMW)",
       "Wiper Type": "Flat / Frameless Beam Blade - Multi-Adapter",
       "Main Material": "Class A+ Natural Rubber + Teflon Surface Coating",

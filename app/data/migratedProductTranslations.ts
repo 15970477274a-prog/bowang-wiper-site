@@ -4973,13 +4973,13 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       }
     }
   },
-  "8512900000-124": {
+  "bw-866-multifunction-wiper-blade": {
     "es": {
       "name": "Limpiaparabrisas de coche - Ningbo Zhenhai Bowang Auto Parts Co., Ltd",
       "desc": "Descubra los limpiaparabrisas de alta calidad de Ningbo Zhenhai Bowang Auto Parts Co., Ltd. Nuestros productos garantizan una visión clara durante los días de lluvia.",
       "longDesc": "Limpiaparabrisas de coche - Ningbo Zhenhai Bowang Auto Parts Co., Ltd. Descubra los limpiaparabrisas de alta calidad de Ningbo Zhenhai Bowang Auto Parts Co., Ltd. Nuestros productos garantizan una visión clara durante los días de lluvia.",
       "specs": [
-        "Modelo del producto: 8512900000",
+        "Modelo del producto: BW-866",
         "Tamaño: 12\" 13\" 14\" 15\" 16\" 17\" 18\" 19\" 20\" 21\" 22\" 23\" 24\" 25\" 26\" 27\" 28\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
@@ -4987,14 +4987,14 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Calidad de fabricación ISO 9001"
       ],
       "features": [
-        "Modelo 8512900000 para un rendimiento de limpieza fiable y sin rayas",
-        "Diseñado para aplicaciones de Escobilla Específica",
+        "Modelo BW-866 para un rendimiento de limpieza fiable y sin rayas",
+        "Diseñado para aplicaciones de Escobilla Multifunción",
         "Servicio OEM/ODM directo de fábrica con marca y embalaje personalizados",
         "Probado para durabilidad y rendimiento en todo clima"
       ],
       "technicalDetails": {
-        "Modelo del producto": "8512900000",
-        "Categoría": "Escobilla Específica",
+        "Modelo del producto": "BW-866",
+        "Categoría": "Escobilla Multifunción",
         "Tamaño": "12\" 13\" 14\" 15\" 16\" 17\" 18\" 19\" 20\" 21\" 22\" 23\" 24\" 25\" 26\" 27\" 28\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas de coche - Ningbo Zhenhai Bowang Auto Parts Co., Ltd",
@@ -5007,7 +5007,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "desc": "Откройте для себя высококачественные автомобильные щетки стеклоочистителя от Ningbo Zhenhai Bowang Auto Parts Co., Ltd. Наши продукты обеспечивают четкий обзор в дождливую погоду.",
       "longDesc": "Дворники для автомобилей - Ningbo Zhenhai Bowang Auto Parts Co., Ltd. Откройте для себя высококачественные автомобильные щетки стеклоочистителя от Ningbo Zhenhai Bowang Auto Parts Co., Ltd. Наши продукты обеспечивают четкий обзор в дождливую погоду.",
       "specs": [
-        "Модель продукта: 8512900000",
+        "Модель продукта: BW-866",
         "Размер: 12\" 13\" 14\" 15\" 16\" 17\" 18\" 19\" 20\" 21\" 22\" 23\" 24\" 25\" 26\" 27\" 28\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
@@ -5015,14 +5015,14 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Качество производства ISO 9001"
       ],
       "features": [
-        "Модель 8512900000 для надежной очистки без разводов",
-        "Создан для применения: Специализированный Стеклоочиститель",
+        "Модель BW-866 для надежной очистки без разводов",
+        "Создан для применения: Многофункциональный Стеклоочиститель",
         "Прямой заводской сервис OEM/ODM с индивидуальной маркировкой и упаковкой",
         "Проверено на долговечность и всепогодную работу"
       ],
       "technicalDetails": {
-        "Модель продукта": "8512900000",
-        "Категория": "Специализированный Стеклоочиститель",
+        "Модель продукта": "BW-866",
+        "Категория": "Многофункциональный Стеклоочиститель",
         "Размер": "12\" 13\" 14\" 15\" 16\" 17\" 18\" 19\" 20\" 21\" 22\" 23\" 24\" 25\" 26\" 27\" 28\"",
         "Цвет": "Черный",
         "Применяемость": "Дворники для автомобилей - Ningbo Zhenhai Bowang Auto Parts Co., Ltd",
@@ -5035,7 +5035,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "desc": "Découvrez des essuie-glaces de voiture de haute qualité de Ningbo Zhenhai Bowang Auto Parts Co., Ltd. Nos produits garantissent une vision claire pendant les jours de pluie.",
       "longDesc": "Essuie-Glace de Pare-Brise - Ningbo Zhenhai Bowang Auto Parts Co., Ltd. Découvrez des essuie-glaces de voiture de haute qualité de Ningbo Zhenhai Bowang Auto Parts Co., Ltd. Nos produits garantissent une vision claire pendant les jours de pluie.",
       "specs": [
-        "Modèle du produit: 8512900000",
+        "Modèle du produit: BW-866",
         "Taille: 12\" 13\" 14\" 15\" 16\" 17\" 18\" 19\" 20\" 21\" 22\" 23\" 24\" 25\" 26\" 27\" 28\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
@@ -5043,14 +5043,14 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Qualité de fabrication ISO 9001"
       ],
       "features": [
-        "Modèle 8512900000 pour un essuyage fiable et sans traces",
-        "Conçu pour les applications Balai Spécifique",
+        "Modèle BW-866 pour un essuyage fiable et sans traces",
+        "Conçu pour les applications Balai Multifonction",
         "Service OEM/ODM direct d'usine avec marque et emballage personnalisés",
         "Testé pour la durabilité et les performances par tous les temps"
       ],
       "technicalDetails": {
-        "Modèle du produit": "8512900000",
-        "Catégorie": "Balai Spécifique",
+        "Modèle du produit": "BW-866",
+        "Catégorie": "Balai Multifonction",
         "Taille": "12\" 13\" 14\" 15\" 16\" 17\" 18\" 19\" 20\" 21\" 22\" 23\" 24\" 25\" 26\" 27\" 28\"",
         "Couleur": "Noir",
         "Application": "Essuie-Glace de Pare-Brise - Ningbo Zhenhai Bowang Auto Parts Co., Ltd",
@@ -5063,7 +5063,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "desc": "Entdecken Sie hochwertige Autoscheibenwischer von Ningbo Zhenhai Bowang Auto Parts Co., Ltd. Unsere Produkte sorgen bei Regentagen für klare Sicht.",
       "longDesc": "Scheibenwischer - Ningbo Zhenhai Bowang Auto Parts Co., Ltd. Entdecken Sie hochwertige Autoscheibenwischer von Ningbo Zhenhai Bowang Auto Parts Co., Ltd. Unsere Produkte sorgen bei Regentagen für klare Sicht.",
       "specs": [
-        "Produktmodell: 8512900000",
+        "Produktmodell: BW-866",
         "Größe: 12\" 13\" 14\" 15\" 16\" 17\" 18\" 19\" 20\" 21\" 22\" 23\" 24\" 25\" 26\" 27\" 28\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
@@ -5071,14 +5071,14 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "ISO 9001 Fertigungsqualität"
       ],
       "features": [
-        "Modell 8512900000 für zuverlässiges, streifenfreies Wischen",
-        "Gebaut für Spezifisches Wischerblatt-Anwendungen",
+        "Modell BW-866 für zuverlässiges, streifenfreies Wischen",
+        "Gebaut für Multifunktions-Wischerblatt-Anwendungen",
         "Fabrikdirekter OEM/ODM-Service mit individuellem Branding und Verpackung",
         "Getestet für Langlebigkeit und Allwetter-Leistung"
       ],
       "technicalDetails": {
-        "Produktmodell": "8512900000",
-        "Kategorie": "Spezifisches Wischerblatt",
+        "Produktmodell": "BW-866",
+        "Kategorie": "Multifunktions-Wischerblatt",
         "Größe": "12\" 13\" 14\" 15\" 16\" 17\" 18\" 19\" 20\" 21\" 22\" 23\" 24\" 25\" 26\" 27\" 28\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Scheibenwischer - Ningbo Zhenhai Bowang Auto Parts Co., Ltd",
@@ -5091,7 +5091,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "desc": "发现宁波镇海博旺汽车零部件有限公司的高品质汽车挡风玻璃雨刷。我们的产品确保雨天驾驶视野清晰。",
       "longDesc": "挡风玻璃雨刮 - 宁波镇海博旺汽车配件有限公司。发现宁波镇海博旺汽车零部件有限公司的高品质汽车挡风玻璃雨刷。我们的产品确保雨天驾驶视野清晰。",
       "specs": [
-        "产品型号：8512900000",
+        "产品型号：BW-866",
         "尺寸：12\" 13\" 14\" 15\" 16\" 17\" 18\" 19\" 20\" 21\" 22\" 23\" 24\" 25\" 26\" 27\" 28\"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
@@ -5099,14 +5099,14 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "ISO 9001 制造质量"
       ],
       "features": [
-        "型号 8512900000，刮拭可靠、无水痕",
-        "适用于专用雨刮片应用",
+        "型号 BW-866，刮拭可靠、无水痕",
+        "适用于多功能雨刮片应用",
         "工厂直供 OEM/ODM 服务，支持定制品牌与包装",
         "经耐久性与全天候性能测试"
       ],
       "technicalDetails": {
-        "产品型号": "8512900000",
-        "分类": "专用雨刮片",
+        "产品型号": "BW-866",
+        "分类": "多功能雨刮片",
         "尺寸": "12\" 13\" 14\" 15\" 16\" 17\" 18\" 19\" 20\" 21\" 22\" 23\" 24\" 25\" 26\" 27\" 28\"",
         "颜色": "黑色",
         "适用车型": "挡风玻璃雨刮 - 宁波镇海博旺汽车配件有限公司",
