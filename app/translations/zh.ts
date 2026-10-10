@@ -3,6 +3,7 @@ import { TranslationDict } from "./types";
 export const zh: TranslationDict = {
     navHome: "首页",
     navProducts: "产品",
+    navOemOdm: "OEM/ODM 定制",
     navAdvantages: "优势",
     navAboutUs: "关于我们",
     navGetQuote: "联系我们",

@@ -3,6 +3,7 @@ import { TranslationDict } from "./types";
 export const es: TranslationDict = {
     navHome: "Inicio",
     navProducts: "Productos",
+    navOemOdm: "OEM/ODM",
     navAdvantages: "Ventajas",
     navAboutUs: "Nosotros",
     navGetQuote: "Contacto",

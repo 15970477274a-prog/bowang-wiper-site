@@ -3,6 +3,7 @@ export type Locale = "en" | "es" | "ru" | "fr" | "de" | "zh";
 export interface TranslationDict {
   navHome: string;
   navProducts: string;
+  navOemOdm: string;
   navAdvantages: string;
   navAboutUs: string;
   navGetQuote: string;

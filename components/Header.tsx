@@ -48,6 +48,7 @@ export default function Header() {
           <nav className="nav">
             <Link href={l("/")} className="nav-link">{t.navHome}</Link>
             <Link href={l("/products")} className="nav-link">{t.navProducts}</Link>
+            <Link href={l("/oem-odm")} className="nav-link">{t.navOemOdm}</Link>
             <Link href={l("/blog")} className="nav-link">{t.navBlog || "Blog"}</Link>
             <Link href={l("/about")} className="nav-link">{t.navAboutUs}</Link>
             <a href="/Catalog.pdf" target="_blank" className="nav-link" style={{color:"var(--accent-glow)",fontWeight:600}}>{t.navCatalog}</a>
@@ -61,6 +62,7 @@ export default function Header() {
       <div className={"mobile-menu-overlay" + (mobileMenu ? " open" : "")}>
         <a href={l("/")} onClick={closeMobileMenu}>{t.navHome}</a>
         <a href={l("/products")} onClick={closeMobileMenu}>{t.navProducts}</a>
+        <a href={l("/oem-odm")} onClick={closeMobileMenu}>{t.navOemOdm}</a>
         <a href={l("/blog")} onClick={closeMobileMenu}>{t.navBlog || "Blog"}</a>
         <a href={l("/about")} onClick={closeMobileMenu}>{t.navAboutUs}</a>
         <a href="/Catalog.pdf" target="_blank" onClick={closeMobileMenu} style={{color:"var(--accent-glow)",fontWeight:600}}>{t.navCatalog}</a>

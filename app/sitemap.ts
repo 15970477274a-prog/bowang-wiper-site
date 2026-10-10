@@ -10,6 +10,14 @@ const baseUrl = "https://www.lelionautopart.com";
 const PRODUCT_LASTMOD = new Date("2026-09-10");
 const categorySlugs = CATEGORY_SLUGS;
 
+// hreflang cross-references for the OEM/ODM page, including x-default.
+// Applied to the new page's entries only; the rest of the sitemap is unchanged.
+const oemOdmLanguages: Record<string, string> = {};
+for (const l of locales) {
+  oemOdmLanguages[l] = baseUrl + "/" + l + "/oem-odm";
+}
+oemOdmLanguages["x-default"] = baseUrl + "/en/oem-odm";
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [];
   const now = new Date();
@@ -22,6 +30,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       { url: baseUrl + prefix, lastModified: now, changeFrequency: "weekly" as const, priority: 1.0 },
       { url: baseUrl + prefix + "/products", lastModified: PRODUCT_LASTMOD, changeFrequency: "weekly" as const, priority: 0.8 },
       { url: baseUrl + prefix + "/about", lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 },
+      { url: baseUrl + prefix + "/oem-odm", lastModified: now, changeFrequency: "monthly" as const, priority: 0.8, alternates: { languages: oemOdmLanguages } },
       { url: baseUrl + prefix + "/testing", lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 },
       { url: baseUrl + prefix + "/contact", lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 },
       { url: baseUrl + prefix + "/blog", lastModified: now, changeFrequency: "weekly" as const, priority: 0.7 },
