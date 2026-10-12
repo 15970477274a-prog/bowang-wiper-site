@@ -290,22 +290,6 @@ export const migratedProducts: Product[] = [
     features: ["Model BW-160 for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
   },
   {
-    id: "bw-802l-frameless-wiper-blade-factory-bw-802l",
-    category: "Frameless Wiper",
-    name: "BW-802L Frameless Wiper Blade Manufacturer | OE-Quality Beam Wipers",
-    moq: "300 PCS",
-    desc: "Looking for BW-802L frameless wiper blades? Our factory provides premium beam wipers with silent performance and OE-quality. Direct wholesale prices for global suppliers.",
-    longDesc: "BW-802L Frameless Wiper Blade Manufacturer | OE-Quality Beam Wipers. Looking for BW-802L frameless wiper blades? Our factory provides premium beam wipers with silent performance and OE-quality. Direct wholesale prices for global suppliers.",
-    specs: ["Product Model: BW-802L", "Size: 14-28”", "Color: Black", "OEM/ODM custom branding & packaging available", "Factory-direct wholesale pricing", "ISO 9001 manufacturing quality"],
-    tag: "Factory Direct",
-    image: "/products/ABUIABACGAAg7rLWvQYo4Ket_QYwuBc4uBc.jpg",
-    gallery: ["/products/ABUIABACGAAgkrPWvQYot5qjEjDuBTi4Aw.jpg", "/products/ABUIABACGAAgxoCpygYokMjkmgEwgBs4gBI.jpg", "/products/ABUIABACGAAg--uoygYompuc-AQwpAg4oQc.jpg"],
-    technicalDetails: {"Product Model":"BW-802L","Category":"Frameless Wiper","Size":"14-28”","Color":"Black","Fitment":"BW-802L Frameless Wiper Blade Manufacturer | OE-Quality Beam Wipers","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
-    keywords: ["wiper blades", "car wiper", "windshield wiper", "universal wiper", "easy installation", "all-weather", "quiet wiper", "durable wiper", "natural rubber", "memory steel"],
-    applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
-    features: ["Model BW-802L for reliable, streak-free wiping performance", "Built for frameless wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
-  },
-  {
     id: "bw-808-hybrid-wiper-blade-three-section-factory-bw808",
     category: "Hybrid",
     name: "BW-808 Hybrid Wiper Blade Manufacturer | Three-Section Wiper Factory",
@@ -1235,7 +1219,7 @@ export const migratedProducts: Product[] = [
   },
   {
     id: "bw-824-162",
-    category: "Frameless Wiper",
+    category: "Specific Fit",
     name: "LELION Front Wiper Blades Silicone Frameless Wiper Blades Manufacturers for BMW 3 Series 2004-2009",
     moq: "300 PCS",
     desc: "LELION wholesale sepcial wiper blade",
@@ -1244,7 +1228,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg-63vvQYoooW6jgEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg-63vvQYog5eVgQcwuBc4uBc.jpg", "/products/ABUIABACGAAg-63vvQYo4-2iwwYwuBc4uBc.jpg", "/products/ABUIABACGAAg-63vvQYosc-y6QcwuBc4uBc.jpg", "/products/ABUIABACGAAg-63vvQYosq6PvwQwuBc4uBc.jpg", "/products/ABUIABACGAAg-63vvQYowJ_szQIwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-824","Category":"Frameless Wiper","Size":"Standard","Color":"Black","Fitment":"LELION Front Wiper Blades Silicone Frameless Wiper Blades Manufacturers for BMW 3 Series 2004-2009","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-824","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"LELION Front Wiper Blades Silicone Frameless Wiper Blades Manufacturers for BMW 3 Series 2004-2009","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["sepcial wiper blade wholesale", "wiper blade", "frameless wiper blade", "wholesale wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-824 for reliable, streak-free wiping performance", "Built for frameless wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1424,22 +1408,6 @@ export const migratedProducts: Product[] = [
     keywords: ["special wiper blade", "wholesale wiper blade，car wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-712 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
-  },
-  {
-    id: "bw-850-frameless-wiper-bw-85",
-    category: "Frameless Wiper",
-    name: "LELION Universal Car Wiper Frameless Windshield Wiper BW-850",
-    moq: "300 PCS",
-    desc: "Upgrade your driving safety with our premium car windshield wiper blades. Featuring easy installation, universal fit, and durable natural rubber for streak-free, silent performance in any weather. Per",
-    longDesc: "LELION Universal Car Wiper Frameless Windshield Wiper BW-850. Upgrade your driving safety with our premium car windshield wiper blades. Featuring easy installation, universal fit, and durable natural rubber for streak-free, silent performance in any weather. Per",
-    specs: ["Product Model: BW-850", "Size: 14-28\"", "Color: Black", "OEM/ODM custom branding & packaging available", "Factory-direct wholesale pricing", "ISO 9001 manufacturing quality"],
-    tag: "Factory Direct",
-    image: "/products/ABUIABACGAAg9c_2vQYoooSdtwEwuBc4uBc.jpg",
-    gallery: ["/products/ABUIABACGAAg9c_2vQYo36eSOTDoBzjoBw.jpg", "/products/ABUIABACGAAg9c_2vQYo6oDBxQYwuBc4uBc.jpg", "/products/ABUIABACGAAg9c_2vQYoztiK8gYwuBc4uBc.jpg", "/products/ABUIABACGAAg9c_2vQYosMn-3gUwuBc4uBc.jpg", "/products/ABUIABACGAAg9c_2vQYo9pG_RDC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-850","Category":"Frameless Wiper","Size":"14-28\"","Color":"Black","Fitment":"LELION Universal Car Wiper Frameless Windshield Wiper BW-850","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
-    keywords: ["wiper blades", "windshield wipers", "car accessories", "all-season wiper", "streak-free", "easy installation", "universal fit", "premium natural rubber", "quiet wipers", "OEM quality"],
-    applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
-    features: ["Model BW-850 for reliable, streak-free wiping performance", "Built for frameless wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
   },
   {
     id: "bw-841-front-wiper-bade-vw-golfvii-2012-2020",
@@ -1939,7 +1907,7 @@ export const migratedProducts: Product[] = [
   },
   {
     id: "bw-827-246",
-    category: "Frameless Wiper",
+    category: "Specific Fit",
     name: "LELIONWindscreen Wiper Frameless Wiper Car Front Windshield Wiper Blades for RENAULT SCENIC MEGANE C",
     moq: "300 PCS",
     desc: "LELION wholesale special wiper blade",
@@ -1948,7 +1916,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg9rHvvQYo0ZXE8AMwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg9rHvvQYo8s_HoQQwuBc4uBc.jpg", "/products/ABUIABACGAAg9rHvvQYo09PRkAUwuBc4uBc.jpg", "/products/ABUIABACGAAg9rHvvQYonJ2ZwAYwuBc4uBc.jpg", "/products/ABUIABACGAAg9rHvvQYossnn7gEwuBc4uBc.jpg", "/products/ABUIABACGAAg9rHvvQYo-M6xKzC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-827","Category":"Frameless Wiper","Size":"Standard","Color":"Black","Fitment":"LELIONWindscreen Wiper Frameless Wiper Car Front Windshield Wiper Blades for RENAULT SCENIC MEGANE C","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-827","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"LELIONWindscreen Wiper Frameless Wiper Car Front Windshield Wiper Blades for RENAULT SCENIC MEGANE C","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["LELION wiper blade", "wiper blade", "wholesale wiper", "special wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-827 for reliable, streak-free wiping performance", "Built for frameless wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3555,7 +3523,7 @@ export const migratedProducts: Product[] = [
   },
   {
     id: "bw-848a-171",
-    category: "Frameless Wiper",
+    category: "Specific Fit",
     name: "Wholesale Auto External Accessories Front Window Wiper Car Frameless Wiper Blades for Land Rover",
     moq: "300 PCS",
     desc: "special wiper blade",
@@ -3564,7 +3532,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgqtfvvQYovYH8tAEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgqtfvvQYonLyBxAYwuBc4uBc.jpg", "/products/ABUIABACGAAgqtfvvQYors3q_gUwuBc4uBc.jpg", "/products/ABUIABACGAAgqtfvvQYorMfp1QUwuBc4uBc.jpg", "/products/ABUIABACGAAgqtfvvQYou9-b9QYwuBc4uBc.jpg", "/products/ABUIABACGAAgqtfvvQYoiOj6vgIwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-848A","Category":"Frameless Wiper","Size":"Standard","Color":"Black","Fitment":"Wholesale Auto External Accessories Front Window Wiper Car Frameless Wiper Blades for Land Rover","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-848A","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Auto External Accessories Front Window Wiper Car Frameless Wiper Blades for Land Rover","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wholesale wiper blade，car wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-848A for reliable, streak-free wiping performance", "Built for frameless wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3763,7 +3731,7 @@ export const migratedProducts: Product[] = [
   },
   {
     id: "bw-824-178",
-    category: "Frameless Wiper",
+    category: "Specific Fit",
     name: "Wholesale Car External Accessories Front Windscreen 24''+19'' Frameless Wiper Blades for BMW 3 Serie",
     moq: "300 PCS",
     desc: "wholesale special wiper blade",
@@ -3772,7 +3740,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg-63vvQYoooW6jgEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg-63vvQYog5eVgQcwuBc4uBc.jpg", "/products/ABUIABACGAAg-63vvQYo4-2iwwYwuBc4uBc.jpg", "/products/ABUIABACGAAg-63vvQYosc-y6QcwuBc4uBc.jpg", "/products/ABUIABACGAAg-63vvQYosq6PvwQwuBc4uBc.jpg", "/products/ABUIABACGAAg-63vvQYowJ_szQIwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-824","Category":"Frameless Wiper","Size":"24+19\"","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windscreen 24''+19'' Frameless Wiper Blades for BMW 3 Serie","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-824","Category":"Specific Fit","Size":"24+19\"","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windscreen 24''+19'' Frameless Wiper Blades for BMW 3 Serie","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["wiper blade", "special wiper blade", "soft wiper", "wholesale wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-824 for reliable, streak-free wiping performance", "Built for frameless wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4099,7 +4067,7 @@ export const migratedProducts: Product[] = [
   },
   {
     id: "bw-827-220",
-    category: "Frameless Wiper",
+    category: "Specific Fit",
     name: "Wholesale Car External Accessories Front Windshield Frameless Wiper Blades for Renault Scenic Mk2 20",
     moq: "300 PCS",
     desc: "wholesale special wiper blade",
@@ -4108,14 +4076,14 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg9rHvvQYo0ZXE8AMwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg9rHvvQYo09PRkAUwuBc4uBc.jpg", "/products/ABUIABACGAAg9rHvvQYo8s_HoQQwuBc4uBc.jpg", "/products/ABUIABACGAAg9rHvvQYonJ2ZwAYwuBc4uBc.jpg", "/products/ABUIABACGAAg9rHvvQYossnn7gEwuBc4uBc.jpg", "/products/ABUIABACGAAg9rHvvQYo-M6xKzC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-827","Category":"Frameless Wiper","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Frameless Wiper Blades for Renault Scenic Mk2 20","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-827","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Frameless Wiper Blades for Renault Scenic Mk2 20","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["wiper blade", "special wiper blade", "soft wiper", "wholesale wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-827 for reliable, streak-free wiping performance", "Built for frameless wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
   },
   {
     id: "bw-849-176",
-    category: "Frameless Wiper",
+    category: "Specific Fit",
     name: "Wholesale Car External Accessories Front Windshield Frameless Wipers for BMW 5 Series 7 Series 2016",
     moq: "300 PCS",
     desc: "wholesale special wiper blade",
@@ -4124,7 +4092,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg5brvvQYowZjjwQIwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg5brvvQYo_Y7dywIwuBc4uBc.jpg", "/products/ABUIABACGAAg5brvvQYo4LGOyAMwuBc4uBc.jpg", "/products/ABUIABACGAAg5LrvvQYo2N-PzgIwuBc4uBc.jpg", "/products/ABUIABACGAAg5LrvvQYopryxmAYwuBc4uBc.jpg", "/products/ABUIABACGAAg5LrvvQYowIDS7AQwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-849","Category":"Frameless Wiper","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Frameless Wipers for BMW 5 Series 7 Series 2016","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-849","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Frameless Wipers for BMW 5 Series 7 Series 2016","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wiper blade", "wholesale"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-849 for reliable, streak-free wiping performance", "Built for frameless wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4227,7 +4195,7 @@ export const migratedProducts: Product[] = [
   },
   {
     id: "bw-848a-207",
-    category: "Frameless Wiper",
+    category: "Specific Fit",
     name: "Wholesale Car External Accessories Front Windshield Special Frameless Wiper Blades for Land Rover Di",
     moq: "300 PCS",
     desc: "wholesale special wiper blade",
@@ -4236,7 +4204,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgqtfvvQYovYH8tAEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgqtfvvQYou9-b9QYwuBc4uBc.jpg", "/products/ABUIABACGAAgqtfvvQYors3q_gUwuBc4uBc.jpg", "/products/ABUIABACGAAgqtfvvQYorMfp1QUwuBc4uBc.jpg", "/products/ABUIABACGAAgqtfvvQYoiOj6vgIwuBc4uBc.jpg", "/products/ABUIABACGAAgqtfvvQYonLyBxAYwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-848A","Category":"Frameless Wiper","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Special Frameless Wiper Blades for Land Rover Di","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-848A","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Special Frameless Wiper Blades for Land Rover Di","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wiper blade", "frameless wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-848A for reliable, streak-free wiping performance", "Built for frameless wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]

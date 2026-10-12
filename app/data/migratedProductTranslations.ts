@@ -2559,148 +2559,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       }
     }
   },
-  "bw-802l-frameless-wiper-blade-factory-bw-802l": {
-    "es": {
-      "name": "BW-802L Fabricante de escobillas para limpiaparabrisas sin marco | Limpiaparabrisas de haz de calidad OE",
-      "desc": "¿Busca escobillas para limpiaparabrisas sin marco BW-802L? Nuestra fábrica ofrece limpiaparabrisas de alta calidad con rendimiento silencioso y calidad OE. Precios al por mayor directos para proveedores globales.",
-      "longDesc": "BW-802L Fabricante de escobillas para limpiaparabrisas sin marco | Limpiaparabrisas de haz de calidad OE. ¿Busca escobillas para limpiaparabrisas sin marco BW-802L? Nuestra fábrica ofrece limpiaparabrisas de alta calidad con rendimiento silencioso y calidad OE. Precios al por mayor directos para proveedores globales.",
-      "specs": [
-        "Modelo del producto: BW-802L",
-        "Tamaño: 14-28”",
-        "Color: Negro",
-        "Marca y embalaje personalizados OEM/ODM disponibles",
-        "Precios de fábrica al por mayor",
-        "Calidad de fabricación ISO 9001"
-      ],
-      "features": [
-        "Modelo BW-802L para un rendimiento de limpieza fiable y sin rayas",
-        "Diseñado para aplicaciones de Escobilla sin Marco",
-        "Servicio OEM/ODM directo de fábrica con marca y embalaje personalizados",
-        "Probado para durabilidad y rendimiento en todo clima"
-      ],
-      "technicalDetails": {
-        "Modelo del producto": "BW-802L",
-        "Categoría": "Escobilla sin Marco",
-        "Tamaño": "14-28”",
-        "Color": "Negro",
-        "Aplicación": "BW-802L Fabricante de escobillas para limpiaparabrisas sin marco | Limpiaparabrisas de haz de calidad OE",
-        "MOQ": "300 PCS",
-        "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
-      }
-    },
-    "ru": {
-      "name": "BW-802L Безрамочная щетка стеклоочистителя | Производитель OE-качества щеток типа Beam",
-      "desc": "Ищете бескаркасные щетки стеклоочистителя BW-802L? Наш завод предлагает премиальные бескаркасные щетки с тихой работой и качеством OEM. Прямые оптовые цены для мировых поставщиков.",
-      "longDesc": "BW-802L Безрамочная щетка стеклоочистителя | Производитель OE-качества щеток типа Beam. Ищете бескаркасные щетки стеклоочистителя BW-802L? Наш завод предлагает премиальные бескаркасные щетки с тихой работой и качеством OEM. Прямые оптовые цены для мировых поставщиков.",
-      "specs": [
-        "Модель продукта: BW-802L",
-        "Размер: 14-28”",
-        "Цвет: Черный",
-        "Доступны индивидуальная маркировка и упаковка OEM/ODM",
-        "Прямые заводские оптовые цены",
-        "Качество производства ISO 9001"
-      ],
-      "features": [
-        "Модель BW-802L для надежной очистки без разводов",
-        "Создан для применения: Бескаркасная щетка",
-        "Прямой заводской сервис OEM/ODM с индивидуальной маркировкой и упаковкой",
-        "Проверено на долговечность и всепогодную работу"
-      ],
-      "technicalDetails": {
-        "Модель продукта": "BW-802L",
-        "Категория": "Бескаркасная щетка",
-        "Размер": "14-28”",
-        "Цвет": "Черный",
-        "Применяемость": "BW-802L Безрамочная щетка стеклоочистителя | Производитель OE-качества щеток типа Beam",
-        "MOQ": "300 PCS",
-        "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
-      }
-    },
-    "fr": {
-      "name": "Fabricant de lames d'essuie-glace sans cadre BW-802L | Lame de balai de qualité OE",
-      "desc": "Vous cherchez des balains d’essuie-glace sans cadre BW-802L ? Notre usine propose des essuie-glaces haut de gamme avec des performances silencieuses et une qualité OE. Prix de gros directs pour les fournisseurs mondiaux.",
-      "longDesc": "Fabricant de lames d'essuie-glace sans cadre BW-802L | Lame de balai de qualité OE. Vous cherchez des balains d’essuie-glace sans cadre BW-802L ? Notre usine propose des essuie-glaces haut de gamme avec des performances silencieuses et une qualité OE. Prix de gros directs pour les fournisseurs mondiaux.",
-      "specs": [
-        "Modèle du produit: BW-802L",
-        "Taille: 14-28”",
-        "Couleur: Noir",
-        "Marque et emballage personnalisés OEM/ODM disponibles",
-        "Prix de gros directs d'usine",
-        "Qualité de fabrication ISO 9001"
-      ],
-      "features": [
-        "Modèle BW-802L pour un essuyage fiable et sans traces",
-        "Conçu pour les applications Balai sans Armature",
-        "Service OEM/ODM direct d'usine avec marque et emballage personnalisés",
-        "Testé pour la durabilité et les performances par tous les temps"
-      ],
-      "technicalDetails": {
-        "Modèle du produit": "BW-802L",
-        "Catégorie": "Balai sans Armature",
-        "Taille": "14-28”",
-        "Couleur": "Noir",
-        "Application": "Fabricant de lames d'essuie-glace sans cadre BW-802L | Lame de balai de qualité OE",
-        "MOQ": "300 PCS",
-        "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
-      }
-    },
-    "de": {
-      "name": "BW-802L Rahmenloses Wischerblatt Hersteller | OE-Qualität Stabwischer",
-      "desc": "Suchen Sie nach rahmenlosen Scheibenwischerblättern des BW-802L? Unsere Fabrik bietet Premium-Strahlwischer mit lautloser Leistung und OE-Qualität an. Direkte Großhandelspreise für globale Lieferanten.",
-      "longDesc": "BW-802L Rahmenloses Wischerblatt Hersteller | OE-Qualität Stabwischer. Suchen Sie nach rahmenlosen Scheibenwischerblättern des BW-802L? Unsere Fabrik bietet Premium-Strahlwischer mit lautloser Leistung und OE-Qualität an. Direkte Großhandelspreise für globale Lieferanten.",
-      "specs": [
-        "Produktmodell: BW-802L",
-        "Größe: 14-28”",
-        "Farbe: Schwarz",
-        "OEM/ODM individuelles Branding & Verpackung verfügbar",
-        "Fabrikdirekte Großhandelspreise",
-        "ISO 9001 Fertigungsqualität"
-      ],
-      "features": [
-        "Modell BW-802L für zuverlässiges, streifenfreies Wischen",
-        "Gebaut für Rahmenloses Wischerblatt-Anwendungen",
-        "Fabrikdirekter OEM/ODM-Service mit individuellem Branding und Verpackung",
-        "Getestet für Langlebigkeit und Allwetter-Leistung"
-      ],
-      "technicalDetails": {
-        "Produktmodell": "BW-802L",
-        "Kategorie": "Rahmenloses Wischerblatt",
-        "Größe": "14-28”",
-        "Farbe": "Schwarz",
-        "Fahrzeuganwendung": "BW-802L Rahmenloses Wischerblatt Hersteller | OE-Qualität Stabwischer",
-        "MOQ": "300 PCS",
-        "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
-      }
-    },
-    "zh": {
-      "name": "BW-802L无骨雨刷片制造商 | OE品质梁雨刷",
-      "desc": "寻找 BW-802L 无骨雨刷片？我们的工厂提供高品质的无骨雨刷，具有静音性能和原厂质量。面向全球供应商的直接批发价格。",
-      "longDesc": "BW-802L无骨雨刷片制造商 | OE品质梁雨刷。寻找 BW-802L 无骨雨刷片？我们的工厂提供高品质的无骨雨刷，具有静音性能和原厂质量。面向全球供应商的直接批发价格。",
-      "specs": [
-        "产品型号：BW-802L",
-        "尺寸：14-28”",
-        "颜色：黑色",
-        "支持 OEM/ODM 定制品牌与包装",
-        "工厂直销批发价",
-        "ISO 9001 制造质量"
-      ],
-      "features": [
-        "型号 BW-802L，刮拭可靠、无水痕",
-        "适用于无骨雨刮片应用",
-        "工厂直供 OEM/ODM 服务，支持定制品牌与包装",
-        "经耐久性与全天候性能测试"
-      ],
-      "technicalDetails": {
-        "产品型号": "BW-802L",
-        "分类": "无骨雨刮片",
-        "尺寸": "14-28”",
-        "颜色": "黑色",
-        "适用车型": "BW-802L无骨雨刷片制造商 | OE品质梁雨刷",
-        "MOQ": "300 PCS",
-        "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
-      }
-    }
-  },
   "bw-808-hybrid-wiper-blade-three-section-factory-bw808": {
     "es": {
       "name": "BW-808 Fabricante de escobillas híbridas | Fábrica de limpiaparabrisas de tres secciones",
@@ -10958,7 +10816,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW-824",
-        "Categoría": "Escobilla sin Marco",
+        "Categoría": "Escobilla Específica",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas delanteros LELION Fabricantes de Limpiaparabrisas sin marco de silicona para BMW Serie 3 2004-2009",
@@ -10986,7 +10844,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW-824",
-        "Категория": "Бескаркасная щетка",
+        "Категория": "Специализированный Стеклоочиститель",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION Передние щетки стеклоочистителя силиконовые безрамочные Производители щеток для BMW 3 Series 2004-2009",
@@ -11014,7 +10872,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW-824",
-        "Catégorie": "Balai sans Armature",
+        "Catégorie": "Balai Spécifique",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Lames d'essuie-glace avant en silicone sans cadre Fabricants pour BMW Série 3 2004-2009",
@@ -11042,7 +10900,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW-824",
-        "Kategorie": "Rahmenloses Wischerblatt",
+        "Kategorie": "Spezifisches Wischerblatt",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Frontwischer-Lamellen Silikon Rahmenlose Wischerblätter Hersteller für BMW 3er Reihe 2004-2009",
@@ -11070,7 +10928,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW-824",
-        "分类": "无骨雨刮片",
+        "分类": "专用雨刮片",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 前雨刷片 硅胶无骨雨刷片 适用于宝马 3 系列 2004-2009 制造商",
@@ -12636,148 +12494,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "14+28\"",
         "颜色": "黑色",
         "适用车型": "LELION 专用雨刷片 前挡风玻璃雨刷片 适用于本田奥德赛 2005-2008",
-        "MOQ": "300 PCS",
-        "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
-      }
-    }
-  },
-  "bw-850-frameless-wiper-bw-85": {
-    "es": {
-      "name": "Limpiaparabrisas sin marco LELION Universal Car Wiper BW-850",
-      "desc": "Mejora tu seguridad al conducir con nuestras escobillas de limpiaparabrisas de primera calidad. Con fácil instalación, ajuste universal y caucho natural duradero para un rendimiento silencioso y sin rayas en cualquier clima.",
-      "longDesc": "Limpiaparabrisas sin marco LELION Universal Car Wiper BW-850. Mejora tu seguridad al conducir con nuestras escobillas de limpiaparabrisas de primera calidad. Con fácil instalación, ajuste universal y caucho natural duradero para un rendimiento silencioso y sin rayas en cualquier clima.",
-      "specs": [
-        "Modelo del producto: BW-850",
-        "Tamaño: 14-28\"",
-        "Color: Negro",
-        "Marca y embalaje personalizados OEM/ODM disponibles",
-        "Precios de fábrica al por mayor",
-        "Calidad de fabricación ISO 9001"
-      ],
-      "features": [
-        "Modelo BW-850 para un rendimiento de limpieza fiable y sin rayas",
-        "Diseñado para aplicaciones de Escobilla sin Marco",
-        "Servicio OEM/ODM directo de fábrica con marca y embalaje personalizados",
-        "Probado para durabilidad y rendimiento en todo clima"
-      ],
-      "technicalDetails": {
-        "Modelo del producto": "BW-850",
-        "Categoría": "Escobilla sin Marco",
-        "Tamaño": "14-28\"",
-        "Color": "Negro",
-        "Aplicación": "Limpiaparabrisas sin marco LELION Universal Car Wiper BW-850",
-        "MOQ": "300 PCS",
-        "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
-      }
-    },
-    "ru": {
-      "name": "LELION Универсальная бескаркасная щетка стеклоочистителя BW-850",
-      "desc": "Повышайте безопасность вождения с нашими премиальными щетками для автомобильных стеклоочистителей. Отличаются легкой установкой, универсальной совместимостью и прочной натуральной резиной для бесшумной работы без полос в любых погодных условиях.",
-      "longDesc": "LELION Универсальная бескаркасная щетка стеклоочистителя BW-850. Повышайте безопасность вождения с нашими премиальными щетками для автомобильных стеклоочистителей. Отличаются легкой установкой, универсальной совместимостью и прочной натуральной резиной для бесшумной работы без полос в любых погодных условиях.",
-      "specs": [
-        "Модель продукта: BW-850",
-        "Размер: 14-28\"",
-        "Цвет: Черный",
-        "Доступны индивидуальная маркировка и упаковка OEM/ODM",
-        "Прямые заводские оптовые цены",
-        "Качество производства ISO 9001"
-      ],
-      "features": [
-        "Модель BW-850 для надежной очистки без разводов",
-        "Создан для применения: Бескаркасная щетка",
-        "Прямой заводской сервис OEM/ODM с индивидуальной маркировкой и упаковкой",
-        "Проверено на долговечность и всепогодную работу"
-      ],
-      "technicalDetails": {
-        "Модель продукта": "BW-850",
-        "Категория": "Бескаркасная щетка",
-        "Размер": "14-28\"",
-        "Цвет": "Черный",
-        "Применяемость": "LELION Универсальная бескаркасная щетка стеклоочистителя BW-850",
-        "MOQ": "300 PCS",
-        "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
-      }
-    },
-    "fr": {
-      "name": "LELION Essuie-Glace Universel sans Cadre BW-850",
-      "desc": "Améliorez votre sécurité au volant avec nos essuie-glaces de pare-brise de voiture premium. Installation facile, ajustement universel et caoutchouc naturel durable pour un essuyage silencieux et sans traces par tous les temps.",
-      "longDesc": "LELION Essuie-Glace Universel sans Cadre BW-850. Améliorez votre sécurité au volant avec nos essuie-glaces de pare-brise de voiture premium. Installation facile, ajustement universel et caoutchouc naturel durable pour un essuyage silencieux et sans traces par tous les temps.",
-      "specs": [
-        "Modèle du produit: BW-850",
-        "Taille: 14-28\"",
-        "Couleur: Noir",
-        "Marque et emballage personnalisés OEM/ODM disponibles",
-        "Prix de gros directs d'usine",
-        "Qualité de fabrication ISO 9001"
-      ],
-      "features": [
-        "Modèle BW-850 pour un essuyage fiable et sans traces",
-        "Conçu pour les applications Balai sans Armature",
-        "Service OEM/ODM direct d'usine avec marque et emballage personnalisés",
-        "Testé pour la durabilité et les performances par tous les temps"
-      ],
-      "technicalDetails": {
-        "Modèle du produit": "BW-850",
-        "Catégorie": "Balai sans Armature",
-        "Taille": "14-28\"",
-        "Couleur": "Noir",
-        "Application": "LELION Essuie-Glace Universel sans Cadre BW-850",
-        "MOQ": "300 PCS",
-        "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
-      }
-    },
-    "de": {
-      "name": "LELION Universelle Auto Wischer Rahmungsloser Scheibenwischer BW-850",
-      "desc": "Verbessern Sie Ihre Fahrsicherheit mit unseren Premium-Auto-Windschutzscheibenwischerblättern. Ausgestattet mit einfacher Installation, universeller Passform und langlebigem Naturgummi für streifenfreie, geräuscharme Leistung bei jedem Wetter. Per",
-      "longDesc": "LELION Universelle Auto Wischer Rahmungsloser Scheibenwischer BW-850. Verbessern Sie Ihre Fahrsicherheit mit unseren Premium-Auto-Windschutzscheibenwischerblättern. Ausgestattet mit einfacher Installation, universeller Passform und langlebigem Naturgummi für streifenfreie, geräuscharme Leistung bei jedem Wetter. Per",
-      "specs": [
-        "Produktmodell: BW-850",
-        "Größe: 14-28\"",
-        "Farbe: Schwarz",
-        "OEM/ODM individuelles Branding & Verpackung verfügbar",
-        "Fabrikdirekte Großhandelspreise",
-        "ISO 9001 Fertigungsqualität"
-      ],
-      "features": [
-        "Modell BW-850 für zuverlässiges, streifenfreies Wischen",
-        "Gebaut für Rahmenloses Wischerblatt-Anwendungen",
-        "Fabrikdirekter OEM/ODM-Service mit individuellem Branding und Verpackung",
-        "Getestet für Langlebigkeit und Allwetter-Leistung"
-      ],
-      "technicalDetails": {
-        "Produktmodell": "BW-850",
-        "Kategorie": "Rahmenloses Wischerblatt",
-        "Größe": "14-28\"",
-        "Farbe": "Schwarz",
-        "Fahrzeuganwendung": "LELION Universelle Auto Wischer Rahmungsloser Scheibenwischer BW-850",
-        "MOQ": "300 PCS",
-        "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
-      }
-    },
-    "zh": {
-      "name": "LELION 通用汽车无框雨刷片 挡风玻璃雨刷 BW-850",
-      "desc": "使用我们的高级汽车挡风玻璃雨刷提升驾驶安全。具有易安装、通用适配、耐用天然橡胶，任何天气下均可实现无条痕、静音性能。",
-      "longDesc": "LELION 通用汽车无框雨刷片 挡风玻璃雨刷 BW-850。使用我们的高级汽车挡风玻璃雨刷提升驾驶安全。具有易安装、通用适配、耐用天然橡胶，任何天气下均可实现无条痕、静音性能。",
-      "specs": [
-        "产品型号：BW-850",
-        "尺寸：14-28\"",
-        "颜色：黑色",
-        "支持 OEM/ODM 定制品牌与包装",
-        "工厂直销批发价",
-        "ISO 9001 制造质量"
-      ],
-      "features": [
-        "型号 BW-850，刮拭可靠、无水痕",
-        "适用于无骨雨刮片应用",
-        "工厂直供 OEM/ODM 服务，支持定制品牌与包装",
-        "经耐久性与全天候性能测试"
-      ],
-      "technicalDetails": {
-        "产品型号": "BW-850",
-        "分类": "无骨雨刮片",
-        "尺寸": "14-28\"",
-        "颜色": "黑色",
-        "适用车型": "LELION 通用汽车无框雨刷片 挡风玻璃雨刷 BW-850",
         "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
@@ -17206,7 +16922,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW-827",
-        "Categoría": "Escobilla sin Marco",
+        "Categoría": "Escobilla Específica",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELIONLimpiaparabrisas Limpiaparabrisas sin marco Limpiaparabrisas delantero de coche para RENAULT SCENIC MEGANE C",
@@ -17234,7 +16950,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW-827",
-        "Категория": "Бескаркасная щетка",
+        "Категория": "Специализированный Стеклоочиститель",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION Щетки стеклоочистителя без каркаса для переднего стекла автомобиля для RENAULT SCENIC MEGANE C",
@@ -17262,7 +16978,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW-827",
-        "Catégorie": "Balai sans Armature",
+        "Catégorie": "Balai Spécifique",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Essuie-glaces pare-brise Essuie-glace sans cadre Essuie-glace avant de voiture pour RENAULT SCENIC MEGANE C",
@@ -17290,7 +17006,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW-827",
-        "Kategorie": "Rahmenloses Wischerblatt",
+        "Kategorie": "Spezifisches Wischerblatt",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Scheibenwischer Rahenloser Wischer Auto-Frontscheibenwischer für RENAULT SCENIC MEGANE C",
@@ -17318,7 +17034,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW-827",
-        "分类": "无骨雨刮片",
+        "分类": "专用雨刮片",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 无骨雨刷片 汽车前挡风玻璃雨刷片 适用于 RENAULT SCENIC MEGANE C",
@@ -31548,7 +31264,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW-848A",
-        "Categoría": "Escobilla sin Marco",
+        "Categoría": "Escobilla Específica",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Al por mayor Accesorios externos para automóviles Limpiaparabrisas delantero Limpiaparabrisas sin marco para Land Rover",
@@ -31576,7 +31292,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW-848A",
-        "Категория": "Бескаркасная щетка",
+        "Категория": "Специализированный Стеклоочиститель",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров передний стеклоочиститель безрамочные щетки для Land Rover",
@@ -31604,7 +31320,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW-848A",
-        "Catégorie": "Balai sans Armature",
+        "Catégorie": "Balai Spécifique",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes automobiles en gros Essuie-glace frontal pour fenêtre avant sans cadre pour Land Rover",
@@ -31632,7 +31348,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW-848A",
-        "Kategorie": "Rahmenloses Wischerblatt",
+        "Kategorie": "Spezifisches Wischerblatt",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Externes Zubehör Frontscheibenwischer Autos ohne Rahmen Wischerblätter für Land Rover",
@@ -31660,7 +31376,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW-848A",
-        "分类": "无骨雨刮片",
+        "分类": "专用雨刮片",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 路虎前窗无骨雨刷片",
@@ -33394,7 +33110,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW-824",
-        "Categoría": "Escobilla sin Marco",
+        "Categoría": "Escobilla Específica",
         "Tamaño": "24+19\"",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Parabrisas delantero 24'' +19 '' Limpiaparabrisas sin marco para BMW Serie 3",
@@ -33422,7 +33138,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW-824",
-        "Категория": "Бескаркасная щетка",
+        "Категория": "Специализированный Стеклоочиститель",
         "Размер": "24+19\"",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров: безрамочные дворники 24'' и 19'' для переднего лобового стекла BMW 3 Series",
@@ -33450,7 +33166,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW-824",
-        "Catégorie": "Balai sans Armature",
+        "Catégorie": "Balai Spécifique",
         "Taille": "24+19\"",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Balais d'essuie-glace sans cadre pour pare-brise avant 24'' 19'' pour BMW Série 3",
@@ -33478,7 +33194,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW-824",
-        "Kategorie": "Rahmenloses Wischerblatt",
+        "Kategorie": "Spezifisches Wischerblatt",
         "Größe": "24+19\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Autoteile Außen Zubehör Frontscheibe 24'' 19'' rahmenlose Wischerblätter für BMW 3 Serie",
@@ -33506,7 +33222,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW-824",
-        "分类": "无骨雨刮片",
+        "分类": "专用雨刮片",
         "尺寸": "24+19\"",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 前挡风玻璃 24'' 19'' 无框雨刷 宝马3系列用",
@@ -36376,7 +36092,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW-827",
-        "Categoría": "Escobilla sin Marco",
+        "Categoría": "Escobilla Específica",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Limpiaparabrisas delantero sin marco para Renault Scenic Mk2 20",
@@ -36404,7 +36120,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW-827",
-        "Категория": "Бескаркасная щетка",
+        "Категория": "Специализированный Стеклоочиститель",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров Передние стеклоочистители бескаркасные для Renault Scenic Mk2 20",
@@ -36432,7 +36148,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW-827",
-        "Catégorie": "Balai sans Armature",
+        "Catégorie": "Balai Spécifique",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Balais d'essuie-glace avant sans cadre pour Renault Scenic Mk2 20",
@@ -36460,7 +36176,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW-827",
-        "Kategorie": "Rahmenloses Wischerblatt",
+        "Kategorie": "Spezifisches Wischerblatt",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Außenzubehör Frontscheibenwischer rahmenlose Wischer für Renault Scenic Mk2 20",
@@ -36488,7 +36204,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW-827",
-        "分类": "无骨雨刮片",
+        "分类": "专用雨刮片",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃无骨雨刷片适用于雷诺风景 Mk2 20",
@@ -36518,7 +36234,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW-849",
-        "Categoría": "Escobilla sin Marco",
+        "Categoría": "Escobilla Específica",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Limpiaparabrisas delantero sin marco para BMW Serie 5 Serie 7 2016",
@@ -36546,7 +36262,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW-849",
-        "Категория": "Бескаркасная щетка",
+        "Категория": "Специализированный Стеклоочиститель",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров Передние стеклоочистители бескаркасные для BMW 5 серии 7 серии 2016",
@@ -36574,7 +36290,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW-849",
-        "Catégorie": "Balai sans Armature",
+        "Catégorie": "Balai Spécifique",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Essuie-glaces avant sans cadre pour BMW Série 5 Série 7 2016",
@@ -36602,7 +36318,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW-849",
-        "Kategorie": "Rahmenloses Wischerblatt",
+        "Kategorie": "Spezifisches Wischerblatt",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Außenzubehör Frontscheibenwischer rahmenlose Wischer für BMW 5er Reihe 7er Reihe 2016",
@@ -36630,7 +36346,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW-849",
-        "分类": "无骨雨刮片",
+        "分类": "专用雨刮片",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃无骨雨刷片适用于宝马 5 系列 7 系列 2016",
@@ -37512,7 +37228,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW-848A",
-        "Categoría": "Escobilla sin Marco",
+        "Categoría": "Escobilla Específica",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Parabrisas delantero Limpiaparabrisas especiales sin marco para Land Rover Di",
@@ -37540,7 +37256,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW-848A",
-        "Категория": "Бескаркасная щетка",
+        "Категория": "Специализированный Стеклоочиститель",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров Передние стеклоочистители специальные бескаркасные для Land Rover Di",
@@ -37568,7 +37284,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW-848A",
-        "Catégorie": "Balai sans Armature",
+        "Catégorie": "Balai Spécifique",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires extérieurs de voiture en gros Balais d'essuie-glace avant spéciaux sans cadre pour Land Rover Di",
@@ -37596,7 +37312,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW-848A",
-        "Kategorie": "Rahmenloses Wischerblatt",
+        "Kategorie": "Spezifisches Wischerblatt",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Außen Zubehör Frontscheibe Spezielle Rahmlose Wischerblätter für Land Rover Di",
@@ -37624,7 +37340,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW-848A",
-        "分类": "无骨雨刮片",
+        "分类": "专用雨刮片",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃无框专用雨刷片适用于路虎Di",

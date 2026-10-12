@@ -64,4 +64,12 @@ module.exports = { ...nextConfig, async redirects() { return [
   //   bw-825-special-wiper-blade-buick-enclave-2012-2017 (BW-825 / Buick Enclave 2012-2017)
   //   bw-829-special-wiper-blade-buick-encore-2013-2022   (BW-829 / Buick Encore 2013-2022)
   // Their URLs are unchanged, so no redirect is defined for either of them.
+  // --- Retired pages, 2026-10-12 (Frameless Wiper category removed) ---
+  // The two products below exist only once on the site, so they point at the category
+  // page that now carries the survivors. statusCode 301 keeps the code exact (:lang
+  // preserves the language prefix).
+  { source: "/:lang/products/category/frameless-wiper/all", destination: "/:lang/products/category/specific-fit", statusCode: 301 },
+  { source: "/:lang/products/category/frameless-wiper", destination: "/:lang/products/category/specific-fit", statusCode: 301 },
+  { source: "/:lang/products/bw-802l-frameless-wiper-blade-factory-bw-802l", destination: "/:lang/products/category/specific-fit", statusCode: 301 },
+  { source: "/:lang/products/bw-850-frameless-wiper-bw-85", destination: "/:lang/products/category/specific-fit", statusCode: 301 },
 ]; } };
