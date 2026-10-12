@@ -72,4 +72,17 @@ module.exports = { ...nextConfig, async redirects() { return [
   { source: "/:lang/products/category/frameless-wiper", destination: "/:lang/products/category/specific-fit", statusCode: 301 },
   { source: "/:lang/products/bw-802l-frameless-wiper-blade-factory-bw-802l", destination: "/:lang/products/category/specific-fit", statusCode: 301 },
   { source: "/:lang/products/bw-850-frameless-wiper-bw-85", destination: "/:lang/products/category/specific-fit", statusCode: 301 },
+  // --- Duplicate model numbers, 2026-10-12 (one page kept per model) ---
+  // Each losing page points at the kept page for the same model, so link equity
+  // follows the entry that stays. statusCode 301 keeps the code exact.
+  { source: "/:lang/products/bw0302-283", destination: "/:lang/products/bw0302-278", statusCode: 301 },
+  { source: "/:lang/products/bw0311-327", destination: "/:lang/products/bw0311-320", statusCode: 301 },
+  { source: "/:lang/products/bw0333-338", destination: "/:lang/products/bw0333-293", statusCode: 301 },
+  { source: "/:lang/products/bw3302-304", destination: "/:lang/products/bw3302-292", statusCode: 301 },
+  { source: "/:lang/products/bw-001-360", destination: "/:lang/products/bw-001-audi-q7-rhd-wiper-arm", statusCode: 301 },
+  { source: "/:lang/products/bw-002-361", destination: "/:lang/products/bw-002-audi-q7-lhd-wiper-arm", statusCode: 301 },
+  { source: "/:lang/products/bw-027-front-right-wiper-arm-toyota-corolla-1993-1996", destination: "/:lang/products/bw-027-toyota-corolla-wiper-arm", statusCode: 301 },
+  { source: "/:lang/products/bw-160-multi-functional-rear-wiper-blade-factory-bw160", destination: "/:lang/products/bw-160-rear-wiper-blade", statusCode: 301 },
+  { source: "/:lang/products/bw-161-134", destination: "/:lang/products/bw-161-rear-wiper-blade", statusCode: 301 },
+  { source: "/:lang/products/bw-861-multi-functional-wiper-blade-factory-bw861", destination: "/:lang/products/bw-861-multifunction-wiper-blade", statusCode: 301 },
 ]; } };
