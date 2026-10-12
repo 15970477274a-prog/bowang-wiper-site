@@ -8,6 +8,7 @@ import { translations, Locale } from "../../../../translations";
 import { allProducts } from "../../../../data/products";
 import { getProductTranslation } from "../../../../data/productTranslations";
 import { CATEGORY_MAP, CATEGORY_LABEL_KEYS } from "../../../../data/categories";
+import Pager from "../../../../../components/Pager";
 
 export default function ProductCategoryPage() {
   const params = useParams();
@@ -34,6 +35,7 @@ export default function ProductCategoryPage() {
     return <div style={{padding:"100px",textAlign:"center"}}><h1>{t.categoryNotFound}</h1><Link href={l("/products")} style={{color:"#0284c7"}}>{t.backToProducts}</Link></div>;
   }
   const filtered = allProducts.filter(p => p.category === category);
+  const totalPages = Math.max(1, Math.ceil(filtered.length / ITEMS_PER_PAGE));
 
   // BreadcrumbList Schema
   const breadcrumbSchema = {
@@ -135,43 +137,14 @@ export default function ProductCategoryPage() {
                     ))}
                   </div>
 
-                  {/* Pagination */}
-                  <div className="pl-pager">
-                    <button
-                      onClick={() => setCurrentPage(Math.max(1, currentPage - 1))}
-                      disabled={currentPage === 1}
-                      style={{padding:"10px 18px",border:currentPage===1?"1px solid #e2e8f0":"1px solid #cbd5e1",
-                        borderRadius:"8px",background:currentPage===1?"#f1f5f9":"white",
-                        color:currentPage===1?"#94a3b8":"#0f172a",cursor:currentPage===1?"not-allowed":"pointer",
-                        fontSize:"14px",fontWeight:600,transition:"all 0.2s"
-                      }}
-                    >
-                      {t.prev}
-                    </button>
-                    {Array.from({length: Math.ceil(filtered.length / ITEMS_PER_PAGE)}, (_, i) => i + 1).map(page => (
-                      <button key={page} onClick={() => setCurrentPage(page)}
-                        style={{width:"40px",height:"40px",border:page===currentPage?"none":"1px solid #e2e8f0",
-                          borderRadius:"8px",background:page===currentPage?"#0284c7":"white",
-                          color:page===currentPage?"white":"#475569",cursor:"pointer",
-                          fontSize:"14px",fontWeight:page===currentPage?700:500,transition:"all 0.2s"
-                        }}
-                      >
-                        {page}
-                      </button>
-                    ))}
-                    <button
-                      onClick={() => setCurrentPage(Math.min(Math.ceil(filtered.length / ITEMS_PER_PAGE), currentPage + 1))}
-                      disabled={currentPage === Math.ceil(filtered.length / ITEMS_PER_PAGE)}
-                      style={{padding:"10px 18px",border:currentPage===Math.ceil(filtered.length/ITEMS_PER_PAGE)?"1px solid #e2e8f0":"1px solid #cbd5e1",
-                        borderRadius:"8px",background:currentPage===Math.ceil(filtered.length/ITEMS_PER_PAGE)?"#f1f5f9":"white",
-                        color:currentPage===Math.ceil(filtered.length/ITEMS_PER_PAGE)?"#94a3b8":"#0f172a",
-                        cursor:currentPage===Math.ceil(filtered.length/ITEMS_PER_PAGE)?"not-allowed":"pointer",
-                        fontSize:"14px",fontWeight:600,transition:"all 0.2s"
-                      }}
-                    >
-                      {t.next}
-                    </button>
-                  </div>
+                  {/* Pagination - shared windowed pager (components/Pager.tsx) */}
+                  <Pager
+                    currentPage={currentPage}
+                    totalPages={totalPages}
+                    onPageChange={setCurrentPage}
+                    prevLabel={t.prev}
+                    nextLabel={t.next}
+                  />
                 </>
               )}
             </div>

@@ -654,6 +654,55 @@ a { color: inherit; text-decoration: none; }
   flex-wrap: wrap;
 }
 
+/* Pager controls. These were duplicated as inline styles in two listing pages;
+   they live here so both call sites share one definition. */
+.pl-pager-btn {
+  padding: 10px 18px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background: #fff;
+  color: #0f172a;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.pl-pager-btn:disabled {
+  background: #f1f5f9;
+  border-color: var(--border);
+  color: #94a3b8;
+  cursor: not-allowed;
+}
+.pl-pager-num {
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: #fff;
+  color: #475569;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.pl-pager-num[aria-current="page"] {
+  border-color: transparent;
+  background: #0284c7;
+  color: #fff;
+  font-weight: 700;
+}
+/* A gap marker is a plain span, so it can never receive focus. */
+.pl-pager-gap {
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #94a3b8;
+  font-size: 14px;
+  user-select: none;
+}
+
 /* Breakpoint is 600px on purpose (not 768px).
    1) The acceptance criteria require the sidebar and the product grid to share
       ONE ROW at 1440 / 1280 / 1024 / 900 / 768 - including 768. Stacking them at
