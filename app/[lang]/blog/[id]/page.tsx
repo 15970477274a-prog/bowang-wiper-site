@@ -138,7 +138,7 @@ export default function BlogDetail() {
 
   const related = blogPosts.filter(p => p.category === post.category && p.id !== post.id).slice(0, 2);
 
-  const featuredProducts = ["bw-201-specific-fit-tesla-model-x", "bw-861-multifunction-wiper-blade", "bw-802-universal-wiper-blade"]
+  const featuredProducts = ["bw-201-spray-wiper-blade-tesla-modelx", "bw-861-multifunction-wiper-blade", "bw-802-universal-wiper-blade"]
     .map(pid => allProducts.find(p => p.id === pid))
     .filter((p): p is NonNullable<typeof p> => Boolean(p));
 

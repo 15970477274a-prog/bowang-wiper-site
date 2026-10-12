@@ -10526,13 +10526,13 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "features": [
         "Modelo BW-825 para un rendimiento de limpieza fiable y sin rayas",
-        "Diseñado para aplicaciones de Escobilla Especial",
+        "Diseñado para aplicaciones de Escobilla Específica",
         "Servicio OEM/ODM directo de fábrica con marca y embalaje personalizados",
         "Probado para durabilidad y rendimiento en todo clima"
       ],
       "technicalDetails": {
         "Modelo del producto": "BW-825",
-        "Categoría": "Escobilla Especial",
+        "Categoría": "Escobilla Específica",
         "Tamaño": "24+21\"",
         "Color": "Negro",
         "Aplicación": "LELION Limpiaparabrisas delantero para Buick Enclave 2012-2017",
@@ -10554,13 +10554,13 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "features": [
         "Модель BW-825 для надежной очистки без разводов",
-        "Создан для применения: Специальная щетка",
+        "Создан для применения: Специализированный Стеклоочиститель",
         "Прямой заводской сервис OEM/ODM с индивидуальной маркировкой и упаковкой",
         "Проверено на долговечность и всепогодную работу"
       ],
       "technicalDetails": {
         "Модель продукта": "BW-825",
-        "Категория": "Специальная щетка",
+        "Категория": "Специализированный Стеклоочиститель",
         "Размер": "24+21\"",
         "Цвет": "Черный",
         "Применяемость": "LELION Передние щетки стеклоочистителя для Buick Enclave 2012-2017",
@@ -10582,13 +10582,13 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "features": [
         "Modèle BW-825 pour un essuyage fiable et sans traces",
-        "Conçu pour les applications Balai Spécial",
+        "Conçu pour les applications Balai Spécifique",
         "Service OEM/ODM direct d'usine avec marque et emballage personnalisés",
         "Testé pour la durabilité et les performances par tous les temps"
       ],
       "technicalDetails": {
         "Modèle du produit": "BW-825",
-        "Catégorie": "Balai Spécial",
+        "Catégorie": "Balai Spécifique",
         "Taille": "24+21\"",
         "Couleur": "Noir",
         "Application": "LELION Lames d'essuie-glace avant pour Buick Enclave 2012-2017",
@@ -10610,13 +10610,13 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "features": [
         "Modell BW-825 für zuverlässiges, streifenfreies Wischen",
-        "Gebaut für Spezialwischer-Anwendungen",
+        "Gebaut für Spezifisches Wischerblatt-Anwendungen",
         "Fabrikdirekter OEM/ODM-Service mit individuellem Branding und Verpackung",
         "Getestet für Langlebigkeit und Allwetter-Leistung"
       ],
       "technicalDetails": {
         "Produktmodell": "BW-825",
-        "Kategorie": "Spezialwischer",
+        "Kategorie": "Spezifisches Wischerblatt",
         "Größe": "24+21\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Frontscheibenwischer-Lamellen für Buick Enclave 2012-2017",
@@ -10638,13 +10638,13 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "features": [
         "型号 BW-825，刮拭可靠、无水痕",
-        "适用于特殊雨刮片应用",
+        "适用于专用雨刮片应用",
         "工厂直供 OEM/ODM 服务，支持定制品牌与包装",
         "经耐久性与全天候性能测试"
       ],
       "technicalDetails": {
         "产品型号": "BW-825",
-        "分类": "特殊雨刮片",
+        "分类": "专用雨刮片",
         "尺寸": "24+21\"",
         "颜色": "黑色",
         "适用车型": "LELION 前挡风玻璃雨刷 适用于别克昂科雷 2012-2017",
@@ -10668,13 +10668,13 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "features": [
         "Modelo BW-829 para un rendimiento de limpieza fiable y sin rayas",
-        "Diseñado para aplicaciones de Escobilla Especial",
+        "Diseñado para aplicaciones de Escobilla Específica",
         "Servicio OEM/ODM directo de fábrica con marca y embalaje personalizados",
         "Probado para durabilidad y rendimiento en todo clima"
       ],
       "technicalDetails": {
         "Modelo del producto": "BW-829",
-        "Categoría": "Escobilla Especial",
+        "Categoría": "Escobilla Específica",
         "Tamaño": "26+14\"",
         "Color": "Negro",
         "Aplicación": "LELION Limpiaparabrisas delantero para Buick Encore 2013-2022",
@@ -10696,13 +10696,13 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "features": [
         "Модель BW-829 для надежной очистки без разводов",
-        "Создан для применения: Специальная щетка",
+        "Создан для применения: Специализированный Стеклоочиститель",
         "Прямой заводской сервис OEM/ODM с индивидуальной маркировкой и упаковкой",
         "Проверено на долговечность и всепогодную работу"
       ],
       "technicalDetails": {
         "Модель продукта": "BW-829",
-        "Категория": "Специальная щетка",
+        "Категория": "Специализированный Стеклоочиститель",
         "Размер": "26+14\"",
         "Цвет": "Черный",
         "Применяемость": "LELION Передние щетки стеклоочистителя для Buick Encore 2013-2022",
@@ -10724,13 +10724,13 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "features": [
         "Modèle BW-829 pour un essuyage fiable et sans traces",
-        "Conçu pour les applications Balai Spécial",
+        "Conçu pour les applications Balai Spécifique",
         "Service OEM/ODM direct d'usine avec marque et emballage personnalisés",
         "Testé pour la durabilité et les performances par tous les temps"
       ],
       "technicalDetails": {
         "Modèle du produit": "BW-829",
-        "Catégorie": "Balai Spécial",
+        "Catégorie": "Balai Spécifique",
         "Taille": "26+14\"",
         "Couleur": "Noir",
         "Application": "LELION Lames d'essuie-glace avant pour Buick Encore 2013-2022",
@@ -10752,13 +10752,13 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "features": [
         "Modell BW-829 für zuverlässiges, streifenfreies Wischen",
-        "Gebaut für Spezialwischer-Anwendungen",
+        "Gebaut für Spezifisches Wischerblatt-Anwendungen",
         "Fabrikdirekter OEM/ODM-Service mit individuellem Branding und Verpackung",
         "Getestet für Langlebigkeit und Allwetter-Leistung"
       ],
       "technicalDetails": {
         "Produktmodell": "BW-829",
-        "Kategorie": "Spezialwischer",
+        "Kategorie": "Spezifisches Wischerblatt",
         "Größe": "26+14\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Frontscheibenwischer-Lamellen für Buick Encore 2013-2022",
@@ -10780,13 +10780,13 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "features": [
         "型号 BW-829，刮拭可靠、无水痕",
-        "适用于特殊雨刮片应用",
+        "适用于专用雨刮片应用",
         "工厂直供 OEM/ODM 服务，支持定制品牌与包装",
         "经耐久性与全天候性能测试"
       ],
       "technicalDetails": {
         "产品型号": "BW-829",
-        "分类": "特殊雨刮片",
+        "分类": "专用雨刮片",
         "尺寸": "26+14\"",
         "颜色": "黑色",
         "适用车型": "LELION 前挡风玻璃雨刷 适用于别克Encore 2013-2022",

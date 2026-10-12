@@ -1187,7 +1187,7 @@ export const migratedProducts: Product[] = [
   },
   {
     id: "bw-825-special-wiper-blade-buick-enclave-2012-2017",
-    category: "Special Wiper",
+    category: "Specific Fit",
     name: "LELION Front Windshield Wiper Blades for Buick Enclave 2012-2017",
     moq: "300 PCS",
     desc: "Front 24\"+21\" wiper blades for 2012-2017 Buick Enclave. OEM-fit, quiet, streak-free, all-season performance, quick 1‑minute install. Clear vision and durability for safer driving.",
@@ -1196,14 +1196,14 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgxK7vvQYojtehiQcwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgxK7vvQYoltei1wEwuBc4uBc.jpg", "/products/ABUIABACGAAgxK7vvQYosKPrqQQwuBc4uBc.jpg", "/products/ABUIABACGAAgw67vvQYozurnogYwuBc4uBc.jpg", "/products/ABUIABACGAAgxK7vvQYotMC_IzC4Fzi4Fw.jpg", "/products/ABUIABACGAAgxK7vvQYogNPbajC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-825","Category":"Special Wiper","Size":"24+21\"","Color":"Black","Fitment":"LELION Front Windshield Wiper Blades for Buick Enclave 2012-2017","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-825","Category":"Specific Fit","Size":"24+21\"","Color":"Black","Fitment":"LELION Front Windshield Wiper Blades for Buick Enclave 2012-2017","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Buick Enclave wiper blades", "2012 2013 2014 2015 2016 2017", "24 inch 21 inch", "front windshield", "OEM fit", "all-season", "quiet", "streak-free", "replacement"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
-    features: ["Model BW-825 for reliable, streak-free wiping performance", "Built for special wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
+    features: ["Model BW-825 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
   },
   {
     id: "bw-829-special-wiper-blade-buick-encore-2013-2022",
-    category: "Special Wiper",
+    category: "Specific Fit",
     name: "LELION Front Windshield Wiper Blades for Buick Encore 2013-2022",
     moq: "300 PCS",
     desc: "Fits Buick Encore 2013-2022: 26in driver + 14in passenger beam wiper blades, graphite rubber, streak-free all-season wipe. OEM quality, private label & wholesale, MOQ 500 (trial 200), 15-25 day lead.",
@@ -1212,10 +1212,10 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAglrPvvQYom53pxwEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAglrPvvQYohP_C3gIwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYooMHP7AEwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo9K_8ywUwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo1K367wcwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo_L-DYTC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-829","Category":"Special Wiper","Size":"26+14\"","Color":"Black","Fitment":"LELION Front Windshield Wiper Blades for Buick Encore 2013-2022","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"26+14\"","Color":"Black","Fitment":"LELION Front Windshield Wiper Blades for Buick Encore 2013-2022","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Buick Encore wiper blades 2013-2022", "26+14 beam", "26in driver 14in passenger", "OEM", "private label wholesale", "graphite rubber", "all season", "streak-free"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
-    features: ["Model BW-829 for reliable, streak-free wiping performance", "Built for special wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
+    features: ["Model BW-829 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
   },
   {
     id: "bw-844-232",

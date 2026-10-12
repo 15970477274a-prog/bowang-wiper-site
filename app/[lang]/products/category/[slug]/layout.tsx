@@ -5,7 +5,7 @@ import { translations, Locale } from "../../../../translations";
 type Props = { params: Promise<{ lang: string; slug: string }> };
 
 const locales = ["en", "es", "ru", "fr", "de", "zh"];
-const categorySlugs = ["universal", "specific-fit", "multifunction", "wiper-arm", "hybrid", "rear-wiper", "rear-wiper-combo", "frame-wiper", "frameless-wiper", "colored-wiper-blade", "electric-spray-wiper", "bus-truck-wiper", "snow-wiper", "special-wiper", "wiper-parts", "rear-wiper-arm"];
+const categorySlugs = ["universal", "specific-fit", "multifunction", "wiper-arm", "hybrid", "rear-wiper", "rear-wiper-combo", "frame-wiper", "frameless-wiper", "colored-wiper-blade", "electric-spray-wiper", "bus-truck-wiper", "snow-wiper", "wiper-parts", "rear-wiper-arm"];
 
 export function generateStaticParams() {
   return categorySlugs.flatMap((slug) => locales.map((lang) => ({ lang, slug })));
@@ -27,7 +27,6 @@ const categoryKeyMap: Record<string, keyof (typeof translations)["en"]> = {
   "electric-spray-wiper": "catElectricSpray",
   "bus-truck-wiper": "catBusTruck",
   "snow-wiper": "catSnowWiper",
-  "special-wiper": "catSpecialWiper",
   "wiper-parts": "catWiperParts",
   "rear-wiper-arm": "catRearWiperArm",
 };

@@ -18,7 +18,6 @@ const categoryKeyMap: Record<string, keyof (typeof translations)["en"]> = {
   "electric-spray-wiper": "catElectricSpray",
   "bus-truck-wiper": "catBusTruck",
   "snow-wiper": "catSnowWiper",
-  "special-wiper": "catSpecialWiper",
   "wiper-parts": "catWiperParts",
   "rear-wiper-arm": "catRearWiperArm",
 };

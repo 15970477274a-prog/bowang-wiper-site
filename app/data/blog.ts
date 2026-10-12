@@ -893,7 +893,7 @@ Packaging also shifts by type: universal and beam blades fit blister cards and c
 
 ## How Lelion Supports All Three Types
 
-Lelion Autoparts manufactures universal, beam, hybrid, and specific-fit wiper blades in one 8,000 sqm ISO 9001 certified factory. You can source all three types from a single supplier — which simplifies quality control, packaging consistency, and container consolidation. Examples from our catalog: the [BW-802 universal frameless blade](/products/bw-802-universal-wiper-blade), the [BW-861 multi-function blade with 22 adapters](/products/bw-861-multifunction-wiper-blade), and specific-fit models such as the [BW-201 for Tesla Model X](/products/bw-201-specific-fit-tesla-model-x).
+Lelion Autoparts manufactures universal, beam, hybrid, and specific-fit wiper blades in one 8,000 sqm ISO 9001 certified factory. You can source all three types from a single supplier — which simplifies quality control, packaging consistency, and container consolidation. Examples from our catalog: the [BW-802 universal frameless blade](/products/bw-802-universal-wiper-blade), the [BW-861 multi-function blade with 22 adapters](/products/bw-861-multifunction-wiper-blade), and specific-fit models such as the [BW-201 for Tesla Model X](/products/bw-201-spray-wiper-blade-tesla-modelx).
 
 All models support private label branding, custom packaging, and pre-production samples before bulk orders.
 

@@ -12,7 +12,6 @@ export const CATEGORY_MAP: Record<string, string> = {
   "electric-spray-wiper": "Electric Spray Wiper",
   "bus-truck-wiper": "Bus Truck Wiper",
   "snow-wiper": "Snow Wiper",
-  "special-wiper": "Special Wiper",
   "wiper-parts": "Wiper Parts",
   "rear-wiper-arm": "Rear Wiper Arm",
 };
@@ -33,7 +32,6 @@ export const CATEGORY_LABEL_KEYS: Record<string, string> = {
   "Electric Spray Wiper": "footerElectricSpray",
   "Bus Truck Wiper": "footerBusTruck",
   "Snow Wiper": "footerSnowWiper",
-  "Special Wiper": "footerSpecialWiper",
   "Wiper Parts": "footerWiperParts",
   "Rear Wiper Arm": "footerRearWiperArm",
 };

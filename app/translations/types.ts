@@ -125,7 +125,6 @@ export interface TranslationDict {
   footerElectricSpray: string;
   footerBusTruck: string;
   footerSnowWiper: string;
-  footerSpecialWiper: string;
   footerWiperParts: string;
   footerRearWiperArm: string;
   featuredCategories: string;
@@ -168,7 +167,6 @@ export interface TranslationDict {
   catElectricSpray: string;
   catBusTruck: string;
   catSnowWiper: string;
-  catSpecialWiper: string;
   catWiperParts: string;
   catRearWiperArm: string;
   categoryBannerSub: string;
