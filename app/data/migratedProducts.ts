@@ -387,7 +387,7 @@ export const migratedProducts: Product[] = [
   },
   {
     id: "bw1903-344",
-    category: "Specific Fit",
+    category: "Rear Wiper Combo",
     name: "Car Accessories Windshield Wiper Combination for Chevrolet Spark 2010-2016",
     moq: "300 PCS",
     desc: "Chevrolet Spark rear wiper arm blade",
@@ -396,7 +396,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg7qmFvgYo3s6L0AYwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg7qmFvgYooJXwBTC4Fzi4Fw.jpg", "/products/ABUIABACGAAg7qmFvgYo6uS39gMwuBc4uBc.jpg", "/products/ABUIABACGAAg7qmFvgYomoruowEwuBc4uBc.jpg", "/products/ABUIABACGAAg7qmFvgYoyMOigQcwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW1903","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Car Accessories Windshield Wiper Combination for Chevrolet Spark 2010-2016","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW1903","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Car Accessories Windshield Wiper Combination for Chevrolet Spark 2010-2016","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW1903 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -915,7 +915,7 @@ export const migratedProducts: Product[] = [
   },
   {
     id: "bw1101-350",
-    category: "Wiper Arm",
+    category: "Rear Wiper Combo",
     name: "LELION Car Windshield Wiper Blade and Arm for Peugeot 206 1998-2012",
     moq: "300 PCS",
     desc: "Peugeot 206 rear wiper arm blade",
@@ -924,14 +924,14 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgypaFvgYo7sjn_wIwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgypaFvgYo842ZnwYwuBc4uBc.jpg", "/products/ABUIABACGAAgypaFvgYoppP71gUwuBc4uBc.jpg", "/products/ABUIABACGAAgypaFvgYosIeC4QQwzAg49QY.jpg"],
-    technicalDetails: {"Product Model":"BW1101","Category":"Wiper Arm","Size":"Standard","Color":"Black","Fitment":"LELION Car Windshield Wiper Blade and Arm for Peugeot 206 1998-2012","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW1101","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Car Windshield Wiper Blade and Arm for Peugeot 206 1998-2012","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW1101 for reliable, streak-free wiping performance", "Built for wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
   },
   {
     id: "bw0506-274",
-    category: "Wiper Arm",
+    category: "Rear Wiper Combo",
     name: "LELION Car Windshield Wiper Blade and Arm Wholesale Special Wiper Combination for Nissan Livina 2007",
     moq: "300 PCS",
     desc: "Nissan Livina Rear Wiper Blade Arm",
@@ -940,14 +940,14 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg-JWfvgYo8M7ylgIwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg-JWfvgYo8NHi6gcwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW0506","Category":"Wiper Arm","Size":"Standard","Color":"Black","Fitment":"LELION Car Windshield Wiper Blade and Arm Wholesale Special Wiper Combination for Nissan Livina 2007","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0506","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Car Windshield Wiper Blade and Arm Wholesale Special Wiper Combination for Nissan Livina 2007","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0506 for reliable, streak-free wiping performance", "Built for wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
   },
   {
     id: "bw8001-336",
-    category: "Wiper Arm",
+    category: "Rear Wiper Combo",
     name: "LELION Car Windshield Wiper Blade and Arm Wholesale Special Wiper Combination for Tata Nexon",
     moq: "300 PCS",
     desc: "Tata Nexon rear wiper blade and arm",
@@ -956,7 +956,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg2aSUvgYoyo7a-AcwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg2aSUvgYohdGn5gUwuBc4uBc.jpg", "/products/ABUIABACGAAg2aSUvgYo0oT0jwQwuBc4uBc.jpg", "/products/ABUIABACGAAg2aSUvgYoguTi7QYwuBc4uBc.jpg", "/products/ABUIABACGAAg2aSUvgYoqOrr7AEwuBc4uBc.jpg", "/products/ABUIABACGAAg2aSUvgYorMzbwQIwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW8001","Category":"Wiper Arm","Size":"Standard","Color":"Black","Fitment":"LELION Car Windshield Wiper Blade and Arm Wholesale Special Wiper Combination for Tata Nexon","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW8001","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Car Windshield Wiper Blade and Arm Wholesale Special Wiper Combination for Tata Nexon","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW8001 for reliable, streak-free wiping performance", "Built for wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -5379,7 +5379,7 @@ export const migratedProducts: Product[] = [
   },
   {
     id: "bw2005-316",
-    category: "Wiper Arm",
+    category: "Rear Wiper Combo",
     name: "Wholesale Car External Accessories Windshield Wiper Arm Blade for BMW X1 E84 2010-2015",
     moq: "300 PCS",
     desc: "BMW X1 E84 Rear Wiper Blade Arm",
@@ -5388,14 +5388,14 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgkM6VvgYokcn8djC4Fzi4Fw.jpg",
     gallery: ["/products/ABUIABACGAAgkM6VvgYo8O7s0gQw6Ac46Ac.jpg", "/products/ABUIABACGAAgkM6VvgYo56z8mwcwuBc4uBc.jpg", "/products/ABUIABACGAAgkM6VvgYouuClswEwuBc4uBc.jpg", "/products/ABUIABACGAAgkM6VvgYoj-ru-QcwuBc4uBc.jpg", "/products/ABUIABACGAAgkM6VvgYooIe79AQwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW2005","Category":"Wiper Arm","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Windshield Wiper Arm Blade for BMW X1 E84 2010-2015","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW2005","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Windshield Wiper Arm Blade for BMW X1 E84 2010-2015","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW2005 for reliable, streak-free wiping performance", "Built for wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
   },
   {
     id: "bw1914-325",
-    category: "Wiper Arm",
+    category: "Rear Wiper Combo",
     name: "Wholesale Car External Accessories Windshield Wiper Blade and Arm for Chevrolet tracker 2021",
     moq: "300 PCS",
     desc: "Chevrolet Tracker Rear Wiper Blade Arm",
@@ -5404,7 +5404,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAggJaVvgYosYC4gwQwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAggJaVvgYo4KyvWjC4Fzi4Fw.jpg", "/products/ABUIABACGAAggJaVvgYouJLtYTC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW1914","Category":"Wiper Arm","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Windshield Wiper Blade and Arm for Chevrolet tracker 2021","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW1914","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Windshield Wiper Blade and Arm for Chevrolet tracker 2021","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW1914 for reliable, streak-free wiping performance", "Built for wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]

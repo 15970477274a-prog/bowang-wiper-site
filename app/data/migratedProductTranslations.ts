@@ -3432,7 +3432,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW1903",
-        "Categoría": "Escobilla Específica",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Combinación de accesorios de limpiaparabrisas para Chevrolet Spark 2010-2016",
@@ -3460,7 +3460,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW1903",
-        "Категория": "Специализированный Стеклоочиститель",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Автозапчасти комплект стеклоочистителей для Chevrolet Spark 2010-2016",
@@ -3488,7 +3488,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW1903",
-        "Catégorie": "Balai Spécifique",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires Auto Combinaison d'Essuie-Glaces pour Chevrolet Spark 2010-2016",
@@ -3516,7 +3516,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW1903",
-        "Kategorie": "Spezifisches Wischerblatt",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Autozubehör Scheibenwischer-Kombination für Chevrolet Spark 2010-2016",
@@ -3544,7 +3544,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW1903",
-        "分类": "专用雨刮片",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "汽车配件 起亚雨刮组合适用于雪佛兰 Spark 2010-2016",
@@ -8118,7 +8118,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW1101",
-        "Categoría": "Brazo Limpiaparabrisas",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Limpiaparabrisas de coche y brazo para Peugeot 206 1998-2012",
@@ -8146,7 +8146,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW1101",
-        "Категория": "Рычаг Стеклоочистителя",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION Щетка и рычаг стеклоочистителя для Peugeot 206 1998-2012",
@@ -8174,7 +8174,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW1101",
-        "Catégorie": "Bras d'Essuie-glace",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Essuie-glace et bras pour pare-brise de Peugeot 206 1998-2012",
@@ -8202,7 +8202,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW1101",
-        "Kategorie": "Wischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Auto Windschutzscheibenwischerblatt und Arm für Peugeot 206 1998-2012",
@@ -8230,7 +8230,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW1101",
-        "分类": "雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION汽车挡风玻璃雨刮片及臂 标致206 1998-2012款",
@@ -8260,7 +8260,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW0506",
-        "Categoría": "Brazo Limpiaparabrisas",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Limpiaparabrisas para coche Combinación de escobilla y brazo al por mayor de limpiaparabrisas especial para Nissan Livina 2007",
@@ -8288,7 +8288,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW0506",
-        "Категория": "Рычаг Стеклоочистителя",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION Щетка и рычаг стеклоочистителя Оптовая продажа специального комплекта для Nissan Livina 2007",
@@ -8316,7 +8316,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW0506",
-        "Catégorie": "Bras d'Essuie-glace",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Essuie-glace et bras pour pare-brise Vente en gros Combinaison spéciale d'essuie-glaces pour Nissan Livina 2007",
@@ -8344,7 +8344,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW0506",
-        "Kategorie": "Wischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Auto Windschutzscheibenwischerblatt und Arm Großhandels-Sonderwischerkombination für Nissan Livina 2007",
@@ -8372,7 +8372,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW0506",
-        "分类": "雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION汽车挡风玻璃雨刮片及臂 批发特别雨刮组合 日产Livina 2007款",
@@ -8402,7 +8402,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW8001",
-        "Categoría": "Brazo Limpiaparabrisas",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Limpiaparabrisas para coche Combinación de escobilla y brazo al por mayor de limpiaparabrisas especial para Tata Nexon",
@@ -8430,7 +8430,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW8001",
-        "Категория": "Рычаг Стеклоочистителя",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION Щетка и рычаг стеклоочистителя Оптовая продажа специального комплекта для Tata Nexon",
@@ -8458,7 +8458,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW8001",
-        "Catégorie": "Bras d'Essuie-glace",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Essuie-glace et bras pour pare-brise Vente en gros Combinaison spéciale d'essuie-glaces pour Tata Nexon",
@@ -8486,7 +8486,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW8001",
-        "Kategorie": "Wischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Auto Windschutzscheibenwischerblatt und Arm Großhandels-Sonderwischerkombination für Tata Nexon",
@@ -8514,7 +8514,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW8001",
-        "分类": "雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION汽车挡风玻璃雨刮片及臂 批发特别雨刮组合 塔塔Nexon",
@@ -47736,7 +47736,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW2005",
-        "Categoría": "Brazo Limpiaparabrisas",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de accesorios externos para limpiaparabrisas para BMW X1 E84 2010-2015",
@@ -47764,7 +47764,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW2005",
-        "Категория": "Рычаг Стеклоочистителя",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров Стеклоочистители и рычаги для BMW X1 E84 2010-2015",
@@ -47792,7 +47792,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW2005",
-        "Catégorie": "Bras d'Essuie-glace",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras et lame d'essuie-glace pour BMW X1 E84 2010-2015",
@@ -47820,7 +47820,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW2005",
-        "Kategorie": "Wischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Autoexterne Zubehörteile Scheibenwischerarm-Klinge für BMW X1 E84 2010-2015",
@@ -47848,7 +47848,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW2005",
-        "分类": "雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 宝马X1 E84 2010-2015 挡风玻璃雨刷臂和雨刷片",
@@ -47878,7 +47878,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW1914",
-        "Categoría": "Brazo Limpiaparabrisas",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Cuchilla y brazo del limpiaparabrisas para Chevrolet Tracker 2021",
@@ -47906,7 +47906,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW1914",
-        "Категория": "Рычаг Стеклоочистителя",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров Стеклоочиститель и рычаг для Chevrolet Tracker 2021",
@@ -47934,7 +47934,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW1914",
-        "Catégorie": "Bras d'Essuie-glace",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Lame et bras d'essuie-glace pour Chevrolet tracker 2021",
@@ -47962,7 +47962,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW1914",
-        "Kategorie": "Wischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Autoexterne Zubehörteile Scheibenwischer-Klinge und Arm für Chevrolet Tracker 2021",
@@ -47990,7 +47990,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW1914",
-        "分类": "雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 雪佛兰Tracker 2021 挡风玻璃雨刷片和雨刷臂",
