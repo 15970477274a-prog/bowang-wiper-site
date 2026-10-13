@@ -104,4 +104,9 @@ module.exports = { ...nextConfig, async redirects() { return [
   { source: "/:lang/products/bw1244b-rear-wiper-arm-bw1244b", destination: "/:lang/products/category/rear-wiper-combo", statusCode: 301 },
   { source: "/:lang/products/category/rear-wiper-arm/all", destination: "/:lang/products", statusCode: 301 },
   { source: "/:lang/products/category/rear-wiper-arm", destination: "/:lang/products", statusCode: 301 },
+  // --- BW-405 duplicate retired 2026-10-14 ---
+  // bw-405-classic-frame-wiper-blade (Universal) carried the same five images as
+  // bw-405-frame-wiper-bw-405 (Frame Wiper), so the Universal facade is removed and
+  // points at the surviving page. statusCode 301 keeps the code exact.
+  { source: "/:lang/products/bw-405-classic-frame-wiper-blade", destination: "/:lang/products/bw-405-frame-wiper-bw-405", statusCode: 301 },
 ]; } };
