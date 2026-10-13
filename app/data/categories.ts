@@ -12,7 +12,6 @@ export const CATEGORY_MAP: Record<string, string> = {
   "bus-truck-wiper": "Bus Truck Wiper",
   "snow-wiper": "Snow Wiper",
   "wiper-parts": "Wiper Parts",
-  "rear-wiper-arm": "Rear Wiper Arm",
   "specific-fit-frame-wiper": "Specific Fit Frame Wiper",
 };
 
@@ -32,6 +31,5 @@ export const CATEGORY_LABEL_KEYS: Record<string, string> = {
   "Bus Truck Wiper": "footerBusTruck",
   "Snow Wiper": "footerSnowWiper",
   "Wiper Parts": "footerWiperParts",
-  "Rear Wiper Arm": "footerRearWiperArm",
   "Specific Fit Frame Wiper": "footerSpecificFitFrame",
 };

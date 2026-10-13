@@ -1832,22 +1832,7 @@ export const migratedProducts: Product[] = [
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-016 for reliable, streak-free wiping performance", "Built for wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
   },
-  {
-    id: "bw1244b-rear-wiper-arm-bw1244b",
-    category: "Rear Wiper Arm",
-    name: "Mercedes-Benz E-Class W212 (2009–2016) Rear Wiper Arm",
-    moq: "300 PCS",
-    desc: "Rear wiper arm only (blade not included). Direct-fit OEM spline for Mercedes-Benz E-Class W212/S212 2009–2016. Restores pressure & sweep; smooth pivot; 3–5 min install.",
-    longDesc: "Mercedes-Benz E-Class W212 (2009–2016) Rear Wiper Arm. Rear wiper arm only (blade not included). Direct-fit OEM spline for Mercedes-Benz E-Class W212/S212 2009–2016. Restores pressure & sweep; smooth pivot; 3–5 min install.",
-    specs: ["Product Model: BW1244B", "Size: Standard", "Color: Black", "OEM/ODM custom branding & packaging available", "Factory-direct wholesale pricing", "ISO 9001 manufacturing quality"],
-    tag: "Factory Direct",
-    image: "/products/ABUIABACGAAg-PXQvQYozPmQigQwuBc4uBc.jpg",
-    gallery: ["/products/ABUIABACGAAg-PXQvQYojLHihAcwuBc4uBc.jpg", "/products/ABUIABACGAAg-PXQvQYomIyNvgEwuBc4uBc.jpg", "/products/ABUIABACGAAg-PXQvQYowvqHsgUwuBc4uBc.jpg", "/products/ABUIABACGAAg-PXQvQYoz5ewazC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW1244B","Category":"Rear Wiper Arm","Size":"Standard","Color":"Black","Fitment":"Mercedes-Benz E-Class W212 (2009–2016) Rear Wiper Arm","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
-    keywords: ["Mercedes-Benz", "E-Class", "W212", "S212", "2009-2016", "estate", "wagon", "rear wiper arm", "rear wiper arm replacement", "OEM spline"],
-    applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
-    features: ["Model BW1244B for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
-  },
+  
   {
     id: "bw-021-vito-w447-front-right-wiper-arm",
     category: "Wiper Arm",
@@ -2072,102 +2057,12 @@ export const migratedProducts: Product[] = [
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW3504 for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
   },
-  {
-    id: "bw0308b-rear-wiper-arm-bw0308b",
-    category: "Rear Wiper Arm",
-    name: "Rear Windshield Wiper Arm - Compatible with 2007 - 2011 Honda CR-V 2008 2009 2010",
-    moq: "300 PCS",
-    desc: "Improved design rear windshield wiper arm for 2007-2011 Honda CR-V (LX, EX-L, SE). Direct-fit replacement arm only (blade not included). Verify year & rear wiper style before ordering. Fast support.",
-    longDesc: "Rear Windshield Wiper Arm - Compatible with 2007 - 2011 Honda CR-V 2008 2009 2010. Improved design rear windshield wiper arm for 2007-2011 Honda CR-V (LX, EX-L, SE). Direct-fit replacement arm only (blade not included). Verify year & rear wiper style before ordering. Fast support.",
-    specs: ["Product Model: BW0308B", "Size: Standard", "Color: Black", "OEM/ODM custom branding & packaging available", "Factory-direct wholesale pricing", "ISO 9001 manufacturing quality"],
-    tag: "Factory Direct",
-    image: "/products/ABUIABACGAAgpYuJxgYorMS97wQw6Ac46Ac.jpg",
-    gallery: ["/products/ABUIABACGAAgpouJxgYotaPHrwUw6Ac46Ac.jpg"],
-    technicalDetails: {"Product Model":"BW0308B","Category":"Rear Wiper Arm","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Arm - Compatible with 2007 - 2011 Honda CR-V 2008 2009 2010","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
-    keywords: ["honda cr-v rear wiper arm 2007 2008 2009 2010 2011", "improved design replacement", "direct fit arm only", "lx ex-l se", "bwwiper"],
-    applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
-    features: ["Model BW0308B for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
-  },
-  {
-    id: "bw0307b-rear-wiper-arm-bw0307b",
-    category: "Rear Wiper Arm",
-    name: "Rear Windshield Wiper Arm - Compatible with 2009 - 2015 Honda Pilot",
-    moq: "300 PCS",
-    desc: "Improved design rear windshield wiper arm for 2009-2015 Honda Pilot. Direct-fit replacement for OEM arm; verify model year before ordering. Fast support via WhatsApp & email.",
-    longDesc: "Rear Windshield Wiper Arm - Compatible with 2009 - 2015 Honda Pilot. Improved design rear windshield wiper arm for 2009-2015 Honda Pilot. Direct-fit replacement for OEM arm; verify model year before ordering. Fast support via WhatsApp & email.",
-    specs: ["Product Model: BW0307B", "Size: Standard", "Color: Black", "OEM/ODM custom branding & packaging available", "Factory-direct wholesale pricing", "ISO 9001 manufacturing quality"],
-    tag: "Factory Direct",
-    image: "/products/ABUIABACGAAgn4WJxgYo4JO99gIwuBc4uBc.jpg",
-    gallery: ["/products/ABUIABACGAAgoYWJxgYoyLz10wMwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW0307B","Category":"Rear Wiper Arm","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Arm - Compatible with 2009 - 2015 Honda Pilot","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
-    keywords: ["honda pilot rear wiper arm", "2009 2010 2011 2012 2013 2014 2015", "rear windshield wiper arm", "improved design replacement", "bwwiper"],
-    applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
-    features: ["Model BW0307B for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
-  },
-  {
-    id: "bw0247b-rear-wiper-arm-bw0247b",
-    category: "Rear Wiper Arm",
-    name: "Rear Windshield Wiper Arm for 2001-2007 TOYOTA HIGHLANDER",
-    moq: "300 PCS",
-    desc: "Direct-fit rear wiper arm for 2001-2007 Toyota Highlander. Restores clear rear visibility: OEM spline, anti-corrosion finish, calibrated spring pressure. Fast install. Confirm Hybrid before order.",
-    longDesc: "Rear Windshield Wiper Arm for 2001-2007 TOYOTA HIGHLANDER. Direct-fit rear wiper arm for 2001-2007 Toyota Highlander. Restores clear rear visibility: OEM spline, anti-corrosion finish, calibrated spring pressure. Fast install. Confirm Hybrid before order.",
-    specs: ["Product Model: BW0247B", "Size: Standard", "Color: Black", "OEM/ODM custom branding & packaging available", "Factory-direct wholesale pricing", "ISO 9001 manufacturing quality"],
-    tag: "Factory Direct",
-    image: "/products/ABUIABACGAAg0tuIxgYolqLg1AUwuBc4uBc.jpg",
-    gallery: ["/products/ABUIABACGAAg09uIxgYos7uSlQIwuBc4uBc.jpg", "/products/ABUIABACGAAg09uIxgYo3oSspQUwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW0247B","Category":"Rear Wiper Arm","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Arm for 2001-2007 TOYOTA HIGHLANDER","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
-    keywords: ["Toyota Highlander rear wiper arm", "2001-2007", "replacement wiper arm assembly", "OEM fit", "anti-corrosion", "calibrated spring", "easy install"],
-    applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
-    features: ["Model BW0247B for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
-  },
-  {
-    id: "bw1105b-rear-wiper-arm-bw1105b",
-    category: "Rear Wiper Arm",
-    name: "Rear Windshield Wiper Arm for PEUGEOT 807 2002-2009",
-    moq: "300 PCS",
-    desc: "Direct-fit rear windshield wiper arm for PEUGEOT 807 (2002-2009). Reinforced PBT + 30% glass fiber, stable pressure, UV & corrosion resistant. Blade not included. Easy installation.",
-    longDesc: "Rear Windshield Wiper Arm for PEUGEOT 807 2002-2009. Direct-fit rear windshield wiper arm for PEUGEOT 807 (2002-2009). Reinforced PBT + 30% glass fiber, stable pressure, UV & corrosion resistant. Blade not included. Easy installation.",
-    specs: ["Product Model: BW1105B", "Size: Standard", "Color: Black", "OEM/ODM custom branding & packaging available", "Factory-direct wholesale pricing", "ISO 9001 manufacturing quality"],
-    tag: "Factory Direct",
-    image: "/products/ABUIABACGAAg7fTQvQYoioy0_gYwuBc4uBc.jpg",
-    gallery: ["/products/ABUIABACGAAg7fTQvQYokOrFuAYwuBc4uBc.jpg", "/products/ABUIABACGAAg7fTQvQYotILqzwIwuBc4uBc.jpg", "/products/ABUIABACGAAg7fTQvQYopuX-4AcwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW1105B","Category":"Rear Wiper Arm","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Arm for PEUGEOT 807 2002-2009","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
-    keywords: ["Peugeot 807 rear wiper arm", "2002-2009", "Peugeot 807 rear windshield wiper arm", "PBT 30% glass fiber", "direct fit replacement", "OEM quality", "easy install"],
-    applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
-    features: ["Model BW1105B for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
-  },
-  {
-    id: "bw0208b-rear-wiper-arm-bw0208b",
-    category: "Rear Wiper Arm",
-    name: "Rear Windshield Wiper Arm for Toyota Previa 2006",
-    moq: "300 PCS",
-    desc: "Rear Windshield Wiper Arm for Toyota Previa 2006",
-    longDesc: "Rear Windshield Wiper Arm for Toyota Previa 2006. Premium aftermarket replacement from LELION, a leading Chinese OEM/ODM wiper blade manufacturer. Factory-direct pricing with global export logistics.",
-    specs: ["Product Model: BW0208B", "Size: Standard", "Color: Black", "OEM/ODM custom branding & packaging available", "Factory-direct wholesale pricing", "ISO 9001 manufacturing quality"],
-    tag: "Factory Direct",
-    image: "/products/ABUIABACGAAgvIDRvQYo6sb9-AYw6Ac46Ac.jpg",
-    gallery: ["/products/ABUIABACGAAgvYDRvQYols-n-Qcw6Ac46Ac.jpg", "/products/ABUIABACGAAgvYDRvQYo_PKnvgQw6Ac46Ac.jpg", "/products/ABUIABACGAAgvYDRvQYomozjiQcw6Ac46Ac.jpg"],
-    technicalDetails: {"Product Model":"BW0208B","Category":"Rear Wiper Arm","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Arm for Toyota Previa 2006","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
-    keywords: ["Toyota Previa 2006", "Rear Windshield Wiper Arm for Toyota Previa 2006", "toyota", "B2B autoparts"],
-    applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
-    features: ["Model BW0208B for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
-  },
-  {
-    id: "bw0306b-rear-wiper-arm-bw0306b",
-    category: "Rear Wiper Arm",
-    name: "Rear Windshield Wiper Arm with 2005 - 2010 Honda Odyssey",
-    moq: "300 PCS",
-    desc: "Direct-fit rear windshield wiper arm for 2005-2010 Honda Odyssey. Replaces worn OEM arm to restore clear rear visibility. Durable construction, easy install. Verify model year; use Size Hub if unsure.",
-    longDesc: "Rear Windshield Wiper Arm with 2005 - 2010 Honda Odyssey. Direct-fit rear windshield wiper arm for 2005-2010 Honda Odyssey. Replaces worn OEM arm to restore clear rear visibility. Durable construction, easy install. Verify model year; use Size Hub if unsure.",
-    specs: ["Product Model: BW0306B", "Size: Standard", "Color: Black", "OEM/ODM custom branding & packaging available", "Factory-direct wholesale pricing", "ISO 9001 manufacturing quality"],
-    tag: "Factory Direct",
-    image: "/products/ABUIABACGAAg3PmIxgYojOvSBjDoBzjoBw.jpg",
-    gallery: ["/products/ABUIABACGAAg3PmIxgYosLeOxgcw6Ac46Ac.jpg", "/products/ABUIABACGAAg3fmIxgYohtyShAQw6Ac46Ac.jpg"],
-    technicalDetails: {"Product Model":"BW0306B","Category":"Rear Wiper Arm","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Arm with 2005 - 2010 Honda Odyssey","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
-    keywords: ["rear wiper arm", "Honda Odyssey 2005-2010", "Odyssey rear wiper arm replacement", "rear windshield wiper arm", "direct fit wiper arm"],
-    applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
-    features: ["Model BW0306B for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
-  },
+  
+  
+  
+  
+  
+  
   {
     id: "bw0869p-rear-wiper-balde-fiat-punto-2008-2011",
     category: "Rear Wiper",
@@ -2936,22 +2831,7 @@ export const migratedProducts: Product[] = [
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW2213P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
   },
-  {
-    id: "bw0230b-rear-wiper-arm-bw0230b",
-    category: "Rear Wiper Arm",
-    name: "Rear Wiper Arm for Toyota Prius C (2012–2019)",
-    moq: "300 PCS",
-    desc: "LELION rear wiper arm for Toyota Prius C 2012-2019. Direct fit replacement, stable sweep, fast install. Visit Size Hub for sizing. WhatsApp +8618867886795 Email bwb@bwwiper.com",
-    longDesc: "Rear Wiper Arm for Toyota Prius C (2012–2019). LELION rear wiper arm for Toyota Prius C 2012-2019. Direct fit replacement, stable sweep, fast install. Visit Size Hub for sizing. WhatsApp +8618867886795 Email bwb@bwwiper.com",
-    specs: ["Product Model: BW0230B", "Size: Standard", "Color: Black", "OEM/ODM custom branding & packaging available", "Factory-direct wholesale pricing", "ISO 9001 manufacturing quality"],
-    tag: "Factory Direct",
-    image: "/products/ABUIABACGAAgu5H6xQYorpjUrQIwuBc4uBc.jpg",
-    gallery: ["/products/ABUIABACGAAgu5H6xQYooPS4gAYwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW0230B","Category":"Rear Wiper Arm","Size":"Standard","Color":"Black","Fitment":"Rear Wiper Arm for Toyota Prius C (2012–2019)","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
-    keywords: ["Rear wiper arm", "Toyota Prius C", "2012-2019", "LELION", "direct fit", "replacement", "size lookup", "Wiper Size Hub", "OEM style", "quick install"],
-    applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
-    features: ["Model BW0230B for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
-  },
+  
   {
     id: "bw2308-rear-wiper-combination-bw2308",
     category: "Rear Wiper Combo",
@@ -3128,22 +3008,7 @@ export const migratedProducts: Product[] = [
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0214P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
   },
-  {
-    id: "bw0202b-rear-wiper-arm-bw0202b",
-    category: "Rear Wiper Arm",
-    name: "Rear Wiper Blade for TOYOTA YARIS 2008-2013",
-    moq: "300 PCS",
-    desc: "Rear Wiper Blade for TOYOTA YARIS 2008-2013",
-    longDesc: "Rear Wiper Blade for TOYOTA YARIS 2008-2013. Premium aftermarket replacement from LELION, a leading Chinese OEM/ODM wiper blade manufacturer. Factory-direct pricing with global export logistics.",
-    specs: ["Product Model: BW0202B", "Size: Standard", "Color: Black", "OEM/ODM custom branding & packaging available", "Factory-direct wholesale pricing", "ISO 9001 manufacturing quality"],
-    tag: "Factory Direct",
-    image: "/products/ABUIABACGAAg6P3LvQYonMq1-QQw6Ac46Ac.jpg",
-    gallery: ["/products/ABUIABACGAAg6P3LvQYooIep2wUw6Ac46Ac.jpg", "/products/ABUIABACGAAg6P3LvQYouMWhrwYw6Ac46Ac.jpg", "/products/ABUIABACGAAg6P3LvQYozqDBgQIw6Ac46Ac.jpg"],
-    technicalDetails: {"Product Model":"BW0202B","Category":"Rear Wiper Arm","Size":"Standard","Color":"Black","Fitment":"Rear Wiper Blade for TOYOTA YARIS 2008-2013","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
-    keywords: ["Rear Wiper Blade for TOYOTA YARIS 2008-2013"],
-    applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
-    features: ["Model BW0202B for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
-  },
+  
   {
     id: "bw1809p-rear-wiper-blade-vw-golf4-1997-2002",
     category: "Rear Wiper",

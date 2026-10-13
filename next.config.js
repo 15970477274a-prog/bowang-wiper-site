@@ -89,4 +89,19 @@ module.exports = { ...nextConfig, async redirects() { return [
   // same product, so the losing URL points there. The golden and silver editions
   // are separate products and deliberately have no redirect.
   { source: "/:lang/products/bw-808-hybrid-wiper-blade-three-section-factory-bw808", destination: "/:lang/products/bw-808-hybrid-wiper", statusCode: 301 },
+  // --- Rear Wiper Arm retired 2026-10-13 (category removed, 9 arm pages removed) ---
+  // The nine BW***B arm pages pointed nowhere else in the catalogue, so they land on
+  // the combined rear-wiper category; the category pages return to the product index.
+  // statusCode 301 keeps the code exact (:lang covers all six locales).
+  { source: "/:lang/products/bw0202b-rear-wiper-arm-bw0202b", destination: "/:lang/products/category/rear-wiper-combo", statusCode: 301 },
+  { source: "/:lang/products/bw0208b-rear-wiper-arm-bw0208b", destination: "/:lang/products/category/rear-wiper-combo", statusCode: 301 },
+  { source: "/:lang/products/bw0230b-rear-wiper-arm-bw0230b", destination: "/:lang/products/category/rear-wiper-combo", statusCode: 301 },
+  { source: "/:lang/products/bw0247b-rear-wiper-arm-bw0247b", destination: "/:lang/products/category/rear-wiper-combo", statusCode: 301 },
+  { source: "/:lang/products/bw0306b-rear-wiper-arm-bw0306b", destination: "/:lang/products/category/rear-wiper-combo", statusCode: 301 },
+  { source: "/:lang/products/bw0307b-rear-wiper-arm-bw0307b", destination: "/:lang/products/category/rear-wiper-combo", statusCode: 301 },
+  { source: "/:lang/products/bw0308b-rear-wiper-arm-bw0308b", destination: "/:lang/products/category/rear-wiper-combo", statusCode: 301 },
+  { source: "/:lang/products/bw1105b-rear-wiper-arm-bw1105b", destination: "/:lang/products/category/rear-wiper-combo", statusCode: 301 },
+  { source: "/:lang/products/bw1244b-rear-wiper-arm-bw1244b", destination: "/:lang/products/category/rear-wiper-combo", statusCode: 301 },
+  { source: "/:lang/products/category/rear-wiper-arm/all", destination: "/:lang/products", statusCode: 301 },
+  { source: "/:lang/products/category/rear-wiper-arm", destination: "/:lang/products", statusCode: 301 },
 ]; } };

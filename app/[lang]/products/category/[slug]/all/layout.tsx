@@ -19,7 +19,6 @@ const categoryKeyMap: Record<string, keyof (typeof translations)["en"]> = {
   "bus-truck-wiper": "catBusTruck",
   "snow-wiper": "catSnowWiper",
   "wiper-parts": "catWiperParts",
-  "rear-wiper-arm": "catRearWiperArm",
 };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
