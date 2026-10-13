@@ -454,7 +454,7 @@ export const migratedProducts: Product[] = [
   },
   {
     id: "bw-704-front-wiper-blade-bmw-e34-1991-1995",
-    category: "Specific Fit",
+    category: "Specific Fit Frame Wiper",
     name: "Car Special Windshield Wiper blade for bmw 5 E34 1991-1995",
     moq: "300 PCS",
     desc: "Front Special Wiper Blade for BMW 5 E34 1991-1995",
@@ -463,14 +463,14 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgrtTvvQYouPiF9gQwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgrtTvvQYospOt7wEwuBc4uBc.jpg", "/products/ABUIABACGAAgrtTvvQYogrSe-AMwuBc4uBc.jpg", "/products/ABUIABACGAAgrtTvvQYo85TgQzC4Fzi4Fw.jpg", "/products/ABUIABACGAAgrtTvvQYo3szJswEwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-704","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Car Special Windshield Wiper blade for bmw 5 E34 1991-1995","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-704","Category":"Specific Fit Frame Wiper","Size":"Standard","Color":"Black","Fitment":"Car Special Windshield Wiper blade for bmw 5 E34 1991-1995","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car wiper blade", "windscreen wiper", "wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-704 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
   },
   {
     id: "bw-710-bw-710",
-    category: "Specific Fit",
+    category: "Specific Fit Frame Wiper",
     name: "Car Windscreen 16+26 Inches Wiper Blades for Car PEUGEOT 206",
     moq: "300 PCS",
     desc: "Wiper Blades for Car PEUGEOT 206",
@@ -479,7 +479,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAghJ3wvQYo_L2sogUwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAghJ3wvQYo-qGrBzC4Fzi4Fw.jpg", "/products/ABUIABACGAAghZ3wvQYomM2Z1gUwuBc4uBc.jpg", "/products/ABUIABACGAAghJ3wvQYo_Ov_zAIwuBc4uBc.jpg", "/products/ABUIABACGAAghJ3wvQYoi4qFkQcwuBc4uBc.jpg", "/products/ABUIABACGAAghJ3wvQYokLrC1AQwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-710","Category":"Specific Fit","Size":"26+16\"","Color":"Black","Fitment":"Car Windscreen 16+26 Inches Wiper Blades for Car PEUGEOT 206","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-710","Category":"Specific Fit Frame Wiper","Size":"26+16\"","Color":"Black","Fitment":"Car Windscreen 16+26 Inches Wiper Blades for Car PEUGEOT 206","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car wiper blade", "windscreen wiper", "wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-710 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1320,7 +1320,7 @@ export const migratedProducts: Product[] = [
   },
   {
     id: "bw-712-161",
-    category: "Specific Fit",
+    category: "Specific Fit Frame Wiper",
     name: "LELION Special Wiper Blades Front Windshield Wiper Blade for Honda Odyssey 2005 - 2008",
     moq: "300 PCS",
     desc: "special wiper blade",
@@ -1329,7 +1329,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgoMDvvQYogu7gxgcwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgoMDvvQYo0KatFTC4Fzi4Fw.jpg", "/products/ABUIABACGAAgoMDvvQYoisahpwIwuBc4uBc.jpg", "/products/ABUIABACGAAgocDvvQYog8Pl2gUwuBc4uBc.jpg", "/products/ABUIABACGAAgocDvvQYo-Pq6HDC4Fzi4Fw.jpg", "/products/ABUIABACGAAgocDvvQYo3vDmiQYwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-712","Category":"Specific Fit","Size":"14+28\"","Color":"Black","Fitment":"LELION Special Wiper Blades Front Windshield Wiper Blade for Honda Odyssey 2005 - 2008","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-712","Category":"Specific Fit Frame Wiper","Size":"14+28\"","Color":"Black","Fitment":"LELION Special Wiper Blades Front Windshield Wiper Blade for Honda Odyssey 2005 - 2008","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wholesale wiper blade，car wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-712 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1400,7 +1400,7 @@ export const migratedProducts: Product[] = [
   },
   {
     id: "bw-706-167",
-    category: "Specific Fit",
+    category: "Specific Fit Frame Wiper",
     name: "LELION Wholesale Auto Parts 61610442837 Special Wiper Blade for BMW E65 E66 740i 750i 200",
     moq: "300 PCS",
     desc: "LELION wholesale special wiper blade",
@@ -1409,7 +1409,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgtdXvvQYo2J7l2AcwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgtdXvvQYo4P2TmAEwuBc4uBc.jpg", "/products/ABUIABACGAAgtdXvvQYo7obBrAEwuBc4uBc.jpg", "/products/ABUIABACGAAgtdXvvQYo3POmgAYwuBc4uBc.jpg", "/products/ABUIABACGAAgtdXvvQYo-InS2QcwuBc4uBc.jpg", "/products/ABUIABACGAAgtdXvvQYo1NH7vAQwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-706","Category":"Specific Fit","Size":"25+25\"","Color":"Black","Fitment":"LELION Wholesale Auto Parts 61610442837 Special Wiper Blade for BMW E65 E66 740i 750i 200","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-706","Category":"Specific Fit Frame Wiper","Size":"25+25\"","Color":"Black","Fitment":"LELION Wholesale Auto Parts 61610442837 Special Wiper Blade for BMW E65 E66 740i 750i 200","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["LELION wiper blade", "wiper blade", "wholesale wiper", "special wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-706 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1545,7 +1545,7 @@ export const migratedProducts: Product[] = [
   },
   {
     id: "bw-712-front-wiper-blade-honda-odyssey-2005-2008",
-    category: "Specific Fit",
+    category: "Specific Fit Frame Wiper",
     name: "LELION Wholesale Front Windshield Special 28+14 Inch Wiper Blade for HONDA ODYSSEY 2005 -2008",
     moq: "300 PCS",
     desc: "LELION Wholesale Front Windshield Special 28+14 Inch Wiper Blade for HONDA ODYSSEY 2005 -2008",
@@ -1554,7 +1554,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgoMDvvQYogu7gxgcwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgoMDvvQYo0KatFTC4Fzi4Fw.jpg", "/products/ABUIABACGAAgocDvvQYog8Pl2gUwuBc4uBc.jpg", "/products/ABUIABACGAAgocDvvQYo3vDmiQYwuBc4uBc.jpg", "/products/ABUIABACGAAgoMDvvQYoisahpwIwuBc4uBc.jpg", "/products/ABUIABACGAAgocDvvQYo-Pq6HDC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-712","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"LELION Wholesale Front Windshield Special 28+14 Inch Wiper Blade for HONDA ODYSSEY 2005 -2008","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-712","Category":"Specific Fit Frame Wiper","Size":"Standard","Color":"Black","Fitment":"LELION Wholesale Front Windshield Special 28+14 Inch Wiper Blade for HONDA ODYSSEY 2005 -2008","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["LELION Wholesale Front Windshield Special 28+14 Inch Wiper Blade for HONDA ODYSSEY 2005 -2008"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-712 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1658,7 +1658,7 @@ export const migratedProducts: Product[] = [
   },
   {
     id: "bw-704-166",
-    category: "Specific Fit",
+    category: "Specific Fit Frame Wiper",
     name: "LELION Wholesale Wiper Blade Special Windshield Wiper Blades for BMW E34 1991 - 1995",
     moq: "300 PCS",
     desc: "special wiper blade",
@@ -1667,7 +1667,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgrtTvvQYouPiF9gQwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgrtTvvQYo3szJswEwuBc4uBc.jpg", "/products/ABUIABACGAAgrtTvvQYo85TgQzC4Fzi4Fw.jpg", "/products/ABUIABACGAAgrtTvvQYospOt7wEwuBc4uBc.jpg", "/products/ABUIABACGAAgrtTvvQYogrSe-AMwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-704","Category":"Specific Fit","Size":"24+24”","Color":"Black","Fitment":"LELION Wholesale Wiper Blade Special Windshield Wiper Blades for BMW E34 1991 - 1995","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-704","Category":"Specific Fit Frame Wiper","Size":"24+24”","Color":"Black","Fitment":"LELION Wholesale Wiper Blade Special Windshield Wiper Blades for BMW E34 1991 - 1995","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wholesale wiper blade，car wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-704 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1738,7 +1738,7 @@ export const migratedProducts: Product[] = [
   },
   {
     id: "bw-704-wiper-blade-bmw-5-e34",
-    category: "Specific Fit",
+    category: "Specific Fit Frame Wiper",
     name: "LELION Wiper Blade 24+24 Inches Special Wiper Combination Car Windshield Wiper Blades for bmw 5 E34",
     moq: "300 PCS",
     desc: "Wiper Blades for bmw 5 E34",
@@ -1747,7 +1747,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgrtTvvQYouPiF9gQwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgrtTvvQYospOt7wEwuBc4uBc.jpg", "/products/ABUIABACGAAgrtTvvQYogrSe-AMwuBc4uBc.jpg", "/products/ABUIABACGAAgrtTvvQYo3szJswEwuBc4uBc.jpg", "/products/ABUIABACGAAgrtTvvQYo85TgQzC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-704","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"LELION Wiper Blade 24+24 Inches Special Wiper Combination Car Windshield Wiper Blades for bmw 5 E34","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-704","Category":"Specific Fit Frame Wiper","Size":"Standard","Color":"Black","Fitment":"LELION Wiper Blade 24+24 Inches Special Wiper Combination Car Windshield Wiper Blades for bmw 5 E34","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car wiper blade", "windscreen wiper", "wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-704 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3532,7 +3532,7 @@ export const migratedProducts: Product[] = [
   },
   {
     id: "bw-709-226",
-    category: "Specific Fit",
+    category: "Specific Fit Frame Wiper",
     name: "Wholesale Car External Accessories 61619070579 Special Wiper Blades 26+22 Inches Wiper Blade for bmw",
     moq: "300 PCS",
     desc: "wholesale special wiper blade",
@@ -3541,7 +3541,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgs5zwvQYogM_7mAEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgs5zwvQYo8JX3twQw6Ac46Ac.jpg", "/products/ABUIABACGAAgs5zwvQYo4L78MjDoBzjoBw.jpg", "/products/ABUIABACGAAgs5zwvQYo84mW8gEw6Ac46Ac.jpg", "/products/ABUIABACGAAgs5zwvQYokNj1qAcw6Ac46Ac.jpg", "/products/ABUIABACGAAgspzwvQYouNnCqwIw6Ac46Ac.jpg"],
-    technicalDetails: {"Product Model":"BW-709","Category":"Specific Fit","Size":"26+22\"","Color":"Black","Fitment":"Wholesale Car External Accessories 61619070579 Special Wiper Blades 26+22 Inches Wiper Blade for bmw","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-709","Category":"Specific Fit Frame Wiper","Size":"26+22\"","Color":"Black","Fitment":"Wholesale Car External Accessories 61619070579 Special Wiper Blades 26+22 Inches Wiper Blade for bmw","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wiper blade", "frameless wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-709 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3788,7 +3788,7 @@ export const migratedProducts: Product[] = [
   },
   {
     id: "bw-708-219",
-    category: "Specific Fit",
+    category: "Specific Fit Frame Wiper",
     name: "Wholesale Car External Accessories Front Windshield 22+22 Inch Wiper Blades for Car Audi 8E0998425A",
     moq: "300 PCS",
     desc: "LELION wholesale special wiper blade",
@@ -3797,7 +3797,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg7ZPwvQYo1tePazC4Fzi4Fw.jpg",
     gallery: ["/products/ABUIABACGAAg7ZPwvQYojPnmeDC4Fzi4Fw.jpg", "/products/ABUIABACGAAg7ZPwvQYo2KHcugUwuBc4uBc.jpg", "/products/ABUIABACGAAg7ZPwvQYo2pe7iQYwuBc4uBc.jpg", "/products/ABUIABACGAAg7ZPwvQYosKKNnwcwuBc4uBc.jpg", "/products/ABUIABACGAAg7ZPwvQYozoWVlwIwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-708","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield 22+22 Inch Wiper Blades for Car Audi 8E0998425A","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-708","Category":"Specific Fit Frame Wiper","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield 22+22 Inch Wiper Blades for Car Audi 8E0998425A","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["LELION wiper blade", "wiper blade", "wholesale wiper", "special wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-708 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3852,7 +3852,7 @@ export const migratedProducts: Product[] = [
   },
   {
     id: "bw-706-221",
-    category: "Specific Fit",
+    category: "Specific Fit Frame Wiper",
     name: "Wholesale Car External Accessories Front Windshield 25+25 Inch Wiper Blades for BMW E66",
     moq: "300 PCS",
     desc: "wholesale special wiper blade",
@@ -3861,7 +3861,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgtdXvvQYo7obBrAEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgtdXvvQYo4P2TmAEwuBc4uBc.jpg", "/products/ABUIABACGAAgtdXvvQYo3POmgAYwuBc4uBc.jpg", "/products/ABUIABACGAAgtdXvvQYo2J7l2AcwuBc4uBc.jpg", "/products/ABUIABACGAAgtdXvvQYo1NH7vAQwuBc4uBc.jpg", "/products/ABUIABACGAAgtdXvvQYo-InS2QcwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-706","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield 25+25 Inch Wiper Blades for BMW E66","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-706","Category":"Specific Fit Frame Wiper","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield 25+25 Inch Wiper Blades for BMW E66","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wiper blade", "wholesale"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-706 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4076,7 +4076,7 @@ export const migratedProducts: Product[] = [
   },
   {
     id: "bw-708-195",
-    category: "Specific Fit",
+    category: "Specific Fit Frame Wiper",
     name: "Wholesale Car External Accessories Front Windshield Special Wiper Blades for Audi A4 1994-2000",
     moq: "300 PCS",
     desc: "special wiper blade",
@@ -4085,7 +4085,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg7ZPwvQYo1tePazC4Fzi4Fw.jpg",
     gallery: ["/products/ABUIABACGAAg7ZPwvQYo2KHcugUwuBc4uBc.jpg", "/products/ABUIABACGAAg7ZPwvQYozoWVlwIwuBc4uBc.jpg", "/products/ABUIABACGAAg7ZPwvQYo2pe7iQYwuBc4uBc.jpg", "/products/ABUIABACGAAg7ZPwvQYosKKNnwcwuBc4uBc.jpg", "/products/ABUIABACGAAg7ZPwvQYojPnmeDC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-708","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Special Wiper Blades for Audi A4 1994-2000","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-708","Category":"Specific Fit Frame Wiper","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Special Wiper Blades for Audi A4 1994-2000","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wholesale wiper blade，car wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-708 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4124,7 +4124,7 @@ export const migratedProducts: Product[] = [
   },
   {
     id: "bw-709-217",
-    category: "Specific Fit",
+    category: "Specific Fit Frame Wiper",
     name: "Wholesale Car External Accessories Front Windshield Wiper Blade for Land Rover Range Rover 2003-2012",
     moq: "300 PCS",
     desc: "LELION wholesale sepcial wiper blade",
@@ -4133,7 +4133,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgs5zwvQYogM_7mAEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgs5zwvQYokNj1qAcw6Ac46Ac.jpg", "/products/ABUIABACGAAgs5zwvQYo84mW8gEw6Ac46Ac.jpg", "/products/ABUIABACGAAgs5zwvQYo4L78MjDoBzjoBw.jpg", "/products/ABUIABACGAAgs5zwvQYo8JX3twQw6Ac46Ac.jpg", "/products/ABUIABACGAAgspzwvQYouNnCqwIw6Ac46Ac.jpg"],
-    technicalDetails: {"Product Model":"BW-709","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Wiper Blade for Land Rover Range Rover 2003-2012","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-709","Category":"Specific Fit Frame Wiper","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Wiper Blade for Land Rover Range Rover 2003-2012","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["sepcial wiper blade wholesale", "wiper blade", "frameless wiper blade", "wholesale wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-709 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4204,7 +4204,7 @@ export const migratedProducts: Product[] = [
   },
   {
     id: "bw-706-215",
-    category: "Specific Fit",
+    category: "Specific Fit Frame Wiper",
     name: "Wholesale Car External Accessories Front Windshield Wiper Blades for BMW 7 Series E65 E66 740i 750i",
     moq: "300 PCS",
     desc: "special wiper blade",
@@ -4213,7 +4213,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgtdXvvQYo7obBrAEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgtdXvvQYo4P2TmAEwuBc4uBc.jpg", "/products/ABUIABACGAAgtdXvvQYo3POmgAYwuBc4uBc.jpg", "/products/ABUIABACGAAgtdXvvQYo2J7l2AcwuBc4uBc.jpg", "/products/ABUIABACGAAgtdXvvQYo1NH7vAQwuBc4uBc.jpg", "/products/ABUIABACGAAgtdXvvQYo-InS2QcwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-706","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Wiper Blades for BMW 7 Series E65 E66 740i 750i","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-706","Category":"Specific Fit Frame Wiper","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Wiper Blades for BMW 7 Series E65 E66 740i 750i","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wholesale wiper blade，car wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-706 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4236,7 +4236,7 @@ export const migratedProducts: Product[] = [
   },
   {
     id: "bw-710-218",
-    category: "Specific Fit",
+    category: "Specific Fit Frame Wiper",
     name: "Wholesale Car External Accessories Front Windshield Wiper Blades for Car PEUGEOT 206",
     moq: "300 PCS",
     desc: "wholesale special wiper blade",
@@ -4245,7 +4245,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAghJ3wvQYo_L2sogUwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAghJ3wvQYokLrC1AQwuBc4uBc.jpg", "/products/ABUIABACGAAghJ3wvQYoi4qFkQcwuBc4uBc.jpg", "/products/ABUIABACGAAghJ3wvQYo-qGrBzC4Fzi4Fw.jpg", "/products/ABUIABACGAAghJ3wvQYo_Ov_zAIwuBc4uBc.jpg", "/products/ABUIABACGAAghZ3wvQYomM2Z1gUwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-710","Category":"Specific Fit","Size":"26+16\"","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Wiper Blades for Car PEUGEOT 206","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-710","Category":"Specific Fit Frame Wiper","Size":"26+16\"","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Wiper Blades for Car PEUGEOT 206","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wiper blade", "wholesale"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-710 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -5262,7 +5262,7 @@ export const migratedProducts: Product[] = [
   },
   {
     id: "bw-703-front-wiper-blade-ikco-sammand-2001",
-    category: "Specific Fit",
+    category: "Specific Fit Frame Wiper",
     name: "Wholesale Car Front Windshield Special 24+18 Inch Wiper Blade for IKCO SAMMAND 2001",
     moq: "300 PCS",
     desc: "Wholesale Car Front Windshield Special 24+18 Inch Wiper Blade for IKCO SAMMAND 2001",
@@ -5271,7 +5271,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg1qHwvQYo0KCQ6QQwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg1aHwvQYoypLFyAIwuBc4uBc.jpg", "/products/ABUIABACGAAg1aHwvQYo95CfigUwuBc4uBc.jpg", "/products/ABUIABACGAAg1aHwvQYovdHt-gYwuBc4uBc.jpg", "/products/ABUIABACGAAg1aHwvQYooKyrkAMwuBc4uBc.jpg", "/products/ABUIABACGAAg1aHwvQYo6L33wAUwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-703","Category":"Specific Fit","Size":"24+18\"","Color":"Black","Fitment":"Wholesale Car Front Windshield Special 24+18 Inch Wiper Blade for IKCO SAMMAND 2001","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-703","Category":"Specific Fit Frame Wiper","Size":"24+18\"","Color":"Black","Fitment":"Wholesale Car Front Windshield Special 24+18 Inch Wiper Blade for IKCO SAMMAND 2001","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Wholesale Car Front Windshield Special 24+18 Inch Wiper Blade for IKCO SAMMAND 2001", "frame wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-703 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]

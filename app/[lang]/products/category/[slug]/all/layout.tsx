@@ -13,6 +13,7 @@ const categoryKeyMap: Record<string, keyof (typeof translations)["en"]> = {
   hybrid: "catHybrid",
   "rear-wiper-combo": "catRearWiperCombo",
   "frame-wiper": "catFrameWiper",
+  "specific-fit-frame-wiper": "catSpecificFitFrame",
   "colored-wiper-blade": "catColoredWiper",
   "electric-spray-wiper": "catElectricSpray",
   "bus-truck-wiper": "catBusTruck",

@@ -4003,7 +4003,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW-704",
-        "Categoría": "Escobilla Específica",
+        "Categoría": "Escobilla Específica de Marco",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas especial para coche para bmw 5 E34 1991-1995",
@@ -4031,7 +4031,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW-704",
-        "Категория": "Специализированный Стеклоочиститель",
+        "Категория": "Специализированная Каркасная Щетка",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Специальная щетка стеклоочистителя для BMW 5 E34 1991-1995",
@@ -4059,7 +4059,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW-704",
-        "Catégorie": "Balai Spécifique",
+        "Catégorie": "Balai Spécifique à Armature",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Lame d'Essuie-Glace Spéciale pour BMW 5 E34 1991-1995",
@@ -4087,7 +4087,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW-704",
-        "Kategorie": "Spezifisches Wischerblatt",
+        "Kategorie": "Spezifisches Rahmenwischerblatt",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Spezielle Windschutzscheibenwischer für BMW 5 E34 1991-1995",
@@ -4115,7 +4115,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW-704",
-        "分类": "专用雨刮片",
+        "分类": "专用有骨雨刮片",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "宝马 5系 E34 1991-1995 专用雨刮片",
@@ -4145,7 +4145,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW-710",
-        "Categoría": "Escobilla Específica",
+        "Categoría": "Escobilla Específica de Marco",
         "Tamaño": "26+16\"",
         "Color": "Negro",
         "Aplicación": "Parabrisas de Coche 16+26 Pulgadas Limpiaparabrisas para Coche PEUGEOT 206",
@@ -4173,7 +4173,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW-710",
-        "Категория": "Специализированный Стеклоочиститель",
+        "Категория": "Специализированная Каркасная Щетка",
         "Размер": "26+16\"",
         "Цвет": "Черный",
         "Применяемость": "Стеклоочистители для автомобилей 16-26 дюймов для автомобиля PEUGEOT 206",
@@ -4201,7 +4201,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW-710",
-        "Catégorie": "Balai Spécifique",
+        "Catégorie": "Balai Spécifique à Armature",
         "Taille": "26+16\"",
         "Couleur": "Noir",
         "Application": "Essuie-Glaces 16 26 Pouces pour Voiture PEUGEOT 206",
@@ -4229,7 +4229,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW-710",
-        "Kategorie": "Spezifisches Wischerblatt",
+        "Kategorie": "Spezifisches Rahmenwischerblatt",
         "Größe": "26+16\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Scheibenwischer 16 26 Zoll für Auto PEUGEOT 206",
@@ -4257,7 +4257,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW-710",
-        "分类": "专用雨刮片",
+        "分类": "专用有骨雨刮片",
         "尺寸": "26+16\"",
         "颜色": "黑色",
         "适用车型": "汽车挡风玻璃 16 26 英寸雨刮片 适用于标致 206",
@@ -11673,7 +11673,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW-712",
-        "Categoría": "Escobilla Específica",
+        "Categoría": "Escobilla Específica de Marco",
         "Tamaño": "14+28\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas especiales LELION Limpiaparabrisas delantero para Honda Odyssey 2005 - 2008",
@@ -11701,7 +11701,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW-712",
-        "Категория": "Специализированный Стеклоочиститель",
+        "Категория": "Специализированная Каркасная Щетка",
         "Размер": "14+28\"",
         "Цвет": "Черный",
         "Применяемость": "LELION Специальные передние щетки стеклоочистителя для Honda Odyssey 2005 - 2008",
@@ -11729,7 +11729,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW-712",
-        "Catégorie": "Balai Spécifique",
+        "Catégorie": "Balai Spécifique à Armature",
         "Taille": "14+28\"",
         "Couleur": "Noir",
         "Application": "LELION Lames Spéciales d'Essuie-Glace Avant pour Honda Odyssey 2005-2008",
@@ -11757,7 +11757,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW-712",
-        "Kategorie": "Spezifisches Wischerblatt",
+        "Kategorie": "Spezifisches Rahmenwischerblatt",
         "Größe": "14+28\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Spezielle Wischerblätter Frontscheibenwischerblatt für Honda Odyssey 2005-2008",
@@ -11785,7 +11785,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW-712",
-        "分类": "专用雨刮片",
+        "分类": "专用有骨雨刮片",
         "尺寸": "14+28\"",
         "颜色": "黑色",
         "适用车型": "LELION 专用雨刷片 前挡风玻璃雨刷片 适用于本田奥德赛 2005-2008",
@@ -12383,7 +12383,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW-706",
-        "Categoría": "Escobilla Específica",
+        "Categoría": "Escobilla Específica de Marco",
         "Tamaño": "25+25\"",
         "Color": "Negro",
         "Aplicación": "LELION Venta al por mayor de piezas de automóviles 61610442837 Limpiaparabrisas especial para BMW E65 E66 740i 750i 200",
@@ -12411,7 +12411,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW-706",
-        "Категория": "Специализированный Стеклоочиститель",
+        "Категория": "Специализированная Каркасная Щетка",
         "Размер": "25+25\"",
         "Цвет": "Черный",
         "Применяемость": "LELION оптом Автозапчасти 61610442837 Специальная щетка стеклоочистителя для BMW E65 E66 740i 750i 200",
@@ -12439,7 +12439,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW-706",
-        "Catégorie": "Balai Spécifique",
+        "Catégorie": "Balai Spécifique à Armature",
         "Taille": "25+25\"",
         "Couleur": "Noir",
         "Application": "LELION Vente en Gros Pièces Auto 61610442837 Lame d'Essuie-Glace Spéciale pour BMW E65 E66 740i 750i 200",
@@ -12467,7 +12467,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW-706",
-        "Kategorie": "Spezifisches Wischerblatt",
+        "Kategorie": "Spezifisches Rahmenwischerblatt",
         "Größe": "25+25\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Großhandel Autoteile 61610442837 Spezialwischerblatt für BMW E65 E66 740i 750i 200",
@@ -12495,7 +12495,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW-706",
-        "分类": "专用雨刮片",
+        "分类": "专用有骨雨刮片",
         "尺寸": "25+25\"",
         "颜色": "黑色",
         "适用车型": "LELION 批发汽车零件 61610442837 专用雨刷片 适用于宝马 E65 E66 740i 750i 200",
@@ -13662,7 +13662,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW-712",
-        "Categoría": "Escobilla Específica",
+        "Categoría": "Escobilla Específica de Marco",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Venta al por mayor Parabrisas delantero especial 28+14 pulgadas Escobilla de limpiaparabrisas para HONDA ODYSSEY 2005 -2008",
@@ -13690,7 +13690,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW-712",
-        "Категория": "Специализированный Стеклоочиститель",
+        "Категория": "Специализированная Каркасная Щетка",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION оптом Передняя специальная щетка стеклоочистителя 28-14 дюймов для HONDA ODYSSEY 2005-2008",
@@ -13718,7 +13718,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW-712",
-        "Catégorie": "Balai Spécifique",
+        "Catégorie": "Balai Spécifique à Armature",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Balai d'essuie-glace spécial avant 28 14 pouces pour HONDA ODYSSEY 2005 -2008",
@@ -13746,7 +13746,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW-712",
-        "Kategorie": "Spezifisches Wischerblatt",
+        "Kategorie": "Spezifisches Rahmenwischerblatt",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Großhandel Frontscheiben-Sonder 28 14 Zoll Wischerblatt für HONDA ODYSSEY 2005-2008",
@@ -13774,7 +13774,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW-712",
-        "分类": "专用雨刮片",
+        "分类": "专用有骨雨刮片",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 批发前风挡玻璃专用 28/14 英寸雨刷片 适用于本田 ODYSSEY 2005-2008",
@@ -14657,7 +14657,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW-704",
-        "Categoría": "Escobilla Específica",
+        "Categoría": "Escobilla Específica de Marco",
         "Tamaño": "24+24”",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas al por mayor LELION Limpiaparabrisas especiales para BMW E34 1991 - 1995",
@@ -14685,7 +14685,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW-704",
-        "Категория": "Специализированный Стеклоочиститель",
+        "Категория": "Специализированная Каркасная Щетка",
         "Размер": "24+24”",
         "Цвет": "Черный",
         "Применяемость": "LELION оптовая продажа специальных щёток стеклоочистителя для BMW E34 1991-1995",
@@ -14713,7 +14713,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW-704",
-        "Catégorie": "Balai Spécifique",
+        "Catégorie": "Balai Spécifique à Armature",
         "Taille": "24+24”",
         "Couleur": "Noir",
         "Application": "LELION Essuie-glace en gros Spécial essuie-glace pour pare-brise pour BMW E34 1991 - 1995",
@@ -14741,7 +14741,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW-704",
-        "Kategorie": "Spezifisches Wischerblatt",
+        "Kategorie": "Spezifisches Rahmenwischerblatt",
         "Größe": "24+24”",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Großhandel Scheibenwischer Spezial-Scheibenwischerblätter für BMW E34 1991 - 1995",
@@ -14769,7 +14769,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW-704",
-        "分类": "专用雨刮片",
+        "分类": "专用有骨雨刮片",
         "尺寸": "24+24”",
         "颜色": "黑色",
         "适用车型": "LELION 批发雨刷片 专用挡风玻璃雨刷片 适用于 BMW E34 1991 - 1995",
@@ -15367,7 +15367,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW-704",
-        "Categoría": "Escobilla Específica",
+        "Categoría": "Escobilla Específica de Marco",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Limpiaparabrisas 24+24 Pulgadas Limpiaparabrisas Especial Combinación Coche Limpiaparabrisas para bmw 5 E34",
@@ -15395,7 +15395,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW-704",
-        "Категория": "Специализированный Стеклоочиститель",
+        "Категория": "Специализированная Каркасная Щетка",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION щётка стеклоочистителя 24 дюйма специальный комплект щёток для лобового стекла BMW 5 E34",
@@ -15423,7 +15423,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW-704",
-        "Catégorie": "Balai Spécifique",
+        "Catégorie": "Balai Spécifique à Armature",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Lame d'essuie-glace 24 24 pouces Combinaison d'essuie-glace spéciale pour pare-brise de voiture pour bmw 5 E34",
@@ -15451,7 +15451,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW-704",
-        "Kategorie": "Spezifisches Wischerblatt",
+        "Kategorie": "Spezifisches Rahmenwischerblatt",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Scheibenwischer 24 24 Zoll Spezial-Wischkombination Auto-Scheibenwischerblätter für BMW 5 E34",
@@ -15479,7 +15479,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW-704",
-        "分类": "专用雨刮片",
+        "分类": "专用有骨雨刮片",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 雨刷片 24 英寸专用雨刷组合 汽车挡风玻璃雨刷片 适用于 BMW 5 E34",
@@ -31273,7 +31273,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW-709",
-        "Categoría": "Escobilla Específica",
+        "Categoría": "Escobilla Específica de Marco",
         "Tamaño": "26+22\"",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles 61619070579 Limpiaparabrisas especiales 26+22 pulgadas Limpiaparabrisas para bmw",
@@ -31301,7 +31301,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW-709",
-        "Категория": "Специализированный Стеклоочиститель",
+        "Категория": "Специализированная Каркасная Щетка",
         "Размер": "26+22\"",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров: специальные дворники 26 и 22 дюйма для BMW",
@@ -31329,7 +31329,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW-709",
-        "Catégorie": "Balai Spécifique",
+        "Catégorie": "Balai Spécifique à Armature",
         "Taille": "26+22\"",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros 61619070579 Balais d'essuie-glace spéciaux 26 22 pouces Balai d'essuie-glace pour BMW",
@@ -31357,7 +31357,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW-709",
-        "Kategorie": "Spezifisches Wischerblatt",
+        "Kategorie": "Spezifisches Rahmenwischerblatt",
         "Größe": "26+22\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Autoteile Außen Zubehör 61619070579 Spezielle Scheibenwischer 26 22 Zoll Wischerblatt für BMW",
@@ -31385,7 +31385,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW-709",
-        "分类": "专用雨刮片",
+        "分类": "专用有骨雨刮片",
         "尺寸": "26+22\"",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 61619070579 特殊雨刷 26 22英寸宝马用雨刷",
@@ -33545,7 +33545,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW-708",
-        "Categoría": "Escobilla Específica",
+        "Categoría": "Escobilla Específica de Marco",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Parabrisas delantero Escobillas de limpiaparabrisas de 22+22 pulgadas para automóvil Audi 8E0998425A",
@@ -33573,7 +33573,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW-708",
-        "Категория": "Специализированный Стеклоочиститель",
+        "Категория": "Специализированная Каркасная Щетка",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовые автомобильные внешние аксессуары, передние стеклоочистители 22 22 дюйма для автомобиля Audi 8E0998425A",
@@ -33601,7 +33601,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW-708",
-        "Catégorie": "Balai Spécifique",
+        "Catégorie": "Balai Spécifique à Armature",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Balais d'essuie-glace avant 22 22 pouces pour voiture Audi 8E0998425A",
@@ -33629,7 +33629,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW-708",
-        "Kategorie": "Spezifisches Wischerblatt",
+        "Kategorie": "Spezifisches Rahmenwischerblatt",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Außenzubehör Frontscheibenwischer 22 22 Zoll für Auto Audi 8E0998425A",
@@ -33657,7 +33657,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW-708",
-        "分类": "专用雨刮片",
+        "分类": "专用有骨雨刮片",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃 22 22 英寸雨刷片适用于奥迪 8E0998425A",
@@ -34113,7 +34113,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW-706",
-        "Categoría": "Escobilla Específica",
+        "Categoría": "Escobilla Específica de Marco",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Parabrisas delantero Limpiaparabrisas de 25+25 pulgadas para BMW E66",
@@ -34141,7 +34141,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW-706",
-        "Категория": "Специализированный Стеклоочиститель",
+        "Категория": "Специализированная Каркасная Щетка",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовые автомобильные внешние аксессуары, передние стеклоочистители 25 25 дюймов для BMW E66",
@@ -34169,7 +34169,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW-706",
-        "Catégorie": "Balai Spécifique",
+        "Catégorie": "Balai Spécifique à Armature",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Balais d'essuie-glace avant 25 25 pouces pour BMW E66",
@@ -34197,7 +34197,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW-706",
-        "Kategorie": "Spezifisches Wischerblatt",
+        "Kategorie": "Spezifisches Rahmenwischerblatt",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Außenzubehör Frontscheibenwischer 25 25 Zoll Wischer für BMW E66",
@@ -34225,7 +34225,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW-706",
-        "分类": "专用雨刮片",
+        "分类": "专用有骨雨刮片",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃 25 25 英寸雨刷片适用于宝马 E66",
@@ -36101,7 +36101,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW-708",
-        "Categoría": "Escobilla Específica",
+        "Categoría": "Escobilla Específica de Marco",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Limpiaparabrisas delantero Limpiaparabrisas especiales para Audi A4 1994-2000",
@@ -36129,7 +36129,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW-708",
-        "Категория": "Специализированный Стеклоочиститель",
+        "Категория": "Специализированная Каркасная Щетка",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров Передние стеклоочистители специальные для Audi A4 1994-2000",
@@ -36157,7 +36157,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW-708",
-        "Catégorie": "Balai Spécifique",
+        "Catégorie": "Balai Spécifique à Armature",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires extérieurs de voiture en gros Balais d'essuie-glace avant spéciaux pour Audi A4 1994-2000",
@@ -36185,7 +36185,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW-708",
-        "Kategorie": "Spezifisches Wischerblatt",
+        "Kategorie": "Spezifisches Rahmenwischerblatt",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Außen Zubehör Frontscheibe Spezielle Wischerblätter für Audi A4 1994-2000",
@@ -36213,7 +36213,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW-708",
-        "分类": "专用雨刮片",
+        "分类": "专用有骨雨刮片",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃专用雨刷片适用于奥迪A4 1994-2000",
@@ -36527,7 +36527,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW-709",
-        "Categoría": "Escobilla Específica",
+        "Categoría": "Escobilla Específica de Marco",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Limpiaparabrisas delantero para Land Rover Range Rover 2003-2012",
@@ -36555,7 +36555,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW-709",
-        "Категория": "Специализированный Стеклоочиститель",
+        "Категория": "Специализированная Каркасная Щетка",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров Передние стеклоочистители для Land Rover Range Rover 2003-2012",
@@ -36583,7 +36583,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW-709",
-        "Catégorie": "Balai Spécifique",
+        "Catégorie": "Balai Spécifique à Armature",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires extérieurs de voiture en gros Balai d'essuie-glace avant pour Land Rover Range Rover 2003-2012",
@@ -36611,7 +36611,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW-709",
-        "Kategorie": "Spezifisches Wischerblatt",
+        "Kategorie": "Spezifisches Rahmenwischerblatt",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Außen Zubehör Frontscheibe Wischerblatt für Land Rover Range Rover 2003-2012",
@@ -36639,7 +36639,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW-709",
-        "分类": "专用雨刮片",
+        "分类": "专用有骨雨刮片",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃雨刷片适用于路虎揽胜 2003-2012",
@@ -37237,7 +37237,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW-706",
-        "Categoría": "Escobilla Específica",
+        "Categoría": "Escobilla Específica de Marco",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de accesorios externos para automóviles Limpiaparabrisas delantero para BMW Serie 7 E65 E66 740i 750i",
@@ -37265,7 +37265,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW-706",
-        "Категория": "Специализированный Стеклоочиститель",
+        "Категория": "Специализированная Каркасная Щетка",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров передние щетки стеклоочистителя для BMW 7 Series E65 E66 740i 750i",
@@ -37293,7 +37293,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW-706",
-        "Catégorie": "Balai Spécifique",
+        "Catégorie": "Balai Spécifique à Armature",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires extérieurs de voiture en gros Balais d'essuie-glace avant pour BMW 7 Series E65 E66 740i 750i",
@@ -37321,7 +37321,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW-706",
-        "Kategorie": "Spezifisches Wischerblatt",
+        "Kategorie": "Spezifisches Rahmenwischerblatt",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Außen Zubehör Frontscheibe Wischerblätter für BMW 7ER E65 E66 740i 750i",
@@ -37349,7 +37349,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW-706",
-        "分类": "专用雨刮片",
+        "分类": "专用有骨雨刮片",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃雨刷片适用于宝马7系 E65 E66 740i 750i",
@@ -37521,7 +37521,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW-710",
-        "Categoría": "Escobilla Específica",
+        "Categoría": "Escobilla Específica de Marco",
         "Tamaño": "26+16\"",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para coche Limpiaparabrisas delantero para coche PEUGEOT 206",
@@ -37549,7 +37549,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW-710",
-        "Категория": "Специализированный Стеклоочиститель",
+        "Категория": "Специализированная Каркасная Щетка",
         "Размер": "26+16\"",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров передние щетки стеклоочистителя для автомобилей PEUGEOT 206",
@@ -37577,7 +37577,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW-710",
-        "Catégorie": "Balai Spécifique",
+        "Catégorie": "Balai Spécifique à Armature",
         "Taille": "26+16\"",
         "Couleur": "Noir",
         "Application": "Accessoires extérieurs de voiture en gros Balais d'essuie-glace avant pour voiture PEUGEOT 206",
@@ -37605,7 +37605,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW-710",
-        "Kategorie": "Spezifisches Wischerblatt",
+        "Kategorie": "Spezifisches Rahmenwischerblatt",
         "Größe": "26+16\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Außen Zubehör Frontscheibe Wischerblätter für Auto PEUGEOT 206",
@@ -37633,7 +37633,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW-710",
-        "分类": "专用雨刮片",
+        "分类": "专用有骨雨刮片",
         "尺寸": "26+16\"",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃雨刷片适用于标致206",
@@ -46611,7 +46611,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW-703",
-        "Categoría": "Escobilla Específica",
+        "Categoría": "Escobilla Específica de Marco",
         "Tamaño": "24+18\"",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de limpiaparabrisas delantero especial de 24+18 pulgadas para IKCO SAMMAND 2001",
@@ -46639,7 +46639,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW-703",
-        "Категория": "Специализированный Стеклоочиститель",
+        "Категория": "Специализированная Каркасная Щетка",
         "Размер": "24+18\"",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа переднего стекла Специальные дворники 24 18 дюймов для IKCO SAMMAND 2001",
@@ -46667,7 +46667,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW-703",
-        "Catégorie": "Balai Spécifique",
+        "Catégorie": "Balai Spécifique à Armature",
         "Taille": "24+18\"",
         "Couleur": "Noir",
         "Application": "Essuie-glace spécial de pare-brise avant de voiture en gros 24 18 pouces pour IKCO SAMMAND 2001",
@@ -46695,7 +46695,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW-703",
-        "Kategorie": "Spezifisches Wischerblatt",
+        "Kategorie": "Spezifisches Rahmenwischerblatt",
         "Größe": "24+18\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Frontscheiben Spezieller 24 18 Zoll Wischerblatt für IKCO SAMMAND 2001",
@@ -46723,7 +46723,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW-703",
-        "分类": "专用雨刮片",
+        "分类": "专用有骨雨刮片",
         "尺寸": "24+18\"",
         "颜色": "黑色",
         "适用车型": "批发伊朗IKCO SAMAND（2001）前挡风玻璃特殊24/18英寸雨刷片",

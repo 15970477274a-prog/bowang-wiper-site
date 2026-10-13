@@ -120,6 +120,7 @@ export interface TranslationDict {
   footerRearCombo: string;
   footerRearWiper: string;
   footerFrameWiper: string;
+  footerSpecificFitFrame: string;
   footerColoredWiper: string;
   footerElectricSpray: string;
   footerBusTruck: string;
@@ -161,6 +162,7 @@ export interface TranslationDict {
   catHybrid: string;
   catRearWiperCombo: string;
   catFrameWiper: string;
+  catSpecificFitFrame: string;
   catColoredWiper: string;
   catElectricSpray: string;
   catBusTruck: string;

@@ -13,6 +13,7 @@ export const CATEGORY_MAP: Record<string, string> = {
   "snow-wiper": "Snow Wiper",
   "wiper-parts": "Wiper Parts",
   "rear-wiper-arm": "Rear Wiper Arm",
+  "specific-fit-frame-wiper": "Specific Fit Frame Wiper",
 };
 
 export const CATEGORY_SLUGS = Object.keys(CATEGORY_MAP);
@@ -32,4 +33,5 @@ export const CATEGORY_LABEL_KEYS: Record<string, string> = {
   "Snow Wiper": "footerSnowWiper",
   "Wiper Parts": "footerWiperParts",
   "Rear Wiper Arm": "footerRearWiperArm",
+  "Specific Fit Frame Wiper": "footerSpecificFitFrame",
 };
