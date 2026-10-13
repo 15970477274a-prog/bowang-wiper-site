@@ -2725,7 +2725,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW0812",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios para automóviles 988112V000 Brazo de la hoja del limpiaparabrisas trasero para Hyundai Veloster 2012 - 2015",
@@ -2753,7 +2753,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW0812",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Автозапчасти 988112V000 рычаг заднего стеклоочистителя для Hyundai Veloster 2012 - 2015",
@@ -2781,7 +2781,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW0812",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires Auto 988112V000 Bras de Lame d'Essuie-Glace Arrière pour Hyundai Veloster 2012 - 2015",
@@ -2809,7 +2809,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW0812",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Autozubehör 988112V000 Heckscheibenwischerarm für Hyundai Veloster 2012 - 2015",
@@ -2837,7 +2837,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW0812",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "汽车配件 988112V000 现代 Veloster 2012 - 2015 后挡风玻璃雨刮臂",
@@ -6419,7 +6419,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW0602",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Auto Parches Parabrisas Parabrisas Brazo de la hoja del limpiaparabrisas trasero para Mazda 3 2003-2009",
@@ -6447,7 +6447,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW0602",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION Автозапчасти Щетка заднего стеклоочистителя для Mazda 3 2003-2009",
@@ -6475,7 +6475,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW0602",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Pièces Auto Bras d'essuie-glace arrière pour Mazda 3 2003-2009",
@@ -6503,7 +6503,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW0602",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Autoteile Auto Heckscheibenwischerarm für Mazda 3 2003-2009",
@@ -6531,7 +6531,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW0602",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION汽车零件马自达3 2003-2009款后雨刮器臂",
@@ -6561,7 +6561,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW0409",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Auto Parts Brazo de la hoja del limpiaparabrisas trasero del coche para Suzuki Wagon R 2004-2017",
@@ -6589,7 +6589,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW0409",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION Автозапчасти Задний дворник для заднего окна Suzuki Wagon R 2004-2017",
@@ -6617,7 +6617,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW0409",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Pièces Auto Bras d'essuie-glace arrière pour Suzuki Wagon R 2004-2017",
@@ -6645,7 +6645,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW0409",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Autoteile Heckscheibenwischerarm für Suzuki Wagon R 2004-2017",
@@ -6673,7 +6673,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW0409",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION汽车零件铃木Wagon R 2004-2017款后车窗雨刮臂",
@@ -6703,7 +6703,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW0333",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Best Wipers honda Combinación de brazo de limpiaparabrisas trasero para coche para HONDA FIT 2014-2020",
@@ -6731,7 +6731,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW0333",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION Лучшие дворники Honda Задний дворник комбинация для HONDA FIT 2014-2020",
@@ -6759,7 +6759,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW0333",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Meilleurs essuie-glaces Bras d'essuie-glace arrière combiné HONDA FIT 2014-2020",
@@ -6787,7 +6787,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW0333",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Best Wipers Honda Auto Heckscheibenwischerarm-Kombination für HONDA FIT 2014-2020",
@@ -6815,7 +6815,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW0333",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION最佳雨刮 本田FIT 2014-2020款后挡风玻璃雨刮臂组合",
@@ -7839,7 +7839,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW3310",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Limpiaparabrisas de coche con brazo de escobilla de combinación Limpiaparabrisas trasero de coche para JEEP Cherokee 2014-2019",
@@ -7867,7 +7867,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW3310",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION Щетка и рычаг стеклоочистителя Сочетание заднего стеклоочистителя для JEEP Cherokee 2014-2019",
@@ -7895,7 +7895,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW3310",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Combinaison bras d'essuie-glace de pare-brise Essuie-glace arrière pour JEEP Cherokee 2014-2019",
@@ -7923,7 +7923,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW3310",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Auto Wischerblatt Arm-Kombination Auto Heckscheibenwischer für JEEP Cherokee 2014-2019",
@@ -7951,7 +7951,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW3310",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION汽车雨刮臂组合 吉普切诺基 2014-2019款后雨刮",
@@ -8123,7 +8123,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW0247",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Personalización Limpiaparabrisas de goma Hoja de la hoja del limpiaparabrisas trasero del coche Combinación para TOYOTA HIGHLANDER",
@@ -8151,7 +8151,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW0247",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION Индивидуальная резиновая щетка и рычаг Комбинация заднего стеклоочистителя для TOYOTA HIGHLANDER",
@@ -8179,7 +8179,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW0247",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Bras d'essuie-glace en caoutchouc personnalisés pour voiture Essuie-glace arrière combiné pour TOYOTA HIGHLANDER",
@@ -8207,7 +8207,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW0247",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Anpassbare Gummi-Wischerarm-Lamellen Auto-Heckscheibenwischer-Kombination für TOYOTA HIGHLANDER",
@@ -8235,7 +8235,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW0247",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 定制橡胶雨刷臂叶片 汽车后雨刷组合 适用于丰田汉兰达",
@@ -10253,7 +10253,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW2011",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Limpiaparabrisas y Brazo Trasero de Coche de Alta Calidad para BMW Serie 5 E39 1995-2003",
@@ -10281,7 +10281,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW2011",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION Высококачественная задняя щетка и рычаг стеклоочистителя для BMW 5 Series E39 1995-2003",
@@ -10309,7 +10309,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW2011",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Essuie-glace arrière et bras de haute qualité pour BMW Série 5 E39 1995-2003",
@@ -10337,7 +10337,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW2011",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Hochwertiger Auto-Heckscheibenwischer und Arm für BMW 5er Reihe E39 1995-2003",
@@ -10365,7 +10365,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW2011",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 高品质汽车后挡风玻璃雨刷及臂 宝马 5 系列 E39 1995-2003",
@@ -10395,7 +10395,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW0508",
-        "Categoría": "Escobilla Trasera",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Combinación de limpiaparabrisas al por mayor de alta calidad para limpiaparabrisas trasero de coche para INFINITI FX 2007",
@@ -10423,7 +10423,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW0508",
-        "Категория": "Задняя Щетка",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION Высококачественная оптовая продажа лобовых щеток и заднего стеклоочистителя для INFINITI FX 2007",
@@ -10451,7 +10451,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW0508",
-        "Catégorie": "Balai Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Lame d'essuie-glace de pare-brise en gros de haute qualité Essuie-glace arrière combiné pour INFINITI FX 2007",
@@ -10479,7 +10479,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW0508",
-        "Kategorie": "Heckwischer",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Hochwertiger Großhandel Scheibenwischerblätter Auto-Heckscheibenwischer-Kombination für INFINITI FX 2007",
@@ -10507,7 +10507,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW0508",
-        "分类": "后雨刮片",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 高品质批发挡风玻璃雨刷片 汽车后雨刷组合 适用于英菲尼迪 FX 2007",
@@ -10821,7 +10821,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW2019",
-        "Categoría": "Escobilla Trasera",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas de metal LELION Limpiaparabrisas trasero para BMW X5 E53 1999-2006",
@@ -10849,7 +10849,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW2019",
-        "Категория": "Задняя Щетка",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION металлическая щетка заднего стеклоочистителя Для bmw X5 E53 1999-2006",
@@ -10877,7 +10877,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW2019",
-        "Catégorie": "Balai Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Essuie-Glace en métal Essuie-Glaces Arrière pour BMW X5 E53 1999-2006",
@@ -10905,7 +10905,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW2019",
-        "Kategorie": "Heckwischer",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Metallwischer Scheibenwischer Heckwischer für BMW X5 E53 1999-2006",
@@ -10933,7 +10933,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW2019",
-        "分类": "后雨刮片",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 金属雨刷 前挡风玻璃雨刷 后雨刷 适用于宝马 X5 E53 1999-2006",
@@ -10963,7 +10963,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW3002",
-        "Categoría": "Escobilla Trasera",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION MINI Limpiaparabrisas Limpiaparabrisas trasero Limpiaparabrisas trasero para MINI COOPER R50 R53 2001-2004",
@@ -10991,7 +10991,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW3002",
-        "Категория": "Задняя Щетка",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION MINI щетка стеклоочистителя заднего стекла для MINI COOPER R50 R53 2001-2004",
@@ -11019,7 +11019,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW3002",
-        "Catégorie": "Balai Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Lame d'Essuie-Glace Arrière pour Mini Essuie-Glace Arrière pour MINI COOPER R50 R53 2001-2004",
@@ -11047,7 +11047,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW3002",
-        "Kategorie": "Heckwischer",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION MINI Auto Wischerblatt Heckscheibenwischer Auto Heckwischer für MINI COOPER R50 R53 2001-2004",
@@ -11075,7 +11075,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW3002",
-        "分类": "后雨刮片",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION MINI 汽车雨刷片 后挡风玻璃雨刷 汽车后雨刷 适用于 MINI COOPER R50 R53 2001-2004",
@@ -11247,7 +11247,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW0202",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Limpiaparabrisas trasero Combinación de aspas de brazo de limpiaparabrisas para coche Limpiaparabrisas trasero para TOYOTA YARIS 2008-2013",
@@ -11275,7 +11275,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW0202",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION Задний рычаг и щетка стеклоочистителя для TOYOTA YARIS 2008-2013",
@@ -11303,7 +11303,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW0202",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Bras et Lame d'Essuie-Glace Arrière Combination pour VOITURE TOYOTA YARIS 2008-2013",
@@ -11331,7 +11331,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW0202",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Heckscheibenwischer Arm Blatt Kombination Auto Heckwischer für TOYOTA YARIS 2008-2013",
@@ -11359,7 +11359,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW0202",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 后挡风玻璃雨刷臂片组合 汽车后雨刷 适用于丰田雅力士 2008-2013",
@@ -12241,7 +12241,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW0708",
-        "Categoría": "Escobilla Trasera",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Accesorios al por mayor Juego de limpiaparabrisas trasero de coche para FORD FOCUS 2012-2018",
@@ -12269,7 +12269,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW0708",
-        "Категория": "Задняя Щетка",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION оптом Аксессуары Щетки для заднего стекла автомобиля для FORD FOCUS 2012-2018",
@@ -12297,7 +12297,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW0708",
-        "Catégorie": "Balai Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Vente en Gros Accessoires Essuie-Glace Ensemble d'Essuie-Glace Arrière pour FORD FOCUS 2012-2018",
@@ -12325,7 +12325,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW0708",
-        "Kategorie": "Heckwischer",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Großhandel Zubehör Wischer Auto Heckscheibenwischer Set für FORD FOCUS 2012-2018",
@@ -12353,7 +12353,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW0708",
-        "分类": "后雨刮片",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 批发配件雨刷 汽车后挡风玻璃雨刷套装 适用于福特福克斯 2012-2018",
@@ -13378,7 +13378,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW0215",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Juego de limpiaparabrisas trasero con brazo de escobilla de goma para coche al por mayor LELION para Toyota Rav4 2006-2012",
@@ -13406,7 +13406,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW0215",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION оптом Задняя резиновая щетка стеклоочистителя Комбинация рычагов заднего стекла для Toyota Rav4 2006-2012",
@@ -13434,7 +13434,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW0215",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Ensemble Balais et Bras d'essuie-glace arrière pour Toyota Rav4 2006-2012",
@@ -13462,7 +13462,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW0215",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Großhandel Auto Heckgummi-Wischerblattarm Heckscheibenwischer-Set für Toyota Rav4 2006-2012",
@@ -13490,7 +13490,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW0215",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 批发汽车后橡胶雨刷片臂 后风挡玻璃雨刷组件 适用于丰田 RAV4 2006-2012",
@@ -13520,7 +13520,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW2902",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Combinación de brazo de escobilla de limpiaparabrisas para limpiaparabrisas trasero de coche al por mayor para Audi Q7 2006 - 2015",
@@ -13548,7 +13548,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW2902",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION оптом Задний дворник Комбинация рычагов щетки стеклоочистителя для Audi Q7 2006-2015",
@@ -13576,7 +13576,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW2902",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Ensemble Bras et Balais d'essuie-glace arrière pour Audi Q7 2006 - 2015",
@@ -13604,7 +13604,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW2902",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Großhandel Auto Heckscheibenwischer Wischerblattarm-Kombination für Audi Q7 2006-2015",
@@ -13632,7 +13632,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW2902",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 批发汽车后雨刷 后挡风玻璃雨刷臂组合 适用于奥迪 Q7 2006-2015",
@@ -14089,7 +14089,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW0806",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Limpiaparabrisas trasero al por mayor y brazo para hyundai Ix35 2009-2015",
@@ -14117,7 +14117,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW0806",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION оптовая продажа задней щётки стеклоочистителя и рычага для Hyundai Ix35 2009-2015",
@@ -14145,7 +14145,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW0806",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Balais et bras d'essuie-glace arrière pour hyundai Ix35 2009-2015",
@@ -14173,7 +14173,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW0806",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Großhandel Heckscheibenwischerblatt und Arm für Hyundai Ix35 2009-2015",
@@ -14201,7 +14201,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW0806",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 批发后挡风玻璃雨刷片及雨刷臂 适用于现代 IX35 2009-2015",
@@ -14231,7 +14231,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW2203",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Limpiaparabrisas trasero al por mayor y brazo para Opel Zafira B 2005-2014",
@@ -14259,7 +14259,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW2203",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION оптовая продажа задней щётки стеклоочистителя и рычага для Opel Zafira B 2005-2014",
@@ -14287,7 +14287,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW2203",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Balais et bras d'essuie-glace arrière pour Opel Zafira B 2005-2014",
@@ -14315,7 +14315,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW2203",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Großhandel Heckscheibenwischerblatt und Arm für Opel Zafira B 2005-2014",
@@ -14343,7 +14343,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW2203",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 批发后挡风玻璃雨刷片及雨刷臂 适用于欧宝 Zafira B 2005-2014",
@@ -14373,7 +14373,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW0230",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Limpiaparabrisas trasero al por mayor y juego de brazos Limpiaparabrisas trasero de coche para TOYOTA PRIUS C 2012-2016",
@@ -14401,7 +14401,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW0230",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION оптовая продажа комплекта задних щёток и рычагов для заднего стекла автомобиля TOYOTA PRIUS C 2012-2016",
@@ -14429,7 +14429,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW0230",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Ensemble Balais et bras d'essuie-glace arrière pour TOYOTA PRIUS C 2012-2016",
@@ -14457,7 +14457,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW0230",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Großhandel Heckwischerblätter und Arm Set Auto Heckscheibenwischer für TOYOTA PRIUS C 2012-2016",
@@ -14485,7 +14485,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW0230",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 批发后雨刷片及臂组件 汽车后窗雨刷 适用于丰田 PRIUS C 2012-2016",
@@ -14515,7 +14515,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW2204",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Limpiaparabrisas trasero al por mayor y juego de brazos para Opel Astra H 5 puertas 2004-2009",
@@ -14543,7 +14543,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW2204",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION оптовая продажа комплекта задних щёток и рычагов для Opel Astra H 5 дверей 2004-2009",
@@ -14571,7 +14571,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW2204",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Ensemble Balais et bras d'essuie-glace arrière pour Opel Astra H 5 portes 2004-2009",
@@ -14599,7 +14599,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW2204",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Großhandel Heckwischerblätter und Arm Set für Opel Astra H 5 Türen 2004-2009",
@@ -14627,7 +14627,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW2204",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 批发后雨刷片及臂组件 适用于欧宝 Astra H 五门 2004-2009",
@@ -14799,7 +14799,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW0308",
-        "Categoría": "Escobilla Trasera",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas al por mayor de LELION Limpiaparabrisas trasero de coche para Honda CR-V 2008-2011",
@@ -14827,7 +14827,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW0308",
-        "Категория": "Задняя Щетка",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION оптовая продажа щёток стеклоочистителя для заднего стекла автомобиля Honda CR-V 2008-2011",
@@ -14855,7 +14855,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW0308",
-        "Catégorie": "Balai Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Essuie-glaces en gros Essuie-glace arrière pour voiture pour Honda CR-V 2008-2011",
@@ -14883,7 +14883,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW0308",
-        "Kategorie": "Heckwischer",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Großhandel Scheibenwischer Auto-Heckscheibenwischerblätter Wischer für Honda CR-V 2008-2011",
@@ -14911,7 +14911,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW0308",
-        "分类": "后雨刮片",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 批发雨刷片 汽车后挡风玻璃雨刷片 适用于本田 CR-V 2008-2011",
@@ -15225,7 +15225,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW2019",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas LELION Brazo de la hoja del limpiaparabrisas trasero Limpiaparabrisas trasero para BMW X5 E53 1999-2006",
@@ -15253,7 +15253,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW2019",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION щётки стеклоочистителя заднего стекла и рычаги для BMW X5 E53 1999-2006",
@@ -15281,7 +15281,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW2019",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Essuie-glaces pare-brise Essuie-glace arrière bras pour bmw Voiture essuie-glace arrière pour bmw X5 E53 1999-2006",
@@ -15309,7 +15309,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW2019",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Scheibenwischer Heckwischerblatt Arm BMW Auto-Heckwischer für BMW X5 E53 1999-2006",
@@ -15337,7 +15337,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW2019",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 挡风玻璃雨刷 后雨刷片臂 适用于 BMW X5 E53 1999-2006",
@@ -15793,7 +15793,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW0208",
-        "Categoría": "Escobilla Trasera",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Limpiaparabrisas toyota Car Combinación Limpiaparabrisas Trasero para Toyota PREVIA 2006",
@@ -15821,7 +15821,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW0208",
-        "Категория": "Задняя Щетка",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION щётки для Toyota, комплект щёток заднего стекла для Toyota PREVIA 2006",
@@ -15849,7 +15849,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW0208",
-        "Catégorie": "Balai Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Essuie-glaces Toyota Combinaison essuie-glace arrière pour Toyota PREVIA 2006",
@@ -15877,7 +15877,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW0208",
-        "Kategorie": "Heckwischer",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Scheibenwischer Toyota Auto-Heckscheibenwischer-Kombination für Toyota PREVIA 2006",
@@ -15905,7 +15905,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW0208",
-        "分类": "后雨刮片",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 雨刷片 丰田汽车挡风玻璃后雨刷片组合 适用于 Toyota PREVIA 2006",
@@ -18207,7 +18207,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW3504",
-        "Categoría": "Escobilla Trasera",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero especial para Dodge DURANGO 2004-2009",
@@ -18235,7 +18235,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW3504",
-        "Категория": "Задняя Щетка",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Особая щетка заднего стекла для Dodge DURANGO 2004-2009",
@@ -18263,7 +18263,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW3504",
-        "Catégorie": "Balai Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Balai d'essuie-glace arrière spécial compatible avec Dodge DURANGO 2004-2009",
@@ -18291,7 +18291,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW3504",
-        "Kategorie": "Heckwischer",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Spezial-Heckscheibenwischerblatt passend für Dodge DURANGO 2004-2009",
@@ -18319,7 +18319,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW3504",
-        "分类": "后雨刮片",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "适用于道奇DURANGO 2004-2009的专用后挡风玻璃雨刷片",
@@ -30562,7 +30562,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW0250",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Brazo de la hoja del limpiaparabrisas trasero para Toyota FJ CRUISER 2007-2014",
@@ -30590,7 +30590,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW0250",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров: рычаг заднего дворника для Toyota FJ CRUISER 2007-2014",
@@ -30618,7 +30618,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW0250",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes automobiles en gros Bras d'essuie-glace arrière pour Toyota FJ CRUISER 2007-2014",
@@ -30646,7 +30646,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW0250",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Externes Zubehör Heckscheibenwischerarm für Toyota FJ CRUISER 2007-2014",
@@ -30674,7 +30674,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW0250",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 丰田 FJ CRUISER 2007-2014 后挡风玻璃雨刷臂",
@@ -30705,7 +30705,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW1908",
-        "Categoría": "Escobilla Trasera",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de limpiaparabrisas trasero automático de goma natural para Chevrolet Matiz 2005-2010",
@@ -30733,7 +30733,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW1908",
-        "Категория": "Задняя Щетка",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных задних специальнои дворники из натуральной резины для Chevrolet Matiz 2005-2010",
@@ -30761,7 +30761,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW1908",
-        "Catégorie": "Balai Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Essuie-glace arrière spécial en caoutchouc naturel en gros pour Chevrolet Matiz 2005-2010",
@@ -30789,7 +30789,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW1908",
-        "Kategorie": "Heckwischer",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Heckscheibenwischer spezielle Wischerblätter aus Naturkautschuk passend für Chevrolet Matiz 2005-2010",
@@ -30817,7 +30817,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW1908",
-        "分类": "后雨刮片",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车后挡风玻璃特殊雨刷片 天然橡胶 适用于雪佛兰 Matiz 2005-2010",
@@ -30847,7 +30847,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW1121",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de la escobilla y el brazo del limpiaparabrisas trasero Auto Special para PEUGEOT 308 2007-2016",
@@ -30875,7 +30875,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW1121",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа специальных задних дворников и рычагов для PEUGEOT 308 2007-2016",
@@ -30903,7 +30903,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW1121",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Essuie-glace arrière spécial et bras en gros pour PEUGEOT 308 2007-2016",
@@ -30931,7 +30931,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW1121",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto spezielle Heckscheibenwischerblätter und Arm für PEUGEOT 308 2007-2016",
@@ -30959,7 +30959,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW1121",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车特殊后挡风玻璃雨刷片及雨刷臂 适用于标致 308 2007-2016",
@@ -31131,7 +31131,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW4602",
-        "Categoría": "Escobilla Trasera",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de accesorios externos para automóviles 20825881 Limpiaparabrisas trasero para Cadillac SRX 2008 - 2016",
@@ -31159,7 +31159,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW4602",
-        "Категория": "Задняя Щетка",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров: задний дворник 20825881 для Cadillac SRX 2008-2016",
@@ -31187,7 +31187,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW4602",
-        "Catégorie": "Balai Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes pour voiture en gros Essuie-glace arrière 20825881 pour Cadillac SRX 2008-2016",
@@ -31215,7 +31215,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW4602",
-        "Kategorie": "Heckwischer",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Externes Zubehör 20825881 Heckscheibenwischer für Cadillac SRX 2008 - 2016",
@@ -31243,7 +31243,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW4602",
-        "分类": "后雨刮片",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 20825881 后挡风玻璃雨刷片 适用于凯迪拉克 SRX 2008 - 2016",
@@ -39651,7 +39651,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW0302",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos del coche Cuchilla y brazo del limpiaparabrisas trasero del coche para ajuste 2004-2007",
@@ -39679,7 +39679,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW0302",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров: задняя щетка и рычаг стеклоочистителя для Fit 2004-2007",
@@ -39707,7 +39707,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW0302",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes pour voitures en gros Balai et bras d'essuie-glace arrière pour Fit 2004-2007",
@@ -39735,7 +39735,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW0302",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Exterieur Zubehör Heckscheibenwischerblatt und Arm für Fit 2004-2007",
@@ -39763,7 +39763,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW0302",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件后车窗雨刷片及臂，适用于飞度2004-2007",
@@ -39794,7 +39794,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW1128",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Brazo de goma del limpiaparabrisas trasero Brazo de la hoja para PEUGEOT 107 2005",
@@ -39822,7 +39822,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW1128",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров: задний резиновый щеточный рычаг стеклоочистителя для PEUGEOT 107 2005",
@@ -39850,7 +39850,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW1128",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras et lame d'essuie-glace en caoutchouc pour lunette arrière pour PEUGEOT 107 2005",
@@ -39878,7 +39878,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW1128",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Externes Zubehör Heckscheiben Gummiwischerarm Blattarm für PEUGEOT 107 2005",
@@ -39906,7 +39906,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW1128",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 后挡风玻璃橡胶雨刷臂 刮水器臂 适用于标致 107 2005",
@@ -39936,7 +39936,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW6001",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Brazo y hoja del limpiaparabrisas trasero para GMC ACADIA 2007-2012",
@@ -39964,7 +39964,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW6001",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров: задний рычаг и щетка стеклоочистителя для GMC ACADIA 2007-2012",
@@ -39992,7 +39992,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW6001",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras et lame d'essuie-glace pour lunette arrière pour GMC ACADIA 2007-2012",
@@ -40020,7 +40020,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW6001",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Externes Zubehör Heckscheiben Wischerarm und Blatt für GMC ACADIA 2007-2012",
@@ -40048,7 +40048,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW6001",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 后挡风玻璃雨刷臂和刮水器臂 适用于GMC ACADIA 2007-2012",
@@ -40078,7 +40078,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW3304",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Combinación de brazo de limpiaparabrisas trasero para JEEP Grand Cherokee 201",
@@ -40106,7 +40106,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW3304",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров: комбинация заднего рычага стеклоочистителя для JEEP Grand Cherokee 201",
@@ -40134,7 +40134,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW3304",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Combinaison bras d'essuie-glace pour lunette arrière pour JEEP Grand Cherokee 201",
@@ -40162,7 +40162,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW3304",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Externes Zubehör Heckscheiben Wischerarm-Kombination für JEEP Grand Cherokee 201",
@@ -40190,7 +40190,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW3304",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 后挡风玻璃雨刷臂组合 适用于JEEP 大切诺基 201",
@@ -40220,7 +40220,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW2001",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Brazo de la hoja del limpiaparabrisas trasero para BMW X3 E83 2003-2010",
@@ -40248,7 +40248,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW2001",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров: задний рычаг и щетка стеклоочистителя для BMW X3 E83 2003-2010",
@@ -40276,7 +40276,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW2001",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras et lame d'essuie-glace pour lunette arrière pour BMW X3 E83 2003-2010",
@@ -40304,7 +40304,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW2001",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Externes Zubehör Heckscheiben Wischerblattarm für BMW X3 E83 2003-2010",
@@ -40332,7 +40332,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW2001",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 后挡风玻璃雨刷臂 适用于宝马 X3 E83 2003-2010",
@@ -40362,7 +40362,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW4601",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Brazo de la hoja del limpiaparabrisas trasero para CADILLAC ESCALADE 2007-2013",
@@ -40390,7 +40390,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW4601",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров: задний рычаг и щетка стеклоочистителя для CADILLAC ESCALADE 2007-2013",
@@ -40418,7 +40418,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW4601",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras et lame d'essuie-glace pour lunette arrière pour CADILLAC ESCALADE 2007-2013",
@@ -40446,7 +40446,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW4601",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Externes Zubehör Heckscheiben Wischerblattarm für CADILLAC ESCALADE 2007-2013",
@@ -40474,7 +40474,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW4601",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 后挡风玻璃雨刷臂 适用于凯迪拉克 ESCALADE 2007-2013",
@@ -40504,7 +40504,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW0311",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Brazo de la hoja del limpiaparabrisas trasero para HONDA FIT 2009-2013",
@@ -40532,7 +40532,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW0311",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров: задний рычаг и щетка стеклоочистителя для HONDA FIT 2009-2013",
@@ -40560,7 +40560,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW0311",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras et lame d'essuie-glace pour lunette arrière pour HONDA FIT 2009-2013",
@@ -40588,7 +40588,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW0311",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Externes Zubehör Heckscheiben Wischerblattarm für HONDA FIT 2009-2013",
@@ -40616,7 +40616,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW0311",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 后挡风玻璃雨刷臂 适用于本田 FIT 2009-2013",
@@ -40646,7 +40646,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW4502",
-        "Categoría": "Escobilla Trasera",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Al por mayor Accesorios externos para automóviles Combinación de limpiaparabrisas trasero para SAAB 9-5 2010",
@@ -40674,7 +40674,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW4502",
-        "Категория": "Задняя Щетка",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров: комбинация задней щетки стеклоочистителя для SAAB 9-5 2010",
@@ -40702,7 +40702,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW4502",
-        "Catégorie": "Balai Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Combinaison bras et lame d'essuie-glace pour lunette arrière pour SAAB 9-5 2010",
@@ -40730,7 +40730,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW4502",
-        "Kategorie": "Heckwischer",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Externes Zubehör Heckscheiben Wischerblatt-Kombination für SAAB 9-5 2010",
@@ -40758,7 +40758,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW4502",
-        "分类": "后雨刮片",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 后挡风玻璃雨刷臂组合 适用于SAAB 9-5 2010",
@@ -40788,7 +40788,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW3311",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Brazo de limpiaparabrisas trasero y hoja Para BRÚJULA JEEP 2017-2019",
@@ -40816,7 +40816,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW3311",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров: задний рычаг и щетка стеклоочистителя для JEEP COMPASS 2017-2019",
@@ -40844,7 +40844,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW3311",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras et lame d'essuie-glace pour lunette arrière pour JEEP COMPASS 2017-2019",
@@ -40872,7 +40872,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW3311",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Externes Zubehör Heckscheiben Wischerarm und Blatt für JEEP COMPASS 2017-2019",
@@ -40900,7 +40900,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW3311",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 后挡风玻璃雨刷臂和刮水器臂 适用于JEEP COMPASS 2017-2019",
@@ -40930,7 +40930,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW0244",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Combinación de aspas del brazo del limpiaparabrisas trasero para TOYOTA YARIS 1999",
@@ -40958,7 +40958,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW0244",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров: комбинация заднего рычага и щетки стеклоочистителя для TOYOTA YARIS 1999",
@@ -40986,7 +40986,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW0244",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Combinaison bras et lame d'essuie-glace pour lunette arrière pour TOYOTA YARIS 1999",
@@ -41014,7 +41014,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW0244",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Externes Zubehör Heckscheiben Wischerarm-Blatt-Kombination für TOYOTA YARIS 1999",
@@ -41042,7 +41042,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW0244",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 后挡风玻璃雨刷臂组合 适用于丰田 YARIS 1999",
@@ -41072,7 +41072,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW0705",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de accesorios externos para automóviles, limpiaparabrisas trasero y brazo para FORD EDGE 2010-2014",
@@ -41100,7 +41100,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW0705",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров, задний щеточный механизм стеклоочистителя и рычаг для FORD EDGE 2010-2014",
@@ -41128,7 +41128,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW0705",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras et lame d'essuie-glace pour lunette arrière pour FORD EDGE 2010-2014",
@@ -41156,7 +41156,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW0705",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Externes Zubehör Heckscheiben Wischerblatt und Arm für FORD EDGE 2010-2014",
@@ -41184,7 +41184,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW0705",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 后挡风玻璃雨刷臂和刮水器臂 适用于福特 EDGE 2010-2014",
@@ -41214,7 +41214,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW0713",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de accesorios externos para automóviles, limpiaparabrisas trasero y brazo para Ford Kuga 2008-2011",
@@ -41242,7 +41242,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW0713",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров, задний щеточный механизм стеклоочистителя и рычаг для Ford Kuga 2008-2011",
@@ -41270,7 +41270,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW0713",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras et lame d'essuie-glace pour lunette arrière pour FORD Kuga 2008-2011",
@@ -41298,7 +41298,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW0713",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Externes Zubehör Heckscheiben Wischerblatt und Arm für ford Kuga 2008-2011",
@@ -41326,7 +41326,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW0713",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 后挡风玻璃雨刷臂和刮水器臂 适用于福特 Kuga 2008-2011",
@@ -41356,7 +41356,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW0233",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de accesorios externos para automóviles, limpiaparabrisas trasero y brazo para Toyota 4Runner 2003-2009",
@@ -41384,7 +41384,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW0233",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров, задний щеточный механизм стеклоочистителя и рычаг для Toyota 4Runner 2003-2009",
@@ -41412,7 +41412,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW0233",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras et lame d'essuie-glace pour lunette arrière pour Toyota 4Runner 2003-2009",
@@ -41440,7 +41440,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW0233",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Externes Zubehör Heckscheiben Wischerblatt und Arm für Toyota 4Runner 2003-2009",
@@ -41468,7 +41468,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW0233",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 后挡风玻璃雨刷臂和刮水器臂 适用于丰田 4Runner 2003-2009",
@@ -41498,7 +41498,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW1602",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Brazo de la hoja del limpiaparabrisas trasero para Buick Enclave 2008-2017",
@@ -41526,7 +41526,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW1602",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров, задний щеточный механизм стеклоочистителя и рычаг для Buick Enclave 2008-2017",
@@ -41554,7 +41554,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW1602",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras et lame d'essuie-glace pour lunette arrière pour Buick Enclave 2008-2017",
@@ -41582,7 +41582,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW1602",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Externes Zubehör Heckscheiben Wischerblattarm für Buick Enclave 2008-2017",
@@ -41610,7 +41610,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW1602",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 后挡风玻璃雨刷臂 适用于别克 Enclave 2008-2017",
@@ -41640,7 +41640,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW1913",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Brazo de la hoja del limpiaparabrisas trasero para Chevrolet ONIX GEN II",
@@ -41668,7 +41668,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW1913",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров, задний щеточный механизм стеклоочистителя и рычаг для Chevrolet ONIX GEN II",
@@ -41696,7 +41696,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW1913",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras et lame d'essuie-glace pour lunette arrière pour Chevrolet ONIX GEN II",
@@ -41724,7 +41724,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW1913",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Externes Zubehör Heckscheiben Wischerblattarm für Chevrolet ONIX GEN II",
@@ -41752,7 +41752,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW1913",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 后挡风玻璃雨刷臂 适用于雪佛兰 ONIX 第二代",
@@ -41782,7 +41782,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW1727",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Brazo de la hoja del limpiaparabrisas trasero para FIAT 500 2007-2019",
@@ -41810,7 +41810,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW1727",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров, задний щеточный механизм стеклоочистителя и рычаг для FIAT 500 2007-2019",
@@ -41838,7 +41838,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW1727",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras et lame d'essuie-glace pour lunette arrière pour FIAT 500 2007-2019",
@@ -41866,7 +41866,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW1727",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Externes Zubehör Heckscheiben Wischerblattarm für FIAT 500 2007-2019",
@@ -41894,7 +41894,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW1727",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 后挡风玻璃雨刷臂 适用于菲亚特 500 2007-2019",
@@ -42066,7 +42066,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW0822",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Brazo de la hoja del limpiaparabrisas trasero para Hyundai HB20 2012-",
@@ -42094,7 +42094,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW0822",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров, задний щеточный механизм стеклоочистителя и рычаг для Hyundai HB20 2012-",
@@ -42122,7 +42122,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW0822",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras d'essuie-glace arrière pour Hyundai HB20 2012-",
@@ -42150,7 +42150,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW0822",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandels-Autoaußenzubehör Scheibenwischerarm für die hintere Windschutzscheibe für Hyundai HB20 2012-",
@@ -42178,7 +42178,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW0822",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件现代HB20 2012-后挡风玻璃雨刷臂",
@@ -42208,7 +42208,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW0802",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Brazo de la hoja del limpiaparabrisas trasero para Hyundai Veracruz 2007 - 2012",
@@ -42236,7 +42236,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW0802",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров, задний щеточный механизм стеклоочистителя и рычаг для Hyundai Veracruz 2007-2012",
@@ -42264,7 +42264,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW0802",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras d'essuie-glace arrière pour Hyundai Veracruz 2007-2012",
@@ -42292,7 +42292,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW0802",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandels-Autoaußenzubehör Scheibenwischerarm für die hintere Windschutzscheibe für Hyundai Veracruz 2007-2012",
@@ -42320,7 +42320,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW0802",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件现代Veracruz 2007-2012后挡风玻璃雨刷臂",
@@ -42350,7 +42350,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW3302",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Brazo de la hoja del limpiaparabrisas trasero para Jeep Commander 2010",
@@ -42378,7 +42378,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW3302",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров, задний щеточный механизм стеклоочистителя и рычаг для Jeep Commander 2010",
@@ -42406,7 +42406,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW3302",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras d'essuie-glace arrière pour Jeep Commander 2010",
@@ -42434,7 +42434,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW3302",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandels-Autoaußenzubehör Scheibenwischerarm für die hintere Windschutzscheibe für Jeep Commander 2010",
@@ -42462,7 +42462,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW3302",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件吉普Commander 2010后挡风玻璃雨刷臂",
@@ -42492,7 +42492,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW3301",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Brazo de la hoja del limpiaparabrisas trasero para JEEP GRAND CHEROKEE 2005-2010",
@@ -42520,7 +42520,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW3301",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров, задний щеточный механизм стеклоочистителя и рычаг для JEEP GRAND CHEROKEE 2005-2010",
@@ -42548,7 +42548,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW3301",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras d'essuie-glace arrière pour JEEP GRAND CHEROKEE 2005-2010",
@@ -42576,7 +42576,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW3301",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandels-Autoaußenzubehör Scheibenwischerarm für die hintere Windschutzscheibe für JEEP GRAND CHEROKEE 2005-2010",
@@ -42604,7 +42604,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW3301",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件吉普大切诺基 2005-2010后挡风玻璃雨刷臂",
@@ -42634,7 +42634,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW0914",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Brazo de la hoja del limpiaparabrisas trasero para KIA SEDONA 2006-2014",
@@ -42662,7 +42662,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW0914",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров, задний щеточный механизм стеклоочистителя и рычаг для KIA SEDONA 2006-2014",
@@ -42690,7 +42690,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW0914",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras d'essuie-glace arrière pour KIA SEDONA 2006-2014",
@@ -42718,7 +42718,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW0914",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandels-Autoaußenzubehör Scheibenwischerarm für die hintere Windschutzscheibe für KIA SEDONA 2006-2014",
@@ -42746,7 +42746,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW0914",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件起亚Sedona 2006-2014后挡风玻璃雨刷臂",
@@ -42776,7 +42776,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW0246",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Brazo de la hoja del limpiaparabrisas trasero para LEXUS CT200H 2011-2017",
@@ -42804,7 +42804,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW0246",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров, задний щеточный механизм стеклоочистителя и рычаг для LEXUS CT200H 2011-2017",
@@ -42832,7 +42832,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW0246",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras d'essuie-glace arrière pour LEXUS CT200H 2011-2017",
@@ -42860,7 +42860,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW0246",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandels-Autoaußenzubehör Scheibenwischerarm für die hintere Windschutzscheibe für LEXUS CT200H 2011-2017",
@@ -42888,7 +42888,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW0246",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件雷克萨斯CT200H 2011-2017后挡风玻璃雨刷臂",
@@ -42918,7 +42918,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW0606",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Brazo de la hoja del limpiaparabrisas trasero para Mazda CX-7 2009",
@@ -42946,7 +42946,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW0606",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров, задний щеточный механизм стеклоочистителя и рычаг для Mazda CX-7 2009",
@@ -42974,7 +42974,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW0606",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras d'essuie-glace arrière pour Mazda CX-7 2009",
@@ -43002,7 +43002,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW0606",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandels-Autoaußenzubehör Scheibenwischerarm für die hintere Windschutzscheibe für Mazda CX-7 2009",
@@ -43030,7 +43030,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW0606",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件马自达CX-7 2009后挡风玻璃雨刷臂",
@@ -43202,7 +43202,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW2403",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Brazo de la hoja del limpiaparabrisas trasero para Renault Scenic RX4 2000-2005",
@@ -43230,7 +43230,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW2403",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров Задний дворниковый рычаг для Renault Scenic RX4 2000-2005",
@@ -43258,7 +43258,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW2403",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras d'essuie-glace arrière pour Renault Scenic RX4 2000-2005",
@@ -43286,7 +43286,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW2403",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandels-Autoaußenzubehör Scheibenwischerarm für die hintere Windschutzscheibe für Renault Scenic RX4 2000-2005",
@@ -43314,7 +43314,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW2403",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件雷诺Scenic RX4 2000-2005后挡风玻璃雨刷臂",
@@ -43344,7 +43344,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW4504",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Brazo de la hoja del limpiaparabrisas trasero para Saab 9-7X 2005-2009",
@@ -43372,7 +43372,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW4504",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров Задний дворниковый рычаг для Saab 9-7X 2005-2009",
@@ -43400,7 +43400,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW4504",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras d'essuie-glace arrière pour Saab 9-7X 2005-2009",
@@ -43428,7 +43428,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW4504",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandels-Autoaußenzubehör Scheibenwischerarm für die hintere Windschutzscheibe für Saab 9-7X 2005-2009",
@@ -43456,7 +43456,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW4504",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件萨博9-7X 2005-2009后挡风玻璃雨刷臂",
@@ -43486,7 +43486,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW0205",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Brazo de la hoja del limpiaparabrisas trasero para TOYOTA RAV4 2000-2005",
@@ -43514,7 +43514,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW0205",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров Задний дворниковый рычаг для TOYOTA RAV4 2000-2005",
@@ -43542,7 +43542,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW0205",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras d'essuie-glace arrière pour TOYOTA RAV4 2000-2005",
@@ -43570,7 +43570,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW0205",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandels-Autoaußenzubehör Scheibenwischerarm für die hintere Windschutzscheibe für TOYOTA RAV4 2000-2005",
@@ -43598,7 +43598,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW0205",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件丰田RAV4 2000-2005后挡风玻璃雨刷臂",
@@ -43628,7 +43628,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW2305",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Brazo de la hoja del limpiaparabrisas trasero para Volvo V50 2004-2012",
@@ -43656,7 +43656,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW2305",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров Задний дворниковый рычаг для Volvo V50 2004-2012",
@@ -43684,7 +43684,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW2305",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras d'essuie-glace arrière pour Volvo V50 2004-2012",
@@ -43712,7 +43712,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW2305",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandels-Autoaußenzubehör Scheibenwischerarm für die hintere Windschutzscheibe für Volvo V50 2004-2012",
@@ -43740,7 +43740,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW2305",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件沃尔沃V50 2004-2012后挡风玻璃雨刷臂",
@@ -43770,7 +43770,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW2312",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Brazo de la hoja del limpiaparabrisas trasero para VOLVO XC60 2011-",
@@ -43798,7 +43798,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW2312",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров Задний дворниковый рычаг для VOLVO XC60 2011-",
@@ -43826,7 +43826,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW2312",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras d'essuie-glace arrière pour VOLVO XC60 2011-",
@@ -43854,7 +43854,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW2312",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandels-Autoaußenzubehör Scheibenwischerarm für die hintere Windschutzscheibe für VOLVO XC60 2011-",
@@ -43882,7 +43882,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW2312",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件沃尔沃XC60 2011-后挡风玻璃雨刷臂",
@@ -43912,7 +43912,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW2303",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Brazo de la hoja del limpiaparabrisas trasero para VOLVO XC90 DESIGN EUROPE 2007",
@@ -43940,7 +43940,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW2303",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров Задний дворниковый рычаг для VOLVO XC90 DESIGN EUROPE 2007",
@@ -43968,7 +43968,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW2303",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras d'essuie-glace arrière pour VOLVO XC90 DESIGN EUROPE 2007",
@@ -43996,7 +43996,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW2303",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandels-Autoaußenzubehör Scheibenwischerarm für die hintere Windschutzscheibe für VOLVO XC90 DESIGN EUROPE 2007",
@@ -44024,7 +44024,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW2303",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件沃尔沃XC90 DESIGN EUROPE 2007后挡风玻璃雨刷臂",
@@ -44054,7 +44054,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW0317",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Juego de brazos de la hoja del limpiaparabrisas trasero para Honda CRV 2002-2006",
@@ -44082,7 +44082,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW0317",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров Комплект заднего дворникового рычага для Honda CRV 2002-2006",
@@ -44110,7 +44110,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW0317",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Ensemble de bras d'essuie-glace arrière pour Honda CRV 2002-2006",
@@ -44138,7 +44138,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW0317",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandels-Autoaußenzubehör Scheibenwischerarm-Set für die hintere Windschutzscheibe für Honda CRV 2002-2006",
@@ -44166,7 +44166,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW0317",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件本田CRV 2002-2006后挡风玻璃雨刷臂套装",
@@ -44338,7 +44338,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW0216",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de accesorios externos para automóviles Cuchilla del brazo del limpiaparabrisas trasero para Lexus RX450H 2009 - 2015",
@@ -44366,7 +44366,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW0216",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров Задний дворниковый рычаг для Lexus RX450H 2009-2015",
@@ -44394,7 +44394,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW0216",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras et lame d'essuie-glace arrière pour Lexus RX450H 2009-2015",
@@ -44422,7 +44422,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW0216",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Autoexterne Zubehörteile Heckwischerarm-Klinge für Lexus RX450H 2009 - 2015",
@@ -44450,7 +44450,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW0216",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 Lexus RX450H 2009-2015 后雨刷臂和雨刷片",
@@ -44480,7 +44480,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW0322",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de accesorios externos para automóviles, escobilla y brazo del limpiaparabrisas trasero para HONDA ODYSSEY 2005-2010",
@@ -44508,7 +44508,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW0322",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров Задний дворниковый рычаг и лезвие для HONDA ODYSSEY 2005-2010",
@@ -44536,7 +44536,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW0322",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Lame et bras d'essuie-glace arrière pour HONDA ODYSSEY 2005-2010",
@@ -44564,7 +44564,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW0322",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Autoexterne Zubehörteile Heckwischer-Klinge und Arm für HONDA ODYSSEY 2005-2010",
@@ -44592,7 +44592,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW0322",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 HONDA ODYSSEY 2005-2010 后雨刷片和雨刷臂",
@@ -44623,7 +44623,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW1601",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Brazo de la hoja del limpiaparabrisas trasero para Buick Excelle XT 2010-2017",
@@ -44651,7 +44651,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW1601",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров Задний дворниковый рычаг для Buick Excelle XT 2010-2017",
@@ -44679,7 +44679,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW1601",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras de lame d'essuie-glace arrière pour Buick Excelle XT 2010-2017",
@@ -44707,7 +44707,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW1601",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Autoexterne Zubehörteile Heckwischer-Klingen-Arm für Buick Excelle XT 2010-2017",
@@ -44735,7 +44735,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW1601",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 别克英朗XT 2010-2017 后雨刷片和雨刷臂",
@@ -44765,7 +44765,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW3503",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Brazo de la hoja del limpiaparabrisas trasero para DODGE JOURNEY JCUV 2009-2013",
@@ -44793,7 +44793,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW3503",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров Задний дворниковый рычаг для DODGE JOURNEY JCUV 2009-2013",
@@ -44821,7 +44821,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW3503",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras de lame d'essuie-glace arrière pour DODGE JOURNEY JCUV 2009-2013",
@@ -44849,7 +44849,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW3503",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Autoexterne Zubehörteile Heckwischer-Klingen-Arm für DODGE JOURNEY JCUV 2009-2013",
@@ -44877,7 +44877,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW3503",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 道奇JOURNEY JCUV 2009-2013 后雨刷片和雨刷臂",
@@ -45049,7 +45049,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW1802",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Juego de brazos de la hoja del limpiaparabrisas trasero para VW Multivan T5 2003 - 2015",
@@ -45077,7 +45077,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW1802",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров Комплект заднего дворникового рычага для VW Multivan T5 2003-2015",
@@ -45105,7 +45105,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW1802",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Ensemble bras et lame d'essuie-glace arrière pour VW Multivan T5 2003-2015",
@@ -45133,7 +45133,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW1802",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Autoexterne Zubehörteile Heckwischer-Klingen-Arm-Set für VW Multivan T5 2003 - 2015",
@@ -45161,7 +45161,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW1802",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 大众Multivan T5 2003-2015 后雨刷片和雨刷臂套装",
@@ -45191,7 +45191,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW0307",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de accesorios externos para automóviles, escobillas de limpiaparabrisas traseras y juego de brazos para Honda Pilot 2009-2015",
@@ -45219,7 +45219,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW0307",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров Комплект задних дворниковых лезвий и рычагов для Honda Pilot 2009-2015",
@@ -45247,7 +45247,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW0307",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Ensemble lames et bras d'essuie-glace arrière pour Honda Pilot 2009-2015",
@@ -45275,7 +45275,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW0307",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Autoexterne Zubehörteile Heckwischer-Klingen- und Arm-Set für Honda Pilot 2009-2015",
@@ -45303,7 +45303,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW0307",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 本田Pilot 2009-2015 后雨刷片和雨刷臂套装",
@@ -47889,7 +47889,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW2419",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor del brazo de la hoja del limpiaparabrisas trasero para Renault Twingo MK1 1993 - 2007",
@@ -47917,7 +47917,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW2419",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа заднего стеклоочистителя для Renault Twingo MK1 1993 - 2007",
@@ -47945,7 +47945,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW2419",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Bras d'essuie-glace arrière pour Renault Twingo MK1 1993 - 2007",
@@ -47973,7 +47973,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW2419",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Heckscheibenwischerarm für Renault Twingo MK1 1993 - 2007",
@@ -48001,7 +48001,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW2419",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发雷诺Twingo MK1（1993-2007）后挡风玻璃雨刷片臂",
@@ -48031,7 +48031,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW0505",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Combinación al por mayor del brazo de la hoja del limpiaparabrisas del marco del parabrisas trasero para NISSAN QASHQAI 2008-2013",
@@ -48059,7 +48059,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW0505",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа комбинации рамочного заднего стеклоочистителя для NISSAN QASHQAI 2008-2013",
@@ -48087,7 +48087,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW0505",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Combinaison de bras d'essuie-glace et cadre de pare-brise arrière pour NISSAN QASHQAI 2008-2013",
@@ -48115,7 +48115,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW0505",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Heckscheibenrahmen Wischerblatt-Kombination für NISSAN QASHQAI 2008-2013",
@@ -48143,7 +48143,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW0505",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发日产QASHQAI（2008-2013）后挡风玻璃雨刷片臂组合",
@@ -48173,7 +48173,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW0816",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Combinación de brazo de limpiaparabrisas trasero al por mayor para HYUNDAI New Santa Fe 2013-2017",
@@ -48201,7 +48201,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW0816",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа комбинации заднего стеклоочистителя для HYUNDAI New Santa Fe 2013-2017",
@@ -48229,7 +48229,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW0816",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Combinaison de bras d'essuie-glace arrière pour HYUNDAI New Santa Fe 2013-2017",
@@ -48257,7 +48257,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW0816",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Heckscheibenwischerarm-Kombination für HYUNDAI New Santa Fe 2013-2017",
@@ -48285,7 +48285,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW0816",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发现代新圣达菲（2013-2017）后挡风玻璃雨刷臂组合",
@@ -48315,7 +48315,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW0204",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Combinación de brazo de escobilla de limpiaparabrisas trasero al por mayor para Lexus RX 2004 - 2008",
@@ -48343,7 +48343,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW0204",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа комбинации заднего стеклоочистителя для Lexus RX 2004 - 2008",
@@ -48371,7 +48371,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW0204",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Combinaison de bras d'essuie-glace arrière pour Lexus RX 2004 - 2008",
@@ -48399,7 +48399,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW0204",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Heckscheibenwischerarm-Kombination für Lexus RX 2004 - 2008",
@@ -48427,7 +48427,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW0204",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发雷克萨斯RX（2004-2008）后挡风玻璃雨刷片臂组合",
@@ -48457,7 +48457,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW2704",
-        "Categoría": "Brazo Trasero",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor del brazo de la hoja del limpiaparabrisas trasero para LAND ROVER GAMA ROVER 2006-2013",
@@ -48485,7 +48485,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW2704",
-        "Категория": "Задний рычаг",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа заднего стеклоочистителя для LAND ROVER RANGE ROVER 2006-2013",
@@ -48513,7 +48513,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW2704",
-        "Catégorie": "Bras Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Bras d'essuie-glace arrière pour LAND ROVER RANGE ROVER 2006-2013",
@@ -48541,7 +48541,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW2704",
-        "Kategorie": "Heckwischerarm",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Heckscheibenwischerarm für LAND ROVER RANGE ROVER 2006-2013",
@@ -48569,7 +48569,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW2704",
-        "分类": "后雨刮臂",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发路虎揽胜（2006-2013）后挡风玻璃雨刷片臂",
@@ -48741,7 +48741,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modelo del producto": "BW0719",
-        "Categoría": "Escobilla Trasera",
+        "Categoría": "Combo Trasero",
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de limpiaparabrisas para coche Combinación de limpiaparabrisas trasero para Ford Escape 2008-2012",
@@ -48769,7 +48769,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Модель продукта": "BW0719",
-        "Категория": "Задняя Щетка",
+        "Категория": "Задний Комплект",
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа комбинации заднего стеклоочистителя для Ford Escape 2008-2012",
@@ -48797,7 +48797,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Modèle du produit": "BW0719",
-        "Catégorie": "Balai Arrière",
+        "Catégorie": "Combo Arrière",
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Combinaison d'essuie-glace arrière de pare-brise et vitre de voiture pour Ford Escape 2008-2012",
@@ -48825,7 +48825,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "Produktmodell": "BW0719",
-        "Kategorie": "Heckwischer",
+        "Kategorie": "Heckwischer-Kombi",
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Windschutzscheiben-Autoglas Wischer Heckwischerblatt-Kombination für Ford Escape 2008-2012",
@@ -48853,7 +48853,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       ],
       "technicalDetails": {
         "产品型号": "BW0719",
-        "分类": "后雨刮片",
+        "分类": "后雨刮组合",
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发福特翼虎（2008-2012）挡风玻璃车窗后雨刷片组合",
