@@ -85,4 +85,8 @@ module.exports = { ...nextConfig, async redirects() { return [
   { source: "/:lang/products/bw-160-multi-functional-rear-wiper-blade-factory-bw160", destination: "/:lang/products/bw-160-rear-wiper-blade", statusCode: 301 },
   { source: "/:lang/products/bw-161-134", destination: "/:lang/products/bw-161-rear-wiper-blade", statusCode: 301 },
   { source: "/:lang/products/bw-861-multi-functional-wiper-blade-factory-bw861", destination: "/:lang/products/bw-861-multifunction-wiper-blade", statusCode: 301 },
+  // Duplicate BW-808 facade page removed 2026-10-12; the kept page carries the
+  // same product, so the losing URL points there. The golden and silver editions
+  // are separate products and deliberately have no redirect.
+  { source: "/:lang/products/bw-808-hybrid-wiper-blade-three-section-factory-bw808", destination: "/:lang/products/bw-808-hybrid-wiper", statusCode: 301 },
 ]; } };

@@ -274,22 +274,7 @@ export const migratedProducts: Product[] = [
     features: ["Model BW-003 for reliable, streak-free wiping performance", "Built for wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
   },
   
-  {
-    id: "bw-808-hybrid-wiper-blade-three-section-factory-bw808",
-    category: "Hybrid",
-    name: "BW-808 Hybrid Wiper Blade Manufacturer | Three-Section Wiper Factory",
-    moq: "300 PCS",
-    desc: "BW-808 is a premium three-section hybrid wiper blade. Our factory provides OE-quality hybrid wipers for Toyota, Honda, and Hyundai. Get direct wholesale prices and OEM service.",
-    longDesc: "BW-808 Hybrid Wiper Blade Manufacturer | Three-Section Wiper Factory. BW-808 is a premium three-section hybrid wiper blade. Our factory provides OE-quality hybrid wipers for Toyota, Honda, and Hyundai. Get direct wholesale prices and OEM service.",
-    specs: ["Product Model: BW-808", "Size: 14-28\"", "Color: Black", "OEM/ODM custom branding & packaging available", "Factory-direct wholesale pricing", "ISO 9001 manufacturing quality"],
-    tag: "Factory Direct",
-    image: "/products/ABUIABACGAAgl8y2vQYorPOy7QIwuBc4uBc.jpg",
-    gallery: ["/products/ABUIABACGAAgn_2OvwYooOy-iQUw7gU4-gE.jpg", "/products/ABUIABAEGAAg3oroygYo5qXg8wUw6Ac46Ac.jpg", "/products/ABUIABACGAAgxoCpygYokMjkmgEwgBs4gBI.jpg"],
-    technicalDetails: {"Product Model":"BW-808","Category":"Hybrid","Size":"14-28\"","Color":"Black","Fitment":"BW-808 Hybrid Wiper Blade Manufacturer | Three-Section Wiper Factory","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
-    keywords: ["Hybrid Wiper Blade", "car wiper blade", "windscreen wiper", "wiper blade", "car wiper", "windshield wiper"],
-    applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
-    features: ["Model BW-808 for reliable, streak-free wiping performance", "Built for hybrid applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
-  },
+  
   
   {
     id: "bw-867-multifunction-wiper-bw-867",
