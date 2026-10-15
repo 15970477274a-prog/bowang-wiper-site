@@ -252,11 +252,22 @@ a { color: inherit; text-decoration: none; }
 .sidebar { flex: 1 1 250px; border-right: 1px solid var(--border); padding-right: 20px; }
 .sidebar-title { font-size: 18px; font-weight: 700; margin-bottom: 25px; color: var(--primary); }
 .sidebar-list { list-style: none; padding: 0; margin: 0; }
+/* Series filter rows. The row is the <li>; the label sits in an anchor that fills it, so
+   every row is exactly the sidebar's content width and the highlight is a solid bar the
+   height of one row. Previously the <li> lived INSIDE an inline <a>, so each row was only
+   as wide as its own label and the active row (the longest name) wrapped to two lines and
+   came out twice as tall as its neighbours - the "long is short, short is long" look. */
 .sidebar-item {
-  padding: 15px 20px; cursor: pointer; border-radius: var(--radius-md);
-  margin-bottom: 10px; transition: all 0.3s ease;
-  font-size: 15px;
+  border-radius: var(--radius-md); margin-bottom: 10px;
+  transition: all 0.3s ease; font-size: 14px;
 }
+/* Measured, not guessed: the longest label (Specific Fit Frame Wiper Blade) is 214.4px wide at
+   14px and 229.7px at 15px, against 239px of column. At 15px it cannot fit on one line with
+   any acceptable side padding (8px leaves it 6.7px SHORT); at 14px with 8px it fits with 8.6px
+   of slack, which is the margin this change needs to survive real-device font metrics.
+   The hairline insets below MUST stay equal to this padding so the rule starts where the text
+   starts. */
+.sidebar-item > .sidebar-link { display: block; padding: 10px 8px; }
 .sidebar-item:hover { background-color: var(--accent-light); color: var(--accent-hover); }
 .sidebar-item.active { background-color: var(--accent); color: #fff; font-weight: 700; }
 
@@ -715,11 +726,29 @@ a { color: inherit; text-decoration: none; }
    own @media (max-width:768px) ".sidebar" rule, because .pl-aside appears later
    in this file and both selectors have the same specificity. */
 
+/* Hairline between two rows, from 601px up. Drawn as a pseudo-element rather than a border
+   so it cannot add a pixel to one row and not its neighbour, and so it can skip the active
+   row (a border under the blue bar would read as a double edge) and the last row. */
+@media (min-width: 601px) {
+  .sidebar-item { position: relative; }
+  .sidebar-item:not(.active):not(:last-child)::after {
+    content: ""; position: absolute; left: 8px; right: 8px; bottom: 0;
+    border-bottom: 1px solid var(--border);
+  }
+    /* Symmetry (owner decision, 2026-10-15): the row BEFORE the active one drops its
+       hairline too, so the blue bar has no line on either side and has equal whitespace
+       above and below. Written with :has(); where that is unsupported the line above the
+       bar simply reappears, i.e. it degrades to the previous look. */
+  .sidebar-item:has(+ .sidebar-item.active)::after { display: none; }
+}
+
 @media (max-width: 600px) {
   .pl-layout { flex-direction: column; gap: 25px; }
   .pl-aside { flex: 1 1 auto; width: 100%; border-right: none; padding-right: 0; }
   .pl-aside-list { display: flex; flex-wrap: wrap; gap: 8px; }
-  .pl-aside-list > a { flex: 0 1 auto; }
+  /* The list's direct children are the <li> rows now, not the anchors - this selector has to
+     follow the markup, otherwise the pills would not shrink to their labels any more. */
+  .pl-aside-list > .sidebar-item { flex: 0 1 auto; }
   .pl-aside-list .sidebar-item { margin-bottom: 0; }
 }
 

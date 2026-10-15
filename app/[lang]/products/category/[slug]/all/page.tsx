@@ -71,14 +71,16 @@ export default function CategoryAllProductsPage() {
           <div style={{display:"flex",gap:"40px",flexWrap:"wrap"}}>
             <aside className="sidebar">
               <h3 className="sidebar-title">{t.seriesFilter}</h3>
+              {/* <ul> may only contain <li>; the anchor fills the row (.sidebar-link). */}
               <ul className="sidebar-list">
-                <Link href={l("/products")} style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item">{t.allWipers}</li></Link>
+                <li className="sidebar-item"><Link href={l("/products")} className="sidebar-link" style={{textDecoration:"none",color:"inherit"}}>{t.allWipers}</Link></li>
                 {Object.entries(CATEGORY_MAP).map(([s, c]) => {
                   const key = CATEGORY_LABEL_KEYS[c];
+                  const label = key ? t[key as keyof typeof t] : c;
                   return (
-                    <Link key={s} href={l("/products/category/" + s + "/all")} style={{textDecoration:"none",color:"inherit"}}>
-                      <li className={"sidebar-item" + (s === slug ? " active" : "")}>{key ? t[key as keyof typeof t] : c}</li>
-                    </Link>
+                    <li key={s} className={"sidebar-item" + (s === slug ? " active" : "")}>
+                      <Link href={l("/products/category/" + s + "/all")} className="sidebar-link" style={{textDecoration:"none",color:"inherit"}}>{label}</Link>
+                    </li>
                   );
                 })}
               </ul>

@@ -73,14 +73,18 @@ export default function ProductsPage() {
           {/* Categories Sidebar */}
           <aside className="pl-aside">
             <h2 style={{ fontSize: "18px", fontWeight: 700, marginBottom: "25px", color: "#0f172a" }}>{t.seriesFilter}</h2>
+            {/* <ul> may only contain <li>, so the row is the <li> and the anchor fills it
+                (.sidebar-link). The link text previously lived in <li> inside <a>, which is
+                invalid nesting and left each row sized to its own label. */}
             <ul className="sidebar-list pl-aside-list">
-                <Link href={l("/products")} style={{textDecoration:"none",color:"inherit"}}><li className="sidebar-item active">{t.allWipers}</li></Link>
+                <li className="sidebar-item active"><Link href={l("/products")} className="sidebar-link" style={{textDecoration:"none",color:"inherit"}}>{t.allWipers}</Link></li>
                 {Object.entries(CATEGORY_MAP).map(([slug, catName]) => {
                   const key = CATEGORY_LABEL_KEYS[catName];
+                  const label = key ? t[key as keyof typeof t] : catName;
                   return (
-                    <Link key={slug} href={l("/products/category/" + slug)} style={{textDecoration:"none",color:"inherit"}}>
-                      <li className="sidebar-item">{key ? t[key as keyof typeof t] : catName}</li>
-                    </Link>
+                    <li key={slug} className="sidebar-item">
+                      <Link href={l("/products/category/" + slug)} className="sidebar-link" style={{textDecoration:"none",color:"inherit"}}>{label}</Link>
+                    </li>
                   );
                 })}
               </ul>
