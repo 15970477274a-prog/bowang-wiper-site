@@ -10,6 +10,7 @@ import { allProducts } from "../../../data/products";
 import { blogPosts } from "../../../data/blog";
 import { getProductTranslation } from "../../../data/productTranslations";
 import { CATEGORY_LABEL_KEYS } from "../../../data/categories";
+import { buildDescription } from "../../../../lib/seo";
 
 export default function ProductDetail() {
   const params = useParams();
@@ -67,15 +68,53 @@ const relatedBlog = blogPosts
     return bScore - aScore;
   })
   .slice(0, 2);
-  // NOTE: Product structured data is intentionally NOT emitted on product pages.
-  // Google's "product snippet" enhancement requires `name` PLUS at least one of
-  // `offers` / `review` / `aggregateRating`, and a nested Offer requires `price`
-  // (merchant listings additionally require `price` > 0 and a purchasable page).
-  // This site is an inquiry-only catalogue: it does not publish prices, and it has
-  // no first-party reviews on the page. Emitting a Product node under those
-  // conditions only produces "invalid item" errors in Search Console
-  // (Product snippets / Merchant listings), so the enhancement is not declared.
-  // Re-add Product markup only if prices are published or genuine on-site reviews exist.
+  // ---------------------------------------------------------------------------
+  // Product structured data (2026-10 fix)
+  //
+  // Every product page now declares a Product node. It deliberately carries NO
+  // `offers` node: this catalogue is inquiry-only and publishes no price
+  // anywhere, and an Offer without `price` only raises "Missing field 'price'"
+  // in Search Console. The entity signals below (name / image / description /
+  // brand / sku / mpn / category) are honest and complete as they stand.
+  //
+  // `aggregateRating` / `review` are likewise not declared. The 4.7/5 block on
+  // the page is an Alibaba-sourced aggregate, not first-party on-site reviews,
+  // and Google requires rating markup to reflect reviews published on the page.
+  //
+  // OFFERS: omitting them is the ratified policy (owner decision, 2026-10-15) —
+  // no `price` and no `offers` block is published for this inquiry-only catalogue.
+  // If that policy ever changes, add the block here, e.g.
+  //   "offers": { "@type": "Offer", "url": SITE_URL + "/" + lang + "/contact",
+  //               "availability": "https://schema.org/InStock" }
+  // ---------------------------------------------------------------------------
+  const SITE_URL = "https://www.lelionautopart.com";
+  const absoluteImage = (src: string) =>
+    /^https?:\/\//i.test(src) ? src : SITE_URL + src;
+  const productImageUrls = images.filter(Boolean).map(absoluteImage);
+  const productSpecsForSchema = Object.entries(productTechnicalDetails).map(([key, value]) => ({
+    "@type": "PropertyValue",
+    "name": key,
+    "value": String(value)
+  }));
+
+  const productSchema = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": productName,
+    "description": buildDescription(productDesc, productName),
+    "image": productImageUrls,
+    "sku": product.id,
+    "mpn": modelNo,
+    "category": categoryLabel,
+    "brand": { "@type": "Brand", "name": "Lelion" },
+    "manufacturer": {
+      "@type": "Organization",
+      "name": "Ningbo Zhenhai Bowang Autoparts Co., Ltd.",
+      "url": SITE_URL
+    },
+    "url": SITE_URL + "/" + lang + "/products/" + product.id,
+    ...(productSpecsForSchema.length ? { "additionalProperty": productSpecsForSchema } : {})
+  };
 
   const detailBreadcrumbSchema = {
     "@context": "https://schema.org",
@@ -99,6 +138,7 @@ const relatedBlog = blogPosts
 
   return (
     <main>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(detailBreadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productFaqSchema) }} />
       {/* Visible breadcrumb — internal links to home + products hub */}

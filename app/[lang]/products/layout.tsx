@@ -1,5 +1,5 @@
 import { alternatesWithHreflang } from "../../../lib/hreflang";
-import { truncateTitle } from "../../../lib/seo";
+import { buildTitle } from "../../../lib/seo";
 import type { Metadata } from "next";
 import { translations, Locale } from "../../translations";
 
@@ -8,8 +8,8 @@ type Props = { params: Promise<{ lang: string }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { lang } = await params;
   const t = translations[(lang as Locale)] || translations.en;
-  // keep total title <= 60 chars (short suffix, truncate the banner text)
-  const title = truncateTitle(t.productsBannerTitle, 40) + " | Lelion Autoparts";
+  // Full banner text + brand when it fits, otherwise a tail-preserving condense.
+  const title = buildTitle(t.productsBannerTitle);
   const description = t.productsBannerSub;
   const canonicalPath = "/" + lang + "/products";
   const ogImage = "https://sc02.alicdn.com/kf/Hb0410965e6194f008a583d7f500e1b7at.png";
