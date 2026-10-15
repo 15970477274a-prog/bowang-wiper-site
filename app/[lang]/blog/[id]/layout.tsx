@@ -1,5 +1,5 @@
 import { alternatesWithHreflang } from "../../../../lib/hreflang";
-import { truncateTitle } from "../../../../lib/seo";
+import { buildDescription, buildTitle } from "../../../../lib/seo";
 import type { Metadata } from "next";
 import { blogPosts } from "../../../data/blog";
 import { getBlogTranslation } from "../../../data/blogTranslations";
@@ -28,8 +28,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const trans = getBlogTranslation(id, lang);
   const postTitle = trans?.title || post.title;
   const excerpt = trans?.excerpt || post.excerpt;
-  const title = truncateTitle(postTitle, 36) + " | Lelion Autoparts";
-  const description = excerpt.length > 160 ? excerpt.substring(0, 157) + "..." : excerpt;
+  const title = buildTitle(postTitle);
+  const description = buildDescription(excerpt, postTitle);
   const canonicalPath = "/" + lang + "/blog/" + post.id;
 
   return {
