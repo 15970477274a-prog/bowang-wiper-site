@@ -762,4 +762,123 @@ Nota sobre fuentes: esta guía referencia canales públicos de verificación, in
 
 **Sobre el autor:** Esta guía fue escrita por el equipo técnico de Lelion en Ningbo Zhenhai Bowang Autoparts Co., Ltd. Somos un fabricante de escobillas certificado ISO 9001 y CE, y publicamos guías de abastecimiento como esta porque los compradores verificados e informados son los clientes que queremos. Para dudas o muestras, [contacte con nuestro equipo de exportación](/contact).
 `,
+  "hybrid-vs-beam-wiper-blades-stocking-guide": `## Empiece por la pregunta comercial
+
+Busque "escobillas híbridas o tipo viga" y encontrará muchas respuestas a la pregunta técnica. Esa no es la decisión que usted toma. Como distribuidor o importador, usted decide cuál de los dos merece espacio en su mercado, cuánto capital de trabajo inmoviliza cada uno y con qué rapidez vuelve a convertirse en efectivo.
+
+Las diferencias físicas ya están cubiertas en nuestra [comparación técnica de escobillas tradicionales, tipo viga e híbridas](/blog/universal-vs-beam-vs-hybrid-wiper-blades). Este artículo continúa donde aquel termina: la decisión de aprovisionamiento.
+
+## Los mismos dos productos, vistos comercialmente
+
+| Factor de decisión | Tipo viga (sin armazón) | Híbrida |
+|--------------------|-------------------------|---------|
+| Lo que ve el comprador en el lineal | Moderno, minimalista, aspecto premium | Robusto, con armazón, "todo clima" |
+| Franja de precio que ocupa | Media a premium | Premium |
+| Dónde suele ganar | Mercados de autopista y mucha lluvia; parques de vehículos recientes | Mercados de invierno y clima mixto; cuentas de flotas |
+| Comportamiento del stock | Rotación rápida, reposición frecuente | Rotación lenta, mayor valor por unidad |
+| Causa principal de devolución | Longitud o conector equivocados | Confusión de adaptadores; desgaste del faldón en climas cálidos |
+| Carga de surtido | Muchas referencias de longitud, conectores sencillos | Menos longitudes, más variantes de adaptador |
+
+Lea la tabla como una cuestión de flujo de caja, no de calidad. Ambos diseños son buenos productos. Simplemente se comportan de forma distinta en su almacén.
+
+Para probar una mezcla hacen falta dos puntos de referencia fijos. En nuestra propia gama son el [híbrido BW-808](/products/bw-808-hybrid-wiper) y el [tipo viga BW-802](/products/bw-802-universal-wiper-blade); compararlos con sus propios datos de reposición resulta más útil que comparar descripciones de catálogo.
+
+## Paso 1: Entienda el mercado antes de elegir la mezcla
+
+El aprovisionamiento es siempre una decisión local. Cuatro entradas importan más que cualquier ficha técnica:
+
+- **Clima.** Los mercados con inviernos reales y sal de carretera favorecen los balais híbridos y las versiones para nieve. Los mercados de lluvia intensa y trayectos largos por autopista favorecen el tipo viga.
+- **Antigüedad y composición del parque.** Un parque dominado por vehículos recientes suele pedir tipo viga y cobertura específica. Un parque antiguo y mixto admite universal e híbrida.
+- **Canal de venta.** Las cadenas compran por aspecto y embalaje. Los talleres independientes y las flotas compran por repetibilidad y disponibilidad.
+- **Sensibilidad al precio.** Cuando el comprador solo compara precio, decide la gama de entrada; cuando compara reclamaciones, decide la gama premium.
+
+Escriba esas cuatro entradas para cada mercado que atiende antes de abrir un catálogo.
+
+## Paso 2: Elija una mezcla, no un ganador
+
+La mayoría de los debates de catálogo pierden el tiempo intentando nombrar un único ganador. Los distribuidores rara vez venden un solo tipo, porque sus clientes no son un solo cliente. Una estructura de partida práctica:
+
+- **Gama núcleo:** cubre la mayor parte de su mercado y nunca se queda sin existencias.
+- **Gama de margen:** sostiene la demanda premium e invernal y respalda a sus mejores clientes.
+- **Gama de prueba:** unas pocas referencias que está evaluando para la próxima temporada.
+
+![Flujo de decisión de aprovisionamiento para escobillas BW-808 híbrida y BW-802 tipo viga](/blog/hybrid-vs-beam-stocking-decision-flow.png|1200x675)
+
+Después fije una regla auditable: qué gama puede agotarse y cuál no. La respuesta suele ser la contraria a lo que hace el almacén por defecto.
+
+## Paso 3: Decida cuántas referencias merecen su lugar
+
+La longitud y el tipo de conector se multiplican con rapidez y producen un catálogo muy largo. Antes de añadir referencias, pida a su proveedor dos cifras por escrito:
+
+1. **El porcentaje del parque local que ya cubre su gama actual**, calculado longitud por longitud.
+2. **La cobertura incremental** que aporta cada referencia adicional.
+
+La segunda cifra es la que ahorra dinero. La cobertura suele subir con fuerza al principio del catálogo y luego aplanarse, de modo que las últimas referencias suelen costar más en espacio y stock muerto de lo que devuelven en ventas.
+
+## Paso 4: Incluya devoluciones y embalaje en el coste unitario
+
+Dos productos con el mismo precio de factura pueden tener costes reales muy distintos:
+
+- **Tasa de devolución.** Cada escobilla devuelta cuesta la unidad, el flete, la manipulación y la confianza del cliente. Los errores de aplicación y la confusión de adaptadores son las causas habituales, y ambas se reducen con instrucciones de montaje claras y una lista de aplicaciones fiable.
+- **Embalaje.** Un embalaje de venta que resiste el transporte marítimo protege el margen que negoció. Unas cajas mal especificadas se convierten en stock dañado y entregas rechazadas.
+- **Huella de almacenamiento.** Un embalaje más delgado y una mayor densidad de contenedor reducen su coste unitario de importación mucho antes de que cambie la lista de precios.
+
+Pida la experiencia de devoluciones de distribuidores comparables y un embalaje validado para exportación, no solo para reparto local.
+
+## Paso 5: Introduzca la marca propia por fases
+
+La marca propia es la vía más rápida de proteger el margen y también la más rápida de perder dinero si se hace de golpe. Un enfoque en tres pasos funciona mejor:
+
+- **Probar.** Una o dos referencias de alta rotación con su marca, para validar el envase y la aplicación.
+- **Consolidar.** Extender a la mezcla que ya vende en su mercado, cuando la tasa de reposición sea medible.
+- **Escalar.** Solo entonces comprometer la gama completa, con su propio diseño en todo el catálogo.
+
+Cada fase debe poder detenerse sin dejar inventario inmovilizado.
+
+## Qué preguntar a un proveedor antes de comprometer volumen
+
+- Datos de aplicación para su mercado, en un formato que pueda cargar en su propio sistema.
+- El sistema de adaptadores de cada serie y si es exclusivo de ese proveedor.
+- Especificaciones de embalaje, incluidas cajas de resistencia de exportación y opciones de diseño de venta.
+- La escalera de MOQ, para ver el coste de un primer pedido pequeño frente a un contenedor completo.
+- Plazos de producción y envío, y su comportamiento en temporada alta.
+- Informes de ensayo del compuesto de caucho, el recubrimiento y el acero, referidos a normas reconocidas.
+- La política de devoluciones y reclamaciones, por escrito, antes del primer envío.
+
+Un proveedor que no puede responder esto por escrito le está diciendo algo útil.
+
+## Cinco errores de aprovisionamiento que se comen el margen
+
+1. Comprar la gama de entrada para todos los mercados y pagarlo en devoluciones y cuentas perdidas.
+2. Comprar la gama premium para todos los mercados y verla envejecer en el lineal.
+3. Dejar que la gama crezca referencia a referencia sin volver a medir la cobertura.
+4. Pedir embalaje de venta para un mercado que solo quiere cajas a granel.
+5. Comprometer un catálogo completo de marca propia antes de medir un solo ciclo de reposición.
+
+## Preguntas frecuentes
+
+**¿Es un tipo más rentable que el otro?**
+
+Por sí solo, no. El tipo viga suele rotar más rápido y la híbrida suele ganar más por unidad. Cuál es más rentable depende del clima de su mercado, del comportamiento de devoluciones de sus clientes y de cuánto capital inmoviliza cada tipo.
+
+**¿Debería almacenar ambos?**
+
+La mayoría de los distribuidores debería. Los dos tipos sirven a clientes distintos y tener ambos le protege de quedar fuera por precio en cualquiera de las dos conversaciones. La cuestión es la proporción, no la elección.
+
+**¿Cómo decido la proporción?**
+
+Parta de las entradas de clima y parque del Paso 1 y ajústela cuando tenga una temporada completa de datos de reposición. No fije la proporción a partir de un catálogo.
+
+**¿La marca propia tiene que cubrir toda la gama?**
+
+No, y al principio rara vez debería. Marque con su marca las referencias que ya rotan más rápido, valide el envase y la aplicación, y luego amplíe.
+
+**¿Qué única cifra debería pedir primero?**
+
+El porcentaje de su parque local que cubre su gama actual, calculado longitud por longitud. Es la única cifra que le dice si tiene sobrestock o falta de cobertura.
+
+## Siguiente paso
+
+Si está planificando la gama de la próxima temporada, envíenos el perfil de su mercado, la mezcla de vehículos a la que vende y las longitudes que almacena hoy. Le responderemos con una mezcla sugerida, las [escobillas híbridas](/products/category/hybrid) y las [escobillas con armazón](/products/category/frame-wiper) que encajan con ella, y las opciones de embalaje para su canal. Para trabajo de marca y embalaje, consulte nuestra [guía de OEM y marca propia](/blog/oem-private-label-wiper-blades-guide), o [contacte con nuestro equipo de exportación](/contact) directamente.
+`,
 };

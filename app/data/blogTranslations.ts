@@ -1157,6 +1157,148 @@ ISO 9001 质量管理体系是底线。出口欧盟要按正确的产品指令�
     }
   },
 
+
+  "hybrid-vs-beam-wiper-blades-stocking-guide": {
+    es: {
+      title: "Escobillas híbridas vs tipo viga: guía de aprovisionamiento para distribuidores",
+      excerpt: "La comparación técnica ya está resuelta. Esta guía cubre lo que un distribuidor realmente tiene que decidir: qué mezcla de escobillas tipo viga e híbridas almacenar, cuántas referencias merecen su espacio en el almacén, cómo las devoluciones y el embalaje cambian el coste unitario real y qué exigir a un proveedor antes de comprometer volumen."
+    },
+    ru: {
+      title: "Гибридные и бескаркасные щётки: руководство по закупкам для дистрибьюторов",
+      excerpt: "Техническое сравнение уже сделано. Это руководство о том, что действительно решает дистрибьютор: какую смесь бескаркасных и гибридных щёток держать на складе, сколько артикулов заслуживают места, как возвраты и упаковка меняют реальную себестоимость единицы и что требовать от поставщика до заказа объёма."
+    },
+    fr: {
+      title: "Balais hybrides vs balais beam : guide d'approvisionnement pour distributeurs",
+      excerpt: "La comparaison technique est déjà faite. Ce guide traite de ce qu'un distributeur doit réellement décider : quelle combinaison de balais beam et hybrides stocker, combien de références méritent leur place, comment les retours et l'emballage modifient le coût unitaire réel et ce qu'il faut exiger d'un fournisseur avant d'engager du volume."
+    },
+    de: {
+      title: "Hybrid- vs. Flachbalkenwischer: Einkaufsleitfaden für Distributoren",
+      excerpt: "Der technische Vergleich ist bereits geklärt. Dieser Leitfaden behandelt, was ein Distributor tatsächlich entscheiden muss: welche Mischung aus Flachbalken- und Hybridwischern ins Lager gehört, wie viele Artikel ihren Platz verdienen, wie Retouren und Verpackung die echten Stückkosten verändern und was von einem Lieferanten zu verlangen ist, bevor Volumen beauftragt wird."
+    },
+    zh: {
+      title: "混动 vs 无骨雨刮片：分销商备货实战指南",
+      excerpt: "技术层面的对比已经有定论。这篇讲的是分销商真正要做的决定：混动与无骨各备多少、多少个 SKU 才值得占货架、退货与包装如何改变真实的单位成本，以及在压量之前该向供应商索要哪些书面数据。",
+      content: `## 先从商业问题开始
+
+在搜索框里输入"混动雨刮还是无骨雨刮"，你能找到大量关于工程问题的答案。但那并不是你要做的决策。作为分销商或进口商，你要决定的是：这两类产品里，哪一类值得在你的市场占据货架、各占用多少流动资金，以及多快能变回现金。
+
+两者在物理结构上的差异，我们已经在[有骨、无骨与混动雨刮片的技术对比](/blog/universal-vs-beam-vs-hybrid-wiper-blades)里讲透了。这篇文章从那篇结束的地方接着讲：**备货决策**。
+
+## 同样的两个产品，换成商业视角
+
+| 决策维度 | 无骨（无支架） | 混动 |
+|---------|--------------|------|
+| 买家在货架上看到什么 | 现代、简洁、"高级感" | 扎实、有骨、"全天候" |
+| 所处价格带 | 中端至中高端 | 中高端 |
+| 通常在哪类市场胜出 | 高速为主、多雨市场；车龄较新的车队 | 冬季与混合气候市场；车队客户 |
+| 库存周转特征 | 周转快、补货频繁 | 周转慢、单件价值高 |
+| 退货主要成因 | 长度或接口选错 | 接口适配混淆；高温气候下雪罩老化 |
+| 选品管理负担 | 长度 SKU 多、接口简单 | 长度 SKU 较少、接口变体多 |
+
+请把这张表当作**现金流问题**来读，而不是质量问题。两种设计都是好产品，它们只是在你的仓库里表现不同。
+
+要试组合，先要有两个固定的参照型号。我们自己的产品线里，这对参照就是[混动 BW-808](/products/bw-808-hybrid-wiper)与[无骨 BW-802](/products/bw-802-universal-wiper-blade)；用你自己的补货数据去比这两支，比看目录描述有用得多。
+
+## 第一步：选组合之前先摸清市场
+
+备货永远是一个本地决策。比任何规格表都重要的四个输入：
+
+- **气候。** 有真正冬季和融雪盐的市场，偏向混动与雪地规格；多暴雨、长途高速为主的市场，偏向无骨。
+- **车龄与车型结构。** 新车占比高的市场通常要无骨与专车专用覆盖；车龄偏老、车型混杂的市场，通用型与混动能接受。
+- **销售渠道。** 连锁零售看重外观与包装；独立修理厂与车队看重可重复供货与现货率。
+- **价格敏感度。** 买家只比价格时，入门档决定订单；买家以投诉为考核时，高端档决定订单。
+
+在翻开产品目录之前，先把这四个输入对你服务的每个市场各写一遍。
+
+## 第二步：选一个组合，而不是选一个赢家
+
+多数目录争论都在浪费时间评选"唯一赢家"。分销商很少只卖一类，因为你的客户从来不是同一类客户。一个实用的起步结构：
+
+- **核心档**：覆盖你市场里最大的份额，且不允许断货。
+- **利润档**：承接高端与冬季需求，支撑你最好的客户。
+- **试销档**：少量正在评估、准备下季度放量的 SKU。
+
+![BW-808 混动与 BW-802 无骨雨刮片的分销商备货决策流程](/blog/hybrid-vs-beam-stocking-decision-flow.png|1200x675)
+
+然后定一条**可以真正考核**的规则：哪一档允许断货，哪一档不允许。答案通常与仓库的默认做法正好相反。
+
+## 第三步：决定多少个 SKU 值得占位
+
+雨刮片长度与接口类型会迅速相乘，膨胀成一份很长的目录。在加 SKU 之前，先向供应商索要两个书面数字：
+
+1. **你现有目录对本地车队的覆盖率**，按长度逐条计算。
+2. **每增加一个 SKU 带来的边际覆盖增量。**
+
+真正省钱的是第二个数字。覆盖率通常在目录前段快速上升、之后趋平 —— 目录尾部那些 SKU，占用的货架与滞销成本往往高于它们带来的销售。
+
+## 第四步：把退货与包装算进单位成本
+
+发票价格相同的两个产品，真实成本可能差很多：
+
+- **退货率。** 每一次退货都消耗了产品、运费、人工处理以及客户信任。成因通常是用错车型与接口混淆，而清晰的安装说明与可靠的适配清单能同时压低这两项。
+- **包装。** 能扛住集装箱运输的零售包装，保护的正是你谈下来的那部分利润。纸箱规格不足，最后会变成破损库存和被拒收的货。
+- **仓储占用。** 更薄的包装与更高的装箱密度，在价格表还没变之前就已经降低了你的单件落地成本。
+
+向供应商询问同类分销商的退货率经验，以及包装是否按出口标准（而非仅本地配送标准）做过验证。
+
+## 第五步：私标分阶段推进
+
+私标是保护利润最快的方式，也是一次性铺开时亏钱最快的方式。分三步更稳：
+
+- **验证。** 先做一两个高周转 SKU 挂你的品牌，验证包装与适配。
+- **放量。** 等补货率可量化后，扩到你市场里已经在卖的那部分组合。
+- **铺全。** 到这一步再对整条目录投入，并把你的视觉设计覆盖到全部品类。
+
+每个阶段都要能在"停下来"时不留一堆压死的库存。
+
+## 在压量之前，该向供应商问清的清单
+
+- 针对你市场的适配数据，且格式能导入你自己的系统。
+- 各系列使用的接口系统，以及是否为该供应商专属。
+- 包装规格，包括出口强度纸箱与零售视觉方案的选项。
+- MOQ 阶梯，让你能算出"小批量首单"相对"整柜"的成本差。
+- 生产与运输交期，以及旺季时的表现。
+- 胶料、涂层与钢材的检测报告，并注明所依据的标准。
+- 退货与索赔政策，**在首次出货前**落成书面。
+
+一个无法用书面回答这些问题的供应商，本身已经给了你很有用的信息。
+
+## 五种悄悄吃掉利润的备货错误
+
+1. 所有市场都进入门档，然后在退货与流失客户上付账。
+2. 所有市场都进高端档，然后眼看它在货架上变旧。
+3. 让目录一个 SKU 一个 SKU 地长，却从不重新测算覆盖率。
+4. 给一个只要散装纸箱的市场订了零售包装。
+5. 在一个补货周期都还没测出来之前，就压上整条私标目录。
+
+## 常见问题
+
+**哪一类更赚钱？**
+
+单看产品本身，没有答案。无骨通常周转更快，混动通常单件利润更高。哪一类更赚钱，取决于你市场的气候、客户的退货行为，以及每一类各占用你多少资金。
+
+**要不要两类都备？**
+
+多数分销商应该都备。两类服务的是不同客户，同时备货能让你不被任何一场对话用价格挤出局。要定的是比例，不是二选一。
+
+**比例怎么定？**
+
+先按第一步的气候与车龄输入起步，等跑完一个完整旺季的补货数据再调整。不要按产品目录去定比例。
+
+**私标必须覆盖整条目录吗？**
+
+不需要，起步阶段通常也不该。先给周转最快的 SKU 做私标，验证包装与适配，再往外扩。
+
+**最该先要的一个数字是什么？**
+
+你现有目录对本地车队的覆盖率，按长度逐条计算。它是唯一能告诉你"是压货太多还是覆盖不足"的数字。
+
+## 下一步
+
+如果你正在规划下个季度的选品，把你的市场画像、主销车型结构和目前在备的长度发给我们。我们会回你一份建议组合、与之匹配的[混动雨刮片](/products/category/hybrid)与[有骨雨刮片](/products/category/frame-wiper)，以及适合你渠道的包装方案。涉及品牌与包装，可先看我们的[OEM 与私标指南](/blog/oem-private-label-wiper-blades-guide)，也可以直接[联系出口团队](/contact)。
+`
+    },
+  },
 };
 
 // Merge full article bodies from the per-language fragment files.

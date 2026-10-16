@@ -1145,5 +1145,135 @@ Dedicated washer fluid. Ammonia cleaners strip the coating, so an ammonia-based 
 
 Rain pulls into beads and rolls away instead of smearing into a film. At night, oncoming headlights glare less.
     `.trim()
-  }
+  },
+  {
+    id: "hybrid-vs-beam-wiper-blades-stocking-guide",
+    title: "Hybrid vs Beam Wiper Blades: A Distributor's Stocking Playbook",
+    excerpt: "The technical comparison is already settled. This playbook covers what distributors actually have to decide: which mix of beam and hybrid blades to stock, how many SKUs earn their shelf space, how returns and packaging change the real unit cost, and what to ask a supplier before committing volume.",
+    date: "2026-10-16",
+    author: "Lelion Technical Team",
+    category: "Buying Guide",
+    tags: ["hybrid wiper blades", "beam wiper blades", "wiper blade comparison", "windshield wiper sourcing", "wiper blade assortment", "distributor stocking plan"],
+    image: "/blog/hybrid-vs-beam-stocking-hero-16x9.png",
+    imageAlt: "Beam and hybrid wiper blades arranged as a distributor stock range",
+    content: `## Start With the Commercial Question
+
+Search "hybrid vs beam wiper blades" and you will find plenty of answers to the engineering question. That is not the decision you are making. As a distributor or importer, you are deciding which of the two earns shelf space in your market, how much working capital each one ties up, and how fast each one comes back as cash.
+
+The physical differences are already covered in our [technical comparison of universal, beam and hybrid blades](/blog/universal-vs-beam-vs-hybrid-wiper-blades). This article picks up where that one stops: the stocking decision.
+
+## The Same Two Products, Seen Commercially
+
+| Decision factor | Beam (bracketless) | Hybrid |
+|-----------------|--------------------|--------|
+| What the buyer sees on the shelf | Modern, minimal, "premium look" | Robust, framed, "all-weather" |
+| Price tier it occupies | Mid to premium | Premium |
+| Where it usually wins | Highway and high-rain markets, modern car parks | Winter and mixed-weather markets, fleet accounts |
+| Typical stock behaviour | Fast-moving, high reorder frequency | Slower moving, higher value per unit |
+| Main cause of returns | Wrong length or connector fitted | Adapter confusion; snow-boot wear in hot climates |
+| Assortment burden | Many length SKUs, simple connectors | Fewer length SKUs, more adapter variants |
+
+Read the table as a cash-flow question, not a quality question. Both designs are good products. They simply behave differently in your warehouse.
+
+To test a mix you need two fixed reference points. In our own range those are the [BW-808 hybrid](/products/bw-808-hybrid-wiper) and the [BW-802 beam](/products/bw-802-universal-wiper-blade); comparing them on your own reorder data tells you more than comparing catalogue descriptions.
+
+## Step 1: Map the Market Before You Pick a Mix
+
+Stocking is a local decision. Four inputs matter more than any specification sheet:
+
+- **Climate.** Markets with real winters and road salt favour hybrid and snow-spec blades. Markets with heavy rain and long highway runs favour beam.
+- **Car park age and mix.** A market dominated by recent-model vehicles usually wants beam and exact-fit coverage. An older, mixed car park tolerates universal-fit and hybrid.
+- **Buying channel.** Retail chains buy for appearance and packaging. Independent garages and fleets buy for repeatability and availability.
+- **Price sensitivity.** Where the buyer compares on price alone, the entry tier decides the order; where the buyer compares on complaints, the premium tier decides it.
+
+Write those four down for each market you serve before you look at a catalogue.
+
+## Step 2: Choose a Mix, Not a Winner
+
+Most catalogue arguments waste time trying to name a single winner. Distributors rarely sell one type only, because their customers are not one customer. A practical starting structure:
+
+- **A core tier** that covers the largest share of your market and never runs out of stock.
+- **A margin tier** that carries the premium and winter demand and supports your best customers.
+- **A test tier** with a small number of SKUs you are evaluating for next season.
+
+![Distributor stocking decision flow for BW-808 hybrid and BW-802 beam wiper blades](/blog/hybrid-vs-beam-stocking-decision-flow.png|1200x675)
+
+Then set a rule you can actually audit: which tier is allowed to run out, and which is not. The answer is usually the opposite of what the warehouse does by default.
+
+## Step 3: Decide How Many SKUs Earn Their Place
+
+Blade length and connector type multiply quickly into a long catalogue. Before adding SKUs, ask your supplier for two numbers in writing:
+
+1. **The share of the local car park your current range already covers**, calculated length by length.
+2. **The incremental coverage** each additional SKU buys.
+
+The second number is the one that saves money. Coverage usually rises steeply at the start of a range and flattens later, so the last SKUs in a catalogue often cost more in shelf space and dead stock than they return in sales.
+
+## Step 4: Treat Returns and Packaging as Part of the Unit Cost
+
+Two products with the same invoice price can have very different real costs:
+
+- **Return rate.** Every returned blade costs you the unit, the freight, the handling and the customer's confidence. Fitment errors and adapter confusion are the usual causes, and both are reduced by clear fitting instructions and a reliable fitment list.
+- **Packaging.** Retail packaging that survives container shipping protects the margin you negotiated. Under-specified boxes turn into damaged stock and refused deliveries.
+- **Storage footprint.** Slimmer packaging and higher container density lower your landed cost per unit long before the price list changes.
+
+Ask for the return-rate experience of comparable distributors, and for packaging tested for export, not just for local delivery.
+
+## Step 5: Phase Private Label In Tiers
+
+Private label is the fastest way to protect margin, and the fastest way to lose money if it is done in one jump. A three-step approach works better:
+
+- **Test.** One or two high-turnover SKUs under your brand, to prove the pack and the fitment.
+- **Prove.** Extend to the mix that already sells in your market, once reorder rates are measurable.
+- **Scale.** Only then commit to the full range, with your own artwork across the whole catalogue.
+
+Each phase should be able to stop without stranding inventory.
+
+## What to Ask a Supplier Before You Commit Volume
+
+- Fitment data for your market, in a format you can load into your own system.
+- The adapter system used per series, and whether it is exclusive to that supplier.
+- Packaging specifications, including export-strength cartons and retail artwork options.
+- The MOQ ladder, so you can see the cost of a small first order against a full container.
+- Production and shipping lead times, and how they behave in peak season.
+- Test reports for the rubber compound, coating and steel, referenced to recognised standards.
+- The returns and claims policy, in writing, before the first shipment.
+
+A supplier who cannot answer these in writing is telling you something useful.
+
+## Five Stocking Mistakes That Quietly Eat Margin
+
+1. Buying the entry tier for every market, then paying for it in returns and lost accounts.
+2. Buying the premium tier for every market, then watching it age on the shelf.
+3. Letting the range grow SKU by SKU without re-measuring coverage.
+4. Ordering retail packaging for a market that only wants bulk cartons.
+5. Committing to a full private-label catalogue before a single reorder cycle has been measured.
+
+## FAQ
+
+**Is one type more profitable than the other?**
+
+Not by itself. Beam usually turns over faster and hybrid usually earns more per unit. Which one is more profitable depends on your market's climate, your customers' return behaviour and how much of your capital each type ties up.
+
+**Should I stock both?**
+
+Most distributors should. The two types serve different customers, and carrying both protects you from being priced out of either conversation. The question is the ratio, not the choice.
+
+**How do I decide the ratio?**
+
+Start from the climate and car-park inputs in Step 1, then adjust once you have one full season of reorder data. Do not set the ratio from a catalogue.
+
+**Does private label have to cover the whole range?**
+
+No, and it rarely should at the start. Private label the SKUs that already turn over fastest, prove the pack and the fitment, then extend.
+
+**What single number should I ask for first?**
+
+The share of your local car park your current range covers, calculated length by length. It is the only number that tells you whether you are over-stocked or under-covered.
+
+## Next Step
+
+If you are planning next season's range, send us your market profile, the vehicle mix you sell into and the lengths you currently stock. We will come back with a suggested mix, the [hybrid blades](/products/category/hybrid) and [frame wiper blades](/products/category/frame-wiper) that fit it, and the packaging options for your channel. For brand and packaging work, see our [OEM and private label guide](/blog/oem-private-label-wiper-blades-guide), or [contact our export team](/contact) directly.
+`,
+  },
 ];
