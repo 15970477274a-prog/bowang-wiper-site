@@ -1,0 +1,303 @@
+"use client";
+
+import { useState, useEffect } from "react";
+import Link from "next/link";
+import Image from "next/image";
+import { translations, Locale } from "../app/translations";
+import PackagingSection from "./PackagingSection";
+
+export type FeaturedProduct = {
+  id: string;
+  name: string;
+  desc: string;
+  image: string;
+  moq: string;
+};
+
+type Props = {
+  locale: Locale;
+  featured: FeaturedProduct[];
+};
+
+/**
+ * Interactive home page shell.
+ *
+ * This JSX used to live directly in app/[lang]/page.tsx, which forced that page
+ * to be a client component — and therefore pulled the entire product catalogue
+ * (`allProducts`, 534 KB of JS) plus the whole product-translation table
+ * (`getProductTranslation`, 2.1 MB of JS) into the browser bundle just to render
+ * three featured cards. The page is now a server component (app/[lang]/page.tsx)
+ * that passes only those three products down as props.
+ */
+export default function HomeClient({ locale, featured }: Props) {
+  const urlLang = locale;
+  const [openFaq, setOpenFaq] = useState<number | null>(null);
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    company: "",
+    product: "Universal Wiper Blades",
+    message: ""
+  });
+  const [status, setStatus] = useState({
+    submitted: false,
+    loading: false,
+    error: ""
+  });
+
+  useEffect(() => {
+    localStorage.setItem("lelion_lang", urlLang);
+  }, [urlLang]);
+
+  const toggleFaq = (index: number) => {
+    setOpenFaq(openFaq === index ? null : index);
+  };
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value
+    });
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setStatus({ submitted: false, loading: true, error: "" });
+    try {
+      const response = await fetch("/api/inquiry", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+      if (response.ok) {
+        setStatus({ submitted: true, loading: false, error: "" });
+        setFormData({ name: "", email: "", company: "", product: "Universal Wiper Blades", message: "" });
+      } else {
+        throw new Error("Failed to send inquiry.");
+      }
+    } catch (err: any) {
+      setStatus({ submitted: false, loading: false, error: err.message });
+    }
+  };
+
+  const t = translations[urlLang];
+  const l = (p: string) => "/" + urlLang + p;
+  const reviews = [
+    { text: "Great product and service, will work with Ken once again.", name: "W****l", meta: "United States · 25 Aug 2026" },
+    { text: "Great products, great prices—their staff are very professional.", name: "T****a", meta: "United States · 02 Aug 2026" },
+    { text: "Excelente servicio, tal cual lo que pedimos de principio a fin.", name: "V****z", meta: "United States · 04 Aug 2026" }
+  ];
+
+  const faqItems = [
+    { q: t.faqQ1, a: t.faqA1 },
+    { q: t.faqQ2, a: t.faqA2 },
+    { q: t.faqQ3, a: t.faqA3 },
+    { q: t.faqQ4, a: t.faqA4 },
+    { q: t.faqQ5, a: t.faqA5 },
+    { q: t.faqQ6, a: t.faqA6 }
+  ];
+
+  
+  // FAQ Structured Data
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqItems.map(item => ({
+      "@type": "Question",
+      "name": item.q,
+      "acceptedAnswer": { "@type": "Answer", "text": item.a }
+    }))
+  };
+
+  // LocalBusiness Structured Data
+  const localBusinessSchema = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Ningbo Zhenhai Bowang Autoparts Co., Ltd.",
+    "image": "https://www.lelionautopart.com/banner.webp",
+    "@id": "https://www.lelionautopart.com/",
+    "url": "https://www.lelionautopart.com/",
+    "telephone": "+86-18867886795",
+    "email": "bwb@bwwiper.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Ningbo",
+      "addressRegion": "Zhejiang",
+      "addressCountry": "CN"
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+      "opens": "08:00",
+      "closes": "18:00"
+    },
+    "priceRange": "$"
+  };
+
+  return (
+    <main style={{ fontFamily: "system-ui, -apple-system, sans-serif", color: "#1e293b", backgroundColor: "#fcfcfc" }}>
+      {/* LCP: the hero background is a CSS url() inside an inline style, which the
+          preload scanner cannot discover. Declaring it explicitly lets the browser
+          start the fetch with the HTML instead of waiting for style resolution. */}
+      <link rel="preload" as="image" href="/banner.webp" fetchPriority="high" />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }} />
+{/* REPLACED WITH PROFESSIONAL RAIN-DRIVING BANNER */}
+      <section id="hero" style={{ 
+        padding: "140px 20px", 
+        textAlign: "center", 
+        background: "linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.7)), url('/banner.webp') center/cover no-repeat", 
+        color: "white" 
+      }}>
+        <div style={{ maxWidth: "850px", margin: "0 auto" }}>
+          <span style={{ backgroundColor: "#0284c7", padding: "6px 16px", borderRadius: "20px", fontSize: "12px", fontWeight: "bold", textTransform: "uppercase", marginBottom: "25px", display: "inline-block" }}>{t.heroTag}</span>
+          <h1 style={{ fontSize: "56px", fontWeight: 800, marginBottom: "25px", lineHeight: 1.1, textShadow: "0 2px 10px rgba(0,0,0,0.3)" }}>{t.heroTitle}</h1>
+          <p style={{ fontSize: "20px", color: "#cbd5e1", marginBottom: "45px", lineHeight: 1.6 }}>{t.heroSubtitle}</p>
+          <div style={{ display: "flex", gap: "20px", justifyContent: "center" }}>
+            <Link href={l("/contact")} className="btn-primary" style={{ padding: "18px 45px", fontSize: "18px", textDecoration: "none", backgroundColor: "#0284c7", color: "white", borderRadius: "8px", fontWeight: "bold", boxShadow: "0 10px 25px rgba(2, 132, 199, 0.4)" }}>{t.heroInquireBtn}</Link>
+            <Link href={l("/products")} className="btn-secondary" style={{ padding: "18px 45px", fontSize: "18px", backgroundColor: "white", color: "#0f172a", textDecoration: "none", borderRadius: "8px", fontWeight: "bold" }}>{t.heroProductsBtn}</Link>
+          </div>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "14px", justifyContent: "center", marginTop: "50px" }}>
+            {[t.trustMoa, t.trustLeadTime, t.trustShipping, t.trustCert, t.trustSample].map((item, i) => (
+              <span key={i} style={{ backgroundColor: "rgba(255,255,255,0.12)", border: "1px solid rgba(255,255,255,0.25)", padding: "10px 18px", borderRadius: "8px", fontSize: "14px", fontWeight: 600 }}>{item}</span>
+            ))}
+          </div>
+          <p style={{ marginTop: "18px", fontSize: "13px", color: "#e2e8f0" }}>{t.trustSampleNote}</p>
+        </div>
+      </section>
+
+      <section style={{ padding: "90px 20px", backgroundColor: "#ffffff" }}>
+        <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
+          <div style={{ textAlign: "center", marginBottom: "55px" }}>
+            <h2 style={{ fontSize: "34px", fontWeight: 800, color: "#0f172a" }}>{t.statsTitle}</h2>
+            <div style={{ height: "4px", width: "60px", backgroundColor: "#0284c7", margin: "15px auto" }}></div>
+            <p style={{ color: "#64748b", maxWidth: "640px", margin: "0 auto" }}>{t.statsSubtitle}</p>
+          </div>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "25px", marginBottom: "50px" }}>
+            {[
+              { v: t.stat1Value, l: t.stat1Label },
+              { v: t.stat2Value, l: t.stat2Label },
+              { v: t.stat3Value, l: t.stat3Label },
+              { v: t.stat4Value, l: t.stat4Label }
+            ].map((s, i) => (
+              <div key={i} style={{ textAlign: "center", padding: "35px 20px", backgroundColor: "#f8fafc", borderRadius: "12px", border: "1px solid #e2e8f0" }}>
+                <div style={{ fontSize: "38px", fontWeight: 800, color: "#0284c7" }}>{s.v}</div>
+                <div style={{ color: "#475569", fontSize: "15px", marginTop: "8px" }}>{s.l}</div>
+              </div>
+            ))}
+          </div>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: "30px", alignItems: "stretch" }}>
+            <div style={{ backgroundColor: "#0f172a", color: "white", borderRadius: "14px", padding: "40px", display: "flex", flexDirection: "column", justifyContent: "center" }}>
+              <div style={{ fontSize: "26px", fontWeight: 800, marginBottom: "15px" }}>{t.videoQcTitle}</div>
+              <p style={{ color: "#cbd5e1", lineHeight: 1.7, fontSize: "16px", margin: 0 }}>{t.videoQcDesc}</p>
+            </div>
+            <div style={{ position: "relative", borderRadius: "14px", overflow: "hidden", minHeight: "300px", backgroundColor: "#000" }}>
+              <iframe loading="lazy" src="https://www.youtube.com/embed/ppMeBaDm2hk" title="Lelion Wiper Factory Tour" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", border: 0 }} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section style={{ padding: "100px 20px", maxWidth: "1200px", margin: "0 auto" }}>
+        <div style={{ textAlign: "center", marginBottom: "60px" }}>
+          <h2 style={{ fontSize: "36px", fontWeight: 800, color: "#0f172a" }}>{t.featuredCategories}</h2>
+          <div style={{ height: "4px", width: "60px", backgroundColor: "#0284c7", margin: "15px auto" }}></div>
+        </div>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(350px, 1fr))", gap: "30px" }}>
+          {featured.map(p => {
+              const pName = p.name;
+              const pDesc = p.desc;
+              return (
+            <div key={p.id} style={{ backgroundColor: "white", borderRadius: "12px", overflow: "hidden", border: "1px solid #e2e8f0", textAlign: "center" }}>
+               <div style={{ height: "300px", backgroundColor: "#f8fafc", display: "flex", alignItems: "center", justifyContent: "center", padding: "20px" }}>
+                 <Image src={p.image} alt={pName} width={400} height={300} style={{ maxWidth: "100%", maxHeight: "100%", width: "auto", height: "auto", objectFit: "contain" }} loading="lazy" />
+               </div>
+               <div style={{ padding: "30px" }}>
+                 <h3 style={{ fontSize: "22px", fontWeight: 700, marginBottom: "15px" }}>{pName}</h3>
+                 <p style={{ color: "#64748b", fontSize: "15px", marginBottom: "25px", height: "45px", overflow: "hidden" }}>{pDesc}</p>
+                <div style={{ display: "flex", justifyContent: "center", gap: "18px", marginBottom: "20px", color: "#64748b", fontSize: "14px", fontWeight: 600 }}><span>MOQ: {p.moq}</span><span>{t.leadTimeLabel}: {t.leadTimeValue}</span></div>
+                 <Link href={l(`/products/${p.id}`)} style={{ color: "#0284c7", fontWeight: "bold", textDecoration: "none", fontSize: "15px" }}>{t.viewProducts}</Link>
+               </div>
+            </div>
+          )})}
+        </div>
+        <div style={{ textAlign: "center", marginTop: "60px" }}>
+           <Link href={l("/products")} style={{ background: "linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.7)), url('/banner.webp') center/cover no-repeat", color: "white", padding: "15px 40px", borderRadius: "8px", textDecoration: "none", fontWeight: "bold" }}>{t.enterProductCenter}</Link>
+        </div>
+      </section>
+
+      
+      <PackagingSection title={t.packagingTitle} desc={t.packagingDesc} />
+
+      <section style={{ padding: "90px 20px", backgroundColor: "#f8fafc" }}>
+        <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
+          <div style={{ textAlign: "center", marginBottom: "55px" }}>
+            <div style={{ display: "inline-block", backgroundColor: "#0284c7", color: "white", padding: "8px 20px", borderRadius: "20px", fontSize: "14px", fontWeight: 700, marginBottom: "18px" }}>4.7 / 5 · 39 Reviews</div>
+            <h2 style={{ fontSize: "34px", fontWeight: 800, color: "#0f172a" }}>{t.reviewsTitle}</h2>
+            <div style={{ height: "4px", width: "60px", backgroundColor: "#0284c7", margin: "15px auto" }}></div>
+            <p style={{ color: "#64748b" }}>{t.reviewsSubtitle}</p>
+          </div>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "25px" }}>
+            {reviews.map((r, i) => (
+              <div key={i} style={{ backgroundColor: "#ffffff", borderRadius: "12px", border: "1px solid #e2e8f0", padding: "30px", display: "flex", flexDirection: "column" }}>
+                <div style={{ color: "#f59e0b", fontSize: "18px", letterSpacing: "2px", marginBottom: "15px" }}>★★★★★</div>
+                <p style={{ color: "#334155", lineHeight: 1.7, fontSize: "15px", flex: 1, margin: 0 }}>“{r.text}”</p>
+                <div style={{ marginTop: "20px", borderTop: "1px solid #f1f5f9", paddingTop: "15px" }}>
+                  <div style={{ fontWeight: 700, color: "#0f172a" }}>{r.name}</div>
+                  <div style={{ color: "#94a3b8", fontSize: "13px" }}>{r.meta}</div>
+                </div>
+              </div>
+            ))}
+          </div>
+          <p style={{ textAlign: "center", color: "#94a3b8", fontSize: "13px", marginTop: "30px", marginBottom: 0 }}>{t.reviewsSource}</p>
+        </div>
+      </section>
+
+
+      <section style={{ padding: "100px 20px", backgroundColor: "#f8fafc" }}>
+        <div style={{ maxWidth: "900px", margin: "0 auto" }}>
+          <div style={{ textAlign: "center", marginBottom: "60px" }}>
+            <h2 style={{ fontSize: "36px", fontWeight: 800, color: "#0f172a" }}>{t.faqTitle}</h2>
+            <div style={{ height: "4px", width: "60px", backgroundColor: "#0284c7", margin: "15px auto" }}></div>
+            <p style={{ color: "#64748b" }}>{t.faqSubtitle}</p>
+          </div>
+          <div style={{ display: "flex", flexDirection: "column", gap: "15px" }}>
+            {faqItems.map((item, idx) => (
+              <div key={idx} style={{ backgroundColor: "#ffffff", borderRadius: "12px", border: "1px solid #e2e8f0", overflow: "hidden" }}>
+                <button onClick={() => toggleFaq(idx)} style={{ width: "100%", padding: "20px 30px", display: "flex", justifyContent: "space-between", alignItems: "center", backgroundColor: "transparent", border: "none", cursor: "pointer", textAlign: "left" }}>
+                  <span style={{ fontSize: "18px", fontWeight: 700, color: openFaq === idx ? "#0284c7" : "#0f172a" }}>{item.q}</span>
+                  <span style={{ fontSize: "24px", color: "#94a3b8", transform: openFaq === idx ? "rotate(45deg)" : "rotate(0)", transition: "transform 0.3s" }}>+</span>
+                </button>
+                <div style={{ maxHeight: openFaq === idx ? "300px" : "0", overflow: "hidden", transition: "all 0.3s ease-out", padding: openFaq === idx ? "0 30px 25px 30px" : "0 30px" }}>
+                  <p style={{ fontSize: "16px", color: "#64748b", lineHeight: 1.6, margin: 0 }}>{item.a}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" style={{ padding: "100px 20px", backgroundColor: "#ffffff" }}>
+        <div style={{ maxWidth: "900px", margin: "0 auto", backgroundColor: "#f8fafc", padding: "60px", borderRadius: "16px", border: "1px solid #e2e8f0" }}>
+          <div style={{ textAlign: "center", marginBottom: "45px" }}>
+            <h2 style={{ fontSize: "32px", fontWeight: 800, color: "#0f172a" }}>{t.contactTitle}</h2>
+            <p style={{ color: "#64748b" }}>{t.contactSubtitle}</p>
+          </div>
+          <form onSubmit={handleSubmit}>
+            <input type="text" name="website" tabIndex={-1} autoComplete="off" style={{ position: "absolute", left: "-9999px", opacity: 0 }} aria-hidden="true" />
+            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "25px", marginBottom: "25px" }}>
+              <input type="text" name="name" required value={formData.name} onChange={handleChange} placeholder={t.contactNameLabel} style={{ width: "100%", padding: "14px", border: "1px solid #e2e8f0", borderRadius: "8px" }} />
+              <input type="email" name="email" required value={formData.email} onChange={handleChange} placeholder={t.contactEmailLabel} style={{ width: "100%", padding: "14px", border: "1px solid #e2e8f0", borderRadius: "8px" }} />
+            </div>
+            <input type="text" name="company" value={formData.company} onChange={handleChange} placeholder={t.contactCompanyLabel} style={{ width: "100%", padding: "14px", border: "1px solid #e2e8f0", borderRadius: "8px", marginBottom: "25px" }} />
+            <select name="product" value={formData.product} onChange={handleChange} style={{ width: "100%", padding: "14px", border: "1px solid #e2e8f0", borderRadius: "8px", marginBottom: "25px" }}>
+              <option value="Universal Wiper Blades">Universal</option><option value="Specific Fit Wiper Blades">Specific Fit</option><option value="Multifunction Wiper Blades">Multifunction</option>
+            </select>
+            <textarea name="message" required rows={4} value={formData.message} onChange={handleChange} placeholder={t.contactMessagePlaceholder} style={{ width: "100%", padding: "14px", border: "1px solid #e2e8f0", borderRadius: "8px", marginBottom: "35px" }} />
+            {status.submitted && <div style={{ backgroundColor: "#ecfdf5", color: "#065f46", padding: "15px", borderRadius: "8px", marginBottom: "25px" }}><strong>{t.contactSuccessMsg}</strong></div>}
+            <button type="submit" disabled={status.loading} style={{ width: "100%", backgroundColor: "#0284c7", color: "white", padding: "16px", borderRadius: "8px", fontSize: "16px", fontWeight: "bold", cursor: "pointer" }}>{status.loading ? t.contactSubmittingBtn : t.contactSubmitBtn}</button>
+          </form>
+        </div>
+      </section>
+    </main>
+  );
+}
