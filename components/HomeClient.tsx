@@ -32,6 +32,7 @@ type Props = {
 export default function HomeClient({ locale, featured }: Props) {
   const urlLang = locale;
   const [openFaq, setOpenFaq] = useState<number | null>(null);
+  const [playVideo, setPlayVideo] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -192,7 +193,34 @@ export default function HomeClient({ locale, featured }: Props) {
               <p style={{ color: "#cbd5e1", lineHeight: 1.7, fontSize: "16px", margin: 0 }}>{t.videoQcDesc}</p>
             </div>
             <div style={{ position: "relative", borderRadius: "14px", overflow: "hidden", minHeight: "300px", backgroundColor: "#000" }}>
-              <iframe loading="lazy" src="https://www.youtube.com/embed/ppMeBaDm2hk" title="Lelion Wiper Factory Tour" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", border: 0 }} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              {playVideo ? (
+                              <iframe
+                                src="https://www.youtube.com/embed/ppMeBaDm2hk?autoplay=1"
+                                title="Lelion Wiper Factory Tour"
+                                style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", border: 0 }}
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowFullScreen
+                              />
+                            ) : (
+                              <button
+                                type="button"
+                                onClick={() => setPlayVideo(true)}
+                                aria-label="Play the Lelion factory tour video"
+                                style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", padding: 0, border: 0, cursor: "pointer", backgroundColor: "#000", display: "flex", alignItems: "center", justifyContent: "center" }}
+                              >
+                                <img
+                                  src="https://i.ytimg.com/vi/ppMeBaDm2hk/hqdefault.jpg"
+                                  alt=""
+                                  loading="lazy"
+                                  width={480}
+                                  height={360}
+                                  style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover" }}
+                                />
+                                <span style={{ position: "relative", width: "72px", height: "72px", borderRadius: "50%", backgroundColor: "#dc2626", display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "0 8px 24px rgba(0,0,0,0.4)" }}>
+                                  <span style={{ width: 0, height: 0, borderTop: "14px solid transparent", borderBottom: "14px solid transparent", borderLeft: "22px solid #fff", marginLeft: "6px" }} />
+                                </span>
+                              </button>
+                            )}
             </div>
           </div>
         </div>
