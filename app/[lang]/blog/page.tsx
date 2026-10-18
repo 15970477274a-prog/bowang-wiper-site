@@ -1,146 +1,22 @@
-"use client";
+import { blogListItems } from "../../data/blogList";
+import BlogClient from "../../../components/BlogClient";
 
-import { useState, useEffect } from "react";
-import { useParams } from "next/navigation";
-import Link from "next/link";
-import Image from "next/image";
-import { translations, Locale } from "../../translations";
-import { blogPosts } from "../../data/blog";
-import { getBlogTranslation } from "../../data/blogTranslations";
+type Props = { params: Promise<{ lang: string }> };
 
-export default function BlogPage() {
-  const params = useParams();
-  const urlLang = (params.lang as Locale) || "en";
-  const [lang, setLang] = useState<Locale>(urlLang);
-  const [activeTag, setActiveTag] = useState("All");
+const locales = ["en", "es", "ru", "fr", "de", "zh"] as const;
+type Locale = (typeof locales)[number];
 
-  useEffect(() => {
-    setLang(urlLang);
-    localStorage.setItem("lelion_lang", urlLang);
-  }, [urlLang]);
+/**
+ * Blog index — server component.
+ *
+ * It used to be `"use client"` and read `blogPosts` + `getBlogTranslation`
+ * directly, which shipped the whole blog corpus and its five translation tables
+ * (~350 KB) to every visitor to render twelve cards. Only the fields a card
+ * renders are serialised into the page now.
+ */
+export default async function Page({ params }: Props) {
+  const { lang } = await params;
+  const locale: Locale = (locales as readonly string[]).includes(lang) ? (lang as Locale) : "en";
 
-  const t = translations[lang];
-  const tagMap: Record<string, Record<string, string>> = {
-    en: { "All": "All Posts", "wiper blade manufacturer": "Wiper Blade Manufacturer", "China supplier": "China Supplier", "OEM wiper blades": "OEM Wiper Blades", "sourcing guide": "Sourcing Guide", "B2B procurement": "B2B Procurement", "wiper blade materials": "Wiper Blade Materials", "natural rubber": "Natural Rubber", "silicone wiper": "Silicone Wiper", "wiper blade quality": "Wiper Blade Quality" },
-    zh: { "All": "全部文章", "wiper blade manufacturer": "雨刮片制造商", "China supplier": "中国供应商", "OEM wiper blades": "OEM雨刮片", "sourcing guide": "采购指南", "B2B procurement": "B2B采购", "wiper blade materials": "雨刮片材料", "natural rubber": "天然橡胶", "silicone wiper": "硅胶雨刮", "wiper blade quality": "雨刮片质量" },
-    es: { "All": "Todos", "wiper blade manufacturer": "Fabricante", "China supplier": "Proveedor Chino", "OEM wiper blades": "OEM", "sourcing guide": "Guía", "B2B procurement": "B2B", "wiper blade materials": "Materiales", "natural rubber": "Caucho Natural", "silicone wiper": "Silicona", "wiper blade quality": "Calidad" },
-    ru: { "All": "Все", "wiper blade manufacturer": "Производитель", "China supplier": "Китайский Поставщик", "OEM wiper blades": "OEM", "sourcing guide": "Гид", "B2B procurement": "B2B", "wiper blade materials": "Материалы", "natural rubber": "Натуральный Каучук", "silicone wiper": "Силикон", "wiper blade quality": "Качество" },
-    fr: { "All": "Tout", "wiper blade manufacturer": "Fabricant", "China supplier": "Fournisseur Chinois", "OEM wiper blades": "OEM", "sourcing guide": "Guide", "B2B procurement": "B2B", "wiper blade materials": "Matériaux", "natural rubber": "Caoutchouc Naturel", "silicone wiper": "Silicone", "wiper blade quality": "Qualité" },
-    de: { "All": "Alle", "wiper blade manufacturer": "Hersteller", "China supplier": "China-Lieferant", "OEM wiper blades": "OEM", "sourcing guide": "Leitfaden", "B2B procurement": "B2B", "wiper blade materials": "Materialien", "natural rubber": "Naturkautschuk", "silicone wiper": "Silikon", "wiper blade quality": "Qualität" }
-  };
-  const getTag = (tag: string) => (tagMap[lang] || tagMap.en)[tag] || tag;
-  const l = (p: string) => "/" + lang + p;
-  
-  // BreadcrumbList schema
-  const breadcrumbSchema = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.lelionautopart.com/" + lang },
-      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.lelionautopart.com/" + lang + "/blog" }
-    ]
-  };
-
-  // BlogPosting schema for the listing page
-  const blogListingSchema = {
-    "@context": "https://schema.org",
-    "@type": "CollectionPage",
-    "name": "Wiper Blade Industry Blog | Lelion Autoparts",
-    "description": "Industry insights, buying guides, and technical articles about wiper blade manufacturing and the automotive aftermarket.",
-    "url": "https://www.lelionautopart.com/blog",
-    "isPartOf": { "@type": "WebSite", "name": "Lelion Autoparts" }
-  };
-
-  // Extract unique tags
-  const allTags = ["All", ...new Set(blogPosts.flatMap(p => p.tags))];
-  
-  const filteredPosts = activeTag === "All"
-    ? blogPosts
-    : blogPosts.filter(p => p.tags.includes(activeTag));
-
-  // Sort by date (newest first)
-  filteredPosts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
-
-  return (
-    <main style={{ fontFamily: "system-ui, -apple-system, sans-serif", color: "#1e293b", backgroundColor: "#fcfcfc" }}>
-      
-      {/* JSON-LD Schemas */}
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogListingSchema) }} />
-
-      {/* Banner */}
-      <section style={{padding: "80px 20px", color: "white", textAlign: "center", borderBottom: "1px solid #1e293b", backgroundColor: "#0f172a" }}>
-        <h1 style={{ fontSize: "42px", fontWeight: 800, marginBottom: "15px" }}>{t.blogPageTitle}</h1>
-        <p style={{ color: "#94a3b8", maxWidth: "650px", margin: "0 auto", fontSize: "16px", lineHeight: 1.6 }}>
-          {t.blogPageSub}
-        </p>
-      </section>
-
-      {/* Tag Filter */}
-      <section style={{ padding: "40px 20px 0", maxWidth: "1250px", margin: "0 auto" }}>
-        <div style={{ display: "flex", gap: "10px", flexWrap: "wrap", marginBottom: "40px" }}>
-          {allTags.slice(0, 10).map(tag => (
-            <button key={tag} onClick={() => setActiveTag(tag)} style={{
-              padding: "8px 18px", borderRadius: "20px", cursor: "pointer", fontSize: "13px", fontWeight: 500,
-              border: activeTag === tag ? "none" : "1px solid #e2e8f0",
-              backgroundColor: activeTag === tag ? "#0284c7" : "#ffffff",
-              color: activeTag === tag ? "#ffffff" : "#64748b",
-              transition: "all 0.2s ease"
-            }}>
-              {getTag(tag)}
-            </button>
-          ))}
-        </div>
-      </section>
-
-      {/* Blog Grid */}
-      <section style={{ padding: "0 20px 80px", maxWidth: "1250px", margin: "0 auto" }}>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(370px, 1fr))", gap: "35px" }}>
-          {filteredPosts.map(post => (
-            <Link key={post.id} href={l(`/blog/${post.id}`)} style={{ textDecoration: "none", color: "inherit" }}>
-              <article style={{
-                backgroundColor: "#ffffff", borderRadius: "12px", overflow: "hidden",
-                border: "1px solid #e2e8f0", transition: "transform 0.3s ease, box-shadow 0.3s ease",
-                height: "100%", display: "flex", flexDirection: "column"
-              }} className="card-hover">
-                <div style={{ height: "200px", overflow: "hidden", backgroundColor: "#f1f5f9" }}>
-                  <Image src={post.image} alt={post.title} width={400} height={225} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
-                </div>
-                <div style={{ padding: "25px", flex: 1, display: "flex", flexDirection: "column" }}>
-                  <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "12px" }}>
-                    <span style={{ backgroundColor: "#e0f2fe", color: "#0369a1", padding: "4px 12px", borderRadius: "12px", fontSize: "12px", fontWeight: 600 }}>{post.category}</span>
-                    <span style={{ color: "#94a3b8", fontSize: "12px" }}>{post.date}</span>
-                  </div>
-                  <h2 style={{ fontSize: "18px", fontWeight: 700, margin: "0 0 12px 0", lineHeight: 1.4, color: "#0f172a" }}>{(getBlogTranslation(post.id, lang)?.title || post.title)}</h2>
-                  <p style={{ color: "#64748b", fontSize: "14px", lineHeight: 1.6, flex: 1, margin: "0 0 15px 0" }}>{(getBlogTranslation(post.id, lang)?.excerpt || post.excerpt)}</p>
-                  <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", borderTop: "1px solid #f1f5f9", paddingTop: "15px" }}>
-                    <span style={{ color: "#0284c7", fontSize: "13px", fontWeight: 700 }}>{lang === "zh" ? "阅读更多 →" : lang === "es" ? "Leer Más →" : lang === "ru" ? "Читать Далее →" : lang === "fr" ? "Lire Plus →" : lang === "de" ? "Weiterlesen →" : "Read More →"}</span>
-                    <span style={{ color: "#94a3b8", fontSize: "12px" }}>{post.author}</span>
-                  </div>
-                </div>
-              </article>
-            </Link>
-          ))}
-        </div>
-      </section>
-
-      {/* CTA */}
-      <section style={{ padding: "80px 20px", textAlign: "center", backgroundColor: "#f8fafc" }}>
-        <div style={{ maxWidth: "700px", margin: "0 auto" }}>
-          <h2 style={{ fontSize: "30px", fontWeight: 800, marginBottom: "15px", color: "#0f172a" }}>{lang === "zh" ? "想了解更多产品信息？" : lang === "es" ? "¿Quiere Saber Más Sobre Nuestros Productos?" : lang === "ru" ? "Хотите Узнать Больше о Нашей Продукции?" : lang === "fr" ? "En Savoir Plus Sur Nos Produits ?" : lang === "de" ? "Mehr Über Unsere Produkte Erfahren?" : "Want to Learn More About Our Products?"}</h2>
-          <p style={{ color: "#64748b", marginBottom: "30px" }}>{lang === "zh" ? "浏览我们完整的雨刮片目录，或联系我们的出口团队获取批发价格。" : lang === "es" ? "Explore nuestro catálogo completo de escobillas o contacte a nuestro equipo de exportación para precios al por mayor." : lang === "ru" ? "Просмотрите наш полный каталог щеток стеклоочистителя или свяжитесь с нашим экспортным отделом для оптовых цен." : lang === "fr" ? "Parcourez notre catalogue complet de balais d'essuie-glace ou contactez notre équipe export pour des prix de gros." : lang === "de" ? "Durchsuchen Sie unseren vollständigen Wischerblatt-Katalog oder kontaktieren Sie unser Exportteam für Großhandelspreise." : "Browse our complete wiper blade catalog or contact our export team for bulk pricing."}</p>
-          <div style={{ display: "flex", gap: "15px", justifyContent: "center", flexWrap: "wrap" }}>
-            <Link href={l("/products")} style={{ backgroundColor: "#0284c7", color: "white", padding: "14px 35px", borderRadius: "8px", textDecoration: "none", fontWeight: "bold", fontSize: "15px" }}>{t.viewProducts}</Link>
-            <Link href={l("/contact")} style={{ backgroundColor: "#ffffff", color: "#0284c7", padding: "14px 35px", borderRadius: "8px", textDecoration: "none", fontWeight: "bold", fontSize: "15px", border: "2px solid #0284c7" }}>{lang === "zh" ? "联系我们" : lang === "es" ? "Contacto" : lang === "ru" ? "Контакты" : lang === "fr" ? "Contact" : lang === "de" ? "Kontakt" : "Contact Us"}</Link>
-          </div>
-        </div>
-      </section>
-
-      {/* Footer */}
-{/* Floating WhatsApp */}
-      <a href="https://wa.me/8618867886795" target="_blank" rel="noopener noreferrer" style={{ position: "fixed", bottom: "30px", right: "30px", width: "60px", height: "60px", backgroundColor: "#25d366", borderRadius: "50%", display: "flex", justifyContent: "center", alignItems: "center", boxShadow: "0 4px 12px rgba(0,0,0,0.2)", zIndex: 9999 }}>
-        <svg width="30" height="30" viewBox="0 0 448 512" fill="white"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.1 0-65.6-8.9-93.3-25.7l-6.7-4.1-69.5 18.3 18.7-67.7-4.5-7.1C51.3 322.2 42.1 289 42.1 254c0-100.1 81.3-181.5 181.6-181.5 48.5 0 94.1 18.9 128.4 53.3 34.3 34.4 53.2 80 53.2 128.4 0 100.2-81.4 181.5-181.4 181.5zm113.8-154.2c-6.2-3.1-36.8-18.1-42.5-20.1-5.7-2-9.8-3.1-13.9 3.1-4.1 6.2-15.8 20.1-19.4 24.1-3.6 4-7.2 4.5-13.4 1.5-6.2-3.1-26.2-9.6-49.9-27.5-18.4-16.4-30.8-36.7-34.4-42.8-3.6-6.2-.4-9.6 2.7-12.7 2.8-2.8 6.2-7.2 9.3-10.8 3.1-3.6 4.1-6.2 6.2-10.3 2-4.1 1-7.7-.5-10.8-1.5-3.1-13.9-33.5-19.1-45.8-5-12.2-10.2-10.5-13.9-10.6-3.6-.1-7.7-.1-11.8-.1-4.1 0-10.8 1.5-16.5 7.7-5.7 6.2-21.6 21.1-21.6 51.5 0 30.4 22.1 59.8 25.2 64 3.1 4.1 43.5 33.2 105.3 59.8 14.7 6.3 26.2 10.1 35.1 13 14.8 2.8 28.2 2.4 38.9 1c11.9-1.5 36.8-4.8 42-9.5 5.1-4.6 5.1-8.7 3.6-10.8-1.5-2.1-5.7-3.1-11.8-6.2z" /></svg>
-      </a>
-    </main>
-  );
+  return <BlogClient locale={locale} posts={blogListItems(locale)} />;
 }
