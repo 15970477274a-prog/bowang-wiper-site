@@ -1,5 +1,12 @@
 const nextConfig = {
   reactStrictMode: true,
+  experimental: {
+    // Required for app/global-not-found.tsx. The app has no single root layout
+    // anymore — app/[lang]/layout.tsx owns <html> so the lang attribute can be
+    // rendered per locale — which is precisely when Next.js needs this flag to
+    // serve a branded 404 for URLs that match no route at all.
+    globalNotFound: true,
+  },
   images: {
     remotePatterns: [
       { protocol: "https", hostname: "*.lelionautopart.com" },
@@ -44,6 +51,22 @@ const nextConfig = {
 };
 
 module.exports = { ...nextConfig, async redirects() { return [
+  // --- Canonical entry points, 2026-10-15 ---
+  // Goal: one permanent (301) hop into the canonical, slash-free, localised URL.
+  // The locale middleware already handles non-prefixed paths; these rules add the
+  // host-level collapse and a fallback for the bare root.
+  //
+  // IMPORTANT: Vercel currently answers `lelionautopart.com` with its own
+  // dashboard-level "Redirect to Primary Domain" (308) BEFORE the app runs, so
+  // the two apex rules below stay dormant until that setting is switched off in
+  // the Vercel project. With it switched off, apex -> https://www.../en becomes a
+  // single hop. Host-specific rules must come first, otherwise { source: "/" }
+  // would match the apex root before the host rule is evaluated.
+  { source: "/", has: [{ type: "host", value: "lelionautopart.com" }], destination: "https://www.lelionautopart.com/en", statusCode: 301 },
+  { source: "/:path+", has: [{ type: "host", value: "lelionautopart.com" }], destination: "https://www.lelionautopart.com/:path+", statusCode: 301 },
+  // Bare root on the canonical host: straight to /en (the middleware normally
+  // wins this race; kept as a fallback if the middleware matcher is narrowed).
+  { source: "/", destination: "/en", statusCode: 301 },
   { source: "/:lang/Catalog.pdf", destination: "/Catalog.pdf", permanent: true },
   { source: "/about-us", destination: "/en/about", permanent: true },
   { source: "/contact-us", destination: "/en/contact", permanent: true },
@@ -109,4 +132,15 @@ module.exports = { ...nextConfig, async redirects() { return [
   // bw-405-frame-wiper-bw-405 (Frame Wiper), so the Universal facade is removed and
   // points at the surviving page. statusCode 301 keeps the code exact.
   { source: "/:lang/products/bw-405-classic-frame-wiper-blade", destination: "/:lang/products/bw-405-frame-wiper-bw-405", statusCode: 301 },
+  // --- Duplicate product page consolidated, 2026-10-15 ---
+  // bw-826-205 was the same product as bw-826-193: identical primary image AND the
+  // same five gallery images, identical BW-826 spec sheet and MOQ, and literally the
+  // same Spanish and Chinese name. Only the English name differed ("Wiper Blade" vs
+  // "Wiper Blades") and the losing record also carried a typo ("sepcial wiper blade").
+  // The surviving page is bw-826-193 — its name matches the catalogue's dominant
+  // "... Wiper Blades for <vehicle>" style (116 records vs 44) and its description is
+  // typo-free. As with the consolidations above, the losing record is also removed from
+  // the product data (so it leaves sitemap.xml and static generation) together with its
+  // translation entry. statusCode 301 keeps the code exact (:lang covers six locales).
+  { source: "/:lang/products/bw-826-205", destination: "/:lang/products/bw-826-193", statusCode: 301 },
 ]; } };

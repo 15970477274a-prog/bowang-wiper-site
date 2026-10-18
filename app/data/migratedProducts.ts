@@ -3972,22 +3972,6 @@ export const migratedProducts: Product[] = [
     features: ["Model BW-822 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
   },
   {
-    id: "bw-826-205",
-    category: "Specific Fit",
-    name: "Wholesale Car External Accessories Front Windshield Wiper Blade for BMW 5 SERIES 2004-2009",
-    moq: "300 PCS",
-    desc: "LELION wholesale sepcial wiper blade",
-    longDesc: "Wholesale Car External Accessories Front Windshield Wiper Blade for BMW 5 SERIES 2004-2009. LELION wholesale sepcial wiper blade",
-    specs: ["Product Model: BW-826", "Size: Standard", "Color: Black", "OEM/ODM custom branding & packaging available", "Factory-direct wholesale pricing", "ISO 9001 manufacturing quality"],
-    tag: "Factory Direct",
-    image: "/products/ABUIABACGAAggq-vvQYo1pK36wcwuBc4uBc.jpg",
-    gallery: ["/products/ABUIABACGAAgg6-vvQYo9dDt_gMwuBc4uBc.jpg", "/products/ABUIABACGAAggq-vvQYohuyHhQYwuBc4uBc.jpg", "/products/ABUIABACGAAggq-vvQYooquk3gEwuBc4uBc.jpg", "/products/ABUIABACGAAggq-vvQYosMS99gYwuBc4uBc.jpg", "/products/ABUIABACGAAggq-vvQYozrO27AEwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-826","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Wiper Blade for BMW 5 SERIES 2004-2009","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
-    keywords: ["sepcial wiper blade wholesale", "wiper blade", "frameless wiper blade", "wholesale wiper blade"],
-    applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
-    features: ["Model BW-826 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
-  },
-  {
     id: "bw-709-217",
     category: "Specific Fit Frame Wiper",
     name: "Wholesale Car External Accessories Front Windshield Wiper Blade for Land Rover Range Rover 2003-2012",
