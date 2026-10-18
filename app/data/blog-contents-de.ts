@@ -17,7 +17,6 @@ Ein zuverlässiger Hersteller sollte Folgendes bieten:
 
 Prüfen Sie unbedingt diese Zertifizierungen:
 - ISO 9001:2015 — grundlegendes Qualitätsmanagement
-- IATF 16949 — automobilspezifischer Qualitätsstandard
 - CE-Kennzeichnung — Konformität für den europäischen Markt
 - Materialprüfberichte (Ozon, Salzsprühnebel, Kältebeständigkeit)
 
@@ -160,17 +159,6 @@ Dies ist die grundlegende Qualitätszertifizierung. Sie stellt sicher, dass der 
 - Kontinuierliche Verbesserungsprozesse
 - Kundenorientierung und Feedbacksysteme
 - Regelmäßige interne und externe Audits
-
-### IATF 16949 — Automobil-Qualitätsstandard
-
-Dies ist der Goldstandard für Automobilteile-Hersteller. Er umfasst alle Anforderungen der ISO 9001 sowie zusätzlich:
-- Automobilspezifisches Risikomanagement (FMEA)
-- Produktionsteil-Abnahmeverfahren (PPAP)
-- Messsystemanalyse (MSA)
-- Statistische Prozesskontrolle (SPC)
-- Strenge Rückverfolgbarkeitsanforderungen
-
-**Warum das wichtig ist:** IATF 16949-zertifizierte Hersteller befolgen die gleichen Qualitätsstandards wie Tier-1-Automobilzulieferer.
 
 ### CE-Kennzeichnung — Europäische Konformität
 
@@ -591,7 +579,7 @@ Eine professionelle Website und ein reaktionsschnelles Vertriebsteam sind noch k
 
 **So vermeiden Sie es:**
 - Fordern Sie eine Video-Werksführung an, die Produktionslinien zeigt — nicht nur den Ausstellungsraum
-- Überprüfen Sie Zertifizierungen direkt — ISO- und IATF-Zertifikate lassen sich auf den Websites der ausstellenden Stellen prüfen
+- Überprüfen Sie Zertifizierungen direkt — ISO-Zertifikate lassen sich auf den Websites der ausstellenden Stellen prüfen
 - Bitten Sie um einen Live-Videoanruf durch die Produktionshalle
 - Prüfen Sie Exportaufzeichnungen: Eine Fabrik, die in über 50 Länder liefert, baut im Laufe der Zeit Glaubwürdigkeit auf
 - Bei großen Aufträgen: Beauftragen Sie ein Dritt-Werksaudit (SGS, Bureau Veritas, TÜV)

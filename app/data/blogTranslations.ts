@@ -64,7 +64,6 @@ export const blogTranslations: Record<string, Record<string, BlogTranslation>> =
 
 务必核实以下认证：
 - ISO 9001:2015 — 基础质量管理体系
-- IATF 16949 — 汽车行业专项质量标准
 - CE认证 — 欧洲市场合规要求
 - 材料检测报告（臭氧、盐雾、耐低温）
 
@@ -244,24 +243,24 @@ Lelion 欢迎全球新分销商。我们提供样品支持、灵活起订量和�
 
   "wiper-blade-quality-certifications-explained": {
     es: {
-      title: "Certificaciones de Calidad de Escobillas Explicadas: ISO, IATF, CE y Más",
-      excerpt: "¿Qué significan las certificaciones ISO 9001, IATF 16949 y CE para la calidad de las escobillas? Una explicación detallada para compradores B2B y profesionales de compras."
+      title: "Certificaciones de Calidad de Escobillas Explicadas: ISO, CE y Más",
+      excerpt: "¿Qué significan las certificaciones ISO 9001 y CE para la calidad de las escobillas? Una explicación detallada para compradores B2B y profesionales de compras."
     },
     ru: {
-      title: "Объяснение сертификатов качества стеклоочистителей: ISO, IATF, CE и другие",
-      excerpt: "Что означают сертификаты ISO 9001, IATF 16949 и CE для качества стеклоочистителей? Подробное объяснение для B2B-покупателей и специалистов по закупкам."
+      title: "Объяснение сертификатов качества стеклоочистителей: ISO, CE и другие",
+      excerpt: "Что означают сертификаты ISO 9001 и CE для качества стеклоочистителей? Подробное объяснение для B2B-покупателей и специалистов по закупкам."
     },
     fr: {
-      title: "Certifications de Qualité des Balais d'Essuie-glace Expliquées : ISO, IATF, CE et Plus",
-      excerpt: "Que signifient les certifications ISO 9001, IATF 16949 et CE pour la qualité des balais d'essuie-glace ? Une explication détaillée pour les acheteurs B2B et les professionnels des achats."
+      title: "Certifications de Qualité des Balais d'Essuie-glace Expliquées : ISO, CE et Plus",
+      excerpt: "Que signifient les certifications ISO 9001 et CE pour la qualité des balais d'essuie-glace ? Une explication détaillée pour les acheteurs B2B et les professionnels des achats."
     },
     de: {
-      title: "Wischerblatt-Qualitätszertifizierungen erklärt: ISO, IATF, CE und mehr",
-      excerpt: "Was bedeuten ISO 9001, IATF 16949 und CE-Zertifizierungen für die Wischerblattqualität? Eine detaillierte Erklärung für B2B-Einkäufer und Beschaffungsprofis."
+      title: "Wischerblatt-Qualitätszertifizierungen erklärt: ISO, CE und mehr",
+      excerpt: "Was bedeuten ISO 9001 und CE-Zertifizierungen für die Wischerblattqualität? Eine detaillierte Erklärung für B2B-Einkäufer und Beschaffungsprofis."
     },
     zh: {
-      title: "雨刮片质量认证详解：ISO、IATF、CE及更多",
-      excerpt: "ISO 9001、IATF 16949和CE认证对雨刮片质量意味着什么？为B2B买家和采购专业人士提供的详细解释。",
+      title: "雨刮片质量认证详解：ISO、CE及更多",
+      excerpt: "ISO 9001和CE认证对雨刮片质量意味着什么？为B2B买家和采购专业人士提供的详细解释。",
       content: `## 了解雨刮片质量认证
 
 对于B2B买家而言，认证是判断制造商质量水平最可靠的指标。以下是主要认证对雨刮片生产的意义。
@@ -273,17 +272,6 @@ Lelion 欢迎全球新分销商。我们提供样品支持、灵活起订量和�
 - 持续改进机制
 - 以客户为中心和反馈体系
 - 定期的内外部审核
-
-### IATF 16949 — 汽车行业质量标准
-
-这是汽车零部件制造商的黄金标准，涵盖ISO 9001的全部内容，并在此基础上增加：
-- 汽车行业专项风险管理（FMEA）
-- 生产件批准程序（PPAP）
-- 测量系统分析（MSA）
-- 统计过程控制（SPC）
-- 严格的可追溯性要求
-
-**为什么重要：** 通过IATF 16949认证的制造商遵循与一级汽车供应商相同的质量标准。
 
 ### CE标志 — 欧盟合规
 
@@ -375,7 +363,7 @@ Lelion 欢迎全球新分销商。我们提供样品支持、灵活起订量和�
   },
     "oem-private-label-wiper-blades-guide": {
     es: {
-      title: "Baldes de Limpiaparabrisas OEM y de Marca Privada: Guía Completa para Importadores y Distribuidores",
+      title: "Escobillas Limpiaparabrisas OEM y de Marca Privada: Guía Completa para Importadores y Distribuidores",
       excerpt: "Todo lo que los compradores B2B necesitan saber sobre la fabricación OEM y de marca privada de escobillas. Desde el branding personalizado y el empaque hasta el MOQ y los plazos de producción."
     },
     ru: {
@@ -796,7 +784,7 @@ FOB（船上交货）价格是您支付给制造商、货物在中国港口备�
 
 **如何规避：**
 - 要求工厂视频参观，展示生产线而非仅展示展厅
-- 直接核实认证——ISO和IATF证书可在发证机构官网查验
+- 直接核实认证——ISO证书可在发证机构官网查验
 - 要求通过视频通话实时查看生产车间
 - 核查出口记录：出口50多个国家的工厂更有公信力
 - 大额订单安排第三方验厂（SGS、必维、TÜV）
