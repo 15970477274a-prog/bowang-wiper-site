@@ -1,5 +1,8 @@
 import { alternatesWithHreflang } from "../../../../../../lib/hreflang";
 import type { Metadata } from "next";
+import { getCategoryMetaDescription } from "../../../../../data/categoryMeta";
+import { clampText, DESC_MAX } from "../../../../../../lib/seo";
+import { buildTitle } from "../../../../../../lib/seo";
 import { translations, Locale } from "../../../../../translations";
 
 type Props = { params: Promise<{ lang: string; slug: string }> };
@@ -31,8 +34,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         .split("-")
         .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
         .join(" ");
-  const title = categoryName + " " + t.wiperBladesWord + " - " + t.fullCatalogTitle + " | Lelion Autoparts";
-  const description = t.categoryBannerSub;
+  // Keep this page distinct from its parent category page: same category copy,
+  // different composition. buildTitle() caps the length at 60 chars and drops the
+  // brand suffix instead of cutting mid-word.
+  const title = buildTitle(t.fullCatalogTitle + " - " + categoryName);
+  const description = clampText(t.fullCatalogTitle + ": " + getCategoryMetaDescription(slug, categoryName, lang), DESC_MAX);
   const canonicalPath = "/" + lang + "/products/category/" + slug + "/all";
 
   return {
