@@ -17,7 +17,6 @@ Un fabricante confiable debe contar con:
 
 Verifique siempre estas certificaciones:
 - ISO 9001:2015 -- Gestion de calidad basica
-- IATF 16949 -- Estandar de calidad especifico para automocion
 - Marcado CE -- Cumplimiento para el mercado europeo
 - Informes de pruebas de materiales (ozono, niebla salina, resistencia al frio)
 
@@ -160,17 +159,6 @@ Esta es la certificacion de calidad fundamental. Garantiza que el fabricante cue
 - Procesos de mejora continua
 - Enfoque en el cliente y sistemas de retroalimentacion
 - Auditorias internas y externas periodicas
-
-### IATF 16949 -- Estandar de Calidad para Automocion
-
-Este es el estandar de referencia para fabricantes de piezas de automocion. Incluye todo lo de ISO 9001, mas:
-- Gestion de riesgos especifica para automocion (FMEA)
-- Proceso de aprobacion de piezas de produccion (PPAP)
-- Analisis del sistema de medicion (MSA)
-- Control estadistico de procesos (SPC)
-- Requisitos estrictos de trazabilidad
-
-**Por que es importante:** Los fabricantes certificados IATF 16949 siguen los mismos estandares de calidad que los proveedores de automocion de Nivel 1.
 
 ### Marcado CE -- Conformidad Europea
 
@@ -591,7 +579,7 @@ Un sitio web profesional y un equipo de ventas receptivo no equivalen a una fabr
 
 **Como evitarlo:**
 - Solicite un recorrido en video por la fabrica mostrando las lineas de produccion, no solo la sala de exposiciones
-- Verifique las certificaciones directamente -- los certificados ISO e IATF pueden comprobarse en los sitios web de los organismos emisores
+- Verifique las certificaciones directamente -- los certificados ISO pueden comprobarse en los sitios web de los organismos emisores
 - Pida una videollamada en directo recorriendo la planta de produccion
 - Compruebe el historial de exportaciones: una fabrica que exporta a mas de 50 paises genera credibilidad con el tiempo
 - Para pedidos grandes, contrate una auditoria de fabrica externa (SGS, Bureau Veritas, TUV)

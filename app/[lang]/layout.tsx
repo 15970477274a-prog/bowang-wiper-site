@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 import { alternatesWithHreflang, hreflangUrls, htmlLangFor } from "../../lib/hreflang";
-import { clampText, DESC_MAX } from "../../lib/seo";
+import { buildTitle, clampText, DESC_MAX } from "../../lib/seo";
 import { LanguageProvider } from "../../components/LanguageContext";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
@@ -39,7 +39,10 @@ const descriptions: Record<string, string> = {
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params;
-  const title = titles[lang] || titles.en;
+  // Home titles carry the brand suffix. buildTitle() keeps the whole phrase and
+  // drops the suffix only when the full string would not fit the SERP budget
+  // (es/ru/fr were 67-72 chars); it never emits a trailing "...".
+  const title = buildTitle((titles[lang] || titles.en).replace(/\s*\|\s*Lelion(\s+Autoparts)?\s*$/, ""));
   // Word-boundary clamp, no trailing "..." (the previous helper appended one).
   const description = clampText(descriptions[lang] || descriptions.en, DESC_MAX);
 
