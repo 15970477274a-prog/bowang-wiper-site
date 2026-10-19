@@ -88,7 +88,7 @@ export default function BlogClient({ locale, posts }: Props) {
             <button key={tag} onClick={() => setActiveTag(tag)} style={{
               padding: "8px 18px", borderRadius: "20px", cursor: "pointer", fontSize: "13px", fontWeight: 500,
               border: activeTag === tag ? "none" : "1px solid #e2e8f0",
-              backgroundColor: activeTag === tag ? "#0284c7" : "#ffffff",
+              backgroundColor: activeTag === tag ? "var(--accent-strong)" : "#ffffff",
               color: activeTag === tag ? "#ffffff" : "#64748b",
               transition: "all 0.2s ease"
             }}>
@@ -119,7 +119,7 @@ export default function BlogClient({ locale, posts }: Props) {
                   <h2 style={{ fontSize: "18px", fontWeight: 700, margin: "0 0 12px 0", lineHeight: 1.4, color: "#0f172a" }}>{post.title}</h2>
                   <p style={{ color: "#64748b", fontSize: "14px", lineHeight: 1.6, flex: 1, margin: "0 0 15px 0" }}>{post.excerpt}</p>
                   <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", borderTop: "1px solid #f1f5f9", paddingTop: "15px" }}>
-                    <span style={{ color: "#0284c7", fontSize: "13px", fontWeight: 700 }}>{lang === "zh" ? "阅读更多 →" : lang === "es" ? "Leer Más →" : lang === "ru" ? "Читать Далее →" : lang === "fr" ? "Lire Plus →" : lang === "de" ? "Weiterlesen →" : "Read More →"}</span>
+                    <span style={{ color: "var(--accent-strong)", fontSize: "13px", fontWeight: 700 }}>{lang === "zh" ? "阅读更多 →" : lang === "es" ? "Leer Más →" : lang === "ru" ? "Читать Далее →" : lang === "fr" ? "Lire Plus →" : lang === "de" ? "Weiterlesen →" : "Read More →"}</span>
                     <span style={{ color: "#64748b", fontSize: "12px" }}>{post.author}</span>
                   </div>
                 </div>
@@ -135,8 +135,8 @@ export default function BlogClient({ locale, posts }: Props) {
           <h2 style={{ fontSize: "30px", fontWeight: 800, marginBottom: "15px", color: "#0f172a" }}>{lang === "zh" ? "想了解更多产品信息？" : lang === "es" ? "¿Quiere Saber Más Sobre Nuestros Productos?" : lang === "ru" ? "Хотите Узнать Больше о Нашей Продукции?" : lang === "fr" ? "En Savoir Plus Sur Nos Produits ?" : lang === "de" ? "Mehr Über Unsere Produkte Erfahren?" : "Want to Learn More About Our Products?"}</h2>
           <p style={{ color: "#64748b", marginBottom: "30px" }}>{lang === "zh" ? "浏览我们完整的雨刮片目录，或联系我们的出口团队获取批发价格。" : lang === "es" ? "Explore nuestro catálogo completo de escobillas o contacte a nuestro equipo de exportación para precios al por mayor." : lang === "ru" ? "Просмотрите наш полный каталог щеток стеклоочистителя или свяжитесь с нашим экспортным отделом для оптовых цен." : lang === "fr" ? "Parcourez notre catalogue complet de balais d'essuie-glace ou contactez notre équipe export pour des prix de gros." : lang === "de" ? "Durchsuchen Sie unseren vollständigen Wischerblatt-Katalog oder kontaktieren Sie unser Exportteam für Großhandelspreise." : "Browse our complete wiper blade catalog or contact our export team for bulk pricing."}</p>
           <div style={{ display: "flex", gap: "15px", justifyContent: "center", flexWrap: "wrap" }}>
-            <Link href={l("/products")} style={{ backgroundColor: "#0284c7", color: "white", padding: "14px 35px", borderRadius: "8px", textDecoration: "none", fontWeight: "bold", fontSize: "15px" }}>{t.viewProducts}</Link>
-            <Link href={l("/contact")} style={{ backgroundColor: "#ffffff", color: "#0284c7", padding: "14px 35px", borderRadius: "8px", textDecoration: "none", fontWeight: "bold", fontSize: "15px", border: "2px solid #0284c7" }}>{lang === "zh" ? "联系我们" : lang === "es" ? "Contacto" : lang === "ru" ? "Контакты" : lang === "fr" ? "Contact" : lang === "de" ? "Kontakt" : "Contact Us"}</Link>
+            <Link href={l("/products")} style={{ backgroundColor: "var(--accent-strong)", color: "white", padding: "14px 35px", borderRadius: "8px", textDecoration: "none", fontWeight: "bold", fontSize: "15px" }}>{t.viewProducts}</Link>
+            <Link href={l("/contact")} style={{ backgroundColor: "#ffffff", color: "var(--accent-strong)", padding: "14px 35px", borderRadius: "8px", textDecoration: "none", fontWeight: "bold", fontSize: "15px", border: "2px solid var(--accent-strong)" }}>{lang === "zh" ? "联系我们" : lang === "es" ? "Contacto" : lang === "ru" ? "Контакты" : lang === "fr" ? "Contact" : lang === "de" ? "Kontakt" : "Contact Us"}</Link>
           </div>
         </div>
       </section>

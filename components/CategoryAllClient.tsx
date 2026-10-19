@@ -25,7 +25,7 @@ export default function CategoryAllClient({ locale, slug, products }: Props) {
   const l = (p: string) => "/" + urlLang + p;
 
   if (!category) {
-    return <div style={{padding:"100px",textAlign:"center"}}><h1>{t.categoryNotFound}</h1><Link href={l("/products")} style={{color:"#0284c7"}}>{t.backToProducts}</Link></div>;
+    return <div style={{padding:"100px",textAlign:"center"}}><h1>{t.categoryNotFound}</h1><Link href={l("/products")} style={{color:"var(--accent-strong)"}}>{t.backToProducts}</Link></div>;
   }
 
   // Every product of this series, rendered as real links so the whole series is reachable.
@@ -84,7 +84,7 @@ export default function CategoryAllClient({ locale, slug, products }: Props) {
 
             <div style={{flex:"1 1 800px"}}>
               <p style={{marginBottom:"25px"}}>
-                <Link href={l("/products/category/" + slug)} style={{color:"#0284c7",fontWeight:600,textDecoration:"none",fontSize:"14px"}}>{t.backToProducts}</Link>
+                <Link href={l("/products/category/" + slug)} style={{color:"var(--accent-strong)",fontWeight:600,textDecoration:"none",fontSize:"14px"}}>{t.backToProducts}</Link>
               </p>
 
               {items.length === 0 ? (
@@ -113,7 +113,7 @@ export default function CategoryAllClient({ locale, slug, products }: Props) {
                           <span style={{fontSize:"13px",color:"#64748b",fontWeight:600}}>MOQ: {product.moq}</span><span style={{fontSize:"13px",color:"#64748b",fontWeight:600}}>{t.leadTimeLabel}: {t.leadTimeValue}</span>
                         </div>
                         <div style={{display:"flex",gap:"12px",marginTop:"auto"}}>
-                          <Link href={l("/contact")} style={{flex:1,textAlign:"center",backgroundColor:"#0284c7",color:"white",
+                          <Link href={l("/contact")} style={{flex:1,textAlign:"center",backgroundColor:"var(--accent-strong)",color:"white",
                             padding:"12px",borderRadius:"8px",fontSize:"14px",fontWeight:"bold",textDecoration:"none"
                           }}>{t.inquiry}</Link>
                           <Link href={l("/products/" + product.id)} style={{flex:1,textAlign:"center",border:"1.5px solid #0f172a",
@@ -134,7 +134,7 @@ export default function CategoryAllClient({ locale, slug, products }: Props) {
         <div style={{ maxWidth: "600px", margin: "0 auto" }}>
           <h2 style={{ fontSize: "28px", fontWeight: 800, color: "#0f172a", marginBottom: "16px" }}>{t.needCustomSolution}</h2>
           <p style={{ fontSize: "16px", color: "#64748b", lineHeight: "1.7", marginBottom: "30px", maxWidth: "480px", marginLeft: "auto", marginRight: "auto" }}>{t.needCustomSolutionDesc}</p>
-          <Link href={l("/contact")} style={{ display: "inline-block", backgroundColor: "#0284c7", color: "#ffffff", padding: "14px 36px", borderRadius: "8px", fontSize: "16px", fontWeight: 600, textDecoration: "none" }}>{t.contactOurTeam}</Link>
+          <Link href={l("/contact")} style={{ display: "inline-block", backgroundColor: "var(--accent-strong)", color: "#ffffff", padding: "14px 36px", borderRadius: "8px", fontSize: "16px", fontWeight: 600, textDecoration: "none" }}>{t.contactOurTeam}</Link>
         </div>
       </section>
     </main>

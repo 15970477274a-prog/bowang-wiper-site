@@ -57,7 +57,7 @@ export default function FullCatalogClient({ locale, products }: Props) {
       <section className="section">
         <div className="container">
           <p style={{marginBottom:"30px"}}>
-            <Link href={l("/products")} style={{color:"#0284c7",fontWeight:600,textDecoration:"none",fontSize:"14px"}}>{t.backToProducts}</Link>
+            <Link href={l("/products")} style={{color:"var(--accent-strong)",fontWeight:600,textDecoration:"none",fontSize:"14px"}}>{t.backToProducts}</Link>
           </p>
 
           {Object.entries(CATEGORY_MAP).map(([slug, category]) => {
@@ -91,7 +91,7 @@ export default function FullCatalogClient({ locale, products }: Props) {
         <div style={{ maxWidth: "600px", margin: "0 auto" }}>
           <h2 style={{ fontSize: "28px", fontWeight: 800, color: "#0f172a", marginBottom: "16px" }}>{t.needCustomSolution}</h2>
           <p style={{ fontSize: "16px", color: "#64748b", lineHeight: "1.7", marginBottom: "30px", maxWidth: "480px", marginLeft: "auto", marginRight: "auto" }}>{t.needCustomSolutionDesc}</p>
-          <Link href={l("/contact")} style={{ display: "inline-block", backgroundColor: "#0284c7", color: "#ffffff", padding: "14px 36px", borderRadius: "8px", fontSize: "16px", fontWeight: 600, textDecoration: "none" }}>{t.contactOurTeam}</Link>
+          <Link href={l("/contact")} style={{ display: "inline-block", backgroundColor: "var(--accent-strong)", color: "#ffffff", padding: "14px 36px", borderRadius: "8px", fontSize: "16px", fontWeight: 600, textDecoration: "none" }}>{t.contactOurTeam}</Link>
         </div>
       </section>
     </main>

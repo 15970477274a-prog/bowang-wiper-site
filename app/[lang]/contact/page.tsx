@@ -89,16 +89,16 @@ export default function ContactPage() {
           <div>
             <h2 style={{ fontSize: "28px", fontWeight: 800, marginBottom: "35px" }}>{t.contactInfoTitle}</h2>
             <div style={{ marginBottom: "30px" }}>
-              <h3 style={{ color: "#0284c7", textTransform: "uppercase", fontSize: "13px", fontWeight: 800, marginBottom: "10px" }}>{t.contactAddressTitle}</h3>
+              <h3 style={{ color: "var(--accent-strong)", textTransform: "uppercase", fontSize: "13px", fontWeight: 800, marginBottom: "10px" }}>{t.contactAddressTitle}</h3>
               <p style={{ fontSize: "16px", color: "#475569", lineHeight: 1.6 }}>{t.footerAddress}</p>
             </div>
             <div style={{ marginBottom: "30px" }}>
-              <h3 style={{ color: "#0284c7", textTransform: "uppercase", fontSize: "13px", fontWeight: 800, marginBottom: "10px" }}>{t.contactPhoneTitle}</h3>
+              <h3 style={{ color: "var(--accent-strong)", textTransform: "uppercase", fontSize: "13px", fontWeight: 800, marginBottom: "10px" }}>{t.contactPhoneTitle}</h3>
               <p style={{ fontSize: "18px", fontWeight: 700, color: "#0f172a" }}>+86 188 6788 6795</p>
               <p style={{ fontSize: "14px", color: "#64748b" }}>{t.contactAvailableOn}</p>
             </div>
             <div style={{ marginBottom: "30px" }}>
-              <h3 style={{ color: "#0284c7", textTransform: "uppercase", fontSize: "13px", fontWeight: 800, marginBottom: "10px" }}>{t.contactOfficialEmail}</h3>
+              <h3 style={{ color: "var(--accent-strong)", textTransform: "uppercase", fontSize: "13px", fontWeight: 800, marginBottom: "10px" }}>{t.contactOfficialEmail}</h3>
               <p style={{ fontSize: "18px", fontWeight: 700, color: "#0f172a" }}>bwb@bwwiper.com</p>
             </div>
             <div style={{ marginTop: "50px", padding: "30px", backgroundColor: "#f8fafc", borderRadius: "16px", border: "1px solid #e2e8f0" }}>
@@ -118,7 +118,7 @@ export default function ContactPage() {
               <div>ISO 9001:2015 · No. 134956 (NQA)</div>
               <div>CE Certificate · No. M.2022.206.C79712 (UDEM)</div>
               <div>MOQ from 100 pcs per size (most models)</div>
-              <a href="https://youtu.be/ppMeBaDm2hk" target="_blank" rel="noopener noreferrer" style={{ color: "#0284c7", fontWeight: 700 }}>▶ Watch Factory Video</a>
+              <a href="https://youtu.be/ppMeBaDm2hk" target="_blank" rel="noopener noreferrer" style={{ color: "var(--accent-strong)", fontWeight: 700 }}>▶ Watch Factory Video</a>
             </div>
             <form onSubmit={handleSubmit}>
               <input type="text" name="website" tabIndex={-1} autoComplete="off" style={{ position: "absolute", left: "-9999px", opacity: 0 }} aria-hidden="true" />
@@ -127,14 +127,14 @@ export default function ContactPage() {
               <div style={{ marginBottom: "20px" }}><label style={{ display: "block", fontSize: "13px", fontWeight: 700, marginBottom: "8px" }}>{t.contactCompanyLabel}</label><input type="text" name="company" value={formData.company} onChange={handleChange} style={{ width: "100%", padding: "12px", border: "1px solid #e2e8f0", borderRadius: "6px" }} placeholder={t.contactCompanyPlaceholder} /></div>
               <div style={{ marginBottom: "25px" }}><label style={{ display: "block", fontSize: "13px", fontWeight: 700, marginBottom: "8px" }}>{t.contactMessageLabel}</label><textarea name="message" required rows={4} value={formData.message} onChange={handleChange} style={{ width: "100%", padding: "12px", border: "1px solid #e2e8f0", borderRadius: "6px", resize: "none" }} placeholder={t.contactMessagePlaceholder} /></div>
               {status.submitted && <div style={{ backgroundColor: "#ecfdf5", color: "#065f46", padding: "15px", borderRadius: "8px", marginBottom: "20px", fontSize: "14px" }}><strong>{t.contactSuccessMsg}</strong></div>}
-              <button type="submit" disabled={status.loading} style={{ width: "100%", backgroundColor: "#0284c7", color: "white", padding: "15px", borderRadius: "8px", fontSize: "16px", fontWeight: "bold", cursor: "pointer" }}>{status.loading ? t.contactSubmittingBtn : t.contactSubmitBtn}</button>
+              <button type="submit" disabled={status.loading} style={{ width: "100%", backgroundColor: "var(--accent-strong)", color: "white", padding: "15px", borderRadius: "8px", fontSize: "16px", fontWeight: "bold", cursor: "pointer" }}>{status.loading ? t.contactSubmittingBtn : t.contactSubmitBtn}</button>
             </form>
           </div>
         </div>
       </section>
 
       <section style={{ height: "450px", width: "100%", backgroundColor: "#f1f5f9" }}>
-         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108846.54924734346!2d121.49391033671239!3d29.98632662058356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x344d799015099f67%3A0x6b4430e461244517!2sZhenhai%20District%2C%20Ningbo%2C%20Zhejiang%2C%20China!5e0!3m2!1sen!2sus!4v1717891234567!5m2!1sen!2sus" width="100%" height="100%" style={{ border: 0 }} allowFullScreen={true} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108846.54924734346!2d121.49391033671239!3d29.98632662058356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x344d799015099f67%3A0x6b4430e461244517!2sZhenhai%20District%2C%20Ningbo%2C%20Zhejiang%2C%20China!5e0!3m2!1sen!2sus!4v1717891234567!5m2!1sen!2sus" title="Lelion Autoparts location in Zhenhai District, Ningbo on Google Maps" width="100%" height="100%" style={{ border: 0 }} allowFullScreen={true} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
       </section>
 </main>
   );

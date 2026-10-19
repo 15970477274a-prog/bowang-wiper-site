@@ -270,7 +270,7 @@ export default function TestingPage() {
         <div style={{ textAlign: "center", backgroundColor: "#0f172a", borderRadius: "20px", padding: "48px 24px", color: "white" }}>
           <h2 style={{ fontSize: "26px", fontWeight: 800, margin: "0 0 12px" }}>{t.ctaTitle}</h2>
           <p style={{ color: "#64748b", margin: "0 auto 24px", maxWidth: "560px" }}>{t.ctaText}</p>
-          <Link href={l("/contact")} style={{ display: "inline-block", backgroundColor: "#0284c7", color: "white", padding: "14px 30px", borderRadius: "8px", textDecoration: "none", fontWeight: 700 }}>{t.ctaBtn}</Link>
+          <Link href={l("/contact")} style={{ display: "inline-block", backgroundColor: "var(--accent-strong)", color: "white", padding: "14px 30px", borderRadius: "8px", textDecoration: "none", fontWeight: 700 }}>{t.ctaBtn}</Link>
         </div>
       </section>
     </main>

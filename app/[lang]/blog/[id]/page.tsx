@@ -18,7 +18,7 @@ export default function BlogDetail() {
   const post = blogPosts.find(p => p.id === id);
   const t = translations[lang];
 
-  if (!post) return (<main><div style={{padding:"100px 20px",textAlign:"center"}}><h1>{t.notFoundGeneric}</h1><Link href={l("/blog")} style={{color:"#0284c7"}}>{t.back}</Link></div></main>);
+  if (!post) return (<main><div style={{padding:"100px 20px",textAlign:"center"}}><h1>{t.notFoundGeneric}</h1><Link href={l("/blog")} style={{color:"var(--accent-strong)"}}>{t.back}</Link></div></main>);
 
   const blogTrans = getBlogTranslation(id, lang);
   const postTitle = blogTrans?.title || post.title;
@@ -60,9 +60,9 @@ export default function BlogDetail() {
           if (link) {
             const href = link[2];
             return href.startsWith("http") ? (
-              <a key={j} href={href} target="_blank" rel="noopener noreferrer" style={{ color: "#0284c7", textDecoration: "underline" }}>{link[1]}</a>
+              <a key={j} href={href} target="_blank" rel="noopener noreferrer" style={{ color: "var(--accent-strong)", textDecoration: "underline" }}>{link[1]}</a>
             ) : (
-              <Link key={j} href={l(href)} style={{ color: "#0284c7", textDecoration: "underline" }}>{link[1]}</Link>
+              <Link key={j} href={l(href)} style={{ color: "var(--accent-strong)", textDecoration: "underline" }}>{link[1]}</Link>
             );
           }
           if (part.startsWith("**") && part.endsWith("**")) {
@@ -150,7 +150,7 @@ export default function BlogDetail() {
       {/* Hero Banner */}
       <section style={{ padding: "80px 20px 40px", background: "linear-gradient(rgba(15,23,42,0.85),rgba(15,23,42,0.85))", color: "white", textAlign: "center" }}>
         <div style={{ maxWidth: "800px", margin: "0 auto" }}>
-          <span style={{ display: "inline-block", backgroundColor: "#0284c7", color: "white", padding: "6px 16px", borderRadius: "20px", fontSize: "12px", fontWeight: 700, textTransform: "uppercase", marginBottom: "20px" }}>{post.category}</span>
+          <span style={{ display: "inline-block", backgroundColor: "var(--accent-strong)", color: "white", padding: "6px 16px", borderRadius: "20px", fontSize: "12px", fontWeight: 700, textTransform: "uppercase", marginBottom: "20px" }}>{post.category}</span>
           <h1 style={{ fontSize: "36px", fontWeight: 800, lineHeight: 1.3, marginBottom: "20px" }}>{postTitle}</h1>
           <p style={{ color: "#64748b", fontSize: "16px", lineHeight: 1.6, marginBottom: "20px" }}>{postExcerpt}</p>
           <div style={{ display: "flex", justifyContent: "center", gap: "20px", fontSize: "13px", color: "#64748b" }}>
@@ -190,7 +190,7 @@ export default function BlogDetail() {
                   <div style={{ backgroundColor: "white", borderRadius: "12px", overflow: "hidden", boxShadow: "0 4px 12px rgba(0,0,0,0.06)" }}>
                     <Image src={rp.image} alt={rp.title} width={400} height={225} style={{ width: "100%", height: "200px", objectFit: "cover" }} />
                     <div style={{ padding: "20px" }}>
-                      <span style={{ fontSize: "12px", color: "#0284c7", fontWeight: 700 }}>{rp.category}</span>
+                      <span style={{ fontSize: "12px", color: "var(--accent-strong)", fontWeight: 700 }}>{rp.category}</span>
                       <h3 style={{ fontSize: "16px", fontWeight: 700, margin: "10px 0", color: "#0f172a", lineHeight: 1.4 }}>{rp.title}</h3>
                       <p style={{ fontSize: "14px", color: "#64748b", lineHeight: 1.5 }}>{rp.excerpt.substring(0, 100)}...</p>
                     </div>
@@ -214,7 +214,7 @@ export default function BlogDetail() {
                     <Image src={fp.image} alt={fp.name} width={400} height={300} style={{ width: "100%", height: "220px", objectFit: "contain", background: "#f8fafc", padding: "12px" }} />
                     <div style={{ padding: "16px 20px 20px" }}>
                       <h3 style={{ fontSize: "15px", fontWeight: 700, margin: "0 0 6px", color: "#0f172a", lineHeight: 1.4 }}>{fp.name}</h3>
-                      <span style={{ fontSize: "13px", color: "#0284c7", fontWeight: 600 }}>{t.viewProducts} &rarr;</span>
+                      <span style={{ fontSize: "13px", color: "var(--accent-strong)", fontWeight: 600 }}>{t.viewProducts} &rarr;</span>
                     </div>
                   </div>
                 </Link>

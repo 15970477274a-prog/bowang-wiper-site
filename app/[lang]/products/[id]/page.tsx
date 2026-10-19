@@ -48,7 +48,7 @@ export default function ProductDetail() {
       <main>
         <div style={{ padding: "100px 20px", textAlign: "center" }}>
           <h1>{t.productNotFoundTitle}</h1>
-          <Link href={l("/products")} style={{ color: "#0284c7" }}>{t.backToProducts}</Link>
+          <Link href={l("/products")} style={{ color: "var(--accent-strong)" }}>{t.backToProducts}</Link>
         </div>
       </main>
     );
@@ -143,9 +143,9 @@ const relatedBlog = blogPosts
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productFaqSchema) }} />
       {/* Visible breadcrumb — internal links to home + products hub */}
       <nav aria-label="Breadcrumb" style={{ maxWidth: "1200px", margin: "0 auto", padding: "16px 20px 0", fontSize: "13px", color: "#64748b" }}>
-        <Link href={l("/")} style={{ color: "#0284c7", textDecoration: "underline" }}>{t.navHome}</Link>
+        <Link href={l("/")} style={{ color: "var(--accent-strong)", textDecoration: "underline" }}>{t.navHome}</Link>
         {" / "}
-        <Link href={l("/products")} style={{ color: "#0284c7", textDecoration: "underline" }}>{t.navProducts}</Link>
+        <Link href={l("/products")} style={{ color: "var(--accent-strong)", textDecoration: "underline" }}>{t.navProducts}</Link>
         {" / "}
         <span aria-current="page" style={{ fontWeight: 600 }}>{productName}</span>
       </nav>
@@ -199,7 +199,7 @@ const relatedBlog = blogPosts
             <p style={{fontSize:"20px",fontWeight:700,color:"#1e293b",margin:"5px 0"}}>{t.wholesaleStatusValue}</p>
             <div style={{marginTop:"10px"}}>
               <span className="text-muted">{t.minOrderQty}</span>
-              <p style={{fontSize:"16px",fontWeight:800,color:"var(--accent)",margin:"2px 0"}}>{product.moq}</p>
+              <p style={{fontSize:"16px",fontWeight:800,color:"var(--accent-strong)",margin:"2px 0"}}>{product.moq}</p>
             </div>
           </div>
 
@@ -316,7 +316,7 @@ const relatedBlog = blogPosts
       <section className="section section-white">
         <div className="container">
           <div style={{ textAlign: "center", marginBottom: "50px" }}>
-            <div style={{ display: "inline-block", backgroundColor: "#0284c7", color: "white", padding: "8px 20px", borderRadius: "20px", fontSize: "14px", fontWeight: 700, marginBottom: "18px" }}>4.7 / 5 · 39 Reviews</div>
+            <div style={{ display: "inline-block", backgroundColor: "var(--accent-strong)", color: "white", padding: "8px 20px", borderRadius: "20px", fontSize: "14px", fontWeight: 700, marginBottom: "18px" }}>4.7 / 5 · 39 Reviews</div>
             <h2 className="section-title">{t.reviewsTitle}</h2>
             <p className="section-subtitle">{t.reviewsSubtitle}</p>
           </div>

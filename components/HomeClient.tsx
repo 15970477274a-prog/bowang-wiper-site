@@ -151,11 +151,11 @@ export default function HomeClient({ locale, featured }: Props) {
         color: "white" 
       }}>
         <div style={{ maxWidth: "850px", margin: "0 auto" }}>
-          <span style={{ backgroundColor: "#0284c7", padding: "6px 16px", borderRadius: "20px", fontSize: "12px", fontWeight: "bold", textTransform: "uppercase", marginBottom: "25px", display: "inline-block" }}>{t.heroTag}</span>
+          <span style={{ backgroundColor: "var(--accent-strong)", padding: "6px 16px", borderRadius: "20px", fontSize: "12px", fontWeight: "bold", textTransform: "uppercase", marginBottom: "25px", display: "inline-block" }}>{t.heroTag}</span>
           <h1 style={{ fontSize: "56px", fontWeight: 800, marginBottom: "25px", lineHeight: 1.1, textShadow: "0 2px 10px rgba(0,0,0,0.3)" }}>{t.heroTitle}</h1>
           <p style={{ fontSize: "20px", color: "#cbd5e1", marginBottom: "45px", lineHeight: 1.6 }}>{t.heroSubtitle}</p>
           <div style={{ display: "flex", gap: "20px", justifyContent: "center" }}>
-            <Link href={l("/contact")} className="btn-primary" style={{ padding: "18px 45px", fontSize: "18px", textDecoration: "none", backgroundColor: "#0284c7", color: "white", borderRadius: "8px", fontWeight: "bold", boxShadow: "0 10px 25px rgba(2, 132, 199, 0.4)" }}>{t.heroInquireBtn}</Link>
+            <Link href={l("/contact")} className="btn-primary" style={{ padding: "18px 45px", fontSize: "18px", textDecoration: "none", backgroundColor: "var(--accent-strong)", color: "white", borderRadius: "8px", fontWeight: "bold", boxShadow: "0 10px 25px rgba(3, 105, 161, 0.4)" }}>{t.heroInquireBtn}</Link>
             <Link href={l("/products")} className="btn-secondary" style={{ padding: "18px 45px", fontSize: "18px", backgroundColor: "white", color: "#0f172a", textDecoration: "none", borderRadius: "8px", fontWeight: "bold" }}>{t.heroProductsBtn}</Link>
           </div>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "14px", justifyContent: "center", marginTop: "50px" }}>
@@ -243,7 +243,7 @@ export default function HomeClient({ locale, featured }: Props) {
                  <h3 style={{ fontSize: "22px", fontWeight: 700, marginBottom: "15px" }}>{pName}</h3>
                  <p style={{ color: "#64748b", fontSize: "15px", marginBottom: "25px", height: "45px", overflow: "hidden" }}>{pDesc}</p>
                 <div style={{ display: "flex", justifyContent: "center", gap: "18px", marginBottom: "20px", color: "#64748b", fontSize: "14px", fontWeight: 600 }}><span>MOQ: {p.moq}</span><span>{t.leadTimeLabel}: {t.leadTimeValue}</span></div>
-                 <Link href={l(`/products/${p.id}`)} style={{ color: "#0284c7", fontWeight: "bold", textDecoration: "none", fontSize: "15px" }}>{t.viewProducts}</Link>
+                 <Link href={l(`/products/${p.id}`)} style={{ color: "var(--accent-strong)", fontWeight: "bold", textDecoration: "none", fontSize: "15px" }}>{t.viewProducts}</Link>
                </div>
             </div>
           )})}
@@ -259,7 +259,7 @@ export default function HomeClient({ locale, featured }: Props) {
       <section style={{ padding: "90px 20px", backgroundColor: "#f8fafc" }}>
         <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
           <div style={{ textAlign: "center", marginBottom: "55px" }}>
-            <div style={{ display: "inline-block", backgroundColor: "#0284c7", color: "white", padding: "8px 20px", borderRadius: "20px", fontSize: "14px", fontWeight: 700, marginBottom: "18px" }}>4.7 / 5 · 39 Reviews</div>
+            <div style={{ display: "inline-block", backgroundColor: "var(--accent-strong)", color: "white", padding: "8px 20px", borderRadius: "20px", fontSize: "14px", fontWeight: 700, marginBottom: "18px" }}>4.7 / 5 · 39 Reviews</div>
             <h2 style={{ fontSize: "34px", fontWeight: 800, color: "#0f172a" }}>{t.reviewsTitle}</h2>
             <div style={{ height: "4px", width: "60px", backgroundColor: "#0284c7", margin: "15px auto" }}></div>
             <p style={{ color: "#64748b" }}>{t.reviewsSubtitle}</p>
@@ -292,7 +292,7 @@ export default function HomeClient({ locale, featured }: Props) {
             {faqItems.map((item, idx) => (
               <div key={idx} style={{ backgroundColor: "#ffffff", borderRadius: "12px", border: "1px solid #e2e8f0", overflow: "hidden" }}>
                 <button onClick={() => toggleFaq(idx)} style={{ width: "100%", padding: "20px 30px", display: "flex", justifyContent: "space-between", alignItems: "center", backgroundColor: "transparent", border: "none", cursor: "pointer", textAlign: "left" }}>
-                  <span style={{ fontSize: "18px", fontWeight: 700, color: openFaq === idx ? "#0284c7" : "#0f172a" }}>{item.q}</span>
+                  <span style={{ fontSize: "18px", fontWeight: 700, color: openFaq === idx ? "var(--accent-strong)" : "#0f172a" }}>{item.q}</span>
                   <span style={{ fontSize: "24px", color: "#64748b", transform: openFaq === idx ? "rotate(45deg)" : "rotate(0)", transition: "transform 0.3s" }}>+</span>
                 </button>
                 <div style={{ maxHeight: openFaq === idx ? "300px" : "0", overflow: "hidden", transition: "all 0.3s ease-out", padding: openFaq === idx ? "0 30px 25px 30px" : "0 30px" }}>
@@ -322,7 +322,7 @@ export default function HomeClient({ locale, featured }: Props) {
             </select>
             <textarea name="message" required rows={4} value={formData.message} onChange={handleChange} placeholder={t.contactMessagePlaceholder} style={{ width: "100%", padding: "14px", border: "1px solid #e2e8f0", borderRadius: "8px", marginBottom: "35px" }} />
             {status.submitted && <div style={{ backgroundColor: "#ecfdf5", color: "#065f46", padding: "15px", borderRadius: "8px", marginBottom: "25px" }}><strong>{t.contactSuccessMsg}</strong></div>}
-            <button type="submit" disabled={status.loading} style={{ width: "100%", backgroundColor: "#0284c7", color: "white", padding: "16px", borderRadius: "8px", fontSize: "16px", fontWeight: "bold", cursor: "pointer" }}>{status.loading ? t.contactSubmittingBtn : t.contactSubmitBtn}</button>
+            <button type="submit" disabled={status.loading} style={{ width: "100%", backgroundColor: "var(--accent-strong)", color: "white", padding: "16px", borderRadius: "8px", fontSize: "16px", fontWeight: "bold", cursor: "pointer" }}>{status.loading ? t.contactSubmittingBtn : t.contactSubmitBtn}</button>
           </form>
         </div>
       </section>

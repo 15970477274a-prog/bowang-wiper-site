@@ -597,7 +597,7 @@ export default function Page() {
                     height: "40px",
                     borderRadius: "50%",
                     backgroundColor: "var(--accent-light)",
-                    color: "var(--accent)",
+                    color: "var(--accent-strong)",
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
@@ -634,7 +634,7 @@ export default function Page() {
           </div>
           <p style={{ margin: "30px 0 0", fontSize: "15px", lineHeight: 1.7, color: "var(--text-secondary)" }}>
             {c.blogLead}{" "}
-            <Link href={l("/blog/oem-private-label-wiper-blades-guide")} style={{ color: "var(--accent)", fontWeight: 600 }}>
+            <Link href={l("/blog/oem-private-label-wiper-blades-guide")} style={{ color: "var(--accent-strong)", fontWeight: 600 }}>
               {c.blogLink}
             </Link>
           </p>

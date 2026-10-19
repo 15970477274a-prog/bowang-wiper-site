@@ -28,7 +28,7 @@ export default function ProductCategoryClient({ locale, slug, products }: Props)
   const l = (p: string) => "/" + urlLang + p;
 
   if (!category) {
-    return <div style={{padding:"100px",textAlign:"center"}}><h1>{t.categoryNotFound}</h1><Link href={l("/products")} style={{color:"#0284c7"}}>{t.backToProducts}</Link></div>;
+    return <div style={{padding:"100px",textAlign:"center"}}><h1>{t.categoryNotFound}</h1><Link href={l("/products")} style={{color:"var(--accent-strong)"}}>{t.backToProducts}</Link></div>;
   }
   const filtered = products;
   const totalPages = Math.max(1, Math.ceil(filtered.length / ITEMS_PER_PAGE));
@@ -123,7 +123,7 @@ export default function ProductCategoryClient({ locale, slug, products }: Props)
                             ))}
                           </ul>
                           <div style={{display:"flex",gap:"12px",marginTop:"auto"}}>
-                            <Link href={l("/contact")} style={{flex:1,textAlign:"center",backgroundColor:"#0284c7",color:"white",
+                            <Link href={l("/contact")} style={{flex:1,textAlign:"center",backgroundColor:"var(--accent-strong)",color:"white",
                               padding:"12px",borderRadius:"8px",fontSize:"14px",fontWeight:"bold",textDecoration:"none"
                             }}>{t.inquiry}</Link>
                             <Link href={l("/products/" + product.id)} style={{flex:1,textAlign:"center",border:"1.5px solid #0f172a",
@@ -160,7 +160,7 @@ export default function ProductCategoryClient({ locale, slug, products }: Props)
                 return (
                   <Link key={s} href={l("/products/category/" + s)} aria-current={isCurrent ? "page" : undefined}
                     style={{display:"block",textAlign:"center",textDecoration:"none",padding:"14px 16px",borderRadius:"10px",
-                      fontSize:"14.5px",fontWeight:isCurrent?700:600,color:isCurrent?"#0284c7":"#0f172a",
+                      fontSize:"14.5px",fontWeight:isCurrent?700:600,color:isCurrent?"var(--accent-strong)":"#0f172a",
                       backgroundColor:isCurrent?"#f0f9ff":"#ffffff",
                       border:"1px solid " + (isCurrent?"#0284c7":"#e2e8f0"),
                       boxShadow:isCurrent?"0 0 0 1px #0284c7":"none"
@@ -169,7 +169,7 @@ export default function ProductCategoryClient({ locale, slug, products }: Props)
               })}
             </div>
             <p style={{textAlign:"center",marginTop:"34px"}}>
-              <Link href={l("/products/all")} style={{color:"#0284c7",fontWeight:600,textDecoration:"none",fontSize:"15px"}}>{t.fullCatalogTitle} →</Link>
+              <Link href={l("/products/all")} style={{color:"var(--accent-strong)",fontWeight:600,textDecoration:"none",fontSize:"15px"}}>{t.fullCatalogTitle} →</Link>
             </p>
           </div>
         </div>
@@ -179,7 +179,7 @@ export default function ProductCategoryClient({ locale, slug, products }: Props)
         <div style={{ maxWidth: "600px", margin: "0 auto" }}>
           <h2 style={{ fontSize: "28px", fontWeight: 800, color: "#0f172a", marginBottom: "16px" }}>{t.needCustomSolution}</h2>
           <p style={{ fontSize: "16px", color: "#64748b", lineHeight: "1.7", marginBottom: "30px", maxWidth: "480px", marginLeft: "auto", marginRight: "auto" }}>{t.needCustomSolutionDesc}</p>
-          <Link href={l("/contact")} style={{ display: "inline-block", backgroundColor: "#0284c7", color: "#ffffff", padding: "14px 36px", borderRadius: "8px", fontSize: "16px", fontWeight: 600, textDecoration: "none" }}>{t.contactOurTeam}</Link>
+          <Link href={l("/contact")} style={{ display: "inline-block", backgroundColor: "var(--accent-strong)", color: "#ffffff", padding: "14px 36px", borderRadius: "8px", fontSize: "16px", fontWeight: 600, textDecoration: "none" }}>{t.contactOurTeam}</Link>
         </div>
       </section>
     </main>

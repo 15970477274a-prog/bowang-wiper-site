@@ -59,7 +59,7 @@ export default function ProductsClient({ locale, products }: Props) {
         <h1 style={{ fontSize: "36px", fontWeight: 800, marginBottom: "15px" }}>{t.productsBannerTitle}</h1>
         <p style={{ color: "#64748b", maxWidth: "600px", margin: "0 auto" }}>{t.productsBannerSub}</p>
         <p style={{ marginTop: "22px" }}>
-          <Link href={l("/products/all")} style={{ display: "inline-block", backgroundColor: "#0284c7", color: "#ffffff", padding: "12px 28px", borderRadius: "8px", fontSize: "15px", fontWeight: 600, textDecoration: "none" }}>{t.viewFullCatalog}</Link>
+          <Link href={l("/products/all")} style={{ display: "inline-block", backgroundColor: "var(--accent-strong)", color: "#ffffff", padding: "12px 28px", borderRadius: "8px", fontSize: "15px", fontWeight: 600, textDecoration: "none" }}>{t.viewFullCatalog}</Link>
         </p>
       </section>
 
@@ -124,7 +124,7 @@ export default function ProductsClient({ locale, products }: Props) {
                       ))}
                     </ul>
                     <div style={{ display: "flex", gap: "12px", marginTop: "auto" }}>
-                      <Link href={l("/contact")} style={{ flex: 1, textAlign: "center", backgroundColor: "#0284c7", color: "white", padding: "12px", borderRadius: "8px", fontSize: "14px", fontWeight: "bold", textDecoration: "none" }}>{t.inquiry}</Link>
+                      <Link href={l("/contact")} style={{ flex: 1, textAlign: "center", backgroundColor: "var(--accent-strong)", color: "white", padding: "12px", borderRadius: "8px", fontSize: "14px", fontWeight: "bold", textDecoration: "none" }}>{t.inquiry}</Link>
                       <Link href={l(`/products/${p.id}`)} style={{ flex: 1, textAlign: "center", border: "1.5px solid #0f172a", color: "#0f172a", padding: "12px", borderRadius: "8px", fontSize: "14px", fontWeight: "bold", textDecoration: "none" }}>{t.details}</Link>
                     </div>
                   </div>

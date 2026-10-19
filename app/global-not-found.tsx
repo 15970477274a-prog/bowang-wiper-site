@@ -51,7 +51,7 @@ export default function GlobalNotFound() {
               <a
                 href="/en"
                 style={{
-                  backgroundColor: "#0284c7",
+                  backgroundColor: "var(--accent-strong)",
                   color: "white",
                   padding: "14px 32px",
                   borderRadius: "8px",
