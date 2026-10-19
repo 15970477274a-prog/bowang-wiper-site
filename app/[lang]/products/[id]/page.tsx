@@ -157,7 +157,7 @@ const relatedBlog = blogPosts
             {images.length > 1 && (
               <button className="gallery-arrow prev" onClick={(e) => { e.stopPropagation(); setSelectedImg((selectedImg - 1 + images.length) % images.length); }}>&lsaquo;</button>
             )}
-            <Image src={images[selectedImg]} alt={product.name + " - image " + (selectedImg + 1)} width={800} height={600} sizes="(max-width: 768px) 100vw, 50vw" />
+            <Image src={images[selectedImg]} alt={product.name + " - image " + (selectedImg + 1)} width={800} height={600} sizes="(max-width: 768px) 100vw, 50vw" priority />
             {images.length > 1 && (
               <button className="gallery-arrow next" onClick={(e) => { e.stopPropagation(); setSelectedImg((selectedImg + 1) % images.length); }}>&rsaquo;</button>
             )}
