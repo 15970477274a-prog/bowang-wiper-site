@@ -105,7 +105,7 @@ export default function ContactPage() {
                <h3 style={{ fontSize: "16px", fontWeight: 800, marginBottom: "15px" }}>{t.contactSupportTitle}</h3>
                <p style={{ fontSize: "14px", color: "#64748b", lineHeight: 1.6 }}>{t.contactSupportDesc}</p>
                <div style={{ display: "flex", gap: "15px", marginTop: "20px" }}>
-                  <a href="https://wa.me/8618867886795" target="_blank" style={{ flex: 1, textAlign: "center", backgroundColor: "#25d366", color: "white", padding: "12px", borderRadius: "8px", textDecoration: "none", fontWeight: "bold", fontSize: "14px" }}>{t.whatsappMe}</a>
+                  <a href="https://wa.me/8618867886795" target="_blank" style={{ flex: 1, textAlign: "center", backgroundColor: "var(--whatsapp)", color: "white", padding: "12px", borderRadius: "8px", textDecoration: "none", fontWeight: "bold", fontSize: "14px" }}>{t.whatsappMe}</a>
                   <a href="mailto:bwb@bwwiper.com" style={{ flex: 1, textAlign: "center", backgroundColor: "#0f172a", color: "white", padding: "12px", borderRadius: "8px", textDecoration: "none", fontWeight: "bold", fontSize: "14px" }}>{t.emailUs}</a>
                </div>
             </div>

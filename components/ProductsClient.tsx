@@ -106,7 +106,7 @@ export default function ProductsClient({ locale, products }: Props) {
                     position: "relative",
                     padding: "20px"
                   }}>
-                     <span style={{ position: "absolute", top: "20px", left: "20px", backgroundColor: "#ecfdf5", color: "#059669", fontSize: "11px", fontWeight: "bold", padding: "5px 12px", borderRadius: "6px", zIndex: 10 }}>{p.tag}</span>
+                     <span style={{ position: "absolute", top: "20px", left: "20px", backgroundColor: "#ecfdf5", color: "#047857", fontSize: "11px", fontWeight: "bold", padding: "5px 12px", borderRadius: "6px", zIndex: 10 }}>{p.tag}</span>
                      <Image src={p.image} alt={p.name} fill sizes="(max-width: 768px) 100vw, 33vw" style={{ objectFit: "contain" }} loading="lazy" />
                   </Link>
                   <div style={{ padding: "25px", flexGrow: 1, display: "flex", flexDirection: "column" }}>

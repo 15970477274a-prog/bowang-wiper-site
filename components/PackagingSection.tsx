@@ -41,7 +41,7 @@ export default function PackagingSection({ title, desc }: PackagingProps) {
               onMouseLeave={(e) => { e.currentTarget.style.transform = "translateY(0)"; e.currentTarget.style.boxShadow = "none"; }}
             >
               <div style={{ padding: "20px 20px 0", textAlign: "center" }}>
-                <div style={{ fontSize: "40px", fontWeight: 800, color: "#0284c7", opacity: 0.15, marginBottom: "-20px" }}>
+                <div style={{ fontSize: "40px", fontWeight: 800, color: "var(--watermark)", marginBottom: "-20px" }}>
                   {String(i + 1).padStart(2, "0")}
                 </div>
                 <Image src={item.img} alt={item.name} width={400} height={300} style={{ width: "100%", height: "180px", objectFit: "contain" }} />
