@@ -76,7 +76,7 @@ export default function BlogClient({ locale, posts }: Props) {
       {/* Banner */}
       <section style={{padding: "80px 20px", color: "white", textAlign: "center", borderBottom: "1px solid #1e293b", backgroundColor: "#0f172a" }}>
         <h1 style={{ fontSize: "42px", fontWeight: 800, marginBottom: "15px" }}>{t.blogPageTitle}</h1>
-        <p style={{ color: "#94a3b8", maxWidth: "650px", margin: "0 auto", fontSize: "16px", lineHeight: 1.6 }}>
+        <p style={{ color: "#64748b", maxWidth: "650px", margin: "0 auto", fontSize: "16px", lineHeight: 1.6 }}>
           {t.blogPageSub}
         </p>
       </section>
@@ -114,13 +114,13 @@ export default function BlogClient({ locale, posts }: Props) {
                 <div style={{ padding: "25px", flex: 1, display: "flex", flexDirection: "column" }}>
                   <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "12px" }}>
                     <span style={{ backgroundColor: "#e0f2fe", color: "#0369a1", padding: "4px 12px", borderRadius: "12px", fontSize: "12px", fontWeight: 600 }}>{post.category}</span>
-                    <span style={{ color: "#94a3b8", fontSize: "12px" }}>{post.date}</span>
+                    <span style={{ color: "#64748b", fontSize: "12px" }}>{post.date}</span>
                   </div>
                   <h2 style={{ fontSize: "18px", fontWeight: 700, margin: "0 0 12px 0", lineHeight: 1.4, color: "#0f172a" }}>{post.title}</h2>
                   <p style={{ color: "#64748b", fontSize: "14px", lineHeight: 1.6, flex: 1, margin: "0 0 15px 0" }}>{post.excerpt}</p>
                   <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", borderTop: "1px solid #f1f5f9", paddingTop: "15px" }}>
                     <span style={{ color: "#0284c7", fontSize: "13px", fontWeight: 700 }}>{lang === "zh" ? "阅读更多 →" : lang === "es" ? "Leer Más →" : lang === "ru" ? "Читать Далее →" : lang === "fr" ? "Lire Plus →" : lang === "de" ? "Weiterlesen →" : "Read More →"}</span>
-                    <span style={{ color: "#94a3b8", fontSize: "12px" }}>{post.author}</span>
+                    <span style={{ color: "#64748b", fontSize: "12px" }}>{post.author}</span>
                   </div>
                 </div>
               </article>

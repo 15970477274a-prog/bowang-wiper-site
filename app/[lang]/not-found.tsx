@@ -24,7 +24,7 @@ export default function LangNotFound() {
         <h1 style={{ fontSize: "32px", fontWeight: 800, margin: "0 0 15px" }}>
           {lang === "zh" ? "页面未找到" : lang === "es" ? "Página No Encontrada" : lang === "ru" ? "Страница Не Найдена" : lang === "fr" ? "Page Introuvable" : lang === "de" ? "Seite Nicht Gefunden" : "Page Not Found"}
         </h1>
-        <p style={{ color: "#94a3b8", maxWidth: "560px", margin: "0 auto 40px", fontSize: "16px", lineHeight: 1.7 }}>
+        <p style={{ color: "#64748b", maxWidth: "560px", margin: "0 auto 40px", fontSize: "16px", lineHeight: 1.7 }}>
           {lang === "zh"
             ? "您访问的页面不存在或已被移动。请返回首页浏览我们的雨刮片产品，或直接联系我们获取报价。"
             : lang === "es"

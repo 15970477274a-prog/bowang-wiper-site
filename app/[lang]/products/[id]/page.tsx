@@ -143,11 +143,11 @@ const relatedBlog = blogPosts
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productFaqSchema) }} />
       {/* Visible breadcrumb — internal links to home + products hub */}
       <nav aria-label="Breadcrumb" style={{ maxWidth: "1200px", margin: "0 auto", padding: "16px 20px 0", fontSize: "13px", color: "#64748b" }}>
-        <Link href={l("/")} style={{ color: "#0284c7", textDecoration: "none" }}>{t.navHome}</Link>
+        <Link href={l("/")} style={{ color: "#0284c7", textDecoration: "underline" }}>{t.navHome}</Link>
         {" / "}
-        <Link href={l("/products")} style={{ color: "#0284c7", textDecoration: "none" }}>{t.navProducts}</Link>
+        <Link href={l("/products")} style={{ color: "#0284c7", textDecoration: "underline" }}>{t.navProducts}</Link>
         {" / "}
-        <span style={{ fontWeight: 600 }}>{productName}</span>
+        <span aria-current="page" style={{ fontWeight: 600 }}>{productName}</span>
       </nav>
       <section className="section product-detail-layout" style={{maxWidth:"1200px",margin:"0 auto"}}>
         {/* Image */}
@@ -208,7 +208,7 @@ const relatedBlog = blogPosts
 
           {/* Key Features */}
           <div style={{marginBottom:"30px"}}>
-            <h4 style={{fontSize:"16px",marginBottom:"15px",color:"#0f172a"}}>{t.productHighlights}</h4>
+            <h2 style={{fontSize:"16px",marginBottom:"15px",color:"#0f172a"}}>{t.productHighlights}</h2>
             <ul style={{listStyle:"none",padding:0,margin:0}}>
               {productSpecs.map((spec, i) => (
                 <li key={i} style={{marginBottom:"10px",display:"flex",alignItems:"flex-start",fontSize:"14px",color:"#475569"}}>
@@ -220,7 +220,7 @@ const relatedBlog = blogPosts
 
           {/* Application tags */}
           <div style={{marginBottom:"30px"}}>
-            <h4 style={{fontSize:"16px",marginBottom:"15px",color:"#0f172a"}}>{t.targetMarkets}</h4>
+            <h2 style={{fontSize:"16px",marginBottom:"15px",color:"#0f172a"}}>{t.targetMarkets}</h2>
             <div style={{display:"flex",gap:"8px",flexWrap:"wrap"}}>
               {product.applications.map((app, i) => (
                 <span key={i} className="tag">{app}</span>
@@ -230,7 +230,7 @@ const relatedBlog = blogPosts
 
           {/* B2B Support */}
           <div style={{borderTop:"1px solid var(--border-light)",paddingTop:"25px",marginBottom:"30px"}}>
-            <h4 style={{fontSize:"16px",marginBottom:"15px",color:"#0f172a"}}>{t.oemServicesTitle}</h4>
+            <h2 style={{fontSize:"16px",marginBottom:"15px",color:"#0f172a"}}>{t.oemServicesTitle}</h2>
             <ul style={{listStyle:"none",padding:0,margin:0,fontSize:"14px",color:"#64748b"}}>
               <li style={{marginBottom:"8px",display:"flex",alignItems:"center"}}><span style={{color:"var(--accent)",marginRight:"10px"}}>★</span> {t.oemService1}</li>
               <li style={{marginBottom:"8px",display:"flex",alignItems:"center"}}><span style={{color:"var(--accent)",marginRight:"10px"}}>★</span> {t.oemService2}</li>
@@ -248,7 +248,7 @@ const relatedBlog = blogPosts
           <div style={{marginTop:"25px",paddingTop:"20px",borderTop:"1px solid var(--border-light)"}}>
             <div style={{display:"flex",gap:"6px",flexWrap:"wrap"}}>
               {product.keywords.slice(0, 5).map((kw, i) => (
-                <span key={i} style={{color:"#94a3b8",fontSize:"11px"}}>{kw}{i < 4 ? " ·" : ""}</span>
+                <span key={i} style={{color:"#64748b",fontSize:"11px"}}>{kw}{i < 4 ? " ·" : ""}</span>
               ))}
             </div>
           </div>
@@ -327,12 +327,12 @@ const relatedBlog = blogPosts
                 <p style={{ color: "#334155", lineHeight: 1.7, fontSize: "15px", flex: 1, margin: 0 }}>“{r.text}”</p>
                 <div style={{ marginTop: "20px", borderTop: "1px solid #e2e8f0", paddingTop: "15px" }}>
                   <div style={{ fontWeight: 700, color: "#0f172a" }}>{r.name}</div>
-                  <div style={{ color: "#94a3b8", fontSize: "13px" }}>{r.meta}</div>
+                  <div style={{ color: "#64748b", fontSize: "13px" }}>{r.meta}</div>
                 </div>
               </div>
             ))}
           </div>
-          <p style={{ textAlign: "center", color: "#94a3b8", fontSize: "13px", marginTop: "30px", marginBottom: 0 }}>{t.reviewsSource}</p>
+          <p style={{ textAlign: "center", color: "#64748b", fontSize: "13px", marginTop: "30px", marginBottom: 0 }}>{t.reviewsSource}</p>
         </div>
       </section>
 

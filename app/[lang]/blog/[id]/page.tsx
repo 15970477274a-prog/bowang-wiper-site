@@ -152,7 +152,7 @@ export default function BlogDetail() {
         <div style={{ maxWidth: "800px", margin: "0 auto" }}>
           <span style={{ display: "inline-block", backgroundColor: "#0284c7", color: "white", padding: "6px 16px", borderRadius: "20px", fontSize: "12px", fontWeight: 700, textTransform: "uppercase", marginBottom: "20px" }}>{post.category}</span>
           <h1 style={{ fontSize: "36px", fontWeight: 800, lineHeight: 1.3, marginBottom: "20px" }}>{postTitle}</h1>
-          <p style={{ color: "#94a3b8", fontSize: "16px", lineHeight: 1.6, marginBottom: "20px" }}>{postExcerpt}</p>
+          <p style={{ color: "#64748b", fontSize: "16px", lineHeight: 1.6, marginBottom: "20px" }}>{postExcerpt}</p>
           <div style={{ display: "flex", justifyContent: "center", gap: "20px", fontSize: "13px", color: "#64748b" }}>
             <span>{post.author}</span>
             <span>{post.date}</span>

@@ -214,11 +214,11 @@ export default function AboutPage() {
              
              <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "20px", marginTop: "40px" }}>
                 <div style={{ backgroundColor: "#f8fafc", padding: "20px", borderRadius: "10px", borderLeft: "4px solid #0284c7" }}>
-                   <h4 style={{ margin: "0 0 5px 0", color: "#0f172a" }}>{aboutText.missionTitle}</h4>
+                   <h3 style={{ margin: "0 0 5px 0", color: "#0f172a" }}>{aboutText.missionTitle}</h3>
                    <p style={{ margin: 0, fontSize: "14px", color: "#64748b" }}>{aboutText.missionText}</p>
                 </div>
                 <div style={{ backgroundColor: "#f8fafc", padding: "20px", borderRadius: "10px", borderLeft: "4px solid #0284c7" }}>
-                   <h4 style={{ margin: "0 0 5px 0", color: "#0f172a" }}>{aboutText.visionTitle}</h4>
+                   <h3 style={{ margin: "0 0 5px 0", color: "#0f172a" }}>{aboutText.visionTitle}</h3>
                    <p style={{ margin: 0, fontSize: "14px", color: "#64748b" }}>{aboutText.visionText}</p>
                 </div>
              </div>
@@ -231,10 +231,10 @@ export default function AboutPage() {
 
       <section style={{ backgroundColor: "#f1f5f9", padding: "60px 20px" }}>
         <div style={{ maxWidth: "1000px", margin: "0 auto", display: "flex", justifyContent: "space-around", textAlign: "center", flexWrap: "wrap", gap: "30px" }}>
-          <div><span style={{ fontSize: "42px", fontWeight: 800, color: "#0284c7" }}>{t.aboutStat1Title}</span><p style={{ fontSize: "14px", fontWeight: 600, color: "#64748b", textTransform: "uppercase" }}>{t.aboutStat1Desc}</p></div>
-          <div><span style={{ fontSize: "42px", fontWeight: 800, color: "#0284c7" }}>{t.aboutStat2Title}</span><p style={{ fontSize: "14px", fontWeight: 600, color: "#64748b", textTransform: "uppercase" }}>{t.aboutStat2Desc}</p></div>
-          <div><span style={{ fontSize: "42px", fontWeight: 800, color: "#0284c7" }}>{t.aboutStat3Title}</span><p style={{ fontSize: "14px", fontWeight: 600, color: "#64748b", textTransform: "uppercase" }}>{t.aboutStat3Desc}</p></div>
-          <div><span style={{ fontSize: "42px", fontWeight: 800, color: "#0284c7" }}>12M+</span><p style={{ fontSize: "14px", fontWeight: 600, color: "#64748b", textTransform: "uppercase" }}>{aboutText.annualCapacity}</p></div>
+          <div><span style={{ fontSize: "42px", fontWeight: 800, color: "#0284c7" }}>{t.aboutStat1Title}</span><p style={{ fontSize: "14px", fontWeight: 600, color: "#475569", textTransform: "uppercase" }}>{t.aboutStat1Desc}</p></div>
+          <div><span style={{ fontSize: "42px", fontWeight: 800, color: "#0284c7" }}>{t.aboutStat2Title}</span><p style={{ fontSize: "14px", fontWeight: 600, color: "#475569", textTransform: "uppercase" }}>{t.aboutStat2Desc}</p></div>
+          <div><span style={{ fontSize: "42px", fontWeight: 800, color: "#0284c7" }}>{t.aboutStat3Title}</span><p style={{ fontSize: "14px", fontWeight: 600, color: "#475569", textTransform: "uppercase" }}>{t.aboutStat3Desc}</p></div>
+          <div><span style={{ fontSize: "42px", fontWeight: 800, color: "#0284c7" }}>12M+</span><p style={{ fontSize: "14px", fontWeight: 600, color: "#475569", textTransform: "uppercase" }}>{aboutText.annualCapacity}</p></div>
         </div>
       </section>
 

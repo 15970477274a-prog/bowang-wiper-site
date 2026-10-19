@@ -43,7 +43,7 @@ export default function GlobalNotFound() {
           >
             <div style={{ fontSize: "72px", fontWeight: 800, color: "#0284c7", marginBottom: "10px" }}>404</div>
             <h1 style={{ fontSize: "32px", fontWeight: 800, margin: "0 0 15px" }}>Page Not Found</h1>
-            <p style={{ color: "#94a3b8", maxWidth: "560px", margin: "0 auto 40px", fontSize: "16px", lineHeight: 1.7 }}>
+            <p style={{ color: "#64748b", maxWidth: "560px", margin: "0 auto 40px", fontSize: "16px", lineHeight: 1.7 }}>
               The page you are looking for does not exist or has been moved. Return to the homepage to browse our wiper
               blades, or contact us for a quote.
             </p>

@@ -81,7 +81,7 @@ export default function ContactPage() {
         textAlign: "center" 
       }}>
         <h1 style={{ fontSize: "42px", fontWeight: 800, marginBottom: "15px" }}>{t.contactPageTitle}</h1>
-        <p style={{ color: "#94a3b8", maxWidth: "700px", margin: "0 auto" }}>{t.contactPageDesc}</p>
+        <p style={{ color: "#64748b", maxWidth: "700px", margin: "0 auto" }}>{t.contactPageDesc}</p>
       </section>
 
       <section style={{ padding: "80px 20px", maxWidth: "1200px", margin: "0 auto" }}>
@@ -89,20 +89,20 @@ export default function ContactPage() {
           <div>
             <h2 style={{ fontSize: "28px", fontWeight: 800, marginBottom: "35px" }}>{t.contactInfoTitle}</h2>
             <div style={{ marginBottom: "30px" }}>
-              <h4 style={{ color: "#0284c7", textTransform: "uppercase", fontSize: "13px", fontWeight: 800, marginBottom: "10px" }}>{t.contactAddressTitle}</h4>
+              <h3 style={{ color: "#0284c7", textTransform: "uppercase", fontSize: "13px", fontWeight: 800, marginBottom: "10px" }}>{t.contactAddressTitle}</h3>
               <p style={{ fontSize: "16px", color: "#475569", lineHeight: 1.6 }}>{t.footerAddress}</p>
             </div>
             <div style={{ marginBottom: "30px" }}>
-              <h4 style={{ color: "#0284c7", textTransform: "uppercase", fontSize: "13px", fontWeight: 800, marginBottom: "10px" }}>{t.contactPhoneTitle}</h4>
+              <h3 style={{ color: "#0284c7", textTransform: "uppercase", fontSize: "13px", fontWeight: 800, marginBottom: "10px" }}>{t.contactPhoneTitle}</h3>
               <p style={{ fontSize: "18px", fontWeight: 700, color: "#0f172a" }}>+86 188 6788 6795</p>
               <p style={{ fontSize: "14px", color: "#64748b" }}>{t.contactAvailableOn}</p>
             </div>
             <div style={{ marginBottom: "30px" }}>
-              <h4 style={{ color: "#0284c7", textTransform: "uppercase", fontSize: "13px", fontWeight: 800, marginBottom: "10px" }}>{t.contactOfficialEmail}</h4>
+              <h3 style={{ color: "#0284c7", textTransform: "uppercase", fontSize: "13px", fontWeight: 800, marginBottom: "10px" }}>{t.contactOfficialEmail}</h3>
               <p style={{ fontSize: "18px", fontWeight: 700, color: "#0f172a" }}>bwb@bwwiper.com</p>
             </div>
             <div style={{ marginTop: "50px", padding: "30px", backgroundColor: "#f8fafc", borderRadius: "16px", border: "1px solid #e2e8f0" }}>
-               <h4 style={{ fontSize: "16px", fontWeight: 800, marginBottom: "15px" }}>{t.contactSupportTitle}</h4>
+               <h3 style={{ fontSize: "16px", fontWeight: 800, marginBottom: "15px" }}>{t.contactSupportTitle}</h3>
                <p style={{ fontSize: "14px", color: "#64748b", lineHeight: 1.6 }}>{t.contactSupportDesc}</p>
                <div style={{ display: "flex", gap: "15px", marginTop: "20px" }}>
                   <a href="https://wa.me/8618867886795" target="_blank" style={{ flex: 1, textAlign: "center", backgroundColor: "#25d366", color: "white", padding: "12px", borderRadius: "8px", textDecoration: "none", fontWeight: "bold", fontSize: "14px" }}>{t.whatsappMe}</a>

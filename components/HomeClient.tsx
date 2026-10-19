@@ -271,12 +271,12 @@ export default function HomeClient({ locale, featured }: Props) {
                 <p style={{ color: "#334155", lineHeight: 1.7, fontSize: "15px", flex: 1, margin: 0 }}>“{r.text}”</p>
                 <div style={{ marginTop: "20px", borderTop: "1px solid #f1f5f9", paddingTop: "15px" }}>
                   <div style={{ fontWeight: 700, color: "#0f172a" }}>{r.name}</div>
-                  <div style={{ color: "#94a3b8", fontSize: "13px" }}>{r.meta}</div>
+                  <div style={{ color: "#64748b", fontSize: "13px" }}>{r.meta}</div>
                 </div>
               </div>
             ))}
           </div>
-          <p style={{ textAlign: "center", color: "#94a3b8", fontSize: "13px", marginTop: "30px", marginBottom: 0 }}>{t.reviewsSource}</p>
+          <p style={{ textAlign: "center", color: "#64748b", fontSize: "13px", marginTop: "30px", marginBottom: 0 }}>{t.reviewsSource}</p>
         </div>
       </section>
 
@@ -293,7 +293,7 @@ export default function HomeClient({ locale, featured }: Props) {
               <div key={idx} style={{ backgroundColor: "#ffffff", borderRadius: "12px", border: "1px solid #e2e8f0", overflow: "hidden" }}>
                 <button onClick={() => toggleFaq(idx)} style={{ width: "100%", padding: "20px 30px", display: "flex", justifyContent: "space-between", alignItems: "center", backgroundColor: "transparent", border: "none", cursor: "pointer", textAlign: "left" }}>
                   <span style={{ fontSize: "18px", fontWeight: 700, color: openFaq === idx ? "#0284c7" : "#0f172a" }}>{item.q}</span>
-                  <span style={{ fontSize: "24px", color: "#94a3b8", transform: openFaq === idx ? "rotate(45deg)" : "rotate(0)", transition: "transform 0.3s" }}>+</span>
+                  <span style={{ fontSize: "24px", color: "#64748b", transform: openFaq === idx ? "rotate(45deg)" : "rotate(0)", transition: "transform 0.3s" }}>+</span>
                 </button>
                 <div style={{ maxHeight: openFaq === idx ? "300px" : "0", overflow: "hidden", transition: "all 0.3s ease-out", padding: openFaq === idx ? "0 30px 25px 30px" : "0 30px" }}>
                   <p style={{ fontSize: "16px", color: "#64748b", lineHeight: 1.6, margin: 0 }}>{item.a}</p>
@@ -317,7 +317,7 @@ export default function HomeClient({ locale, featured }: Props) {
               <input type="email" name="email" required value={formData.email} onChange={handleChange} placeholder={t.contactEmailLabel} style={{ width: "100%", padding: "14px", border: "1px solid #e2e8f0", borderRadius: "8px" }} />
             </div>
             <input type="text" name="company" value={formData.company} onChange={handleChange} placeholder={t.contactCompanyLabel} style={{ width: "100%", padding: "14px", border: "1px solid #e2e8f0", borderRadius: "8px", marginBottom: "25px" }} />
-            <select name="product" value={formData.product} onChange={handleChange} style={{ width: "100%", padding: "14px", border: "1px solid #e2e8f0", borderRadius: "8px", marginBottom: "25px" }}>
+            <select name="product" aria-label="Product range" value={formData.product} onChange={handleChange} style={{ width: "100%", padding: "14px", border: "1px solid #e2e8f0", borderRadius: "8px", marginBottom: "25px" }}>
               <option value="Universal Wiper Blades">Universal</option><option value="Specific Fit Wiper Blades">Specific Fit</option><option value="Multifunction Wiper Blades">Multifunction</option>
             </select>
             <textarea name="message" required rows={4} value={formData.message} onChange={handleChange} placeholder={t.contactMessagePlaceholder} style={{ width: "100%", padding: "14px", border: "1px solid #e2e8f0", borderRadius: "8px", marginBottom: "35px" }} />

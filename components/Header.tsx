@@ -11,6 +11,11 @@ export default function Header() {
   const [mobileMenu, setMobileMenu] = useState(false);
   const closeMobileMenu = () => setMobileMenu(false);
   const t = translations[lang];
+  // The language switcher has no visible label, so it needs an accessible name.
+  const langAria: Record<Locale, string> = {
+    en: "Select language", es: "Seleccionar idioma", ru: "Выбрать язык",
+    fr: "Choisir la langue", de: "Sprache wählen", zh: "选择语言",
+  };
 
   const handleLangChange = (newLang: Locale) => {
     setLang(newLang);
@@ -53,7 +58,7 @@ export default function Header() {
             <Link href={l("/about")} className="nav-link">{t.navAboutUs}</Link>
             <a href="/Catalog.pdf" target="_blank" className="nav-link" style={{color:"var(--accent-glow)",fontWeight:600}}>{t.navCatalog}</a>
             <Link href={l("/contact")} className="nav-cta">{t.navGetQuote}</Link>
-            <select value={lang} onChange={(e) => handleLangChange(e.target.value as Locale)} className="lang-select">
+            <select value={lang} onChange={(e) => handleLangChange(e.target.value as Locale)} aria-label={langAria[lang]} className="lang-select">
               <option value="en">English</option><option value="es">Español</option><option value="ru">Русский</option><option value="fr">Français</option><option value="de">Deutsch</option><option value="zh">中文</option>
             </select>
           </nav>
@@ -67,7 +72,7 @@ export default function Header() {
         <a href={l("/about")} onClick={closeMobileMenu}>{t.navAboutUs}</a>
         <a href="/Catalog.pdf" target="_blank" onClick={closeMobileMenu} style={{color:"var(--accent-glow)",fontWeight:600}}>{t.navCatalog}</a>
         <a href={l("/contact")} className="nav-cta" onClick={closeMobileMenu}>{t.navGetQuote}</a>
-        <select value={lang} onChange={(e) => { handleLangChange(e.target.value as Locale); }} className="lang-select-mobile">
+        <select value={lang} onChange={(e) => { handleLangChange(e.target.value as Locale); }} aria-label={langAria[lang]} className="lang-select-mobile">
           <option value="en">English</option><option value="es">Español</option><option value="ru">Русский</option><option value="fr">Français</option><option value="de">Deutsch</option><option value="zh">中文</option>
         </select>
       </div>
