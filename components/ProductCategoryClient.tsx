@@ -71,7 +71,7 @@ export default function ProductCategoryClient({ locale, slug, products }: Props)
           <div className="pl-layout">
             {/* Sidebar */}
             <aside className="sidebar pl-aside">
-              <h3 className="sidebar-title">{t.seriesFilter}</h3>
+              <h2 className="sidebar-title">{t.seriesFilter}</h2>
               {/* <ul> may only contain <li>; the anchor fills the row (.sidebar-link). */}
               <ul className="sidebar-list pl-aside-list">
                 <li className="sidebar-item"><Link href={l("/products")} className="sidebar-link" style={{textDecoration:"none",color:"inherit"}}>{t.allWipers}</Link></li>
