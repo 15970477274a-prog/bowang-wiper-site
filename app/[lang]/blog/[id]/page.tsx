@@ -184,7 +184,7 @@ export default function BlogDetail() {
         <section style={{ backgroundColor: "#f8fafc", padding: "60px 20px" }}>
           <div style={{ maxWidth: "900px", margin: "0 auto" }}>
             <h2 style={{ fontSize: "24px", fontWeight: 800, textAlign: "center", marginBottom: "30px", color: "#0f172a" }}>{t.relatedArticles}</h2>
-            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "24px" }}>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(300px, 100%), 1fr))", gap: "24px" }}>
               {related.map(rp => (
                 <Link key={rp.id} href={l("/blog/" + rp.id)} style={{ textDecoration: "none", color: "inherit" }}>
                   <div style={{ backgroundColor: "white", borderRadius: "12px", overflow: "hidden", boxShadow: "0 4px 12px rgba(0,0,0,0.06)" }}>
@@ -207,7 +207,7 @@ export default function BlogDetail() {
         <section style={{ padding: "60px 20px" }}>
           <div style={{ maxWidth: "900px", margin: "0 auto" }}>
             <h2 style={{ fontSize: "24px", fontWeight: 800, textAlign: "center", marginBottom: "30px", color: "#0f172a" }}>{t.popularProducts}</h2>
-            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "24px" }}>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(260px, 100%), 1fr))", gap: "24px" }}>
               {featuredProducts.map((fp) => (
                 <Link key={fp.id} href={l("/products/" + fp.id)} style={{ textDecoration: "none", color: "inherit" }}>
                   <div style={{ backgroundColor: "white", borderRadius: "12px", overflow: "hidden", boxShadow: "0 4px 12px rgba(0,0,0,0.06)", transition: "box-shadow 0.2s" }}>

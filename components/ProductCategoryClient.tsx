@@ -152,7 +152,7 @@ export default function ProductCategoryClient({ locale, slug, products }: Props)
               Items are generated from the shared CATEGORY_MAP source, never hand-written. */}
           <div style={{marginTop:"70px",paddingTop:"45px",borderTop:"1px solid #e2e8f0"}}>
             <h2 style={{fontSize:"26px",fontWeight:800,color:"#0f172a",textAlign:"center",marginBottom:"30px"}}>{t.allSeriesTitle}</h2>
-            <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fill, minmax(200px, 1fr))",gap:"14px"}}>
+            <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fill, minmax(min(200px, 100%), 1fr))",gap:"14px"}}>
               {Object.entries(CATEGORY_MAP).map(([s, c]) => {
                 const key = CATEGORY_LABEL_KEYS[c];
                 const label = key ? t[key as keyof typeof t] : c;

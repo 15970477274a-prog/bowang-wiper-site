@@ -320,7 +320,7 @@ const relatedBlog = blogPosts
             <h2 className="section-title">{t.reviewsTitle}</h2>
             <p className="section-subtitle">{t.reviewsSubtitle}</p>
           </div>
-          <div className="grid-products" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))" }}>
+          <div className="grid-products" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(min(280px, 100%), 1fr))" }}>
             {reviews.map((r, i) => (
               <div key={i} className="card" style={{ padding: "28px", display: "flex", flexDirection: "column", textAlign: "left" }}>
                 <div style={{ color: "#f59e0b", fontSize: "18px", letterSpacing: "2px", marginBottom: "15px" }}>★★★★★</div>
@@ -372,7 +372,7 @@ const relatedBlog = blogPosts
           <div className="container">
             <h2 className="section-title">{t.relatedInsightsTitle}</h2>
             <p className="section-subtitle">{t.relatedInsightsSubtitle}</p>
-            <div className="grid-auto" style={{gridTemplateColumns:"repeat(auto-fill, minmax(300px, 1fr))"}}>
+            <div className="grid-auto" style={{gridTemplateColumns:"repeat(auto-fill, minmax(min(300px, 100%), 1fr))"}}>
               {relatedBlog.map(post => (
                 <Link key={post.id} href={l("/blog/" + post.id)} style={{textDecoration:"none",color:"inherit"}}>
                   <div className="blog-card" style={{margin:0}}>

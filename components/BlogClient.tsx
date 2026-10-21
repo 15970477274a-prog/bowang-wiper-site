@@ -75,7 +75,7 @@ export default function BlogClient({ locale, posts }: Props) {
 
       {/* Banner */}
       <section style={{padding: "80px 20px", color: "white", textAlign: "center", borderBottom: "1px solid #1e293b", backgroundColor: "#0f172a" }}>
-        <h1 style={{ fontSize: "42px", fontWeight: 800, marginBottom: "15px" }}>{t.blogPageTitle}</h1>
+        <h1 style={{ fontSize: "var(--h1-blog, 42px)", fontWeight: 800, marginBottom: "15px" }}>{t.blogPageTitle}</h1>
         <p style={{ color: "#64748b", maxWidth: "650px", margin: "0 auto", fontSize: "16px", lineHeight: 1.6 }}>
           {t.blogPageSub}
         </p>
@@ -100,7 +100,7 @@ export default function BlogClient({ locale, posts }: Props) {
 
       {/* Blog Grid */}
       <section style={{ padding: "0 20px 80px", maxWidth: "1250px", margin: "0 auto" }}>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(370px, 1fr))", gap: "35px" }}>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(min(370px, 100%), 1fr))", gap: "35px" }}>
           {filteredPosts.map(post => (
             <Link key={post.id} href={l(`/blog/${post.id}`)} style={{ textDecoration: "none", color: "inherit" }}>
               <article style={{

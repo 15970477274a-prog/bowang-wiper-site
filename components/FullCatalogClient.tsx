@@ -68,7 +68,7 @@ export default function FullCatalogClient({ locale, products }: Props) {
                 <h2 style={{fontSize:"24px",fontWeight:800,color:"#0f172a",marginBottom:"20px",paddingBottom:"12px",borderBottom:"1px solid #e2e8f0"}}>
                   <Link href={l("/products/category/" + slug + "/all")} style={{color:"#0f172a",textDecoration:"none"}}>{getCategoryName(category)}</Link>
                 </h2>
-                <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fill, minmax(170px, 1fr))",gap:"18px"}}>
+                <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fill, minmax(min(170px, 100%), 1fr))",gap:"18px"}}>
                   {items.map(p => (
                     <Link key={p.id} href={l("/products/" + p.id)} style={{
                       textDecoration:"none",color:"inherit",backgroundColor:"white",borderRadius:"12px",

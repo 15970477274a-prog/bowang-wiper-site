@@ -90,7 +90,7 @@ export default function CategoryAllClient({ locale, slug, products }: Props) {
               {items.length === 0 ? (
                 <p style={{color:"#64748b",textAlign:"center",padding:"40px"}}>{t.categoryNotFoundDesc || "No products found in this category."}</p>
               ) : (
-                <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fill, minmax(260px, 1fr))",gap:"28px"}}>
+                <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fill, minmax(min(260px, 100%), 1fr))",gap:"28px"}}>
                   {items.map(product => (
                     <div key={product.id} style={{
                       backgroundColor:"white",borderRadius:"16px",overflow:"hidden",border:"1px solid #f1f5f9",

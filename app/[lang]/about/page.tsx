@@ -200,7 +200,7 @@ export default function AboutPage() {
         textAlign: "center" 
       }}>
         <div style={{ maxWidth: "800px", margin: "0 auto" }}>
-          <h1 style={{ fontSize: "48px", fontWeight: 800, marginBottom: "20px" }}>{aboutText.bannerTitle}</h1>
+          <h1 style={{ fontSize: "var(--h1-about, 48px)", fontWeight: 800, marginBottom: "20px" }}>{aboutText.bannerTitle}</h1>
           <p style={{ fontSize: "18px", color: "#cbd5e1", lineHeight: 1.6 }}>{aboutText.bannerSub}</p>
         </div>
       </section>
@@ -244,7 +244,7 @@ export default function AboutPage() {
           <p style={{ color: "#94a3b8", marginBottom: "60px", maxWidth: "700px", margin: "0 auto" }}>{aboutText.qualitySub}</p>
           <p style={{ color: "#cbd5e1", margin: "20px auto 40px", maxWidth: "700px", fontSize: "14px" }}>ISO 9001:2015 · No. 134956 (NQA) &nbsp;|&nbsp; CE Certificate · No. M.2022.206.C79712 (UDEM)</p>
           <div style={{ marginBottom: "40px" }}><a href={"/" + lang + "/testing"} style={{ color: "#38bdf8", fontWeight: 700, textDecoration: "none" }}>→ {aboutText.qualityTitle === "质量与认证" ? "查看雨刮胶条测试数据" : "View Wiper Rubber Test Data"}</a></div>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "40px" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(300px, 100%), 1fr))", gap: "40px" }}>
              {certificates.map((cert, i) => (
                <div key={i} style={{ backgroundColor: "white", borderRadius: "16px", padding: "20px", textAlign: "center", boxShadow: "0 10px 30px rgba(0,0,0,0.3)" }}>
                  <div style={{ height: "400px", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center", marginBottom: "20px" }}>

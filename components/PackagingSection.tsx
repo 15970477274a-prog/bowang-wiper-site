@@ -27,7 +27,7 @@ export default function PackagingSection({ title, desc }: PackagingProps) {
             {desc}
           </p>
         </div>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(250px, 1fr))", gap: "24px" }}>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(min(250px, 100%), 1fr))", gap: "24px" }}>
           {packages.map((item, i) => (
             <div key={i} style={{
               backgroundColor: "#f8fafc",

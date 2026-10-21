@@ -52,7 +52,7 @@ export default function Footer() {
         margin: "0 auto",
         padding: "56px 20px 40px",
         display: "grid",
-        gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))",
+        gridTemplateColumns: "repeat(auto-fit, minmax(min(240px, 100%), 1fr))",
         gap: "48px"
       }}>
         {/* Column 1: Brand + Description */}

@@ -152,9 +152,9 @@ export default function HomeClient({ locale, featured }: Props) {
       }}>
         <div style={{ maxWidth: "850px", margin: "0 auto" }}>
           <span style={{ backgroundColor: "var(--accent-strong)", padding: "6px 16px", borderRadius: "20px", fontSize: "12px", fontWeight: "bold", textTransform: "uppercase", marginBottom: "25px", display: "inline-block" }}>{t.heroTag}</span>
-          <h1 style={{ fontSize: "56px", fontWeight: 800, marginBottom: "25px", lineHeight: 1.1, textShadow: "0 2px 10px rgba(0,0,0,0.3)" }}>{t.heroTitle}</h1>
+          <h1 style={{ fontSize: "var(--h1-hero, 56px)", fontWeight: 800, marginBottom: "25px", lineHeight: 1.1, textShadow: "0 2px 10px rgba(0,0,0,0.3)" }}>{t.heroTitle}</h1>
           <p style={{ fontSize: "20px", color: "#cbd5e1", marginBottom: "45px", lineHeight: 1.6 }}>{t.heroSubtitle}</p>
-          <div style={{ display: "flex", gap: "20px", justifyContent: "center" }}>
+          <div style={{ display: "flex", gap: "20px", justifyContent: "center", flexWrap: "wrap" }}>
             <Link href={l("/contact")} className="btn-primary" style={{ padding: "18px 45px", fontSize: "18px", textDecoration: "none", backgroundColor: "var(--accent-strong)", color: "white", borderRadius: "8px", fontWeight: "bold", boxShadow: "0 10px 25px rgba(3, 105, 161, 0.4)" }}>{t.heroInquireBtn}</Link>
             <Link href={l("/products")} className="btn-secondary" style={{ padding: "18px 45px", fontSize: "18px", backgroundColor: "white", color: "#0f172a", textDecoration: "none", borderRadius: "8px", fontWeight: "bold" }}>{t.heroProductsBtn}</Link>
           </div>
@@ -174,7 +174,7 @@ export default function HomeClient({ locale, featured }: Props) {
             <div style={{ height: "4px", width: "60px", backgroundColor: "#0284c7", margin: "15px auto" }}></div>
             <p style={{ color: "#64748b", maxWidth: "640px", margin: "0 auto" }}>{t.statsSubtitle}</p>
           </div>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "25px", marginBottom: "50px" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(220px, 100%), 1fr))", gap: "25px", marginBottom: "50px" }}>
             {[
               { v: t.stat1Value, l: t.stat1Label },
               { v: t.stat2Value, l: t.stat2Label },
@@ -187,7 +187,7 @@ export default function HomeClient({ locale, featured }: Props) {
               </div>
             ))}
           </div>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: "30px", alignItems: "stretch" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(320px, 100%), 1fr))", gap: "30px", alignItems: "stretch" }}>
             <div style={{ backgroundColor: "#0f172a", color: "white", borderRadius: "14px", padding: "40px", display: "flex", flexDirection: "column", justifyContent: "center" }}>
               <div style={{ fontSize: "26px", fontWeight: 800, marginBottom: "15px" }}>{t.videoQcTitle}</div>
               <p style={{ color: "#cbd5e1", lineHeight: 1.7, fontSize: "16px", margin: 0 }}>{t.videoQcDesc}</p>
@@ -230,7 +230,7 @@ export default function HomeClient({ locale, featured }: Props) {
           <h2 style={{ fontSize: "36px", fontWeight: 800, color: "#0f172a" }}>{t.featuredCategories}</h2>
           <div style={{ height: "4px", width: "60px", backgroundColor: "#0284c7", margin: "15px auto" }}></div>
         </div>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(350px, 1fr))", gap: "30px" }}>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(350px, 100%), 1fr))", gap: "30px" }}>
           {featured.map(p => {
               const pName = p.name;
               const pDesc = p.desc;
@@ -264,7 +264,7 @@ export default function HomeClient({ locale, featured }: Props) {
             <div style={{ height: "4px", width: "60px", backgroundColor: "#0284c7", margin: "15px auto" }}></div>
             <p style={{ color: "#64748b" }}>{t.reviewsSubtitle}</p>
           </div>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "25px" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(300px, 100%), 1fr))", gap: "25px" }}>
             {reviews.map((r, i) => (
               <div key={i} style={{ backgroundColor: "#ffffff", borderRadius: "12px", border: "1px solid #e2e8f0", padding: "30px", display: "flex", flexDirection: "column" }}>
                 <div style={{ color: "#f59e0b", fontSize: "18px", letterSpacing: "2px", marginBottom: "15px" }}>★★★★★</div>

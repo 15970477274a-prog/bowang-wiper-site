@@ -31,6 +31,14 @@
   --whatsapp: #075e54;
   --max-width: 1200px;
   --content-width: 850px;
+  /* Display h1 sizing. The px term is the desktop size and is what actually
+     applies from ~470px up, so wide screens are untouched. The vw term only binds
+     on narrow phones, where it keeps the widest single word of that language
+     inside the content box (viewport - 2x20px section padding). Coefficients are
+     derived from measured word widths, per language, not hand-picked. */
+  --h1-hero: min(56px, 11.8vw);
+  --h1-about: min(48px, 10.9vw);
+  --h1-blog: min(42px, 11.6vw);
   --font: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
@@ -169,11 +177,17 @@ a { color: inherit; text-decoration: none; }
 .cert-card:hover { transform: translateY(-5px); }
 .cert-card-img { height: 400px; overflow: hidden; display: flex; align-items: center; justify-content: center; margin-bottom: 20px; }
 
+/* A single unbreakable word (German compounds, long product names) must not push
+   the page sideways; break-word only acts when the word cannot fit the line box,
+   so it is inert at desktop widths. Not paired with hyphens:auto because that
+   would also hyphenate ordinary desktop line breaks. */
+h1, h2, h3, h4 { overflow-wrap: break-word; }
+
 .grid-2col { display: grid; grid-template-columns: 1fr 1fr; gap: 25px; }
 .grid-3col { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; }
-.grid-auto { display: grid; grid-template-columns: repeat(auto-fill, minmax(370px, 1fr)); gap: 35px; }
-.grid-products { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 35px; }
-.grid-certs { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 40px; }
+.grid-auto { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(370px, 100%), 1fr)); gap: 35px; }
+.grid-products { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(320px, 100%), 1fr)); gap: 35px; }
+.grid-certs { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr)); gap: 40px; }
 .grid-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; }
 .grid-related { display: grid; grid-template-columns: 1fr 1fr; gap: 25px; }
 
@@ -654,7 +668,7 @@ a { color: inherit; text-decoration: none; }
    and collapsed to a single column. */
 .pl-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(240px, 100%), 1fr));
   gap: 30px;
   min-width: 0;
 }
@@ -756,3 +770,12 @@ a { color: inherit; text-decoration: none; }
   .pl-aside-list .sidebar-item { margin-bottom: 0; }
 }
 
+
+/* Longest-word overrides. Russian compounds ("Профессиональный") and Spanish /
+   German long words are far wider than English at the same font size, so each
+   gets its own coefficient instead of shrinking every language to the worst one. */
+html[lang="ru"] { --h1-hero: min(56px, 7.7vw); --h1-about: min(48px, 10.1vw); --h1-blog: min(42px, 7.9vw); }
+html[lang="es"] { --h1-hero: min(56px, 9.5vw); }
+html[lang="de"] { --h1-hero: min(56px, 9.3vw); }
+/* Chinese wraps between characters, so no word can overflow; keep the full size. */
+html[lang^="zh"] { --h1-hero: 56px; }
