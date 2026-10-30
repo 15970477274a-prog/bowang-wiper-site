@@ -31,7 +31,7 @@ const nextConfig = {
           "default-src 'self'",
           "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.gstatic.com https://analytics.ahrefs.com",
           "style-src 'self' 'unsafe-inline'",
-          "img-src 'self' https://sc02.alicdn.com https://*.r2.dev https://*.edgeone.dev data:",
+          "img-src 'self' https://sc02.alicdn.com https://i.ytimg.com https://*.r2.dev https://*.edgeone.dev data:",
           "font-src 'self'",
           "connect-src 'self' https://www.google-analytics.com https://analytics.ahrefs.com",
           "frame-src 'self' https://www.google.com https://www.youtube.com https://www.youtube-nocookie.com",
