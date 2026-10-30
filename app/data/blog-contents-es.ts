@@ -38,7 +38,7 @@ Pregunte sobre su proceso de control de calidad:
 
 ### Por que destaca Lelion Autoparts
 
-Ubicada en Ningbo, China, Lelion Autoparts fabrica escobillas limpiaparabrisas de alta calidad desde 2011. Nuestra planta de 8.000 m2 produce mas de 12 millones de unidades al ano, abasteciendo a distribuidores en mas de 50 paises.
+Ubicada en Ningbo, China, Lelion Autoparts fabrica escobillas limpiaparabrisas de alta calidad desde 2011. Nuestra planta de 8.000 m2 produce mas de 10 millones de unidades al ano, abasteciendo a distribuidores en mas de 50 paises.
 
 Ofrecemos:
 - Produccion certificada ISO 9001

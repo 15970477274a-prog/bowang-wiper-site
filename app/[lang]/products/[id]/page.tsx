@@ -316,7 +316,7 @@ const relatedBlog = blogPosts
       <section className="section section-white">
         <div className="container">
           <div style={{ textAlign: "center", marginBottom: "50px" }}>
-            <div style={{ display: "inline-block", backgroundColor: "var(--accent-strong)", color: "white", padding: "8px 20px", borderRadius: "20px", fontSize: "14px", fontWeight: 700, marginBottom: "18px" }}>4.7 / 5 · 39 Reviews</div>
+            <div style={{ display: "inline-block", backgroundColor: "var(--accent-strong)", color: "white", padding: "8px 20px", borderRadius: "20px", fontSize: "14px", fontWeight: 700, marginBottom: "18px" }}>4.7 / 5 · 101 Reviews</div>
             <h2 className="section-title">{t.reviewsTitle}</h2>
             <p className="section-subtitle">{t.reviewsSubtitle}</p>
           </div>

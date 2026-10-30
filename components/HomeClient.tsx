@@ -259,7 +259,7 @@ export default function HomeClient({ locale, featured }: Props) {
       <section style={{ padding: "90px 20px", backgroundColor: "#f8fafc" }}>
         <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
           <div style={{ textAlign: "center", marginBottom: "55px" }}>
-            <div style={{ display: "inline-block", backgroundColor: "var(--accent-strong)", color: "white", padding: "8px 20px", borderRadius: "20px", fontSize: "14px", fontWeight: 700, marginBottom: "18px" }}>4.7 / 5 · 39 Reviews</div>
+            <div style={{ display: "inline-block", backgroundColor: "var(--accent-strong)", color: "white", padding: "8px 20px", borderRadius: "20px", fontSize: "14px", fontWeight: 700, marginBottom: "18px" }}>4.7 / 5 · 101 Reviews</div>
             <h2 style={{ fontSize: "34px", fontWeight: 800, color: "#0f172a" }}>{t.reviewsTitle}</h2>
             <div style={{ height: "4px", width: "60px", backgroundColor: "#0284c7", margin: "15px auto" }}></div>
             <p style={{ color: "#64748b" }}>{t.reviewsSubtitle}</p>

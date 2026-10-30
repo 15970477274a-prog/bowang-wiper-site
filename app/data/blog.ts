@@ -61,7 +61,7 @@ Ask about their QC process:
 
 ### Why Lelion Autoparts Stands Out
 
-Located in Ningbo, China, Lelion Autoparts has been manufacturing premium wiper blades since 2011. Our 8,000sqm facility produces over 12 million units annually, serving distributors in 50+ countries.
+Located in Ningbo, China, Lelion Autoparts has been manufacturing premium wiper blades since 2011. Our 8,000sqm facility produces over 10 million units annually, serving distributors in 50+ countries.
 
 We offer:
 - ISO 9001 certified production

@@ -115,7 +115,9 @@ const organizationSchema = {
     "https://nbzhbw.en.made-in-china.com/",
     "https://www.bwwiper.com/",
     "https://www.facebook.com/groups/750483250868131/",
-    "https://www.instagram.com/lelionwiper/",
+    "https://www.instagram.com/bowangallen/",
+    "https://www.youtube.com/channel/UCxgd3bIU_kAivg0xL4XOh2Q",
+    "https://www.linkedin.com/in/qingjiang-cao/",
     "https://wa.me/8618867886795"
   ]
 };

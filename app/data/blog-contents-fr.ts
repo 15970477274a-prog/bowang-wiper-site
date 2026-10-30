@@ -38,7 +38,7 @@ Renseignez-vous sur leur processus de contrôle qualité :
 
 ### Pourquoi Lelion Autoparts se démarque
 
-Située à Ningbo, en Chine, Lelion Autoparts fabrique des balais d'essuie-glace haut de gamme depuis 2011. Notre installation de 8 000 m² produit plus de 12 millions d'unités par an, au service de distributeurs dans plus de 50 pays.
+Située à Ningbo, en Chine, Lelion Autoparts fabrique des balais d'essuie-glace haut de gamme depuis 2011. Notre installation de 8 000 m² produit plus de 10 millions d'unités par an, au service de distributeurs dans plus de 50 pays.
 
 Nous offrons :
 - Production certifiée ISO 9001

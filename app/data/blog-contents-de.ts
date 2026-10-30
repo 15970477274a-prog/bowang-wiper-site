@@ -38,7 +38,7 @@ Erkundigen Sie sich nach dem QC-Prozess:
 
 ### Warum Lelion Autoparts herausragt
 
-Lelion Autoparts mit Sitz in Ningbo, China, stellt seit 2011 Premium-Wischerblätter her. Unsere 8.000 qm große Produktionsstätte fertigt jährlich über 12 Millionen Einheiten und beliefert Distributoren in über 50 Ländern.
+Lelion Autoparts mit Sitz in Ningbo, China, stellt seit 2011 Premium-Wischerblätter her. Unsere 8.000 qm große Produktionsstätte fertigt jährlich über 10 Millionen Einheiten und beliefert Distributoren in über 50 Ländern.
 
 Wir bieten:
 - ISO 9001-zertifizierte Produktion

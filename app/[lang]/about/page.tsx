@@ -234,7 +234,7 @@ export default function AboutPage() {
           <div><span style={{ fontSize: "42px", fontWeight: 800, color: "#0284c7" }}>{t.aboutStat1Title}</span><p style={{ fontSize: "14px", fontWeight: 600, color: "#475569", textTransform: "uppercase" }}>{t.aboutStat1Desc}</p></div>
           <div><span style={{ fontSize: "42px", fontWeight: 800, color: "#0284c7" }}>{t.aboutStat2Title}</span><p style={{ fontSize: "14px", fontWeight: 600, color: "#475569", textTransform: "uppercase" }}>{t.aboutStat2Desc}</p></div>
           <div><span style={{ fontSize: "42px", fontWeight: 800, color: "#0284c7" }}>{t.aboutStat3Title}</span><p style={{ fontSize: "14px", fontWeight: 600, color: "#475569", textTransform: "uppercase" }}>{t.aboutStat3Desc}</p></div>
-          <div><span style={{ fontSize: "42px", fontWeight: 800, color: "#0284c7" }}>12M+</span><p style={{ fontSize: "14px", fontWeight: 600, color: "#475569", textTransform: "uppercase" }}>{aboutText.annualCapacity}</p></div>
+          <div><span style={{ fontSize: "42px", fontWeight: 800, color: "#0284c7" }}>10M+</span><p style={{ fontSize: "14px", fontWeight: 600, color: "#475569", textTransform: "uppercase" }}>{aboutText.annualCapacity}</p></div>
         </div>
       </section>
 
