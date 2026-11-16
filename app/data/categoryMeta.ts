@@ -44,7 +44,7 @@ export const CATEGORY_META_DESCRIPTIONS_EN: Record<string, string> = {
   hybrid:
     "Three-section hybrid wiper blades combining frame stability with beam aerodynamics. Wholesale pricing from an ISO 9001 certified Chinese factory, MOQ 100 pcs.",
   "rear-wiper":
-    "Rear windshield wiper blades for global distributors. Factory-direct wholesale, ISO 9001 certified manufacturing, OEM/ODM branding, 15-25 day lead time.",
+    "Rear windshield wiper blades for global distributors. Factory-direct wholesale, ISO 9001 certified manufacturing, OEM/ODM branding, 7-day stock lead time.",
   "rear-wiper-combo":
     "Rear wiper blade and arm combo sets, factory-direct for distributors and importers. ISO 9001 certified, OEM/ODM packaging, MOQ 100 pcs, free samples.",
   "frame-wiper":
@@ -69,12 +69,12 @@ export const CATEGORY_META_DESCRIPTIONS_EN: Record<string, string> = {
 
 /** `{cat}` is replaced with the localized category name. */
 const CATEGORY_DESCRIPTION_TEMPLATES: Record<string, string> = {
-  en: "{cat} — factory-direct wholesale from an ISO 9001 certified Chinese wiper blade manufacturer. MOQ 100 pcs per size, 15-25 day lead time, OEM/ODM and free samples.",
-  es: "{cat} — venta al por mayor directa de fábrica de un fabricante chino de escobillas certificado ISO 9001. MOQ 100 unidades por medida, plazo de 15-25 días, OEM/ODM y muestras gratuitas.",
-  ru: "{cat} — оптовые поставки напрямую с завода китайского производителя стеклоочистителей с сертификатом ISO 9001. MOQ 100 шт. на размер, срок 15-25 дней, OEM/ODM и бесплатные образцы.",
-  fr: "{cat} — vente en gros directe d'usine par un fabricant chinois de balais d'essuie-glace certifié ISO 9001. MOQ 100 pièces par taille, délai de 15 à 25 jours, OEM/ODM et échantillons gratuits.",
-  de: "{cat} — direkt ab Werk vom ISO 9001-zertifizierten chinesischen Hersteller. MOQ 100 Stk. pro Größe, Lieferzeit 15-25 Tage, OEM/ODM und kostenlose Muster.",
-  zh: "{cat} — 中国 ISO 9001 认证雨刮片工厂直供批发。每尺寸起订量 100 支，交期 15-25 天，支持 OEM/ODM 与免费打样。",
+  en: "{cat} — factory-direct wholesale from an ISO 9001 certified Chinese wiper blade manufacturer. MOQ 100 pcs per size, 7-day stock / 15-35 day custom lead time, OEM/ODM and free samples.",
+  es: "{cat} — venta al por mayor directa de fábrica de un fabricante chino de escobillas certificado ISO 9001. MOQ 100 unidades por medida, plazo de 7 días en stock / 15-35 días personalizado, OEM/ODM y muestras gratuitas.",
+  ru: "{cat} — оптовые поставки напрямую с завода китайского производителя стеклоочистителей с сертификатом ISO 9001. MOQ 100 шт. на размер, срок 7 дней со склада / 15-35 дней на заказ, OEM/ODM и бесплатные образцы.",
+  fr: "{cat} — vente en gros directe d'usine par un fabricant chinois de balais d'essuie-glace certifié ISO 9001. MOQ 100 pièces par taille, délai de 7 jours en stock / 15-35 jours sur mesure, OEM/ODM et échantillons gratuits.",
+  de: "{cat} — direkt ab Werk vom ISO 9001-zertifizierten chinesischen Hersteller. MOQ 100 Stk. pro Größe, Lieferzeit 7 Tage ab Lager / 15-35 Tage für Sonderanfertigungen, OEM/ODM und kostenlose Muster.",
+  zh: "{cat} — 中国 ISO 9001 认证雨刮片工厂直供批发。每尺寸起订量 100 支，现货交期 7 天 / 定制 15-35 天，支持 OEM/ODM 与免费打样。",
 };
 
 const KNOWN_LOCALES = ["en", "es", "ru", "fr", "de", "zh"];
