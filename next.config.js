@@ -46,6 +46,13 @@ const nextConfig = {
       { source: "/:path*.(pdf|woff|woff2)", headers: [
         { key: "Cache-Control", value: "public, max-age=86400, stale-while-revalidate=604800" },
       ] },
+      // llms.txt changes a few times a year, but browsers should still see an
+      // edit immediately: keep max-age at 0 and let the CDN hold it for a day.
+      // Without s-maxage every AI crawler fetch went to the origin (2.7s cold),
+      // which is what made the Lighthouse llms-txt audit time out.
+      { source: "/llms.txt", headers: [
+        { key: "Cache-Control", value: "public, max-age=0, s-maxage=86400, stale-while-revalidate=604800" },
+      ] },
     ];
   },
 };
