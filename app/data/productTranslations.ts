@@ -689,7 +689,7 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "Acabado negro resistente a la corrosión",
         "Incluye tuerca de montaje y cubierta",
         "Certificado ISO 9001",
-        "MOQ 100 PCS"
+        "MOQ 10 PCS"
       ],
       features: [
         "Diseñado específicamente para vehículos Audi Q7 con conducción a la derecha (Reino Unido, Japón, Australia)",
@@ -731,7 +731,7 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "Finition noire résistante à la corrosion",
         "Écrou de montage et capuchon inclus",
         "Certifié ISO 9001",
-        "MOQ 100 PCS"
+        "MOQ 10 PCS"
       ],
       features: [
         "Spécialement conçu pour les véhicules Audi Q7 à conduite à droite (Royaume-Uni, Japon, Australie)",
@@ -752,7 +752,7 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "Korrosionsbeständige schwarze Oberfläche",
         "Montagemutter und Abdeckung inklusive",
         "ISO 9001 zertifiziert",
-        "MOQ 100 Stück"
+        "MOQ 10 Stück"
       ],
       features: [
         "Speziell entwickelt für Audi Q7 Fahrzeuge mit Rechtslenkung (UK, Japan, Australien)",
@@ -798,7 +798,7 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "Acabado negro resistente a la corrosión",
         "Incluye tuerca de montaje y cubierta",
         "Certificado ISO 9001",
-        "MOQ 100 PCS"
+        "MOQ 10 PCS"
       ],
       features: [
         "Diseñado para vehículos Audi Q7 con conducción a la izquierda (América del Norte, Europa continental, China)",
@@ -840,7 +840,7 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "Finition noire résistante à la corrosion",
         "Écrou de montage et capuchon inclus",
         "Certifié ISO 9001",
-        "MOQ 100 PCS"
+        "MOQ 10 PCS"
       ],
       features: [
         "Conçu pour les véhicules Audi Q7 à conduite à gauche (Amérique du Nord, Europe continentale, Chine)",
@@ -861,7 +861,7 @@ export const productTranslations: Record<string, Record<string, ProductTranslati
         "Korrosionsbeständige schwarze Oberfläche",
         "Montagemutter und Abdeckung inklusive",
         "ISO 9001 zertifiziert",
-        "MOQ 100 Stück"
+        "MOQ 10 Stück"
       ],
       features: [
         "Entwickelt für Audi Q7 Fahrzeuge mit Linkslenkung (Nordamerika, Kontinentaleuropa, China)",

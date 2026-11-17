@@ -113,7 +113,7 @@ export default function ProductCategoryClient({ locale, slug, products }: Props)
                             <Link href={l("/products/" + product.id)} style={{color:"#0f172a",textDecoration:"none"}}>{product.name}</Link>
                           </h3>
                           <div style={{marginBottom:"20px"}}>
-                            <span style={{fontSize:"13px",color:"#64748b",fontWeight:600}}>MOQ: {product.moq}</span><span style={{fontSize:"13px",color:"#64748b",fontWeight:600}}>{t.leadTimeLabel}: {t.leadTimeValue}</span>
+                            <span style={{fontSize:"13px",color:"#64748b",fontWeight:600}}>MOQ: {product.moq}{t.perOrder}</span><span style={{fontSize:"13px",color:"#64748b",fontWeight:600}}>{t.leadTimeLabel}: {t.leadTimeValue}</span>
                           </div>
                           <ul style={{padding:0,margin:"0 0 25px 0",listStyle:"none"}}>
                             {product.specs.slice(0, 3).map((s, i) => (

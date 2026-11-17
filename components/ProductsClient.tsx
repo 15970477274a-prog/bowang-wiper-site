@@ -114,7 +114,7 @@ export default function ProductsClient({ locale, products }: Props) {
                       <Link href={l(`/products/${p.id}`)} style={{ color: "#0f172a", textDecoration: "none" }}>{p.name}</Link>
                     </h3>
                     <div style={{ marginBottom: "20px" }}>
-                      <span style={{ fontSize: "13px", color: "#64748b", fontWeight: 600 }}>MOQ: {p.moq}</span><span style={{ fontSize: "13px", color: "#64748b", fontWeight: 600 }}>{t.leadTimeLabel}: {t.leadTimeValue}</span>
+                      <span style={{ fontSize: "13px", color: "#64748b", fontWeight: 600 }}>MOQ: {p.moq}{t.perOrder}</span><span style={{ fontSize: "13px", color: "#64748b", fontWeight: 600 }}>{t.leadTimeLabel}: {t.leadTimeValue}</span>
                     </div>
                     <ul style={{ padding: 0, margin: "0 0 25px 0", listStyle: "none" }}>
                       {p.specs.slice(0, 3).map((s, i) => (

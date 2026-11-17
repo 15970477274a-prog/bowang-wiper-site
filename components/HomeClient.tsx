@@ -242,7 +242,7 @@ export default function HomeClient({ locale, featured }: Props) {
                <div style={{ padding: "30px" }}>
                  <h3 style={{ fontSize: "22px", fontWeight: 700, marginBottom: "15px" }}>{pName}</h3>
                  <p style={{ color: "#64748b", fontSize: "15px", marginBottom: "25px", height: "45px", overflow: "hidden" }}>{pDesc}</p>
-                <div style={{ display: "flex", justifyContent: "center", gap: "18px", marginBottom: "20px", color: "#64748b", fontSize: "14px", fontWeight: 600 }}><span>MOQ: {p.moq}</span><span>{t.leadTimeLabel}: {t.leadTimeValue}</span></div>
+                <div style={{ display: "flex", justifyContent: "center", gap: "18px", marginBottom: "20px", color: "#64748b", fontSize: "14px", fontWeight: 600 }}><span>MOQ: {p.moq}{t.perOrder}</span><span>{t.leadTimeLabel}: {t.leadTimeValue}</span></div>
                  <Link href={l(`/products/${p.id}`)} style={{ color: "var(--accent-strong)", fontWeight: "bold", textDecoration: "none", fontSize: "15px" }}>{t.viewProducts}</Link>
                </div>
             </div>

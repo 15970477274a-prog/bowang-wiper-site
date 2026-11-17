@@ -199,7 +199,8 @@ const relatedBlog = blogPosts
             <p style={{fontSize:"20px",fontWeight:700,color:"#1e293b",margin:"5px 0"}}>{t.wholesaleStatusValue}</p>
             <div style={{marginTop:"10px"}}>
               <span className="text-muted">{t.minOrderQty}</span>
-              <p style={{fontSize:"16px",fontWeight:800,color:"var(--accent-strong)",margin:"2px 0"}}>{product.moq}</p>
+              <p style={{fontSize:"16px",fontWeight:800,color:"var(--accent-strong)",margin:"2px 0"}}>{product.moq}{t.perOrder}</p>
+              <span className="text-muted" style={{fontSize:"13px"}}>{t.moqPerSize}</span>
             </div>
           </div>
 
@@ -355,7 +356,7 @@ const relatedBlog = blogPosts
                       <p className="card-text">{(getProductTranslation(rp.id, lang)?.desc || rp.desc)}</p>
                       <div className="product-card-footer">
                         <span className="card-link">{t.viewDetails}</span>
-                        <span className="text-muted" style={{fontSize:"12px"}}>MOQ: {rp.moq} · {t.leadTimeLabel}: {t.leadTimeValue}</span>
+                        <span className="text-muted" style={{fontSize:"12px"}}>MOQ: {rp.moq}{t.perOrder} · {t.leadTimeLabel}: {t.leadTimeValue}</span>
                       </div>
                     </div>
                   </div>

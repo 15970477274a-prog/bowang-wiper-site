@@ -34,47 +34,47 @@ export const CATEGORY_SEO_TITLES_EN: Record<string, string> = {
 
 export const CATEGORY_META_DESCRIPTIONS_EN: Record<string, string> = {
   universal:
-    "Universal wiper blades with pre-installed U-hook adapters, 12-28 inch. Factory-direct wholesale from an ISO 9001 certified Chinese manufacturer. MOQ 100 pcs.",
+    "Universal wiper blades with pre-installed U-hook adapters, 12-28 inch. Factory-direct wholesale from an ISO 9001 certified Chinese manufacturer. MOQ 500 pcs per order (100 pcs per size).",
   "specific-fit":
-    "Vehicle-specific wiper blades for Tesla, Mercedes, Audi, Toyota and more. ISO 9001 certified Chinese factory, OEM/ODM, MOQ 100 pcs per size, free samples.",
+    "Vehicle-specific wiper blades for Tesla, Mercedes, Audi, Toyota and more. ISO 9001 certified Chinese factory, OEM/ODM, MOQ 500 pcs per order (100 pcs per size), free samples.",
   multifunction:
-    "Multifunction wiper blades with 22 interchangeable adapters, fitting 98% of vehicles. Factory-direct wholesale, ISO 9001 certified, OEM/ODM, MOQ 100 pcs.",
+    "Multifunction wiper blades with 22 interchangeable adapters, fitting 98% of vehicles. Factory-direct wholesale, ISO 9001 certified, OEM/ODM, MOQ 500 pcs per order (100 pcs per size).",
   "wiper-arm":
-    "OEM wiper arms for Audi Q7, Mercedes-Benz, Toyota Corolla and other models. Factory-direct wholesale from an ISO 9001 certified manufacturer, MOQ from 10 pcs.",
+    "OEM wiper arms for Audi Q7, Mercedes-Benz, Toyota Corolla and other models. Factory-direct wholesale from an ISO 9001 certified manufacturer, MOQ from 10 pcs per order.",
   hybrid:
-    "Three-section hybrid wiper blades combining frame stability with beam aerodynamics. Wholesale pricing from an ISO 9001 certified Chinese factory, MOQ 100 pcs.",
+    "Three-section hybrid wiper blades combining frame stability with beam aerodynamics. Wholesale pricing from an ISO 9001 certified Chinese factory, MOQ 500 pcs per order (100 pcs per size).",
   "rear-wiper":
     "Rear windshield wiper blades for global distributors. Factory-direct wholesale, ISO 9001 certified manufacturing, OEM/ODM branding, 7-day stock lead time.",
   "rear-wiper-combo":
-    "Rear wiper blade and arm combo sets, factory-direct for distributors and importers. ISO 9001 certified, OEM/ODM packaging, MOQ 100 pcs, free samples.",
+    "Rear wiper blade and arm combo sets, factory-direct for distributors and importers. ISO 9001 certified, OEM/ODM packaging, MOQ 500 pcs per order (100 pcs per size), free samples.",
   "frame-wiper":
-    "Classic frame (bone) wiper blades in 12-28 inch, galvanized steel with anti-oxidation coating. Wholesale from an ISO 9001 certified factory, MOQ 100 pcs.",
+    "Classic frame (bone) wiper blades in 12-28 inch, galvanized steel with anti-oxidation coating. Wholesale from an ISO 9001 certified factory, MOQ 500 pcs per order (100 pcs per size).",
   "frameless-wiper":
-    "Frameless beam wiper blades with aerodynamic spoilers and uniform pressure. Factory-direct wholesale, ISO 9001 certified, OEM/ODM, MOQ 100 pcs per size.",
+    "Frameless beam wiper blades with aerodynamic spoilers and uniform pressure. Factory-direct wholesale, ISO 9001 certified, OEM/ODM, MOQ 500 pcs per order (100 pcs per size).",
   "colored-wiper-blade":
-    "Colored wiper blades in multiple finishes for retail brands. Factory-direct wholesale from an ISO 9001 certified manufacturer, OEM packaging, MOQ 100 pcs.",
+    "Colored wiper blades in multiple finishes for retail brands. Factory-direct wholesale from an ISO 9001 certified manufacturer, OEM packaging, MOQ 500 pcs per order (100 pcs per size).",
   "electric-spray-wiper":
-    "Electric spray wiper blades with integrated washer nozzles for modern and EV models. ISO 9001 certified Chinese factory, OEM/ODM, MOQ 100 pcs.",
+    "Electric spray wiper blades with integrated washer nozzles for modern and EV models. ISO 9001 certified Chinese factory, OEM/ODM, MOQ 500 pcs per order (100 pcs per size).",
   "bus-truck-wiper":
-    "Heavy-duty bus and truck wiper blades built for large windshields and long service life. Factory-direct wholesale, ISO 9001 certified, MOQ 100 pcs.",
+    "Heavy-duty bus and truck wiper blades built for large windshields and long service life. Factory-direct wholesale, ISO 9001 certified, MOQ 500 pcs per order (100 pcs per size).",
   "snow-wiper":
-    "Snow and winter wiper blades with freeze-resistant frames and rubber covers. Factory-direct wholesale from an ISO 9001 certified manufacturer, MOQ 100 pcs.",
+    "Snow and winter wiper blades with freeze-resistant frames and rubber covers. Factory-direct wholesale from an ISO 9001 certified manufacturer, MOQ 500 pcs per order (100 pcs per size).",
   "special-wiper":
-    "Special and custom wiper blades for niche vehicles and non-standard fitments. OEM/ODM from an ISO 9001 certified Chinese factory, MOQ 100 pcs, free samples.",
+    "Special and custom wiper blades for niche vehicles and non-standard fitments. OEM/ODM from an ISO 9001 certified Chinese factory, MOQ 500 pcs per order (100 pcs per size), free samples.",
   "wiper-parts":
-    "Wiper blade spare parts, refills and adapters for aftermarket supply. Factory-direct wholesale from an ISO 9001 certified manufacturer, MOQ 100 pcs.",
+    "Wiper blade spare parts, refills and adapters for aftermarket supply. Factory-direct wholesale from an ISO 9001 certified manufacturer, MOQ 500 pcs per order (100 pcs per size).",
   "rear-wiper-arm":
-    "Rear wiper arms for SUV, hatchback and wagon models. Factory-direct wholesale from an ISO 9001 certified Chinese manufacturer, OEM/ODM, MOQ 100 pcs.",
+    "Rear wiper arms for SUV, hatchback and wagon models. Factory-direct wholesale from an ISO 9001 certified Chinese manufacturer, OEM/ODM, MOQ 500 pcs per order (100 pcs per size).",
 };
 
 /** `{cat}` is replaced with the localized category name. */
 const CATEGORY_DESCRIPTION_TEMPLATES: Record<string, string> = {
-  en: "{cat} — factory-direct wholesale from an ISO 9001 certified Chinese wiper blade manufacturer. MOQ 100 pcs per size, 7-day stock / 15-35 day custom lead time, OEM/ODM and free samples.",
-  es: "{cat} — venta al por mayor directa de fábrica de un fabricante chino de escobillas certificado ISO 9001. MOQ 100 unidades por medida, plazo de 7 días en stock / 15-35 días personalizado, OEM/ODM y muestras gratuitas.",
-  ru: "{cat} — оптовые поставки напрямую с завода китайского производителя стеклоочистителей с сертификатом ISO 9001. MOQ 100 шт. на размер, срок 7 дней со склада / 15-35 дней на заказ, OEM/ODM и бесплатные образцы.",
-  fr: "{cat} — vente en gros directe d'usine par un fabricant chinois de balais d'essuie-glace certifié ISO 9001. MOQ 100 pièces par taille, délai de 7 jours en stock / 15-35 jours sur mesure, OEM/ODM et échantillons gratuits.",
-  de: "{cat} — direkt ab Werk vom ISO 9001-zertifizierten chinesischen Hersteller. MOQ 100 Stk. pro Größe, Lieferzeit 7 Tage ab Lager / 15-35 Tage für Sonderanfertigungen, OEM/ODM und kostenlose Muster.",
-  zh: "{cat} — 中国 ISO 9001 认证雨刮片工厂直供批发。每尺寸起订量 100 支，现货交期 7 天 / 定制 15-35 天，支持 OEM/ODM 与免费打样。",
+  en: "{cat} — factory-direct wholesale from an ISO 9001 certified Chinese wiper blade manufacturer. MOQ 500 pcs per order (100 pcs per size), 7-day stock / 15-35 day custom lead time, OEM/ODM and free samples.",
+  es: "{cat} — venta al por mayor directa de fábrica de un fabricante chino de escobillas certificado ISO 9001. MOQ 500 unidades por pedido (100 por medida), plazo de 7 días en stock / 15-35 días personalizado, OEM/ODM y muestras gratuitas.",
+  ru: "{cat} — оптовые поставки напрямую с завода китайского производителя стеклоочистителей с сертификатом ISO 9001. MOQ 500 шт. на заказ (100 шт. на размер), срок 7 дней со склада / 15-35 дней на заказ, OEM/ODM и бесплатные образцы.",
+  fr: "{cat} — vente en gros directe d'usine par un fabricant chinois de balais d'essuie-glace certifié ISO 9001. MOQ 500 pièces par commande (100 par taille), délai de 7 jours en stock / 15-35 jours sur mesure, OEM/ODM et échantillons gratuits.",
+  de: "{cat} — direkt ab Werk vom ISO 9001-zertifizierten chinesischen Hersteller. MOQ 500 Stk. pro Bestellung (100 Stk. pro Größe), Lieferzeit 7 Tage ab Lager / 15-35 Tage für Sonderanfertigungen, OEM/ODM und kostenlose Muster.",
+  zh: "{cat} — 中国 ISO 9001 认证雨刮片工厂直供批发。每单起订量 500 支（每尺寸 100 支），现货交期 7 天 / 定制 15-35 天，支持 OEM/ODM 与免费打样。",
 };
 
 const KNOWN_LOCALES = ["en", "es", "ru", "fr", "de", "zh"];

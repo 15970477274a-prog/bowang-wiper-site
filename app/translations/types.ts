@@ -175,6 +175,8 @@ export interface TranslationDict {
   wholesaleStatus: string;
   wholesaleStatusValue: string;
   minOrderQty: string;
+  perOrder: string;
+  moqPerSize: string;
   productHighlights: string;
   targetMarkets: string;
   oemServicesTitle: string;
