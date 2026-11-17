@@ -12,7 +12,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAglrPvvQYom53pxwEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAglrPvvQYooMHP7AEwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYohP_C3gIwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo9K_8ywUwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo1K367wcwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo_L-DYTC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"24+18\"","Color":"Black","Fitment":"Auto Front Window Windshield Wiper Blade for PEUGEOT 308 2014-2020","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"24+18\"","Color":"Black","Fitment":"Auto Front Window Windshield Wiper Blade for PEUGEOT 308 2014-2020","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car wiper blade", "windscreen wiper", "wiper blade", "car wiper", "windshield wiper", "Auto Front Window Windshield Wiper Blade for PEUGEOT 308 2014-2020"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-829 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -28,7 +28,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg4pHmwAYo-MTRjgYw6Ac46Ac.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0320P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"10\" Rear Wiper For Honda HR-V Vezel 2013-2020","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0320P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"10\" Rear Wiper For Honda HR-V Vezel 2013-2020","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["10\" Rear Wiper For Honda HR-V Vezel 2013-2020", "rear wiper blade", "rear windshield wiper", "rear wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0320P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -44,7 +44,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg95PmwAYooMfg7QcwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW2901P","Category":"Rear Wiper","Size":"13\"","Color":"Black","Fitment":"13\" Rear Wiper Blade For Audi A1 2010-2017","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW2901P","Category":"Rear Wiper","Size":"13\"","Color":"Black","Fitment":"13\" Rear Wiper Blade For Audi A1 2010-2017","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde", "Audi A1 2010-2017 rear wiper", "rear wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW2901P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -60,7 +60,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg9MCcxwYos5iaoAIwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg5sCcxwYovLHlwgQwuBc4uBc.jpg", "/products/ABUIABACGAAg5sCcxwYo8uKTlwUwuBc4uBc.jpg", "/products/ABUIABACGAAg6MCcxwYouqCLpQcwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-205","Category":"Electric Spray Wiper","Size":"24+20\"","Color":"Black","Fitment":"24\"+20\" Sprayer Front Windshield Wipers Replacement for Volvo V60 2019-2022","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-205","Category":"Electric Spray Wiper","Size":"24+20\"","Color":"Black","Fitment":"24\"+20\" Sprayer Front Windshield Wipers Replacement for Volvo V60 2019-2022","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Volvo V60 wiper blades", "Volvo S60 wiper blades", "V60 Cross Country wipers", "2019 2020 2021 2022", "front windshield wiper", "direct-fit connector", "low-noise", "graphite rubber", "memory spring steel", "OEM fit"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-205 for reliable, streak-free wiping performance", "Built for electric spray wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -76,7 +76,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgorT8vwYonuqTGjC4Fzi4Fw.jpg",
     gallery: ["/products/ABUIABACGAAgpbT8vwYo9MaYnQcw6QM46AI.jpg", "/products/ABUIABACGAAgpLT8vwYokrKQkQYwuBc4uBc.jpg", "/products/ABUIABACGAAgobT8vwYo3qaU-AIwuBc4uBc.jpg", "/products/ABUIABACGAAgqrT8vwYo6v2B1wcwuBc4uBc.jpg", "/products/ABUIABACGAAgprT8vwYops2ijQMwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-009","Category":"Wiper Arm","Size":"Standard","Color":"Black","Fitment":"212-820-16-44 Front Windshield Wiper Arm for Benz E-CLASS 2014-2016","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-009","Category":"Wiper Arm","Size":"Standard","Color":"Black","Fitment":"212-820-16-44 Front Windshield Wiper Arm for Benz E-CLASS 2014-2016","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["212-820-16-44", "Front Windshield Wiper Arm", "Benz", "E-Class", "2014-2016", "Car Parts", "Replacement"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-009 for reliable, streak-free wiping performance", "Built for wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -92,7 +92,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgkoa3wAYo_KbUsQUwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgkYa3wAYo9uzBZzC4Fzi4Fw.jpg", "/products/ABUIABACGAAgjoa3wAYokPS3eDC4Fzi4Fw.jpg", "/products/ABUIABACGAAgjYa3wAYo8IOP7gIwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-013","Category":"Wiper Arm","Size":"Standard","Color":"Black","Fitment":"2006-2012 Mercedes-Benz 2518200244 windshield Wiper Arm","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-013","Category":"Wiper Arm","Size":"Standard","Color":"Black","Fitment":"2006-2012 Mercedes-Benz 2518200244 windshield Wiper Arm","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Mercedes-Benz", "Wiper Arm", "2006-2012", "Vehicle Fitment", "R350", "R320", "R500", "4Matic", "Bluetec", "CDI"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-013 for reliable, streak-free wiping performance", "Built for wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -108,7 +108,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg4LKCwAYot72r4gYwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgzLKCwAYogfS47wcw6Ac48gU.jpg", "/products/ABUIABACGAAg2bKCwAYorainwgUwuBc4uBc.jpg", "/products/ABUIABACGAAgjLOCwAYo_r2oTTC4Fzi4Fw.jpg", "/products/ABUIABACGAAg7bKCwAYolt-_iAcwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-012","Category":"Wiper Arm","Size":"Standard","Color":"Black","Fitment":"1668200944 Front Windshield Wiper Arm for Mercedes - Benz GLE","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-012","Category":"Wiper Arm","Size":"Standard","Color":"Black","Fitment":"1668200944 Front Windshield Wiper Arm for Mercedes - Benz GLE","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Mercedes-Benz GLE", "Front Windshield Wiper Arm", "1668200944", "Genuine Part", "Direct Replacement", "New Condition"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-012 for reliable, streak-free wiping performance", "Built for wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -124,7 +124,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg4NX8vwYom42iqAEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg29X8vwYovb3q8AQw6QM46AI.jpg", "/products/ABUIABACGAAg4NX8vwYoxcSt-QQwuBc4uBc.jpg", "/products/ABUIABACGAAg4NX8vwYoup_BvAMwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-010","Category":"Wiper Arm","Size":"Standard","Color":"Black","Fitment":"2038203244 Front Windshield Wiper Arm for Benz C-CLASS 2003-2009","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-010","Category":"Wiper Arm","Size":"Standard","Color":"Black","Fitment":"2038203244 Front Windshield Wiper Arm for Benz C-CLASS 2003-2009","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Front Windshield Wiper Arm", "Benz C-CLASS", "2003-2009", "2038203244", "Replacement Part", "Car Accessories"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-010 for reliable, streak-free wiping performance", "Built for wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -140,7 +140,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg8qb8vwYo4LGByAUwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg8ab8vwYoueORXjC4Fzi4Fw.jpg", "/products/ABUIABACGAAg7ab8vwYozOr0nAQwuBc4uBc.jpg", "/products/ABUIABACGAAg7Kb8vwYo2Pv51AMwuBc4uBc.jpg", "/products/ABUIABACGAAg7Kb8vwYok8SwrQYwuBc4uBc.jpg", "/products/ABUIABACGAAg56b8vwYo8Iv--wYw6QM46AI.jpg"],
-    technicalDetails: {"Product Model":"BW-008","Category":"Wiper Arm","Size":"Standard","Color":"Black","Fitment":"2048201544 Front LHD Wiper Blade for Mercedes-Benz C-CLASS 2009-2013","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-008","Category":"Wiper Arm","Size":"Standard","Color":"Black","Fitment":"2048201544 Front LHD Wiper Blade for Mercedes-Benz C-CLASS 2009-2013","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["204-820-15-44", "Front LHD Wiper Blade", "Mercedes-Benz", "C-Class", "2009-2013", "Car Accessories", "Replacement Parts"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-008 for reliable, streak-free wiping performance", "Built for wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -156,7 +156,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg29aBwAYo8MvC4gUwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgytaBwAYopeON3gQw6Ac4wwU.jpg", "/products/ABUIABACGAAg1taBwAYozJ6OiwQwuBc4uBc.jpg", "/products/ABUIABACGAAg0daBwAYo5J2BETC4Fzi4Fw.jpg", "/products/ABUIABACGAAg0daBwAYo2ubjowMwuBc4uBc.jpg", "/products/ABUIABACGAAg0taBwAYoxs3AMzC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-011","Category":"Wiper Arm","Size":"Standard","Color":"Black","Fitment":"2048201744 Front Windshield Wiper Arm for Mercedes-Benz GLK Models 2010-2015","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-011","Category":"Wiper Arm","Size":"Standard","Color":"Black","Fitment":"2048201744 Front Windshield Wiper Arm for Mercedes-Benz GLK Models 2010-2015","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Mercedes-Benz GLK", "Front Windshield Wiper Arm", "2010-2015", "2048201744", "Genuine Part", "Direct Replacement", "New Condition"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-011 for reliable, streak-free wiping performance", "Built for wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -172,7 +172,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg9c3YvwYo8Yej0AMwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg_s3YvwYohPSQ_gEwuBc4uBc.jpg", "/products/ABUIABACGAAg983YvwYo-bW6GTC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-006","Category":"Wiper Arm","Size":"Standard","Color":"Black","Fitment":"61617182459 Left Wiper Arm for BMW 5 Series F10","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-006","Category":"Wiper Arm","Size":"Standard","Color":"Black","Fitment":"61617182459 Left Wiper Arm for BMW 5 Series F10","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["BMW wiper arm", "61617182459", "BMW 5 Series F10", "BMW 6 Series", "BMW 7 Series", "BMW replacement parts", "BMW accessories", "BMW wiper replacement"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-006 for reliable, streak-free wiping performance", "Built for wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -188,7 +188,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg6ZHYvwYo5__WwwEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg45HYvwYohIj6wgUwuBc4uBc.jpg", "/products/ABUIABACGAAg4ZHYvwYotoDAKTC4Fzi4Fw.jpg", "/products/ABUIABACGAAg4JHYvwYohMC4igEwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-005","Category":"Wiper Arm","Size":"Standard","Color":"Black","Fitment":"61617203156 Right Front Windshield Wiper Arm for BMW 5 Series 528i/535i/535i xDrive/M5","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-005","Category":"Wiper Arm","Size":"Standard","Color":"Black","Fitment":"61617203156 Right Front Windshield Wiper Arm for BMW 5 Series 528i/535i/535i xDrive/M5","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["BMW wiper arm", "61617203156", "windshield wiper arm", "BMW 528i parts", "BMW 535i parts", "BMW M5 accessories", "2010-2016 BMW wiper arm"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-005 for reliable, streak-free wiping performance", "Built for wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -204,7 +204,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgy62tvwYooODMugMwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgyq2tvwYo4LHG5gMwuBc4uBc.jpg", "/products/ABUIABACGAAgzq2tvwYo0M3ExwcwuBc4uBc.jpg", "/products/ABUIABACGAAgz62tvwYomMebmgEwuBc4uBc.jpg", "/products/ABUIABACGAAg0K2tvwYoy_G7czC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-004","Category":"Wiper Arm","Size":"Standard","Color":"Black","Fitment":"61619449959 Car Front Left Wiper Arm Replacement for BMW 5 Series E60 E63 E64","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-004","Category":"Wiper Arm","Size":"Standard","Color":"Black","Fitment":"61619449959 Car Front Left Wiper Arm Replacement for BMW 5 Series E60 E63 E64","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["BMW wiper arm", "BMW E60 wiper arm", "BMW E63 wiper arm", "BMW 5 Series wiper replacement", "front left wiper arm", "BMW E64 wiper arm", "durable wiper arm", "BMW replacement parts"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-004 for reliable, streak-free wiping performance", "Built for wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -220,7 +220,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgnIHQxAYonempiQUwoAY4oAY.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW-3","Category":"Wiper Parts","Size":"Standard","Color":"Black","Fitment":"All kinds Windshield Wiper Blade Rubber","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-3","Category":"Wiper Parts","Size":"Standard","Color":"Black","Fitment":"All kinds Windshield Wiper Blade Rubber","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["window wiper strip", "rubber wiper blade", "car accessories", "windshield wiper", "durable wiper", "easy installation", "universal fit", "automotive parts", "rain cleaning"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-3 for reliable, streak-free wiping performance", "Built for wiper parts applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -236,7 +236,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABAEGAAg5ojpwgYo05OS-QUwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAglYnpwgYo9tO72QMwuBc4uBc.jpg", "/products/ABUIABACGAAgmYnpwgYo_O6iLTC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-015","Category":"Wiper Arm","Size":"Standard","Color":"Black","Fitment":"Auto Parts 1648200444 Front Wiper Arm for Benz M-CLASS W164 2005-2011","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-015","Category":"Wiper Arm","Size":"Standard","Color":"Black","Fitment":"Auto Parts 1648200444 Front Wiper Arm for Benz M-CLASS W164 2005-2011","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Mercedes-Benz", "windshield wiper arm", "1648200444", "GL550", "ML450", "ML550", "ML63 AMG", "GL320", "ML320", "ML500"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-015 for reliable, streak-free wiping performance", "Built for wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -252,7 +252,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgxK7vvQYojtehiQcwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgxK7vvQYoltei1wEwuBc4uBc.jpg", "/products/ABUIABACGAAgxK7vvQYosKPrqQQwuBc4uBc.jpg", "/products/ABUIABACGAAgw67vvQYozurnogYwuBc4uBc.jpg", "/products/ABUIABACGAAgxK7vvQYotMC_IzC4Fzi4Fw.jpg", "/products/ABUIABACGAAgxK7vvQYogNPbajC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-825","Category":"Specific Fit","Size":"22+18\"","Color":"Black","Fitment":"BMW 1 Series F20 F21 Front Wiper Blade Set (Fits 2011-2019)","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-825","Category":"Specific Fit","Size":"22+18\"","Color":"Black","Fitment":"BMW 1 Series F20 F21 Front Wiper Blade Set (Fits 2011-2019)","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["BMW wiper blade", "1 Series wiper", "F20 wiper", "F21 wiper", "OEM fit", "silent wiper", "durable wiper", "car wiper", "2011-2019", "easy installation"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-825 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -268,7 +268,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg5YetvwYo_J-gsAQwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg5IetvwYomdfanAQwuBc4uBc.jpg", "/products/ABUIABACGAAg5IetvwYozMmG8QQwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-003","Category":"Wiper Arm","Size":"Standard","Color":"Black","Fitment":"BMW Front LHD Windscreen Wiper Arm | E60/E63 Replacement Parts","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-003","Category":"Wiper Arm","Size":"Standard","Color":"Black","Fitment":"BMW Front LHD Windscreen Wiper Arm | E60/E63 Replacement Parts","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["BMW wiper arm", "E60 wiper replacement", "E63 wiper arm", "BMW front windscreen wiper", "LHD wiper arm", "BMW E60 parts", "BMW E63 parts", "wiper arm replacement"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-003 for reliable, streak-free wiping performance", "Built for wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -287,7 +287,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABAEGAAg0_S3ygYo8tH-fTC4Fzi4Fw.jpg",
     gallery: ["/products/ABUIABAEGAAgirezygYon8qJUzDoBzjoBw.jpg", "/products/ABUIABACGAAgxoCpygYokMjkmgEwgBs4gBI.jpg", "/products/ABUIABACGAAg--uoygYompuc-AQwpAg4oQc.jpg"],
-    technicalDetails: {"Product Model":"BW-867","Category":"Multifunction","Size":"14\"- 28\"","Color":"Black","Fitment":"BW-867 Premium Hybrid Multi-Functional Wiper Blade | LELION","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-867","Category":"Multifunction","Size":"14\"- 28\"","Color":"Black","Fitment":"BW-867 Premium Hybrid Multi-Functional Wiper Blade | LELION","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["hybrid wiper blade", "premium multi-functional wiper", "BW-867 wiper", "LELION hybrid series", "universal fit wipers wholesale"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-867 for reliable, streak-free wiping performance", "Built for multifunction applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -303,7 +303,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgibWEvgYolIGEtgMwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgibWEvgYowOHmcjC4Fzi4Fw.jpg", "/products/ABUIABACGAAgibWEvgYotvaTxAIwuBc4uBc.jpg", "/products/ABUIABACGAAgibWEvgYo4uDkKTC4Fzi4Fw.jpg", "/products/ABUIABACGAAgibWEvgYo1OjOUDC4Fzi4Fw.jpg", "/products/ABUIABACGAAgirWEvgYoz9rIlAEwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-903-1","Category":"Bus Truck Wiper","Size":"22\"","Color":"Black","Fitment":"BW-903-1 Bus Wiper Blade for Prevost H3-45 | Heavy Duty Factory","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-903-1","Category":"Bus Truck Wiper","Size":"22\"","Color":"Black","Fitment":"BW-903-1 Bus Wiper Blade for Prevost H3-45 | Heavy Duty Factory","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car wiper blade", "windscreen wiper", "wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Commercial Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-903-1 for reliable, streak-free wiping performance", "Built for bus truck wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -319,7 +319,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgmoCfvgYoltG3xwIwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgmoCfvgYogNqM0QcwuBc4uBc.jpg", "/products/ABUIABACGAAgmoCfvgYolNqKxwQwuBc4uBc.jpg", "/products/ABUIABACGAAgmoCfvgYo8ebp8AMwuBc4uBc.jpg", "/products/ABUIABACGAAgmoCfvgYokpftmAcwuBc4uBc.jpg", "/products/ABUIABACGAAgmoCfvgYo8b2OsQUwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW0812","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Car Accessories 988112V000 Rear Windshield Wiper Blade Arm for Hyundai Veloster 2012 - 2015","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0812","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Car Accessories 988112V000 Rear Windshield Wiper Blade Arm for Hyundai Veloster 2012 - 2015","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0812 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -335,7 +335,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg7qmFvgYo3s6L0AYwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg7qmFvgYooJXwBTC4Fzi4Fw.jpg", "/products/ABUIABACGAAg7qmFvgYo6uS39gMwuBc4uBc.jpg", "/products/ABUIABACGAAg7qmFvgYomoruowEwuBc4uBc.jpg", "/products/ABUIABACGAAg7qmFvgYoyMOigQcwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW1903","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Car Accessories Windshield Wiper Combination for Chevrolet Spark 2010-2016","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW1903","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Car Accessories Windshield Wiper Combination for Chevrolet Spark 2010-2016","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW1903 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -351,7 +351,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABAEGAAgi6XowgYoxOST_QEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgnaXowgYokLbWqQIwuBc4uBc.jpg", "/products/ABUIABACGAAgnaXowgYo_PbxtQEwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-014","Category":"Wiper Arm","Size":"Standard","Color":"Black","Fitment":"Car External Accessories 2518200144 Stainless Steel Front Wiper Arm for Benz R - CLASS","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-014","Category":"Wiper Arm","Size":"Standard","Color":"Black","Fitment":"Car External Accessories 2518200144 Stainless Steel Front Wiper Arm for Benz R - CLASS","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Mercedes wiper arm", "genuine Mercedes parts", "windshield wiper replacement", "driving safety", "luxury car maintenance", "Mercedes-Benz accessories"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-014 for reliable, streak-free wiping performance", "Built for wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -367,7 +367,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAglrPvvQYom53pxwEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAglrPvvQYooMHP7AEwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYohP_C3gIwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo9K_8ywUwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo_L-DYTC4Fzi4Fw.jpg", "/products/ABUIABACGAAglrPvvQYo1K367wcwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"26+19\"","Color":"Black","Fitment":"Car Front Windscreen Special Wiper Blades for Ford Mondeo 2007-2014","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"26+19\"","Color":"Black","Fitment":"Car Front Windscreen Special Wiper Blades for Ford Mondeo 2007-2014","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car wiper blade", "windscreen wiper", "wiper blade", "car wiper", "windshield wiper", "Car Front Windscreen Special Wiper Blades for Ford Mondeo 2007-2014"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-829 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -383,7 +383,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAglrPvvQYom53pxwEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAglrPvvQYooMHP7AEwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYohP_C3gIwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo9K_8ywUwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo1K367wcwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo_L-DYTC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Car Front windshield 26+16 Inch Soft Wiper Blades for PEUGEOT 2012 - 2017","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Car Front windshield 26+16 Inch Soft Wiper Blades for PEUGEOT 2012 - 2017","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Car Front windshield 26+16 Inch Soft Wiper Blades for PEUGEOT 2012 - 2017"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-829 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -399,7 +399,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAglrPvvQYom53pxwEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAglrPvvQYooMHP7AEwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYohP_C3gIwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo9K_8ywUwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo1K367wcwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo_L-DYTC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Car Front Windshield Special Wiper blades for Citroen DS4 2011-2015","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Car Front Windshield Special Wiper blades for Citroen DS4 2011-2015","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Car Front Windshield Special Wiper blades for Citroen DS4 2011-2015", "soft wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-829 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -415,7 +415,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAghZPmwAYovs3MDzCACDiACA.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW1123P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Car Rear Window Windshield Wiper Blade for Peugeot 2008 2014-2018","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW1123P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Car Rear Window Windshield Wiper Blade for Peugeot 2008 2014-2018","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde", "Rear Wiper Blade for Peugeot 2008 2014-2018"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW1123P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -431,7 +431,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAghNLjxQYo0oLLMDC9BDi9BA.jpg",
     gallery: ["/products/ABUIABACGAAghdLjxQYogJTwPDDQDzjQDw.jpg", "/products/ABUIABACGAAghtLjxQYo6JqEgwYw0A840A8.jpg", "/products/ABUIABACGAAghdLjxQYohMStvwUw0A840A8.jpg"],
-    technicalDetails: {"Product Model":"BW6003","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Car Rear Windshield Wiper Blade Arm Set for GMC Envoy 2007-2009","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW6003","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Car Rear Windshield Wiper Blade Arm Set for GMC Envoy 2007-2009","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["gmc envoy rear wiper arm blade 2007 2008 2009", "15232653 replacement", "aftermarket rear wiper assembly", "private label", "wholesale"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW6003 for reliable, streak-free wiping performance", "Built for rear wiper combo applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -447,7 +447,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgpZHmwAYozMPaoQYwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0169P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Car Rear Wiper Blade for Foton JIA TU im6 2017-","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0169P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Car Rear Wiper Blade for Foton JIA TU im6 2017-","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde", "Rear Wiper Blade for Foton JIA TU im6 2017-", "rear wiper blade", "wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0169P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -463,7 +463,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgrtTvvQYouPiF9gQwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgrtTvvQYospOt7wEwuBc4uBc.jpg", "/products/ABUIABACGAAgrtTvvQYogrSe-AMwuBc4uBc.jpg", "/products/ABUIABACGAAgrtTvvQYo85TgQzC4Fzi4Fw.jpg", "/products/ABUIABACGAAgrtTvvQYo3szJswEwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-704","Category":"Specific Fit Frame Wiper","Size":"Standard","Color":"Black","Fitment":"Car Special Windshield Wiper blade for bmw 5 E34 1991-1995","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-704","Category":"Specific Fit Frame Wiper","Size":"Standard","Color":"Black","Fitment":"Car Special Windshield Wiper blade for bmw 5 E34 1991-1995","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car wiper blade", "windscreen wiper", "wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-704 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -479,7 +479,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAghJ3wvQYo_L2sogUwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAghJ3wvQYo-qGrBzC4Fzi4Fw.jpg", "/products/ABUIABACGAAghZ3wvQYomM2Z1gUwuBc4uBc.jpg", "/products/ABUIABACGAAghJ3wvQYo_Ov_zAIwuBc4uBc.jpg", "/products/ABUIABACGAAghJ3wvQYoi4qFkQcwuBc4uBc.jpg", "/products/ABUIABACGAAghJ3wvQYokLrC1AQwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-710","Category":"Specific Fit Frame Wiper","Size":"26+16\"","Color":"Black","Fitment":"Car Windscreen 16+26 Inches Wiper Blades for Car PEUGEOT 206","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-710","Category":"Specific Fit Frame Wiper","Size":"26+16\"","Color":"Black","Fitment":"Car Windscreen 16+26 Inches Wiper Blades for Car PEUGEOT 206","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car wiper blade", "windscreen wiper", "wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-710 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -495,7 +495,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAghq3vvQYolre7qAMwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAghq3vvQYon4iGyAMwuBc4uBc.jpg", "/products/ABUIABACGAAghq3vvQYowMv6-QcwuBc4uBc.jpg", "/products/ABUIABACGAAghq3vvQYojcXB3AMwuBc4uBc.jpg", "/products/ABUIABACGAAgh63vvQYoxOruwwIwuBc4uBc.jpg", "/products/ABUIABACGAAgh63vvQYo4ZSGxgMwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-821","Category":"Specific Fit","Size":"26+26\"","Color":"Black","Fitment":"Car Windshield 26+26 Inch Wiper Blades for Benz E CLS (W211) GLK","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-821","Category":"Specific Fit","Size":"26+26\"","Color":"Black","Fitment":"Car Windshield 26+26 Inch Wiper Blades for Benz E CLS (W211) GLK","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Benz wiper blade", "windscreen wiper", "wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-821 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -511,7 +511,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgoLe2vQYoxuKW4wMwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgoLe2vQYoxN2tpAYwuBc4uBc.jpg", "/products/ABUIABACGAAgoLe2vQYoh9eHWDC4Fzi4Fw.jpg", "/products/ABUIABACGAAgoLe2vQYo9_bU9gEwuBc4uBc.jpg", "/products/ABUIABACGAAgoLe2vQYoxNDrjAcwuBc4uBc.jpg", "/products/ABUIABACGAAgoLe2vQYolMb08wQwuBc4uBc.jpg", "/products/ABUIABACGAAgoLe2vQYo1Mul7AcwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-866","Category":"Multifunction","Size":"12\" 13\" 14\" 15\" 16\" 17\" 18\" 19\" 20\" 21\" 22\" 23\" 24\" 25\" 26\" 27\" 28\"","Color":"Black","Fitment":"Car Windshield Wiper - Ningbo Zhenhai Bowang Auto Parts Co., Ltd","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-866","Category":"Multifunction","Size":"12\" 13\" 14\" 15\" 16\" 17\" 18\" 19\" 20\" 21\" 22\" 23\" 24\" 25\" 26\" 27\" 28\"","Color":"Black","Fitment":"Car Windshield Wiper - Ningbo Zhenhai Bowang Auto Parts Co., Ltd","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Car Windshield Wiper", "Ningbo Zhenhai Bowang Auto Parts Co.", "Ltd", "Auto Accessories", "Rainy Day Visibility"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
      features: ["Model BW-866 for reliable, streak-free wiping performance", "Built for multifunction applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -527,7 +527,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABAEGAAggcS4ygYokOGMXjC4Fzi4Fw.jpg",
     gallery: ["/products/ABUIABACGAAgncS4ygYo3Ifg3gUw3gI43gI.jpg", "/products/ABUIABACGAAgnsS4ygYoxMz10AYw3gI43gI.jpg", "/products/ABUIABACGAAgn8S4ygYo5K6o0QYw3gI43gI.jpg", "/products/ABUIABACGAAgoMS4ygYo3NgcMN4CON4C.jpg"],
-    technicalDetails: {"Product Model":"BW-842","Category":"Colored Wiper Blade","Size":"14\"- 28\"","Color":"Color","Fitment":"Colorful Multi-Functional Wiper Blades | Vibrant Car Styling | LELION","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-842","Category":"Colored Wiper Blade","Size":"14\"- 28\"","Color":"Color","Fitment":"Colorful Multi-Functional Wiper Blades | Vibrant Car Styling | LELION","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["colorful wiper blades", "custom color wipers", "vibrant windshield wipers", "LELION color series", "aesthetic car accessories"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-842 for reliable, streak-free wiping performance", "Built for colored wiper blade applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -543,7 +543,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgu7q2vQYo1IfpzQIwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg6bm2vQYoxMa2ygEwuBc4uBc.jpg", "/products/ABUIABACGAAg6Lm2vQYomb_b4AIwuBc4uBc.jpg", "/products/ABUIABACGAAgn_2OvwYooOy-iQUw7gU4-gE.jpg"],
-    technicalDetails: {"Product Model":"BW-808","Category":"Hybrid","Size":"14-28\"","Color":"Golden","Fitment":"Custom Model BW-808 Golden Hybrid Wiper Blade adapt to U hook wiper arm","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-808","Category":"Hybrid","Size":"14-28\"","Color":"Golden","Fitment":"Custom Model BW-808 Golden Hybrid Wiper Blade adapt to U hook wiper arm","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["hybrid wiper blade", "BW-808", "golden wiper blade", "three section wiper blade", "U-hook hybrid wiper", "wholesale windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-808 for reliable, streak-free wiping performance", "Built for hybrid applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -560,7 +560,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgvOmGwAYo_OWmrQIwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgu_mGwAYokIT7_gMwuBc4uBc.jpg", "/products/ABUIABACGAAguumGwAYosJ_S9gEw6Ac46Ac.jpg", "/products/ABUIABACGAAguemGwAYomOClpwQwuBc4uBc.jpg", "/products/ABUIABACGAAguemGwAYo7rmR7QEw6Ac46Ac.jpg", "/products/ABUIABACGAAg6oWHwAYo6veLsgMw6Ac46Ac.jpg"],
-    technicalDetails: {"Product Model":"BW-201","Category":"Electric Spray Wiper","Size":"28\"+18\"","Color":"Black","Fitment":"Front Windscreen 28+18 Inches Electric Spray Wiper Blades for Tesla Model X","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-201","Category":"Electric Spray Wiper","Size":"28\"+18\"","Color":"Black","Fitment":"Front Windscreen 28+18 Inches Electric Spray Wiper Blades for Tesla Model X","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Tesla Model X", "wiper blades", "electric spray", "car accessories", "windshield wipers", "high-quality wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-201 for reliable, streak-free wiping performance", "Built for electric spray wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -576,7 +576,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgx7XvvQYoxMfRlgcwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgx7XvvQYowNKyiwIwuBc4uBc.jpg", "/products/ABUIABACGAAgx7XvvQYomv6g_wYwuBc4uBc.jpg", "/products/ABUIABACGAAgx7XvvQYo-LC-GDC4Fzi4Fw.jpg", "/products/ABUIABACGAAgyLXvvQYohI7WqAQwuBc4uBc.jpg", "/products/ABUIABACGAAgyLXvvQYo38vTvAYwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-831","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Front Windshield 24+16 inches Soft Wiper Blades for Car VW POLO 2009-2017","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-831","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Front Windshield 24+16 inches Soft Wiper Blades for Car VW POLO 2009-2017","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Front Windshield 24+16 inches Soft Wiper Blades for Car VW POLO 2009-2017", "whoelsale wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-831 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -593,7 +593,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg08i2vQYorrq8mAUwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg08i2vQYo1LTonwMwuBc4uBc.jpg", "/products/ABUIABACGAAg08i2vQYo7Je6wwcwuBc4uBc.jpg", "/products/ABUIABACGAAg08i2vQYoguP74gcwuBc4uBc.jpg", "/products/ABUIABACGAAg08i2vQYo2OnjmQEwuBc4uBc.jpg", "/products/ABUIABACGAAg08i2vQYo9KXWHTC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-202","Category":"Electric Spray Wiper","Size":"19\"+ 26\"","Color":"Black","Fitment":"Front Windshield Spray Wiper Blade 26\"+19\" for Volvo Xc60 2018","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-202","Category":"Electric Spray Wiper","Size":"19\"+ 26\"","Color":"Black","Fitment":"Front Windshield Spray Wiper Blade 26\"+19\" for Volvo Xc60 2018","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Front Windshield Spray Wiper Blade 26\"+19\" for Volvo Xc60 2018", "Spray Wiper Blade", "Volvo Xc60 wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-202 for reliable, streak-free wiping performance", "Built for electric spray wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -609,7 +609,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABAEGAAgxdrDxgYopI20_Qcw6Ac46Ac.jpg",
     gallery: ["/products/ABUIABAEGAAgktvDxgYo09Df1QUwuAg4xgo.jpg"],
-    technicalDetails: {"Product Model":"BW-035","Category":"Wiper Arm","Size":"Standard","Color":"Black","Fitment":"Front Windshield Wiper Arm for Europe Man Truck 81.26430.0078","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-035","Category":"Wiper Arm","Size":"Standard","Color":"Black","Fitment":"Front Windshield Wiper Arm for Europe Man Truck 81.26430.0078","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["wiper arm", "LELION", "MAN F90", "MAN M90", "MAN 2000 series", "windshield", "stable wiping pressure", "commercial vehicle parts", "replacement", "fleet maintenance"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-035 for reliable, streak-free wiping performance", "Built for wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -625,7 +625,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg9Jn3vwYoxfusMjC4Fzi4Fw.jpg",
     gallery: ["/products/ABUIABACGAAg8Jn3vwYot6_dmwMw6QM46AI.jpg", "/products/ABUIABACGAAg9Jn3vwYox87A0QMwuBc4uBc.jpg", "/products/ABUIABACGAAg8pn3vwYozP6MzAIwuBc4uBc.jpg", "/products/ABUIABACGAAg9Jn3vwYouLG98QUwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-007","Category":"Wiper Arm","Size":"Standard","Color":"Black","Fitment":"Front Windshield Wiper Arm LHD 212-820-09-44 For Mercedes-Benz E Class 2010-2014","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-007","Category":"Wiper Arm","Size":"Standard","Color":"Black","Fitment":"Front Windshield Wiper Arm LHD 212-820-09-44 For Mercedes-Benz E Class 2010-2014","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Mercedes-Benz", "E Class", "wiper arm", "replacement", "2010-2014", "front windshield", "installation", "tutorial", "LHD", "genuine parts"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-007 for reliable, streak-free wiping performance", "Built for wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -641,7 +641,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABAEGAAg8KmKwgYorMmMnQYw6Ac46Ac.jpg",
     gallery: ["/products/ABUIABACGAAgsLLvvQYo58rcxAMw6Ac46Ac.jpg", "/products/ABUIABACGAAgsLLvvQYoyN3UMTDoBzjoBw.jpg", "/products/ABUIABACGAAgsLLvvQYoiK-0LTDoBzjoBw.jpg", "/products/ABUIABACGAAgsLLvvQYopLawtgUw6Ac46Ac.jpg", "/products/ABUIABACGAAgsLLvvQYoxKW7_wMw6Ac46Ac.jpg"],
-    technicalDetails: {"Product Model":"BW-827A","Category":"Specific Fit","Size":"24+19\"","Color":"Black","Fitment":"Front Windshield Wiper Blades 24+19 Inches for Citroen C4 Cactus 2010","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-827A","Category":"Specific Fit","Size":"24+19\"","Color":"Black","Fitment":"Front Windshield Wiper Blades 24+19 Inches for Citroen C4 Cactus 2010","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Front Windshield Wiper Blades 24+19 Inches for Citroen C4 Cactus 2010", "Citroen C4 wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-827A for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -657,7 +657,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAglrPvvQYom53pxwEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAglrPvvQYooMHP7AEwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYohP_C3gIwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo9K_8ywUwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo1K367wcwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo_L-DYTC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"26+23\"","Color":"Black","Fitment":"Front Windshield Wiper Blades for Mercedes-Benz ML350 2012-2015","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"26+23\"","Color":"Black","Fitment":"Front Windshield Wiper Blades for Mercedes-Benz ML350 2012-2015","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Front Windshield Wiper Blades for Mercedes-Benz ML350 2012-2015"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-829 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -673,7 +673,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAglrPvvQYom53pxwEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAglrPvvQYohP_C3gIwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYooMHP7AEwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo9K_8ywUwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo1K367wcwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo_L-DYTC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Front Wiper Blades For VW Scirocco 2008-2015 24\"+19\" Car Wiper Blades","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Front Wiper Blades For VW Scirocco 2008-2015 24\"+19\" Car Wiper Blades","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["wiper blade", "car wiper", "high-quality wiper", "durable wiper", "quiet wiper", "easy installation", "universal fit", "windshield wiper", "automotive accessory"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-829 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -689,7 +689,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg_ricxwYo4LbKlwMwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg_7icxwYo_IDonwYwuBc4uBc.jpg", "/products/ABUIABACGAAg_7icxwYopIO31QEwuBc4uBc.jpg", "/products/ABUIABACGAAg-LicxwYoqIDBhAIwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-204","Category":"Electric Spray Wiper","Size":"24\"+21\"","Color":"Black","Fitment":"Front Wiper Blades Set for Mercedes E-Class C238 A238 2017-2022","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-204","Category":"Electric Spray Wiper","Size":"24\"+21\"","Color":"Black","Fitment":"Front Wiper Blades Set for Mercedes E-Class C238 A238 2017-2022","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Mercedes E‑Class wiper blades", "C238", "A238", "heated wiper", "water-spray", "direct-fit", "24 inch", "21 inch", "front wipers", "OE style"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-204 for reliable, streak-free wiping performance", "Built for electric spray wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -705,7 +705,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgg4CUzQYooPbt6gEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg-v_TzQYo8IL5PDDuBTiPBQ.jpg", "/products/ABUIABACGAAg-f_TzQYoseTImAEw7gU4zgY.jpg", "/products/ABUIABACGAAggYCUzQYo6N6SezC4Fzi4Fw.jpg", "/products/ABUIABACGAAghYCUzQYoz972ngQwuBc4uBc.jpg", "/products/ABUIABACGAAgn_2OvwYooOy-iQUw7gU4-gE.jpg"],
-    technicalDetails: {"Product Model":"BW-808","Category":"Hybrid","Size":"14\"- 28\"","Color":"Silver","Fitment":"Hybrid Wiper Blade BW-808 Silver Edition Adapt To U Hook Wiper Arm","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-808","Category":"Hybrid","Size":"14\"- 28\"","Color":"Silver","Fitment":"Hybrid Wiper Blade BW-808 Silver Edition Adapt To U Hook Wiper Arm","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["BW-808 hybrid wiper blade", "silver wiper blade", "U-hook windshield wiper", "three-section wiper", "aerodynamic car wiper", "wholesale auto parts"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-808 for reliable, streak-free wiping performance", "Built for hybrid applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -721,7 +721,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAghvnLvQYovJmW7QYwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAghvnLvQYojrLvuwcwuBc4uBc.jpg", "/products/ABUIABACGAAghfnLvQYo9sbrIjC4Fzi4Fw.jpg", "/products/ABUIABACGAAghfnLvQYo1qGhuQQwuBc4uBc.jpg", "/products/ABUIABACGAAghfnLvQYomN34uwcwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-405","Category":"Frame Wiper","Size":"14-28”","Color":"Black","Fitment":"LELION Auto Accessories Windscreen Frame Wiper Blades BW-405","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-405","Category":"Frame Wiper","Size":"14-28”","Color":"Black","Fitment":"LELION Auto Accessories Windscreen Frame Wiper Blades BW-405","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["LELION", "frame wiper blade", "bone wiper", "OEM wiper", "classic wiper", "galvanized steel", "natural rubber", "silent wiper", "car wiper replacement", "12 inch"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-405 for reliable, streak-free wiping performance", "Built for frame wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -737,7 +737,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg9puFvgYojv_PVTC4Fzi4Fw.jpg",
     gallery: ["/products/ABUIABACGAAg9puFvgYoqILc3gEwuBc4uBc.jpg", "/products/ABUIABACGAAg9puFvgYox52q1AEwuBc4uBc.jpg", "/products/ABUIABACGAAg9puFvgYo4Km4hQIwuBc4uBc.jpg", "/products/ABUIABACGAAg9puFvgYogJCJ5AYwuBc4uBc.jpg", "/products/ABUIABACGAAg95uFvgYops_YkAYwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW0602","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Auto Parts Car Windshield Rear Wiper Blade Arm for Mazda 3 2003-2009","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0602","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Auto Parts Car Windshield Rear Wiper Blade Arm for Mazda 3 2003-2009","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0602 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -753,7 +753,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg1_SEvgYouNud6wUwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg1_SEvgYoiKG2twYwuBc4uBc.jpg", "/products/ABUIABACGAAg1_SEvgYo9tarjwYwuBc4uBc.jpg", "/products/ABUIABACGAAg1_SEvgYoyJWv4wUwuBc4uBc.jpg", "/products/ABUIABACGAAg1_SEvgYo8rScmAYwuBc4uBc.jpg", "/products/ABUIABACGAAg1_SEvgYo0LLEkwQwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW0409","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Auto Parts Rear Car Window Wiper Blade Arm for Suzuki Wagon R 2004-2017","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0409","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Auto Parts Rear Car Window Wiper Blade Arm for Suzuki Wagon R 2004-2017","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0409 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -769,7 +769,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgpKKUvgYoktXFsQIw3gI43gI.jpg",
     gallery: ["/products/ABUIABACGAAgpKKUvgYorP2ksAEw6Ac46Ac.jpg", "/products/ABUIABACGAAgpKKUvgYorYjw-QEw6Ac46Ac.jpg", "/products/ABUIABACGAAgpKKUvgYo6qaRggUw6Ac46Ac.jpg", "/products/ABUIABACGAAgpKKUvgYo1ouEiQYw6Ac46Ac.jpg", "/products/ABUIABACGAAgpKKUvgYonMu0HjDoBzjoBw.jpg"],
-    technicalDetails: {"Product Model":"BW0333","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Best Wipers honda Car Rear Windscreen Wiper Arm Combination for HONDA FIT 2014-2020","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0333","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Best Wipers honda Car Rear Windscreen Wiper Arm Combination for HONDA FIT 2014-2020","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0333 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -785,7 +785,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgus62vQYoyrHkiwIwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgus62vQYo2KuZ1gQwuBc4uBc.jpg", "/products/ABUIABACGAAgus62vQYoxc6m2QMwuBc4uBc.jpg", "/products/ABUIABACGAAgus62vQYotZe15AQwuBc4uBc.jpg", "/products/ABUIABACGAAgus62vQYond6-wQQwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-862","Category":"Multifunction","Size":"14-28\"","Color":"Black","Fitment":"LELION BW-862 Multi-function front Windscreen Soft Wiper Blade","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-862","Category":"Multifunction","Size":"14-28\"","Color":"Black","Fitment":"LELION BW-862 Multi-function front Windscreen Soft Wiper Blade","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["multifunctional wiper blade", "car wiper", "product display", "durable wiper", "silent wiper", "fits multiple models", "premium material", "all-weather", "easy installation", "auto parts"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-862 for reliable, streak-free wiping performance", "Built for multifunction applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -801,7 +801,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgjKKFvgYonJ3xnAMwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgjaKFvgYo7quFRjC4Fzi4Fw.jpg", "/products/ABUIABACGAAgjaKFvgYokNSo4wQwuBc4uBc.jpg", "/products/ABUIABACGAAgjaKFvgYow43Z1AcwuBc4uBc.jpg", "/products/ABUIABACGAAgjaKFvgYokMavtgMwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW2002","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Car Cleaning Windshield Wiper Rear Wiper Blade Arm Car Rear Wiper for BMW X5 E70 2007-2013","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW2002","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Car Cleaning Windshield Wiper Rear Wiper Blade Arm Car Rear Wiper for BMW X5 E70 2007-2013","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW2002 for reliable, streak-free wiping performance", "Built for rear wiper combo applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -817,7 +817,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg0sufvgYo0pyeQDC4Fzi4Fw.jpg",
     gallery: ["/products/ABUIABACGAAg0sufvgYo1aGNmQIwuBc4uBc.jpg", "/products/ABUIABACGAAg0sufvgYojta73QYwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW1133","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Car Windshield Wiper Blade and Arm for CITROEN C5 2001-2008","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW1133","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Car Windshield Wiper Blade and Arm for CITROEN C5 2001-2008","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW1133 for reliable, streak-free wiping performance", "Built for rear wiper combo applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -833,7 +833,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgypaFvgYo7sjn_wIwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgypaFvgYo842ZnwYwuBc4uBc.jpg", "/products/ABUIABACGAAgypaFvgYoppP71gUwuBc4uBc.jpg", "/products/ABUIABACGAAgypaFvgYosIeC4QQwzAg49QY.jpg"],
-    technicalDetails: {"Product Model":"BW1101","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Car Windshield Wiper Blade and Arm for Peugeot 206 1998-2012","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW1101","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Car Windshield Wiper Blade and Arm for Peugeot 206 1998-2012","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW1101 for reliable, streak-free wiping performance", "Built for wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -849,7 +849,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg-JWfvgYo8M7ylgIwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg-JWfvgYo8NHi6gcwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW0506","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Car Windshield Wiper Blade and Arm Wholesale Special Wiper Combination for Nissan Livina 2007","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0506","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Car Windshield Wiper Blade and Arm Wholesale Special Wiper Combination for Nissan Livina 2007","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0506 for reliable, streak-free wiping performance", "Built for wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -865,7 +865,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg2aSUvgYoyo7a-AcwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg2aSUvgYohdGn5gUwuBc4uBc.jpg", "/products/ABUIABACGAAg2aSUvgYo0oT0jwQwuBc4uBc.jpg", "/products/ABUIABACGAAg2aSUvgYoguTi7QYwuBc4uBc.jpg", "/products/ABUIABACGAAg2aSUvgYoqOrr7AEwuBc4uBc.jpg", "/products/ABUIABACGAAg2aSUvgYorMzbwQIwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW8001","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Car Windshield Wiper Blade and Arm Wholesale Special Wiper Combination for Tata Nexon","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW8001","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Car Windshield Wiper Blade and Arm Wholesale Special Wiper Combination for Tata Nexon","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW8001 for reliable, streak-free wiping performance", "Built for wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -881,7 +881,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAggtCEvgYo1K3WhgIwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAggtCEvgYotZTk-wIwuBc4uBc.jpg", "/products/ABUIABACGAAggtCEvgYosbPmqAUwuBc4uBc.jpg", "/products/ABUIABACGAAggtCEvgYosK3JpgcwuBc4uBc.jpg", "/products/ABUIABACGAAggtCEvgYo8MGE_AcwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW1742","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Car Windshield Wiper Blade and Arm Wholesale Special Wiper Set for Alfa Romeo MITO 2008-2017","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW1742","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Car Windshield Wiper Blade and Arm Wholesale Special Wiper Set for Alfa Romeo MITO 2008-2017","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW1742 for reliable, streak-free wiping performance", "Built for rear wiper combo applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -897,7 +897,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAglvSevgYohKrzQjDADDjADA.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW3310","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Car Windshield Wiper Blade Arm Combination Car Rear Wiper for JEEP Cherokee 2014-2019","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW3310","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Car Windshield Wiper Blade Arm Combination Car Rear Wiper for JEEP Cherokee 2014-2019","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW3310 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -913,7 +913,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAglrPvvQYom53pxwEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAglrPvvQYooMHP7AEwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYohP_C3gIwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo9K_8ywUwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo1K367wcwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo_L-DYTC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"LELION Car Wiper Front Windshield Wiper Auto Parts 24+20 Inch Wiper Blades Manufacturers for Car BMW","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"LELION Car Wiper Front Windshield Wiper Auto Parts 24+20 Inch Wiper Blades Manufacturers for Car BMW","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["wiper blade", "special wiper blade", "soft wiper", "wholesale wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-829 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -929,7 +929,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgxM6EvgYo_KHg6QQwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgxM6EvgYo4NruzAUwuBc4uBc.jpg", "/products/ABUIABACGAAgxc6EvgYo9cXqkAcwuBc4uBc.jpg", "/products/ABUIABACGAAgxc6EvgYohK289gQwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW0247","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Customization Rubber Wiper Arm Blade Car Rear Wiper Combination for TOYOTA HIGHLANDER","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0247","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Customization Rubber Wiper Arm Blade Car Rear Wiper Combination for TOYOTA HIGHLANDER","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0247 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -945,7 +945,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg3bC0xQYosLCmtgYwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg3bC0xQYo7v_W2wcwuBc4uBc.jpg", "/products/ABUIABACGAAg3bC0xQYonK74GDC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-802-Blue","Category":"Colored Wiper Blade","Size":"14\"- 28\"","Color":"Blue","Fitment":"LELION Customization type Blue wiper blade universal windshield wiper","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-802-Blue","Category":"Colored Wiper Blade","Size":"14\"- 28\"","Color":"Blue","Fitment":"LELION Customization type Blue wiper blade universal windshield wiper","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Blue wiper blade", "high visibility beam", "U-Hook 9x3 9x4", "graphite rubber", "low noise spoiler", "12-26 inch", "OEM supplier"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-802-Blue for reliable, streak-free wiping performance", "Built for colored wiper blade applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -961,7 +961,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg3rC0xQYo7KrQUDC4Fzi4Fw.jpg",
     gallery: ["/products/ABUIABACGAAg3rC0xQYo3uTRwwIwuBc4uBc.jpg", "/products/ABUIABACGAAg3rC0xQYo0urBiAQwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-861-Green","Category":"Colored Wiper Blade","Size":"14\"- 28\"","Color":"Green","Fitment":"LELION Customization type Green wiper blade universal windshield wiper","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-861-Green","Category":"Colored Wiper Blade","Size":"14\"- 28\"","Color":"Green","Fitment":"LELION Customization type Green wiper blade universal windshield wiper","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["LELION", "green wiper blade", "high visibility wiper", "U-Hook 9x3 9x4", "beam wiper 12-26 inch", "graphite rubber", "quiet all season", "OEM wholesale"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-861-Green for reliable, streak-free wiping performance", "Built for colored wiper blade applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -977,7 +977,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg3rC0xQYoorHOBTC4Fzi4Fw.jpg",
     gallery: ["/products/ABUIABACGAAg3bC0xQYotdqv-gMwuBc4uBc.jpg", "/products/ABUIABACGAAg3bC0xQYoy6G17wQwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-802-Purple","Category":"Colored Wiper Blade","Size":"14\"- 28\"","Color":"Purple","Fitment":"LELION Customization type Purple wiper blade universal windshield wiper","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-802-Purple","Category":"Colored Wiper Blade","Size":"14\"- 28\"","Color":"Purple","Fitment":"LELION Customization type Purple wiper blade universal windshield wiper","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["LELION", "purple high-visibility wiper blade", "U-Hook 9x3 9x4", "graphite rubber", "low-noise all-season", "12\"-26\"", "500000 wipes", "multi-connector upgrade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-802-Purple for reliable, streak-free wiping performance", "Built for colored wiper blade applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -993,7 +993,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg5bC0xQYouNGX-AYwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg4bC0xQYopaCBoQEwuBc4uBc.jpg", "/products/ABUIABACGAAg4LC0xQYo5JjwnQcwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-802-Yellow","Category":"Colored Wiper Blade","Size":"14\"- 28\"","Color":"Yellow","Fitment":"LELION Customization type Yellow wiper blade universal windshield wiper","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-802-Yellow","Category":"Colored Wiper Blade","Size":"14\"- 28\"","Color":"Yellow","Fitment":"LELION Customization type Yellow wiper blade universal windshield wiper","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["LELION", "yellow wiper blade", "U-hook 9x3 9x4", "beam wiper", "frameless", "graphite rubber", "quiet durable", "fast install", "12-26 inch", "UV resistant"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-802-Yellow for reliable, streak-free wiping performance", "Built for colored wiper blade applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1009,7 +1009,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg5brvvQYowZjjwQIwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg5brvvQYo_Y7dywIwuBc4uBc.jpg", "/products/ABUIABACGAAg5brvvQYo4LGOyAMwuBc4uBc.jpg", "/products/ABUIABACGAAg5LrvvQYo2N-PzgIwuBc4uBc.jpg", "/products/ABUIABACGAAg5LrvvQYopryxmAYwuBc4uBc.jpg", "/products/ABUIABACGAAg5LrvvQYowIDS7AQwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-849","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"LELION Customized 18+22 Inches Special Wiper Blades Car Front Windshield Soft Wipers for BMW X1 X5 X","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-849","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"LELION Customized 18+22 Inches Special Wiper Blades Car Front Windshield Soft Wipers for BMW X1 X5 X","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["sepcial wiper blade wholesale", "wiper blade", "frameless wiper blade", "wholesale wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-849 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1025,7 +1025,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgvb2EvgYoy9yRqQUwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgvL2EvgYoqsar5gQwuBc4uBc.jpg", "/products/ABUIABACGAAgvb2EvgYo6LGb7wMwuBc4uBc.jpg", "/products/ABUIABACGAAgvb2EvgYoiPj2QDC4Fzi4Fw.jpg", "/products/ABUIABACGAAgvb2EvgYogd7CxQQwuBc4uBc.jpg", "/products/ABUIABACGAAgvb2EvgYo7PbY0wEwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-904","Category":"Bus Truck Wiper","Size":"32\"","Color":"Black","Fitment":"LELION Factory Wholesale Car Windshield Wiper Blade Bus Front Wiper Blades Oem Multi Size Wiper","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-904","Category":"Bus Truck Wiper","Size":"32\"","Color":"Black","Fitment":"LELION Factory Wholesale Car Windshield Wiper Blade Bus Front Wiper Blades Oem Multi Size Wiper","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Bus Wiper Blades", "car wiper blade", "windscreen wiper", "wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Commercial Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-904 for reliable, streak-free wiping performance", "Built for bus truck wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1041,7 +1041,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg7NnBwAYop6zk5gYwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg59nBwAYo_tyi_wEwuBc4uBc.jpg", "/products/ABUIABACGAAg6NnBwAYoztiV5QQwuBc4uBc.jpg", "/products/ABUIABACGAAg6dnBwAYo_JWC2QUwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-861","Category":"Colored Wiper Blade","Size":"14\"- 28\"","Color":"Pink","Fitment":"LELION Frameless Car Windshield Wiper Blades Front Wiper Blade Universal Color Wiper Blades for Cars","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-861","Category":"Colored Wiper Blade","Size":"14\"- 28\"","Color":"Pink","Fitment":"LELION Frameless Car Windshield Wiper Blades Front Wiper Blade Universal Color Wiper Blades for Cars","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Color Wiper Blades for Cars", "Wiper Blades for Cars", "windshield wiper blade", "Color Wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-861 for reliable, streak-free wiping performance", "Built for colored wiper blade applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1057,7 +1057,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgx7XvvQYoxMfRlgcwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgx7XvvQYowNKyiwIwuBc4uBc.jpg", "/products/ABUIABACGAAgx7XvvQYomv6g_wYwuBc4uBc.jpg", "/products/ABUIABACGAAgx7XvvQYo-LC-GDC4Fzi4Fw.jpg", "/products/ABUIABACGAAgyLXvvQYohI7WqAQwuBc4uBc.jpg", "/products/ABUIABACGAAgyLXvvQYo38vTvAYwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-831","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"LELION Front Wholesale Wipers Car Wiper Boneless Wiper Blades Manufacturers for VW TOURAN L TIGUAN L","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-831","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"LELION Front Wholesale Wipers Car Wiper Boneless Wiper Blades Manufacturers for VW TOURAN L TIGUAN L","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wiper blade", "frameless wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-831 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1073,7 +1073,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAggdK2vQYo8OfGigcwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAggdK2vQYo7ZOehwMwuBc4uBc.jpg", "/products/ABUIABACGAAggdK2vQYowKqwjwMwuBc4uBc.jpg", "/products/ABUIABACGAAg6YaKwgYo453_6gcw7gU4_wI.jpg", "/products/ABUIABACGAAg6YaKwgYo0L_gejCgBjigBg.jpg"],
-    technicalDetails: {"Product Model":"BW-203","Category":"Electric Spray Wiper","Size":"23\"+25\"","Color":"Black","Fitment":"LELION Front Window Spray Wiper Blade for Mercedes Benz W222","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-203","Category":"Electric Spray Wiper","Size":"23\"+25\"","Color":"Black","Fitment":"LELION Front Window Spray Wiper Blade for Mercedes Benz W222","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Mercedes Benz W222 wiper blade", "wiper blade", "spray wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-203 for reliable, streak-free wiping performance", "Built for electric spray wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1089,7 +1089,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAglrPvvQYom53pxwEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAglrPvvQYooMHP7AEwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYohP_C3gIwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo9K_8ywUwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo1K367wcwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo_L-DYTC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"28+27\"","Color":"Black","Fitment":"LELION Front Windshield 28/27 Inch Wiper Blades for PEUGEOT 408 2010-2014","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"28+27\"","Color":"Black","Fitment":"LELION Front Windshield 28/27 Inch Wiper Blades for PEUGEOT 408 2010-2014","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car wiper blade", "windscreen wiper", "wiper blade", "car wiper", "windshield wiper", "LELION Front Windshield 28/27 Inch Wiper Blades for PEUGEOT 408 2010-2014"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-829 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1105,7 +1105,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgxK7vvQYojtehiQcwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgxK7vvQYoltei1wEwuBc4uBc.jpg", "/products/ABUIABACGAAgxK7vvQYosKPrqQQwuBc4uBc.jpg", "/products/ABUIABACGAAgw67vvQYozurnogYwuBc4uBc.jpg", "/products/ABUIABACGAAgxK7vvQYotMC_IzC4Fzi4Fw.jpg", "/products/ABUIABACGAAgxK7vvQYogNPbajC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-825","Category":"Specific Fit","Size":"24+21\"","Color":"Black","Fitment":"LELION Front Windshield Wiper Blades for Buick Enclave 2012-2017","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-825","Category":"Specific Fit","Size":"24+21\"","Color":"Black","Fitment":"LELION Front Windshield Wiper Blades for Buick Enclave 2012-2017","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Buick Enclave wiper blades", "2012 2013 2014 2015 2016 2017", "24 inch 21 inch", "front windshield", "OEM fit", "all-season", "quiet", "streak-free", "replacement"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-825 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1121,7 +1121,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAglrPvvQYom53pxwEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAglrPvvQYohP_C3gIwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYooMHP7AEwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo9K_8ywUwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo1K367wcwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo_L-DYTC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"26+14\"","Color":"Black","Fitment":"LELION Front Windshield Wiper Blades for Buick Encore 2013-2022","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"26+14\"","Color":"Black","Fitment":"LELION Front Windshield Wiper Blades for Buick Encore 2013-2022","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Buick Encore wiper blades 2013-2022", "26+14 beam", "26in driver 14in passenger", "OEM", "private label wholesale", "graphite rubber", "all season", "streak-free"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-829 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1137,7 +1137,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAggLrvvQYowL6c4gMwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAggLrvvQYoz_L44AcwuBc4uBc.jpg", "/products/ABUIABACGAAggLrvvQYopvWa5AUwuBc4uBc.jpg", "/products/ABUIABACGAAggLrvvQYomov2ggMwuBc4uBc.jpg", "/products/ABUIABACGAAggLrvvQYolPfc-AIwuBc4uBc.jpg", "/products/ABUIABACGAAggLrvvQYorsOkbTC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-844","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"LELION Front Windshield Wiper Blades Window Soft 22\"+22\" Inch Wiper Blades Manufacturers for BENZ C","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-844","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"LELION Front Windshield Wiper Blades Window Soft 22\"+22\" Inch Wiper Blades Manufacturers for BENZ C","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wiper blade", "frameless wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-844 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1153,7 +1153,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg-63vvQYoooW6jgEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg-63vvQYog5eVgQcwuBc4uBc.jpg", "/products/ABUIABACGAAg-63vvQYo4-2iwwYwuBc4uBc.jpg", "/products/ABUIABACGAAg-63vvQYosc-y6QcwuBc4uBc.jpg", "/products/ABUIABACGAAg-63vvQYosq6PvwQwuBc4uBc.jpg", "/products/ABUIABACGAAg-63vvQYowJ_szQIwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-824","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"LELION Front Wiper Blades Silicone Frameless Wiper Blades Manufacturers for BMW 3 Series 2004-2009","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-824","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"LELION Front Wiper Blades Silicone Frameless Wiper Blades Manufacturers for BMW 3 Series 2004-2009","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["sepcial wiper blade wholesale", "wiper blade", "frameless wiper blade", "wholesale wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-824 for reliable, streak-free wiping performance", "Built for frameless wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1169,7 +1169,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgiqeUvgYoi4WeqgcwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgiqeUvgYo58mWzgQwuBc4uBc.jpg", "/products/ABUIABACGAAgiqeUvgYondCQqAcwuBc4uBc.jpg", "/products/ABUIABACGAAgiqeUvgYo2IPj0wUwuBc4uBc.jpg", "/products/ABUIABACGAAgiqeUvgYogKe61wEwuBc4uBc.jpg", "/products/ABUIABACGAAgiqeUvgYooKPUjAMwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW2011","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION High Quality Car Rear Windscreen Wiper and Arm for BMW 5 Series E39 1995-2003","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW2011","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION High Quality Car Rear Windscreen Wiper and Arm for BMW 5 Series E39 1995-2003","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW2011 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1185,7 +1185,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg76OFvgYozIGGPDC4Fzi4Fw.jpg",
     gallery: ["/products/ABUIABACGAAg76OFvgYomo-blQIwuBc4uBc.jpg", "/products/ABUIABACGAAg8KOFvgYouPypxAUwuBc4uBc.jpg", "/products/ABUIABACGAAg8KOFvgYom8yczwUwuBc4uBc.jpg", "/products/ABUIABACGAAg8KOFvgYonLmZCzC4Fzi4Fw.jpg", "/products/ABUIABACGAAg8KOFvgYo4o7IxQUwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW0508","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION High Quality Wholesale Windshield Wiper Blade Car Rear Wiper Combination for INFINITI FX 2007","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0508","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION High Quality Wholesale Windshield Wiper Blade Car Rear Wiper Combination for INFINITI FX 2007","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0508 for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1201,7 +1201,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg-emevgYogP2fyQMwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg-emevgYon52nngIwuBc4uBc.jpg", "/products/ABUIABACGAAg-emevgYorIuQ_wEwuBc4uBc.jpg", "/products/ABUIABACGAAg-emevgYozo232gIwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW4204","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Hot Sale Car Glass Wiper Blade Car Rear Windshield Wiper and Arm Skoda Octavia 2004-2013","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW4204","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Hot Sale Car Glass Wiper Blade Car Rear Windshield Wiper and Arm Skoda Octavia 2004-2013","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW4204 for reliable, streak-free wiping performance", "Built for rear wiper combo applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1217,7 +1217,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAglrPvvQYom53pxwEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAglrPvvQYooMHP7AEwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYohP_C3gIwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo9K_8ywUwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo1K367wcwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo_L-DYTC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"LELION Hot Sales Car Front Windshield Special Wipers Blade for CITROEN C4L DS4 C5 DS5 DS6","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"LELION Hot Sales Car Front Windshield Special Wipers Blade for CITROEN C4L DS4 C5 DS5 DS6","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wiper blade", "frameless wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-829 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1233,7 +1233,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgwbe2vQYosLuo5QMwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgwbe2vQYosf312gQwuBc4uBc.jpg", "/products/ABUIABACGAAgwbe2vQYojtijyAMwuBc4uBc.jpg", "/products/ABUIABACGAAgwbe2vQYohaWaiAUwuBc4uBc.jpg", "/products/ABUIABACGAAgwbe2vQYou8rxxAYwuBc4uBc.jpg", "/products/ABUIABACGAAgwbe2vQYosMafvAEwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW2019","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION metal wiper Windshield Wipers rear wiper For bmw X5 E53 1999-2006","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW2019","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION metal wiper Windshield Wipers rear wiper For bmw X5 E53 1999-2006","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["BMW X5 rear wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW2019 for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1249,7 +1249,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgtsiEvgYow7nr6wQwuBc4uBc.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW3002","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION MINI Car Wiper Blade Rear Windshield Wipers Car Rear Wiper for MINI COOPER R50 R53 2001-2004","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW3002","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION MINI Car Wiper Blade Rear Windshield Wipers Car Rear Wiper for MINI COOPER R50 R53 2001-2004","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW3002 for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1265,7 +1265,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAglrPvvQYom53pxwEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAglrPvvQYooMHP7AEwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYohP_C3gIwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo9K_8ywUwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo1K367wcwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo_L-DYTC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"LELION Quality Rubber Car Front Windshield Soft Wiper Blades Manufacturers for Peugeot 307 2004-2008","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"LELION Quality Rubber Car Front Windshield Soft Wiper Blades Manufacturers for Peugeot 307 2004-2008","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["sepcial wiper blade wholesale", "wiper blade", "frameless wiper blade", "wholesale wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-829 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1281,7 +1281,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgiMeFvgYo7tLR7wQwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgiMeFvgYot925oQUwuBc4uBc.jpg", "/products/ABUIABACGAAgiMeFvgYojJLZ1gIwuBc4uBc.jpg", "/products/ABUIABACGAAgiMeFvgYovMaMlwIwzAg4zAg.jpg", "/products/ABUIABACGAAgiMeFvgYogJPMxgYwuBc4uBc.jpg", "/products/ABUIABACGAAgiMeFvgYooJHj0AQwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW0202","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Rear Windshield Wiper Arm Blade Combination Car Rear Wiper for TOYOTA YARIS 2008-2013","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0202","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Rear Windshield Wiper Arm Blade Combination Car Rear Wiper for TOYOTA YARIS 2008-2013","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0202 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1297,7 +1297,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgiPOFvgYohrG2uQQwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgiPOFvgYoxqGuwQEwuBc4uBc.jpg", "/products/ABUIABACGAAgiPOFvgYo7sCr5wMwuBc4uBc.jpg", "/products/ABUIABACGAAgiPOFvgYoxJ_siAUwuBc4uBc.jpg", "/products/ABUIABACGAAgifOFvgYoiP6x_QQwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW0801","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Rubber Car Silicone Windshield Wiper Blade Arm Car Rear Wiper for Hyundai Tucson 2004-2015","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0801","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Rubber Car Silicone Windshield Wiper Blade Arm Car Rear Wiper for Hyundai Tucson 2004-2015","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0801 for reliable, streak-free wiping performance", "Built for rear wiper combo applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1313,7 +1313,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgwK3vvQYonN6ziAEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgwK3vvQYokOTPxwUwuBc4uBc.jpg", "/products/ABUIABACGAAgwK3vvQYo6fjN9gYwuBc4uBc.jpg", "/products/ABUIABACGAAgwK3vvQYooPry9gQwuBc4uBc.jpg", "/products/ABUIABACGAAgwK3vvQYopLGT9gUwuBc4uBc.jpg", "/products/ABUIABACGAAgv63vvQYoh9r1VTC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-822","Category":"Specific Fit","Size":"26+26\"","Color":"Black","Fitment":"LeLion Special Front Windshield Wiper Blades Manufacturers for Car VW Touareg 2010 - 20","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-822","Category":"Specific Fit","Size":"26+26\"","Color":"Black","Fitment":"LeLion Special Front Windshield Wiper Blades Manufacturers for Car VW Touareg 2010 - 20","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wholesale wiper blade，car wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-822 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1329,7 +1329,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgoMDvvQYogu7gxgcwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgoMDvvQYo0KatFTC4Fzi4Fw.jpg", "/products/ABUIABACGAAgoMDvvQYoisahpwIwuBc4uBc.jpg", "/products/ABUIABACGAAgocDvvQYog8Pl2gUwuBc4uBc.jpg", "/products/ABUIABACGAAgocDvvQYo-Pq6HDC4Fzi4Fw.jpg", "/products/ABUIABACGAAgocDvvQYo3vDmiQYwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-712","Category":"Specific Fit Frame Wiper","Size":"14+28\"","Color":"Black","Fitment":"LELION Special Wiper Blades Front Windshield Wiper Blade for Honda Odyssey 2005 - 2008","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-712","Category":"Specific Fit Frame Wiper","Size":"14+28\"","Color":"Black","Fitment":"LELION Special Wiper Blades Front Windshield Wiper Blade for Honda Odyssey 2005 - 2008","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wholesale wiper blade，car wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-712 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1345,7 +1345,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgtLfvvQYojsib8wEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgtLfvvQYotoSE8wYwuBc4uBc.jpg", "/products/ABUIABACGAAgtLfvvQYoyOvGrQUwuBc4uBc.jpg", "/products/ABUIABACGAAgtLfvvQYo6JrCxgMwuBc4uBc.jpg", "/products/ABUIABACGAAgtLfvvQYonvHwZzC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-841","Category":"Specific Fit","Size":"26+18”","Color":"Black","Fitment":"LELION Wholesale 18+26 Inches Car Front Cleaning Windshield Screen Soft Wiper Bades for VW GOLF VIIC","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-841","Category":"Specific Fit","Size":"26+18”","Color":"Black","Fitment":"LELION Wholesale 18+26 Inches Car Front Cleaning Windshield Screen Soft Wiper Bades for VW GOLF VIIC","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car wiper blade", "windscreen wiper", "wiper blade", "car wiper", "windshield wiper", "Car Cleaning Front Windshield 18+26 Inches Wiper Bades for VW GOLF VII 2012-2020"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-841 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1361,7 +1361,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAglrPvvQYom53pxwEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAglrPvvQYooMHP7AEwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYohP_C3gIwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo9K_8ywUwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo_L-DYTC4Fzi4Fw.jpg", "/products/ABUIABACGAAglrPvvQYo1K367wcwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"LELION Wholesale 21+21 Inches Car Front Windshield Special Wiper Blades for SKODA FABIA 2007-2014","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"LELION Wholesale 21+21 Inches Car Front Windshield Special Wiper Blades for SKODA FABIA 2007-2014","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["LELION wiper blade", "wiper blade", "wholesale wiper", "special wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-829 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1377,7 +1377,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgxK7vvQYojtehiQcwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgxK7vvQYoltei1wEwuBc4uBc.jpg", "/products/ABUIABACGAAgxK7vvQYosKPrqQQwuBc4uBc.jpg", "/products/ABUIABACGAAgw67vvQYozurnogYwuBc4uBc.jpg", "/products/ABUIABACGAAgxK7vvQYotMC_IzC4Fzi4Fw.jpg", "/products/ABUIABACGAAgxK7vvQYogNPbajC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-825","Category":"Specific Fit","Size":"24+19\"","Color":"Black","Fitment":"LELION Wholesale 24+19 Inches Car Windshield Wiper Blades for BMW 3 Series F30 F31 F34 F35 E90 E91 E","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-825","Category":"Specific Fit","Size":"24+19\"","Color":"Black","Fitment":"LELION Wholesale 24+19 Inches Car Windshield Wiper Blades for BMW 3 Series F30 F31 F34 F35 E90 E91 E","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car wiper blade", "windscreen wiper", "wiper blade", "car wiper", "windshield wiper", "LELION Wholesale 24+19 Inches Car Windshield Wiper Blades for bmw 3 Series 2012-2016"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-825 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1393,7 +1393,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgosmFvgYonIvLFDC4Fzi4Fw.jpg",
     gallery: ["/products/ABUIABACGAAgosmFvgYonPOxzAIwuBc4uBc.jpg", "/products/ABUIABACGAAgosmFvgYoqOfG1wUwuBc4uBc.jpg", "/products/ABUIABACGAAgosmFvgYo6_yz6wYwuBc4uBc.jpg", "/products/ABUIABACGAAgosmFvgYo-9vQgAEwuBc4uBc.jpg", "/products/ABUIABACGAAgosmFvgYojoGjuQQwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW0708","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Wholesale Accessories Wipers Car Rear Windshield Wiper Set for FORD FOCUS 2012-2018","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0708","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Wholesale Accessories Wipers Car Rear Windshield Wiper Set for FORD FOCUS 2012-2018","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0708 for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1409,7 +1409,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgtdXvvQYo2J7l2AcwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgtdXvvQYo4P2TmAEwuBc4uBc.jpg", "/products/ABUIABACGAAgtdXvvQYo7obBrAEwuBc4uBc.jpg", "/products/ABUIABACGAAgtdXvvQYo3POmgAYwuBc4uBc.jpg", "/products/ABUIABACGAAgtdXvvQYo-InS2QcwuBc4uBc.jpg", "/products/ABUIABACGAAgtdXvvQYo1NH7vAQwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-706","Category":"Specific Fit Frame Wiper","Size":"25+25\"","Color":"Black","Fitment":"LELION Wholesale Auto Parts 61610442837 Special Wiper Blade for BMW E65 E66 740i 750i 200","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-706","Category":"Specific Fit Frame Wiper","Size":"25+25\"","Color":"Black","Fitment":"LELION Wholesale Auto Parts 61610442837 Special Wiper Blade for BMW E65 E66 740i 750i 200","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["LELION wiper blade", "wiper blade", "wholesale wiper", "special wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-706 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1425,7 +1425,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgx7XvvQYoxMfRlgcwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgx7XvvQYowNKyiwIwuBc4uBc.jpg", "/products/ABUIABACGAAgx7XvvQYomv6g_wYwuBc4uBc.jpg", "/products/ABUIABACGAAgx7XvvQYo-LC-GDC4Fzi4Fw.jpg", "/products/ABUIABACGAAgyLXvvQYohI7WqAQwuBc4uBc.jpg", "/products/ABUIABACGAAgyLXvvQYo38vTvAYwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-831","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"LELION Wholesale Auto Parts Car Front Windshield 24/20 Inches Soft Wiper Blades for Audi A4 2008-201","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-831","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"LELION Wholesale Auto Parts Car Front Windshield 24/20 Inches Soft Wiper Blades for Audi A4 2008-201","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["wiper blade", "special wiper blade", "soft wiper", "wholesale wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-831 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1441,7 +1441,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAglrPvvQYom53pxwEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAglrPvvQYooMHP7AEwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYohP_C3gIwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo9K_8ywUwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo1K367wcwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo_L-DYTC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"LELION Wholesale Auto Parts Car Front Windshield 26/14 Inches Soft Wiper Blades for Hyundai IX20 201","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"LELION Wholesale Auto Parts Car Front Windshield 26/14 Inches Soft Wiper Blades for Hyundai IX20 201","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wiper blade", "frameless wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-829 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1457,7 +1457,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAggLrvvQYowL6c4gMwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAggLrvvQYoz_L44AcwuBc4uBc.jpg", "/products/ABUIABACGAAggLrvvQYopvWa5AUwuBc4uBc.jpg", "/products/ABUIABACGAAggLrvvQYomov2ggMwuBc4uBc.jpg", "/products/ABUIABACGAAggLrvvQYolPfc-AIwuBc4uBc.jpg", "/products/ABUIABACGAAggLrvvQYorsOkbTC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-844","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"LELION Wholesale Auto Parts Car Front Windshield Wiper Blades Manufacturers for BENZ A-CLASS CLA GLA","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-844","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"LELION Wholesale Auto Parts Car Front Windshield Wiper Blades Manufacturers for BENZ A-CLASS CLA GLA","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wholesale wiper blade，car wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-844 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1474,7 +1474,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgg7TvvQYohL_3kwYwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgg7TvvQYolI67nQQwuBc4uBc.jpg", "/products/ABUIABACGAAgg7TvvQYomJTagQUwuBc4uBc.jpg", "/products/ABUIABACGAAggrTvvQYokKW32AEwuBc4uBc.jpg", "/products/ABUIABACGAAggrTvvQYomIeFzQYwuBc4uBc.jpg", "/products/ABUIABACGAAggrTvvQYou_Oj7gIwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-830","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"LELION Wholesale Car External Accessories Front Windshield Soft Wipers Blades for AUDI A6L 2006-2011","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-830","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"LELION Wholesale Car External Accessories Front Windshield Soft Wipers Blades for AUDI A6L 2006-2011","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["LELION wiper blade", "wiper blade", "wholesale wiper", "special wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-830 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1490,7 +1490,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg_r3WvQYouMHXqQIwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg_r3WvQYovJStGTC4Fzi4Fw.jpg", "/products/ABUIABACGAAg_r3WvQYooMDS9gEwuBc4uBc.jpg", "/products/ABUIABACGAAg_r3WvQYohoXerQIwuBc4uBc.jpg", "/products/ABUIABACGAAg_r3WvQYo9M6jswEwuBc4uBc.jpg", "/products/ABUIABACGAAg_r3WvQYo2u6-0wUwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-891","Category":"Snow Wiper","Size":"14-28”","Color":"Black","Fitment":"LELION Wholesale Car External Accessories U/J Hook Universal Winter Snow Wiper Blades","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-891","Category":"Snow Wiper","Size":"14-28”","Color":"Black","Fitment":"LELION Wholesale Car External Accessories U/J Hook Universal Winter Snow Wiper Blades","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Winter Snow Wiper Blades", "wiper blade", "snow wiper", "winter wiper blade", "universal wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-891 for reliable, streak-free wiping performance", "Built for snow wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1506,7 +1506,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAglrPvvQYom53pxwEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAglrPvvQYooMHP7AEwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYohP_C3gIwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo9K_8ywUwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo1K367wcwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo_L-DYTC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"LELION Wholesale Car Front Windshield Special Wiper Blades Manufacturers for SKODA FABIA 2007-2014","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"LELION Wholesale Car Front Windshield Special Wiper Blades Manufacturers for SKODA FABIA 2007-2014","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["sepcial wiper blade wholesale", "wiper blade", "frameless wiper blade", "wholesale wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-829 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1522,7 +1522,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgz5mUvgYokLqlzAQwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg0JmUvgYoka61pAQwuBc4uBc.jpg", "/products/ABUIABACGAAgz5mUvgYo4oyGsgMwuBc4uBc.jpg", "/products/ABUIABACGAAg0JmUvgYo5oaNigUwuBc4uBc.jpg", "/products/ABUIABACGAAg0JmUvgYomtmatwYwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW0215","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Wholesale Car Rear Rubber Wiper Blade Arm Rear Windshield Wiper Set for Toyota Rav4 2006-2012","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0215","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Wholesale Car Rear Rubber Wiper Blade Arm Rear Windshield Wiper Set for Toyota Rav4 2006-2012","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0215 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1538,7 +1538,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgpvmevgYohbPTuwQwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgpvmevgYokKyv-wYwuBc4uBc.jpg", "/products/ABUIABACGAAgpvmevgYowpDGZjC4Fzi4Fw.jpg", "/products/ABUIABACGAAgpvmevgYoyMjf7gIwuBc4uBc.jpg", "/products/ABUIABACGAAgpvmevgYo3MLM_gYwuBc4uBc.jpg", "/products/ABUIABACGAAgpvmevgYoxqnhrQUwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW2902","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Wholesale Car Rear Wiper Windshield Wiper Blade Arm Combination for Audi Q7 2006 - 2015","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW2902","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Wholesale Car Rear Wiper Windshield Wiper Blade Arm Combination for Audi Q7 2006 - 2015","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW2902 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1554,7 +1554,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgoMDvvQYogu7gxgcwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgoMDvvQYo0KatFTC4Fzi4Fw.jpg", "/products/ABUIABACGAAgocDvvQYog8Pl2gUwuBc4uBc.jpg", "/products/ABUIABACGAAgocDvvQYo3vDmiQYwuBc4uBc.jpg", "/products/ABUIABACGAAgoMDvvQYoisahpwIwuBc4uBc.jpg", "/products/ABUIABACGAAgocDvvQYo-Pq6HDC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-712","Category":"Specific Fit Frame Wiper","Size":"Standard","Color":"Black","Fitment":"LELION Wholesale Front Windshield Special 28+14 Inch Wiper Blade for HONDA ODYSSEY 2005 -2008","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-712","Category":"Specific Fit Frame Wiper","Size":"Standard","Color":"Black","Fitment":"LELION Wholesale Front Windshield Special 28+14 Inch Wiper Blade for HONDA ODYSSEY 2005 -2008","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["LELION Wholesale Front Windshield Special 28+14 Inch Wiper Blade for HONDA ODYSSEY 2005 -2008"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-712 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1570,7 +1570,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgx7bvvQYo_8ypxQMwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgx7bvvQYo9cK6-AUwuBc4uBc.jpg", "/products/ABUIABACGAAgx7bvvQYo8Inm1AcwuBc4uBc.jpg", "/products/ABUIABACGAAgx7bvvQYo7oDH3gcwuBc4uBc.jpg", "/products/ABUIABACGAAgx7bvvQYo6ZjkzgUwuBc4uBc.jpg", "/products/ABUIABACGAAgx7bvvQYowJqT3QYwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-840","Category":"Specific Fit","Size":"24+24\"","Color":"Black","Fitment":"LELION Wholesale Front Windshield Special SoftWiper Blades for AUDI A8 2003-2010","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-840","Category":"Specific Fit","Size":"24+24\"","Color":"Black","Fitment":"LELION Wholesale Front Windshield Special SoftWiper Blades for AUDI A8 2003-2010","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["wiper blade", "special wiper blade", "soft wiper", "wholesale wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-840 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1587,7 +1587,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgjr-WvQYolp3KgQQwuBc4uBc.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW-892","Category":"Snow Wiper","Size":"14-28”","Color":"Black","Fitment":"LELION Wholesale Multifunction Snow Wiper Blade Front Windshield Winter Wiper Blades","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-892","Category":"Snow Wiper","Size":"14-28”","Color":"Black","Fitment":"LELION Wholesale Multifunction Snow Wiper Blade Front Windshield Winter Wiper Blades","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["snow wiper blade", "winter wiper blade", "wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-892 for reliable, streak-free wiping performance", "Built for snow wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1603,7 +1603,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgjtiEvgYops-5lwIwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgjtiEvgYo6oPnsAcwuBc4uBc.jpg", "/products/ABUIABACGAAgjtiEvgYo2Y3HyQcwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW0806","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Wholesale Rear Windshield Wiper Blade and Arm for hyundai Ix35 2009-2015","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0806","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Wholesale Rear Windshield Wiper Blade and Arm for hyundai Ix35 2009-2015","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0806 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1619,7 +1619,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgk9KEvgYo9KS17QUwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgk9KEvgYojce8jAIwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW2203","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Wholesale Rear Windshield Wiper Blade and Arm for Opel Zafira B 2005-2014","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW2203","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Wholesale Rear Windshield Wiper Blade and Arm for Opel Zafira B 2005-2014","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW2203 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1635,7 +1635,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgm5WFvgYowry4ETC4Fzi4Fw.jpg",
     gallery: ["/products/ABUIABACGAAgm5WFvgYoqISoWTC4Fzi4Fw.jpg", "/products/ABUIABACGAAgm5WFvgYo9b3S6QQwuBc4uBc.jpg", "/products/ABUIABACGAAgm5WFvgYo1-f-pQEwzAg45wY.jpg"],
-    technicalDetails: {"Product Model":"BW0230","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Wholesale Rear Wiper Blades and Arm Set Car Rear Window Wipers for TOYOTA PRIUS C 2012-2016","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0230","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Wholesale Rear Wiper Blades and Arm Set Car Rear Window Wipers for TOYOTA PRIUS C 2012-2016","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0230 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1651,7 +1651,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAghJiFvgYokOvtygMwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAghJiFvgYo2KDT4wQwuBc4uBc.jpg", "/products/ABUIABACGAAghJiFvgYokPXQkgMwuBc4uBc.jpg", "/products/ABUIABACGAAghJiFvgYowOnGiwMwzAg4ygY.jpg"],
-    technicalDetails: {"Product Model":"BW2204","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Wholesale Rear Wiper Blades and Arm Set for Opel Astra H 5 Doors 2004-2009","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW2204","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Wholesale Rear Wiper Blades and Arm Set for Opel Astra H 5 Doors 2004-2009","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW2204 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1667,7 +1667,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgrtTvvQYouPiF9gQwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgrtTvvQYo3szJswEwuBc4uBc.jpg", "/products/ABUIABACGAAgrtTvvQYo85TgQzC4Fzi4Fw.jpg", "/products/ABUIABACGAAgrtTvvQYospOt7wEwuBc4uBc.jpg", "/products/ABUIABACGAAgrtTvvQYogrSe-AMwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-704","Category":"Specific Fit Frame Wiper","Size":"24+24”","Color":"Black","Fitment":"LELION Wholesale Wiper Blade Special Windshield Wiper Blades for BMW E34 1991 - 1995","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-704","Category":"Specific Fit Frame Wiper","Size":"24+24”","Color":"Black","Fitment":"LELION Wholesale Wiper Blade Special Windshield Wiper Blades for BMW E34 1991 - 1995","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wholesale wiper blade，car wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-704 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1683,7 +1683,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgusSfvgYokPe9owYwuBc4uBc.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0308","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Wholesale Wiper Blades Car Rear Windshield Wiper Blades Wiper for Honda CR-V 2008-2011","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0308","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Wholesale Wiper Blades Car Rear Windshield Wiper Blades Wiper for Honda CR-V 2008-2011","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0308 for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1699,7 +1699,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgxaCEvgYo6PeRuAcwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgxaCEvgYo4K6qAzC4Fzi4Fw.jpg", "/products/ABUIABACGAAgxaCEvgYooKLWgwcwuBc4uBc.jpg", "/products/ABUIABACGAAgxaCEvgYo6IOeLzC4Fzi4Fw.jpg", "/products/ABUIABACGAAgxaCEvgYo2MiOkwMwuBc4uBc.jpg", "/products/ABUIABACGAAgxaCEvgYo3KiU-AYwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-801","Category":"Universal","Size":"14-28\"","Color":"Black","Fitment":"LELION Wholesale Wiper Blades Universal Front Flat Windshield Soft Wiper Blades for Cars","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-801","Category":"Universal","Size":"14-28\"","Color":"Black","Fitment":"LELION Wholesale Wiper Blades Universal Front Flat Windshield Soft Wiper Blades for Cars","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car wiper blade", "windscreen wiper", "wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-801 for reliable, streak-free wiping performance", "Built for universal applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1715,7 +1715,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgqMyEvgYolKXRyAMwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgqMyEvgYop-Or4wMwuBc4uBc.jpg", "/products/ABUIABACGAAgqMyEvgYo0sCHrgEwuBc4uBc.jpg", "/products/ABUIABACGAAgqMyEvgYo7IyqrQEwuBc4uBc.jpg", "/products/ABUIABACGAAgqMyEvgYo8qyc7AUwuBc4uBc.jpg", "/products/ABUIABACGAAgqcyEvgYo3YvASjC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW0703","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Windscreen Wiper Rear Window Wiper Blades Arm Car Rear Wiper Combination for FORD FIESTA 2009","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0703","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Windscreen Wiper Rear Window Wiper Blades Arm Car Rear Wiper Combination for FORD FIESTA 2009","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0703 for reliable, streak-free wiping performance", "Built for rear wiper combo applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1731,7 +1731,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgqfGevgYolILDhwYwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgqfGevgYouLjq7QUwuBc4uBc.jpg", "/products/ABUIABACGAAgqfGevgYoptfY0AYwuBc4uBc.jpg", "/products/ABUIABACGAAgqfGevgYo5JKUqQEwuBc4uBc.jpg", "/products/ABUIABACGAAgqfGevgYogbSRrQQwuBc4uBc.jpg", "/products/ABUIABACGAAgqfGevgYowJricTC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW2019","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Windshield Wipers Rear Wiper Blade Arm bmw Car Rear Wiper for bmw X5 E53 1999-2006","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW2019","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Windshield Wipers Rear Wiper Blade Arm bmw Car Rear Wiper for bmw X5 E53 1999-2006","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW2019 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1747,7 +1747,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgrtTvvQYouPiF9gQwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgrtTvvQYospOt7wEwuBc4uBc.jpg", "/products/ABUIABACGAAgrtTvvQYogrSe-AMwuBc4uBc.jpg", "/products/ABUIABACGAAgrtTvvQYo3szJswEwuBc4uBc.jpg", "/products/ABUIABACGAAgrtTvvQYo85TgQzC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-704","Category":"Specific Fit Frame Wiper","Size":"Standard","Color":"Black","Fitment":"LELION Wiper Blade 24+24 Inches Special Wiper Combination Car Windshield Wiper Blades for bmw 5 E34","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-704","Category":"Specific Fit Frame Wiper","Size":"Standard","Color":"Black","Fitment":"LELION Wiper Blade 24+24 Inches Special Wiper Combination Car Windshield Wiper Blades for bmw 5 E34","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car wiper blade", "windscreen wiper", "wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-704 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1763,7 +1763,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAglrPvvQYom53pxwEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAglrPvvQYooMHP7AEwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYohP_C3gIwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo9K_8ywUwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo1K367wcwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo_L-DYTC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"LELION Wiper Blade Car Front Windshield Special Wiper Blades for VOLVO C60 XC60 C70 V40 V60","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"LELION Wiper Blade Car Front Windshield Special Wiper Blades for VOLVO C60 XC60 C70 V40 V60","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car wiper blade", "windscreen wiper", "wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-829 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1779,7 +1779,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgxK7vvQYojtehiQcwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgxK7vvQYotMC_IzC4Fzi4Fw.jpg", "/products/ABUIABACGAAgxK7vvQYoltei1wEwuBc4uBc.jpg", "/products/ABUIABACGAAgxK7vvQYosKPrqQQwuBc4uBc.jpg", "/products/ABUIABACGAAgw67vvQYozurnogYwuBc4uBc.jpg", "/products/ABUIABACGAAgxK7vvQYogNPbajC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-825","Category":"Specific Fit","Size":"26+22\"","Color":"Black","Fitment":"LELION Wiper Blades Wholesale 26+22 Inches Car Front Windshield Soft Wipers for Ford Explorer 2013","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-825","Category":"Specific Fit","Size":"26+22\"","Color":"Black","Fitment":"LELION Wiper Blades Wholesale 26+22 Inches Car Front Windshield Soft Wipers for Ford Explorer 2013","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car wiper blade", "windscreen wiper", "wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-825 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1795,7 +1795,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgt6OUvgYo_KGj5wYw6Ac46Ac.jpg",
     gallery: ["/products/ABUIABACGAAgt6OUvgYohtmoxQIw6Ac46Ac.jpg", "/products/ABUIABACGAAgt6OUvgYo88bkGjDoBzjoBw.jpg", "/products/ABUIABACGAAgt6OUvgYoksKz0QIw6Ac46Ac.jpg", "/products/ABUIABACGAAguKOUvgYonO3E9wIw6Ac46Ac.jpg"],
-    technicalDetails: {"Product Model":"BW0208","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Wipers toyota Car Windscreen Rear Wiper Blade Combination for Toyota PREVIA 2006","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0208","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION Wipers toyota Car Windscreen Rear Wiper Blade Combination for Toyota PREVIA 2006","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0208 for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1811,7 +1811,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg9rHvvQYo0ZXE8AMwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg9rHvvQYo8s_HoQQwuBc4uBc.jpg", "/products/ABUIABACGAAg9rHvvQYo09PRkAUwuBc4uBc.jpg", "/products/ABUIABACGAAg9rHvvQYonJ2ZwAYwuBc4uBc.jpg", "/products/ABUIABACGAAg9rHvvQYossnn7gEwuBc4uBc.jpg", "/products/ABUIABACGAAg9rHvvQYo-M6xKzC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-827","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"LELIONWindscreen Wiper Frameless Wiper Car Front Windshield Wiper Blades for RENAULT SCENIC MEGANE C","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-827","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"LELIONWindscreen Wiper Frameless Wiper Car Front Windshield Wiper Blades for RENAULT SCENIC MEGANE C","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["LELION wiper blade", "wiper blade", "wholesale wiper", "special wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-827 for reliable, streak-free wiping performance", "Built for frameless wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1827,7 +1827,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABAEGAAg3rqSwwYo9JXFmQEw6Ac46Ac.jpg",
     gallery: ["/products/ABUIABACGAAg3rqSwwYoiNyZ6gMw6Ac46Ac.jpg", "/products/ABUIABACGAAg3rqSwwYo1q6lzAMw6Ac46Ac.jpg", "/products/ABUIABACGAAg3rqSwwYomN-mzAcw6Ac46Ac.jpg"],
-    technicalDetails: {"Product Model":"BW-016","Category":"Wiper Arm","Size":"Standard","Color":"Black","Fitment":"Mercedes Benz M-Class W164 2006-2012 Parts 1648200344 Wiper Arm","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-016","Category":"Wiper Arm","Size":"Standard","Color":"Black","Fitment":"Mercedes Benz M-Class W164 2006-2012 Parts 1648200344 Wiper Arm","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Mercedes-Benz", "Wiper Arm", "164-820-04-44", "Genuine Parts", "GL-Class", "ML-Class", "GL320", "GL350", "GL450", "GL550"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-016 for reliable, streak-free wiping performance", "Built for wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1844,7 +1844,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABAEGAAg-Yi3wwYo_ImjSzDoBzjoBw.jpg",
     gallery: ["/products/ABUIABACGAAg_4i3wwYog4_v2gMw6Ac46Ac.jpg", "/products/ABUIABACGAAg-Ii3wwYo5PjQoQcw6Ac46Ac.jpg"],
-    technicalDetails: {"Product Model":"BW-021","Category":"Wiper Arm","Size":"Standard","Color":"Black","Fitment":"Mercedes-Benz Vito W447 Front Right Wiper Arm (LHD) | OE: A4478200200 | Premium Replacement","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-021","Category":"Wiper Arm","Size":"Standard","Color":"Black","Fitment":"Mercedes-Benz Vito W447 Front Right Wiper Arm (LHD) | OE: A4478200200 | Premium Replacement","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Mercedes-Benz Vito W447", "Front Right Wiper Arm", "LHD", "OE A4478200200", "Replacement", "Auto Parts", "Wiper Arm", "Durable", "Easy Installation", "Premium Quality"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-021 for reliable, streak-free wiping performance", "Built for wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1860,7 +1860,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABAEGAAgsoWtwwYov8TshwMwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgzYWtwwYoksaD4AYwuBc4uBc.jpg", "/products/ABUIABACGAAgz4WtwwYoxIb66AEwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-020","Category":"Wiper Arm","Size":"Standard","Color":"Black","Fitment":"Mercedes-Benz Wiper Arm fits 2016-2023 Mercedes-Benz Metris","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-020","Category":"Wiper Arm","Size":"Standard","Color":"Black","Fitment":"Mercedes-Benz Wiper Arm fits 2016-2023 Mercedes-Benz Metris","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Mercedes-Benz", "Metris", "wiper arm", "447-820-00-00", "2016", "2017", "2018", "2019", "2020", "2021"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-020 for reliable, streak-free wiping performance", "Built for wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1876,7 +1876,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgsuyTzQYogP3y_wMwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgoeyTzQYoso-qpwQw6Ac46Ac.jpg", "/products/ABUIABACGAAgoOyTzQYo_LLOzwIw6Ac46Ac.jpg", "/products/ABUIABACGAAgwPyOvwYopN6ZwgUw7gU4wgI.jpg"],
-    technicalDetails: {"Product Model":"BW-410","Category":"Frame Wiper","Size":"14\"- 28\"","Color":"Black","Fitment":"Metal Frame Windshield Wiper Blade BW-410","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-410","Category":"Frame Wiper","Size":"14\"- 28\"","Color":"Black","Fitment":"Metal Frame Windshield Wiper Blade BW-410","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["metal frame wiper blade", "BW-410", "conventional wiper blade", "U-hook wiper blade", "wholesale windshield wiper", "auto wiper manufacturer"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-410 for reliable, streak-free wiping performance", "Built for frame wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1892,7 +1892,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg6uLBwAYojp729wIwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg7OLBwAYo4Ky7lwcwuBc4uBc.jpg", "/products/ABUIABACGAAg7OLBwAYo7Jq6jAEwuBc4uBc.jpg", "/products/ABUIABACGAAgwPyOvwYopN6ZwgUw7gU4wgI.jpg"],
-    technicalDetails: {"Product Model":"BW-407","Category":"Frame Wiper","Size":"14\"- 28\"","Color":"Black","Fitment":"Metal Frame Wiper Blade BW-407 for U-Hook Wiper Arm","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-407","Category":"Frame Wiper","Size":"14\"- 28\"","Color":"Black","Fitment":"Metal Frame Wiper Blade BW-407 for U-Hook Wiper Arm","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Car front windshield wipers", "metal wipers", "silicone blades", "wholesale manufacturer"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-407 for reliable, streak-free wiping performance", "Built for frame wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1908,7 +1908,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgnPDlwAYo_uKcmwIwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW2315P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blades for VOLVO V40 2012-2015","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW2315P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blades for VOLVO V40 2012-2015","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Blades"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW2315P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1924,7 +1924,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgw5DmwAYoqITquQcwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0112P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windhsield Wiper Blade for MITSUBISHI OUTLANDER PAJERO OUTLANDER EX","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0112P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windhsield Wiper Blade for MITSUBISHI OUTLANDER PAJERO OUTLANDER EX","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0112P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1940,7 +1940,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg65LmwAYoxIzChwQwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0915P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windscreen Wiper Blade for Kia Sportage 2010-2016","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0915P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windscreen Wiper Blade for Kia Sportage 2010-2016","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0915P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1956,7 +1956,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg1ZLmwAYo8ab6ITCACDiACA.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0889P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windscreen Wiper Blade for Opel Combo 2012-2018","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0889P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windscreen Wiper Blade for Opel Combo 2012-2018","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde，Rear Windscreen Wiper Blade for Opel Combo 2012-2018，rear wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0889P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1972,7 +1972,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgmZTmwAYolLWPxgIwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW4503P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windscreen Wiper Blade for SAAB 9-2X 2005","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW4503P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windscreen Wiper Blade for SAAB 9-2X 2005","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde", "SAAB 9-2X 2005 rear wiper", "rear wiper blade", "car rear wiper", "back wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW4503P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -1988,7 +1988,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgjJHmwAYo_5qOejCACDiACA.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0155P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windscreen Wiper Blades for CHEVROLET HHR 2006-2011","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0155P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windscreen Wiper Blades for CHEVROLET HHR 2006-2011","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0155P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2004,7 +2004,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgzZLmwAYop5C8_QQwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0888P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windscreen Wiper Blades for Land Rover Discovery V 2017","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0888P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windscreen Wiper Blades for Land Rover Discovery V 2017","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde", "Rear Windscreen Wiper Blades for Land Rover Discovery V 2017"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0888P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2020,7 +2020,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAglJHmwAYonJu5oAMwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0165P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield 12 Inch Wiper Blade for KARRY K50 K60","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0165P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield 12 Inch Wiper Blade for KARRY K50 K60","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0165P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2036,7 +2036,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgopTmwAYo_I71xgQwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW5012P","Category":"Rear Wiper","Size":"16\"","Color":"Black","Fitment":"Rear Windshield 16 Inches Wiper Blades for Dacia Sandero 2008-2013","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW5012P","Category":"Rear Wiper","Size":"16\"","Color":"Black","Fitment":"Rear Windshield 16 Inches Wiper Blades for Dacia Sandero 2008-2013","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde", "Dacia Sandero 2008-2013 rear wiper", "car rear wiper", "back wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW5012P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2052,7 +2052,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg1MeUvgYo9obSggMwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg1MeUvgYo8IG6mAEwuBc4uBc.jpg", "/products/ABUIABACGAAg1ceUvgYovYydtwYwuBc4uBc.jpg", "/products/ABUIABACGAAg1ceUvgYo1JDYzwIwuBc4uBc.jpg", "/products/ABUIABACGAAg1ceUvgYozL3GogMwuBc4uBc.jpg", "/products/ABUIABACGAAg1ceUvgYo_IOR8QYwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW3504","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Special Wiper Blade Fit for Dodge DURANGO 2004-2009","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW3504","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Special Wiper Blade Fit for Dodge DURANGO 2004-2009","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW3504 for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2074,7 +2074,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgvJLmwAYo3JDUVzCACDiACA.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0869P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Balde for Fiat Europe PUNTO 2008--2011","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0869P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Balde for Fiat Europe PUNTO 2008--2011","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde", "Rear Windshield Wiper Balde for Fiat Europe PUNTO 2008--2011"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0869P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2090,7 +2090,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgwu-lwAYoiZ2psQMwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0875P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Balde for Ford explorer 2016-2016","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0875P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Balde for Ford explorer 2016-2016","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Blades"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0875P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2106,7 +2106,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg_JHmwAYol9e34gYwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0521P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Balde for Nissan Juke 2010-2016","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0521P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Balde for Nissan Juke 2010-2016","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0521P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2122,7 +2122,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgj5PmwAYotIbK6AQwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW1136P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Balde for PEUGEOT 508 2011--2013","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW1136P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Balde for PEUGEOT 508 2011--2013","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde", "Rear Windshield Wiper Balde for PEUGEOT 508 2011-2013"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW1136P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2138,7 +2138,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgoZPmwAYopJyVngMwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW1703P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Baldes for Fiat Europe Sedici 2002","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW1703P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Baldes for Fiat Europe Sedici 2002","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde", "Rear Windshield Wiper Baldes for Fiat Europe Sedici 2002"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW1703P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2154,7 +2154,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgkvHlwAYosvjLqAIwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0857P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Baldes for Mercedes-Benz M-CLASS W164 2005-2011","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0857P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Baldes for Mercedes-Benz M-CLASS W164 2005-2011","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Blades"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0857P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2170,7 +2170,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgs5LmwAYoytqb4QYwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0841P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Baldes for NISSAN DONGFENG Qashqai 2008-2017","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0841P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Baldes for NISSAN DONGFENG Qashqai 2008-2017","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde", "Rear Windshield Wiper Baldes for NISSAN DONGFENG Qashqai 2008--2017"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0841P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2186,7 +2186,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgxJLmwAYoyNmvKDCACDiACA.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0874P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Baldes for Opel Corsa D 2006-2013","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0874P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Baldes for Opel Corsa D 2006-2013","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde", "Rear Windshield Wiper Baldes for Opel Corsa D 2006--2013"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0874P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2202,7 +2202,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg2PDlwAYo5O7PCTCACDiACA.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW1118P","Category":"Rear Wiper","Size":"14\"","Color":"Black","Fitment":"Rear windshield Wiper Blade 14inch for Peugeot 206 1998-2006","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW1118P","Category":"Rear Wiper","Size":"14\"","Color":"Black","Fitment":"Rear windshield Wiper Blade 14inch for Peugeot 206 1998-2006","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Blades", "Rear windshield Wiper Blade 14inch for Peugeot 206 1998-2006"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW1118P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2218,7 +2218,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgxMmEvgYo44GKWjC4Fzi4Fw.jpg",
     gallery: ["/products/ABUIABACGAAgxMmEvgYo-OrntwUwuBc4uBc.jpg", "/products/ABUIABACGAAgxMmEvgYogMHbhQQwuBc4uBc.jpg", "/products/ABUIABACGAAgxMmEvgYo1O6BigIwuBc4uBc.jpg", "/products/ABUIABACGAAgxMmEvgYohNThhwYwuBc4uBc.jpg", "/products/ABUIABACGAAgxMmEvgYogriAgAMwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW1803","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blade Arm Set for VW Golf MK6 2009-2012","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW1803","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blade Arm Set for VW Golf MK6 2009-2012","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW1803 for reliable, streak-free wiping performance", "Built for rear wiper combo applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2234,7 +2234,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg6pDmwAYo5dHfkwYw6Ac46Ac.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0133P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blade for CADILLAC BLS 2006-2016","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0133P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blade for CADILLAC BLS 2006-2016","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0133P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2250,7 +2250,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgz_-lwAYokJvOGDDoBzjoBw.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0230P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blade for Car TOYOTA PRIUS C 2012-2016","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0230P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blade for Car TOYOTA PRIUS C 2012-2016","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Blades"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0230P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2266,7 +2266,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg3_-lwAYo59rj-AIwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW1903P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blade for CHEVROLET SPARK GT 2005-2011","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW1903P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blade for CHEVROLET SPARK GT 2005-2011","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Blades"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW1903P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2282,7 +2282,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgqvDlwAYo0Meg-AcwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW6002P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blade for GMC YUKON 2007-2014","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW6002P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blade for GMC YUKON 2007-2014","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Blades"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW6002P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2298,7 +2298,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg8-DlwAYokPWXxwIwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0822P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blade for HYUNDAI I30 I30 CW ELANTRA GT","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0822P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blade for HYUNDAI I30 I30 CW ELANTRA GT","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Blades"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0822P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2314,7 +2314,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgjfDlwAYovtfE-QQwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0508P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blade For Infiniti EX35 2008-2012","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0508P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blade For Infiniti EX35 2008-2012","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Blades", "Rear Windshield Wiper Blade For Infiniti EX35 2008-2012"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0508P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2330,7 +2330,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgg5HmwAYouLznqgYwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0147P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blade for KIA SPORTAGE","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0147P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blade for KIA SPORTAGE","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0147P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2346,7 +2346,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg85LmwAYo_q2M3gEwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0979P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blade For Mercedes - Benz C300 2010 - 2011","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0979P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blade For Mercedes - Benz C300 2010 - 2011","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde", "Rear Windshield Wiper Blade For Mercedes - Benz C300 2010 - 2011"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0979P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2362,7 +2362,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgmpLmwAYowMLCmAMwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0830P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blade for Mini Countryman (R60) 2010-2016","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0830P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blade for Mini Countryman (R60) 2010-2016","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde", "Rear Windshield Wiper Blade for Mini Countryman (R60) 2010-2016"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0830P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2378,7 +2378,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg8JHmwAYo4t6B3wQwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0506P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blade for Nissan Dongfeng Livina 2007--2015","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0506P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blade for Nissan Dongfeng Livina 2007--2015","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0506P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2394,7 +2394,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg5JDmwAYouPeihwQwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0124P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blade for SUZUKI LIANA LIANA A6","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0124P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blade for SUZUKI LIANA LIANA A6","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0124P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2410,7 +2410,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg1_-lwAYo-6DypwMwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0202P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blade for TOYOTA YARIS 2008-2013","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0202P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blade for TOYOTA YARIS 2008-2013","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Blades", "Rear Windshield Wiper Blade for TOYOTA YARIS 2008-2013", "rear wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0202P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2426,7 +2426,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgrpPmwAYo4abFwAYwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW1745P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blades for ALFA ROMEO 159 SW 2005-2011","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW1745P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blades for ALFA ROMEO 159 SW 2005-2011","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde", "Rear Windshield Wiper Blades for ALFA ROMEO 159 SW 2005-2011", "rear wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW1745P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2442,7 +2442,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgx5PmwAYopu3C6wEwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW2005P","Category":"Rear Wiper","Size":"12\"","Color":"Black","Fitment":"Rear Windshield Wiper Blades for BMW X1 E84 2009-2015","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW2005P","Category":"Rear Wiper","Size":"12\"","Color":"Black","Fitment":"Rear Windshield Wiper Blades for BMW X1 E84 2009-2015","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde", "Rear Windshield Wiper Blades for BMW X1 E84 2009-2015", "rear wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW2005P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2458,7 +2458,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg-5PmwAYo1tzksgYwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW3201P","Category":"Rear Wiper","Size":"12\"","Color":"Black","Fitment":"Rear Windshield Wiper Blades for Car BYD F0 2008","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW3201P","Category":"Rear Wiper","Size":"12\"","Color":"Black","Fitment":"Rear Windshield Wiper Blades for Car BYD F0 2008","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde", "BYD F0 2008 rear wiper blade", "rear wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW3201P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2474,7 +2474,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg05HmwAYo-eXknAQwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0306P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blades for CAR HONDA ODYSSEY 2011","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0306P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blades for CAR HONDA ODYSSEY 2011","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde", "HONDA ODYSSEY 2011 rear wiper blades"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0306P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2490,7 +2490,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgs-DlwAYoqNrSGjCACDiACA.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0158P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blades for Car Kia NIRO 2017-2019","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0158P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blades for Car Kia NIRO 2017-2019","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Blades", "Rear Windshield Wiper Blades for Car Kia NIRO 2017-2019"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0158P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2506,7 +2506,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgv5PmwAYovOGsZjCACDiACA.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW1911P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blades for CHEVROLET TAHOE 2013","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW1911P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blades for CHEVROLET TAHOE 2013","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde", "Rear Windshield Wiper Blades for CHEVROLET TAHOE 2013", "rear wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW1911P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2522,7 +2522,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAghPHlwAYo8KWx3wUwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW1139P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blades for Citroen C3 MK2 Hatchback 2009-2016","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW1139P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blades for Citroen C3 MK2 Hatchback 2009-2016","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Blades", "Rear Windshield Wiper Blades for Citroen C3 MK2 Hatchback 2009-2016"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW1139P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2538,7 +2538,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg_5DmwAYok4H-ugUwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0141P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blades for DODGE DURANGO 2011-2014","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0141P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blades for DODGE DURANGO 2011-2014","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde", "Rear Windshield Wiper Blades for DODGE DURANGO 2011-2014"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0141P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2554,7 +2554,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg3JDmwAYo8PvanwMwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0122P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blades for European BMW X3 F25 2010","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0122P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blades for European BMW X3 F25 2010","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde", "Rear Windshield Wiper Blades for European BMW X3 F25 2010"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0122P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2570,7 +2570,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg3JHmwAYosNz8zgIwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0310P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blades for Honda Civic 2001 - 2005","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0310P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blades for Honda Civic 2001 - 2005","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0310P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2586,7 +2586,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgivHlwAYov4G55wYw6Ac46Ac.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0523P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blades for Infiniti QX56 2008-2016","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0523P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blades for Infiniti QX56 2008-2016","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Blades", "Rear Windshield Wiper Blades for Infiniti QX56 2008-2016"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0523P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2602,7 +2602,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgnJHmwAYo98H2yQcwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0168P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blades for JONWAY A380 LIEYING","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0168P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blades for JONWAY A380 LIEYING","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde", "Rear Windshield Wiper Blades for JONWAY A380 Closed Off-Road Vehicle 2009-"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0168P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2618,7 +2618,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg35LmwAYo0LDzyQcwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0901P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blades for Kia Borrego 2009-2011","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0901P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blades for Kia Borrego 2009-2011","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde", "Rear Windshield Wiper Blades for Kia Borrego 2009-2011"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0901P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2634,7 +2634,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg-_-lwAYo2brx_AUwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0916P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blades for Kia Picanto 2004-2016","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0916P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blades for Kia Picanto 2004-2016","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Blades", "Rear Windshield Wiper Blades for Kia Picanto 2004-2016"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0916P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2650,7 +2650,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAghvDlwAYorNPVtwYwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0171P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blades for MG MG3 2011-2014","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0171P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blades for MG MG3 2011-2014","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Blades", "Rear Windshield Wiper Blades for MG MG3 2011-2014"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0171P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2666,7 +2666,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgopLmwAYoh-GqmgcwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0831P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blades for MINI R56 COOPER 2006-2013","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0831P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blades for MINI R56 COOPER 2006-2013","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde", "Rear Windshield Wiper Blades for MINI R56 COOPER 2006--2013"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0831P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2682,7 +2682,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg6-DlwAYo8P_HXzCACDiACA.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0513P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blades for Nissan Armada 2004-2015","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0513P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blades for Nissan Armada 2004-2015","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Blades", "Rear Windshield Wiper Blades for Nissan Armada 2004-2015"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0513P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2698,7 +2698,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgm-HlwAYo8eu84wYwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW2217P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blades for Opel Astra J Sports Tourer 2010","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW2217P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blades for Opel Astra J Sports Tourer 2010","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Blades"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW2217P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2714,7 +2714,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg8ZDmwAYoyLSf2wIw6Ac46Ac.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0139P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blades for VOLVO V60 2015-2017","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0139P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blades for VOLVO V60 2015-2017","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0139P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2730,7 +2730,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgy5DmwAYotdy2_gcwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0117P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blades for WULING RONGGUANG","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0117P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper Blades for WULING RONGGUANG","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0117P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2746,7 +2746,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg7_-lwAYotsH0jgYwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0102P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper for MITSUBISHI COLT 2005-2009","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0102P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper for MITSUBISHI COLT 2005-2009","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Blades", "Rear Windshield Wiper for MITSUBISHI COLT 2005-2009"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0102P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2762,7 +2762,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAglfDlwAYol9qmhQMwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW4818P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper for Seat Leon 2006-2012","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW4818P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wiper for Seat Leon 2006-2012","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Blades", "Rear Windshield Wiper for Seat Leon 2006-2012"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW4818P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2778,7 +2778,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgxvDlwAYohvWNxgIwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW2007P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wipers Blades for BMW F20 2011-2019","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW2007P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wipers Blades for BMW F20 2011-2019","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Blades", "Rear Windshield Wipers Blades for BMW F20 2011-2019"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW2007P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2794,7 +2794,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgs5TmwAYosY_IkgQwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW6001P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wipers for GMC Acadia 2007-2012","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW6001P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wipers for GMC Acadia 2007-2012","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde", "15276259", "GMC Acadia 2007-2012 rear wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW6001P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2810,7 +2810,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgz-DlwAYoqbXZgAQwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW4001P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wipers for Kia SPORTAGE IV 2018","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW4001P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Windshield Wipers for Kia SPORTAGE IV 2018","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Blades", "Rear Windshield Wipers for Kia SPORTAGE IV 2018", "rear wiper blade", "rear windshield wiper", "rear wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW4001P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2826,7 +2826,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg1pPmwAYoyOj8tAEw6Ac46Ac.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW2213P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"rear wiper 12\" for Opel for Astra H 5 Doors 2004-2009","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW2213P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"rear wiper 12\" for Opel for Astra H 5 Doors 2004-2009","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde", "12\" rear wiper", "rear wiper blade", "Astra rear wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW2213P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2843,7 +2843,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgkaCFvgYoiIPMxwMwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgkaCFvgYozvvvBjC4Fzi4Fw.jpg", "/products/ABUIABACGAAgkaCFvgYoutistwYwuBc4uBc.jpg", "/products/ABUIABACGAAgkaCFvgYopv-7_gUwuBc4uBc.jpg", "/products/ABUIABACGAAgkaCFvgYo-q3mwAUwuBc4uBc.jpg", "/products/ABUIABACGAAgkaCFvgYomseG-QcwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW2308","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Rear Wiper Arm with Blade Replacement for V70 XC70 2004-2007","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW2308","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Rear Wiper Arm with Blade Replacement for V70 XC70 2004-2007","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Volvo V70", "Volvo XC70", "2003-2007", "P2 platform", "aftermarket part", "OE 30753767", "OE 8662751", "AUTOPA compatible", "direct-fit", "private label"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW2308 for reliable, streak-free wiping performance", "Built for rear wiper combo applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2859,7 +2859,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg6JHmwAYot5OJ4QYw6Ac46Ac.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0412P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Wiper Blade 10 Inch for SUZUKI ALTO 2009-2014","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0412P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Wiper Blade 10 Inch for SUZUKI ALTO 2009-2014","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde", "Rear Wiper Blade 10 Inch for SUZUKI ALTO 2009-2014"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0412P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2875,7 +2875,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgiJLmwAYojtO_9wMwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0820P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear wiper blade 12 inch for Hyundai I20 2009-2014","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0820P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear wiper blade 12 inch for Hyundai I20 2009-2014","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0820P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2891,7 +2891,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg3ZPmwAYo6Z3WgQQwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW2305P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Wiper Blade 13 Inch for VOLVO V50 2005-2011","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW2305P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Wiper Blade 13 Inch for VOLVO V50 2005-2011","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW2305P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2907,7 +2907,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABAEGAAgqtW0yQYoxO3_jwMw6Ac46Ac.jpg",
     gallery: ["/products/ABUIABACGAAgqdW0yQYoyISCrwIwoAY4oAY.jpg"],
-    technicalDetails: {"Product Model":"BW2409","Category":"Rear Wiper Combo","Size":"12\"","Color":"Black","Fitment":"Rear wiper blade arm for Renault Clio 2 1998-2006","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW2409","Category":"Rear Wiper Combo","Size":"12\"","Color":"Black","Fitment":"Rear wiper blade arm for Renault Clio 2 1998-2006","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Renault Clio 2 rear wiper", "wiper arm", "rear wiper blade kit", "OEM spec connection", "tailgate wiper", "1998-2005 Clio II", "metal arm", "rubber blade", "easy install"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW2409 for reliable, streak-free wiping performance", "Built for rear wiper combo applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2923,7 +2923,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgz5PmwAYog5_WvwQwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW2006P","Category":"Rear Wiper","Size":"13\"","Color":"Black","Fitment":"Rear Wiper Blade for BMW X3 F25 2011-2016","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW2006P","Category":"Rear Wiper","Size":"13\"","Color":"Black","Fitment":"Rear Wiper Blade for BMW X3 F25 2011-2016","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde", "BMW X3 F25 2011-2016 rear wiper", "rear wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW2006P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2939,7 +2939,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg1JDmwAYo56CBugEwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0121P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Wiper Blade for EUROPEAN BMW I3 2016","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0121P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Wiper Blade for EUROPEAN BMW I3 2016","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde", "Rear Wiper Blade for EUROPEAN BMW I3 2016"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0121P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2955,7 +2955,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg9_-lwAYojtOSwQQwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0611P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Wiper Blade for Mazda 3 2010","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0611P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Wiper Blade for Mazda 3 2010","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Blades", "Rear Wiper Blade for Mazda 3 2010"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0611P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2971,7 +2971,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg_-DlwAYowMn_-QMwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW2210P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Wiper Blade for OPEL ASTRA G 1998-2009","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW2210P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Wiper Blade for OPEL ASTRA G 1998-2009","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Blades"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW2210P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -2987,7 +2987,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg75PmwAYokMmZ9wYwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW2603P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Wiper Blade for Smart Fortwo Coupe 451 2007-2014","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW2603P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Wiper Blade for Smart Fortwo Coupe 451 2007-2014","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde", "Rear Wiper Blade for Smart Fortwo Coupe 451 2007-2014", "Smart Fortwo rear wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW2603P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3003,7 +3003,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgwpHmwAYoyMf9KDCACDiACA.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0214P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Wiper Blade for Toyota Aygo 2005 - 2013","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0214P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Wiper Blade for Toyota Aygo 2005 - 2013","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde", "Rear Wiper Blade for Toyota Aygo 2005 - 2013"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0214P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3020,7 +3020,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgt5PmwAYogKDVoAEwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW1809P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Wiper Blade for VW Golf 4 MK4 IV 1997-2002","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW1809P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Wiper Blade for VW Golf 4 MK4 IV 1997-2002","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW1809P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3036,7 +3036,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgiJTmwAYo84bBwwIwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW3302P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Wiper Blade with 2006 - 2010 Jeep Commander","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW3302P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Wiper Blade with 2006 - 2010 Jeep Commander","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde", "Rear Wiper Blade with 2006 - 2010 Jeep Commander，rear wiper", "wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW3302P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3052,7 +3052,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgmJPmwAYo5OPL9wcwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW1202P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Wiper Blade with 2012 - 2023 Subaru Impreza Hatchback","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW1202P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Wiper Blade with 2012 - 2023 Subaru Impreza Hatchback","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde", "Rear Wiper Blade with 2012 - 2023 Subaru Impreza Hatchback"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW1202P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3068,7 +3068,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgq5TmwAYour3raDCACDiACA.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW5702P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Wiper Blade with 2014 - 2020 Acura MDX 76730TZ5A01","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW5702P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Wiper Blade with 2014 - 2020 Acura MDX 76730TZ5A01","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde", "76730TZ5A01", "2014 - 2020 Acura MDX rear wiper", "rear wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW5702P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3084,7 +3084,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg-5HmwAYo9oyHyQcwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0718P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Wiper Blade with 2015 - 2024 Ford Edge","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0718P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Wiper Blade with 2015 - 2024 Ford Edge","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde", "Rear Wiper Blade with 2015 - 2024 Ford Edge"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0718P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3100,7 +3100,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgkJTmwAYo48zsiwQwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW3304P","Category":"Rear Wiper","Size":"12\"","Color":"Black","Fitment":"Rear Wiper Blades 68079869AA for JEEP Grand Cherokee 2011-2016","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW3304P","Category":"Rear Wiper","Size":"12\"","Color":"Black","Fitment":"Rear Wiper Blades 68079869AA for JEEP Grand Cherokee 2011-2016","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde", "JEEP Grand Cherokee 2011-2016 rear wiper", "12inch wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW3304P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3116,7 +3116,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgq5HmwAYohO7h7wYw6Ac46Ac.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0170P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Wiper Blades for Nissan Leaf 2010-2017","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0170P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Wiper Blades for Nissan Leaf 2010-2017","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde", "Rear Wiper Blades for Nissan Leaf 2010-2017"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0170P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3132,7 +3132,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgupHmwAYogZ3LKjCACDiACA.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0194P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Wiper Blades for Renault CLIO 2012-2017","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0194P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Wiper Blades for Renault CLIO 2012-2017","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde", "Rear Wiper Blades for Renault CLIO 2012-2017"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0194P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3148,7 +3148,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg4vDlwAYo0r7o3gMwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0215P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Wiper Blades for Toyota Auris Hatchback MK2 2012-2017","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0215P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Wiper Blades for Toyota Auris Hatchback MK2 2012-2017","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Blades", "Rear Wiper Blades for Toyota Auris Hatchback MK2 2012-2017"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0215P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3164,7 +3164,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgnPDlwAYo_uKcmwIwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0183P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Wiper Blades for Volvo C30 2006-2010","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0183P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Wiper Blades for Volvo C30 2006-2010","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0183P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3180,7 +3180,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgovDlwAYolLn2mQMwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW5804P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Wiper Blades for ZOTYE DMX5 2015-","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW5804P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Wiper Blades for ZOTYE DMX5 2015-","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Blades", "Rear Wiper Blades for ZOTYE DMX5 2015-"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW5804P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3196,7 +3196,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg5pPmwAYotam2ngIwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW2420P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Wiper Blades, for Renault for Clio MK1 1994-1998","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW2420P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Wiper Blades, for Renault for Clio MK1 1994-1998","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW2420P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3212,7 +3212,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgq5LmwAYop-mplgcwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0833P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Wiper Windshield Wiper Blades for MINI F56 2013-2018","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0833P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Rear Wiper Windshield Wiper Blades for MINI F56 2013-2018","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0833P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3228,7 +3228,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg-azvvQYoqZ_NpgMwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg-azvvQYoz8nEuwMwuBc4uBc.jpg", "/products/ABUIABACGAAg-azvvQYoq728pAEwuBc4uBc.jpg", "/products/ABUIABACGAAg-azvvQYokdyXpQEwuBc4uBc.jpg", "/products/ABUIABACGAAg-azvvQYo0o6-gQEwuBc4uBc.jpg", "/products/ABUIABACGAAg-qzvvQYo4YHmnAYwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-820","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Special Car Front Windshield Wipers Blades for VW GOLF V 2003-2005","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-820","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Special Car Front Windshield Wipers Blades for VW GOLF V 2003-2005","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Special Car Front Windshield Wipers Blades for VW GOLF V 2003-2005"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-820 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3245,7 +3245,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABAEGAAgkuHRwwYo3LDjhAEw6Ac46Ac.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW-028","Category":"Wiper Arm","Size":"Standard","Color":"Black","Fitment":"Toyota Corolla 1993-1997 8522112270 Windshield LHD Wiper Arm","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-028","Category":"Wiper Arm","Size":"Standard","Color":"Black","Fitment":"Toyota Corolla 1993-1997 8522112270 Windshield LHD Wiper Arm","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["wiper arm", "driver side", "85221-12270", "front right", "windshield", "Dorman", "car replacement", "pinch tab", "vehicle specific fit", "durable"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-028 for reliable, streak-free wiping performance", "Built for wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3261,7 +3261,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABAEGAAggd7oygYomIuo0gYw6Ac46Ac.jpg",
     gallery: ["/products/ABUIABAEGAAgnd7oygYo_NGU7gYw6Ac46Ac.jpg", "/products/ABUIABACGAAgwsG2vQYosOuBpQMw6Ac46Ac.jpg", "/products/ABUIABAEGAAgxOHoygYo0I2lswEw6Ac46Ac.jpg"],
-    technicalDetails: {"Product Model":"BW-026","Category":"Wiper Arm","Size":"24\"","Color":"Black","Fitment":"Toyota Yaris Vitz Front Wiper Arm | 85211-52520 & 85221-52480 Manufacturer","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-026","Category":"Wiper Arm","Size":"24\"","Color":"Black","Fitment":"Toyota Yaris Vitz Front Wiper Arm | 85211-52520 & 85221-52480 Manufacturer","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["85211-52520", "85221-52480", "Toyota Vitz wiper arm", "Toyota Yaris wiper arm", "RHD wiper arm", "LHD wiper arm", "BW-026R", "BW-026L"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-026 for reliable, streak-free wiping performance", "Built for wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3277,7 +3277,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgqtfvvQYovYH8tAEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgqtfvvQYonLyBxAYwuBc4uBc.jpg", "/products/ABUIABACGAAgqtfvvQYors3q_gUwuBc4uBc.jpg", "/products/ABUIABACGAAgqtfvvQYorMfp1QUwuBc4uBc.jpg", "/products/ABUIABACGAAgqtfvvQYou9-b9QYwuBc4uBc.jpg", "/products/ABUIABACGAAgqtfvvQYoiOj6vgIwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-848A","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Auto External Accessories Front Window Wiper Car Frameless Wiper Blades for Land Rover","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-848A","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Auto External Accessories Front Window Wiper Car Frameless Wiper Blades for Land Rover","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wholesale wiper blade，car wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-848A for reliable, streak-free wiping performance", "Built for frameless wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3293,7 +3293,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgx7XvvQYoxMfRlgcwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgx7XvvQYowNKyiwIwuBc4uBc.jpg", "/products/ABUIABACGAAgx7XvvQYomv6g_wYwuBc4uBc.jpg", "/products/ABUIABACGAAgx7XvvQYo-LC-GDC4Fzi4Fw.jpg", "/products/ABUIABACGAAgyLXvvQYohI7WqAQwuBc4uBc.jpg", "/products/ABUIABACGAAgyLXvvQYo38vTvAYwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-831","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Auto External Accessories Front Windscreen Soft Wiper Blades for VW PASSAT 2010-2013","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-831","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Auto External Accessories Front Windscreen Soft Wiper Blades for VW PASSAT 2010-2013","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wiper blade", "wholesale"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-831 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3309,7 +3309,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgxK7vvQYojtehiQcwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgxK7vvQYotMC_IzC4Fzi4Fw.jpg", "/products/ABUIABACGAAgxK7vvQYogNPbajC4Fzi4Fw.jpg", "/products/ABUIABACGAAgxK7vvQYoltei1wEwuBc4uBc.jpg", "/products/ABUIABACGAAgxK7vvQYosKPrqQQwuBc4uBc.jpg", "/products/ABUIABACGAAgw67vvQYozurnogYwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-825","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Auto External Accessories Front Windshield Special Wiper Blades for Land Rover Freelander","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-825","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Auto External Accessories Front Windshield Special Wiper Blades for Land Rover Freelander","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["sepcial wiper blade wholesale", "wiper blade", "frameless wiper blade", "wholesale wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-825 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3325,7 +3325,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgiOKevgYo75H_pAQwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgiOKevgYotZ-Y2gIwuBc4uBc.jpg", "/products/ABUIABACGAAgiOKevgYo4LvmtwUwuBc4uBc.jpg", "/products/ABUIABACGAAgiOKevgYoqo7AZDC4Fzi4Fw.jpg", "/products/ABUIABACGAAgiOKevgYooJvI2AEwuBc4uBc.jpg", "/products/ABUIABACGAAgiOKevgYozLL34wIwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW0250","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Auto External Accessories Rear Windscreen Wiper Blade Arm for Toyota FJ CRUISER 2007-2014","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0250","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Auto External Accessories Rear Windscreen Wiper Blade Arm for Toyota FJ CRUISER 2007-2014","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0250 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3342,7 +3342,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg0MafvgYott3X6gMwuBc4uBc.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW1908","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Auto Rear Windshield Special Wiper Blade Natural Rubber Fit for Chevrolet Matiz 2005-2010","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW1908","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Auto Rear Windshield Special Wiper Blade Natural Rubber Fit for Chevrolet Matiz 2005-2010","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW1908 for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3358,7 +3358,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgq6uUvgYo3pmcvQMwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgq6uUvgYo35Pz4wUwuBc4uBc.jpg", "/products/ABUIABACGAAgq6uUvgYokOzwgAMwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW1121","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Auto Special rear windscreen Wiper Blade and Arm for PEUGEOT 308 2007-2016","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW1121","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Auto Special rear windscreen Wiper Blade and Arm for PEUGEOT 308 2007-2016","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW1121 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3374,7 +3374,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgxK7vvQYojtehiQcwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgxK7vvQYotMC_IzC4Fzi4Fw.jpg", "/products/ABUIABACGAAgxK7vvQYogNPbajC4Fzi4Fw.jpg", "/products/ABUIABACGAAgxK7vvQYoltei1wEwuBc4uBc.jpg", "/products/ABUIABACGAAgxK7vvQYosKPrqQQwuBc4uBc.jpg", "/products/ABUIABACGAAgw67vvQYozurnogYwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-825","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories 26+15 Inches Front Windshield Soft Wiper Blades for Chevrolet Son","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-825","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories 26+15 Inches Front Windshield Soft Wiper Blades for Chevrolet Son","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["LELION wiper blade", "wiper blade", "wholesale wiper", "special wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-825 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3390,7 +3390,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg8pefvgYo0MiedzC4Fzi4Fw.jpg",
     gallery: ["/products/ABUIABACGAAg8pefvgYolau0vgEwuBc4uBc.jpg", "/products/ABUIABACGAAg8pefvgYo1qS33AIwuBc4uBc.jpg", "/products/ABUIABACGAAg8pefvgYoyv7XoQIwuBc4uBc.jpg", "/products/ABUIABACGAAg8pefvgYome-xygUwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW4602","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories 20825881 Rear Windshield Wiper Blade For Cadillac SRX 2008 - 2016","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW4602","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories 20825881 Rear Windshield Wiper Blade For Cadillac SRX 2008 - 2016","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW4602 for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3406,7 +3406,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgs5zwvQYogM_7mAEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgs5zwvQYo8JX3twQw6Ac46Ac.jpg", "/products/ABUIABACGAAgs5zwvQYo4L78MjDoBzjoBw.jpg", "/products/ABUIABACGAAgs5zwvQYo84mW8gEw6Ac46Ac.jpg", "/products/ABUIABACGAAgs5zwvQYokNj1qAcw6Ac46Ac.jpg", "/products/ABUIABACGAAgspzwvQYouNnCqwIw6Ac46Ac.jpg"],
-    technicalDetails: {"Product Model":"BW-709","Category":"Specific Fit Frame Wiper","Size":"26+22\"","Color":"Black","Fitment":"Wholesale Car External Accessories 61619070579 Special Wiper Blades 26+22 Inches Wiper Blade for bmw","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-709","Category":"Specific Fit Frame Wiper","Size":"26+22\"","Color":"Black","Fitment":"Wholesale Car External Accessories 61619070579 Special Wiper Blades 26+22 Inches Wiper Blade for bmw","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wiper blade", "frameless wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-709 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3422,7 +3422,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg6ayEvgYokJvjywMw3gI43gI.jpg",
     gallery: ["/products/ABUIABACGAAg6ayEvgYozeDsRTC4Fzi4Fw.jpg", "/products/ABUIABACGAAg6ayEvgYo_4f8uwcwuBc4uBc.jpg", "/products/ABUIABACGAAg6ayEvgYoutyRpwMwuBc4uBc.jpg", "/products/ABUIABACGAAg6ayEvgYo0rH-sQMwuBc4uBc.jpg", "/products/ABUIABACGAAg6qyEvgYo0PDPkQIwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-901","Category":"Bus Truck Wiper","Size":"32\"","Color":"Black","Fitment":"Wholesale Car External Accessories Bus and Train Wiper Blades Heavy Duty Truck Wiper Blades","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-901","Category":"Bus Truck Wiper","Size":"32\"","Color":"Black","Fitment":"Wholesale Car External Accessories Bus and Train Wiper Blades Heavy Duty Truck Wiper Blades","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Bus and Train Wiper Blades", "car wiper blade", "windscreen wiper", "wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Commercial Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-901 for reliable, streak-free wiping performance", "Built for bus truck wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3438,7 +3438,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAglrPvvQYom53pxwEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAglrPvvQYohP_C3gIwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo9K_8ywUwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo1K367wcwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo_L-DYTC4Fzi4Fw.jpg", "/products/ABUIABACGAAglrPvvQYooMHP7AEwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"26+16\"","Color":"Black","Fitment":"Wholesale Car External Accessories Front Window 26+16 Inch Soft Wiper Blades for PEUGEOT 2008 2012 -","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"26+16\"","Color":"Black","Fitment":"Wholesale Car External Accessories Front Window 26+16 Inch Soft Wiper Blades for PEUGEOT 2008 2012 -","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wiper blade", "wholesale"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-829 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3454,7 +3454,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgqtfvvQYovYH8tAEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgqtfvvQYou9-b9QYwuBc4uBc.jpg", "/products/ABUIABACGAAgqtfvvQYors3q_gUwuBc4uBc.jpg", "/products/ABUIABACGAAgqtfvvQYorMfp1QUwuBc4uBc.jpg", "/products/ABUIABACGAAgqtfvvQYonLyBxAYwuBc4uBc.jpg", "/products/ABUIABACGAAgqtfvvQYoiOj6vgIwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-848A","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Window Wiper Blade for Land Rover Discovery 5","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-848A","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Window Wiper Blade for Land Rover Discovery 5","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["LELION wiper blade", "wiper blade", "wholesale wiper", "special wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-848A for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3470,7 +3470,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg-63vvQYoooW6jgEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg-63vvQYog5eVgQcwuBc4uBc.jpg", "/products/ABUIABACGAAg-63vvQYo4-2iwwYwuBc4uBc.jpg", "/products/ABUIABACGAAg-63vvQYosc-y6QcwuBc4uBc.jpg", "/products/ABUIABACGAAg-63vvQYosq6PvwQwuBc4uBc.jpg", "/products/ABUIABACGAAg-63vvQYowJ_szQIwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-824","Category":"Specific Fit","Size":"24+19\"","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windscreen 24''+19'' Frameless Wiper Blades for BMW 3 Serie","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-824","Category":"Specific Fit","Size":"24+19\"","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windscreen 24''+19'' Frameless Wiper Blades for BMW 3 Serie","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["wiper blade", "special wiper blade", "soft wiper", "wholesale wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-824 for reliable, streak-free wiping performance", "Built for frameless wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3486,7 +3486,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAglrPvvQYom53pxwEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAglrPvvQYooMHP7AEwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYohP_C3gIwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo9K_8ywUwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo1K367wcwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo_L-DYTC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windscreen 24/20 Inch Soft Wiper Blades for HYUNDAI VERACRU","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windscreen 24/20 Inch Soft Wiper Blades for HYUNDAI VERACRU","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wholesale wiper blade，car wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-829 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3502,7 +3502,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgx7XvvQYoxMfRlgcwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgx7XvvQYowNKyiwIwuBc4uBc.jpg", "/products/ABUIABACGAAgx7XvvQYomv6g_wYwuBc4uBc.jpg", "/products/ABUIABACGAAgx7XvvQYo-LC-GDC4Fzi4Fw.jpg", "/products/ABUIABACGAAgyLXvvQYohI7WqAQwuBc4uBc.jpg", "/products/ABUIABACGAAgyLXvvQYo38vTvAYwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-831","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windscreen Soft Wiper Blades for Audi A1 A3 A4 A5 A6 A7 A8","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-831","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windscreen Soft Wiper Blades for Audi A1 A3 A4 A5 A6 A7 A8","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["sepcial wiper blade wholesale", "wiper blade", "frameless wiper blade", "wholesale wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-831 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3518,7 +3518,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAglrPvvQYom53pxwEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAglrPvvQYooMHP7AEwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYohP_C3gIwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo9K_8ywUwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo1K367wcwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo_L-DYTC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windscreen Soft Wiper Blades for VW GOLF6 2009","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windscreen Soft Wiper Blades for VW GOLF6 2009","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["LELION wiper blade", "wiper blade", "wholesale wiper", "special wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-829 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3534,7 +3534,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgx7XvvQYoxMfRlgcwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgx7XvvQYowNKyiwIwuBc4uBc.jpg", "/products/ABUIABACGAAgx7XvvQYomv6g_wYwuBc4uBc.jpg", "/products/ABUIABACGAAgx7XvvQYo-LC-GDC4Fzi4Fw.jpg", "/products/ABUIABACGAAgyLXvvQYohI7WqAQwuBc4uBc.jpg", "/products/ABUIABACGAAgyLXvvQYo38vTvAYwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-831","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windscreen Wiper Blades for Audi A1 A3 A4 A5 A6 A7 A8 Q3","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-831","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windscreen Wiper Blades for Audi A1 A3 A4 A5 A6 A7 A8 Q3","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Audi A6 C7 wipers", "4G1 998 002A replacement", "2012 Audi A6 wiper size"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-831 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3550,7 +3550,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgxK7vvQYojtehiQcwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgxK7vvQYoltei1wEwuBc4uBc.jpg", "/products/ABUIABACGAAgxK7vvQYosKPrqQQwuBc4uBc.jpg", "/products/ABUIABACGAAgw67vvQYozurnogYwuBc4uBc.jpg", "/products/ABUIABACGAAgxK7vvQYotMC_IzC4Fzi4Fw.jpg", "/products/ABUIABACGAAgxK7vvQYogNPbajC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-825","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windscreen Wiper Blades for AUDI Q7 Audi TT A3","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-825","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windscreen Wiper Blades for AUDI Q7 Audi TT A3","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["wiper blade", "special wiper blade", "soft wiper", "wholesale wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-825 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3566,7 +3566,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAglrPvvQYom53pxwEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAglrPvvQYohP_C3gIwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYooMHP7AEwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo9K_8ywUwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo1K367wcwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo_L-DYTC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windscreen Wiper Blades for CADILLAC SRX 2010-2016","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windscreen Wiper Blades for CADILLAC SRX 2010-2016","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wholesale wiper blade，car wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-829 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3582,7 +3582,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAglrPvvQYom53pxwEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAglrPvvQYooMHP7AEwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYohP_C3gIwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo9K_8ywUwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo1K367wcwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo_L-DYTC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windscreen Wiper Blades for HYUNDAI VERACRUZ 2012","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windscreen Wiper Blades for HYUNDAI VERACRUZ 2012","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wiper blade", "wholesale"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-829 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3598,7 +3598,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg9rHvvQYo0ZXE8AMwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg9rHvvQYo09PRkAUwuBc4uBc.jpg", "/products/ABUIABACGAAg9rHvvQYo-M6xKzC4Fzi4Fw.jpg", "/products/ABUIABACGAAg9rHvvQYo8s_HoQQwuBc4uBc.jpg", "/products/ABUIABACGAAg9rHvvQYonJ2ZwAYwuBc4uBc.jpg", "/products/ABUIABACGAAg9rHvvQYossnn7gEwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-827","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windscreen Wiper Blades for MINI CLUBMAN R55 2012-2015","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-827","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windscreen Wiper Blades for MINI CLUBMAN R55 2012-2015","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wholesale wiper blade，car wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-827 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3614,7 +3614,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAglrPvvQYom53pxwEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAglrPvvQYohP_C3gIwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo9K_8ywUwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo1K367wcwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo_L-DYTC4Fzi4Fw.jpg", "/products/ABUIABACGAAglrPvvQYooMHP7AEwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windscreen Wiper Blades for SEAT LEON LEONSC IBIZA ALHAMBRA","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windscreen Wiper Blades for SEAT LEON LEONSC IBIZA ALHAMBRA","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["LELION wiper blade", "wiper blade", "wholesale wiper", "special wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-829 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3630,7 +3630,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgx7XvvQYoxMfRlgcwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgx7XvvQYowNKyiwIwuBc4uBc.jpg", "/products/ABUIABACGAAgx7XvvQYomv6g_wYwuBc4uBc.jpg", "/products/ABUIABACGAAgx7XvvQYo-LC-GDC4Fzi4Fw.jpg", "/products/ABUIABACGAAgyLXvvQYohI7WqAQwuBc4uBc.jpg", "/products/ABUIABACGAAgyLXvvQYo38vTvAYwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-831","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windscreen Wiper Blades for VW Magotan 2013","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-831","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windscreen Wiper Blades for VW Magotan 2013","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wiper blade", "wholesale"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-831 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3646,7 +3646,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAghrbvvQYo5v77rwIwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAghrbvvQYo1ITM8AMwuBc4uBc.jpg", "/products/ABUIABACGAAghrbvvQYo-seEcjC4Fzi4Fw.jpg", "/products/ABUIABACGAAghrbvvQYoiriNhwMwuBc4uBc.jpg", "/products/ABUIABACGAAghrbvvQYorreewAMwuBc4uBc.jpg", "/products/ABUIABACGAAghrbvvQYotL2q-wIwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-835","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windscreen Wiper Blades for VW TOUAREG 2002-2017","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-835","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windscreen Wiper Blades for VW TOUAREG 2002-2017","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["sepcial wiper blade wholesale", "wiper blade", "frameless wiper blade", "wholesale wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-835 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3662,7 +3662,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg7ZPwvQYo1tePazC4Fzi4Fw.jpg",
     gallery: ["/products/ABUIABACGAAg7ZPwvQYojPnmeDC4Fzi4Fw.jpg", "/products/ABUIABACGAAg7ZPwvQYo2KHcugUwuBc4uBc.jpg", "/products/ABUIABACGAAg7ZPwvQYo2pe7iQYwuBc4uBc.jpg", "/products/ABUIABACGAAg7ZPwvQYosKKNnwcwuBc4uBc.jpg", "/products/ABUIABACGAAg7ZPwvQYozoWVlwIwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-708","Category":"Specific Fit Frame Wiper","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield 22+22 Inch Wiper Blades for Car Audi 8E0998425A","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-708","Category":"Specific Fit Frame Wiper","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield 22+22 Inch Wiper Blades for Car Audi 8E0998425A","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["LELION wiper blade", "wiper blade", "wholesale wiper", "special wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-708 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3678,7 +3678,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAglrPvvQYom53pxwEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAglrPvvQYohP_C3gIwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo1K367wcwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo9K_8ywUwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo_L-DYTC4Fzi4Fw.jpg", "/products/ABUIABACGAAglrPvvQYooMHP7AEwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield 24+16 Special Wiper Blades for VW Jetta 2015","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield 24+16 Special Wiper Blades for VW Jetta 2015","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wiper blade", "frameless wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-829 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3694,7 +3694,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgx7XvvQYoxMfRlgcwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgx7XvvQYowNKyiwIwuBc4uBc.jpg", "/products/ABUIABACGAAgx7XvvQYomv6g_wYwuBc4uBc.jpg", "/products/ABUIABACGAAgx7XvvQYo-LC-GDC4Fzi4Fw.jpg", "/products/ABUIABACGAAgyLXvvQYohI7WqAQwuBc4uBc.jpg", "/products/ABUIABACGAAgyLXvvQYo38vTvAYwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-831","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield 24+18 Inches Wiper Blades for SKODA OCTAVIA SUPE","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-831","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield 24+18 Inches Wiper Blades for SKODA OCTAVIA SUPE","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wiper blade", "wholesale"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-831 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3710,7 +3710,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgx7bvvQYo_8ypxQMwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgx7bvvQYowJqT3QYwuBc4uBc.jpg", "/products/ABUIABACGAAgx7bvvQYo9cK6-AUwuBc4uBc.jpg", "/products/ABUIABACGAAgx7bvvQYo8Inm1AcwuBc4uBc.jpg", "/products/ABUIABACGAAgx7bvvQYo7oDH3gcwuBc4uBc.jpg", "/products/ABUIABACGAAgx7bvvQYo6ZjkzgUwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-840","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield 24+24 Inches Soft Wiper Blades for AUDI A8 2003-","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-840","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield 24+24 Inches Soft Wiper Blades for AUDI A8 2003-","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wholesale wiper blade，car wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-840 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3726,7 +3726,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgtdXvvQYo7obBrAEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgtdXvvQYo4P2TmAEwuBc4uBc.jpg", "/products/ABUIABACGAAgtdXvvQYo3POmgAYwuBc4uBc.jpg", "/products/ABUIABACGAAgtdXvvQYo2J7l2AcwuBc4uBc.jpg", "/products/ABUIABACGAAgtdXvvQYo1NH7vAQwuBc4uBc.jpg", "/products/ABUIABACGAAgtdXvvQYo-InS2QcwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-706","Category":"Specific Fit Frame Wiper","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield 25+25 Inch Wiper Blades for BMW E66","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-706","Category":"Specific Fit Frame Wiper","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield 25+25 Inch Wiper Blades for BMW E66","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wiper blade", "wholesale"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-706 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3742,7 +3742,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgx7XvvQYoxMfRlgcwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgx7XvvQYowNKyiwIwuBc4uBc.jpg", "/products/ABUIABACGAAgx7XvvQYomv6g_wYwuBc4uBc.jpg", "/products/ABUIABACGAAgx7XvvQYo-LC-GDC4Fzi4Fw.jpg", "/products/ABUIABACGAAgyLXvvQYohI7WqAQwuBc4uBc.jpg", "/products/ABUIABACGAAgyLXvvQYo38vTvAYwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-831","Category":"Specific Fit","Size":"26+16\"","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield 26''+16'' Soft Wiper Blade for VW Sharan 2013","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-831","Category":"Specific Fit","Size":"26+16\"","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield 26''+16'' Soft Wiper Blade for VW Sharan 2013","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wiper blade", "wholesale"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-831 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3758,7 +3758,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgx7XvvQYoxMfRlgcwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgx7XvvQYowNKyiwIwuBc4uBc.jpg", "/products/ABUIABACGAAgx7XvvQYomv6g_wYwuBc4uBc.jpg", "/products/ABUIABACGAAgx7XvvQYo-LC-GDC4Fzi4Fw.jpg", "/products/ABUIABACGAAgyLXvvQYohI7WqAQwuBc4uBc.jpg", "/products/ABUIABACGAAgyLXvvQYo38vTvAYwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-831","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield 26+16 Wiper Blades for VW SHARAN 2013","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-831","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield 26+16 Wiper Blades for VW SHARAN 2013","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wholesale wiper blade，car wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-831 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3774,7 +3774,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgx7XvvQYoxMfRlgcwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgx7XvvQYowNKyiwIwuBc4uBc.jpg", "/products/ABUIABACGAAgx7XvvQYomv6g_wYwuBc4uBc.jpg", "/products/ABUIABACGAAgx7XvvQYo-LC-GDC4Fzi4Fw.jpg", "/products/ABUIABACGAAgyLXvvQYohI7WqAQwuBc4uBc.jpg", "/products/ABUIABACGAAgyLXvvQYo38vTvAYwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-831","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield 26+18 Inch Wiper Blades for Audi A1 GB 2018-2023","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-831","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield 26+18 Inch Wiper Blades for Audi A1 GB 2018-2023","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["LELION wiper blade", "wiper blade", "wholesale wiper", "special wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-831 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3790,7 +3790,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgwK3vvQYonN6ziAEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgwK3vvQYokOTPxwUwuBc4uBc.jpg", "/products/ABUIABACGAAgwK3vvQYo6fjN9gYwuBc4uBc.jpg", "/products/ABUIABACGAAgwK3vvQYooPry9gQwuBc4uBc.jpg", "/products/ABUIABACGAAgwK3vvQYopLGT9gUwuBc4uBc.jpg", "/products/ABUIABACGAAgv63vvQYoh9r1VTC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-822","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield 26/26 Inch Soft Wiper Blades for PORSCHE CAYENNE","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-822","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield 26/26 Inch Soft Wiper Blades for PORSCHE CAYENNE","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wiper blade", "wholesale"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-822 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3806,7 +3806,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg9rHvvQYo0ZXE8AMwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg9rHvvQYo09PRkAUwuBc4uBc.jpg", "/products/ABUIABACGAAg9rHvvQYo8s_HoQQwuBc4uBc.jpg", "/products/ABUIABACGAAg9rHvvQYonJ2ZwAYwuBc4uBc.jpg", "/products/ABUIABACGAAg9rHvvQYossnn7gEwuBc4uBc.jpg", "/products/ABUIABACGAAg9rHvvQYo-M6xKzC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-827","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Frameless Wiper Blades for Renault Scenic Mk2 20","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-827","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Frameless Wiper Blades for Renault Scenic Mk2 20","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["wiper blade", "special wiper blade", "soft wiper", "wholesale wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-827 for reliable, streak-free wiping performance", "Built for frameless wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3822,7 +3822,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg5brvvQYowZjjwQIwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg5brvvQYo_Y7dywIwuBc4uBc.jpg", "/products/ABUIABACGAAg5brvvQYo4LGOyAMwuBc4uBc.jpg", "/products/ABUIABACGAAg5LrvvQYo2N-PzgIwuBc4uBc.jpg", "/products/ABUIABACGAAg5LrvvQYopryxmAYwuBc4uBc.jpg", "/products/ABUIABACGAAg5LrvvQYowIDS7AQwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-849","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Frameless Wipers for BMW 5 Series 7 Series 2016","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-849","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Frameless Wipers for BMW 5 Series 7 Series 2016","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wiper blade", "wholesale"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-849 for reliable, streak-free wiping performance", "Built for frameless wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3838,7 +3838,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgx7XvvQYoxMfRlgcwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgx7XvvQYowNKyiwIwuBc4uBc.jpg", "/products/ABUIABACGAAgx7XvvQYomv6g_wYwuBc4uBc.jpg", "/products/ABUIABACGAAgx7XvvQYo-LC-GDC4Fzi4Fw.jpg", "/products/ABUIABACGAAgyLXvvQYohI7WqAQwuBc4uBc.jpg", "/products/ABUIABACGAAgyLXvvQYo38vTvAYwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-831","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Soft Wiper Blade for AUDI Q3 A6L A8L A7","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-831","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Soft Wiper Blade for AUDI Q3 A6L A8L A7","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wiper blade", "wholesale"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-831 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3854,7 +3854,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg5LLvvQYo4LuegAIwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg5LLvvQYomKiYXDC4Fzi4Fw.jpg", "/products/ABUIABACGAAg5LLvvQYoltCXDjC4Fzi4Fw.jpg", "/products/ABUIABACGAAg5LLvvQYoi5Xu9AYwuBc4uBc.jpg", "/products/ABUIABACGAAg5LLvvQYoquiz-AEwuBc4uBc.jpg", "/products/ABUIABACGAAg5LLvvQYos-G8qAMwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-828","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Soft Wiper Blades for AUDI A1 A4 A5 A6 Q5","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-828","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Soft Wiper Blades for AUDI A1 A4 A5 A6 Q5","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["wiper blade", "special wiper blade", "soft wiper", "wholesale wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-828 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3870,7 +3870,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg5LLvvQYo4LuegAIwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg5LLvvQYomKiYXDC4Fzi4Fw.jpg", "/products/ABUIABACGAAg5LLvvQYoltCXDjC4Fzi4Fw.jpg", "/products/ABUIABACGAAg5LLvvQYoi5Xu9AYwuBc4uBc.jpg", "/products/ABUIABACGAAg5LLvvQYoquiz-AEwuBc4uBc.jpg", "/products/ABUIABACGAAg5LLvvQYos-G8qAMwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-828","Category":"Specific Fit","Size":"22+22\"","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Soft Wiper Blades for Audi A4 A6","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-828","Category":"Specific Fit","Size":"22+22\"","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Soft Wiper Blades for Audi A4 A6","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wiper blade", "frameless wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-828 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3886,7 +3886,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg5LLvvQYo4LuegAIwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg5LLvvQYomKiYXDC4Fzi4Fw.jpg", "/products/ABUIABACGAAg5LLvvQYoltCXDjC4Fzi4Fw.jpg", "/products/ABUIABACGAAg5LLvvQYoi5Xu9AYwuBc4uBc.jpg", "/products/ABUIABACGAAg5LLvvQYoquiz-AEwuBc4uBc.jpg", "/products/ABUIABACGAAg5LLvvQYos-G8qAMwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-828","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Soft Wiper Blades for Audi A4 A6 2002-2008","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-828","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Soft Wiper Blades for Audi A4 A6 2002-2008","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["LELION wiper blade", "wiper blade", "wholesale wiper", "special wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-828 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3902,7 +3902,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgx7XvvQYoxMfRlgcwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgx7XvvQYowNKyiwIwuBc4uBc.jpg", "/products/ABUIABACGAAgx7XvvQYomv6g_wYwuBc4uBc.jpg", "/products/ABUIABACGAAgx7XvvQYo-LC-GDC4Fzi4Fw.jpg", "/products/ABUIABACGAAgyLXvvQYohI7WqAQwuBc4uBc.jpg", "/products/ABUIABACGAAgyLXvvQYo38vTvAYwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-831","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Soft Wiper Blades for Audi Q3 2011-2018","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-831","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Soft Wiper Blades for Audi Q3 2011-2018","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wiper blade", "frameless wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-831 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3918,7 +3918,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgxK7vvQYojtehiQcwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgxK7vvQYotMC_IzC4Fzi4Fw.jpg", "/products/ABUIABACGAAgxK7vvQYogNPbajC4Fzi4Fw.jpg", "/products/ABUIABACGAAgxK7vvQYoltei1wEwuBc4uBc.jpg", "/products/ABUIABACGAAgxK7vvQYosKPrqQQwuBc4uBc.jpg", "/products/ABUIABACGAAgw67vvQYozurnogYwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-825","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Soft Wiper Blades for BMW E87 E88 120i 130i","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-825","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Soft Wiper Blades for BMW E87 E88 120i 130i","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wiper blade", "wholesale"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-825 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3934,7 +3934,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgqtfvvQYovYH8tAEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgqtfvvQYou9-b9QYwuBc4uBc.jpg", "/products/ABUIABACGAAgqtfvvQYors3q_gUwuBc4uBc.jpg", "/products/ABUIABACGAAgqtfvvQYorMfp1QUwuBc4uBc.jpg", "/products/ABUIABACGAAgqtfvvQYoiOj6vgIwuBc4uBc.jpg", "/products/ABUIABACGAAgqtfvvQYonLyBxAYwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-848A","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Special Frameless Wiper Blades for Land Rover Di","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-848A","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Special Frameless Wiper Blades for Land Rover Di","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wiper blade", "frameless wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-848A for reliable, streak-free wiping performance", "Built for frameless wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3950,7 +3950,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg7ZPwvQYo1tePazC4Fzi4Fw.jpg",
     gallery: ["/products/ABUIABACGAAg7ZPwvQYo2KHcugUwuBc4uBc.jpg", "/products/ABUIABACGAAg7ZPwvQYozoWVlwIwuBc4uBc.jpg", "/products/ABUIABACGAAg7ZPwvQYo2pe7iQYwuBc4uBc.jpg", "/products/ABUIABACGAAg7ZPwvQYosKKNnwcwuBc4uBc.jpg", "/products/ABUIABACGAAg7ZPwvQYojPnmeDC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-708","Category":"Specific Fit Frame Wiper","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Special Wiper Blades for Audi A4 1994-2000","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-708","Category":"Specific Fit Frame Wiper","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Special Wiper Blades for Audi A4 1994-2000","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wholesale wiper blade，car wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-708 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3966,7 +3966,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgwK3vvQYonN6ziAEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgwK3vvQYokOTPxwUwuBc4uBc.jpg", "/products/ABUIABACGAAgwK3vvQYo6fjN9gYwuBc4uBc.jpg", "/products/ABUIABACGAAgwK3vvQYooPry9gQwuBc4uBc.jpg", "/products/ABUIABACGAAgwK3vvQYopLGT9gUwuBc4uBc.jpg", "/products/ABUIABACGAAgv63vvQYoh9r1VTC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-822","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Special Wiper Blades for Car BENZ CL CLASS S CLA","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-822","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Special Wiper Blades for Car BENZ CL CLASS S CLA","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wiper blade", "wholesale"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-822 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3982,7 +3982,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgs5zwvQYogM_7mAEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgs5zwvQYokNj1qAcw6Ac46Ac.jpg", "/products/ABUIABACGAAgs5zwvQYo84mW8gEw6Ac46Ac.jpg", "/products/ABUIABACGAAgs5zwvQYo4L78MjDoBzjoBw.jpg", "/products/ABUIABACGAAgs5zwvQYo8JX3twQw6Ac46Ac.jpg", "/products/ABUIABACGAAgspzwvQYouNnCqwIw6Ac46Ac.jpg"],
-    technicalDetails: {"Product Model":"BW-709","Category":"Specific Fit Frame Wiper","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Wiper Blade for Land Rover Range Rover 2003-2012","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-709","Category":"Specific Fit Frame Wiper","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Wiper Blade for Land Rover Range Rover 2003-2012","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["sepcial wiper blade wholesale", "wiper blade", "frameless wiper blade", "wholesale wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-709 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -3998,7 +3998,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgg7TvvQYohL_3kwYwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgg7TvvQYolI67nQQwuBc4uBc.jpg", "/products/ABUIABACGAAgg7TvvQYomJTagQUwuBc4uBc.jpg", "/products/ABUIABACGAAggrTvvQYokKW32AEwuBc4uBc.jpg", "/products/ABUIABACGAAggrTvvQYomIeFzQYwuBc4uBc.jpg", "/products/ABUIABACGAAggrTvvQYou_Oj7gIwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-830","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Wiper Blades for AUDI A6L 2006-2011","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-830","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Wiper Blades for AUDI A6L 2006-2011","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["sepcial wiper blade wholesale", "wiper blade", "frameless wiper blade", "wholesale wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-830 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4014,7 +4014,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAggLrvvQYowL6c4gMwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAggLrvvQYoz_L44AcwuBc4uBc.jpg", "/products/ABUIABACGAAggLrvvQYopvWa5AUwuBc4uBc.jpg", "/products/ABUIABACGAAggLrvvQYomov2ggMwuBc4uBc.jpg", "/products/ABUIABACGAAggLrvvQYolPfc-AIwuBc4uBc.jpg", "/products/ABUIABACGAAggLrvvQYorsOkbTC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-844","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Wiper Blades for BENZ A-CLASS CLA GLA","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-844","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Wiper Blades for BENZ A-CLASS CLA GLA","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["LELION wiper blade", "wiper blade", "wholesale wiper", "special wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-844 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4030,7 +4030,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAghq3vvQYolre7qAMwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAghq3vvQYojcXB3AMwuBc4uBc.jpg", "/products/ABUIABACGAAgh63vvQYo4ZSGxgMwuBc4uBc.jpg", "/products/ABUIABACGAAgh63vvQYoxOruwwIwuBc4uBc.jpg", "/products/ABUIABACGAAghq3vvQYon4iGyAMwuBc4uBc.jpg", "/products/ABUIABACGAAghq3vvQYowMv6-QcwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-821","Category":"Specific Fit","Size":"26+26\"","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Wiper Blades for Benz E CLS (W211) GLK","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-821","Category":"Specific Fit","Size":"26+26\"","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Wiper Blades for Benz E CLS (W211) GLK","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wiper blade", "frameless wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-821 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4046,7 +4046,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAggq-vvQYo1pK36wcwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgg6-vvQYo9dDt_gMwuBc4uBc.jpg", "/products/ABUIABACGAAggq-vvQYohuyHhQYwuBc4uBc.jpg", "/products/ABUIABACGAAggq-vvQYooquk3gEwuBc4uBc.jpg", "/products/ABUIABACGAAggq-vvQYosMS99gYwuBc4uBc.jpg", "/products/ABUIABACGAAggq-vvQYozrO27AEwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-826","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Wiper Blades for BMW 5 SERIES 2004-2009","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-826","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Wiper Blades for BMW 5 SERIES 2004-2009","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wholesale wiper blade，car wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-826 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4062,7 +4062,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgtdXvvQYo7obBrAEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgtdXvvQYo4P2TmAEwuBc4uBc.jpg", "/products/ABUIABACGAAgtdXvvQYo3POmgAYwuBc4uBc.jpg", "/products/ABUIABACGAAgtdXvvQYo2J7l2AcwuBc4uBc.jpg", "/products/ABUIABACGAAgtdXvvQYo1NH7vAQwuBc4uBc.jpg", "/products/ABUIABACGAAgtdXvvQYo-InS2QcwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-706","Category":"Specific Fit Frame Wiper","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Wiper Blades for BMW 7 Series E65 E66 740i 750i","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-706","Category":"Specific Fit Frame Wiper","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Wiper Blades for BMW 7 Series E65 E66 740i 750i","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wholesale wiper blade，car wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-706 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4078,7 +4078,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgtqmEvgYowIaNqQIwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgtamEvgYo9Oi_7QIwuBc4uBc.jpg", "/products/ABUIABACGAAgtqmEvgYog77_pQcwuBc4uBc.jpg", "/products/ABUIABACGAAgtqmEvgYolIfNigIwuBc4uBc.jpg", "/products/ABUIABACGAAgtqmEvgYou-_S-wcwuBc4uBc.jpg", "/products/ABUIABACGAAgtqmEvgYolrjZgwIwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-713","Category":"Bus Truck Wiper","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Wiper Blades for Bus Volvo Mercedes - Benz","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-713","Category":"Bus Truck Wiper","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Wiper Blades for Bus Volvo Mercedes - Benz","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Bus wiper blade", "car wiper blade", "windscreen wiper", "wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Commercial Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-713 for reliable, streak-free wiping performance", "Built for bus truck wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4094,7 +4094,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAghJ3wvQYo_L2sogUwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAghJ3wvQYokLrC1AQwuBc4uBc.jpg", "/products/ABUIABACGAAghJ3wvQYoi4qFkQcwuBc4uBc.jpg", "/products/ABUIABACGAAghJ3wvQYo-qGrBzC4Fzi4Fw.jpg", "/products/ABUIABACGAAghJ3wvQYo_Ov_zAIwuBc4uBc.jpg", "/products/ABUIABACGAAghZ3wvQYomM2Z1gUwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-710","Category":"Specific Fit Frame Wiper","Size":"26+16\"","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Wiper Blades for Car PEUGEOT 206","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-710","Category":"Specific Fit Frame Wiper","Size":"26+16\"","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Wiper Blades for Car PEUGEOT 206","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wiper blade", "wholesale"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-710 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4110,7 +4110,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAghrbvvQYo5v77rwIwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAghrbvvQYo1ITM8AMwuBc4uBc.jpg", "/products/ABUIABACGAAghrbvvQYo-seEcjC4Fzi4Fw.jpg", "/products/ABUIABACGAAghrbvvQYoiriNhwMwuBc4uBc.jpg", "/products/ABUIABACGAAghrbvvQYorreewAMwuBc4uBc.jpg", "/products/ABUIABACGAAghrbvvQYotL2q-wIwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-835","Category":"Specific Fit","Size":"26+26\"","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Wiper Blades for Car PORSCHE Cayenne","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-835","Category":"Specific Fit","Size":"26+26\"","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Wiper Blades for Car PORSCHE Cayenne","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["sepcial wiper blade wholesale", "wiper blade", "frameless wiper blade", "wholesale wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-835 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4126,7 +4126,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgqtfvvQYovYH8tAEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgqtfvvQYou9-b9QYwuBc4uBc.jpg", "/products/ABUIABACGAAgqtfvvQYors3q_gUwuBc4uBc.jpg", "/products/ABUIABACGAAgqtfvvQYorMfp1QUwuBc4uBc.jpg", "/products/ABUIABACGAAgqtfvvQYonLyBxAYwuBc4uBc.jpg", "/products/ABUIABACGAAgqtfvvQYoiOj6vgIwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-848A","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Wiper Blades for Land Rover Discovery 5","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-848A","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Wiper Blades for Land Rover Discovery 5","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["LELION wiper blade", "wiper blade", "wholesale wiper", "special wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-848A for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4142,7 +4142,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAglrPvvQYom53pxwEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAglrPvvQYohP_C3gIwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo9K_8ywUwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo1K367wcwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo_L-DYTC4Fzi4Fw.jpg", "/products/ABUIABACGAAglrPvvQYooMHP7AEwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Wiper Blades for Land Rover Range Rover Evoque","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Wiper Blades for Land Rover Range Rover Evoque","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wholesale wiper blade，car wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-829 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4158,7 +4158,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAglrPvvQYom53pxwEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAglrPvvQYohP_C3gIwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo9K_8ywUwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo1K367wcwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo_L-DYTC4Fzi4Fw.jpg", "/products/ABUIABACGAAglrPvvQYooMHP7AEwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Wiper Blades for OPEL ASTRA 2004-2009","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Wiper Blades for OPEL ASTRA 2004-2009","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["wiper blade", "special wiper blade", "soft wiper", "wholesale wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-829 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4174,7 +4174,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg9rHvvQYo0ZXE8AMwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg9rHvvQYo09PRkAUwuBc4uBc.jpg", "/products/ABUIABACGAAg9rHvvQYo8s_HoQQwuBc4uBc.jpg", "/products/ABUIABACGAAg9rHvvQYonJ2ZwAYwuBc4uBc.jpg", "/products/ABUIABACGAAg9rHvvQYossnn7gEwuBc4uBc.jpg", "/products/ABUIABACGAAg9rHvvQYo-M6xKzC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-827","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Wiper Blades for Renault Grand Scenic II 2006-20","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-827","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Wiper Blades for Renault Grand Scenic II 2006-20","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wiper blade", "frameless wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-827 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4190,7 +4190,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgxK7vvQYojtehiQcwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgxK7vvQYotMC_IzC4Fzi4Fw.jpg", "/products/ABUIABACGAAgxK7vvQYogNPbajC4Fzi4Fw.jpg", "/products/ABUIABACGAAgxK7vvQYoltei1wEwuBc4uBc.jpg", "/products/ABUIABACGAAgxK7vvQYosKPrqQQwuBc4uBc.jpg", "/products/ABUIABACGAAgw67vvQYozurnogYwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-825","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Wiper Blades for Renault Koleos 2008-2016","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-825","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Wiper Blades for Renault Koleos 2008-2016","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["sepcial wiper blade wholesale", "wiper blade", "frameless wiper blade", "wholesale wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-825 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4206,7 +4206,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg9rHvvQYo0ZXE8AMwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg9rHvvQYo09PRkAUwuBc4uBc.jpg", "/products/ABUIABACGAAg9rHvvQYo8s_HoQQwuBc4uBc.jpg", "/products/ABUIABACGAAg9rHvvQYonJ2ZwAYwuBc4uBc.jpg", "/products/ABUIABACGAAg9rHvvQYossnn7gEwuBc4uBc.jpg", "/products/ABUIABACGAAg9rHvvQYo-M6xKzC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-827","Category":"Specific Fit","Size":"24+16\"","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Wiper Blades for Renault Symbol Thali","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-827","Category":"Specific Fit","Size":"24+16\"","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Wiper Blades for Renault Symbol Thali","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wiper blade", "frameless wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-827 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4222,7 +4222,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAglrPvvQYom53pxwEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAglrPvvQYooMHP7AEwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYohP_C3gIwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo1K367wcwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo9K_8ywUwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo_L-DYTC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Wiper Blades for ROEWE 360 RX5","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Wiper Blades for ROEWE 360 RX5","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["LELION wiper blade", "wiper blade", "wholesale wiper", "special wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-829 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4238,7 +4238,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgx7XvvQYoxMfRlgcwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgx7XvvQYowNKyiwIwuBc4uBc.jpg", "/products/ABUIABACGAAgx7XvvQYo-LC-GDC4Fzi4Fw.jpg", "/products/ABUIABACGAAgx7XvvQYomv6g_wYwuBc4uBc.jpg", "/products/ABUIABACGAAgyLXvvQYohI7WqAQwuBc4uBc.jpg", "/products/ABUIABACGAAgyLXvvQYo38vTvAYwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-831","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Wiper Blades for Skoda Octavia Superb 2016","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-831","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Wiper Blades for Skoda Octavia Superb 2016","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wiper blade", "wholesale"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-831 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4254,7 +4254,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAglrPvvQYom53pxwEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAglrPvvQYohP_C3gIwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYooMHP7AEwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo9K_8ywUwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo1K367wcwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo_L-DYTC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Wiper Blades for SKODA Yeti 2009-2016","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Wiper Blades for SKODA Yeti 2009-2016","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wholesale wiper blade，car wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-829 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4270,7 +4270,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgxK7vvQYojtehiQcwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgxK7vvQYoltei1wEwuBc4uBc.jpg", "/products/ABUIABACGAAgxK7vvQYosKPrqQQwuBc4uBc.jpg", "/products/ABUIABACGAAgw67vvQYozurnogYwuBc4uBc.jpg", "/products/ABUIABACGAAgxK7vvQYotMC_IzC4Fzi4Fw.jpg", "/products/ABUIABACGAAgxK7vvQYogNPbajC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-825","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Wiper Blades for Smart Forfour 2007-2015","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-825","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Wiper Blades for Smart Forfour 2007-2015","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wiper blade", "frameless wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-825 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4286,7 +4286,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgxK7vvQYojtehiQcwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgxK7vvQYotMC_IzC4Fzi4Fw.jpg", "/products/ABUIABACGAAgxK7vvQYogNPbajC4Fzi4Fw.jpg", "/products/ABUIABACGAAgxK7vvQYoltei1wEwuBc4uBc.jpg", "/products/ABUIABACGAAgxK7vvQYosKPrqQQwuBc4uBc.jpg", "/products/ABUIABACGAAgw67vvQYozurnogYwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-825","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Wiper Blades for Viano ML350 ML300 R300 R350 R50","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-825","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Wiper Blades for Viano ML350 ML300 R300 R350 R50","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["sepcial wiper blade wholesale", "wiper blade", "frameless wiper blade", "wholesale wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-825 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4302,7 +4302,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg-azvvQYoqZ_NpgMwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg-azvvQYoq728pAEwuBc4uBc.jpg", "/products/ABUIABACGAAg-azvvQYoz8nEuwMwuBc4uBc.jpg", "/products/ABUIABACGAAg-azvvQYokdyXpQEwuBc4uBc.jpg", "/products/ABUIABACGAAg-azvvQYo0o6-gQEwuBc4uBc.jpg", "/products/ABUIABACGAAg-qzvvQYo4YHmnAYwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-820","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Wiper Blades for VW GOLF V 2003-2005","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-820","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Wiper Blades for VW GOLF V 2003-2005","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["LELION wiper blade", "wiper blade", "wholesale wiper", "special wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-820 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4318,7 +4318,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg5rqEvgYokLbNYzC4Fzi4Fw.jpg",
     gallery: ["/products/ABUIABACGAAg5bqEvgYowZO_0gUw6Ac46Ac.jpg", "/products/ABUIABACGAAg5bqEvgYosNitqQUw6Ac46Ac.jpg", "/products/ABUIABACGAAg5bqEvgYo_tiOvAQw6Ac46Ac.jpg", "/products/ABUIABACGAAg5rqEvgYo5rvBwQMw6Ac46Ac.jpg"],
-    technicalDetails: {"Product Model":"BW-903","Category":"Bus Truck Wiper","Size":"32\"","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Wipers Blades for bus","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-903","Category":"Bus Truck Wiper","Size":"32\"","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windshield Wipers Blades for bus","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car wiper blade", "windscreen wiper", "wiper blade", "car wiper", "windshield wiper", "Wipers Blades for bus"],
     applications: ["Aftermarket Replacement", "Commercial Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-903 for reliable, streak-free wiping performance", "Built for bus truck wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4334,7 +4334,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgmoOfvgYop5-HdDDoBzjoBw.jpg",
     gallery: ["/products/ABUIABACGAAgm4OfvgYo6O_j0gYw6Ac46Ac.jpg", "/products/ABUIABACGAAgmoOfvgYomP-bmAEw6Ac46Ac.jpg", "/products/ABUIABACGAAgmoOfvgYoxLy6rAUw6Ac46Ac.jpg"],
-    technicalDetails: {"Product Model":"BW0302","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Car Window Wiper Blade and Arm for Fit 2004-2007","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0302","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Car Window Wiper Blade and Arm for Fit 2004-2007","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0302 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4351,7 +4351,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg3tCVvgYo0P2HFzC4Fzi4Fw.jpg",
     gallery: ["/products/ABUIABACGAAg3tCVvgYomOS2yQEwuBc4uBc.jpg", "/products/ABUIABACGAAg3tCVvgYo8IrCoQIwuBc4uBc.jpg", "/products/ABUIABACGAAg3tCVvgYokI6ixgQwuBc4uBc.jpg", "/products/ABUIABACGAAg3tCVvgYo3aHI6gMwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW1128","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windscreen Rubber Wiper Arm Blade Arm for PEUGEOT 107 2005","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW1128","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windscreen Rubber Wiper Arm Blade Arm for PEUGEOT 107 2005","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW1128 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4367,7 +4367,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg-eOevgYo-9zkkAQwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg-eOevgYokLT9wgIwuBc4uBc.jpg", "/products/ABUIABACGAAg-eOevgYotvCllwIwuBc4uBc.jpg", "/products/ABUIABACGAAg-eOevgYo_62PvwcwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW6001","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windscreen Wiper Arm and Blade for GMC ACADIA 2007-2012","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW6001","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windscreen Wiper Arm and Blade for GMC ACADIA 2007-2012","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW6001 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4383,7 +4383,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAggomfvgYotrP4ugUwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAggomfvgYo9KWY4AUwuBc4uBc.jpg", "/products/ABUIABACGAAggomfvgYoju39pwQwuBc4uBc.jpg", "/products/ABUIABACGAAggomfvgYoiJKa7AcwuBc4uBc.jpg", "/products/ABUIABACGAAggomfvgYoksaWtwYwuBc4uBc.jpg", "/products/ABUIABACGAAggomfvgYo8N6J2QcwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW3304","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windscreen Wiper Arm Combination for JEEP Grand Cherokee 201","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW3304","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windscreen Wiper Arm Combination for JEEP Grand Cherokee 201","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW3304 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4399,7 +4399,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg_d6evgYoosD3rAYwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg_d6evgYo7f_DgAEwuBc4uBc.jpg", "/products/ABUIABACGAAg_d6evgYogN__0wYwuBc4uBc.jpg", "/products/ABUIABACGAAg_d6evgYooryTtwYwuBc4uBc.jpg", "/products/ABUIABACGAAg_d6evgYowvHSyAMwuBc4uBc.jpg", "/products/ABUIABACGAAg_d6evgYo7NCE6gQwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW2001","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windscreen Wiper Blade Arm for BMW X3 E83 2003-2010","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW2001","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windscreen Wiper Blade Arm for BMW X3 E83 2003-2010","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW2001 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4415,7 +4415,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg_diVvgYo9435WTC4Fzi4Fw.jpg",
     gallery: ["/products/ABUIABACGAAg_diVvgYo6ImRiwEwuBc4uBc.jpg", "/products/ABUIABACGAAg_diVvgYokKzb3QMwuBc4uBc.jpg", "/products/ABUIABACGAAg_tiVvgYo0vewJDC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW4601","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windscreen Wiper Blade Arm for CADILLAC ESCALADE 2007-2013","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW4601","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windscreen Wiper Blade Arm for CADILLAC ESCALADE 2007-2013","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW4601 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4431,7 +4431,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg-pCVvgYoxOe6iwQw6Ac46Ac.jpg",
     gallery: ["/products/ABUIABACGAAg-pCVvgYowqnz9AUw6Ac46Ac.jpg", "/products/ABUIABACGAAg-pCVvgYowKK6qwYw6Ac46Ac.jpg", "/products/ABUIABACGAAg-pCVvgYotvr8ywUw6Ac46Ac.jpg", "/products/ABUIABACGAAg-pCVvgYogJ2YwwUw6Ac46Ac.jpg", "/products/ABUIABACGAAg-pCVvgYo1IywXjDoBzjoBw.jpg"],
-    technicalDetails: {"Product Model":"BW0311","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windscreen Wiper Blade Arm for HONDA FIT 2009-2013","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0311","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windscreen Wiper Blade Arm for HONDA FIT 2009-2013","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0311 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4447,7 +4447,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAglIufvgYo8vbcsgEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAglIufvgYo34mimAEwuBc4uBc.jpg", "/products/ABUIABACGAAglIufvgYoyOrJnAUwuBc4uBc.jpg", "/products/ABUIABACGAAglIufvgYo8OSLhQYwuBc4uBc.jpg", "/products/ABUIABACGAAglIufvgYouJnk0AUwuBc4uBc.jpg", "/products/ABUIABACGAAglIufvgYopcytjgMwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW4502","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windscreen Wiper Blade Combination for SAAB 9-5 2010","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW4502","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windscreen Wiper Blade Combination for SAAB 9-5 2010","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW4502 for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4463,7 +4463,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg3uWevgYoj8Suhgcw6Ac46Ac.jpg",
     gallery: ["/products/ABUIABACGAAg3uWevgYowOWfgAcw6Ac46Ac.jpg", "/products/ABUIABACGAAg3uWevgYokMTAlgMw6Ac46Ac.jpg"],
-    technicalDetails: {"Product Model":"BW3311","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windshield Wiper Arm and BladeFor JEEP COMPASS 2017-2019","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW3311","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windshield Wiper Arm and BladeFor JEEP COMPASS 2017-2019","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW3311 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4479,7 +4479,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg95afvgYolLWkCzC4Fzi4Fw.jpg",
     gallery: ["/products/ABUIABACGAAg95afvgYomOebkgUwuBc4uBc.jpg", "/products/ABUIABACGAAg95afvgYorLvFhwMwuBc4uBc.jpg", "/products/ABUIABACGAAg95afvgYo0veUvAQwuBc4uBc.jpg", "/products/ABUIABACGAAg95afvgYo6Li3zQEwuBc4uBc.jpg", "/products/ABUIABACGAAg95afvgYo8MfB3AQwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW0244","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windshield Wiper Arm Blade Combination for TOYOTA YARIS 1999","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0244","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windshield Wiper Arm Blade Combination for TOYOTA YARIS 1999","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0244 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4495,7 +4495,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgx9eVvgYo1uXUvwUwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgx9eVvgYolObkMzC4Fzi4Fw.jpg", "/products/ABUIABACGAAgx9eVvgYo4JbvkQQwuBc4uBc.jpg", "/products/ABUIABACGAAgx9eVvgYowp6AywEwuBc4uBc.jpg", "/products/ABUIABACGAAgx9eVvgYoxMSZpQYwuBc4uBc.jpg", "/products/ABUIABACGAAgx9eVvgYo7KzMkgMwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW0705","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windshield Wiper Blade and Arm for FORD EDGE 2010-2014","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0705","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windshield Wiper Blade and Arm for FORD EDGE 2010-2014","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0705 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4511,7 +4511,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgxeyevgYozeHfxQcwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgxuyevgYoiKevsAcwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW0713","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windshield Wiper Blade and Arm for ford Kuga 2008-2011","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0713","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windshield Wiper Blade and Arm for ford Kuga 2008-2011","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0713 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4527,7 +4527,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg6rOVvgYogZ9bMLgXOLgX.jpg",
     gallery: ["/products/ABUIABACGAAg6rOVvgYokOnvpgIwuBc4uBc.jpg", "/products/ABUIABACGAAg6rOVvgYolueizgcwuBc4uBc.jpg", "/products/ABUIABACGAAg6rOVvgYou6Sf2wYwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW0233","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windshield Wiper Blade and Arm for Toyota 4Runner 2003-2009","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0233","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windshield Wiper Blade and Arm for Toyota 4Runner 2003-2009","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0233 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4543,7 +4543,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgjoKfvgYomI7puQMwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgjoKfvgYogMiFrAMwuBc4uBc.jpg", "/products/ABUIABACGAAgjoKfvgYo1Pnq0QUwuBc4uBc.jpg", "/products/ABUIABACGAAgjoKfvgYogunugAcwuBc4uBc.jpg", "/products/ABUIABACGAAgjoKfvgYos7i3ggYwuBc4uBc.jpg", "/products/ABUIABACGAAgj4KfvgYozoSz5wIwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW1602","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windshield Wiper Blade Arm for Buick Enclave 2008-2017","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW1602","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windshield Wiper Blade Arm for Buick Enclave 2008-2017","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW1602 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4559,7 +4559,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAguJeVvgYogcv38wYwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAguJeVvgYonunl6QYwuBc4uBc.jpg", "/products/ABUIABACGAAguJeVvgYo8MCnygYwuBc4uBc.jpg", "/products/ABUIABACGAAguZeVvgYo2JGJ1wEwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW1913","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windshield Wiper Blade Arm for Chevrolet ONIX GEN II","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW1913","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windshield Wiper Blade Arm for Chevrolet ONIX GEN II","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW1913 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4575,7 +4575,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgsLuVvgYooaOR-QUwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgsLuVvgYo8Nb-7QQwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW1727","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windshield Wiper Blade Arm for FIAT 500 2007-2019","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW1727","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windshield Wiper Blade Arm for FIAT 500 2007-2019","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW1727 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4591,7 +4591,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgmb6evgYo2tLtlwQwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgmb6evgYokruD9wMwuBc4uBc.jpg", "/products/ABUIABACGAAgmb6evgYoxfa_jwQwuBc4uBc.jpg", "/products/ABUIABACGAAgmb6evgYohKC6zgEwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW0718","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windshield Wiper Blade Arm for ford Kuga 2013-2017","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0718","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windshield Wiper Blade Arm for ford Kuga 2013-2017","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Ford Kuga rear wiper", "2013–2017 wiper arm", "rear wiper blade replacement", "Ford Kuga wiper upgrade", "car accessories"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0718 for reliable, streak-free wiping performance", "Built for rear wiper combo applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4607,7 +4607,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgyZ2VvgYo1JuZKjC4Fzi4Fw.jpg",
     gallery: ["/products/ABUIABACGAAgyZ2VvgYogNim8gUwuBc4uBc.jpg", "/products/ABUIABACGAAgyZ2VvgYo_r3WzQYwuBc4uBc.jpg", "/products/ABUIABACGAAgyZ2VvgYoxpv01wYwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW0822","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windshield Wiper Blade Arm for Hyundai HB20 2012-","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0822","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windshield Wiper Blade Arm for Hyundai HB20 2012-","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0822 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4623,7 +4623,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg1o6fvgYo182zhgIwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg1o6fvgYo1NDcMjC4Fzi4Fw.jpg", "/products/ABUIABACGAAg1o6fvgYoxtKU4QQwuBc4uBc.jpg", "/products/ABUIABACGAAg1o6fvgYotZfYZjC4Fzi4Fw.jpg", "/products/ABUIABACGAAg1o6fvgYo6tObvwUwuBc4uBc.jpg", "/products/ABUIABACGAAg1o6fvgYoqLr8kAQwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW0802","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windshield Wiper Blade Arm for Hyundai Veracruz 2007 - 2012","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0802","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windshield Wiper Blade Arm for Hyundai Veracruz 2007 - 2012","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0802 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4639,7 +4639,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg-eCevgYogKD6uQIwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg-eCevgYogPCXlQUwuBc4uBc.jpg", "/products/ABUIABACGAAg-eCevgYo4KWZuQUwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW3302","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windshield Wiper Blade Arm for Jeep Commander 2010","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW3302","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windshield Wiper Blade Arm for Jeep Commander 2010","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW3302 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4655,7 +4655,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAghduevgYorOvzkwIwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAghduevgYosY--0wcwuBc4uBc.jpg", "/products/ABUIABACGAAghduevgYo64Le0wMwuBc4uBc.jpg", "/products/ABUIABACGAAghduevgYo_vmxggUwuBc4uBc.jpg", "/products/ABUIABACGAAghduevgYo-O6IsAQwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW3301","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windshield Wiper Blade Arm for JEEP GRAND CHEROKEE 2005-2010","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW3301","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windshield Wiper Blade Arm for JEEP GRAND CHEROKEE 2005-2010","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW3301 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4671,7 +4671,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgtv6UvgYo2Ovt6gUwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgtv6UvgYoqMCzmgMwuBc4uBc.jpg", "/products/ABUIABACGAAgtv6UvgYo0NuUwQEwuBc4uBc.jpg", "/products/ABUIABACGAAgt-6UvgYo_vWvuQIwuBc4uBc.jpg", "/products/ABUIABACGAAgt-6UvgYoju6S_gQwuBc4uBc.jpg", "/products/ABUIABACGAAgt-6UvgYowMvTogYwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW0914","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windshield Wiper Blade Arm for KIA SEDONA 2006-2014","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0914","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windshield Wiper Blade Arm for KIA SEDONA 2006-2014","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0914 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4687,7 +4687,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg8d_evgYogOHTngcwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg8d_evgYo2OvWoQMwuBc4uBc.jpg", "/products/ABUIABACGAAg8d_evgYo6K-4ggQwuBc4uBc.jpg", "/products/ABUIABACGAAg8t_evgYotIeklQIwuBc4uBc.jpg", "/products/ABUIABACGAAg8t_evgYoteT-2AYwuBc4uBc.jpg", "/products/ABUIABACGAAg8t_evgYoiouewwQwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW0246","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windshield Wiper Blade Arm for LEXUS CT200H 2011-2017","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0246","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windshield Wiper Blade Arm for LEXUS CT200H 2011-2017","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0246 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4703,7 +4703,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgl4efvgYo09TS7wUwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgl4efvgYo8PTKyQMwuBc4uBc.jpg", "/products/ABUIABACGAAgl4efvgYomNbdrQYwuBc4uBc.jpg", "/products/ABUIABACGAAgl4efvgYoueTa2wIwuBc4uBc.jpg", "/products/ABUIABACGAAgl4efvgYok5Dq6wcwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW0606","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windshield Wiper Blade Arm for Mazda CX-7 2009","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0606","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windshield Wiper Blade Arm for Mazda CX-7 2009","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0606 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4719,7 +4719,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgi9mevgYoiqfnhAEwuBc4uBc.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW1105","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windshield Wiper Blade Arm for PEUGEOT 807 2002-2014","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW1105","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windshield Wiper Blade Arm for PEUGEOT 807 2002-2014","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["rear wiper arm", "rear wiper blade kit", "natural rubber wiper", "304H steel wiper", "all-season rear wiper", "wiper size lookup", "rear windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW1105 for reliable, streak-free wiping performance", "Built for rear wiper combo applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4735,7 +4735,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAggZWfvgYouu-Y0gMwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAggZWfvgYoiMbL_wUwuBc4uBc.jpg", "/products/ABUIABACGAAggZWfvgYooratjAUwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW2403","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windshield Wiper Blade Arm for Renault Scenic RX4 2000-2005","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW2403","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windshield Wiper Blade Arm for Renault Scenic RX4 2000-2005","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW2403 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4751,7 +4751,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAggMKVvgYo-MHNNDC4Fzi4Fw.jpg",
     gallery: ["/products/ABUIABACGAAggcKVvgYo0K77lgIwuBc4uBc.jpg", "/products/ABUIABACGAAggcKVvgYonOCrgQQwuBc4uBc.jpg", "/products/ABUIABACGAAggcKVvgYo7KrVyQYwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW4504","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windshield Wiper Blade Arm for Saab 9-7X 2005-2009","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW4504","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windshield Wiper Blade Arm for Saab 9-7X 2005-2009","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW4504 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4767,7 +4767,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg09SVvgYolJ7n9AIwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg1NSVvgYohI6oowUwuBc4uBc.jpg", "/products/ABUIABACGAAg1NSVvgYoqLjdyQUwuBc4uBc.jpg", "/products/ABUIABACGAAg1NSVvgYopN3h0AQwuBc4uBc.jpg", "/products/ABUIABACGAAg1NSVvgYo0ObI1wYwuBc4uBc.jpg", "/products/ABUIABACGAAg1NSVvgYogJul3gMwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW0205","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windshield Wiper Blade Arm for TOYOTA RAV4 2000-2005","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0205","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windshield Wiper Blade Arm for TOYOTA RAV4 2000-2005","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0205 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4783,7 +4783,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg346VvgYo7Zn1vAMwuBc4uBc.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW2305","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windshield Wiper Blade Arm for Volvo V50 2004-2012","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW2305","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windshield Wiper Blade Arm for Volvo V50 2004-2012","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW2305 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4799,7 +4799,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgnYCVvgYo7Mqo0wQwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgnYCVvgYooPfTwAEwuBc4uBc.jpg", "/products/ABUIABACGAAgnYCVvgYo8dO3RTC4Fzi4Fw.jpg", "/products/ABUIABACGAAgnYCVvgYol8DolAMwuBc4uBc.jpg", "/products/ABUIABACGAAgnYCVvgYonpnfhAcwuBc4uBc.jpg", "/products/ABUIABACGAAgnYCVvgYorMn7wwIwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW2312","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windshield Wiper Blade Arm for VOLVO XC60 2011-","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW2312","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windshield Wiper Blade Arm for VOLVO XC60 2011-","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW2312 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4815,7 +4815,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAguYKVvgYopeHr2wMwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAguYKVvgYosZag3QEwuBc4uBc.jpg", "/products/ABUIABACGAAguYKVvgYosOeJYTC4Fzi4Fw.jpg", "/products/ABUIABACGAAguYKVvgYopLCd4gIwuBc4uBc.jpg", "/products/ABUIABACGAAguYKVvgYo1aD-wwMwuBc4uBc.jpg", "/products/ABUIABACGAAguYKVvgYottLDvQUwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW2303","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windshield Wiper Blade Arm for VOLVO XC90 DESIGN EUROPE 2007","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW2303","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windshield Wiper Blade Arm for VOLVO XC90 DESIGN EUROPE 2007","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW2303 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4831,7 +4831,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgz-6evgYoyqSj9gIwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgz-6evgYo0PnK7wQwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW0317","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windshield Wiper Blade Arm Set for Honda CRV 2002-2006","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0317","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windshield Wiper Blade Arm Set for Honda CRV 2002-2006","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0317 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4847,7 +4847,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgxYiVvgYo_uby0AYwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgxYiVvgYo95_wxgcwuBc4uBc.jpg", "/products/ABUIABACGAAgxYiVvgYowO_k1AQwuBc4uBc.jpg", "/products/ABUIABACGAAgxYiVvgYogJzZgwcwuBc4uBc.jpg", "/products/ABUIABACGAAgxYiVvgYom_iayAYwuBc4uBc.jpg", "/products/ABUIABACGAAgxYiVvgYomuGChQIwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW2307","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windshield Wiper Combination for VOLVO V70 2000-2004","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW2307","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Windshield Wiper Combination for VOLVO V70 2000-2004","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW2307 for reliable, streak-free wiping performance", "Built for rear wiper combo applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4863,7 +4863,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgnoGfvgYogOrWiwEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgnoGfvgYouo_ZiwUwuBc4uBc.jpg", "/products/ABUIABACGAAgnoGfvgYo04ibwQIwuBc4uBc.jpg", "/products/ABUIABACGAAgnoGfvgYosu_pzwUwuBc4uBc.jpg", "/products/ABUIABACGAAgnoGfvgYo9I23DDC4Fzi4Fw.jpg", "/products/ABUIABACGAAgnoGfvgYo_93B1QQwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW0216","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Wiper Arm Blade for Lexus RX450H 2009 - 2015","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0216","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Wiper Arm Blade for Lexus RX450H 2009 - 2015","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0216 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4879,7 +4879,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgq-CevgYowOru-AEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgq-CevgYo3PHg2gcwuBc4uBc.jpg", "/products/ABUIABACGAAgq-CevgYouM7R9AQwuBc4uBc.jpg", "/products/ABUIABACGAAgq-CevgYo8LOp4wQwuBc4uBc.jpg", "/products/ABUIABACGAAgq-CevgYo-JynzAQwuBc4uBc.jpg", "/products/ABUIABACGAAgq-CevgYo0OORswIwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW0322","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Wiper Blade and Arm for HONDA ODYSSEY 2005-2010","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0322","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Wiper Blade and Arm for HONDA ODYSSEY 2005-2010","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0322 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4896,7 +4896,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgi5SfvgYoo7Xl0wMwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgi5SfvgYossKF6wMwuBc4uBc.jpg", "/products/ABUIABACGAAgi5SfvgYoyOeS2AEwuBc4uBc.jpg", "/products/ABUIABACGAAgi5SfvgYokI-BmAUwuBc4uBc.jpg", "/products/ABUIABACGAAgi5SfvgYo_ZzV6QIwuBc4uBc.jpg", "/products/ABUIABACGAAgi5SfvgYo9tGa0QYwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW1601","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Wiper Blade Arm for Buick Excelle XT 2010-2017","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW1601","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Wiper Blade Arm for Buick Excelle XT 2010-2017","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW1601 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4912,7 +4912,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg_byevgYovIGEpQEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg_byevgYogPKh6gcwuBc4uBc.jpg", "/products/ABUIABACGAAg_byevgYopPXpmAYwuBc4uBc.jpg", "/products/ABUIABACGAAg_byevgYolpm88wQwuBc4uBc.jpg", "/products/ABUIABACGAAg_byevgYo1s-msQYwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW3503","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Wiper Blade Arm for DODGE JOURNEY JCUV 2009-2013","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW3503","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Wiper Blade Arm for DODGE JOURNEY JCUV 2009-2013","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW3503 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4928,7 +4928,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg3q_VvgYooPuPJjC4Fzi4Fw.jpg",
     gallery: ["/products/ABUIABACGAAg3a_VvgYo6LLa8QcwuBc4uBc.jpg", "/products/ABUIABACGAAg3q_VvgYolpHt_gMwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW2301","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Wiper Blade Arm for Volvo XC90 2002-2006","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW2301","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Wiper Blade Arm for Volvo XC90 2002-2006","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW2301 for reliable, streak-free wiping performance", "Built for rear wiper combo applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4944,7 +4944,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg0PaevgYolN66vQEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg0PaevgYo5MqF4gIwzAg4zAg.jpg", "/products/ABUIABACGAAg0PaevgYoqPGn7wEwuBc4uBc.jpg", "/products/ABUIABACGAAg0PaevgYouJm6JTC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW1802","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Wiper Blade Arm Set for VW Multivan T5 2003 - 2015","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW1802","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Wiper Blade Arm Set for VW Multivan T5 2003 - 2015","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW1802 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4960,7 +4960,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgx6GVvgYo_JD0kAEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgx6GVvgYo3YnHuQUwuBc4uBc.jpg", "/products/ABUIABACGAAgx6GVvgYotO-6_AEwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW0307","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Wiper Blades and Arm Set for Honda Pilot 2009-2015","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0307","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Rear Wiper Blades and Arm Set for Honda Pilot 2009-2015","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0307 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4976,7 +4976,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAglrPvvQYom53pxwEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAglrPvvQYooMHP7AEwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYohP_C3gIwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo9K_8ywUwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo1K367wcwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo_L-DYTC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Soft Special 26+14 Wiper Blades for Chevrolet Trax 2012-2016","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Soft Special 26+14 Wiper Blades for Chevrolet Trax 2012-2016","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wiper blade", "frameless wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-829 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -4992,7 +4992,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAglrPvvQYom53pxwEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAglrPvvQYohP_C3gIwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo9K_8ywUwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo_L-DYTC4Fzi4Fw.jpg", "/products/ABUIABACGAAglrPvvQYo1K367wcwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYooMHP7AEwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Soft Special Windshield Wiper Blades for VW Tiguan Touran","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Soft Special Windshield Wiper Blades for VW Tiguan Touran","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wiper blade", "wholesale"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-829 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -5008,7 +5008,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgxK7vvQYojtehiQcwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgxK7vvQYotMC_IzC4Fzi4Fw.jpg", "/products/ABUIABACGAAgxK7vvQYoltei1wEwuBc4uBc.jpg", "/products/ABUIABACGAAgxK7vvQYosKPrqQQwuBc4uBc.jpg", "/products/ABUIABACGAAgw67vvQYozurnogYwuBc4uBc.jpg", "/products/ABUIABACGAAgxK7vvQYogNPbajC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-825","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Special Front Windshield 24+19 Inches Soft Wiper Blades for Jagua","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-825","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Special Front Windshield 24+19 Inches Soft Wiper Blades for Jagua","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["sepcial wiper blade wholesale", "wiper blade", "frameless wiper blade", "wholesale wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-825 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -5024,7 +5024,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgxrCEvgYoovikxwEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgxrCEvgYogP3jkgEwuBc4uBc.jpg", "/products/ABUIABACGAAgxrCEvgYo7LLaoAYwuBc4uBc.jpg", "/products/ABUIABACGAAgxrCEvgYo0JbSxQcwuBc4uBc.jpg", "/products/ABUIABACGAAgxrCEvgYooPrSGTC4Fzi4Fw.jpg", "/products/ABUIABACGAAgxrCEvgYouJPXuQYwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-902","Category":"Bus Truck Wiper","Size":"28-32\"","Color":"Black","Fitment":"Wholesale Car External Accessories Truck Wiper Blade Wig Piece Rubber Refill Metal LELION Car Access","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-902","Category":"Bus Truck Wiper","Size":"28-32\"","Color":"Black","Fitment":"Wholesale Car External Accessories Truck Wiper Blade Wig Piece Rubber Refill Metal LELION Car Access","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Truck Wiper Blade", "car wiper blade", "windscreen wiper", "wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Commercial Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-902 for reliable, streak-free wiping performance", "Built for bus truck wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -5040,7 +5040,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgkM6VvgYokcn8djC4Fzi4Fw.jpg",
     gallery: ["/products/ABUIABACGAAgkM6VvgYo8O7s0gQw6Ac46Ac.jpg", "/products/ABUIABACGAAgkM6VvgYo56z8mwcwuBc4uBc.jpg", "/products/ABUIABACGAAgkM6VvgYouuClswEwuBc4uBc.jpg", "/products/ABUIABACGAAgkM6VvgYoj-ru-QcwuBc4uBc.jpg", "/products/ABUIABACGAAgkM6VvgYooIe79AQwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW2005","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Windshield Wiper Arm Blade for BMW X1 E84 2010-2015","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW2005","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Windshield Wiper Arm Blade for BMW X1 E84 2010-2015","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW2005 for reliable, streak-free wiping performance", "Built for wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -5056,7 +5056,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAggJaVvgYosYC4gwQwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAggJaVvgYo4KyvWjC4Fzi4Fw.jpg", "/products/ABUIABACGAAggJaVvgYouJLtYTC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW1914","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Windshield Wiper Blade and Arm for Chevrolet tracker 2021","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW1914","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Windshield Wiper Blade and Arm for Chevrolet tracker 2021","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW1914 for reliable, streak-free wiping performance", "Built for wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -5072,7 +5072,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgxK7vvQYojtehiQcwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgxK7vvQYosKPrqQQwuBc4uBc.jpg", "/products/ABUIABACGAAgxK7vvQYoltei1wEwuBc4uBc.jpg", "/products/ABUIABACGAAgw67vvQYozurnogYwuBc4uBc.jpg", "/products/ABUIABACGAAgxK7vvQYotMC_IzC4Fzi4Fw.jpg", "/products/ABUIABACGAAgxK7vvQYogNPbajC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-825","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Wiper Blade Front Windshield Soft Wipers for VOLVO XC90 S80","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-825","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories Wiper Blade Front Windshield Soft Wipers for VOLVO XC90 S80","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["sepcial wiper blade wholesale", "wiper blade", "frameless wiper blade", "wholesale wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-825 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -5088,7 +5088,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgv5CfvgYo_I3K6wUwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgv5CfvgYokc2-6gcwuBc4uBc.jpg", "/products/ABUIABACGAAgv5CfvgYo9NuRmwQwuBc4uBc.jpg", "/products/ABUIABACGAAgv5CfvgYokbnViwUwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW0306","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories: Rear Windshield Wiper Blade Arm for Honda Odyssey 2005 - 2010","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0306","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Car External Accessories: Rear Windshield Wiper Blade Arm for Honda Odyssey 2005 - 2010","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0306 for reliable, streak-free wiping performance", "Built for rear wiper combo applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -5104,7 +5104,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgxK7vvQYojtehiQcwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgxK7vvQYotMC_IzC4Fzi4Fw.jpg", "/products/ABUIABACGAAgxK7vvQYogNPbajC4Fzi4Fw.jpg", "/products/ABUIABACGAAgxK7vvQYoltei1wEwuBc4uBc.jpg", "/products/ABUIABACGAAgxK7vvQYosKPrqQQwuBc4uBc.jpg", "/products/ABUIABACGAAgw67vvQYozurnogYwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-825","Category":"Specific Fit","Size":"28+26\"","Color":"Black","Fitment":"Wholesale Car Front Windshield 28/26 Inches Wiper Blades for PEUGEOT 307 2004-2008","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-825","Category":"Specific Fit","Size":"28+26\"","Color":"Black","Fitment":"Wholesale Car Front Windshield 28/26 Inches Wiper Blades for PEUGEOT 307 2004-2008","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Wholesale Car Front Windshield 28/26 Inches Wiper Blades for PEUGEOT 307 2004-2008", "soft wiper blade", "special wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-825 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -5120,7 +5120,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg1qHwvQYo0KCQ6QQwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg1aHwvQYoypLFyAIwuBc4uBc.jpg", "/products/ABUIABACGAAg1aHwvQYo95CfigUwuBc4uBc.jpg", "/products/ABUIABACGAAg1aHwvQYovdHt-gYwuBc4uBc.jpg", "/products/ABUIABACGAAg1aHwvQYooKyrkAMwuBc4uBc.jpg", "/products/ABUIABACGAAg1aHwvQYo6L33wAUwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-703","Category":"Specific Fit Frame Wiper","Size":"24+18\"","Color":"Black","Fitment":"Wholesale Car Front Windshield Special 24+18 Inch Wiper Blade for IKCO SAMMAND 2001","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-703","Category":"Specific Fit Frame Wiper","Size":"24+18\"","Color":"Black","Fitment":"Wholesale Car Front Windshield Special 24+18 Inch Wiper Blade for IKCO SAMMAND 2001","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Wholesale Car Front Windshield Special 24+18 Inch Wiper Blade for IKCO SAMMAND 2001", "frame wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-703 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -5136,7 +5136,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg9rHvvQYo0ZXE8AMwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg9rHvvQYo8s_HoQQwuBc4uBc.jpg", "/products/ABUIABACGAAg9rHvvQYonJ2ZwAYwuBc4uBc.jpg", "/products/ABUIABACGAAg9rHvvQYossnn7gEwuBc4uBc.jpg", "/products/ABUIABACGAAg9rHvvQYo09PRkAUwuBc4uBc.jpg", "/products/ABUIABACGAAg9rHvvQYo-M6xKzC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-827","Category":"Specific Fit","Size":"24+18\"","Color":"Black","Fitment":"Wholesale clean Car Front Windshield 24+18 Inch Wiper Blades Fit for Renault MEGANE IV 2016-2020","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-827","Category":"Specific Fit","Size":"24+18\"","Color":"Black","Fitment":"Wholesale clean Car Front Windshield 24+18 Inch Wiper Blades Fit for Renault MEGANE IV 2016-2020","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Renault MEGANE IV，car wiper blade", "windscreen wiper", "wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-827 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -5152,7 +5152,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgtLfvvQYojsib8wEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgtLfvvQYotoSE8wYwuBc4uBc.jpg", "/products/ABUIABACGAAgtLfvvQYoyOvGrQUwuBc4uBc.jpg", "/products/ABUIABACGAAgtLfvvQYo6JrCxgMwuBc4uBc.jpg", "/products/ABUIABACGAAgtLfvvQYonvHwZzC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-841","Category":"Specific Fit","Size":"26+18”","Color":"Black","Fitment":"Wholesale Front Cleaning Windshield 18+26 Inches Soft Wiper Bades for VW GOLF VII 7 Mk7","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-841","Category":"Specific Fit","Size":"26+18”","Color":"Black","Fitment":"Wholesale Front Cleaning Windshield 18+26 Inches Soft Wiper Bades for VW GOLF VII 7 Mk7","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Wholesale Front Cleaning Windshield 18+26 Inches Soft Wiper Bades for VW GOLF VII 7 Mk7"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-841 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -5168,7 +5168,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgnbjvvQYot4zH1AEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgnbjvvQYo9K_QlAMwuBc4uBc.jpg", "/products/ABUIABACGAAgnbjvvQYo9PDcLTC4Fzi4Fw.jpg", "/products/ABUIABACGAAgnbjvvQYow7WjiwMwuBc4uBc.jpg", "/products/ABUIABACGAAgnbjvvQYowvS-2AQwuBc4uBc.jpg", "/products/ABUIABACGAAgnLjvvQYoxJHZkwQw6Ac46Ac.jpg"],
-    technicalDetails: {"Product Model":"BW-N","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Front Windshield 22+16 Inches Soft Wiper Blades for Renault Dacia Dokker 2016-2020","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-N","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Front Windshield 22+16 Inches Soft Wiper Blades for Renault Dacia Dokker 2016-2020","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Wholesale Front Windshield 22+16 Inches Soft Wiper Blades for Renault Dacia Dokker 2016-2020"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-N for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -5184,7 +5184,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgx7XvvQYoxMfRlgcwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgx7XvvQYowNKyiwIwuBc4uBc.jpg", "/products/ABUIABACGAAgx7XvvQYomv6g_wYwuBc4uBc.jpg", "/products/ABUIABACGAAgx7XvvQYo-LC-GDC4Fzi4Fw.jpg", "/products/ABUIABACGAAgyLXvvQYohI7WqAQwuBc4uBc.jpg", "/products/ABUIABACGAAgyLXvvQYo38vTvAYwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-831","Category":"Specific Fit","Size":"24+16\"","Color":"Black","Fitment":"Wholesale Front windshield 24+16 inches Wiper Blade Fit for Audi A1 MK1 2010-2017","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-831","Category":"Specific Fit","Size":"24+16\"","Color":"Black","Fitment":"Wholesale Front windshield 24+16 inches Wiper Blade Fit for Audi A1 MK1 2010-2017","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Wholesale Front windshield 24+16 inches Wiper Blade Fit for Audi A1 MK1 2010-2017"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-831 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -5200,7 +5200,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAghrbvvQYo5v77rwIwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAghrbvvQYo1ITM8AMwuBc4uBc.jpg", "/products/ABUIABACGAAghrbvvQYo-seEcjC4Fzi4Fw.jpg", "/products/ABUIABACGAAghrbvvQYoiriNhwMwuBc4uBc.jpg", "/products/ABUIABACGAAghrbvvQYorreewAMwuBc4uBc.jpg", "/products/ABUIABACGAAghrbvvQYotL2q-wIwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-835","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Front Windshield 24+21Inches Soft Wiper Blades for VW Phaeton 2002-2013","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-835","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Front Windshield 24+21Inches Soft Wiper Blades for VW Phaeton 2002-2013","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Wholesale Front Windshield 24+21Inches Soft Wiper Blades for VW Phaeton 2002-2013", "special wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-835 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -5216,7 +5216,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAglrPvvQYom53pxwEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAglrPvvQYooMHP7AEwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYohP_C3gIwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo9K_8ywUwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo1K367wcwuBc4uBc.jpg", "/products/ABUIABACGAAglrPvvQYo_L-DYTC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Front Windshield Wiper 24+20 Inch Soft Wiper Blades for bmw X5 E70 2012-2013","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-829","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Front Windshield Wiper 24+20 Inch Soft Wiper Blades for bmw X5 E70 2012-2013","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Wholesale Front Windshield Wiper 24+20 Inch Soft Wiper Blades for bmw X5 E70 2012-2013"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-829 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -5232,7 +5232,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABAEGAAgsc_SwwYozKjR-Qcw6Ac46Ac.jpg",
     gallery: ["/products/ABUIABAEGAAgsM_SwwYo2qzvzwEw6Ac46Ac.jpg", "/products/ABUIABACGAAgsc_SwwYosOzJsQcw6Ac46Ac.jpg", "/products/ABUIABACGAAgsM_SwwYo-9u_vQQw6Ac46Ac.jpg", "/products/ABUIABACGAAgsM_SwwYoy-TYBjDoBzjoBw.jpg"],
-    technicalDetails: {"Product Model":"BW-018","Category":"Wiper Arm","Size":"Standard","Color":"Black","Fitment":"Wholesale Mercedes Benz part 251-820-01-44 Front Arm","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-018","Category":"Wiper Arm","Size":"Standard","Color":"Black","Fitment":"Wholesale Mercedes Benz part 251-820-01-44 Front Arm","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Mercedes-Benz", "Wiper Arm", "251-820-01-44", "R-Class", "R320", "R350", "R500", "R63 AMG", "Genuine", "Replacement"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-018 for reliable, streak-free wiping performance", "Built for wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -5248,7 +5248,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABAEGAAgi96SwwYonP3oaTDoBzjoBw.jpg",
     gallery: ["/products/ABUIABAEGAAgid6SwwYovLmI-Acw6Ac46Ac.jpg", "/products/ABUIABACGAAgid6SwwYonveG5wEw6Ac46Ac.jpg", "/products/ABUIABACGAAgi96SwwYozoq89QYw6Ac46Ac.jpg"],
-    technicalDetails: {"Product Model":"BW-019","Category":"Wiper Arm","Size":"Standard","Color":"Black","Fitment":"Wholesale Mercedes-Benz parts 221-820-02-44 Wiper Arm","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-019","Category":"Wiper Arm","Size":"Standard","Color":"Black","Fitment":"Wholesale Mercedes-Benz parts 221-820-02-44 Wiper Arm","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Mercedes-Benz", "wiper arm", "221-820-02-44", "CL-Class", "S-Class", "CL550", "CL600", "CL63 AMG", "CL65 AMG", "S350"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-019 for reliable, streak-free wiping performance", "Built for wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -5264,7 +5264,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg28efvgYosa6SvwMwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg28efvgYo8P2ZiwQwuBc4uBc.jpg", "/products/ABUIABACGAAg28efvgYo57KTqQMwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW2419","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Rear Windscreen Wiper Blade Arm for Renault Twingo MK1 1993 - 2007","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW2419","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Rear Windscreen Wiper Blade Arm for Renault Twingo MK1 1993 - 2007","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW2419 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -5280,7 +5280,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgt-KevgYo5u7NxAMwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgt-KevgYoqc-WjgIwuBc4uBc.jpg", "/products/ABUIABACGAAgt-KevgYojO3OigYwuBc4uBc.jpg", "/products/ABUIABACGAAgt-KevgYozK7r-gQwuBc4uBc.jpg", "/products/ABUIABACGAAgt-KevgYo8MiGzQEwuBc4uBc.jpg", "/products/ABUIABACGAAgt-KevgYo0uXO1AcwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW0505","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Rear Windshield Frame Wiper Blade Arm Combination for NISSAN QASHQAI 2008-2013","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0505","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Rear Windshield Frame Wiper Blade Arm Combination for NISSAN QASHQAI 2008-2013","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0505 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -5296,7 +5296,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgk5OVvgYoqurX_AIw6Ac46Ac.jpg",
     gallery: ["/products/ABUIABACGAAglJOVvgYo_ISwigQw6Ac46Ac.jpg", "/products/ABUIABACGAAglJOVvgYoytHBsQYw6Ac46Ac.jpg", "/products/ABUIABACGAAglJOVvgYo-ozDjAMw6Ac46Ac.jpg", "/products/ABUIABACGAAglJOVvgYogJP5kAQw6Ac46Ac.jpg", "/products/ABUIABACGAAglJOVvgYo_Zr_-AUw6Ac46Ac.jpg"],
-    technicalDetails: {"Product Model":"BW0816","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Rear Windshield Wiper Arm Combination for HYUNDAI New Santa Fe 2013-2017","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0816","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Rear Windshield Wiper Arm Combination for HYUNDAI New Santa Fe 2013-2017","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0816 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -5312,7 +5312,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgpPyevgYo-ZWWtQMwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgpfyevgYotPD19gQwuBc4uBc.jpg", "/products/ABUIABACGAAgpfyevgYoxJv6mwUwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW0204","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Rear Windshield Wiper Blade Arm Combination for Lexus RX 2004 - 2008","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0204","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Rear Windshield Wiper Blade Arm Combination for Lexus RX 2004 - 2008","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0204 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -5328,7 +5328,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg5sWevgYo8LOE_wEwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg5sWevgYo95nfAjC4Fzi4Fw.jpg", "/products/ABUIABACGAAg5sWevgYot7vqtQMwuBc4uBc.jpg", "/products/ABUIABACGAAg5sWevgYo68fBhgcwuBc4uBc.jpg", "/products/ABUIABACGAAg5sWevgYokIHubDC4Fzi4Fw.jpg"],
-    technicalDetails: {"Product Model":"BW2704","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Rear Windshield Wiper Blade Arm for LAND ROVER RANGE ROVER 2006-2013","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW2704","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Rear Windshield Wiper Blade Arm for LAND ROVER RANGE ROVER 2006-2013","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW2704 for reliable, streak-free wiping performance", "Built for rear wiper arm applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -5344,7 +5344,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAguu-lwAYou6_ioAYwgAg4gAg.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW0247P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Wholesale Rear Windshield Wiper Blades for Toyota Highlander 2001-2003","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0247P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Wholesale Rear Windshield Wiper Blades for Toyota Highlander 2001-2003","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Blades", "Wholesale Rear Windshield Wiper Blades for Toyota Highlander 2001-2003"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0247P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -5360,7 +5360,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAg65aUvgYo-qDwzwMwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAg65aUvgYomOrD5gEwuBc4uBc.jpg", "/products/ABUIABACGAAg65aUvgYomNr9tQYwuBc4uBc.jpg", "/products/ABUIABACGAAg65aUvgYo7r6nnAcwuBc4uBc.jpg", "/products/ABUIABACGAAg65aUvgYogNTu2wUwuBc4uBc.jpg", "/products/ABUIABACGAAg65aUvgYohLDTlwUwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW0719","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Windshield Car Glass Wiper Rear Wiper Blade Combination for Ford Escape 2008-2012","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW0719","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"Wholesale Windshield Car Glass Wiper Rear Wiper Blade Combination for Ford Escape 2008-2012","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW0719 for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -5376,7 +5376,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgxK7vvQYojtehiQcwuBc4uBc.jpg",
     gallery: ["/products/ABUIABACGAAgxK7vvQYotMC_IzC4Fzi4Fw.jpg", "/products/ABUIABACGAAgxK7vvQYogNPbajC4Fzi4Fw.jpg", "/products/ABUIABACGAAgxK7vvQYoltei1wEwuBc4uBc.jpg", "/products/ABUIABACGAAgxK7vvQYosKPrqQQwuBc4uBc.jpg", "/products/ABUIABACGAAgw67vvQYozurnogYwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-825","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Wiper Blades Hot Sells Front Windshield Soft Wiper Blades for Cadillac SLS 2005-2013","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW-825","Category":"Specific Fit","Size":"Standard","Color":"Black","Fitment":"Wholesale Wiper Blades Hot Sells Front Windshield Soft Wiper Blades for Cadillac SLS 2005-2013","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["special wiper blade", "wiper blade", "frameless wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-825 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
@@ -5392,7 +5392,7 @@ export const migratedProducts: Product[] = [
     tag: "Factory Direct",
     image: "/products/ABUIABACGAAgppPmwAYojODzsgIw6Ac46Ac.jpg",
     gallery: [],
-    technicalDetails: {"Product Model":"BW1740P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Windshield Rear Wiper Blade for FIAT SEDICI 2010","MOQ":"300 PCS","OEM Service":"Custom Logo / Custom Packaging Available"},
+    technicalDetails: {"Product Model":"BW1740P","Category":"Rear Wiper","Size":"Standard","Color":"Black","Fitment":"Windshield Rear Wiper Blade for FIAT SEDICI 2010","OEM Service":"Custom Logo / Custom Packaging Available"},
     keywords: ["Rear Windshield Wiper Balde", "Windshield Rear Wiper Blade for FIAT SEDICI 2010", "Rear wiper blade"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW1740P for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]

@@ -27,7 +27,19 @@ export default function ProductDetail() {
   const productName = productTrans?.name || product?.name || "";
   const productDesc = productTrans?.desc || product?.desc || "";
   const productLongDesc = productTrans?.longDesc || product?.longDesc || "";
-  const productTechnicalDetails = productTrans?.technicalDetails || product?.technicalDetails || {};
+  // MOQ is derived from product.moq, never read from technicalDetails: the two
+  // used to disagree (300 PCS in the table, 500 in the headline). The row is
+  // re-inserted at its original place — before HS Code when present, otherwise
+  // at index 5, which is where every migrated product carried it.
+  const productTechnicalDetails = (() => {
+    const source = productTrans?.technicalDetails || product?.technicalDetails || {};
+    const entries = Object.entries(source).filter(([key]) => key !== "MOQ");
+    if (!product) return Object.fromEntries(entries);
+    const hsIndex = entries.findIndex(([key]) => key === "HS Code");
+    const insertAt = hsIndex >= 0 ? hsIndex : Math.min(5, entries.length);
+    entries.splice(insertAt, 0, ["MOQ", product.moq]);
+    return Object.fromEntries(entries);
+  })();
   const productSpecs = productTrans?.specs || product?.specs || [];
   const productFeatures = productTrans?.features || product?.features || [];
   const images = (product?.gallery && product.gallery.length > 0) ? [product.image, ...product.gallery] : [product?.image || ""];

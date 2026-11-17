@@ -28,7 +28,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "24+18\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas frontal automático para PEUGEOT 308 2014-2020",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -56,7 +55,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "24+18\"",
         "Цвет": "Черный",
         "Применяемость": "Щетка стеклоочистителя переднего автомобильного окна для PEUGEOT 308 2014-2020",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -84,7 +82,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "24+18\"",
         "Couleur": "Noir",
         "Application": "Lame d'essuie-glace avant pour pare-brise automobile pour PEUGEOT 308 2014-2020",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -112,7 +109,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "24+18\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Auto Frontscheiben-Wischerblatt für PEUGEOT 308 2014-2020",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -140,7 +136,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "24+18\"",
         "颜色": "黑色",
         "适用车型": "标致308 2014-2020年款汽车前挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -170,7 +165,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero de 10\"para Honda HR-V Vezel 2013-2020",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -198,7 +192,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "10\" задняя щетка для Honda HR-V Vezel 2013-2020",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -226,7 +219,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Essuie-glace arrière 10\" pour Honda HR-V Vezel 2013-2020",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -254,7 +246,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "10\" Heckscheibenwischer für Honda HR-V Vezel 2013-2020",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -282,7 +273,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "本田HR-V Vezel 2013-2020年款10英寸后雨刷",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -312,7 +302,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "13\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero de 13\"para Audi A1 2010-2017",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -340,7 +329,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "13\"",
         "Цвет": "Черный",
         "Применяемость": "13\" задняя щетка стеклоочистителя для Audi A1 2010-2017",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -368,7 +356,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "13\"",
         "Couleur": "Noir",
         "Application": "Lame d'essuie-glace arrière 13\" pour Audi A1 2010-2017",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -396,7 +383,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "13\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "13\" Heckwischerblatt für Audi A1 2010-2017",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -424,7 +410,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "13\"",
         "颜色": "黑色",
         "适用车型": "奥迪A1 2010-2017年款13英寸后雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -454,7 +439,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "24+20\"",
         "Color": "Negro",
         "Aplicación": "Repuesto de limpiaparabrisas delantero con rociador de 24\"+20\" para Volvo V60 2019-2022",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -482,7 +466,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "24+20\"",
         "Цвет": "Черный",
         "Применяемость": "24\" 20\" омыватели замена передних стеклоочистителей для Volvo V60 2019-2022",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -510,7 +493,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "24+20\"",
         "Couleur": "Noir",
         "Application": "Essuie-glaces avant pulvérisateurs 24\" 20\" de rechange pour Volvo V60 2019-2022",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -538,7 +520,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "24+20\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "24\" 20\" Sprühdüsen-Frontscheibenwischer Ersatz für Volvo V60 2019-2022",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -566,7 +547,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "24+20\"",
         "颜色": "黑色",
         "适用车型": "沃尔沃V60 2019-2022年款前挡风玻璃喷雾器雨刷替换，24\"和20\"",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -596,7 +576,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "212-820-16-44 Brazo de limpiaparabrisas delantero para Benz CLASE E 2014-2016",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -624,7 +603,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "212-820-16-44 передний рычаг стеклоочистителя для Benz E-CLASS 2014-2016",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -652,7 +630,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Bras d'essuie-glace avant 212-820-16-44 pour Benz E-CLASS 2014-2016",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -680,7 +657,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "212-820-16-44 Frontscheibenwischerarm für Benz E-Klasse 2014-2016",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -708,7 +684,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "奔驰E级 2014-2016前挡风玻璃雨刷臂 212-820-16-44",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -738,7 +713,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "2006-2012 Mercedes-Benz 2518200244 brazo limpiaparabrisas",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -766,7 +740,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "2006-2012 Mercedes-Benz 2518200244 рычаг стеклоочистителя",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -794,7 +767,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Bras d'essuie-glace Mercedes-Benz 2518200244 2006-2012",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -822,7 +794,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "2006-2012 Mercedes-Benz 2518200244 Scheibenwischerarm",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -850,7 +821,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "2006-2012梅赛德斯-奔驰2518200244挡风玻璃雨刷臂",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -880,7 +850,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "1668200944 Brazo de limpiaparabrisas delantero para Mercedes - Benz GLE",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -908,7 +877,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "1668200944 передний рычаг стеклоочистителя для Mercedes-Benz GLE",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -936,7 +904,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Bras d'essuie-glace avant 1668200944 pour Mercedes-Benz GLE",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -964,7 +931,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "1668200944 Frontscheibenwischerarm für Mercedes-Benz GLE",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -992,7 +958,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "梅赛德斯-奔驰GLE前挡风玻璃雨刷臂1668200944",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -1022,7 +987,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "2038203244 Brazo de limpiaparabrisas delantero para Benz CLASE C 2003-2009",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -1050,7 +1014,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "2038203244 Передний рычаг стеклоочистителя для Benz C-CLASS 2003-2009",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -1078,7 +1041,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Bras d'essuie-glace avant 2038203244 pour Benz C-CLASS 2003-2009",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -1106,7 +1068,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "2038203244 Frontscheibenwischerarm für Benz C-Klasse 2003-2009",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -1134,7 +1095,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "奔驰C级 2003-2009前挡风玻璃雨刷臂2038203244",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -1164,7 +1124,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "2048201544 Limpiaparabrisas delantero LHD para Mercedes-Benz CLASE C 2009-2013",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -1192,7 +1151,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "2048201544 Переднее левое стеклоочистительное лезвие для Mercedes-Benz C-CLASS 2009-2013",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -1220,7 +1178,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Lame d'essuie-glace LHD avant 2048201544 pour Mercedes-Benz C-CLASS 2009-2013",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -1248,7 +1205,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "2048201544 Front-LHD-Wischerblatt für Mercedes-Benz C-Klasse 2009-2013",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -1276,7 +1232,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "梅赛德斯-奔驰C级 2009-2013前左舵雨刷片2048201544",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -1306,7 +1261,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "2048201744 Brazo de limpiaparabrisas delantero para Mercedes-Benz GLK Modelos 2010-2015",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -1334,7 +1288,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "2048201744 Передний рычаг стеклоочистителя для моделей Mercedes-Benz GLK 2010-2015",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -1362,7 +1315,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Bras d'essuie-glace avant 2048201744 pour Mercedes-Benz GLK modèles 2010-2015",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -1390,7 +1342,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "2048201744 Frontscheibenwischerarm für Mercedes-Benz GLK-Modelle 2010-2015",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -1418,7 +1369,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "梅赛德斯-奔驰GLK车型 2010-2015前挡风玻璃雨刷臂2048201744",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -1448,7 +1398,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "61617182459 Brazo de limpiaparabrisas izquierdo para BMW Serie 5 F10",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -1476,7 +1425,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "61617182459 Левый рычаг стеклоочистителя для BMW 5 серии F10",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -1504,7 +1452,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Bras d'essuie-glace gauche 61617182459 pour BMW Série 5 F10",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -1532,7 +1479,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "61617182459 Linker Wischerarm für BMW 5er Serie F10",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -1560,7 +1506,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "宝马5系F10左雨刷臂61617182459",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -1590,7 +1535,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "61617203156 Brazo de limpiaparabrisas delantero derecho para BMW Serie 5 528i/535i/535i xDrive/M5",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -1618,7 +1562,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "61617203156 Правый передний рычаг стеклоочистителя для BMW 5 серии 528i/535i/535i xDrive/M5",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -1646,7 +1589,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Bras d'essuie-glace avant droit 61617203156 pour BMW Série 5 528i/535i/535i xDrive/M5",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -1674,7 +1616,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "61617203156 Rechter Frontscheibenwischerarm für BMW 5er Serie 528i/535i/535i xDrive/M5",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -1702,7 +1643,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "宝马5系528i/535i/535i xDrive/M5右前挡风玻璃雨刷臂61617203156",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -1732,7 +1672,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "61619449959 Reemplazo del brazo del limpiaparabrisas delantero izquierdo del coche para BMW Serie 5 E60 E63 E64",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -1760,7 +1699,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "61619449959 Замена переднего левого рычага стеклоочистителя для BMW 5 серии E60 E63 E64",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -1788,7 +1726,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Remplacement bras d'essuie-glace avant gauche 61619449959 pour BMW Série 5 E60 E63 E64",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -1816,7 +1753,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "61619449959 Auto Front linker Wischerarm Ersatz für BMW 5er Serie E60 E63 E64",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -1844,7 +1780,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "宝马5系E60 E63 E64汽车前左雨刷臂替换61619449959",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -1874,7 +1809,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Goma para escobillas de limpiaparabrisas de todo tipo",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -1902,7 +1836,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Все виды резинок для дворников",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -1930,7 +1863,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Toutes sortes de lames d'essuie-glace en caoutchouc",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -1958,7 +1890,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Alle Arten von Scheibenwischerblatt-Gummi",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -1986,7 +1917,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "各种挡风玻璃雨刷胶条",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -2016,7 +1946,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Autopartes 1648200444 Brazo de limpiaparabrisas delantero para Benz CLASE M W164 2005-2011",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -2044,7 +1973,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Автозапчасти 1648200444 Передний рычаг дворника для Benz M-CLASS W164 2005-2011",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -2072,7 +2000,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Pièces automobiles 1648200444 Bras d'essuie-glace avant pour Benz M-CLASS W164 2005-2011",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -2100,7 +2027,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Autoteile 1648200444 Frontscheibenwischerarm für Benz M-Klasse W164 2005-2011",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -2128,7 +2054,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "奔驰M级 W164 2005-2011年款前雨刷臂汽车配件1648200444",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -2158,7 +2083,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "22+18\"",
         "Color": "Negro",
         "Aplicación": "Juego de escobillas para limpiaparabrisas delantero BMW Serie 1 F20 F21 (se adapta a 2011-2019)",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -2186,7 +2110,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "22+18\"",
         "Цвет": "Черный",
         "Применяемость": "Комплект передних дворников BMW 1 серии F20 F21 (подходит для 2011-2019)",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -2214,7 +2137,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "22+18\"",
         "Couleur": "Noir",
         "Application": "Set de lames d'essuie-glace avant BMW Série 1 F20 F21 (Convient pour 2011-2019)",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -2242,7 +2164,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "22+18\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "BMW 1er Serie F20 F21 Frontwischerblatt-Set (passt 2011-2019)",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -2270,7 +2191,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "22+18\"",
         "颜色": "黑色",
         "适用车型": "宝马1系F20 F21前雨刷片套装（适用2011-2019年）",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -2300,7 +2220,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Brazo de limpiaparabrisas delantero BMW LHD | Piezas de repuesto E60/E63",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -2328,7 +2247,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Передний левосторонний рычаг стеклоочистителя BMW | Запчасти для замены E60/E63",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -2356,7 +2274,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Bras d'essuie-glace avant LHD BMW | Pièces de rechange E60/E63",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -2384,7 +2301,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "BMW Front LHD Frontscheibenwischerarm | E60/E63 Ersatzteile",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -2412,7 +2328,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "宝马前左舵挡风玻璃雨刷臂 | E60/E63替换零件",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -2445,7 +2360,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "14\"- 28\"",
         "Color": "Negro",
         "Aplicación": "BW-867 Limpiaparabrisas Multifuncional Híbrido Premium | LELION",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -2473,7 +2387,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "14\"- 28\"",
         "Цвет": "Черный",
         "Применяемость": "Щетка стеклоочистителя BW-867 премиум-гибридная многофункциональная | LELION",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -2501,7 +2414,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "14\"- 28\"",
         "Couleur": "Noir",
         "Application": "Lame d'essuie-glace hybride multifonction haut de gamme BW-867 | LELION",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -2529,7 +2441,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "14\"- 28\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "BW-867 Premium Hybrid Multifunktionales Wischerblatt | LELION",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -2557,7 +2468,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "14\"- 28\"",
         "颜色": "黑色",
         "适用车型": "BW-867高级混合多功能雨刷片 | LELION",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -2587,7 +2497,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "22\"",
         "Color": "Negro",
         "Aplicación": "BW-903-1 Limpiaparabrisas Bus para Prevost H3-45 | Heavy Duty Factory",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -2615,7 +2524,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "22\"",
         "Цвет": "Черный",
         "Применяемость": "Щетка стеклоочистителя BW-903-1 для автобуса Prevost H3-45 | тяжелый заводской вариант",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -2643,7 +2551,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "22\"",
         "Couleur": "Noir",
         "Application": "Lame d'essuie-glace pour bus BW-903-1 pour Prevost H3-45 | Usine lourde",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -2671,7 +2578,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "22\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "BW-903-1 Bus-Wischerblatt für Prevost H3-45 | Schwerlast Werk",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -2699,7 +2605,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "22\"",
         "颜色": "黑色",
         "适用车型": "BW-903-1普雷沃斯特H3-45公交车雨刷片 | 重型工厂",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -2729,7 +2634,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios para automóviles 988112V000 Brazo de la hoja del limpiaparabrisas trasero para Hyundai Veloster 2012 - 2015",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -2757,7 +2661,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Автозапчасти 988112V000 рычаг заднего стеклоочистителя для Hyundai Veloster 2012 - 2015",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -2785,7 +2688,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires Auto 988112V000 Bras de Lame d'Essuie-Glace Arrière pour Hyundai Veloster 2012 - 2015",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -2813,7 +2715,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Autozubehör 988112V000 Heckscheibenwischerarm für Hyundai Veloster 2012 - 2015",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -2841,7 +2742,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "汽车配件 988112V000 现代 Veloster 2012 - 2015 后挡风玻璃雨刮臂",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -2871,7 +2771,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Combinación de accesorios de limpiaparabrisas para Chevrolet Spark 2010-2016",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -2899,7 +2798,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Автозапчасти комплект стеклоочистителей для Chevrolet Spark 2010-2016",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -2927,7 +2825,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires Auto Combinaison d'Essuie-Glaces pour Chevrolet Spark 2010-2016",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -2955,7 +2852,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Autozubehör Scheibenwischer-Kombination für Chevrolet Spark 2010-2016",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -2983,7 +2879,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "汽车配件 起亚雨刮组合适用于雪佛兰 Spark 2010-2016",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -3013,7 +2908,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles 2518200144 Brazo de limpiaparabrisas delantero de acero inoxidable para Benz R - CLASE",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -3041,7 +2935,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Внешние автомобильные аксессуары 2518200144 передний рычаг стеклоочистителя из нержавеющей стали для Benz R - CLASS",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -3069,7 +2962,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires Externes Auto 2518200144 Bras d'Essuie-Glace Avant en Acier Inoxydable pour Benz R - CLASS",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -3097,7 +2989,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Externe Autozubehör 2518200144 Edelstahl-Frontwischerarm für Benz R-Klasse",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -3125,7 +3016,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "汽车外部配件 2518200144 奔驰 R级不锈钢前雨刮臂",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -3155,7 +3045,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "26+19\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas delantero para Ford Mondeo 2007-2014",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -3183,7 +3072,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "26+19\"",
         "Цвет": "Черный",
         "Применяемость": "Специальные щетки стеклоочистителя для переднего стекла автомобиля Ford Mondeo 2007-2014",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -3211,7 +3099,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "26+19\"",
         "Couleur": "Noir",
         "Application": "Essuie-Glaces Spécial Pare-Brise Avant pour Ford Mondeo 2007-2014",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -3239,7 +3126,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "26+19\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Spezielle Frontscheibenwischer für Ford Mondeo 2007-2014",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -3267,7 +3153,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "26+19\"",
         "颜色": "黑色",
         "适用车型": "汽车前挡风玻璃专用雨刮片 适用于福特 Mondeo 2007-2014",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -3297,7 +3182,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Parabrisas delantero de coche 26+16 pulgadas Hojas de limpiaparabrisas suaves para PEUGEOT 2012 - 2017",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -3325,7 +3209,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Мягкие щетки стеклоочистителя 26 и 16 дюймов для переднего стекла автомобиля PEUGEOT 2012-2017",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -3353,7 +3236,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Essuie-Glaces Souples Avant 26 16 Pouces pour PEUGEOT 2012 - 2017",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -3381,7 +3263,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Vordere Windschutzscheibe 26 16 Zoll Softrubber-Wischerblätter für PEUGEOT 2012 - 2017",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -3409,7 +3290,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "汽车前挡风玻璃 26 16英寸软性雨刮片 适用于标致 2012 - 2017",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -3439,7 +3319,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas delantero de coche para Citroën DS4 2011-2015",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -3467,7 +3346,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Специальные щетки стеклоочистителя для переднего стекла автомобиля Citroen DS4 2011-2015",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -3495,7 +3373,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Essuie-Glaces Spécial Pare-Brise Avant pour Citroën DS4 2011-2015",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -3523,7 +3400,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Vordere Windschutzscheibe Spezielle Wischerblätter für Citroen DS4 2011-2015",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -3551,7 +3427,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "汽车前挡风玻璃专用雨刮片 适用于雪铁龙 DS4 2011-2015",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -3581,7 +3456,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero de coche para Peugeot 2008 2014-2018",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -3609,7 +3483,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Щетка стеклоочистителя для заднего стекла автомобиля Peugeot 2008 2014-2018",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -3637,7 +3510,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Lame d'Essuie-Glace Arrière pour Peugeot 2008 2014-2018",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -3665,7 +3537,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischer für Peugeot 2008 2014-2018",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -3693,7 +3564,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "汽车后窗挡风玻璃雨刮片 适用于标致 2008 2014-2018",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -3723,7 +3593,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Juego de brazos de la hoja del limpiaparabrisas trasero del coche para GMC Envoy 2007-2009",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -3751,7 +3620,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Комплект рычагов щеток для заднего стекла автомобиля GMC Envoy 2007-2009",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -3779,7 +3647,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Ensemble de Bras d'Essuie-Glace Arrière pour GMC Envoy 2007-2009",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -3807,7 +3674,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerarm-Set für GMC Envoy 2007-2009",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -3835,7 +3701,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "汽车后挡风玻璃雨刮臂套件 适用于 GMC Envoy 2007-2009",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -3865,7 +3730,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para coche para Foton JIA TU im6 2017-",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -3893,7 +3757,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Щетка заднего стекла для Foton JIA TU im6 2017-",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -3921,7 +3784,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Lame d'Essuie-Glace Arrière pour Foton JIA TU im6 2017-",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -3949,7 +3811,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckwischerblatt für Foton JIA TU im6 2017-",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -3977,7 +3838,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "汽车后雨刮片 适用于福田 JIA TU im6 2017-",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -4007,7 +3867,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas especial para coche para bmw 5 E34 1991-1995",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -4035,7 +3894,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Специальная щетка стеклоочистителя для BMW 5 E34 1991-1995",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -4063,7 +3921,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Lame d'Essuie-Glace Spéciale pour BMW 5 E34 1991-1995",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -4091,7 +3948,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Spezielle Windschutzscheibenwischer für BMW 5 E34 1991-1995",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -4119,7 +3975,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "宝马 5系 E34 1991-1995 专用雨刮片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -4149,7 +4004,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "26+16\"",
         "Color": "Negro",
         "Aplicación": "Parabrisas de Coche 16+26 Pulgadas Limpiaparabrisas para Coche PEUGEOT 206",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -4177,7 +4031,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "26+16\"",
         "Цвет": "Черный",
         "Применяемость": "Стеклоочистители для автомобилей 16-26 дюймов для автомобиля PEUGEOT 206",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -4205,7 +4058,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "26+16\"",
         "Couleur": "Noir",
         "Application": "Essuie-Glaces 16 26 Pouces pour Voiture PEUGEOT 206",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -4233,7 +4085,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "26+16\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Scheibenwischer 16 26 Zoll für Auto PEUGEOT 206",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -4261,7 +4112,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "26+16\"",
         "颜色": "黑色",
         "适用车型": "汽车挡风玻璃 16 26 英寸雨刮片 适用于标致 206",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -4291,7 +4141,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "26+26\"",
         "Color": "Negro",
         "Aplicación": "Parabrisas de 26+26 pulgadas para limpiaparabrisas Benz E CLS (W211) GLK",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -4319,7 +4168,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "26+26\"",
         "Цвет": "Черный",
         "Применяемость": "Стеклоочистители 26 дюймов для Benz E CLS (W211) GLK",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -4347,7 +4195,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "26+26\"",
         "Couleur": "Noir",
         "Application": "Essuie-Glaces Pare-Brise 26 26 Pouces pour Benz E CLS (W211) GLK",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -4375,7 +4222,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "26+26\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Windschutzscheibe 26 26 Zoll Wischerblätter für Benz E CLS (W211) GLK",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -4403,7 +4249,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "26+26\"",
         "颜色": "黑色",
         "适用车型": "汽车挡风玻璃 26 26 英寸雨刮片 适用于奔驰 E CLS (W211) GLK",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -4433,7 +4278,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "12\" 13\" 14\" 15\" 16\" 17\" 18\" 19\" 20\" 21\" 22\" 23\" 24\" 25\" 26\" 27\" 28\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas de coche - Ningbo Zhenhai Bowang Auto Parts Co., Ltd",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -4461,7 +4305,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "12\" 13\" 14\" 15\" 16\" 17\" 18\" 19\" 20\" 21\" 22\" 23\" 24\" 25\" 26\" 27\" 28\"",
         "Цвет": "Черный",
         "Применяемость": "Дворники для автомобилей - Ningbo Zhenhai Bowang Auto Parts Co., Ltd",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -4489,7 +4332,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "12\" 13\" 14\" 15\" 16\" 17\" 18\" 19\" 20\" 21\" 22\" 23\" 24\" 25\" 26\" 27\" 28\"",
         "Couleur": "Noir",
         "Application": "Essuie-Glace de Pare-Brise - Ningbo Zhenhai Bowang Auto Parts Co., Ltd",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -4517,7 +4359,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "12\" 13\" 14\" 15\" 16\" 17\" 18\" 19\" 20\" 21\" 22\" 23\" 24\" 25\" 26\" 27\" 28\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Scheibenwischer - Ningbo Zhenhai Bowang Auto Parts Co., Ltd",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -4545,7 +4386,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "12\" 13\" 14\" 15\" 16\" 17\" 18\" 19\" 20\" 21\" 22\" 23\" 24\" 25\" 26\" 27\" 28\"",
         "颜色": "黑色",
         "适用车型": "挡风玻璃雨刮 - 宁波镇海博王汽车配件有限公司",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -4575,7 +4415,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "14\"- 28\"",
         "Color": "Color",
         "Aplicación": "Limpiaparabrisas multifuncionales de colores | Estilo de coche vibrante | LELION",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -4603,7 +4442,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "14\"- 28\"",
         "Цвет": "Цвет",
         "Применяемость": "Цветные многофункциональные дворники | Яркий стиль для автомобиля | LELION",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -4631,7 +4469,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "14\"- 28\"",
         "Couleur": "Couleur",
         "Application": "Lames d'Essuie-Glace Colorées Multifonctions | Style Auto Vibrant | LELION",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -4659,7 +4496,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "14\"- 28\"",
         "Farbe": "Farbe",
         "Fahrzeuganwendung": "Bunte Multifunktionale Wischerblätter | Lebhafte Auto-Styling | LELION",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -4687,7 +4523,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "14\"- 28\"",
         "颜色": "颜色",
         "适用车型": "多彩多功能雨刮片 | 充满活力的汽车造型 | LELION",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -4717,7 +4552,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "14-28\"",
         "Color": "Dorado",
         "Aplicación": "La escobilla de limpiaparabrisas híbrida dorada BW-808 de modelo personalizado se adapta al brazo de limpiaparabrisas con gancho",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -4745,7 +4579,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "14-28\"",
         "Цвет": "Золотистый",
         "Применяемость": "Индивидуальная модель BW-808 золотой гибридный дворник, подходит для крючковой щетки",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -4773,7 +4606,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "14-28\"",
         "Couleur": "Doré",
         "Application": "Lame d'Essuie-Glace Hybride Dorée Modèle Personnalisé BW-808 adaptée au bras d'essuie-glace en U",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -4801,7 +4633,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "14-28\"",
         "Farbe": "Gold",
         "Fahrzeuganwendung": "Modellspezifisches BW-808 Golden Hybrid Wischerblatt passend für U-Haken Wischerarm",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -4829,7 +4660,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "14-28\"",
         "颜色": "金色",
         "适用车型": "定制型号 BW-808 金色混合雨刮片 适配 U型雨刮臂",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -4860,7 +4690,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "28\"+18\"",
         "Color": "Negro",
         "Aplicación": "Parabrisas delantero 28+18 pulgadas escobillas de espray eléctrico para Tesla Model X",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -4888,7 +4717,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "28\"+18\"",
         "Цвет": "Черный",
         "Применяемость": "Переднее ветровое стекло 28 18 дюймов Электрические стеклоочистители с распылителем для Tesla Model X",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -4916,7 +4744,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "28\"+18\"",
         "Couleur": "Noir",
         "Application": "Essuie-Glace Avant 28 18 Pouces à Pulvérisation Électrique pour Tesla Model X",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -4944,7 +4771,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "28\"+18\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Vordere Windschutzscheibe 28 18 Zoll Elektrische Spritzwischerblätter für Tesla Model X",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -4972,7 +4798,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "28\"+18\"",
         "颜色": "黑色",
         "适用车型": "前挡风玻璃 28 18 英寸电动喷雾雨刮片 适用于特斯拉 Model X",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -5002,7 +4827,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Parabrisas delantero 24+16 pulgadas Limpiaparabrisas suave para coche VW POLO 2009-2017",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -5030,7 +4854,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Переднее ветровое стекло 24 16 дюймов Мягкие стеклоочистители для автомобиля VW POLO 2009-2017",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -5058,7 +4881,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Essuie-Glaces Souples Avant 24 16 Pouces pour Voiture VW POLO 2009-2017",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -5086,7 +4908,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Vordere Windschutzscheibe 24 16 Zoll Softrubber-Wischerblätter für Auto VW POLO 2009-2017",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -5114,7 +4935,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "前挡风玻璃 24 16 英寸软性雨刮片 适用于大众 POLO 2009-2017",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -5145,7 +4965,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "19\"+ 26\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas delantero 26\"+19\" para Volvo Xc60 2018",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -5173,7 +4992,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "19\"+ 26\"",
         "Цвет": "Черный",
         "Применяемость": "Передний стеклоочиститель с распылителем 26\" 19\" для Volvo XC60 2018",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -5201,7 +5019,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "19\"+ 26\"",
         "Couleur": "Noir",
         "Application": "Lame d'Essuie-Glace à Pulvérisation Pare-Brise Avant 26\" 19\" pour Volvo Xc60 2018",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -5229,7 +5046,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "19\"+ 26\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Vordere Windschutzscheiben-Spritzwischerblatt 26\" 19\" für Volvo XC60 2018",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -5257,7 +5073,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "19\"+ 26\"",
         "颜色": "黑色",
         "适用车型": "前挡风玻璃喷雾雨刮片 26\" 19\" 适用于沃尔沃 XC60 2018",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -5287,7 +5102,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Brazo de limpiaparabrisas delantero para camión Man Europa 81.26430.0078",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -5315,7 +5129,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Рычаг стеклоочистителя переднего стекла для европейского грузовика Man 81.26430.0078",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -5343,7 +5156,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Bras d'Essuie-Glace Avant pour Camion Europe Man 81.26430.0078",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -5371,7 +5183,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Vorderer Scheibenwischerarm für Europe Man Truck 81.26430.0078",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -5399,7 +5210,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "欧洲 MAN 卡车前挡风玻璃雨刮臂 81.26430.0078",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -5429,7 +5239,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Brazo del limpiaparabrisas delantero LHD 212-820-09-44 para Mercedes-Benz Clase E 2010-2014",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -5457,7 +5266,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Рычаг стеклоочистителя переднего стекла LHD 212-820-09-44 для Mercedes-Benz E Class 2010-2014",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -5485,7 +5293,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Bras d'Essuie-Glace Avant LHD 212-820-09-44 pour Mercedes-Benz Classe E 2010-2014",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -5513,7 +5320,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Vorderer Scheibenwischerarm LHD 212-820-09-44 für Mercedes-Benz E-Klasse 2010-2014",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -5541,7 +5347,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "Mercedes-Benz E级 2010-2014 左舵前挡风玻璃雨刮臂 LHD 212-820-09-44",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -5571,7 +5376,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "24+19\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas delantero 24+19 pulgadas para Citroën C4 Cactus 2010",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -5599,7 +5403,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "24+19\"",
         "Цвет": "Черный",
         "Применяемость": "Щетки стеклоочистителя переднего стекла 24 и 19 дюймов для Citroen C4 Cactus 2010",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -5627,7 +5430,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "24+19\"",
         "Couleur": "Noir",
         "Application": "Essuie-glaces avant 24 19 pouces pour Citroën C4 Cactus 2010",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -5655,7 +5457,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "24+19\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Frontscheiben-Wischerblätter 24 19 Zoll für Citroen C4 Cactus 2010",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -5683,7 +5484,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "24+19\"",
         "颜色": "黑色",
         "适用车型": "雪铁龙C4仙人掌2010款前挡风玻璃雨刮器 24 19英寸",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -5713,7 +5513,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "26+23\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas delantero para Mercedes-Benz ML350 2012-2015",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -5741,7 +5540,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "26+23\"",
         "Цвет": "Черный",
         "Применяемость": "Щетки стеклоочистителя переднего стекла для Mercedes-Benz ML350 2012-2015",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -5769,7 +5567,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "26+23\"",
         "Couleur": "Noir",
         "Application": "Essuie-glaces avant pour Mercedes-Benz ML350 2012-2015",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -5797,7 +5594,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "26+23\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Frontscheiben-Wischerblätter für Mercedes-Benz ML350 2012-2015",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -5825,7 +5621,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "26+23\"",
         "颜色": "黑色",
         "适用车型": "梅赛德斯-奔驰ML350 2012-2015款前挡风玻璃雨刮器",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -5855,7 +5650,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas delantero para VW Scirocco 2008-2015 24\"+19\" Limpiaparabrisas de coche",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -5883,7 +5677,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Щетки переднего стеклоочистителя для VW Scirocco 2008-2015 24\" 19\"",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -5911,7 +5704,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Essuie-glaces avant pour VW Scirocco 2008-2015 24\" 19\" Essuie-glaces pour voiture",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -5939,7 +5731,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Frontscheiben-Wischerblätter für VW Scirocco 2008-2015 24\" 19\" Auto Wischerblätter",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -5967,7 +5758,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "大众Scirocco 2008-2015款前雨刮器 24\" 19\" 汽车雨刮片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -5997,7 +5787,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "24\"+21\"",
         "Color": "Negro",
         "Aplicación": "Juego de escobillas de limpiaparabrisas delantero para Mercedes Clase E C238 A238 2017-2022",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -6025,7 +5814,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "24\"+21\"",
         "Цвет": "Черный",
         "Применяемость": "Комплект передних щеток для Mercedes E-Class C238 A238 2017-2022",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -6053,7 +5841,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "24\"+21\"",
         "Couleur": "Noir",
         "Application": "Set d'essuie-glaces avant pour Mercedes Classe E C238 A238 2017-2022",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -6081,7 +5868,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "24\"+21\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Frontscheiben-Wischerblätter-Set für Mercedes E-Klasse C238 A238 2017-2022",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -6109,7 +5895,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "24\"+21\"",
         "颜色": "黑色",
         "适用车型": "梅赛德斯E级C238 A238 2017-2022款前雨刮器套装",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -6139,7 +5924,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "14\"- 28\"",
         "Color": "Plateado",
         "Aplicación": "Escobilla de limpiaparabrisas híbrida BW-808 Silver Edition adaptada al brazo de limpiaparabrisas con gancho en U",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -6167,7 +5951,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "14\"- 28\"",
         "Цвет": "Серебристый",
         "Применяемость": "Гибридная щетка стеклоочистителя BW-808 Silver Edition, подходит для крючковой рычаговой щетки",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -6195,7 +5978,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "14\"- 28\"",
         "Couleur": "Argenté",
         "Application": "Essuie-glace hybride BW-808 Édition Argent Compatible avec bras d'essuie-glace en forme de U",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -6223,7 +6005,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "14\"- 28\"",
         "Farbe": "Silber",
         "Fahrzeuganwendung": "Hybrid-Wischerblatt BW-808 Silber Edition passend für U-Haken Wischerarm",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -6251,7 +6032,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "14\"- 28\"",
         "颜色": "银色",
         "适用车型": "混合雨刮片 BW-808 银色版 适用于U型雨刮臂",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -6281,7 +6061,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "14-28”",
         "Color": "Negro",
         "Aplicación": "LELION Accesorios para automóviles Limpiaparabrisas BW-405",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -6309,7 +6088,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "14-28”",
         "Цвет": "Черный",
         "Применяемость": "Автомобильные аксессуары LELION, щетки стеклоочистителя рамочного типа BW-405",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -6337,7 +6115,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "14-28”",
         "Couleur": "Noir",
         "Application": "LELION Accessoires Auto Cadre de pare-brise Essuie-glaces BW-405",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -6365,7 +6142,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "14-28”",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Autozubehör Windschutzscheiben-Rahmen Wischerblätter BW-405",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -6393,7 +6169,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "14-28”",
         "颜色": "黑色",
         "适用车型": "LELION汽车配件挡风玻璃框雨刮片 BW-405",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -6423,7 +6198,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Auto Parches Parabrisas Parabrisas Brazo de la hoja del limpiaparabrisas trasero para Mazda 3 2003-2009",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -6451,7 +6225,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION Автозапчасти Щетка заднего стеклоочистителя для Mazda 3 2003-2009",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -6479,7 +6252,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Pièces Auto Bras d'essuie-glace arrière pour Mazda 3 2003-2009",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -6507,7 +6279,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Autoteile Auto Heckscheibenwischerarm für Mazda 3 2003-2009",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -6535,7 +6306,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION汽车零件马自达3 2003-2009款后雨刮器臂",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -6565,7 +6335,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Auto Parts Brazo de la hoja del limpiaparabrisas trasero del coche para Suzuki Wagon R 2004-2017",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -6593,7 +6362,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION Автозапчасти Задний дворник для заднего окна Suzuki Wagon R 2004-2017",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -6621,7 +6389,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Pièces Auto Bras d'essuie-glace arrière pour Suzuki Wagon R 2004-2017",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -6649,7 +6416,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Autoteile Heckscheibenwischerarm für Suzuki Wagon R 2004-2017",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -6677,7 +6443,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION汽车零件铃木Wagon R 2004-2017款后车窗雨刮臂",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -6707,7 +6472,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Best Wipers honda Combinación de brazo de limpiaparabrisas trasero para coche para HONDA FIT 2014-2020",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -6735,7 +6499,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION Лучшие дворники Honda Задний дворник комбинация для HONDA FIT 2014-2020",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -6763,7 +6526,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Meilleurs essuie-glaces Bras d'essuie-glace arrière combiné HONDA FIT 2014-2020",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -6791,7 +6553,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Best Wipers Honda Auto Heckscheibenwischerarm-Kombination für HONDA FIT 2014-2020",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -6819,7 +6580,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION最佳雨刮 本田FIT 2014-2020款后挡风玻璃雨刮臂组合",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -6849,7 +6609,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "14-28\"",
         "Color": "Negro",
         "Aplicación": "LELION BW-862 Limpiaparabrisas delantero multifunción",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -6877,7 +6636,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "14-28\"",
         "Цвет": "Черный",
         "Применяемость": "LELION BW-862 Многофункциональная передняя мягкая щетка стеклоочистителя",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -6905,7 +6663,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "14-28\"",
         "Couleur": "Noir",
         "Application": "LELION BW-862 Essuie-glace avant multi-fonctions souple pour pare-brise",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -6933,7 +6690,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "14-28\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION BW-862 Multifunktion vorderes Windschutzscheibenweiches Wischerblatt",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -6961,7 +6717,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "14-28\"",
         "颜色": "黑色",
         "适用车型": "LELION BW-862 多功能前挡风玻璃软雨刮片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -6991,7 +6746,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas LELION Limpiaparabrisas Limpiaparabrisas trasero Limpiaparabrisas trasero para BMW X5 E70 2007-2013",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -7019,7 +6773,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION Чистка автомобиля Щетка заднего стеклоочистителя Задний дворник для BMW X5 E70 2007-2013",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -7047,7 +6800,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Nettoyage Auto Essuie-glace arrière Bras d'essuie-glace arrière pour BMW X5 E70 2007-2013",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -7075,7 +6827,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Auto-Reinigung Windschutzscheibenwischer Heckscheibenwischerarm Auto Heckwischer für BMW X5 E70 2007-2013",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -7103,7 +6854,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION汽车清洁挡风玻璃雨刮后雨刮臂 宝马X5 E70 2007-2013款",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -7133,7 +6883,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Limpiaparabrisas de coche y brazo para CITROËN C5 2001-2008",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -7161,7 +6910,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION Щетка и рычаг стеклоочистителя для автомобиля CITROEN C5 2001-2008",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -7189,7 +6937,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Essuie-glace et bras pour pare-brise de CITROËN C5 2001-2008",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -7217,7 +6964,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Auto Windschutzscheibenwischerblatt und Arm für CITROEN C5 2001-2008",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -7245,7 +6991,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION汽车挡风玻璃雨刮片及臂 雪铁龙C5 2001-2008款",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -7275,7 +7020,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Limpiaparabrisas de coche y brazo para Peugeot 206 1998-2012",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -7303,7 +7047,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION Щетка и рычаг стеклоочистителя для Peugeot 206 1998-2012",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -7331,7 +7074,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Essuie-glace et bras pour pare-brise de Peugeot 206 1998-2012",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -7359,7 +7101,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Auto Windschutzscheibenwischerblatt und Arm für Peugeot 206 1998-2012",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -7387,7 +7128,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION汽车挡风玻璃雨刮片及臂 标致206 1998-2012款",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -7417,7 +7157,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Limpiaparabrisas para coche Combinación de escobilla y brazo al por mayor de limpiaparabrisas especial para Nissan Livina 2007",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -7445,7 +7184,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION Щетка и рычаг стеклоочистителя Оптовая продажа специального комплекта для Nissan Livina 2007",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -7473,7 +7211,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Essuie-glace et bras pour pare-brise Vente en gros Combinaison spéciale d'essuie-glaces pour Nissan Livina 2007",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -7501,7 +7238,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Auto Windschutzscheibenwischerblatt und Arm Großhandels-Sonderwischerkombination für Nissan Livina 2007",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -7529,7 +7265,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION汽车挡风玻璃雨刮片及臂 批发特别雨刮组合 日产Livina 2007款",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -7559,7 +7294,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Limpiaparabrisas para coche Combinación de escobilla y brazo al por mayor de limpiaparabrisas especial para Tata Nexon",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -7587,7 +7321,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION Щетка и рычаг стеклоочистителя Оптовая продажа специального комплекта для Tata Nexon",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -7615,7 +7348,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Essuie-glace et bras pour pare-brise Vente en gros Combinaison spéciale d'essuie-glaces pour Tata Nexon",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -7643,7 +7375,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Auto Windschutzscheibenwischerblatt und Arm Großhandels-Sonderwischerkombination für Tata Nexon",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -7671,7 +7402,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION汽车挡风玻璃雨刮片及臂 批发特别雨刮组合 塔塔Nexon",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -7701,7 +7431,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Juego de limpiaparabrisas para coche con escobilla y brazo al por mayor Juego de limpiaparabrisas especial para Alfa Romeo MITO 2008-2017",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -7729,7 +7458,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION Щетка и рычаг стеклоочистителя Оптовая продажа специального комплекта для Alfa Romeo MITO 2008-2017",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -7757,7 +7485,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Essuie-glace et bras pour pare-brise Vente en gros Set spécial d'essuie-glaces pour Alfa Romeo MITO 2008-2017",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -7785,7 +7512,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Auto Windschutzscheibenwischerblatt und Arm Großhandels-Sonderwischerset für Alfa Romeo MITO 2008-2017",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -7813,7 +7539,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION汽车挡风玻璃雨刮片及臂 批发特别雨刮套 阿尔法·罗密欧MITO 2008-2017款",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -7843,7 +7568,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Limpiaparabrisas de coche con brazo de escobilla de combinación Limpiaparabrisas trasero de coche para JEEP Cherokee 2014-2019",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -7871,7 +7595,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION Щетка и рычаг стеклоочистителя Сочетание заднего стеклоочистителя для JEEP Cherokee 2014-2019",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -7899,7 +7622,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Combinaison bras d'essuie-glace de pare-brise Essuie-glace arrière pour JEEP Cherokee 2014-2019",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -7927,7 +7649,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Auto Wischerblatt Arm-Kombination Auto Heckscheibenwischer für JEEP Cherokee 2014-2019",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -7955,7 +7676,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION汽车雨刮臂组合 吉普切诺基 2014-2019款后雨刮",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -7985,7 +7705,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Limpiaparabrisas delantero de coche Limpiaparabrisas Piezas automáticas Fabricantes de escobillas de limpiaparabrisas de 24+20 pulgadas para coche BMW",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -8013,7 +7732,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION Передний стеклоочиститель Автозапчасти 24 20 дюймов Производители щеток для BMW",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -8041,7 +7759,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Essuie-glace avant pour voiture Pièces Auto Essuie-glaces 24 20 pouces Fabricants pour BMW",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -8069,7 +7786,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Auto-Wischer Frontscheibenwischer Autoteile 24 20 Zoll Wischerblätter Hersteller für Auto BMW",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -8097,7 +7813,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION汽车前挡风玻璃雨刮器汽车零件 24 20英寸雨刮片 宝马",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -8127,7 +7842,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Personalización Limpiaparabrisas de goma Hoja de la hoja del limpiaparabrisas trasero del coche Combinación para TOYOTA HIGHLANDER",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -8155,7 +7869,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION Индивидуальная резиновая щетка и рычаг Комбинация заднего стеклоочистителя для TOYOTA HIGHLANDER",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -8183,7 +7896,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Bras d'essuie-glace en caoutchouc personnalisés pour voiture Essuie-glace arrière combiné pour TOYOTA HIGHLANDER",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -8211,7 +7923,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Anpassbare Gummi-Wischerarm-Lamellen Auto-Heckscheibenwischer-Kombination für TOYOTA HIGHLANDER",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -8239,7 +7950,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 定制橡胶雨刷臂叶片 汽车后雨刷组合 适用于丰田汉兰达",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -8269,7 +7979,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "14\"- 28\"",
         "Color": "Azul",
         "Aplicación": "LELION Tipo de personalización Escobilla de limpiaparabrisas azul Limpiaparabrisas universal",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -8297,7 +8006,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "14\"- 28\"",
         "Цвет": "Синий",
         "Применяемость": "LELION Настраиваемая синяя щетка универсальная щетка для лобового стекла",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -8325,7 +8033,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "14\"- 28\"",
         "Couleur": "Bleu",
         "Application": "LELION Lame d'essuie-glace universelle de type personnalisé bleue pour pare-brise",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -8353,7 +8060,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "14\"- 28\"",
         "Farbe": "Blau",
         "Fahrzeuganwendung": "LELION Anpassungstyp Blaue Wischerblätter Universeller Scheibenwischer",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -8381,7 +8087,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "14\"- 28\"",
         "颜色": "蓝色",
         "适用车型": "LELION 定制款蓝色雨刷片 通用挡风玻璃雨刷",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -8411,7 +8116,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "14\"- 28\"",
         "Color": "Verde",
         "Aplicación": "LELION Tipo de personalización Escobilla limpiaparabrisas verde Limpiaparabrisas universal",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -8439,7 +8143,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "14\"- 28\"",
         "Цвет": "Зеленый",
         "Применяемость": "LELION Настраиваемая зеленая щетка универсальная щетка для лобового стекла",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -8467,7 +8170,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "14\"- 28\"",
         "Couleur": "Vert",
         "Application": "LELION Lame d'essuie-glace universelle de type personnalisé verte pour pare-brise",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -8495,7 +8197,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "14\"- 28\"",
         "Farbe": "Grün",
         "Fahrzeuganwendung": "LELION Anpassungstyp Grüne Wischerblätter Universeller Scheibenwischer",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -8523,7 +8224,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "14\"- 28\"",
         "颜色": "绿色",
         "适用车型": "LELION 定制款绿色雨刷片 通用挡风玻璃雨刷",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -8553,7 +8253,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "14\"- 28\"",
         "Color": "Morado",
         "Aplicación": "LELION Tipo de personalización Limpiaparabrisas universal de escobilla púrpura",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -8581,7 +8280,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "14\"- 28\"",
         "Цвет": "Фиолетовый",
         "Применяемость": "LELION Настраиваемая фиолетовая щетка универсальная щетка для лобового стекла",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -8609,7 +8307,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "14\"- 28\"",
         "Couleur": "Violet",
         "Application": "LELION Lame d'essuie-glace universelle de type personnalisé violette pour pare-brise",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -8637,7 +8334,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "14\"- 28\"",
         "Farbe": "Lila",
         "Fahrzeuganwendung": "LELION Anpassungstyp Lila Wischerblätter Universeller Scheibenwischer",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -8665,7 +8361,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "14\"- 28\"",
         "颜色": "紫色",
         "适用车型": "LELION 定制款紫色雨刷片 通用挡风玻璃雨刷",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -8695,7 +8390,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "14\"- 28\"",
         "Color": "Amarillo",
         "Aplicación": "LELION Tipo de personalización Escobilla de limpiaparabrisas amarilla Limpiaparabrisas universal",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -8723,7 +8417,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "14\"- 28\"",
         "Цвет": "Желтый",
         "Применяемость": "LELION Настраиваемая желтая щетка универсальная щетка для лобового стекла",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -8751,7 +8444,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "14\"- 28\"",
         "Couleur": "Jaune",
         "Application": "LELION Lame d'essuie-glace universelle de type personnalisé jaune pour pare-brise",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -8779,7 +8471,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "14\"- 28\"",
         "Farbe": "Gelb",
         "Fahrzeuganwendung": "LELION Anpassungstyp Gelbe Wischerblätter Universeller Scheibenwischer",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -8807,7 +8498,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "14\"- 28\"",
         "颜色": "黄色",
         "适用车型": "LELION 定制款黄色雨刷片 通用挡风玻璃雨刷",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -8837,7 +8527,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Personalizado 18+22 Pulgadas Limpiaparabrisas Especiales Limpiaparabrisas Delantero Para Coche Limpiaparabrisas Suave Para BMW X1 X5 X",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -8865,7 +8554,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION Пользовательские 18 22 дюйма Специальные щетки Передний мягкий стеклоочиститель для BMW X1 X5 X",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -8893,7 +8581,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Lames d'essuie-glace spéciales personnalisées 18-22 pouces Essuie-glaces doux pour pare-brise avant de voiture pour BMW X1 X5 X",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -8921,7 +8608,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Angepasste 18 22 Zoll Spezielle Wischerblätter Autofenster Weiche Wischer für BMW X1 X5 X",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -8949,7 +8635,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 定制 18 22 英寸专用雨刷片 宝马 X1 X5 X 前挡风玻璃柔性雨刷",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -8979,7 +8664,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "32\"",
         "Color": "Negro",
         "Aplicación": "LELION Factory Al por mayor Coche Limpiaparabrisas Limpiaparabrisas Autobuses Limpiaparabrisas delantero OEM Limpiaparabrisas multitamaño",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -9007,7 +8691,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "32\"",
         "Цвет": "Черный",
         "Применяемость": "LELION Заводская оптовая продажа щеток для переднего стекла автобусов Несколько размеров",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -9035,7 +8718,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "32\"",
         "Couleur": "Noir",
         "Application": "LELION Vente en gros en usine Lames d'essuie-glace pour pare-brise de voiture Lames d'essuie-glace avant pour bus OEM Lames d'essuie-glace multi-tailles",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -9063,7 +8745,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "32\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Fabrik Großhandel Autoscheibenwischer-Lamellen Bus Frontwischer Lamellen OEM Multi-Size Wischer",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -9091,7 +8772,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "32\"",
         "颜色": "黑色",
         "适用车型": "LELION 工厂批发汽车挡风玻璃雨刷片 公交车前雨刷 OEM 多尺寸雨刷",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -9121,7 +8801,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "14\"- 28\"",
         "Color": "Rosa",
         "Aplicación": "LELION Limpiaparabrisas de coche sin marco Limpiaparabrisas delantero Limpiaparabrisas de color universal Limpiaparabrisas para coches",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -9149,7 +8828,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "14\"- 28\"",
         "Цвет": "Розовый",
         "Применяемость": "LELION Бескаркасные щетки для автомобиля Передние универсальные щетки разных цветов для авто",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -9177,7 +8855,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "14\"- 28\"",
         "Couleur": "Rose",
         "Application": "LELION Lames d'essuie-glace sans cadre pour pare-brise de voiture Lame d'essuie-glace avant Lames d'essuie-glace colorées universelles pour voitures",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -9205,7 +8882,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "14\"- 28\"",
         "Farbe": "Rosa",
         "Fahrzeuganwendung": "LELION Rahmenlose Autoscheibenwischer-Lamellen Frontwischer Universelle Farbige Wischerblätter für Autos",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -9233,7 +8909,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "14\"- 28\"",
         "颜色": "粉色",
         "适用车型": "LELION 无骨汽车挡风玻璃雨刷片 前雨刷片 通用彩色雨刷片 适用于汽车",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -9263,7 +8938,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas delantero al por mayor LELION Limpiaparabrisas de coche sin hueso Fabricantes para VW TOURAN L TIGUAN L",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -9291,7 +8965,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION Оптовая продажа передних щеток Автомобильные бескаркасные щетки Производители для VW TOURAN L TIGUAN L",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -9319,7 +8992,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Essuie-glaces avant en gros Lames d'essuie-glace sans brin pour voiture Fabricants pour VW TOURAN L TIGUAN L",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -9347,7 +9019,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Front Großhandel Wischer Auto Wischer Boneless Wischerblätter Hersteller für VW TOURAN L TIGUAN L",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -9375,7 +9046,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 前排批发雨刷 汽车无骨雨刷片 VW 途安 L Tiguan L 适用制造商",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -9405,7 +9075,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "23\"+25\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas LELION para parabrisas delantero para Mercedes Benz W222",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -9433,7 +9102,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "23\"+25\"",
         "Цвет": "Черный",
         "Применяемость": "LELION Передняя стеклоочистительная щетка для Mercedes Benz W222",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -9461,7 +9129,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "23\"+25\"",
         "Couleur": "Noir",
         "Application": "LELION Lame d'essuie-glace avant avec pulvérisation pour fenêtre pour Mercedes Benz W222",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -9489,7 +9156,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "23\"+25\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Frontscheiben-Sprühwischerblätter für Mercedes Benz W222",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -9517,7 +9183,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "23\"+25\"",
         "颜色": "黑色",
         "适用车型": "LELION 奔驰 W222 前窗喷水雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -9547,7 +9212,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "28+27\"",
         "Color": "Negro",
         "Aplicación": "LELION Limpiaparabrisas delantero 28/27 pulgadas para PEUGEOT 408 2010-2014",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -9575,7 +9239,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "28+27\"",
         "Цвет": "Черный",
         "Применяемость": "LELION Передние щетки стеклоочистителя 28/27 дюймов для PEUGEOT 408 2010-2014",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -9603,7 +9266,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "28+27\"",
         "Couleur": "Noir",
         "Application": "LELION Lames d'essuie-glace avant 28/27 pouces pour PEUGEOT 408 2010-2014",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -9631,7 +9293,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "28+27\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Frontscheibe 28/27 Zoll Wischerblätter für PEUGEOT 408 2010-2014",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -9659,7 +9320,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "28+27\"",
         "颜色": "黑色",
         "适用车型": "LELION 前挡风玻璃 28/27 英寸雨刷 适用于标致 408 2010-2014",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -9689,7 +9349,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "24+21\"",
         "Color": "Negro",
         "Aplicación": "LELION Limpiaparabrisas delantero para Buick Enclave 2012-2017",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -9717,7 +9376,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "24+21\"",
         "Цвет": "Черный",
         "Применяемость": "LELION Передние щетки стеклоочистителя для Buick Enclave 2012-2017",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -9745,7 +9403,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "24+21\"",
         "Couleur": "Noir",
         "Application": "LELION Lames d'essuie-glace avant pour Buick Enclave 2012-2017",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -9773,7 +9430,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "24+21\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Frontscheibenwischer-Lamellen für Buick Enclave 2012-2017",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -9801,7 +9457,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "24+21\"",
         "颜色": "黑色",
         "适用车型": "LELION 前挡风玻璃雨刷 适用于别克昂科雷 2012-2017",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -9831,7 +9486,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "26+14\"",
         "Color": "Negro",
         "Aplicación": "LELION Limpiaparabrisas delantero para Buick Encore 2013-2022",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -9859,7 +9513,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "26+14\"",
         "Цвет": "Черный",
         "Применяемость": "LELION Передние щетки стеклоочистителя для Buick Encore 2013-2022",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -9887,7 +9540,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "26+14\"",
         "Couleur": "Noir",
         "Application": "LELION Lames d'essuie-glace avant pour Buick Encore 2013-2022",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -9915,7 +9567,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "26+14\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Frontscheibenwischer-Lamellen für Buick Encore 2013-2022",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -9943,7 +9594,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "26+14\"",
         "颜色": "黑色",
         "适用车型": "LELION 前挡风玻璃雨刷 适用于别克Encore 2013-2022",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -9973,7 +9623,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Limpiaparabrisas delantero Limpiaparabrisas Suave 22\"+22\" pulg. Fabricantes de Limpiaparabrisas para BENZ C",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -10001,7 +9650,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION Передние стеклоочистители мягкие 22\" 22\" дюйма Производители щеток для BENZ C",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -10029,7 +9677,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Lames d'essuie-glace avant pour pare-brise Lames souples pour fenêtres 22\" 22\" Fabricants pour BENZ C",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -10057,7 +9704,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Frontscheibenwischer-Lamellen Fenster Weiche 22\" 22\" Zoll Wischerblätter Hersteller für BENZ C",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -10085,7 +9731,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 前挡风玻璃雨刷 窗柔性 22\" 22 英寸雨刷 适用于奔驰 C 车系制造商",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -10115,7 +9760,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas delanteros LELION Fabricantes de Limpiaparabrisas sin marco de silicona para BMW Serie 3 2004-2009",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -10143,7 +9787,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION Передние щетки стеклоочистителя силиконовые безрамочные Производители щеток для BMW 3 Series 2004-2009",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -10171,7 +9814,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Lames d'essuie-glace avant en silicone sans cadre Fabricants pour BMW Série 3 2004-2009",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -10199,7 +9841,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Frontwischer-Lamellen Silikon Rahmenlose Wischerblätter Hersteller für BMW 3er Reihe 2004-2009",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -10227,7 +9868,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 前雨刷片 硅胶无骨雨刷片 适用于宝马 3 系列 2004-2009 制造商",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -10257,7 +9897,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Limpiaparabrisas y Brazo Trasero de Coche de Alta Calidad para BMW Serie 5 E39 1995-2003",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -10285,7 +9924,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION Высококачественная задняя щетка и рычаг стеклоочистителя для BMW 5 Series E39 1995-2003",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -10313,7 +9951,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Essuie-glace arrière et bras de haute qualité pour BMW Série 5 E39 1995-2003",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -10341,7 +9978,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Hochwertiger Auto-Heckscheibenwischer und Arm für BMW 5er Reihe E39 1995-2003",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -10369,7 +10005,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 高品质汽车后挡风玻璃雨刷及臂 宝马 5 系列 E39 1995-2003",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -10399,7 +10034,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Combinación de limpiaparabrisas al por mayor de alta calidad para limpiaparabrisas trasero de coche para INFINITI FX 2007",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -10427,7 +10061,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION Высококачественная оптовая продажа лобовых щеток и заднего стеклоочистителя для INFINITI FX 2007",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -10455,7 +10088,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Lame d'essuie-glace de pare-brise en gros de haute qualité Essuie-glace arrière combiné pour INFINITI FX 2007",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -10483,7 +10115,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Hochwertiger Großhandel Scheibenwischerblätter Auto-Heckscheibenwischer-Kombination für INFINITI FX 2007",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -10511,7 +10142,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 高品质批发挡风玻璃雨刷片 汽车后雨刷组合 适用于英菲尼迪 FX 2007",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -10541,7 +10171,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Venta caliente Limpiaparabrisas de coche Limpiaparabrisas trasero de coche y brazo Skoda Octavia 2004-2013",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -10569,7 +10198,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION Горячая продажа щетки стекол и заднего стеклоочистителя Skoda Octavia 2004-2013",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -10597,7 +10225,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Vente Chaude Lame d'Essuie-Glace pour Voiture Essuie-Glace Arrière et Bras pour Skoda Octavia 2004-2013",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -10625,7 +10252,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Heißer Verkauf Auto-Scheibenwischer Blatt Auto Heckscheibenwischer und Arm Skoda Octavia 2004-2013",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -10653,7 +10279,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 热销汽车玻璃雨刷片 汽车后挡风玻璃雨刷及臂 适用于斯柯达明锐 2004-2013",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -10683,7 +10308,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Hot Sales Car Limpiaparabrisas delantero Cuchilla especial para CITROËN C4L DS4 C5 DS5 DS6",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -10711,7 +10335,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION Горячая продажа специальных передних щеток стеклоочистителя для CITROEN C4L DS4 C5 DS5 DS6",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -10739,7 +10362,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Ventes Chaudes Lames d'Essuie-Glace Spéciales pour Pare-Brise Avant de Voiture pour CITROEN C4L DS4 C5 DS5 DS6",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -10767,7 +10389,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Heiße Verkäufe Autofenster-Spezialwischerblatt für CITROEN C4L DS4 C5 DS5 DS6",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -10795,7 +10416,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 热销汽车前挡风玻璃专用雨刷片 适用于雪铁龙 C4L DS4 C5 DS5 DS6",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -10825,7 +10445,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas de metal LELION Limpiaparabrisas trasero para BMW X5 E53 1999-2006",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -10853,7 +10472,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION металлическая щетка заднего стеклоочистителя Для bmw X5 E53 1999-2006",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -10881,7 +10499,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Essuie-Glace en métal Essuie-Glaces Arrière pour BMW X5 E53 1999-2006",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -10909,7 +10526,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Metallwischer Scheibenwischer Heckwischer für BMW X5 E53 1999-2006",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -10937,7 +10553,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 金属雨刷 前挡风玻璃雨刷 后雨刷 适用于宝马 X5 E53 1999-2006",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -10967,7 +10582,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION MINI Limpiaparabrisas Limpiaparabrisas trasero Limpiaparabrisas trasero para MINI COOPER R50 R53 2001-2004",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -10995,7 +10609,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION MINI щетка стеклоочистителя заднего стекла для MINI COOPER R50 R53 2001-2004",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -11023,7 +10636,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Lame d'Essuie-Glace Arrière pour Mini Essuie-Glace Arrière pour MINI COOPER R50 R53 2001-2004",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -11051,7 +10663,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION MINI Auto Wischerblatt Heckscheibenwischer Auto Heckwischer für MINI COOPER R50 R53 2001-2004",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -11079,7 +10690,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION MINI 汽车雨刷片 后挡风玻璃雨刷 汽车后雨刷 适用于 MINI COOPER R50 R53 2001-2004",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -11109,7 +10719,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Calidad Coche de goma Parabrisas delantero Fabricantes de escobillas suaves para Peugeot 307 2004-2008",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -11137,7 +10746,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION Качественные резиновые передние щетки стеклоочистителя Производители для Peugeot 307 2004-2008",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -11165,7 +10773,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Lames d'Essuie-Glace Avant en Caoutchouc de Qualité pour Peugeot 307 2004-2008",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -11193,7 +10800,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Qualitätsgummi Auto Frontscheibe Weiche Wischerblätter Hersteller für Peugeot 307 2004-2008",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -11221,7 +10827,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 高品质橡胶汽车前挡风玻璃软雨刷片 厂家 适用于标致 307 2004-2008",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -11251,7 +10856,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Limpiaparabrisas trasero Combinación de aspas de brazo de limpiaparabrisas para coche Limpiaparabrisas trasero para TOYOTA YARIS 2008-2013",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -11279,7 +10883,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION Задний рычаг и щетка стеклоочистителя для TOYOTA YARIS 2008-2013",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -11307,7 +10910,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Bras et Lame d'Essuie-Glace Arrière Combination pour VOITURE TOYOTA YARIS 2008-2013",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -11335,7 +10937,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Heckscheibenwischer Arm Blatt Kombination Auto Heckwischer für TOYOTA YARIS 2008-2013",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -11363,7 +10964,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 后挡风玻璃雨刷臂片组合 汽车后雨刷 适用于丰田雅力士 2008-2013",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -11393,7 +10993,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Goma Coche Silicona Limpiaparabrisas Brazo Limpiaparabrisas Coche Limpiaparabrisas trasero para Hyundai Tucson 2004-2015",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -11421,7 +11020,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION Резиновая силиконовая щетка стеклоочистителя с рычагом Задний стеклоочиститель для Hyundai Tucson 2004-2015",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -11449,7 +11047,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Lame d'Essuie-Glace Arrière en Silicone pour Hyundai Tucson 2004-2015",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -11477,7 +11074,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Gummi Auto Silikon Scheibenwischerblatt Arm Auto Heckwischer für Hyundai Tucson 2004-2015",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -11505,7 +11101,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 橡胶汽车硅胶挡风玻璃雨刷片及臂 汽车后雨刷 适用于现代途胜 2004-2015",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -11535,7 +11130,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "26+26\"",
         "Color": "Negro",
         "Aplicación": "LeLion Especial Limpiaparabrisas Delantero Fabricantes para Coche VW Touareg 2010 - 20",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -11563,7 +11157,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "26+26\"",
         "Цвет": "Черный",
         "Применяемость": "LeLion Специальные передние щетки стеклоочистителя Производители для VW Touareg 2010 - 20",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -11591,7 +11184,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "26+26\"",
         "Couleur": "Noir",
         "Application": "LeLion Fabricants Spéciaux de Lames d'Essuie-Glace Avant pour Voiture VW Touareg 2010-20",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -11619,7 +11211,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "26+26\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LeLion Spezielle Frontscheibenwischerblätter Hersteller für Auto VW Touareg 2010-20",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -11647,7 +11238,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "26+26\"",
         "颜色": "黑色",
         "适用车型": "LeLion 专用前挡风玻璃雨刷片厂家 适用于大众途锐 2010-20",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -11677,7 +11267,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "14+28\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas especiales LELION Limpiaparabrisas delantero para Honda Odyssey 2005 - 2008",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -11705,7 +11294,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "14+28\"",
         "Цвет": "Черный",
         "Применяемость": "LELION Специальные передние щетки стеклоочистителя для Honda Odyssey 2005 - 2008",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -11733,7 +11321,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "14+28\"",
         "Couleur": "Noir",
         "Application": "LELION Lames Spéciales d'Essuie-Glace Avant pour Honda Odyssey 2005-2008",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -11761,7 +11348,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "14+28\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Spezielle Wischerblätter Frontscheibenwischerblatt für Honda Odyssey 2005-2008",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -11789,7 +11375,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "14+28\"",
         "颜色": "黑色",
         "适用车型": "LELION 专用雨刷片 前挡风玻璃雨刷片 适用于本田奥德赛 2005-2008",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -11819,7 +11404,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "26+18”",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de LELION 18+26 pulgadas Limpieza frontal del automóvil Pantalla del parabrisas Paleta de limpiaparabrisas suave para VW GOLF VIIC",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -11847,7 +11431,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "26+18”",
         "Цвет": "Черный",
         "Применяемость": "LELION оптом 18-26 дюймов Передние щетки стеклоочистителя для автомобилей VW GOLF VII C",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -11875,7 +11458,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "26+18”",
         "Couleur": "Noir",
         "Application": "LELION Vente en Gros Lames d'Essuie-Glace Avant Souples 18-26 Pouces pour VW GOLF VII C",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -11903,7 +11485,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "26+18”",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Großhandel 18 26 Zoll Auto Frontreinigung Scheibenwischer Weiche Wischerblätter für VW GOLF VIIC",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -11931,7 +11512,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "26+18”",
         "颜色": "黑色",
         "适用车型": "LELION 批发 18 26 英寸汽车前挡风玻璃软雨刷片 适用于大众高尔夫 VII C",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -11961,7 +11541,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Venta al por mayor 21+21 pulgadas Limpiaparabrisas delantero de coche escobillas especiales para ŠKODA FABIA 2007-2014",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -11989,7 +11568,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION оптом 21-21 дюймов Передние специальные щетки стеклоочистителя для SKODA FABIA 2007-2014",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -12017,7 +11595,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Vente en Gros Lames Spéciales d'Essuie-Glace Avant 21-21 Pouces pour SKODA FABIA 2007-2014",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -12045,7 +11622,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Großhandel 21 21 Zoll Auto Frontscheibe Spezialwischerblätter für SKODA FABIA 2007-2014",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -12073,7 +11649,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 批发 21 21 英寸汽车前挡风玻璃专用雨刷片 适用于斯柯达晶锐 2007-2014",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -12103,7 +11678,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "24+19\"",
         "Color": "Negro",
         "Aplicación": "LELION Venta al por mayor 24+19 pulgadas Limpiaparabrisas de coche para BMW Serie 3 F30 F31 F34 F35 E90 E91 E",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -12131,7 +11705,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "24+19\"",
         "Цвет": "Черный",
         "Применяемость": "LELION оптом 24-19 дюймов Щетки стеклоочистителя для автомобилей BMW 3 серии F30 F31 F34 F35 E90 E91 E",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -12159,7 +11732,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "24+19\"",
         "Couleur": "Noir",
         "Application": "LELION Vente en Gros Lames d'Essuie-Glace 24-19 Pouces pour BMW Série 3 F30 F31 F34 F35 E90 E91 E",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -12187,7 +11759,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "24+19\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Großhandel 24 19 Zoll Auto Scheibenwischerblätter für BMW 3er Reihe F30 F31 F34 F35 E90 E91 E",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -12215,7 +11786,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "24+19\"",
         "颜色": "黑色",
         "适用车型": "LELION 批发 24 19 英寸汽车挡风玻璃雨刷片 适用于宝马 3 系列 F30 F31 F34 F35 E90 E91 E",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -12245,7 +11815,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Accesorios al por mayor Juego de limpiaparabrisas trasero de coche para FORD FOCUS 2012-2018",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -12273,7 +11842,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION оптом Аксессуары Щетки для заднего стекла автомобиля для FORD FOCUS 2012-2018",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -12301,7 +11869,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Vente en Gros Accessoires Essuie-Glace Ensemble d'Essuie-Glace Arrière pour FORD FOCUS 2012-2018",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -12329,7 +11896,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Großhandel Zubehör Wischer Auto Heckscheibenwischer Set für FORD FOCUS 2012-2018",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -12357,7 +11923,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 批发配件雨刷 汽车后挡风玻璃雨刷套装 适用于福特福克斯 2012-2018",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -12387,7 +11952,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "25+25\"",
         "Color": "Negro",
         "Aplicación": "LELION Venta al por mayor de piezas de automóviles 61610442837 Limpiaparabrisas especial para BMW E65 E66 740i 750i 200",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -12415,7 +11979,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "25+25\"",
         "Цвет": "Черный",
         "Применяемость": "LELION оптом Автозапчасти 61610442837 Специальная щетка стеклоочистителя для BMW E65 E66 740i 750i 200",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -12443,7 +12006,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "25+25\"",
         "Couleur": "Noir",
         "Application": "LELION Vente en Gros Pièces Auto 61610442837 Lame d'Essuie-Glace Spéciale pour BMW E65 E66 740i 750i 200",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -12471,7 +12033,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "25+25\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Großhandel Autoteile 61610442837 Spezialwischerblatt für BMW E65 E66 740i 750i 200",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -12499,7 +12060,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "25+25\"",
         "颜色": "黑色",
         "适用车型": "LELION 批发汽车零件 61610442837 专用雨刷片 适用于宝马 E65 E66 740i 750i 200",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -12529,7 +12089,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Venta al por mayor de piezas de automóviles Parabrisas delantero de coche 24/20 pulgadas Hojas de limpiaparabrisas suaves para Audi A4 2008-201",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -12557,7 +12116,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION оптом Автозапчасти Передние щетки стеклоочистителя 24/20 дюймов для Audi A4 2008-201",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -12585,7 +12143,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Vente en Gros Pièces Auto Lames d'Essuie-Glace Avant 24/20 Pouces pour Audi A4 2008-201",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -12613,7 +12170,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Großhandel Autoteile Auto Frontscheibe 24/20 Zoll Weiche Wischerblätter für Audi A4 2008-201",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -12641,7 +12197,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 批发汽车零件 汽车前挡风玻璃 24/20 英寸软雨刷片 适用于奥迪 A4 2008-201",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -12671,7 +12226,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Venta al por mayor de piezas de automóviles Parabrisas delantero del automóvil Hojas de limpiaparabrisas suaves de 26/14 pulgadas para Hyundai IX20 201",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -12699,7 +12253,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION оптом Автозапчасти Передние щетки стеклоочистителя 26/14 дюймов для Hyundai IX20 201",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -12727,7 +12280,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Pièces Auto de Gros Balais d'essuie-glace avant de voiture 26/14 pouces pour Hyundai IX20 201",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -12755,7 +12307,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Großhandel Autoersatzteile Auto Frontscheibe 26/14 Zoll weiche Wischerblätter für Hyundai IX20 201",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -12783,7 +12334,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 批发汽车零件 前风挡玻璃 26/14 英寸 软雨刷片 适用于现代 IX20 201",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -12813,7 +12363,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Venta al por mayor de piezas de automóviles Fabricantes de escobillas de parabrisas delanteras para BENZ CLASE A CLA GLA",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -12841,7 +12390,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION оптом Автозапчасти Производители передних щеток стеклоочистителя для BENZ A-CLASS CLA GLA",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -12869,7 +12417,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Pièces Auto de Gros Fabricants de Balais d'essuie-glace avant pour BENZ A-CLASS CLA GLA",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -12897,7 +12444,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Großhandel Autoersatzteile Auto Frontscheibenwischer Hersteller für BENZ A-CLASS CLA GLA",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -12925,7 +12471,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 批发汽车零件 前风挡玻璃雨刷片制造商 适用于奔驰 A-CLASS CLA GLA",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -12956,7 +12501,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Accesorios externos para automóviles al por mayor Limpiaparabrisas delantero Hojas suaves para AUDI A6L 2006-2011",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -12984,7 +12528,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION оптом Внешние автомобильные аксессуары Передние мягкие щетки стеклоочистителя для AUDI A6L 2006-2011",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -13012,7 +12555,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Accessoires Externes de Voiture de Gros Balais d'essuie-glace avant souples pour AUDI A6L 2006-2011",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -13040,7 +12582,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Großhandel Auto externe Zubehör Frontscheibe weiche Wischerblätter für AUDI A6L 2006-2011",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -13068,7 +12609,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 批发汽车外部配件 前风挡玻璃软雨刷片 适用于奥迪 A6L 2006-2011",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -13098,7 +12638,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "14-28”",
         "Color": "Negro",
         "Aplicación": "LELION Venta al por mayor Accesorios externos para automóviles U/J Hoja universal para limpiaparabrisas de invierno",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -13126,7 +12665,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "14-28”",
         "Цвет": "Черный",
         "Применяемость": "LELION оптом Внешние автомобильные аксессуары U/J Крючок Универсальные зимние щетки стеклоочистителя для снега",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -13154,7 +12692,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "14-28”",
         "Couleur": "Noir",
         "Application": "LELION Accessoires Externes de Voiture de Gros Balais d'essuie-glace universels d'hiver U/J Hook",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -13182,7 +12719,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "14-28”",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Großhandel Auto externe Zubehör U/J Haken Universal Winter-Schnee-Wischerblätter",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -13210,7 +12746,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "14-28”",
         "颜色": "黑色",
         "适用车型": "LELION 批发汽车外部配件 U/J 钩通用冬季雪地雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -13240,7 +12775,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Mayorista Parabrisas Delantero Fabricantes de Limpiaparabrisas Especial para SKODA FABIA 2007-2014",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -13268,7 +12802,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION оптом Передние специальные щетки стеклоочистителя Производители для SKODA FABIA 2007-2014",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -13296,7 +12829,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Pièces Auto de Gros Fabricants de Balais d'essuie-glace spéciaux avant pour SKODA FABIA 2007-2014",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -13324,7 +12856,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Großhandel Auto Frontscheiben-Sonderwischerblätter Hersteller für SKODA FABIA 2007-2014",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -13352,7 +12883,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 批发汽车前风挡玻璃专用雨刷片制造商 适用于斯柯达 FABIA 2007-2014",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -13382,7 +12912,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Juego de limpiaparabrisas trasero con brazo de escobilla de goma para coche al por mayor LELION para Toyota Rav4 2006-2012",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -13410,7 +12939,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION оптом Задняя резиновая щетка стеклоочистителя Комбинация рычагов заднего стекла для Toyota Rav4 2006-2012",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -13438,7 +12966,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Ensemble Balais et Bras d'essuie-glace arrière pour Toyota Rav4 2006-2012",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -13466,7 +12993,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Großhandel Auto Heckgummi-Wischerblattarm Heckscheibenwischer-Set für Toyota Rav4 2006-2012",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -13494,7 +13020,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 批发汽车后橡胶雨刷片臂 后风挡玻璃雨刷组件 适用于丰田 RAV4 2006-2012",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -13524,7 +13049,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Combinación de brazo de escobilla de limpiaparabrisas para limpiaparabrisas trasero de coche al por mayor para Audi Q7 2006 - 2015",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -13552,7 +13076,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION оптом Задний дворник Комбинация рычагов щетки стеклоочистителя для Audi Q7 2006-2015",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -13580,7 +13103,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Ensemble Bras et Balais d'essuie-glace arrière pour Audi Q7 2006 - 2015",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -13608,7 +13130,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Großhandel Auto Heckscheibenwischer Wischerblattarm-Kombination für Audi Q7 2006-2015",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -13636,7 +13157,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 批发汽车后雨刷 后挡风玻璃雨刷臂组合 适用于奥迪 Q7 2006-2015",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -13666,7 +13186,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Venta al por mayor Parabrisas delantero especial 28+14 pulgadas Escobilla de limpiaparabrisas para HONDA ODYSSEY 2005 -2008",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -13694,7 +13213,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION оптом Передняя специальная щетка стеклоочистителя 28-14 дюймов для HONDA ODYSSEY 2005-2008",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -13722,7 +13240,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Balai d'essuie-glace spécial avant 28 14 pouces pour HONDA ODYSSEY 2005 -2008",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -13750,7 +13267,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Großhandel Frontscheiben-Sonder 28 14 Zoll Wischerblatt für HONDA ODYSSEY 2005-2008",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -13778,7 +13294,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 批发前风挡玻璃专用 28/14 英寸雨刷片 适用于本田 ODYSSEY 2005-2008",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -13808,7 +13323,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "24+24\"",
         "Color": "Negro",
         "Aplicación": "LELION Venta al por mayor Parabrisas delantero Limpiaparabrisas especial para AUDI A8 2003-2010",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -13836,7 +13350,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "24+24\"",
         "Цвет": "Черный",
         "Применяемость": "LELION оптовая продажа специальных мягких щёток для лобового стекла для AUDI A8 2003-2010",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -13864,7 +13377,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "24+24\"",
         "Couleur": "Noir",
         "Application": "LELION Balais d'essuie-glace avant spéciaux souples pour AUDI A8 2003-2010",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -13892,7 +13404,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "24+24\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Großhandel Frontscheiben-Sonder weiche Wischerblätter für AUDI A8 2003-2010",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -13920,7 +13431,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "24+24\"",
         "颜色": "黑色",
         "适用车型": "LELION 批发前风挡玻璃专用软雨刷片 适用于奥迪 A8 2003-2010",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -13951,7 +13461,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "14-28”",
         "Color": "Negro",
         "Aplicación": "LELION Al por mayor Limpiaparabrisas multifunción para nieve Limpiaparabrisas delantero Limpiaparabrisas de invierno",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -13979,7 +13488,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "14-28”",
         "Цвет": "Черный",
         "Применяемость": "LELION оптовая продажа многофункциональных зимних щёток для снега для лобового стекла",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -14007,7 +13515,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "14-28”",
         "Couleur": "Noir",
         "Application": "LELION Balais d'essuie-glace multifonction pour neige, essuie-glace avant pour hiver",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -14035,7 +13542,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "14-28”",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Großhandel Multifunktionales Schneewischerblatt Frontscheibe Winterwischerblätter",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -14063,7 +13569,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "14-28”",
         "颜色": "黑色",
         "适用车型": "LELION 批发多功能雪地雨刷片 前风挡玻璃冬季雨刷",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -14093,7 +13598,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Limpiaparabrisas trasero al por mayor y brazo para hyundai Ix35 2009-2015",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -14121,7 +13625,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION оптовая продажа задней щётки стеклоочистителя и рычага для Hyundai Ix35 2009-2015",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -14149,7 +13652,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Balais et bras d'essuie-glace arrière pour hyundai Ix35 2009-2015",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -14177,7 +13679,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Großhandel Heckscheibenwischerblatt und Arm für Hyundai Ix35 2009-2015",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -14205,7 +13706,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 批发后挡风玻璃雨刷片及雨刷臂 适用于现代 IX35 2009-2015",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -14235,7 +13735,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Limpiaparabrisas trasero al por mayor y brazo para Opel Zafira B 2005-2014",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -14263,7 +13762,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION оптовая продажа задней щётки стеклоочистителя и рычага для Opel Zafira B 2005-2014",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -14291,7 +13789,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Balais et bras d'essuie-glace arrière pour Opel Zafira B 2005-2014",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -14319,7 +13816,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Großhandel Heckscheibenwischerblatt und Arm für Opel Zafira B 2005-2014",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -14347,7 +13843,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 批发后挡风玻璃雨刷片及雨刷臂 适用于欧宝 Zafira B 2005-2014",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -14377,7 +13872,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Limpiaparabrisas trasero al por mayor y juego de brazos Limpiaparabrisas trasero de coche para TOYOTA PRIUS C 2012-2016",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -14405,7 +13899,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION оптовая продажа комплекта задних щёток и рычагов для заднего стекла автомобиля TOYOTA PRIUS C 2012-2016",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -14433,7 +13926,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Ensemble Balais et bras d'essuie-glace arrière pour TOYOTA PRIUS C 2012-2016",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -14461,7 +13953,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Großhandel Heckwischerblätter und Arm Set Auto Heckscheibenwischer für TOYOTA PRIUS C 2012-2016",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -14489,7 +13980,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 批发后雨刷片及臂组件 汽车后窗雨刷 适用于丰田 PRIUS C 2012-2016",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -14519,7 +14009,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Limpiaparabrisas trasero al por mayor y juego de brazos para Opel Astra H 5 puertas 2004-2009",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -14547,7 +14036,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION оптовая продажа комплекта задних щёток и рычагов для Opel Astra H 5 дверей 2004-2009",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -14575,7 +14063,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Ensemble Balais et bras d'essuie-glace arrière pour Opel Astra H 5 portes 2004-2009",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -14603,7 +14090,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Großhandel Heckwischerblätter und Arm Set für Opel Astra H 5 Türen 2004-2009",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -14631,7 +14117,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 批发后雨刷片及臂组件 适用于欧宝 Astra H 五门 2004-2009",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -14661,7 +14146,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "24+24”",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas al por mayor LELION Limpiaparabrisas especiales para BMW E34 1991 - 1995",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -14689,7 +14173,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "24+24”",
         "Цвет": "Черный",
         "Применяемость": "LELION оптовая продажа специальных щёток стеклоочистителя для BMW E34 1991-1995",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -14717,7 +14200,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "24+24”",
         "Couleur": "Noir",
         "Application": "LELION Essuie-glace en gros Spécial essuie-glace pour pare-brise pour BMW E34 1991 - 1995",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -14745,7 +14227,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "24+24”",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Großhandel Scheibenwischer Spezial-Scheibenwischerblätter für BMW E34 1991 - 1995",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -14773,7 +14254,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "24+24”",
         "颜色": "黑色",
         "适用车型": "LELION 批发雨刷片 专用挡风玻璃雨刷片 适用于 BMW E34 1991 - 1995",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -14803,7 +14283,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas al por mayor de LELION Limpiaparabrisas trasero de coche para Honda CR-V 2008-2011",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -14831,7 +14310,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION оптовая продажа щёток стеклоочистителя для заднего стекла автомобиля Honda CR-V 2008-2011",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -14859,7 +14337,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Essuie-glaces en gros Essuie-glace arrière pour voiture pour Honda CR-V 2008-2011",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -14887,7 +14364,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Großhandel Scheibenwischer Auto-Heckscheibenwischerblätter Wischer für Honda CR-V 2008-2011",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -14915,7 +14391,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 批发雨刷片 汽车后挡风玻璃雨刷片 适用于本田 CR-V 2008-2011",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -14945,7 +14420,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "14-28\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas al por mayor LELION Limpiaparabrisas delantero plano universal Limpiaparabrisas blandos para automóviles",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -14973,7 +14447,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "14-28\"",
         "Цвет": "Черный",
         "Применяемость": "LELION оптовая продажа универсальных мягких щёток переднего стекла для автомобилей",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -15001,7 +14474,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "14-28\"",
         "Couleur": "Noir",
         "Application": "LELION Essuie-glaces en gros Essuie-glace avant universel plat souple pour voitures",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -15029,7 +14501,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "14-28\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Großhandel Scheibenwischer Universelle Front-Flachscheibenweicher für Autos",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -15057,7 +14528,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "14-28\"",
         "颜色": "黑色",
         "适用车型": "LELION 批发雨刷片 通用前挡风玻璃软雨刷片 适用于汽车",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -15087,7 +14557,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Limpiaparabrisas Limpiaparabrisas trasero Blades Brazo Limpiaparabrisas trasero coche Combinación para FORD FIESTA 2009",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -15115,7 +14584,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION щётки заднего окна и рычаги стеклоочистителя для автомобиля FORD FIESTA 2009",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -15143,7 +14611,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Essuie-glace pare-brise Essuie-glace arrière bras combinaison essuie-glace arrière pour FORD FIESTA 2009",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -15171,7 +14638,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Scheibenwischer Heckscheibenwischerblätter Arm Auto-Heckwischer-Kombination für FORD FIESTA 2009",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -15199,7 +14665,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 挡风玻璃雨刷 后窗雨刷片臂 适用于 FORD FIESTA 2009 后部雨刷组合",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -15229,7 +14694,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas LELION Brazo de la hoja del limpiaparabrisas trasero Limpiaparabrisas trasero para BMW X5 E53 1999-2006",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -15257,7 +14721,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION щётки стеклоочистителя заднего стекла и рычаги для BMW X5 E53 1999-2006",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -15285,7 +14748,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Essuie-glaces pare-brise Essuie-glace arrière bras pour bmw Voiture essuie-glace arrière pour bmw X5 E53 1999-2006",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -15313,7 +14775,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Scheibenwischer Heckwischerblatt Arm BMW Auto-Heckwischer für BMW X5 E53 1999-2006",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -15341,7 +14802,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 挡风玻璃雨刷 后雨刷片臂 适用于 BMW X5 E53 1999-2006",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -15371,7 +14831,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Limpiaparabrisas 24+24 Pulgadas Limpiaparabrisas Especial Combinación Coche Limpiaparabrisas para bmw 5 E34",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -15399,7 +14858,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION щётка стеклоочистителя 24 дюйма специальный комплект щёток для лобового стекла BMW 5 E34",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -15427,7 +14885,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Lame d'essuie-glace 24 24 pouces Combinaison d'essuie-glace spéciale pour pare-brise de voiture pour bmw 5 E34",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -15455,7 +14912,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Scheibenwischer 24 24 Zoll Spezial-Wischkombination Auto-Scheibenwischerblätter für BMW 5 E34",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -15483,7 +14939,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 雨刷片 24 英寸专用雨刷组合 汽车挡风玻璃雨刷片 适用于 BMW 5 E34",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -15513,7 +14968,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas LELION Limpiaparabrisas delantero de coche Limpiaparabrisas especiales para VOLVO C60 XC60 C70 V40 V60",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -15541,7 +14995,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION щётка стеклоочистителя для переднего стекла автомобиля VOLVO C60 XC60 C70 V40 V60",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -15569,7 +15022,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Lame d'essuie-glace Avant voiture Spécial essuie-glace pour VOLVO C60 XC60 C70 V40 V60",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -15597,7 +15049,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Scheibenwischer Auto-Frontscheibe Spezial-Scheibenwischer für VOLVO C60 XC60 C70 V40 V60",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -15625,7 +15076,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 前挡风玻璃汽车雨刷片 特殊雨刷片 适用于 VOLVO C60 XC60 C70 V40 V60",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -15655,7 +15105,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "26+22\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas LELION al por mayor 26+22 pulgadas limpiaparabrisas delantero de coche para Ford Explorer 2013",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -15683,7 +15132,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "26+22\"",
         "Цвет": "Черный",
         "Применяемость": "LELION оптовая продажа щёток 26 и 22 дюйма для переднего стекла автомобиля Ford Explorer 2013",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -15711,7 +15159,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "26+22\"",
         "Couleur": "Noir",
         "Application": "LELION Essuie-glaces en gros 26 22 pouces Essuie-glaces avant souples pour Ford Explorer 2013",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -15739,7 +15186,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "26+22\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Scheibenwischer Großhandel 26 22 Zoll Auto-Frontscheibe Weiche Wischer für Ford Explorer 2013",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -15767,7 +15213,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "26+22\"",
         "颜色": "黑色",
         "适用车型": "LELION 批发雨刷片 26/22 英寸 汽车前挡风玻璃软雨刷片 适用于 Ford Explorer 2013",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -15797,7 +15242,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELION Limpiaparabrisas toyota Car Combinación Limpiaparabrisas Trasero para Toyota PREVIA 2006",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -15825,7 +15269,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION щётки для Toyota, комплект щёток заднего стекла для Toyota PREVIA 2006",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -15853,7 +15296,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Essuie-glaces Toyota Combinaison essuie-glace arrière pour Toyota PREVIA 2006",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -15881,7 +15323,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Scheibenwischer Toyota Auto-Heckscheibenwischer-Kombination für Toyota PREVIA 2006",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -15909,7 +15350,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 雨刷片 丰田汽车挡风玻璃后雨刷片组合 适用于 Toyota PREVIA 2006",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -15939,7 +15379,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "LELIONLimpiaparabrisas Limpiaparabrisas sin marco Limpiaparabrisas delantero de coche para RENAULT SCENIC MEGANE C",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -15967,7 +15406,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "LELION Щетки стеклоочистителя без каркаса для переднего стекла автомобиля для RENAULT SCENIC MEGANE C",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -15995,7 +15433,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "LELION Essuie-glaces pare-brise Essuie-glace sans cadre Essuie-glace avant de voiture pour RENAULT SCENIC MEGANE C",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -16023,7 +15460,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Scheibenwischer Rahenloser Wischer Auto-Frontscheibenwischer für RENAULT SCENIC MEGANE C",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -16051,7 +15487,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "LELION 无骨雨刷片 汽车前挡风玻璃雨刷片 适用于 RENAULT SCENIC MEGANE C",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -16081,7 +15516,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Mercedes Benz Clase M W164 2006-2012 Piezas 1648200344 Brazo de limpiaparabrisas",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -16109,7 +15543,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Щетка стеклоочистителя Mercedes Benz M-Class W164 2006-2012 Часть 1648200344 Рычаг стеклоочистителя",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -16137,7 +15570,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Mercedes Benz Classe M W164 2006-2012 Pièces 1648200344 Bras d'essuie-glace",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -16165,7 +15597,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Mercedes Benz M-Klasse W164 2006-2012 Teile 1648200344 Wischerarm",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -16193,7 +15624,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "奔驰 M-Class W164 2006-2012 零件 1648200344 雨刷臂",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -16224,7 +15654,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Mercedes-Benz Vito W447 Brazo Limpiaparabrisas Delantero Derecho (LHD) | OE: A4478200200 | Reemplazo Premium",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -16252,7 +15681,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Передний правый рычаг стеклоочистителя Mercedes-Benz Vito W447 (LHD) | OE: A4478200200 | Премиальная замена",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -16280,7 +15708,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Mercedes-Benz Vito W447 Bras d'essuie-glace avant droit (LHD) | OE : A4478200200 | Remplacement premium",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -16308,7 +15735,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Mercedes-Benz Vito W447 Front rechter Wischerarm (LHD) | OE: A4478200200 | Premium Ersatz",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -16336,7 +15762,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "奔驰 Vito W447 前右雨刷臂 (左舵) | 原厂号: A4478200200 | 高端替换件",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -16366,7 +15791,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Brazo de limpiaparabrisas Mercedes-Benz se adapta 2016-2023 Mercedes-Benz Metris",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -16394,7 +15818,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Рычаг стеклоочистителя Mercedes-Benz подходит для 2016-2023 Mercedes-Benz Metris",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -16422,7 +15845,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Mercedes-Benz Bras d'essuie-glace compatible avec Mercedes-Benz Metris 2016-2023",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -16450,7 +15872,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Mercedes-Benz Wischerarm passend für 2016-2023 Mercedes-Benz Metris",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -16478,7 +15899,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "奔驰雨刷臂 适用于 2016-2023 Mercedes-Benz Metris",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -16508,7 +15928,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "14\"- 28\"",
         "Color": "Negro",
         "Aplicación": "Escobilla metálica para limpiaparabrisas BW-410",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -16536,7 +15955,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "14\"- 28\"",
         "Цвет": "Черный",
         "Применяемость": "Металлическая рамка щетки стеклоочистителя BW-410",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -16564,7 +15982,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "14\"- 28\"",
         "Couleur": "Noir",
         "Application": "Lame d'essuie-glace à cadre métallique BW-410",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -16592,7 +16009,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "14\"- 28\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Metallrahmen Scheibenwischerblatt BW-410",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -16620,7 +16036,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "14\"- 28\"",
         "颜色": "黑色",
         "适用车型": "金属框架挡风玻璃雨刷片 BW-410",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -16650,7 +16065,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "14\"- 28\"",
         "Color": "Negro",
         "Aplicación": "Hoja limpiaparabrisas de marco metálico BW-407 para brazo de limpiaparabrisas con gancho en U",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -16678,7 +16092,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "14\"- 28\"",
         "Цвет": "Черный",
         "Применяемость": "Металлическая рамка щетки BW-407 для рычага с U-образным крюком",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -16706,7 +16119,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "14\"- 28\"",
         "Couleur": "Noir",
         "Application": "Lame d'essuie-glace à cadre métallique BW-407 pour bras d'essuie-glace en crochet en U",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -16734,7 +16146,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "14\"- 28\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Metallrahmen Wischerblatt BW-407 für U-Haken Wischerarm",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -16762,7 +16173,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "14\"- 28\"",
         "颜色": "黑色",
         "适用车型": "金属框架雨刷片 BW-407 适用于 U 型钩雨刷臂",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -16792,7 +16202,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para VOLVO V40 2012-2015",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -16820,7 +16229,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Щетки заднего стекла для VOLVO V40 2012-2015",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -16848,7 +16256,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Essuie-glaces arrière pour pare-brise pour VOLVO V40 2012-2015",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -16876,7 +16283,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblätter für VOLVO V40 2012-2015",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -16904,7 +16310,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "后挡风玻璃雨刷片 适用于 VOLVO V40 2012-2015",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -16934,7 +16339,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Cuchilla limpiaparabrisas trasera para MITSUBISHI OUTLANDER PAJERO OUTLANDER EX",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -16962,7 +16366,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Щетка заднего стекла для MITSUBISHI OUTLANDER PAJERO OUTLANDER EX",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -16990,7 +16393,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Lame d'essuie-glace arrière pour MITSUBISHI OUTLANDER PAJERO OUTLANDER EX",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -17018,7 +16420,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheiben-Wischerblatt für MITSUBISHI OUTLANDER PAJERO OUTLANDER EX",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -17046,7 +16447,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "后挡风玻璃雨刷片 适用于 MITSUBISHI OUTLANDER PAJERO OUTLANDER EX",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -17076,7 +16476,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para Kia Sportage 2010-2016",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -17104,7 +16503,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Щетка заднего стекла для Kia Sportage 2010-2016",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -17132,7 +16530,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Lame d'essuie-glace arrière pour pare-brise pour Kia Sportage 2010-2016",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -17160,7 +16557,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblatt für Kia Sportage 2010-2016",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -17188,7 +16584,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "后挡风玻璃雨刷片 适用于 Kia Sportage 2010-2016",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -17218,7 +16613,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para Opel Combo 2012-2018",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -17246,7 +16640,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Щетка заднего стекла для Opel Combo 2012-2018",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -17274,7 +16667,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Balai d'essuie-glace arrière pour Opel Combo 2012-2018",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -17302,7 +16694,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblatt für Opel Combo 2012-2018",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -17330,7 +16721,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "适用于欧宝Combo 2012-2018的后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -17360,7 +16750,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para SAAB 9-2X 2005",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -17388,7 +16777,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Щетка заднего стекла для SAAB 9-2X 2005",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -17416,7 +16804,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Balai d'essuie-glace arrière pour SAAB 9-2X 2005",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -17444,7 +16831,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblatt für SAAB 9-2X 2005",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -17472,7 +16858,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "适用于萨博9-2X 2005的后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -17502,7 +16887,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para CHEVROLET HHR 2006-2011",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -17530,7 +16914,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Щетки заднего стекла для CHEVROLET HHR 2006-2011",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -17558,7 +16941,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Balais d'essuie-glace arrière pour CHEVROLET HHR 2006-2011",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -17586,7 +16968,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblätter für CHEVROLET HHR 2006-2011",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -17614,7 +16995,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "适用于雪佛兰HHR 2006-2011的后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -17644,7 +17024,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para Land Rover Discovery V 2017",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -17672,7 +17051,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Щетки заднего стекла для Land Rover Discovery V 2017",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -17700,7 +17078,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Balais d'essuie-glace arrière pour Land Rover Discovery V 2017",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -17728,7 +17105,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblätter für Land Rover Discovery V 2017",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -17756,7 +17132,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "适用于路虎发现V 2017的后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -17786,7 +17161,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero de 12 pulgadas para KARRY K50 K60",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -17814,7 +17188,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Щетка заднего стекла 12 дюймов для KARRY K50 K60",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -17842,7 +17215,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Balai d'essuie-glace arrière 12 pouces pour KARRY K50 K60",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -17870,7 +17242,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "12-Zoll-Heckscheibenwischerblatt für KARRY K50 K60",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -17898,7 +17269,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "适用于卡瑞K50 K60的12英寸后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -17928,7 +17298,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "16\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero de 16 pulgadas para Dacia Sandero 2008-2013",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -17956,7 +17325,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "16\"",
         "Цвет": "Черный",
         "Применяемость": "Щетки заднего стекла 16 дюймов для Dacia Sandero 2008-2013",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -17984,7 +17352,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "16\"",
         "Couleur": "Noir",
         "Application": "Balais d'essuie-glace arrière 16 pouces pour Dacia Sandero 2008-2013",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -18012,7 +17379,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "16\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "16-Zoll-Heckscheibenwischerblätter für Dacia Sandero 2008-2013",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -18040,7 +17406,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "16\"",
         "颜色": "黑色",
         "适用车型": "适用于达契亚桑德罗2008-2013的16英寸后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -18070,7 +17435,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero especial para Dodge DURANGO 2004-2009",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -18098,7 +17462,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Особая щетка заднего стекла для Dodge DURANGO 2004-2009",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -18126,7 +17489,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Balai d'essuie-glace arrière spécial compatible avec Dodge DURANGO 2004-2009",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -18154,7 +17516,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Spezial-Heckscheibenwischerblatt passend für Dodge DURANGO 2004-2009",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -18182,7 +17543,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "适用于道奇DURANGO 2004-2009的专用后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -18218,7 +17578,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero Balde para Fiat Europe PUNTO 2008--2011",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -18246,7 +17605,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Щетка заднего стекла для Fiat Europe PUNTO 2008-2011",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -18274,7 +17632,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Balai d'essuie-glace arrière pour Fiat Europe PUNTO 2008-2011",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -18302,7 +17659,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblatt für Fiat Europe PUNTO 2008-2011",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -18330,7 +17686,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "适用于菲亚特欧洲PUNTO 2008-2011的后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -18360,7 +17715,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero Balde para Ford Explorer 2016-2016",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -18388,7 +17742,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Щетка заднего стеклоочистителя для Ford Explorer 2016-2016",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -18416,7 +17769,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Balai d'essuie-glace arrière pour Ford Explorer 2016",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -18444,7 +17796,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblatt für Ford Explorer 2016",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -18472,7 +17823,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "适用于福特探险者2016-2016的后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -18502,7 +17852,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero Balde para Nissan Juke 2010-2016",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -18530,7 +17879,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Щетка заднего стеклоочистителя для Nissan Juke 2010-2016",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -18558,7 +17906,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Balai d'essuie-glace arrière pour Nissan Juke 2010-2016",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -18586,7 +17933,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblatt für Nissan Juke 2010-2016",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -18614,7 +17960,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "适用于日产Juke 2010-2016的后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -18644,7 +17989,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero Balde para PEUGEOT 508 2011--2013",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -18672,7 +18016,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Щетка заднего стеклоочистителя для PEUGEOT 508 2011-2013",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -18700,7 +18043,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Balai d'essuie-glace arrière pour PEUGEOT 508 2011-2013",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -18728,7 +18070,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblatt für PEUGEOT 508 2011-2013",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -18756,7 +18097,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "适用于标致508 2011-2013的后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -18786,7 +18126,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero Baldes para Fiat Europe Sedici 2002",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -18814,7 +18153,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Щетки заднего стеклоочистителя для Fiat Europe Sedici 2002",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -18842,7 +18180,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Balais d'essuie-glace arrière pour Fiat Europe Sedici 2002",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -18870,7 +18207,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblätter für Fiat Europe Sedici 2002",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -18898,7 +18234,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "适用于菲亚特欧洲Sedici 2002的后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -18928,7 +18263,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero Baldes para Mercedes-Benz CLASE M W164 2005-2011",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -18956,7 +18290,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Щетки заднего стеклоочистителя для Mercedes-Benz M-CLASS W164 2005-2011",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -18984,7 +18317,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Balais d'essuie-glace arrière pour Mercedes-Benz M-CLASS W164 2005-2011",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -19012,7 +18344,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblätter für Mercedes-Benz M-KLASSE W164 2005-2011",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -19040,7 +18371,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "适用于奔驰M级W164 2005-2011的后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -19070,7 +18400,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero Baldes para NISSAN DONGFENG Qashqai 2008-2017",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -19098,7 +18427,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Щетки заднего стеклоочистителя для NISSAN DONGFENG Qashqai 2008-2017",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -19126,7 +18454,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Balais d'essuie-glace arrière pour NISSAN DONGFENG Qashqai 2008-2017",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -19154,7 +18481,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblätter für NISSAN DONGFENG Qashqai 2008-2017",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -19182,7 +18508,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "适用于日产东风逍客Qashqai 2008-2017的后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -19212,7 +18537,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero Baldes para Opel Corsa D 2006-2013",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -19240,7 +18564,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Щетки заднего стеклоочистителя для Opel Corsa D 2006-2013",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -19268,7 +18591,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Balais d'essuie-glace arrière pour Opel Corsa D 2006-2013",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -19296,7 +18618,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblätter für Opel Corsa D 2006-2013",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -19324,7 +18645,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "适用于欧宝Corsa D 2006-2013的后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -19354,7 +18674,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "14\"",
         "Color": "Negro",
         "Aplicación": "Escobilla limpiaparabrisas trasero 14 pulgadas para Peugeot 206 1998-2006",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -19382,7 +18701,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "14\"",
         "Цвет": "Черный",
         "Применяемость": "Щетка заднего стеклоочистителя 14 дюймов для Peugeot 206 1998-2006",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -19410,7 +18728,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "14\"",
         "Couleur": "Noir",
         "Application": "Balai d'essuie-glace arrière 14 pouces pour Peugeot 206 1998-2006",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -19438,7 +18755,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "14\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "14-Zoll-Heckscheibenwischerblatt für Peugeot 206 1998-2006",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -19466,7 +18782,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "14\"",
         "颜色": "黑色",
         "适用车型": "适用于标致206 1998-2006的14英寸后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -19496,7 +18811,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Juego de brazos de la hoja del limpiaparabrisas trasero para VW Golf MK6 2009-2012",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -19524,7 +18838,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Комплект рычага и щетки заднего стеклоочистителя для VW Golf MK6 2009-2012",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -19552,7 +18865,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Lot de bras de balai d'essuie-glace arrière pour VW Golf MK6 2009-2012",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -19580,7 +18892,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Set Heckscheibenwischerblatt und -arm für VW Golf MK6 2009-2012",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -19608,7 +18919,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "适用于大众高尔夫MK6 2009-2012的后挡风玻璃雨刷臂套装",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -19638,7 +18948,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para CADILLAC BLS 2006-2016",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -19666,7 +18975,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Щетка заднего стеклоочистителя для CADILLAC BLS 2006-2016",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -19694,7 +19002,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Balai d'essuie-glace arrière pour CADILLAC BLS 2006-2016",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -19722,7 +19029,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblatt für CADILLAC BLS 2006-2016",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -19750,7 +19056,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "适用于凯迪拉克BLS 2006-2016的后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -19780,7 +19085,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para coche TOYOTA PRIUS C 2012-2016",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -19808,7 +19112,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Щетка заднего стеклоочистителя для Car TOYOTA PRIUS C 2012-2016",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -19836,7 +19139,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Balai d'essuie-glace arrière pour voiture TOYOTA PRIUS C 2012-2016",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -19864,7 +19166,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblatt für Auto TOYOTA PRIUS C 2012-2016",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -19892,7 +19193,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "适用于丰田普锐斯C 2012-2016的后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -19922,7 +19222,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Cuchilla limpiaparabrisas trasero para CHEVROLET SPARK GT 2005-2011",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -19950,7 +19249,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Щетка заднего стеклоочистителя для CHEVROLET SPARK GT 2005-2011",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -19978,7 +19276,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Lame d'essuie-glace arrière pour CHEVROLET SPARK GT 2005-2011",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -20006,7 +19303,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblatt für CHEVROLET SPARK GT 2005-2011",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -20034,7 +19330,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "雪佛兰 SPARK GT 2005-2011 后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -20064,7 +19359,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para GMC YUKON 2007-2014",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -20092,7 +19386,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Щетка заднего стеклоочистителя для GMC YUKON 2007-2014",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -20120,7 +19413,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Lame d'essuie-glace arrière pour GMC YUKON 2007-2014",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -20148,7 +19440,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblatt für GMC YUKON 2007-2014",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -20176,7 +19467,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "GMC YUKON 2007-2014 后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -20206,7 +19496,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Cuchilla limpiaparabrisas trasero para HYUNDAI I30 I30 CW ELANTRA GT",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -20234,7 +19523,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Щетка заднего стеклоочистителя для HYUNDAI I30 I30 CW ELANTRA GT",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -20262,7 +19550,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Lame d'essuie-glace arrière pour HYUNDAI I30 I30 CW ELANTRA GT",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -20290,7 +19577,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblatt für HYUNDAI I30 I30 CW ELANTRA GT",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -20318,7 +19604,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "现代 I30 I30 CW ELANTRA GT 后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -20348,7 +19633,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para Infiniti EX35 2008-2012",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -20376,7 +19660,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Щетка заднего стеклоочистителя для Infiniti EX35 2008-2012",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -20404,7 +19687,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Lame d'essuie-glace arrière pour Infiniti EX35 2008-2012",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -20432,7 +19714,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblatt für Infiniti EX35 2008-2012",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -20460,7 +19741,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "英菲尼迪 EX35 2008-2012 后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -20490,7 +19770,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Cuchilla de limpiaparabrisas trasero para KIA SPORTAGE",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -20518,7 +19797,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Щетка заднего стеклоочистителя для KIA SPORTAGE",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -20546,7 +19824,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Lame d'essuie-glace arrière pour KIA SPORTAGE",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -20574,7 +19851,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblatt für KIA SPORTAGE",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -20602,7 +19878,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "起亚 SPORTAGE 后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -20632,7 +19907,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para Mercedes - Benz C300 2010 - 2011",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -20660,7 +19934,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Щетка заднего стеклоочистителя для Mercedes-Benz C300 2010-2011",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -20688,7 +19961,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Lame d'essuie-glace arrière pour Mercedes-Benz C300 2010-2011",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -20716,7 +19988,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblatt für Mercedes-Benz C300 2010-2011",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -20744,7 +20015,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "梅赛德斯 - 奔驰 C300 2010 - 2011 后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -20774,7 +20044,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para Mini Countryman (R60) 2010-2016",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -20802,7 +20071,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Щетка заднего стеклоочистителя для Mini Countryman (R60) 2010-2016",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -20830,7 +20098,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Lame d'essuie-glace arrière pour Mini Countryman (R60) 2010-2016",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -20858,7 +20125,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblatt für Mini Countryman (R60) 2010-2016",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -20886,7 +20152,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "迷你 Countryman (R60) 2010-2016 后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -20916,7 +20181,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para Nissan Dongfeng Livina 2007--2015",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -20944,7 +20208,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Щетка заднего стеклоочистителя для Nissan Dongfeng Livina 2007-2015",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -20972,7 +20235,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Lame d'essuie-glace arrière pour Nissan Dongfeng Livina 2007-2015",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -21000,7 +20262,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblatt für Nissan Dongfeng Livina 2007-2015",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -21028,7 +20289,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "日产东风 Livina 2007--2015 后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -21058,7 +20318,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para SUZUKI LIANA LIANA A6",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -21086,7 +20345,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Щетка заднего стеклоочистителя для SUZUKI LIANA LIANA A6",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -21114,7 +20372,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Lame d'essuie-glace arrière pour SUZUKI LIANA LIANA A6",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -21142,7 +20399,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblatt für SUZUKI LIANA LIANA A6",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -21170,7 +20426,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "铃木 LIANA LIANA A6 后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -21200,7 +20455,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para TOYOTA YARIS 2008-2013",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -21228,7 +20482,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Щетка заднего стеклоочистителя для TOYOTA YARIS 2008-2013",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -21256,7 +20509,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Lame d'essuie-glace arrière pour TOYOTA YARIS 2008-2013",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -21284,7 +20536,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblatt für TOYOTA YARIS 2008-2013",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -21312,7 +20563,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "丰田 YARIS 2008-2013 后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -21342,7 +20592,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para ALFA ROMEO 159 SW 2005-2011",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -21370,7 +20619,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Щетки заднего стеклоочистителя для ALFA ROMEO 159 SW 2005-2011",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -21398,7 +20646,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Lames d'essuie-glace arrière pour ALFA ROMEO 159 SW 2005-2011",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -21426,7 +20673,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblätter für ALFA ROMEO 159 SW 2005-2011",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -21454,7 +20700,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "阿尔法罗密欧 159 SW 2005-2011 后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -21484,7 +20729,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "12\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para BMW X1 E84 2009-2015",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -21512,7 +20756,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "12\"",
         "Цвет": "Черный",
         "Применяемость": "Щетки заднего стеклоочистителя для BMW X1 E84 2009-2015",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -21540,7 +20783,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "12\"",
         "Couleur": "Noir",
         "Application": "Lames d'essuie-glace arrière pour BMW X1 E84 2009-2015",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -21568,7 +20810,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "12\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblätter für BMW X1 E84 2009-2015",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -21596,7 +20837,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "12\"",
         "颜色": "黑色",
         "适用车型": "宝马 X1 E84 2009-2015 后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -21626,7 +20866,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "12\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para coche BYD F0 2008",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -21654,7 +20893,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "12\"",
         "Цвет": "Черный",
         "Применяемость": "Щетки заднего стеклоочистителя для Car BYD F0 2008",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -21682,7 +20920,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "12\"",
         "Couleur": "Noir",
         "Application": "Lames d'essuie-glace arrière pour voiture BYD F0 2008",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -21710,7 +20947,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "12\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblätter für Auto BYD F0 2008",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -21738,7 +20974,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "12\"",
         "颜色": "黑色",
         "适用车型": "比亚迪 F0 2008 后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -21768,7 +21003,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para COCHE HONDA ODYSSEY 2011",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -21796,7 +21030,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Щетки заднего стеклоочистителя для CAR HONDA ODYSSEY 2011",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -21824,7 +21057,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Lames d'essuie-glace arrière pour voiture HONDA ODYSSEY 2011",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -21852,7 +21084,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblätter für Auto HONDA ODYSSEY 2011",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -21880,7 +21111,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "本田 ODYSSEY 2011 后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -21910,7 +21140,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para coche Kia NIRO 2017-2019",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -21938,7 +21167,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Задние щетки стеклоочистителя для автомобиля Kia NIRO 2017-2019",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -21966,7 +21194,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Lames d'essuie-glace arrière pour voiture Kia NIRO 2017-2019",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -21994,7 +21221,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblätter für Auto Kia NIRO 2017-2019",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -22022,7 +21248,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "起亚 NIRO 2017-2019 后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -22052,7 +21277,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para CHEVROLET TAHOE 2013",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -22080,7 +21304,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Задние щетки стеклоочистителя для CHEVROLET TAHOE 2013",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -22108,7 +21331,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Lames d'essuie-glace arrière pour CHEVROLET TAHOE 2013",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -22136,7 +21358,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblätter für CHEVROLET TAHOE 2013",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -22164,7 +21385,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "雪佛兰 TAHOE 2013 后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -22194,7 +21414,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para Citroën C3 MK2 Hatchback 2009-2016",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -22222,7 +21441,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Задние щетки стеклоочистителя для Citroen C3 MK2 Hatchback 2009-2016",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -22250,7 +21468,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Lames d'essuie-glace arrière pour Citroën C3 MK2 Hatchback 2009-2016",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -22278,7 +21495,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblätter für Citroen C3 MK2 Hatchback 2009-2016",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -22306,7 +21522,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "雪铁龙 C3 MK2 两厢 2009-2016 后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -22336,7 +21551,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para DODGE DURANGO 2011-2014",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -22364,7 +21578,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Задние щетки стеклоочистителя для DODGE DURANGO 2011-2014",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -22392,7 +21605,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Lames d'essuie-glace arrière pour DODGE DURANGO 2011-2014",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -22420,7 +21632,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblätter für DODGE DURANGO 2011-2014",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -22448,7 +21659,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "道奇 DURANGO 2011-2014 后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -22478,7 +21688,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para BMW X3 F25 europeo 2010",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -22506,7 +21715,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Задние щетки стеклоочистителя для европейского BMW X3 F25 2010",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -22534,7 +21742,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Lames d'essuie-glace arrière pour BMW X3 F25 Europe 2010",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -22562,7 +21769,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblätter für europäische BMW X3 F25 2010",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -22590,7 +21796,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "欧洲宝马 X3 F25 2010 后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -22620,7 +21825,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para Honda Civic 2001 - 2005",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -22648,7 +21852,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Задние щетки стеклоочистителя для Honda Civic 2001-2005",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -22676,7 +21879,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Lames d'essuie-glace arrière pour Honda Civic 2001-2005",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -22704,7 +21906,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblätter für Honda Civic 2001-2005",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -22732,7 +21933,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "本田 Civic 2001 - 2005 后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -22762,7 +21962,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para Infiniti QX56 2008-2016",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -22790,7 +21989,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Задние щетки стеклоочистителя для Infiniti QX56 2008-2016",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -22818,7 +22016,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Lames d'essuie-glace arrière pour Infiniti QX56 2008-2016",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -22846,7 +22043,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblätter für Infiniti QX56 2008-2016",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -22874,7 +22070,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "英菲尼迪 QX56 2008-2016 后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -22904,7 +22099,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para JONWAY A380 LIEYING",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -22932,7 +22126,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Задние щетки стеклоочистителя для JONWAY A380 LIEYING",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -22960,7 +22153,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Lames d'essuie-glace arrière pour JONWAY A380 LIEYING",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -22988,7 +22180,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblätter für JONWAY A380 LIEYING",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -23016,7 +22207,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "君伟 A380 LIEYING 后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -23046,7 +22236,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para Kia Borrego 2009-2011",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -23074,7 +22263,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Задние щетки стеклоочистителя для Kia Borrego 2009-2011",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -23102,7 +22290,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Lames d'essuie-glace arrière pour Kia Borrego 2009-2011",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -23130,7 +22317,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblätter für Kia Borrego 2009-2011",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -23158,7 +22344,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "起亚 Borrego 2009-2011 后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -23188,7 +22373,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para Kia Picanto 2004-2016",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -23216,7 +22400,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Задние щетки стеклоочистителя для Kia Picanto 2004-2016",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -23244,7 +22427,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Lames d'essuie-glace arrière pour Kia Picanto 2004-2016",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -23272,7 +22454,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblätter für Kia Picanto 2004-2016",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -23300,7 +22481,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "起亚 Picanto 2004-2016 后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -23330,7 +22510,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para MG MG3 2011-2014",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -23358,7 +22537,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Задние щетки стеклоочистителя для MG MG3 2011-2014",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -23386,7 +22564,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Lames d'essuie-glace arrière pour MG MG3 2011-2014",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -23414,7 +22591,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblätter für MG MG3 2011-2014",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -23442,7 +22618,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "名爵 MG3 2011-2014 后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -23472,7 +22647,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para MINI R56 COOPER 2006-2013",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -23500,7 +22674,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Задние щетки стеклоочистителя для MINI R56 COOPER 2006-2013",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -23528,7 +22701,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Lames d'essuie-glace arrière pour MINI R56 COOPER 2006-2013",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -23556,7 +22728,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblätter für MINI R56 COOPER 2006-2013",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -23584,7 +22755,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "迷你 R56 COOPER 2006-2013 后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -23614,7 +22784,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para Nissan Armada 2004-2015",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -23642,7 +22811,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Задние щетки стеклоочистителя для Nissan Armada 2004-2015",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -23670,7 +22838,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Balais d'essuie-glace arrière pour Nissan Armada 2004-2015",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -23698,7 +22865,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblätter für Nissan Armada 2004-2015",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -23726,7 +22892,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "日产Armada 2004-2015款后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -23756,7 +22921,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para Opel Astra J Sports Tourer 2010",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -23784,7 +22948,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Задние щетки стеклоочистителя для Opel Astra J Sports Tourer 2010",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -23812,7 +22975,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Balais d'essuie-glace arrière pour Opel Astra J Sports Tourer 2010",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -23840,7 +23002,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblätter für Opel Astra J Sports Tourer 2010",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -23868,7 +23029,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "欧宝Astra J Sports Tourer 2010款后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -23898,7 +23058,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para VOLVO V60 2015-2017",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -23926,7 +23085,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Задние щетки стеклоочистителя для VOLVO V60 2015-2017",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -23954,7 +23112,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Balais d'essuie-glace arrière pour VOLVO V60 2015-2017",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -23982,7 +23139,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblätter für VOLVO V60 2015-2017",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -24010,7 +23166,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "沃尔沃V60 2015-2017款后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -24040,7 +23195,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para WULING RONGGUANG",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -24068,7 +23222,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Задние щетки стеклоочистителя для WULING RONGGUANG",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -24096,7 +23249,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Balais d'essuie-glace arrière pour WULING RONGGUANG",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -24124,7 +23276,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblätter für WULING RONGGUANG",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -24152,7 +23303,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "五菱荣光后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -24182,7 +23332,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para MITSUBISHI COLT 2005-2009",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -24210,7 +23359,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Задний стеклоочиститель для MITSUBISHI COLT 2005-2009",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -24238,7 +23386,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Essuie-glace arrière pour MITSUBISHI COLT 2005-2009",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -24266,7 +23413,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischer für MITSUBISHI COLT 2005-2009",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -24294,7 +23440,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "三菱Colt 2005-2009款后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -24324,7 +23469,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para Seat León 2006-2012",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -24352,7 +23496,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Задний стеклоочиститель для Seat Leon 2006-2012",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -24380,7 +23523,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Essuie-glace arrière pour Seat Leon 2006-2012",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -24408,7 +23550,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischer für Seat Leon 2006-2012",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -24436,7 +23577,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "西雅特Leon 2006-2012款后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -24466,7 +23606,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para BMW F20 2011-2019",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -24494,7 +23633,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Задние щетки стеклоочистителя для BMW F20 2011-2019",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -24522,7 +23660,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Balais d'essuie-glace arrière pour BMW F20 2011-2019",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -24550,7 +23687,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblätter für BMW F20 2011-2019",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -24578,7 +23714,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "宝马F20 2011-2019款后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -24608,7 +23743,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para GMC Acadia 2007-2012",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -24636,7 +23770,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Задние стеклоочистители для GMC Acadia 2007-2012",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -24664,7 +23797,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Essuie-glaces arrière pour GMC Acadia 2007-2012",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -24692,7 +23824,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischer für GMC Acadia 2007-2012",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -24720,7 +23851,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "GMC Acadia 2007-2012款后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -24750,7 +23880,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para Kia SPORTAGE IV 2018",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -24778,7 +23907,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Задние стеклоочистители для Kia SPORTAGE IV 2018",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -24806,7 +23934,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Essuie-glaces arrière pour Kia SPORTAGE IV 2018",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -24834,7 +23961,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischer für Kia SPORTAGE IV 2018",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -24862,7 +23988,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "起亚SPORTAGE IV 2018款后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -24892,7 +24017,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "limpiaparabrisas trasero 12\" para Opel para Astra H 5 puertas 2004-2009",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -24920,7 +24044,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Задний стеклоочиститель 12\" для Opel Astra H 5 дверей 2004-2009",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -24948,7 +24071,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Essuie-glace arrière 12\" pour Opel Astra H 5 portes 2004-2009",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -24976,7 +24098,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckwischer 12\" für Opel für Astra H 5 Türen 2004-2009",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -25004,7 +24125,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "欧宝Astra H 5门 2004-2009款12英寸后雨刷",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -25035,7 +24155,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Brazo de limpiaparabrisas trasero con cuchilla de repuesto para V70 XC70 2004-2007",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -25063,7 +24182,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Задний рычаг стеклоочистителя с заменой щетки для V70 XC70 2004-2007",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -25091,7 +24209,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Bras d'essuie-glace arrière avec remplacement de balai pour V70 XC70 2004-2007",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -25119,7 +24236,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckwischerarm mit Klingenersatz für V70 XC70 2004-2007",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -25147,7 +24263,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "V70 XC70 2004-2007款后雨刷臂带雨刷片更换",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -25177,7 +24292,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero 10 pulgadas para SUZUKI ALTO 2009-2014",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -25205,7 +24319,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Задняя щетка стеклоочистителя 10 дюймов для SUZUKI ALTO 2009-2014",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -25233,7 +24346,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Balai d'essuie-glace arrière 10 pouces pour SUZUKI ALTO 2009-2014",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -25261,7 +24373,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckwischerblatt 10 Zoll für SUZUKI ALTO 2009-2014",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -25289,7 +24400,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "铃木Alto 2009-2014款10英寸后雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -25319,7 +24429,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero de 12 pulgadas para Hyundai I20 2009-2014",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -25347,7 +24456,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Задняя щетка стеклоочистителя 12 дюймов для Hyundai I20 2009-2014",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -25375,7 +24483,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Balai d'essuie-glace arrière 12 pouces pour Hyundai I20 2009-2014",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -25403,7 +24510,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckwischerblatt 12 Zoll für Hyundai I20 2009-2014",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -25431,7 +24537,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "现代i20 2009-2014款12英寸后雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -25461,7 +24566,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero de 13 pulgadas para VOLVO V50 2005-2011",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -25489,7 +24593,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Задняя щетка стеклоочистителя 13 дюймов для VOLVO V50 2005-2011",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -25517,7 +24620,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Balai d'essuie-glace arrière 13 pouces pour VOLVO V50 2005-2011",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -25545,7 +24647,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckwischerblatt 13 Zoll für VOLVO V50 2005-2011",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -25573,7 +24674,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "沃尔沃V50 2005-2011款13英寸后雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -25603,7 +24703,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "12\"",
         "Color": "Negro",
         "Aplicación": "Brazo de la escobilla del limpiaparabrisas trasero para Renault Clio 2 1998-2006",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -25631,7 +24730,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "12\"",
         "Цвет": "Черный",
         "Применяемость": "Задний рычаг стеклоочистителя для Renault Clio 2 1998-2006",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -25659,7 +24757,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "12\"",
         "Couleur": "Noir",
         "Application": "Bras de balai d'essuie-glace arrière pour Renault Clio 2 1998-2006",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -25687,7 +24784,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "12\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckwischerblattarm für Renault Clio 2 1998-2006",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -25715,7 +24811,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "12\"",
         "颜色": "黑色",
         "适用车型": "雷诺Clio 2 1998-2006款后雨刷臂",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -25745,7 +24840,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "13\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para BMW X3 F25 2011-2016",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -25773,7 +24867,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "13\"",
         "Цвет": "Черный",
         "Применяемость": "Задний стеклоочиститель для BMW X3 F25 2011-2016",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -25801,7 +24894,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "13\"",
         "Couleur": "Noir",
         "Application": "Balai d'essuie-glace arrière pour BMW X3 F25 2011-2016",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -25829,7 +24921,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "13\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckwischerblatt für BMW X3 F25 2011-2016",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -25857,7 +24948,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "13\"",
         "颜色": "黑色",
         "适用车型": "宝马X3 F25 2011-2016款后雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -25887,7 +24977,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para BMW I3 EUROPEO 2016",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -25915,7 +25004,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Задний стеклоочиститель для EUROPEAN BMW I3 2016",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -25943,7 +25031,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Balai d'essuie-glace arrière pour BMW I3 EUROPÉEN 2016",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -25971,7 +25058,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckwischerblatt für EUROPÄISCHEN BMW I3 2016",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -25999,7 +25085,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "欧洲版宝马I3 2016款后雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -26029,7 +25114,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Cuchilla limpiaparabrisas trasera para Mazda 3 2010",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -26057,7 +25141,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Задний стеклоочиститель для Mazda 3 2010",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -26085,7 +25168,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Balai d'essuie-glace arrière pour Mazda 3 2010",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -26113,7 +25195,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckwischerblatt für Mazda 3 2010",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -26141,7 +25222,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "马自达3 2010款后雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -26171,7 +25251,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para OPEL ASTRA G 1998-2009",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -26199,7 +25278,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Задний стеклоочиститель для OPEL ASTRA G 1998-2009",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -26227,7 +25305,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Balai d'essuie-glace arrière pour OPEL ASTRA G 1998-2009",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -26255,7 +25332,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckwischerblatt für OPEL ASTRA G 1998-2009",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -26283,7 +25359,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "欧宝Astra G 1998-2009款后雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -26313,7 +25388,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para Smart Fortwo Coupé 451 2007-2014",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -26341,7 +25415,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Задний стеклоочиститель для Smart Fortwo Coupe 451 2007-2014",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -26369,7 +25442,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Balai d'essuie-glace arrière pour Smart Fortwo Coupé 451 2007-2014",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -26397,7 +25469,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckwischerblatt für Smart Fortwo Coupe 451 2007-2014",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -26425,7 +25496,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "Smart Fortwo Coupe 451 2007-2014款后雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -26455,7 +25525,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para Toyota Aygo 2005 - 2013",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -26483,7 +25552,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Задний стеклоочиститель для Toyota Aygo 2005 - 2013",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -26511,7 +25579,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Balai d'essuie-glace arrière pour Toyota Aygo 2005 - 2013",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -26539,7 +25606,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckwischerblatt für Toyota Aygo 2005 - 2013",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -26567,7 +25633,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "丰田Aygo 2005-2013款后雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -26598,7 +25663,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para VW Golf 4 MK4 IV 1997-2002",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -26626,7 +25690,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Задний стеклоочиститель для VW Golf 4 MK4 IV 1997-2002",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -26654,7 +25717,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Balai d'essuie-glace arrière pour VW Golf 4 MK4 IV 1997-2002",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -26682,7 +25744,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckwischerblatt für VW Golf 4 MK4 IV 1997-2002",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -26710,7 +25771,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "大众高尔夫4 MK4 IV 1997-2002款后雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -26740,7 +25800,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Cuchilla de limpiaparabrisas trasero con Jeep Commander 2006 - 2010",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -26768,7 +25827,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Задний стеклоочиститель для Jeep Commander 2006 - 2010",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -26796,7 +25854,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Balai d'essuie-glace arrière pour Jeep Commander 2006 - 2010",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -26824,7 +25881,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckwischerblatt mit 2006 - 2010 Jeep Commander",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -26852,7 +25908,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "2006-2010款Jeep Commander后雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -26882,7 +25937,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Cuchilla de limpiaparabrisas trasero con 2012 - 2023 Subaru Impreza Hatchback",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -26910,7 +25964,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Задний стеклоочиститель для Subaru Impreza Hatchback 2012 - 2023",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -26938,7 +25991,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Balai d'essuie-glace arrière pour Subaru Impreza Hatchback 2012 - 2023",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -26966,7 +26018,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckwischerblatt mit 2012 - 2023 Subaru Impreza Hatchback",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -26994,7 +26045,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "2012-2023款斯巴鲁Impreza掀背车后雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -27024,7 +26074,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero con 2014 - 2020 Acura MDX 76730TZ5A01",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -27052,7 +26101,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Задний стеклоочиститель для Acura MDX 76730TZ5A01 2014 - 2020",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -27080,7 +26128,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Balai d'essuie-glace arrière pour Acura MDX 2014 - 2020 76730TZ5A01",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -27108,7 +26155,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckwischerblatt mit 2014 - 2020 Acura MDX 76730TZ5A01",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -27136,7 +26182,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "2014-2020款Acura MDX 76730TZ5A01后雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -27166,7 +26211,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero con Ford Edge 2015 - 2024",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -27194,7 +26238,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Задний стеклоочиститель для Ford Edge 2015 - 2024",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -27222,7 +26265,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Balai d'essuie-glace arrière pour Ford Edge 2015 - 2024",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -27250,7 +26292,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckwischerblatt mit 2015 - 2024 Ford Edge",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -27278,7 +26319,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "2015-2024款福特Edge后雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -27308,7 +26348,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "12\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero 68079869AA para JEEP Grand Cherokee 2011-2016",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -27336,7 +26375,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "12\"",
         "Цвет": "Черный",
         "Применяемость": "Задние стеклоочистители 68079869AA для JEEP Grand Cherokee 2011-2016",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -27364,7 +26402,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "12\"",
         "Couleur": "Noir",
         "Application": "Balais d'essuie-glace arrière 68079869AA pour JEEP Grand Cherokee 2011-2016",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -27392,7 +26429,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "12\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblätter 68079869AA für JEEP Grand Cherokee 2011-2016",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -27420,7 +26456,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "12\"",
         "颜色": "黑色",
         "适用车型": "JEEP大切诺基2011-2016款68079869AA后雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -27450,7 +26485,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para Nissan Leaf 2010-2017",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -27478,7 +26512,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Задние стеклоочистители для Nissan Leaf 2010-2017",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -27506,7 +26539,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Balais d'essuie-glace arrière pour Nissan Leaf 2010-2017",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -27534,7 +26566,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblätter für Nissan Leaf 2010-2017",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -27562,7 +26593,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "日产Leaf 2010-2017款后雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -27592,7 +26622,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para Renault CLIO 2012-2017",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -27620,7 +26649,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Задние стеклоочистители для Renault CLIO 2012-2017",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -27648,7 +26676,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Essuie-glaces arrière pour Renault CLIO 2012-2017",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -27676,7 +26703,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischer für Renault CLIO 2012-2017",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -27704,7 +26730,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "雷诺 CLIO 2012-2017 后雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -27734,7 +26759,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para Toyota Auris Hatchback MK2 2012-2017",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -27762,7 +26786,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Задние стеклоочистители для Toyota Auris Hatchback MK2 2012-2017",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -27790,7 +26813,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Essuie-glaces arrière pour Toyota Auris Hatchback MK2 2012-2017",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -27818,7 +26840,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischer für Toyota Auris Hatchback MK2 2012-2017",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -27846,7 +26867,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "丰田 Auris 两厢 MK2 2012-2017 后雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -27876,7 +26896,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para Volvo C30 2006-2010",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -27904,7 +26923,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Задние стеклоочистители для Volvo C30 2006-2010",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -27932,7 +26950,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Essuie-glaces arrière pour Volvo C30 2006-2010",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -27960,7 +26977,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischer für Volvo C30 2006-2010",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -27988,7 +27004,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "沃尔沃 C30 2006-2010 后雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -28018,7 +27033,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para ZOTYE DMX5 2015-",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -28046,7 +27060,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Задние стеклоочистители для ZOTYE DMX5 2015-",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -28074,7 +27087,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Essuie-glaces arrière pour ZOTYE DMX5 2015-",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -28102,7 +27114,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischer für ZOTYE DMX5 2015-",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -28130,7 +27141,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "众泰 DMX5 2015- 后雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -28160,7 +27170,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero, para Renault para Clio MK1 1994-1998",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -28188,7 +27197,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Задние стеклоочистители для Renault Clio MK1 1994-1998",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -28216,7 +27224,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Essuie-glaces arrière pour Renault Clio MK1 1994-1998",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -28244,7 +27251,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischer für Renault Clio MK1 1994-1998",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -28272,7 +27278,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "雷诺 Clio MK1 1994-1998 后雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -28302,7 +27307,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para MINI F56 2013-2018",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -28330,7 +27334,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Задние дворники для MINI F56 2013-2018",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -28358,7 +27361,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Essuie-glaces de pare-brise arrière pour MINI F56 2013-2018",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -28386,7 +27388,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblätter für MINI F56 2013-2018",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -28414,7 +27415,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "MINI F56 2013-2018 后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -28444,7 +27444,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas delantero especial para coche para VW GOLF V 2003-2005",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -28472,7 +27471,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Специальные передние стеклоочистители для VW GOLF V 2003-2005",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -28500,7 +27498,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Essuie-glaces avant spéciaux pour voiture pour VW GOLF V 2003-2005",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -28528,7 +27525,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Spezielle Frontscheibenwischerblätter für VW GOLF V 2003-2005",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -28556,7 +27552,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "大众高尔夫 V 2003-2005 特殊汽车前挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -28587,7 +27582,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Toyota Corolla 1993-1997 8522112270 Brazo limpiaparabrisas LHD",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -28615,7 +27609,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Toyota Corolla 1993-1997 8522112270 LHD рычаг стеклоочистителя",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -28643,7 +27636,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Toyota Corolla 1993-1997 8522112270 Bras d'essuie-glace pare-brise LHD",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -28671,7 +27663,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Toyota Corolla 1993-1997 8522112270 Frontscheibenwischerarm LHD",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -28699,7 +27690,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "丰田卡罗拉 1993-1997 8522112270 左舵挡风玻璃雨刷臂",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -28729,7 +27719,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "24\"",
         "Color": "Negro",
         "Aplicación": "Brazo del limpiaparabrisas delantero Toyota Yaris Vitz | 85211-52520 y 85221-52480 Fabricante",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -28757,7 +27746,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "24\"",
         "Цвет": "Черный",
         "Применяемость": "Передний рычаг стеклоочистителя Toyota Yaris Vitz | 85211-52520 & 85221-52480 Производитель",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -28785,7 +27773,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "24\"",
         "Couleur": "Noir",
         "Application": "Toyota Yaris Vitz Bras d'essuie-glace avant | Fabricant 85211-52520 & 85221-52480",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -28813,7 +27800,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "24\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Toyota Yaris Vitz Frontwischerarm | 85211-52520 & 85221-52480 Hersteller",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -28841,7 +27827,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "24\"",
         "颜色": "黑色",
         "适用车型": "丰田 Yaris Vitz 前雨刷臂 | 85211-52520 & 85221-52480 厂家直供",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -28871,7 +27856,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Al por mayor Accesorios externos para automóviles Limpiaparabrisas delantero Limpiaparabrisas sin marco para Land Rover",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -28899,7 +27883,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров передний стеклоочиститель безрамочные щетки для Land Rover",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -28927,7 +27910,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes automobiles en gros Essuie-glace frontal pour fenêtre avant sans cadre pour Land Rover",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -28955,7 +27937,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Externes Zubehör Frontscheibenwischer Autos ohne Rahmen Wischerblätter für Land Rover",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -28983,7 +27964,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 路虎前窗无骨雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -29013,7 +27993,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de accesorios externos para automóviles Limpiaparabrisas delantero para VW PASSAT 2010-2013",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -29041,7 +28020,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров передние мягкие щетки стеклоочистителя для VW PASSAT 2010-2013",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -29069,7 +28047,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes automobiles en gros Essuie-glace avant souple pour pare-brise pour VW PASSAT 2010-2013",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -29097,7 +28074,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Externes Zubehör Frontscheibe weiche Wischerblätter für VW PASSAT 2010-2013",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -29125,7 +28101,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 大众帕萨特 2010-2013 前挡风玻璃柔性雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -29155,7 +28130,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Limpiaparabrisas delantero Limpiaparabrisas especiales para Land Rover Freelander",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -29183,7 +28157,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров: специальные дворники для переднего лобового стекла для Land Rover Freelander",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -29211,7 +28184,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes automobiles en gros Essuie-glace spécial pour pare-brise avant pour Land Rover Freelander",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -29239,7 +28211,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Externes Zubehör spezielle Frontscheibenwischerblätter für Land Rover Freelander",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -29267,7 +28238,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 路虎自由人前挡风玻璃特殊雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -29297,7 +28267,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Brazo de la hoja del limpiaparabrisas trasero para Toyota FJ CRUISER 2007-2014",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -29325,7 +28294,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров: рычаг заднего дворника для Toyota FJ CRUISER 2007-2014",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -29353,7 +28321,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes automobiles en gros Bras d'essuie-glace arrière pour Toyota FJ CRUISER 2007-2014",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -29381,7 +28348,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Externes Zubehör Heckscheibenwischerarm für Toyota FJ CRUISER 2007-2014",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -29409,7 +28375,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 丰田 FJ CRUISER 2007-2014 后挡风玻璃雨刷臂",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -29440,7 +28405,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de limpiaparabrisas trasero automático de goma natural para Chevrolet Matiz 2005-2010",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -29468,7 +28432,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных задних специальнои дворники из натуральной резины для Chevrolet Matiz 2005-2010",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -29496,7 +28459,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Essuie-glace arrière spécial en caoutchouc naturel en gros pour Chevrolet Matiz 2005-2010",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -29524,7 +28486,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Heckscheibenwischer spezielle Wischerblätter aus Naturkautschuk passend für Chevrolet Matiz 2005-2010",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -29552,7 +28513,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车后挡风玻璃特殊雨刷片 天然橡胶 适用于雪佛兰 Matiz 2005-2010",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -29582,7 +28542,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de la escobilla y el brazo del limpiaparabrisas trasero Auto Special para PEUGEOT 308 2007-2016",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -29610,7 +28569,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа специальных задних дворников и рычагов для PEUGEOT 308 2007-2016",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -29638,7 +28596,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Essuie-glace arrière spécial et bras en gros pour PEUGEOT 308 2007-2016",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -29666,7 +28623,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto spezielle Heckscheibenwischerblätter und Arm für PEUGEOT 308 2007-2016",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -29694,7 +28650,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车特殊后挡风玻璃雨刷片及雨刷臂 适用于标致 308 2007-2016",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -29724,7 +28679,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de accesorios externos para automóviles 26+15 pulgadas de escobillas de limpiaparabrisas delanteras suaves para Chevrolet Son",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -29752,7 +28706,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров: мягкие дворники 26 и 15 дюймов для переднего лобового стекла Chevrolet Son",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -29780,7 +28733,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes pour voiture en gros Essuie-glaces avant souples de 26-15 pouces pour pare-brise pour Chevrolet Son",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -29808,7 +28760,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Externes Zubehör 26 15 Zoll Frontscheibe weiche Wischerblätter für Chevrolet Son",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -29836,7 +28787,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 26 15 英寸前挡风玻璃柔性雨刷片 适用于雪佛兰 Son",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -29866,7 +28816,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de accesorios externos para automóviles 20825881 Limpiaparabrisas trasero para Cadillac SRX 2008 - 2016",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -29894,7 +28843,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров: задний дворник 20825881 для Cadillac SRX 2008-2016",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -29922,7 +28870,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes pour voiture en gros Essuie-glace arrière 20825881 pour Cadillac SRX 2008-2016",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -29950,7 +28897,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Externes Zubehör 20825881 Heckscheibenwischer für Cadillac SRX 2008 - 2016",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -29978,7 +28924,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 20825881 后挡风玻璃雨刷片 适用于凯迪拉克 SRX 2008 - 2016",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -30008,7 +28953,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "26+22\"",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles 61619070579 Limpiaparabrisas especiales 26+22 pulgadas Limpiaparabrisas para bmw",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -30036,7 +28980,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "26+22\"",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров: специальные дворники 26 и 22 дюйма для BMW",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -30064,7 +29007,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "26+22\"",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros 61619070579 Balais d'essuie-glace spéciaux 26 22 pouces Balai d'essuie-glace pour BMW",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -30092,7 +29034,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "26+22\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Autoteile Außen Zubehör 61619070579 Spezielle Scheibenwischer 26 22 Zoll Wischerblatt für BMW",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -30120,7 +29061,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "26+22\"",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 61619070579 特殊雨刷 26 22英寸宝马用雨刷",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -30150,7 +29090,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "32\"",
         "Color": "Negro",
         "Aplicación": "Al por mayor Accesorios externos para coches Limpiaparabrisas para autobuses y trenes Limpiaparabrisas para camiones pesados",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -30178,7 +29117,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "32\"",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров: дворники для автобусов и поездов, прочные дворники для грузовиков",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -30206,7 +29144,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "32\"",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Balais d'essuie-glace pour bus et train Balais d'essuie-glace pour camion lourd",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -30234,7 +29171,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "32\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Autoteile Außen Zubehör Bus- und Zugscheibenwischer Schwerlast-Lkw-Scheibenwischer",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -30262,7 +29198,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "32\"",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 公交车和火车雨刷 重型卡车雨刷",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -30292,7 +29227,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "26+16\"",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Ventana frontal Hojas de limpiaparabrisas suaves de 26+16 pulgadas para PEUGEOT 2008 2012 -",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -30320,7 +29254,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "26+16\"",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров: мягкие дворники для переднего окна 26 и 16 дюймов для PEUGEOT 2008-2012",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -30348,7 +29281,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "26+16\"",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Balais d'essuie-glace souples avant 26 16 pouces pour PEUGEOT 2008 2012 -",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -30376,7 +29308,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "26+16\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Autoteile Außen Zubehör Frontscheibe 26 16 Zoll weiche Wischerblätter für PEUGEOT 2008 2012 -",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -30404,7 +29335,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "26+16\"",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 前挡风玻璃 26 16英寸标致2008 2012用柔性雨刷",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -30434,7 +29364,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Limpiaparabrisas delantero para Land Rover Discovery 5",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -30462,7 +29391,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров: дворник для переднего окна Land Rover Discovery 5",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -30490,7 +29418,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Balai d'essuie-glace avant pour Land Rover Discovery 5",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -30518,7 +29445,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Autoteile Außen Zubehör Frontscheibenwischer für Land Rover Discovery 5",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -30546,7 +29472,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 前挡风玻璃雨刷 路虎发现5用",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -30576,7 +29501,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "24+19\"",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Parabrisas delantero 24'' +19 '' Limpiaparabrisas sin marco para BMW Serie 3",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -30604,7 +29528,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "24+19\"",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров: безрамочные дворники 24'' и 19'' для переднего лобового стекла BMW 3 Series",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -30632,7 +29555,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "24+19\"",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Balais d'essuie-glace sans cadre pour pare-brise avant 24'' 19'' pour BMW Série 3",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -30660,7 +29582,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "24+19\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Autoteile Außen Zubehör Frontscheibe 24'' 19'' rahmenlose Wischerblätter für BMW 3 Serie",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -30688,7 +29609,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "24+19\"",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 前挡风玻璃 24'' 19'' 无框雨刷 宝马3系列用",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -30718,7 +29638,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Parabrisas delantero Hojas de limpiaparabrisas suaves de 24/20 pulgadas para HYUNDAI VERACRU",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -30746,7 +29665,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров: мягкие дворники 24/20 дюймов для переднего лобового стекла HYUNDAI VERACRU",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -30774,7 +29692,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Balais d'essuie-glace souples pour pare-brise avant 24/20 pouces pour HYUNDAI VERACRUZ",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -30802,7 +29719,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Autoteile Außen Zubehör Frontscheibe 24/20 Zoll weiche Wischerblätter für HYUNDAI VERACRUZ",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -30830,7 +29746,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 前挡风玻璃 24/20英寸现代Veracruz用柔性雨刷",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -30860,7 +29775,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Limpiaparabrisas delantero para Audi A1 A3 A4 A5 A6 A7 A8",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -30888,7 +29802,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров: мягкие дворники для переднего лобового стекла Audi A1, A3, A4, A5, A6, A7, A8",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -30916,7 +29829,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Balais d'essuie-glace souples pour pare-brise avant pour Audi A1 A3 A4 A5 A6 A7 A8",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -30944,7 +29856,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Autoteile Außen Zubehör Frontscheibe weiche Wischerblätter für Audi A1 A3 A4 A5 A6 A7 A8",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -30972,7 +29883,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 前挡风玻璃柔性雨刷 奥迪A1 A3 A4 A5 A6 A7 A8用",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -31002,7 +29912,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Limpiaparabrisas delanteros para VW GOLF6 2009",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -31030,7 +29939,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров: мягкие дворники для переднего лобового стекла VW GOLF6 2009",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -31058,7 +29966,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Balais d'essuie-glace souples pour pare-brise avant pour VW GOLF6 2009",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -31086,7 +29993,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Autoteile Außen Zubehör Frontscheibe weiche Wischerblätter für VW GOLF6 2009",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -31114,7 +30020,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 前挡风玻璃柔性雨刷 大众高尔夫6 2009用",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -31144,7 +30049,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de accesorios externos para automóviles Limpiaparabrisas delantero para Audi A1 A3 A4 A5 A6 A7 A8 Q3",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -31172,7 +30076,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовые автомобильные внешние аксессуары, передние стеклоочистители для Audi A1 A3 A4 A5 A6 A7 A8 Q3",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -31200,7 +30103,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Balais d'essuie-glace pour pare-brise avant pour Audi A1 A3 A4 A5 A6 A7 A8 Q3",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -31228,7 +30130,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Autoteile Außen Zubehör Frontscheibenwischer für Audi A1 A3 A4 A5 A6 A7 A8 Q3",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -31256,7 +30157,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 前挡风玻璃雨刷 奥迪A1 A3 A4 A5 A6 A7 A8 Q3用",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -31286,7 +30186,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Limpiaparabrisas delantero para AUDI Q7 Audi TT A3",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -31314,7 +30213,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовые автомобильные внешние аксессуары, передние стеклоочистители для AUDI Q7 Audi TT A3",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -31342,7 +30240,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Balais d'essuie-glace pour pare-brise avant pour AUDI Q7 Audi TT A3",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -31370,7 +30267,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Autoteile Außen Zubehör Frontscheibenwischer für AUDI Q7 Audi TT A3",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -31398,7 +30294,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 前挡风玻璃雨刷 奥迪Q7 Audi TT A3用",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -31428,7 +30323,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de accesorios externos para automóviles Limpiaparabrisas delantero para CADILLAC SRX 2010-2016",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -31456,7 +30350,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовые автомобильные внешние аксессуары, передние стеклоочистители для CADILLAC SRX 2010-2016",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -31484,7 +30377,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Balais d'essuie-glace pour pare-brise avant pour CADILLAC SRX 2010-2016",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -31512,7 +30404,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Autoteile Außen Zubehör Frontscheibenwischer für CADILLAC SRX 2010-2016",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -31540,7 +30431,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 前挡风玻璃雨刷 凯迪拉克SRX 2010-2016用",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -31570,7 +30460,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Limpiaparabrisas delantero para HYUNDAI VERACRUZ 2012",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -31598,7 +30487,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовые автомобильные внешние аксессуары, передние стеклоочистители для HYUNDAI VERACRUZ 2012",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -31626,7 +30514,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Balais d'essuie-glace pour pare-brise avant pour HYUNDAI VERACRUZ 2012",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -31654,7 +30541,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Autoteile Außen Zubehör Frontscheibenwischer für HYUNDAI VERACRUZ 2012",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -31682,7 +30568,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 前挡风玻璃雨刷 现代Veracruz 2012用",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -31712,7 +30597,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Limpiaparabrisas delantero para MINI CLUBMAN R55 2012-2015",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -31740,7 +30624,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовые автомобильные внешние аксессуары, передние стеклоочистители для MINI CLUBMAN R55 2012-2015",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -31768,7 +30651,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Balais d'essuie-glace pour pare-brise avant pour MINI CLUBMAN R55 2012-2015",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -31796,7 +30678,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Autoteile Außen Zubehör Frontscheibenwischer für MINI CLUBMAN R55 2012-2015",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -31824,7 +30705,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 前挡风玻璃雨刷 MINI CLUBMAN R55 2012-2015用",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -31854,7 +30734,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios exteriores para coche Limpiaparabrisas delantero para SEAT LEON LEONSC IBIZA ALHAMBRA",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -31882,7 +30761,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовые автомобильные внешние аксессуары, передние стеклоочистители для SEAT LEON LEONSC IBIZA ALHAMBRA",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -31910,7 +30788,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Balais d'essuie-glace pour pare-brise avant pour SEAT LEON LEONSC IBIZA ALHAMBRA",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -31938,7 +30815,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Autoteile Außen Zubehör Frontscheibenwischer für SEAT LEON LEONSC IBIZA ALHAMBRA",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -31966,7 +30842,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 前挡风玻璃雨刷 西雅特LEON LEONSC IBIZA ALHAMBRA用",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -31996,7 +30871,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de accesorios externos para automóviles Limpiaparabrisas delantero para VW Magotan 2013",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -32024,7 +30898,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовые автомобильные внешние аксессуары, передние стеклоочистители для VW Magotan 2013",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -32052,7 +30925,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Balais d'essuie-glace pour pare-brise avant pour VW Magotan 2013",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -32080,7 +30952,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Autoteile Außen Zubehör Frontscheibenwischer für VW Magotan 2013",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -32108,7 +30979,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 前挡风玻璃雨刷 大众迈腾 2013用",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -32138,7 +31008,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de accesorios externos para automóviles Limpiaparabrisas delantero para VW TOUAREG 2002-2017",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -32166,7 +31035,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовые автомобильные внешние аксессуары, передние стеклоочистители для VW TOUAREG 2002-2017",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -32194,7 +31062,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Balais d'essuie-glace avant pour VW TOUAREG 2002-2017",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -32222,7 +31089,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Außenzubehör Scheibenwischer vorne für VW TOUAREG 2002-2017",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -32250,7 +31116,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃雨刷片适用于大众途锐 2002-2017",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -32280,7 +31145,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Parabrisas delantero Escobillas de limpiaparabrisas de 22+22 pulgadas para automóvil Audi 8E0998425A",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -32308,7 +31172,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовые автомобильные внешние аксессуары, передние стеклоочистители 22 22 дюйма для автомобиля Audi 8E0998425A",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -32336,7 +31199,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Balais d'essuie-glace avant 22 22 pouces pour voiture Audi 8E0998425A",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -32364,7 +31226,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Außenzubehör Frontscheibenwischer 22 22 Zoll für Auto Audi 8E0998425A",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -32392,7 +31253,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃 22 22 英寸雨刷片适用于奥迪 8E0998425A",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -32422,7 +31282,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Parabrisas delantero 24+16 escobillas especiales para VW Jetta 2015",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -32450,7 +31309,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовые автомобильные внешние аксессуары, передние стеклоочистители 24 16 специализированные для VW Jetta 2015",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -32478,7 +31336,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Balais d'essuie-glace avant 24 16 spéciaux pour VW Jetta 2015",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -32506,7 +31363,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Außenzubehör Frontscheibenwischer 24 16 Spezialwischer für VW Jetta 2015",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -32534,7 +31390,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃 24 16 特殊雨刷片适用于大众捷达 2015",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -32564,7 +31419,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Parabrisas delantero 24+18 pulgadas Limpiaparabrisas para SKODA OCTAVIA SUPE",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -32592,7 +31446,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовые автомобильные внешние аксессуары, передние стеклоочистители 24 18 дюймов для SKODA OCTAVIA SUPE",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -32620,7 +31473,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Balais d'essuie-glace avant 24 18 pouces pour SKODA OCTAVIA SUPE",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -32648,7 +31500,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Außenzubehör Frontscheibenwischer 24 18 Zoll für SKODA OCTAVIA SUPE",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -32676,7 +31527,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃 24 18 英寸雨刷片适用于斯柯达明锐",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -32706,7 +31556,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Parabrisas delantero Hojas de limpiaparabrisas suaves de 24+24 pulgadas para AUDI A8 2003-",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -32734,7 +31583,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовые автомобильные внешние аксессуары, передние стеклоочистители 24 24 дюйма мягкие для AUDI A8 2003-",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -32762,7 +31610,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Balais d'essuie-glace avant 24 24 pouces souples pour AUDI A8 2003-",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -32790,7 +31637,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Außenzubehör Frontscheibenwischer 24 24 Zoll Soft-Wischer für AUDI A8 2003-",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -32818,7 +31664,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃 24 24 英寸软雨刷片适用于奥迪 A8 2003-",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -32848,7 +31693,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Parabrisas delantero Limpiaparabrisas de 25+25 pulgadas para BMW E66",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -32876,7 +31720,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовые автомобильные внешние аксессуары, передние стеклоочистители 25 25 дюймов для BMW E66",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -32904,7 +31747,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Balais d'essuie-glace avant 25 25 pouces pour BMW E66",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -32932,7 +31774,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Außenzubehör Frontscheibenwischer 25 25 Zoll Wischer für BMW E66",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -32960,7 +31801,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃 25 25 英寸雨刷片适用于宝马 E66",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -32990,7 +31830,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "26+16\"",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Parabrisas delantero Hoja de limpiaparabrisas suave 26'' +16 '' para VW Sharan 2013",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -33018,7 +31857,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "26+16\"",
         "Цвет": "Черный",
         "Применяемость": "Оптовые автомобильные внешние аксессуары, передние стеклоочистители 26'' 16'' мягкие для VW Sharan 2013",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -33046,7 +31884,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "26+16\"",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Balai d'essuie-glace avant 26'' 16'' souple pour VW Sharan 2013",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -33074,7 +31911,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "26+16\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Außenzubehör Frontscheibenwischer 26'' 16'' Soft-Wischer für VW Sharan 2013",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -33102,7 +31938,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "26+16\"",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃 26'' 16'' 软雨刷片适用于大众夏朗 2013",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -33132,7 +31967,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Parabrisas delantero 26+16 Limpiaparabrisas para VW SHARAN 2013",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -33160,7 +31994,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовые автомобильные внешние аксессуары, передние стеклоочистители 26 16 дюймов для VW SHARAN 2013",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -33188,7 +32021,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Balais d'essuie-glace avant 26 16 pour VW SHARAN 2013",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -33216,7 +32048,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Außenzubehör Frontscheibenwischer 26 16 Wischer für VW SHARAN 2013",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -33244,7 +32075,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃 26 16 雨刷片适用于大众夏朗 2013",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -33274,7 +32104,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Parabrisas delantero Hojas de limpiaparabrisas de 26+18 pulgadas para Audi A1 GB 2018-2023",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -33302,7 +32131,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров Передние стеклоочистители 26/18 дюймов для Audi A1 GB 2018-2023",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -33330,7 +32158,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Balais d'essuie-glace avant 26 18 pouces pour Audi A1 GB 2018-2023",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -33358,7 +32185,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Außenzubehör Frontscheibenwischer 26 18 Zoll Wischer für Audi A1 GB 2018-2023",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -33386,7 +32212,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃 26 18 英寸雨刷片适用于奥迪 A1 GB 2018-2023",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -33416,7 +32241,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Parabrisas delantero Hojas de limpiaparabrisas suaves de 26/26 pulgadas para PORSCHE CAYENNE",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -33444,7 +32268,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров Передние стеклоочистители 26/26 дюймов мягкие для PORSCHE CAYENNE",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -33472,7 +32295,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Balais d'essuie-glace avant 26/26 pouces souples pour PORSCHE CAYENNE",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -33500,7 +32322,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Außenzubehör Frontscheibenwischer 26/26 Zoll Soft-Wischer für PORSCHE CAYENNE",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -33528,7 +32349,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃 26/26 英寸软雨刷片适用于保时捷卡宴",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -33558,7 +32378,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Limpiaparabrisas delantero sin marco para Renault Scenic Mk2 20",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -33586,7 +32405,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров Передние стеклоочистители бескаркасные для Renault Scenic Mk2 20",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -33614,7 +32432,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Balais d'essuie-glace avant sans cadre pour Renault Scenic Mk2 20",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -33642,7 +32459,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Außenzubehör Frontscheibenwischer rahmenlose Wischer für Renault Scenic Mk2 20",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -33670,7 +32486,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃无骨雨刷片适用于雷诺风景 Mk2 20",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -33700,7 +32515,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Limpiaparabrisas delantero sin marco para BMW Serie 5 Serie 7 2016",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -33728,7 +32542,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров Передние стеклоочистители бескаркасные для BMW 5 серии 7 серии 2016",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -33756,7 +32569,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Essuie-glaces avant sans cadre pour BMW Série 5 Série 7 2016",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -33784,7 +32596,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Außenzubehör Frontscheibenwischer rahmenlose Wischer für BMW 5er Reihe 7er Reihe 2016",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -33812,7 +32623,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃无骨雨刷片适用于宝马 5 系列 7 系列 2016",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -33842,7 +32652,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Limpiaparabrisas delantero para AUDI Q3 A6L A8L A7",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -33870,7 +32679,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров Передние стеклоочистители мягкие для AUDI Q3 A6L A8L A7",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -33898,7 +32706,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Balai d'essuie-glace avant souple pour AUDI Q3 A6L A8L A7",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -33926,7 +32733,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Außenzubehör Frontscheibenwischer Soft-Wischer für AUDI Q3 A6L A8L A7",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -33954,7 +32760,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃软雨刷片适用于奥迪 Q3 A6L A8L A7",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -33984,7 +32789,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de accesorios externos para automóviles Limpiaparabrisas delantero para AUDI A1 A4 A5 A6 Q5",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -34012,7 +32816,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров Передние стеклоочистители мягкие для AUDI A1 A4 A5 A6 Q5",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -34040,7 +32843,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Balais d'essuie-glace avant souples pour AUDI A1 A4 A5 A6 Q5",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -34068,7 +32870,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Außenzubehör Frontscheibenwischer Soft-Wischer für AUDI A1 A4 A5 A6 Q5",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -34096,7 +32897,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃软雨刷片适用于奥迪 A1 A4 A5 A6 Q5",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -34126,7 +32926,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "22+22\"",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de accesorios externos para automóviles Limpiaparabrisas delantero para Audi A4 A6",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -34154,7 +32953,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "22+22\"",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров Передние стеклоочистители мягкие для Audi A4 A6",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -34182,7 +32980,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "22+22\"",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Balais d'essuie-glace avant souples pour Audi A4 A6",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -34210,7 +33007,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "22+22\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Außenzubehör Frontscheibenwischer Soft-Wischer für Audi A4 A6",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -34238,7 +33034,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "22+22\"",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃软雨刷片适用于奥迪 A4 A6",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -34268,7 +33063,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de accesorios externos para automóviles Limpiaparabrisas delantero para Audi A4 A6 2002-2008",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -34296,7 +33090,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров Передние стеклоочистители мягкие для Audi A4 A6 2002-2008",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -34324,7 +33117,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires extérieurs de voiture en gros Balais d'essuie-glace avant souples pour Audi A4 A6 2002-2008",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -34352,7 +33144,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Außen Zubehör Frontscheibe Weiche Wischerblätter für Audi A4 A6 2002-2008",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -34380,7 +33171,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃软雨刷片适用于奥迪A4 A6 2002-2008",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -34410,7 +33200,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de accesorios externos para automóviles Limpiaparabrisas delantero para Audi Q3 2011-2018",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -34438,7 +33227,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров Передние стеклоочистители мягкие для Audi Q3 2011-2018",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -34466,7 +33254,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires extérieurs de voiture en gros Balais d'essuie-glace avant souples pour Audi Q3 2011-2018",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -34494,7 +33281,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Außen Zubehör Frontscheibe Weiche Wischerblätter für Audi Q3 2011-2018",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -34522,7 +33308,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃软雨刷片适用于奥迪Q3 2011-2018",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -34552,7 +33337,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Limpiaparabrisas delantero para BMW E87 E88 120i 130i",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -34580,7 +33364,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров Передние стеклоочистители мягкие для BMW E87 E88 120i 130i",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -34608,7 +33391,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires extérieurs de voiture en gros Balais d'essuie-glace avant souples pour BMW E87 E88 120i 130i",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -34636,7 +33418,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Außen Zubehör Frontscheibe Weiche Wischerblätter für BMW E87 E88 120i 130i",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -34664,7 +33445,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃软雨刷片适用于宝马E87 E88 120i 130i",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -34694,7 +33474,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Parabrisas delantero Limpiaparabrisas especiales sin marco para Land Rover Di",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -34722,7 +33501,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров Передние стеклоочистители специальные бескаркасные для Land Rover Di",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -34750,7 +33528,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires extérieurs de voiture en gros Balais d'essuie-glace avant spéciaux sans cadre pour Land Rover Di",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -34778,7 +33555,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Außen Zubehör Frontscheibe Spezielle Rahmlose Wischerblätter für Land Rover Di",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -34806,7 +33582,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃无框专用雨刷片适用于路虎Di",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -34836,7 +33611,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Limpiaparabrisas delantero Limpiaparabrisas especiales para Audi A4 1994-2000",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -34864,7 +33638,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров Передние стеклоочистители специальные для Audi A4 1994-2000",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -34892,7 +33665,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires extérieurs de voiture en gros Balais d'essuie-glace avant spéciaux pour Audi A4 1994-2000",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -34920,7 +33692,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Außen Zubehör Frontscheibe Spezielle Wischerblätter für Audi A4 1994-2000",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -34948,7 +33719,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃专用雨刷片适用于奥迪A4 1994-2000",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -34978,7 +33748,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Limpiaparabrisas delantero Limpiaparabrisas especiales para automóviles BENZ CL CLASE S CLA",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -35006,7 +33775,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров Передние стеклоочистители специальные для автомобиля BENZ CL CLASS S CLA",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -35034,7 +33802,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires extérieurs de voiture en gros Balais d'essuie-glace avant spéciaux pour voiture BENZ CL CLASS S CLA",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -35062,7 +33829,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Außen Zubehör Frontscheibe Spezielle Wischerblätter für Auto BENZ CL CLASS S CLA",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -35090,7 +33856,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃专用雨刷片适用于奔驰CL级 S级 CLA",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -35120,7 +33885,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Limpiaparabrisas delantero para Land Rover Range Rover 2003-2012",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -35148,7 +33912,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров Передние стеклоочистители для Land Rover Range Rover 2003-2012",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -35176,7 +33939,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires extérieurs de voiture en gros Balai d'essuie-glace avant pour Land Rover Range Rover 2003-2012",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -35204,7 +33966,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Außen Zubehör Frontscheibe Wischerblatt für Land Rover Range Rover 2003-2012",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -35232,7 +33993,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃雨刷片适用于路虎揽胜 2003-2012",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -35262,7 +34022,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de accesorios externos para automóviles Limpiaparabrisas delantero para AUDI A6L 2006-2011",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -35290,7 +34049,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров передние щетки стеклоочистителя для AUDI A6L 2006-2011",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -35318,7 +34076,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires extérieurs de voiture en gros Balais d'essuie-glace avant pour AUDI A6L 2006-2011",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -35346,7 +34103,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Außen Zubehör Frontscheibe Wischerblätter für AUDI A6L 2006-2011",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -35374,7 +34130,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃雨刷片适用于奥迪A6L 2006-2011",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -35404,7 +34159,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Limpiaparabrisas delantero para BENZ CLASE A CLA GLA",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -35432,7 +34186,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров передние щетки стеклоочистителя для BENZ A-CLASS CLA GLA",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -35460,7 +34213,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires extérieurs de voiture en gros Balais d'essuie-glace avant pour BENZ A-CLASS CLA GLA",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -35488,7 +34240,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Außen Zubehör Frontscheibe Wischerblätter für BENZ A-CLASS CLA GLA",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -35516,7 +34267,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃雨刷片适用于奔驰A级 CLA GLA",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -35546,7 +34296,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "26+26\"",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de accesorios externos para automóviles Limpiaparabrisas delantero para Benz E CLS (W211) GLK",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -35574,7 +34323,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "26+26\"",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров передние щетки стеклоочистителя для Benz E CLS (W211) GLK",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -35602,7 +34350,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "26+26\"",
         "Couleur": "Noir",
         "Application": "Accessoires extérieurs de voiture en gros Balais d'essuie-glace avant pour Benz E CLS (W211) GLK",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -35630,7 +34377,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "26+26\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Außen Zubehör Frontscheibe Wischerblätter für Benz E CLS (W211) GLK",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -35658,7 +34404,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "26+26\"",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃雨刷片适用于奔驰E级 CLS (W211) GLK",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -35688,7 +34433,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de accesorios externos para automóviles Limpiaparabrisas delantero para BMW SERIE 5 2004-2009",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -35716,7 +34460,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров передние щетки стеклоочистителя для BMW 5 SERIES 2004-2009",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -35744,7 +34487,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires extérieurs de voiture en gros Balais d'essuie-glace avant pour BMW 5 SERIES 2004-2009",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -35772,7 +34514,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Außen Zubehör Frontscheibe Wischerblätter für BMW 5ER 2004-2009",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -35800,7 +34541,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃雨刷片适用于宝马5系 2004-2009",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -35830,7 +34570,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de accesorios externos para automóviles Limpiaparabrisas delantero para BMW Serie 7 E65 E66 740i 750i",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -35858,7 +34597,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров передние щетки стеклоочистителя для BMW 7 Series E65 E66 740i 750i",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -35886,7 +34624,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires extérieurs de voiture en gros Balais d'essuie-glace avant pour BMW 7 Series E65 E66 740i 750i",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -35914,7 +34651,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Außen Zubehör Frontscheibe Wischerblätter für BMW 7ER E65 E66 740i 750i",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -35942,7 +34678,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃雨刷片适用于宝马7系 E65 E66 740i 750i",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -35972,7 +34707,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Limpiaparabrisas delantero para autobús Volvo Mercedes - Benz",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -36000,7 +34734,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров передние щетки стеклоочистителя для автобусов Volvo Mercedes-Benz",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -36028,7 +34761,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires extérieurs de voiture en gros Balais d'essuie-glace avant pour Bus Volvo Mercedes - Benz",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -36056,7 +34788,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Außen Zubehör Frontscheibe Wischerblätter für Bus Volvo Mercedes - Benz",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -36084,7 +34815,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃雨刷片适用于沃尔沃奔驰公交车",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -36114,7 +34844,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "26+16\"",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para coche Limpiaparabrisas delantero para coche PEUGEOT 206",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -36142,7 +34871,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "26+16\"",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров передние щетки стеклоочистителя для автомобилей PEUGEOT 206",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -36170,7 +34898,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "26+16\"",
         "Couleur": "Noir",
         "Application": "Accessoires extérieurs de voiture en gros Balais d'essuie-glace avant pour voiture PEUGEOT 206",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -36198,7 +34925,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "26+16\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Außen Zubehör Frontscheibe Wischerblätter für Auto PEUGEOT 206",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -36226,7 +34952,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "26+16\"",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃雨刷片适用于标致206",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -36256,7 +34981,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "26+26\"",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Limpiaparabrisas delantero para automóviles PORSCHE CAYENNE",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -36284,7 +35008,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "26+26\"",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров передние щетки стеклоочистителя для автомобилей PORSCHE Cayenne",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -36312,7 +35035,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "26+26\"",
         "Couleur": "Noir",
         "Application": "Accessoires externes pour voitures en gros Balais d'essuie-glace avant pour voiture PORSCHE Cayenne",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -36340,7 +35062,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "26+26\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Exterieur Zubehör Frontscheibenwischerblätter für Auto PORSCHE Cayenne",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -36368,7 +35089,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "26+26\"",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃雨刷片，适用于保时捷卡宴",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -36398,7 +35118,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Limpiaparabrisas delantero para Land Rover Discovery 5",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -36426,7 +35145,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров передние щетки стеклоочистителя для Land Rover Discovery 5",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -36454,7 +35172,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes pour voitures en gros Balais d'essuie-glace avant pour Land Rover Discovery 5",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -36482,7 +35199,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Exterieur Zubehör Frontscheibenwischerblätter für Land Rover Discovery 5",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -36510,7 +35226,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃雨刷片，适用于路虎发现5",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -36540,7 +35255,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Limpiaparabrisas delantero para Land Rover Range Rover Evoque",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -36568,7 +35282,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров передние щетки стеклоочистителя для Land Rover Range Rover Evoque",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -36596,7 +35309,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes pour voitures en gros Balais d'essuie-glace avant pour Land Rover Range Rover Evoque",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -36624,7 +35336,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Exterieur Zubehör Frontscheibenwischerblätter für Land Rover Range Rover Evoque",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -36652,7 +35363,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃雨刷片，适用于路虎揽胜极光",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -36682,7 +35392,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de accesorios externos para automóviles Limpiaparabrisas delantero para OPEL ASTRA 2004-2009",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -36710,7 +35419,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров передние щетки стеклоочистителя для OPEL ASTRA 2004-2009",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -36738,7 +35446,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes pour voitures en gros Balais d'essuie-glace avant pour OPEL ASTRA 2004-2009",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -36766,7 +35473,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Exterieur Zubehör Frontscheibenwischerblätter für OPEL ASTRA 2004-2009",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -36794,7 +35500,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃雨刷片，适用于欧宝雅特2004-2009",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -36824,7 +35529,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Limpiaparabrisas delantero para Renault Grand Scenic II 2006-20",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -36852,7 +35556,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров передние щетки стеклоочистителя для Renault Grand Scenic II 2006-20",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -36880,7 +35583,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes pour voitures en gros Balais d'essuie-glace avant pour Renault Grand Scenic II 2006-20",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -36908,7 +35610,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Exterieur Zubehör Frontscheibenwischerblätter für Renault Grand Scenic II 2006-20",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -36936,7 +35637,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃雨刷片，适用于雷诺大景 II 2006-20",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -36966,7 +35666,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Limpiaparabrisas delantero para Renault Koleos 2008-2016",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -36994,7 +35693,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров передние щетки стеклоочистителя для Renault Koleos 2008-2016",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -37022,7 +35720,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes pour voitures en gros Balais d'essuie-glace avant pour Renault Koleos 2008-2016",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -37050,7 +35747,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Exterieur Zubehör Frontscheibenwischerblätter für Renault Koleos 2008-2016",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -37078,7 +35774,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃雨刷片，适用于雷诺科雷奥斯2008-2016",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -37108,7 +35803,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "24+16\"",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Limpiaparabrisas delantero para Renault Symbol Thali",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -37136,7 +35830,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "24+16\"",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров передние щетки стеклоочистителя для Renault Symbol Thali",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -37164,7 +35857,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "24+16\"",
         "Couleur": "Noir",
         "Application": "Accessoires externes pour voitures en gros Balais d'essuie-glace avant pour Renault Symbol Thali",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -37192,7 +35884,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "24+16\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Exterieur Zubehör Frontscheibenwischerblätter für Renault Symbol Thali",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -37220,7 +35911,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "24+16\"",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃雨刷片，适用于雷诺符号Thali",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -37250,7 +35940,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Limpiaparabrisas delantero para ROEWE 360 RX5",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -37278,7 +35967,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров передние щетки стеклоочистителя для ROEWE 360 RX5",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -37306,7 +35994,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes pour voitures en gros Balais d'essuie-glace avant pour ROEWE 360 RX5",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -37334,7 +36021,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Exterieur Zubehör Frontscheibenwischerblätter für ROEWE 360 RX5",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -37362,7 +36048,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃雨刷片，适用于荣威360 RX5",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -37392,7 +36077,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Limpiaparabrisas delantero para Skoda Octavia Superb 2016",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -37420,7 +36104,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров передние щетки стеклоочистителя для Skoda Octavia Superb 2016",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -37448,7 +36131,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes pour voitures en gros Balais d'essuie-glace avant pour Skoda Octavia Superb 2016",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -37476,7 +36158,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Exterieur Zubehör Frontscheibenwischerblätter für Skoda Octavia Superb 2016",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -37504,7 +36185,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃雨刷片，适用于斯柯达明锐/速派2016",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -37534,7 +36214,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Limpiaparabrisas delantero para ŠKODA Yeti 2009-2016",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -37562,7 +36241,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров: передние щетки стеклоочистителя для SKODA Yeti 2009-2016",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -37590,7 +36268,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes pour voitures en gros Balais d'essuie-glace avant pour SKODA Yeti 2009-2016",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -37618,7 +36295,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Exterieur Zubehör Frontscheibenwischerblätter für SKODA Yeti 2009-2016",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -37646,7 +36322,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃雨刷片，适用于斯柯达Yeti 2009-2016",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -37676,7 +36351,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Limpiaparabrisas delantero para Smart Forfour 2007-2015",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -37704,7 +36378,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров: передние щетки стеклоочистителя для Smart Forfour 2007-2015",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -37732,7 +36405,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes pour voitures en gros Balais d'essuie-glace avant pour Smart Forfour 2007-2015",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -37760,7 +36432,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Exterieur Zubehör Frontscheibenwischerblätter für Smart Forfour 2007-2015",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -37788,7 +36459,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃雨刷片，适用于Smart Forfour 2007-2015",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -37818,7 +36488,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Limpiaparabrisas delantero para Viano ML350 ML300 R300 R350 R50",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -37846,7 +36515,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров: передние щетки стеклоочистителя для Viano ML350 ML300 R300 R350 R50",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -37874,7 +36542,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes pour voitures en gros Balais d'essuie-glace avant pour Viano ML350 ML300 R300 R350 R50",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -37902,7 +36569,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Exterieur Zubehör Frontscheibenwischerblätter für Viano ML350 ML300 R300 R350 R50",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -37930,7 +36596,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃雨刷片，适用于Viano ML350 ML300 R300 R350 R50",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -37960,7 +36625,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de accesorios externos para automóviles Limpiaparabrisas delantero para VW GOLF V 2003-2005",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -37988,7 +36652,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров: передние щетки стеклоочистителя для VW GOLF V 2003-2005",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -38016,7 +36679,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes pour voitures en gros Balais d'essuie-glace avant pour VW GOLF V 2003-2005",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -38044,7 +36706,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Exterieur Zubehör Frontscheibenwischerblätter für VW GOLF V 2003-2005",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -38072,7 +36733,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃雨刷片，适用于大众高尔夫 V 2003-2005",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -38102,7 +36762,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "32\"",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Limpiaparabrisas delantero Cuchillas para autobús",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -38130,7 +36789,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "32\"",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров: передние щетки стеклоочистителя для автобуса",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -38158,7 +36816,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "32\"",
         "Couleur": "Noir",
         "Application": "Accessoires externes pour voitures en gros Balais d'essuie-glace avant pour bus",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -38186,7 +36843,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "32\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Exterieur Zubehör Frontscheibenwischerblätter für Bus",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -38214,7 +36870,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "32\"",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃雨刷片，适用于公交车",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -38244,7 +36899,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos del coche Cuchilla y brazo del limpiaparabrisas trasero del coche para ajuste 2004-2007",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -38272,7 +36926,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров: задняя щетка и рычаг стеклоочистителя для Fit 2004-2007",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -38300,7 +36953,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes pour voitures en gros Balai et bras d'essuie-glace arrière pour Fit 2004-2007",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -38328,7 +36980,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Exterieur Zubehör Heckscheibenwischerblatt und Arm für Fit 2004-2007",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -38356,7 +37007,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件后车窗雨刷片及臂，适用于飞度2004-2007",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -38387,7 +37037,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Brazo de goma del limpiaparabrisas trasero Brazo de la hoja para PEUGEOT 107 2005",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -38415,7 +37064,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров: задний резиновый щеточный рычаг стеклоочистителя для PEUGEOT 107 2005",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -38443,7 +37091,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras et lame d'essuie-glace en caoutchouc pour lunette arrière pour PEUGEOT 107 2005",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -38471,7 +37118,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Externes Zubehör Heckscheiben Gummiwischerarm Blattarm für PEUGEOT 107 2005",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -38499,7 +37145,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 后挡风玻璃橡胶雨刷臂 刮水器臂 适用于标致 107 2005",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -38529,7 +37174,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Brazo y hoja del limpiaparabrisas trasero para GMC ACADIA 2007-2012",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -38557,7 +37201,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров: задний рычаг и щетка стеклоочистителя для GMC ACADIA 2007-2012",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -38585,7 +37228,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras et lame d'essuie-glace pour lunette arrière pour GMC ACADIA 2007-2012",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -38613,7 +37255,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Externes Zubehör Heckscheiben Wischerarm und Blatt für GMC ACADIA 2007-2012",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -38641,7 +37282,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 后挡风玻璃雨刷臂和刮水器臂 适用于GMC ACADIA 2007-2012",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -38671,7 +37311,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Combinación de brazo de limpiaparabrisas trasero para JEEP Grand Cherokee 201",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -38699,7 +37338,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров: комбинация заднего рычага стеклоочистителя для JEEP Grand Cherokee 201",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -38727,7 +37365,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Combinaison bras d'essuie-glace pour lunette arrière pour JEEP Grand Cherokee 201",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -38755,7 +37392,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Externes Zubehör Heckscheiben Wischerarm-Kombination für JEEP Grand Cherokee 201",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -38783,7 +37419,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 后挡风玻璃雨刷臂组合 适用于JEEP 大切诺基 201",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -38813,7 +37448,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Brazo de la hoja del limpiaparabrisas trasero para BMW X3 E83 2003-2010",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -38841,7 +37475,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров: задний рычаг и щетка стеклоочистителя для BMW X3 E83 2003-2010",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -38869,7 +37502,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras et lame d'essuie-glace pour lunette arrière pour BMW X3 E83 2003-2010",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -38897,7 +37529,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Externes Zubehör Heckscheiben Wischerblattarm für BMW X3 E83 2003-2010",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -38925,7 +37556,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 后挡风玻璃雨刷臂 适用于宝马 X3 E83 2003-2010",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -38955,7 +37585,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Brazo de la hoja del limpiaparabrisas trasero para CADILLAC ESCALADE 2007-2013",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -38983,7 +37612,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров: задний рычаг и щетка стеклоочистителя для CADILLAC ESCALADE 2007-2013",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -39011,7 +37639,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras et lame d'essuie-glace pour lunette arrière pour CADILLAC ESCALADE 2007-2013",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -39039,7 +37666,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Externes Zubehör Heckscheiben Wischerblattarm für CADILLAC ESCALADE 2007-2013",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -39067,7 +37693,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 后挡风玻璃雨刷臂 适用于凯迪拉克 ESCALADE 2007-2013",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -39097,7 +37722,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Brazo de la hoja del limpiaparabrisas trasero para HONDA FIT 2009-2013",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -39125,7 +37749,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров: задний рычаг и щетка стеклоочистителя для HONDA FIT 2009-2013",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -39153,7 +37776,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras et lame d'essuie-glace pour lunette arrière pour HONDA FIT 2009-2013",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -39181,7 +37803,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Externes Zubehör Heckscheiben Wischerblattarm für HONDA FIT 2009-2013",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -39209,7 +37830,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 后挡风玻璃雨刷臂 适用于本田 FIT 2009-2013",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -39239,7 +37859,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Al por mayor Accesorios externos para automóviles Combinación de limpiaparabrisas trasero para SAAB 9-5 2010",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -39267,7 +37886,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров: комбинация задней щетки стеклоочистителя для SAAB 9-5 2010",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -39295,7 +37913,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Combinaison bras et lame d'essuie-glace pour lunette arrière pour SAAB 9-5 2010",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -39323,7 +37940,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Externes Zubehör Heckscheiben Wischerblatt-Kombination für SAAB 9-5 2010",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -39351,7 +37967,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 后挡风玻璃雨刷臂组合 适用于SAAB 9-5 2010",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -39381,7 +37996,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Brazo de limpiaparabrisas trasero y hoja Para BRÚJULA JEEP 2017-2019",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -39409,7 +38023,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров: задний рычаг и щетка стеклоочистителя для JEEP COMPASS 2017-2019",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -39437,7 +38050,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras et lame d'essuie-glace pour lunette arrière pour JEEP COMPASS 2017-2019",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -39465,7 +38077,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Externes Zubehör Heckscheiben Wischerarm und Blatt für JEEP COMPASS 2017-2019",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -39493,7 +38104,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 后挡风玻璃雨刷臂和刮水器臂 适用于JEEP COMPASS 2017-2019",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -39523,7 +38133,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Combinación de aspas del brazo del limpiaparabrisas trasero para TOYOTA YARIS 1999",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -39551,7 +38160,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров: комбинация заднего рычага и щетки стеклоочистителя для TOYOTA YARIS 1999",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -39579,7 +38187,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Combinaison bras et lame d'essuie-glace pour lunette arrière pour TOYOTA YARIS 1999",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -39607,7 +38214,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Externes Zubehör Heckscheiben Wischerarm-Blatt-Kombination für TOYOTA YARIS 1999",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -39635,7 +38241,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 后挡风玻璃雨刷臂组合 适用于丰田 YARIS 1999",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -39665,7 +38270,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de accesorios externos para automóviles, limpiaparabrisas trasero y brazo para FORD EDGE 2010-2014",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -39693,7 +38297,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров, задний щеточный механизм стеклоочистителя и рычаг для FORD EDGE 2010-2014",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -39721,7 +38324,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras et lame d'essuie-glace pour lunette arrière pour FORD EDGE 2010-2014",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -39749,7 +38351,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Externes Zubehör Heckscheiben Wischerblatt und Arm für FORD EDGE 2010-2014",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -39777,7 +38378,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 后挡风玻璃雨刷臂和刮水器臂 适用于福特 EDGE 2010-2014",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -39807,7 +38407,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de accesorios externos para automóviles, limpiaparabrisas trasero y brazo para Ford Kuga 2008-2011",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -39835,7 +38434,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров, задний щеточный механизм стеклоочистителя и рычаг для Ford Kuga 2008-2011",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -39863,7 +38461,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras et lame d'essuie-glace pour lunette arrière pour FORD Kuga 2008-2011",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -39891,7 +38488,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Externes Zubehör Heckscheiben Wischerblatt und Arm für ford Kuga 2008-2011",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -39919,7 +38515,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 后挡风玻璃雨刷臂和刮水器臂 适用于福特 Kuga 2008-2011",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -39949,7 +38544,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de accesorios externos para automóviles, limpiaparabrisas trasero y brazo para Toyota 4Runner 2003-2009",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -39977,7 +38571,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров, задний щеточный механизм стеклоочистителя и рычаг для Toyota 4Runner 2003-2009",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -40005,7 +38598,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras et lame d'essuie-glace pour lunette arrière pour Toyota 4Runner 2003-2009",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -40033,7 +38625,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Externes Zubehör Heckscheiben Wischerblatt und Arm für Toyota 4Runner 2003-2009",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -40061,7 +38652,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 后挡风玻璃雨刷臂和刮水器臂 适用于丰田 4Runner 2003-2009",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -40091,7 +38681,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Brazo de la hoja del limpiaparabrisas trasero para Buick Enclave 2008-2017",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -40119,7 +38708,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров, задний щеточный механизм стеклоочистителя и рычаг для Buick Enclave 2008-2017",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -40147,7 +38735,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras et lame d'essuie-glace pour lunette arrière pour Buick Enclave 2008-2017",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -40175,7 +38762,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Externes Zubehör Heckscheiben Wischerblattarm für Buick Enclave 2008-2017",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -40203,7 +38789,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 后挡风玻璃雨刷臂 适用于别克 Enclave 2008-2017",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -40233,7 +38818,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Brazo de la hoja del limpiaparabrisas trasero para Chevrolet ONIX GEN II",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -40261,7 +38845,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров, задний щеточный механизм стеклоочистителя и рычаг для Chevrolet ONIX GEN II",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -40289,7 +38872,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras et lame d'essuie-glace pour lunette arrière pour Chevrolet ONIX GEN II",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -40317,7 +38899,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Externes Zubehör Heckscheiben Wischerblattarm für Chevrolet ONIX GEN II",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -40345,7 +38926,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 后挡风玻璃雨刷臂 适用于雪佛兰 ONIX 第二代",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -40375,7 +38955,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Brazo de la hoja del limpiaparabrisas trasero para FIAT 500 2007-2019",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -40403,7 +38982,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров, задний щеточный механизм стеклоочистителя и рычаг для FIAT 500 2007-2019",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -40431,7 +39009,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras et lame d'essuie-glace pour lunette arrière pour FIAT 500 2007-2019",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -40459,7 +39036,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Externes Zubehör Heckscheiben Wischerblattarm für FIAT 500 2007-2019",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -40487,7 +39063,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 后挡风玻璃雨刷臂 适用于菲亚特 500 2007-2019",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -40517,7 +39092,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Brazo de la hoja del limpiaparabrisas trasero para Ford Kuga 2013-2017",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -40545,7 +39119,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров, задний щеточный механизм стеклоочистителя и рычаг для Ford Kuga 2013-2017",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -40573,7 +39146,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras d'essuie-glace arrière pour Ford Kuga 2013-2017",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -40601,7 +39173,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandels-Autoaußenzubehör Scheibenwischerarm für die hintere Windschutzscheibe für Ford Kuga 2013-2017",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -40629,7 +39200,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件福特Kuga 2013-2017后挡风玻璃雨刷臂",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -40659,7 +39229,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Brazo de la hoja del limpiaparabrisas trasero para Hyundai HB20 2012-",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -40687,7 +39256,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров, задний щеточный механизм стеклоочистителя и рычаг для Hyundai HB20 2012-",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -40715,7 +39283,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras d'essuie-glace arrière pour Hyundai HB20 2012-",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -40743,7 +39310,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandels-Autoaußenzubehör Scheibenwischerarm für die hintere Windschutzscheibe für Hyundai HB20 2012-",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -40771,7 +39337,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件现代HB20 2012-后挡风玻璃雨刷臂",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -40801,7 +39366,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Brazo de la hoja del limpiaparabrisas trasero para Hyundai Veracruz 2007 - 2012",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -40829,7 +39393,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров, задний щеточный механизм стеклоочистителя и рычаг для Hyundai Veracruz 2007-2012",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -40857,7 +39420,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras d'essuie-glace arrière pour Hyundai Veracruz 2007-2012",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -40885,7 +39447,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandels-Autoaußenzubehör Scheibenwischerarm für die hintere Windschutzscheibe für Hyundai Veracruz 2007-2012",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -40913,7 +39474,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件现代Veracruz 2007-2012后挡风玻璃雨刷臂",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -40943,7 +39503,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Brazo de la hoja del limpiaparabrisas trasero para Jeep Commander 2010",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -40971,7 +39530,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров, задний щеточный механизм стеклоочистителя и рычаг для Jeep Commander 2010",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -40999,7 +39557,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras d'essuie-glace arrière pour Jeep Commander 2010",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -41027,7 +39584,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandels-Autoaußenzubehör Scheibenwischerarm für die hintere Windschutzscheibe für Jeep Commander 2010",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -41055,7 +39611,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件吉普Commander 2010后挡风玻璃雨刷臂",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -41085,7 +39640,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Brazo de la hoja del limpiaparabrisas trasero para JEEP GRAND CHEROKEE 2005-2010",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -41113,7 +39667,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров, задний щеточный механизм стеклоочистителя и рычаг для JEEP GRAND CHEROKEE 2005-2010",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -41141,7 +39694,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras d'essuie-glace arrière pour JEEP GRAND CHEROKEE 2005-2010",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -41169,7 +39721,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandels-Autoaußenzubehör Scheibenwischerarm für die hintere Windschutzscheibe für JEEP GRAND CHEROKEE 2005-2010",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -41197,7 +39748,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件吉普大切诺基 2005-2010后挡风玻璃雨刷臂",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -41227,7 +39777,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Brazo de la hoja del limpiaparabrisas trasero para KIA SEDONA 2006-2014",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -41255,7 +39804,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров, задний щеточный механизм стеклоочистителя и рычаг для KIA SEDONA 2006-2014",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -41283,7 +39831,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras d'essuie-glace arrière pour KIA SEDONA 2006-2014",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -41311,7 +39858,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandels-Autoaußenzubehör Scheibenwischerarm für die hintere Windschutzscheibe für KIA SEDONA 2006-2014",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -41339,7 +39885,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件起亚Sedona 2006-2014后挡风玻璃雨刷臂",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -41369,7 +39914,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Brazo de la hoja del limpiaparabrisas trasero para LEXUS CT200H 2011-2017",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -41397,7 +39941,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров, задний щеточный механизм стеклоочистителя и рычаг для LEXUS CT200H 2011-2017",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -41425,7 +39968,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras d'essuie-glace arrière pour LEXUS CT200H 2011-2017",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -41453,7 +39995,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandels-Autoaußenzubehör Scheibenwischerarm für die hintere Windschutzscheibe für LEXUS CT200H 2011-2017",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -41481,7 +40022,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件雷克萨斯CT200H 2011-2017后挡风玻璃雨刷臂",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -41511,7 +40051,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Brazo de la hoja del limpiaparabrisas trasero para Mazda CX-7 2009",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -41539,7 +40078,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров, задний щеточный механизм стеклоочистителя и рычаг для Mazda CX-7 2009",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -41567,7 +40105,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras d'essuie-glace arrière pour Mazda CX-7 2009",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -41595,7 +40132,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandels-Autoaußenzubehör Scheibenwischerarm für die hintere Windschutzscheibe für Mazda CX-7 2009",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -41623,7 +40159,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件马自达CX-7 2009后挡风玻璃雨刷臂",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -41653,7 +40188,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Brazo de la hoja del limpiaparabrisas trasero para PEUGEOT 807 2002-2014",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -41681,7 +40215,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров, задний щеточный механизм стеклоочистителя и рычаг для PEUGEOT 807 2002-2014",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -41709,7 +40242,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras d'essuie-glace arrière pour PEUGEOT 807 2002-2014",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -41737,7 +40269,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandels-Autoaußenzubehör Scheibenwischerarm für die hintere Windschutzscheibe für PEUGEOT 807 2002-2014",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -41765,7 +40296,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件标致807 2002-2014后挡风玻璃雨刷臂",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -41795,7 +40325,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Brazo de la hoja del limpiaparabrisas trasero para Renault Scenic RX4 2000-2005",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -41823,7 +40352,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров Задний дворниковый рычаг для Renault Scenic RX4 2000-2005",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -41851,7 +40379,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras d'essuie-glace arrière pour Renault Scenic RX4 2000-2005",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -41879,7 +40406,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandels-Autoaußenzubehör Scheibenwischerarm für die hintere Windschutzscheibe für Renault Scenic RX4 2000-2005",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -41907,7 +40433,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件雷诺Scenic RX4 2000-2005后挡风玻璃雨刷臂",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -41937,7 +40462,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Brazo de la hoja del limpiaparabrisas trasero para Saab 9-7X 2005-2009",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -41965,7 +40489,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров Задний дворниковый рычаг для Saab 9-7X 2005-2009",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -41993,7 +40516,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras d'essuie-glace arrière pour Saab 9-7X 2005-2009",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -42021,7 +40543,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandels-Autoaußenzubehör Scheibenwischerarm für die hintere Windschutzscheibe für Saab 9-7X 2005-2009",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -42049,7 +40570,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件萨博9-7X 2005-2009后挡风玻璃雨刷臂",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -42079,7 +40599,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Brazo de la hoja del limpiaparabrisas trasero para TOYOTA RAV4 2000-2005",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -42107,7 +40626,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров Задний дворниковый рычаг для TOYOTA RAV4 2000-2005",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -42135,7 +40653,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras d'essuie-glace arrière pour TOYOTA RAV4 2000-2005",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -42163,7 +40680,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandels-Autoaußenzubehör Scheibenwischerarm für die hintere Windschutzscheibe für TOYOTA RAV4 2000-2005",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -42191,7 +40707,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件丰田RAV4 2000-2005后挡风玻璃雨刷臂",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -42221,7 +40736,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Brazo de la hoja del limpiaparabrisas trasero para Volvo V50 2004-2012",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -42249,7 +40763,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров Задний дворниковый рычаг для Volvo V50 2004-2012",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -42277,7 +40790,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras d'essuie-glace arrière pour Volvo V50 2004-2012",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -42305,7 +40817,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandels-Autoaußenzubehör Scheibenwischerarm für die hintere Windschutzscheibe für Volvo V50 2004-2012",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -42333,7 +40844,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件沃尔沃V50 2004-2012后挡风玻璃雨刷臂",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -42363,7 +40873,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Brazo de la hoja del limpiaparabrisas trasero para VOLVO XC60 2011-",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -42391,7 +40900,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров Задний дворниковый рычаг для VOLVO XC60 2011-",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -42419,7 +40927,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras d'essuie-glace arrière pour VOLVO XC60 2011-",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -42447,7 +40954,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandels-Autoaußenzubehör Scheibenwischerarm für die hintere Windschutzscheibe für VOLVO XC60 2011-",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -42475,7 +40981,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件沃尔沃XC60 2011-后挡风玻璃雨刷臂",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -42505,7 +41010,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Brazo de la hoja del limpiaparabrisas trasero para VOLVO XC90 DESIGN EUROPE 2007",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -42533,7 +41037,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров Задний дворниковый рычаг для VOLVO XC90 DESIGN EUROPE 2007",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -42561,7 +41064,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras d'essuie-glace arrière pour VOLVO XC90 DESIGN EUROPE 2007",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -42589,7 +41091,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandels-Autoaußenzubehör Scheibenwischerarm für die hintere Windschutzscheibe für VOLVO XC90 DESIGN EUROPE 2007",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -42617,7 +41118,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件沃尔沃XC90 DESIGN EUROPE 2007后挡风玻璃雨刷臂",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -42647,7 +41147,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Juego de brazos de la hoja del limpiaparabrisas trasero para Honda CRV 2002-2006",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -42675,7 +41174,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров Комплект заднего дворникового рычага для Honda CRV 2002-2006",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -42703,7 +41201,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Ensemble de bras d'essuie-glace arrière pour Honda CRV 2002-2006",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -42731,7 +41228,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandels-Autoaußenzubehör Scheibenwischerarm-Set für die hintere Windschutzscheibe für Honda CRV 2002-2006",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -42759,7 +41255,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件本田CRV 2002-2006后挡风玻璃雨刷臂套装",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -42789,7 +41284,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Al por mayor Accesorios externos para automóviles Combinación de limpiaparabrisas trasero para VOLVO V70 2000-2004",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -42817,7 +41311,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров Заднее комбинированное стеклоочистительное устройство для VOLVO V70 2000-2004",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -42845,7 +41338,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Essuie-glace arrière combiné pour VOLVO V70 2000-2004",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -42873,7 +41365,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Autoexterne Zubehörteile Heckscheibenwischer-Kombination für VOLVO V70 2000-2004",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -42901,7 +41392,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 VOLVO V70 2000-2004 后挡风玻璃雨刷组合",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -42931,7 +41421,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de accesorios externos para automóviles Cuchilla del brazo del limpiaparabrisas trasero para Lexus RX450H 2009 - 2015",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -42959,7 +41448,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров Задний дворниковый рычаг для Lexus RX450H 2009-2015",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -42987,7 +41475,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras et lame d'essuie-glace arrière pour Lexus RX450H 2009-2015",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -43015,7 +41502,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Autoexterne Zubehörteile Heckwischerarm-Klinge für Lexus RX450H 2009 - 2015",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -43043,7 +41529,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 Lexus RX450H 2009-2015 后雨刷臂和雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -43073,7 +41558,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de accesorios externos para automóviles, escobilla y brazo del limpiaparabrisas trasero para HONDA ODYSSEY 2005-2010",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -43101,7 +41585,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров Задний дворниковый рычаг и лезвие для HONDA ODYSSEY 2005-2010",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -43129,7 +41612,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Lame et bras d'essuie-glace arrière pour HONDA ODYSSEY 2005-2010",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -43157,7 +41639,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Autoexterne Zubehörteile Heckwischer-Klinge und Arm für HONDA ODYSSEY 2005-2010",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -43185,7 +41666,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 HONDA ODYSSEY 2005-2010 后雨刷片和雨刷臂",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -43216,7 +41696,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Brazo de la hoja del limpiaparabrisas trasero para Buick Excelle XT 2010-2017",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -43244,7 +41723,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров Задний дворниковый рычаг для Buick Excelle XT 2010-2017",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -43272,7 +41750,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras de lame d'essuie-glace arrière pour Buick Excelle XT 2010-2017",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -43300,7 +41777,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Autoexterne Zubehörteile Heckwischer-Klingen-Arm für Buick Excelle XT 2010-2017",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -43328,7 +41804,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 别克英朗XT 2010-2017 后雨刷片和雨刷臂",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -43358,7 +41833,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Brazo de la hoja del limpiaparabrisas trasero para DODGE JOURNEY JCUV 2009-2013",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -43386,7 +41860,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров Задний дворниковый рычаг для DODGE JOURNEY JCUV 2009-2013",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -43414,7 +41887,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras de lame d'essuie-glace arrière pour DODGE JOURNEY JCUV 2009-2013",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -43442,7 +41914,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Autoexterne Zubehörteile Heckwischer-Klingen-Arm für DODGE JOURNEY JCUV 2009-2013",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -43470,7 +41941,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 道奇JOURNEY JCUV 2009-2013 后雨刷片和雨刷臂",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -43500,7 +41970,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de accesorios externos para automóviles Brazo de la hoja del limpiaparabrisas trasero para Volvo XC90 2002-2006",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -43528,7 +41997,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров Задний дворниковый рычаг для Volvo XC90 2002-2006",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -43556,7 +42024,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras de lame d'essuie-glace arrière pour Volvo XC90 2002-2006",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -43584,7 +42051,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Autoexterne Zubehörteile Heckwischer-Klingen-Arm für Volvo XC90 2002-2006",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -43612,7 +42078,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 沃尔沃XC90 2002-2006 后雨刷片和雨刷臂",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -43642,7 +42107,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Juego de brazos de la hoja del limpiaparabrisas trasero para VW Multivan T5 2003 - 2015",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -43670,7 +42134,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров Комплект заднего дворникового рычага для VW Multivan T5 2003-2015",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -43698,7 +42161,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Ensemble bras et lame d'essuie-glace arrière pour VW Multivan T5 2003-2015",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -43726,7 +42188,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Autoexterne Zubehörteile Heckwischer-Klingen-Arm-Set für VW Multivan T5 2003 - 2015",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -43754,7 +42215,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 大众Multivan T5 2003-2015 后雨刷片和雨刷臂套装",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -43784,7 +42244,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de accesorios externos para automóviles, escobillas de limpiaparabrisas traseras y juego de brazos para Honda Pilot 2009-2015",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -43812,7 +42271,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров Комплект задних дворниковых лезвий и рычагов для Honda Pilot 2009-2015",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -43840,7 +42298,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Ensemble lames et bras d'essuie-glace arrière pour Honda Pilot 2009-2015",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -43868,7 +42325,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Autoexterne Zubehörteile Heckwischer-Klingen- und Arm-Set für Honda Pilot 2009-2015",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -43896,7 +42352,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 本田Pilot 2009-2015 后雨刷片和雨刷臂套装",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -43926,7 +42381,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Limpiaparabrisas Soft Special 26+14 para Chevrolet Trax 2012-2016",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -43954,7 +42408,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров Мягкие специальные дворники 26 14 дюймов для Chevrolet Trax 2012-2016",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -43982,7 +42435,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Lames d'essuie-glace spéciales souples 26 14 pour Chevrolet Trax 2012-2016",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -44010,7 +42462,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Autoexterne Zubehörteile Soft-Spezial 26 14 Wischerblätter für Chevrolet Trax 2012-2016",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -44038,7 +42489,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 雪佛兰Trax 2012-2016 软式特殊26/14雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -44068,7 +42518,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Limpiaparabrisas especiales suaves para VW Tiguan Touran",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -44096,7 +42545,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров Мягкие специальные стеклоочистители для VW Tiguan Touran",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -44124,7 +42572,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Lames d'essuie-glace spéciales souples pour VW Tiguan Touran",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -44152,7 +42599,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Autoexterne Zubehörteile Soft-Spezial-Scheibenwischerblätter für VW Tiguan Touran",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -44180,7 +42626,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 大众Tiguan Touran 软式特殊挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -44210,7 +42655,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Parabrisas delantero especial 24+ 19 pulgadas Limpiaparabrisas suave para Jagua",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -44238,7 +42682,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров Специальные передние стеклоочистители 24 19 дюймов Мягкие дворники для Jaguar",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -44266,7 +42709,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Lames d'essuie-glace spéciales avant 24 19 pouces souples pour Jagua",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -44294,7 +42736,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Autoexterne Zubehörteile Spezial-Frontscheibe 24 19 Zoll Soft-Wischerblätter für Jagua",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -44322,7 +42763,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 捷豹前挡风玻璃 24/19英寸 软式雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -44352,7 +42792,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "28-32\"",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Camión Limpiaparabrisas Peluca Pieza de goma Recambio Lelión de metal Acceso para automóviles",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -44380,7 +42819,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "28-32\"",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров Дворники для грузовиков, резиновый наполнитель, металлический LELION Автомобильные аксессуары",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -44408,7 +42846,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "28-32\"",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Lame d'essuie-glace de camion pièce supplémentaire caoutchouc recharge Metal LELION Car Access",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -44436,7 +42873,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "28-32\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Autoexterne Zubehörteile LKW-Wischerblatt Wig-Stück Gummi-Nachfüllung Metall LELION Autozubehör",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -44464,7 +42900,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "28-32\"",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 卡车雨刷片插片橡胶补充件 金属LELION汽车配件",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -44494,7 +42929,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de accesorios externos para limpiaparabrisas para BMW X1 E84 2010-2015",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -44522,7 +42956,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров Стеклоочистители и рычаги для BMW X1 E84 2010-2015",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -44550,7 +42983,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Bras et lame d'essuie-glace pour BMW X1 E84 2010-2015",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -44578,7 +43010,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Autoexterne Zubehörteile Scheibenwischerarm-Klinge für BMW X1 E84 2010-2015",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -44606,7 +43037,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 宝马X1 E84 2010-2015 挡风玻璃雨刷臂和雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -44636,7 +43066,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Cuchilla y brazo del limpiaparabrisas para Chevrolet Tracker 2021",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -44664,7 +43093,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров Стеклоочиститель и рычаг для Chevrolet Tracker 2021",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -44692,7 +43120,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Lame et bras d'essuie-glace pour Chevrolet tracker 2021",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -44720,7 +43147,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Autoexterne Zubehörteile Scheibenwischer-Klinge und Arm für Chevrolet Tracker 2021",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -44748,7 +43174,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 雪佛兰Tracker 2021 挡风玻璃雨刷片和雨刷臂",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -44778,7 +43203,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Limpiaparabrisas delantero Limpiaparabrisas suave para VOLVO XC90 S80",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -44806,7 +43230,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров Дворники для переднего стекла Мягкие дворники для VOLVO XC90 S80",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -44834,7 +43257,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Lame d'essuie-glace avant souple pour VOLVO XC90 S80",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -44862,7 +43284,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Autoexterne Zubehörteile Wischerblatt Frontscheibe Soft-Wischer für VOLVO XC90 S80",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -44890,7 +43311,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 VOLVO XC90 S80 前挡风玻璃软式雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -44920,7 +43340,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de accesorios externos para automóviles: brazo de la hoja del limpiaparabrisas trasero para Honda Odyssey 2005 - 2010",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -44948,7 +43367,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров: задний стеклоочиститель и рычаг для Honda Odyssey 2005 - 2010",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -44976,7 +43394,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros : Bras d'essuie-glace arrière pour Honda Odyssey 2005 - 2010",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -45004,7 +43421,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Externes Zubehör: Heckscheibenwischerarm für Honda Odyssey 2005 - 2010",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -45032,7 +43448,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件：本田奥德赛（2005-2010）后挡风玻璃雨刷片臂",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -45062,7 +43477,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "28+26\"",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de limpiaparabrisas delantero de coche de 28/26 pulgadas para PEUGEOT 307 2004-2008",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -45090,7 +43504,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "28+26\"",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа переднего стекла 28/26 дюймов дворники для PEUGEOT 307 2004-2008",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -45118,7 +43531,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "28+26\"",
         "Couleur": "Noir",
         "Application": "Essuie-glaces avant de pare-brise voiture en gros 28/26 pouces pour PEUGEOT 307 2004-2008",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -45146,7 +43558,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "28+26\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Frontscheiben 28/26 Zoll Wischerblätter für PEUGEOT 307 2004-2008",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -45174,7 +43585,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "28+26\"",
         "颜色": "黑色",
         "适用车型": "批发标致307（2004-2008）前挡风玻璃28/26英寸雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -45204,7 +43614,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "24+18\"",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de limpiaparabrisas delantero especial de 24+18 pulgadas para IKCO SAMMAND 2001",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -45232,7 +43641,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "24+18\"",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа переднего стекла Специальные дворники 24 18 дюймов для IKCO SAMMAND 2001",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -45260,7 +43668,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "24+18\"",
         "Couleur": "Noir",
         "Application": "Essuie-glace spécial de pare-brise avant de voiture en gros 24 18 pouces pour IKCO SAMMAND 2001",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -45288,7 +43695,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "24+18\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Frontscheiben Spezieller 24 18 Zoll Wischerblatt für IKCO SAMMAND 2001",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -45316,7 +43722,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "24+18\"",
         "颜色": "黑色",
         "适用车型": "批发伊朗IKCO SAMAND（2001）前挡风玻璃特殊24/18英寸雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -45346,7 +43751,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "24+18\"",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor limpia Parabrisas delantero de coche 24+18 pulgadas Limpiaparabrisas Ajuste para Renault MEGANE IV 2016-2020",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -45374,7 +43778,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "24+18\"",
         "Цвет": "Черный",
         "Применяемость": "Оптовая чистка переднего стекла автомобиля 24 18 дюймов дворники для Renault MEGANE IV 2016-2020",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -45402,7 +43805,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "24+18\"",
         "Couleur": "Noir",
         "Application": "Essuie-glaces avant de pare-brise propre de voiture 24 18 pouces adaptés pour Renault MEGANE IV 2016-2020",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -45430,7 +43832,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "24+18\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel saubere Auto Frontscheiben 24 18 Zoll Wischerblätter passend für Renault MEGANE IV 2016-2020",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -45458,7 +43859,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "24+18\"",
         "颜色": "黑色",
         "适用车型": "批发雷诺梅甘娜IV（2016-2020）前挡风玻璃24/18英寸雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -45488,7 +43888,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "26+18”",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Limpieza frontal Parabrisas 18+26 pulgadas Limpiaparabrisas suave Bades para VW GOLF VII 7 Mk7",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -45516,7 +43915,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "26+18”",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа передних стеклоочистителей 18 26 дюймов Мягкие дворники для VW GOLF VII 7 Mk7",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -45544,7 +43942,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "26+18”",
         "Couleur": "Noir",
         "Application": "Essuie-glaces avant de nettoyage de pare-brise 18 26 pouces souples pour VW GOLF VII 7 Mk7",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -45572,7 +43969,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "26+18”",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Frontscheibenreinigung 18 26 Zoll Weiche Wischerblätter für VW GOLF VII 7 Mk7",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -45600,7 +43996,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "26+18”",
         "颜色": "黑色",
         "适用车型": "批发大众高尔夫VII 7 Mk7（前挡风玻璃清洁）18/26英寸软雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -45630,7 +44025,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de limpiaparabrisas delantero de 22+16 pulgadas para Renault Dacia Dokker 2016-2020",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -45658,7 +44052,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа переднего стекла 22 16 дюймов Мягкие дворники для Renault Dacia Dokker 2016-2020",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -45686,7 +44079,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Essuie-glaces avant de pare-brise 22 16 pouces souples pour Renault Dacia Dokker 2016-2020",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -45714,7 +44106,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Frontscheiben 22 16 Zoll Weiche Wischerblätter für Renault Dacia Dokker 2016-2020",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -45742,7 +44133,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发雷诺Dacia Dokker（2016-2020）前挡风玻璃22/16英寸软雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -45772,7 +44162,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "24+16\"",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Parabrisas delantero 24+16 pulgadas Ajuste de la escobilla del limpiaparabrisas para Audi A1 MK1 2010-2017",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -45800,7 +44189,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "24+16\"",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа переднего стекла 24 16 дюймов дворники для Audi A1 MK1 2010-2017",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -45828,7 +44216,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "24+16\"",
         "Couleur": "Noir",
         "Application": "Essuie-glace avant de pare-brise 24 16 pouces adapté pour Audi A1 MK1 2010-2017",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -45856,7 +44243,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "24+16\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Frontscheiben 24 16 Zoll Wischerblatt passend für Audi A1 MK1 2010-2017",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -45884,7 +44270,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "24+16\"",
         "颜色": "黑色",
         "适用车型": "批发奥迪A1 MK1（2010-2017）前挡风玻璃24/16英寸雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -45914,7 +44299,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor delimpiaparabrisas delantero de 24 +21 pulgadas para VW Phaeton 2002-2013",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -45942,7 +44326,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа переднего стекла 24 21 дюймов Мягкие дворники для VW Phaeton 2002-2013",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -45970,7 +44353,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Essuie-glaces avant de pare-brise 24 21 pouces souples pour VW Phaeton 2002-2013",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -45998,7 +44380,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Frontscheiben 24 21 Zoll Weiche Wischerblätter für VW Phaeton 2002-2013",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -46026,7 +44407,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发大众辉腾（2002-2013）前挡风玻璃24/21英寸软雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -46056,7 +44436,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas delantero al por mayor 24+20 pulgadas Limpiaparabrisas suave para BMW X5 E70 2012-2013",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -46084,7 +44463,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа переднего стекла Дворники 24 20 дюймов Мягкие дворники для BMW X5 E70 2012-2013",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -46112,7 +44490,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Essuie-glace avant de pare-brise 24 20 pouces souples pour BMW X5 E70 2012-2013",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -46140,7 +44517,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Frontscheibenwischer 24 20 Zoll Weiche Wischerblätter für BMW X5 E70 2012-2013",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -46168,7 +44544,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发宝马X5 E70（2012-2013）前挡风玻璃24/20英寸软雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -46198,7 +44573,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Mercedes Benz parte 251-820-01-44 Brazo delantero",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -46226,7 +44600,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа переднего рычага Mercedes Benz 251-820-01-44",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -46254,7 +44627,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Pièce Mercedes Benz en gros 251-820-01-44 Bras avant",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -46282,7 +44654,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Mercedes Benz Teil 251-820-01-44 Frontarm",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -46310,7 +44681,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发奔驰零件 251-820-01-44 前臂",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -46340,7 +44710,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de piezas de Mercedes-Benz 221-820-02-44 Brazo de limpiaparabrisas",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -46368,7 +44737,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа запчастей Mercedes-Benz 221-820-02-44 рычаг стеклоочистителя",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -46396,7 +44764,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Pièces Mercedes-Benz en gros 221-820-02-44 Bras d'essuie-glace",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -46424,7 +44791,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Mercedes-Benz Teile 221-820-02-44 Wischerarm",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -46452,7 +44818,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发奔驰零件 221-820-02-44 雨刷臂",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -46482,7 +44847,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor del brazo de la hoja del limpiaparabrisas trasero para Renault Twingo MK1 1993 - 2007",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -46510,7 +44874,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа заднего стеклоочистителя для Renault Twingo MK1 1993 - 2007",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -46538,7 +44901,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Bras d'essuie-glace arrière pour Renault Twingo MK1 1993 - 2007",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -46566,7 +44928,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Heckscheibenwischerarm für Renault Twingo MK1 1993 - 2007",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -46594,7 +44955,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发雷诺Twingo MK1（1993-2007）后挡风玻璃雨刷片臂",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -46624,7 +44984,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Combinación al por mayor del brazo de la hoja del limpiaparabrisas del marco del parabrisas trasero para NISSAN QASHQAI 2008-2013",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -46652,7 +45011,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа комбинации рамочного заднего стеклоочистителя для NISSAN QASHQAI 2008-2013",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -46680,7 +45038,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Combinaison de bras d'essuie-glace et cadre de pare-brise arrière pour NISSAN QASHQAI 2008-2013",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -46708,7 +45065,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Heckscheibenrahmen Wischerblatt-Kombination für NISSAN QASHQAI 2008-2013",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -46736,7 +45092,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发日产QASHQAI（2008-2013）后挡风玻璃雨刷片臂组合",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -46766,7 +45121,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Combinación de brazo de limpiaparabrisas trasero al por mayor para HYUNDAI New Santa Fe 2013-2017",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -46794,7 +45148,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа комбинации заднего стеклоочистителя для HYUNDAI New Santa Fe 2013-2017",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -46822,7 +45175,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Combinaison de bras d'essuie-glace arrière pour HYUNDAI New Santa Fe 2013-2017",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -46850,7 +45202,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Heckscheibenwischerarm-Kombination für HYUNDAI New Santa Fe 2013-2017",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -46878,7 +45229,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发现代新圣达菲（2013-2017）后挡风玻璃雨刷臂组合",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -46908,7 +45258,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Combinación de brazo de escobilla de limpiaparabrisas trasero al por mayor para Lexus RX 2004 - 2008",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -46936,7 +45285,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа комбинации заднего стеклоочистителя для Lexus RX 2004 - 2008",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -46964,7 +45312,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Combinaison de bras d'essuie-glace arrière pour Lexus RX 2004 - 2008",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -46992,7 +45339,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Heckscheibenwischerarm-Kombination für Lexus RX 2004 - 2008",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -47020,7 +45366,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发雷克萨斯RX（2004-2008）后挡风玻璃雨刷片臂组合",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -47050,7 +45395,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor del brazo de la hoja del limpiaparabrisas trasero para LAND ROVER GAMA ROVER 2006-2013",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -47078,7 +45422,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа заднего стеклоочистителя для LAND ROVER RANGE ROVER 2006-2013",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -47106,7 +45449,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Bras d'essuie-glace arrière pour LAND ROVER RANGE ROVER 2006-2013",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -47134,7 +45476,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Heckscheibenwischerarm für LAND ROVER RANGE ROVER 2006-2013",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -47162,7 +45503,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发路虎揽胜（2006-2013）后挡风玻璃雨刷片臂",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -47192,7 +45532,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de escobillas para limpiaparabrisas trasero para Toyota Highlander 2001-2003",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -47220,7 +45559,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа задних стеклоочистителей для Toyota Highlander 2001-2003",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -47248,7 +45586,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Essuie-glaces arrière de pare-brise pour Toyota Highlander 2001-2003",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -47276,7 +45613,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Heckscheibenwischerblätter für Toyota Highlander 2001-2003",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -47304,7 +45640,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发丰田汉兰达（2001-2003）后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -47334,7 +45669,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de limpiaparabrisas para coche Combinación de limpiaparabrisas trasero para Ford Escape 2008-2012",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -47362,7 +45696,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа комбинации заднего стеклоочистителя для Ford Escape 2008-2012",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -47390,7 +45723,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Combinaison d'essuie-glace arrière de pare-brise et vitre de voiture pour Ford Escape 2008-2012",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -47418,7 +45750,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Windschutzscheiben-Autoglas Wischer Heckwischerblatt-Kombination für Ford Escape 2008-2012",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -47446,7 +45777,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发福特翼虎（2008-2012）挡风玻璃车窗后雨刷片组合",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -47476,7 +45806,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de limpiaparabrisas Hot Sells Limpiaparabrisas delantero Soft para Cadillac SLS 2005-2013",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -47504,7 +45833,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа передних мягких щеток стеклоочистителя для Cadillac SLS 2005-2013, пользуются высоким спросом",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -47532,7 +45860,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Balais d'essuie-glace en gros, vente chaude, balais d'essuie-glace avant souples pour Cadillac SLS 2005-2013",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -47560,7 +45887,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandels-Scheibenwischer Heiße Verkäufe Frontscheibe weiche Wischerblätter für Cadillac SLS 2005-2013",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -47588,7 +45914,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "批发雨刷热销 凯迪拉克SLS 2005-2013前挡风玻璃软雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }
@@ -47618,7 +45943,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Tamaño": "Estándar",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para FIAT SEDICI 2010",
-        "MOQ": "300 PCS",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
       }
     },
@@ -47646,7 +45970,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Размер": "Стандартный",
         "Цвет": "Черный",
         "Применяемость": "Задняя щетка стеклоочистителя для FIAT SEDICI 2010",
-        "MOQ": "300 PCS",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
       }
     },
@@ -47674,7 +45997,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Taille": "Standard",
         "Couleur": "Noir",
         "Application": "Essuie-glace arrière pour FIAT SEDICI 2010",
-        "MOQ": "300 PCS",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
       }
     },
@@ -47702,7 +46024,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "Größe": "Standard",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischer für FIAT SEDICI 2010",
-        "MOQ": "300 PCS",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
       }
     },
@@ -47730,7 +46051,6 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
         "尺寸": "标准",
         "颜色": "黑色",
         "适用车型": "2010款FIAT SEDICI后挡风玻璃雨刷片",
-        "MOQ": "300 PCS",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
       }
     }

@@ -321,7 +321,6 @@ export const allProducts: Product[] = [
       "Frame Design": "Aerodynamic Beam Design",
       "Rubber Material": "Durable Synthetic Rubber",
       "Vehicle Coverage": "Universal Fit - Most Vehicles",
-      "MOQ": "1000 PCS",
       "HS Code": "85124000",
       "OEM Service": "Custom Logo / Custom Packaging Available"
     },
@@ -385,7 +384,6 @@ export const allProducts: Product[] = [
       "Color": "Black",
       "Material": "High-Strength Steel with Corrosion-Resistant Coating",
       "Installation": "Direct OE Replacement - No Modification Required",
-      "MOQ": "10 PCS",
       "HS Code": "85124000",
       "OEM Service": "Custom Logo / Custom Packaging Available"
     },
@@ -450,7 +448,6 @@ export const allProducts: Product[] = [
       "Color": "Black",
       "Material": "High-Strength Steel with Anti-Corrosion Coating",
       "Installation": "Direct OE Replacement",
-      "MOQ": "10 PCS",
       "HS Code": "85124000",
       "OEM Service": "Custom Logo / Custom Packaging Available"
     },
@@ -510,7 +507,6 @@ export const allProducts: Product[] = [
       "Color": "Black",
       "Material": "High-Strength Steel with Weather-Resistant Coating",
       "Installation": "Direct OE Replacement",
-      "MOQ": "100 PCS",
       "HS Code": "85124000",
       "OEM Service": "Custom Logo / Custom Packaging Available"
     },
