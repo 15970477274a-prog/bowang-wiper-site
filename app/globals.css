@@ -793,3 +793,41 @@ html[lang^="zh"] { --h1-hero: 56px; }
 @media (max-width: 640px) {
   .quote-grid { grid-template-columns: 1fr; }
 }
+
+/* Packing data table. The wrapper scrolls horizontally on phones so the page
+   itself never does. */
+.packing-scroll {
+  max-width: 900px;
+  margin: 0 auto;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border-radius: 12px;
+  box-shadow: var(--shadow-sm);
+  background: var(--bg-white);
+}
+.packing-table {
+  width: 100%;
+  min-width: 560px;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+.packing-table th {
+  text-align: left;
+  padding: 12px 14px;
+  background: #f1f5f9;
+  color: var(--text-primary);
+  font-weight: 700;
+  border-bottom: 1px solid var(--border-light);
+}
+.packing-table td {
+  padding: 11px 14px;
+  border-bottom: 1px solid var(--border-light);
+  color: var(--text-secondary);
+}
+.packing-table tbody tr:nth-child(even) { background: #fafafa; }
+.packing-note {
+  max-width: 900px;
+  margin: 14px auto 0;
+  font-size: 13px;
+  color: var(--text-secondary-strong);
+}

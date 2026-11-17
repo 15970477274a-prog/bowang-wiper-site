@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useParams } from "next/navigation";
+import { translations, Locale } from "../../translations";
 
 type Block = { t: string; d: string };
 type Row = { k: string; v: string };
@@ -533,6 +534,7 @@ export default function Page() {
   const lang = (params?.lang as string) || "en";
   const c = oem[lang] || oem.en;
   const l = (p: string) => "/" + lang + p;
+  const t = translations[(lang as Locale)] || translations.en;
 
   const h2: React.CSSProperties = { fontSize: "32px", fontWeight: 800, color: "var(--primary)", margin: "0 0 15px 0", textAlign: "center" };
   const h3: React.CSSProperties = { fontSize: "19px", fontWeight: 700, margin: "0 0 10px", color: "var(--text-primary)" };
@@ -582,6 +584,11 @@ export default function Page() {
               ))}
             </tbody>
           </table>
+          <p style={{ marginTop: "22px", fontSize: "14px" }}>
+            <Link href={l("/packing")} style={{ color: "var(--accent-strong)", fontWeight: 600 }}>
+              {t.packingLinkLabel} →
+            </Link>
+          </p>
         </div>
       </section>
 

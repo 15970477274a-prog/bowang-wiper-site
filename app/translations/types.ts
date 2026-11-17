@@ -196,6 +196,18 @@ export interface TranslationDict {
   downloadCatalog: string;
   techSpecsTitle: string;
   techSpecsSubtitle: string;
+  packingPageTitle: string;
+  packingSubtitle: string;
+  packingPageDesc: string;
+  packingNoteCoverage: string;
+  packingLinkLabel: string;
+  packingColSize: string;
+  packingColPcs: string;
+  packingColCarton: string;
+  packingColCbm: string;
+  packingColInner: string;
+  packingBoxPpGreen: string;
+  packingNote: string;
   whyChooseTitle: string;
   whyChooseSubtitle: string;
   faqSectionTitle: string;
