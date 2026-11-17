@@ -57,7 +57,7 @@ export async function POST(request: Request) {
     }
 
     const body = await request.json();
-    const { name, email, company, whatsapp, quantity, product, message, website } = body;
+    const { name, email, company, whatsapp, quantity, product, sizes, destination, packaging, message, website } = body;
 
     // Honeypot: bots fill hidden fields; real users never do.
     if (website) {
@@ -65,22 +65,36 @@ export async function POST(request: Request) {
     }
 
     // Server-side validation with length limits
-    if (!name || !email || !message) {
+    // The form asks for the four facts needed to quote: name, email, product and
+    // quantity. The free-text message is now optional because the structured
+    // fields carry the quote data.
+    if (!name || !email || !product || !quantity) {
       return NextResponse.json(
-        { error: "Name, email, and detailed message are required." },
+        { error: "Name, email, product and estimated quantity are required." },
         { status: 400 }
       );
     }
     if (
-      typeof name !== "string" || typeof email !== "string" || typeof message !== "string" ||
+      typeof name !== "string" || typeof email !== "string" ||
+      typeof product !== "string" || typeof quantity !== "string" ||
+      (message && typeof message !== "string") ||
       name.length > MAX_FIELD_LENGTH ||
+      product.length > MAX_FIELD_LENGTH ||
+      quantity.length > MAX_FIELD_LENGTH ||
       (company && company.length > MAX_FIELD_LENGTH) ||
       (whatsapp && whatsapp.length > MAX_FIELD_LENGTH) ||
-      (product && product.length > MAX_FIELD_LENGTH) ||
-      message.length > MAX_MESSAGE_LENGTH
+      (sizes && sizes.length > MAX_FIELD_LENGTH) ||
+      (destination && destination.length > MAX_FIELD_LENGTH) ||
+      (packaging && packaging.length > MAX_FIELD_LENGTH) ||
+      (message && message.length > MAX_MESSAGE_LENGTH)
     ) {
       return NextResponse.json({ error: "Invalid input length." }, { status: 400 });
     }
+
+    // Packaging is a fixed list in the form; anything else is dropped so the
+    // notification always carries one of the four known options.
+    const PACKAGING_OPTIONS = ["Standard export carton", "Private label (OEM)", "Custom packaging", "Not sure yet"];
+    const safePackaging = PACKAGING_OPTIONS.includes(packaging) ? packaging : "";
 
     // Escape all user input before embedding into email HTML (prevents HTML injection)
     const e = (v: string) => escapeHtml((v || "").toString());
@@ -90,6 +104,9 @@ export async function POST(request: Request) {
     const eProduct = e(product);
     const eWhatsapp = e(whatsapp);
     const eQuantity = e(quantity);
+    const eSizes = e(sizes);
+    const eDestination = e(destination);
+    const ePackaging = e(safePackaging);
     const eMessage = e(message).replace(/\n/g, "<br/>");
 
     const htmlBody =
@@ -124,11 +141,23 @@ export async function POST(request: Request) {
               '<td style="padding: 10px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;">Est. Quantity:</td>' +
               '<td style="padding: 10px 0; border-bottom: 1px solid #f1f5f9;">' + (eQuantity || "N/A") + '</td>' +
             '</tr>' +
+            '<tr>' +
+              '<td style="padding: 10px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;">Required Sizes:</td>' +
+              '<td style="padding: 10px 0; border-bottom: 1px solid #f1f5f9;">' + (eSizes || "N/A") + '</td>' +
+            '</tr>' +
+            '<tr>' +
+              '<td style="padding: 10px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;">Destination Port / Country:</td>' +
+              '<td style="padding: 10px 0; border-bottom: 1px solid #f1f5f9;">' + (eDestination || "N/A") + '</td>' +
+            '</tr>' +
+            '<tr>' +
+              '<td style="padding: 10px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;">Packaging / Private Label:</td>' +
+              '<td style="padding: 10px 0; border-bottom: 1px solid #f1f5f9;">' + (ePackaging || "N/A") + '</td>' +
+            '</tr>' +
           '</table>' +
           '<div style="margin-top: 25px;">' +
             '<p style="font-weight: bold; margin-bottom: 10px;">Message / Requirements:</p>' +
             '<div style="background-color: #f8fafc; padding: 15px; border-radius: 6px; border: 1px solid #e2e8f0;">' +
-              eMessage +
+              (eMessage || "N/A") +
             '</div>' +
           '</div>' +
           '<div style="margin-top: 30px; border-top: 1px solid #f1f5f9; padding-top: 20px; font-size: 12px; color: #94a3b8;">' +

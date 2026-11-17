@@ -14,6 +14,11 @@ export default function ContactPage() {
     email: "",
     company: "",
     product: "General Inquiry",
+    quantity: "",
+    sizes: "",
+    destination: "",
+    packaging: "",
+    whatsapp: "",
     message: ""
   });
   const [status, setStatus] = useState({
@@ -26,6 +31,17 @@ export default function ContactPage() {
     setLang(urlLang);
     localStorage.setItem("lelion_lang", urlLang);
   }, [urlLang]);
+
+  // The product page links here as /contact?product=<name>. Without this the
+  // parameter was sent and then dropped, so every quote request arrived as
+  // "General Inquiry". Read it after mount: the page is statically exported,
+  // and a Suspense-wrapped useSearchParams would be needed otherwise.
+  useEffect(() => {
+    const raw = new URLSearchParams(window.location.search).get("product");
+    if (!raw) return;
+    const clean = raw.replace(/[\u0000-\u001f]/g, "").trim().slice(0, 200);
+    if (clean) setFormData((prev) => ({ ...prev, product: clean }));
+  }, []);
 
   const handleLangChange = (newLang: Locale) => {
     setLang(newLang);
@@ -47,7 +63,7 @@ export default function ContactPage() {
       });
       if (response.ok) {
         setStatus({ submitted: true, loading: false, error: "" });
-        setFormData({ name: "", email: "", company: "", product: "General Inquiry", message: "" });
+        setFormData({ name: "", email: "", company: "", product: "General Inquiry", quantity: "", sizes: "", destination: "", packaging: "", whatsapp: "", message: "" });
       } else {
         throw new Error("Failed to send inquiry.");
       }
@@ -57,6 +73,8 @@ export default function ContactPage() {
   };
 
   const t = translations[lang];
+  const inputStyle: React.CSSProperties = { width: "100%", padding: "12px", border: "1px solid #e2e8f0", borderRadius: "6px", backgroundColor: "#ffffff" };
+  const labelStyle: React.CSSProperties = { display: "block", fontSize: "13px", fontWeight: 700, marginBottom: "8px" };
 
   return (
     <main style={{ fontFamily: "system-ui, -apple-system, sans-serif", color: "#1e293b", backgroundColor: "#ffffff" }}>
@@ -122,10 +140,24 @@ export default function ContactPage() {
             </div>
             <form onSubmit={handleSubmit}>
               <input type="text" name="website" tabIndex={-1} autoComplete="off" style={{ position: "absolute", left: "-9999px", opacity: 0 }} aria-hidden="true" />
-              <div style={{ marginBottom: "20px" }}><label style={{ display: "block", fontSize: "13px", fontWeight: 700, marginBottom: "8px" }}>{t.contactNameLabel}</label><input type="text" name="name" required value={formData.name} onChange={handleChange} style={{ width: "100%", padding: "12px", border: "1px solid #e2e8f0", borderRadius: "6px" }} placeholder={t.contactNamePlaceholder} /></div>
-              <div style={{ marginBottom: "20px" }}><label style={{ display: "block", fontSize: "13px", fontWeight: 700, marginBottom: "8px" }}>{t.contactEmailLabel}</label><input type="email" name="email" required value={formData.email} onChange={handleChange} style={{ width: "100%", padding: "12px", border: "1px solid #e2e8f0", borderRadius: "6px" }} placeholder={t.contactEmailPlaceholder} /></div>
-              <div style={{ marginBottom: "20px" }}><label style={{ display: "block", fontSize: "13px", fontWeight: 700, marginBottom: "8px" }}>{t.contactCompanyLabel}</label><input type="text" name="company" value={formData.company} onChange={handleChange} style={{ width: "100%", padding: "12px", border: "1px solid #e2e8f0", borderRadius: "6px" }} placeholder={t.contactCompanyPlaceholder} /></div>
-              <div style={{ marginBottom: "25px" }}><label style={{ display: "block", fontSize: "13px", fontWeight: 700, marginBottom: "8px" }}>{t.contactMessageLabel}</label><textarea name="message" required rows={4} value={formData.message} onChange={handleChange} style={{ width: "100%", padding: "12px", border: "1px solid #e2e8f0", borderRadius: "6px", resize: "none" }} placeholder={t.contactMessagePlaceholder} /></div>
+              <div className="quote-grid">
+                <div className="quote-field"><label style={labelStyle}>{t.contactNameLabel}</label><input type="text" name="name" required value={formData.name} onChange={handleChange} style={inputStyle} placeholder={t.contactNamePlaceholder} /></div>
+                <div className="quote-field"><label style={labelStyle}>{t.contactEmailLabel}</label><input type="email" name="email" required value={formData.email} onChange={handleChange} style={inputStyle} placeholder={t.contactEmailPlaceholder} /></div>
+                <div className="quote-field"><label style={labelStyle}>{t.contactCompanyLabel}</label><input type="text" name="company" value={formData.company} onChange={handleChange} style={inputStyle} placeholder={t.contactCompanyPlaceholder} /></div>
+                <div className="quote-field"><label style={labelStyle}>{t.contactWhatsappLabel}</label><input type="text" name="whatsapp" value={formData.whatsapp} onChange={handleChange} style={inputStyle} placeholder={t.contactWhatsappPlaceholder} /></div>
+                <div className="quote-field quote-full"><label style={labelStyle}>{t.contactProductLabel}</label><input type="text" name="product" required value={formData.product} onChange={handleChange} style={inputStyle} /></div>
+                <div className="quote-field"><label style={labelStyle}>{t.contactQuantityLabel}</label><input type="text" name="quantity" required value={formData.quantity} onChange={handleChange} style={inputStyle} placeholder={t.contactQuantityPlaceholder} /></div>
+                <div className="quote-field"><label style={labelStyle}>{t.contactSizesLabel}</label><input type="text" name="sizes" value={formData.sizes} onChange={handleChange} style={inputStyle} placeholder={t.contactSizesPlaceholder} /></div>
+                <div className="quote-field"><label style={labelStyle}>{t.contactDestinationLabel}</label><input type="text" name="destination" value={formData.destination} onChange={handleChange} style={inputStyle} placeholder={t.contactDestinationPlaceholder} /></div>
+                <div className="quote-field"><label style={labelStyle}>{t.contactPackagingLabel}</label><select name="packaging" value={formData.packaging} onChange={handleChange} style={inputStyle}>
+                  <option value="">—</option>
+                  <option value="Standard export carton">{t.contactPackagingStandard}</option>
+                  <option value="Private label (OEM)">{t.contactPackagingPrivate}</option>
+                  <option value="Custom packaging">{t.contactPackagingCustom}</option>
+                  <option value="Not sure yet">{t.contactPackagingUnsure}</option>
+                </select></div>
+                <div className="quote-field quote-full"><label style={labelStyle}>{t.contactMessageLabel}</label><textarea name="message" rows={4} value={formData.message} onChange={handleChange} style={{ ...inputStyle, resize: "none" }} placeholder={t.contactMessagePlaceholder} /></div>
+              </div>
               {status.submitted && <div style={{ backgroundColor: "#ecfdf5", color: "#065f46", padding: "15px", borderRadius: "8px", marginBottom: "20px", fontSize: "14px" }}><strong>{t.contactSuccessMsg}</strong></div>}
               <button type="submit" disabled={status.loading} style={{ width: "100%", backgroundColor: "var(--accent-strong)", color: "white", padding: "15px", borderRadius: "8px", fontSize: "16px", fontWeight: "bold", cursor: "pointer" }}>{status.loading ? t.contactSubmittingBtn : t.contactSubmitBtn}</button>
             </form>

@@ -779,3 +779,17 @@ html[lang="es"] { --h1-hero: min(56px, 9.5vw); }
 html[lang="de"] { --h1-hero: min(56px, 9.3vw); }
 /* Chinese wraps between characters, so no word can overflow; keep the full size. */
 html[lang^="zh"] { --h1-hero: 56px; }
+
+/* Quote form: two columns on desktop, a single column on phones. minmax(0,1fr)
+   keeps a long product name from widening the grid (same class of bug as the
+   mobile overflow batch). */
+.quote-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 18px;
+}
+.quote-grid > .quote-field { margin-bottom: 18px; min-width: 0; }
+.quote-grid > .quote-full { grid-column: 1 / -1; }
+@media (max-width: 640px) {
+  .quote-grid { grid-template-columns: 1fr; }
+}

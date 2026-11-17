@@ -75,6 +75,15 @@ export interface TranslationDict {
   contactNamePlaceholder: string;
   contactEmailPlaceholder: string;
   contactCompanyPlaceholder: string;
+  contactSizesLabel: string;
+  contactSizesPlaceholder: string;
+  contactDestinationLabel: string;
+  contactDestinationPlaceholder: string;
+  contactPackagingLabel: string;
+  contactPackagingStandard: string;
+  contactPackagingPrivate: string;
+  contactPackagingCustom: string;
+  contactPackagingUnsure: string;
   contactMessagePlaceholder: string;
   contactSuccessMsg: string;
   contactErrorMsg: string;
