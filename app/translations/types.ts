@@ -199,7 +199,6 @@ export interface TranslationDict {
   packingPageTitle: string;
   packingSubtitle: string;
   packingPageDesc: string;
-  packingNoteCoverage: string;
   packingLinkLabel: string;
   packingColSize: string;
   packingColPcs: string;

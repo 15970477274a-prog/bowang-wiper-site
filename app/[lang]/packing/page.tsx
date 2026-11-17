@@ -41,10 +41,7 @@ export default async function PackingPage({ params }: { params: Promise<{ lang: 
               </tbody>
             </table>
           </div>
-          <div style={{ maxWidth: "900px", margin: "18px auto 0" }}>
-            <p className="packing-note">{t.packingNote}</p>
-            <p className="packing-note">{t.packingNoteCoverage}</p>
-          </div>
+          <p className="packing-note">{t.packingNote}</p>
         </div>
       </section>
     </main>

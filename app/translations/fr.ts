@@ -198,7 +198,6 @@ export const fr: TranslationDict = {
     packingPageTitle: "Référence d'emballage pour balais d'essuie-glace 12–28 pouces",
     packingSubtitle: "Données d'emballage pour notre gamme 12–28 pouces. Référence générale de la gamme, et non la spécification d'un seul modèle.",
     packingPageDesc: "Quantités, dimensions et CBM par carton pour balais de 12–28 pouces, pour le calcul des conteneurs et du fret. Au-delà de 28 pouces, l'emballage est chiffré séparément.",
-    packingNoteCoverage: "Couverture mesurée dans ce tableau : 14–28 pouces. Les tailles 12–13 pouces restent à ajouter.",
     packingLinkLabel: "Voir la référence d'emballage pour balais de 12–28 pouces",
     packingColSize: "Taille (pouces)",
     packingColPcs: "Pièces par carton",

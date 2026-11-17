@@ -14,6 +14,10 @@ export type CartonRow = {
 };
 
 export const cartonRows: CartonRow[] = [
+  // 12 and 13 inch blades share the 14 inch carton: their blades are 30.5 cm
+  // and 33.0 cm, both shorter than the 40 cm carton length.
+  { size: 12, pcsPerCarton: 100, cartonCm: "40 x 28.5 x 52", cbm: 0.05928, innerBox: "ppGreen" },
+  { size: 13, pcsPerCarton: 100, cartonCm: "40 x 28.5 x 52", cbm: 0.05928, innerBox: "ppGreen" },
   { size: 14, pcsPerCarton: 100, cartonCm: "40 x 28.5 x 52", cbm: 0.05928, innerBox: "ppGreen" },
   { size: 16, pcsPerCarton: 100, cartonCm: "45 x 28.5 x 52", cbm: 0.06669, innerBox: "ppGreen" },
   { size: 17, pcsPerCarton: 100, cartonCm: "50 x 28.5 x 52", cbm: 0.07410, innerBox: "ppGreen" },

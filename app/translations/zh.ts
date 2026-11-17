@@ -199,7 +199,6 @@ export const zh: TranslationDict = {
     packingPageTitle: "12–28 寸雨刮器箱规参考",
     packingSubtitle: "适用于 12–28 寸雨刮器系列的通用装箱参考，不是某一型号的专属参数。",
     packingPageDesc: "12–28 寸雨刮器的每箱支数、箱规与单箱体积，便于估算柜量与运费。28 寸以上包装另算。",
-    packingNoteCoverage: "表内实测覆盖 14–28 寸，12–13 寸待补。",
     packingLinkLabel: "查看 12–28 寸雨刮器箱规参考",
     packingColSize: "规格（英寸）",
     packingColPcs: "每箱支数",

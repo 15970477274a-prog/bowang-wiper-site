@@ -199,7 +199,6 @@ export const de: TranslationDict = {
     packingPageTitle: "Verpackungsreferenz für Wischerblätter 12–28 Zoll",
     packingSubtitle: "Verpackungsdaten für unsere 12–28-Zoll-Reihe. Eine allgemeine Referenz für die Reihe, nicht die Spezifikation eines einzelnen Modells.",
     packingPageDesc: "Stückzahl, Maße und CBM pro Karton für Wischerblätter 12–28 Zoll, für Container- und Frachtkalkulation. Über 28 Zoll wird die Verpackung separat angeboten.",
-    packingNoteCoverage: "Gemessene Abdeckung in dieser Tabelle: 14–28 Zoll. Die Größen 12–13 Zoll fehlen noch.",
     packingLinkLabel: "Verpackungsreferenz für Wischerblätter 12–28 Zoll ansehen",
     packingColSize: "Größe (Zoll)",
     packingColPcs: "Stück pro Karton",

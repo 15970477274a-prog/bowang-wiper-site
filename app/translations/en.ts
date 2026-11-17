@@ -199,7 +199,6 @@ export const en: TranslationDict = {
     packingPageTitle: "12–28 Inch Wiper Blades — Carton Specification Reference",
     packingSubtitle: "Carton data for our 12–28 inch wiper range. It is a general reference for the range, not the specification of a single model.",
     packingPageDesc: "Carton quantity, dimensions and CBM for 12–28 inch wiper blades, for container and freight planning. Sizes above 28 inches are quoted separately.",
-    packingNoteCoverage: "Measured coverage in this table: 14–28 inches. Sizes 12–13 inches are still to be added.",
     packingLinkLabel: "See the carton specification reference for 12–28 inch wiper blades",
     packingColSize: "Size (inch)",
     packingColPcs: "Pcs per carton",

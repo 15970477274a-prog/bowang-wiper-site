@@ -198,7 +198,6 @@ export const es: TranslationDict = {
     packingPageTitle: "Referencia de embalaje para limpiaparabrisas de 12–28 pulgadas",
     packingSubtitle: "Datos de embalaje de nuestra gama de 12–28 pulgadas. Es una referencia general de la gama, no la especificación de un solo modelo.",
     packingPageDesc: "Unidades por caja, dimensiones y CBM de limpiaparabrisas de 12–28 pulgadas, para calcular contenedores y flete. Las medidas superiores a 28 pulgadas se cotizan por separado.",
-    packingNoteCoverage: "Cobertura medida en esta tabla: 14–28 pulgadas. Las medidas de 12–13 pulgadas están pendientes.",
     packingLinkLabel: "Ver la referencia de embalaje para limpiaparabrisas de 12–28 pulgadas",
     packingColSize: "Medida (pulgadas)",
     packingColPcs: "Unidades por caja",
