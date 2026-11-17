@@ -21,6 +21,17 @@ const nextConfig = {
   },
   async headers() {
     return [
+      // The bare root is language-negotiated by the middleware (see proxy.ts), so
+      // the same URL yields six different bodies. Never let a shared cache keep
+      // one of them: the prerendered page otherwise arrives with
+      // s-maxage=31536000, i.e. whoever visits first sets the language for a
+      // year. Next.js rewrites the Vary header on RSC responses, so the CDN
+      // directives are the ones that actually take effect.
+      { source: "/", headers: [
+        { key: "Vary", value: "Accept-Language" },
+        { key: "CDN-Cache-Control", value: "no-store" },
+        { key: "Vercel-CDN-Cache-Control", value: "no-store" },
+      ] },
       { source: "/(.*)", headers: [
         { key: "Vary", value: "Accept-Language" },
         { key: "X-Content-Type-Options", value: "nosniff" },
@@ -61,22 +72,29 @@ module.exports = { ...nextConfig, async redirects() { return [
   // --- Canonical entry points, 2026-10-15 ---
   // Goal: one permanent (301) hop into the canonical, slash-free, localised URL.
   // The locale middleware already handles non-prefixed paths; these rules add the
-  // host-level collapse and a fallback for the bare root.
+  // host-level collapse.
   //
   // IMPORTANT: Vercel currently answers `lelionautopart.com` with its own
   // dashboard-level "Redirect to Primary Domain" (308) BEFORE the app runs, so
   // the two apex rules below stay dormant until that setting is switched off in
-  // the Vercel project. With it switched off, apex -> https://www.../en becomes a
-  // single hop. Host-specific rules must come first, otherwise { source: "/" }
+  // the Vercel project. Host-specific rules must come first, otherwise { source: "/" }
   // would match the apex root before the host rule is evaluated.
-  { source: "/", has: [{ type: "host", value: "lelionautopart.com" }], destination: "https://www.lelionautopart.com/en", statusCode: 301 },
+  //
+  // The apex root now lands on `https://www.../` rather than `/en`: the bare root
+  // is language-detected by the middleware (see proxy.ts), and pinning it to /en
+  // here would hand an English page to a French visitor.
+  { source: "/", has: [{ type: "host", value: "lelionautopart.com" }], destination: "https://www.lelionautopart.com/", statusCode: 301 },
   { source: "/:path+", has: [{ type: "host", value: "lelionautopart.com" }], destination: "https://www.lelionautopart.com/:path+", statusCode: 301 },
-  // Bare root on the canonical host: straight to /en (the middleware normally
-  // wins this race; kept as a fallback if the middleware matcher is narrowed).
-  { source: "/", destination: "/en", statusCode: 301 },
+  // There is deliberately no `{ source: "/", destination: "/en" }` rule here.
+  // next.config redirects are evaluated BEFORE middleware, so that rule used to
+  // win the race and sent every visitor to /en regardless of Accept-Language.
+  // The bare root is now owned by the middleware, which rewrites it to the
+  // detected locale in a single response.
   { source: "/:lang/Catalog.pdf", destination: "/Catalog.pdf", permanent: true },
-  { source: "/about-us", destination: "/en/about", permanent: true },
-  { source: "/contact-us", destination: "/en/contact", permanent: true },
+  // statusCode 301 rather than permanent:true, which Next maps to 308 — same SEO
+  // meaning, but the acceptance criteria for this change name 301 explicitly.
+  { source: "/about-us", destination: "/en/about", statusCode: 301 },
+  { source: "/contact-us", destination: "/en/contact", statusCode: 301 },
   // Product 8512900000-124 was renamed to bw-866-multifunction-wiper-blade.
   // statusCode 301 (rather than permanent:true, which Next maps to 308) matches the
   // requested permanent-redirect status exactly. :lang keeps the language prefix.

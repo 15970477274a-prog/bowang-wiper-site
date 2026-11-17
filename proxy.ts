@@ -63,7 +63,32 @@ export default function proxy(request: NextRequest) {
   // `normalized` keeps the destination free of a trailing slash so the locale
   // redirect lands directly on the canonical URL in a single hop.
   const locale = getLocale(request);
-  const newUrl = new URL(`/${locale}${normalized === "/" ? "" : normalized}`, request.url);
+
+  // The bare root is an entry point, not a legacy URL: rewrite it to the detected
+  // locale and answer 200, so a visitor pays one round trip instead of a redirect
+  // plus a request. A 301 here would also have to pick a language up front, which
+  // is what pinned everyone to /en before (next.config's `/` -> `/en` rule ran
+  // ahead of this middleware).
+  if (normalized === "/") {
+    const rewriteUrl = new URL(`/${locale}`, request.url);
+    rewriteUrl.search = request.nextUrl.search;
+    const response = NextResponse.rewrite(rewriteUrl);
+    // The HTML served for `/` now depends on Accept-Language, so a shared cache
+    // must not hand one language's copy to another language's visitor: the
+    // prerendered page below would otherwise be stored once for a year
+    // (s-maxage=31536000) with whoever arrived first deciding the language.
+    //
+    // `Vary: Accept-Language` is the correct signal but Next.js overwrites the
+    // Vary header for RSC responses, so it cannot be relied on alone; the CDN
+    // directives below are what actually keep `/` out of the shared cache.
+    // Vercel-CDN-Cache-Control wins over the page's own Cache-Control.
+    response.headers.set("Vary", "Accept-Language");
+    response.headers.set("CDN-Cache-Control", "no-store");
+    response.headers.set("Vercel-CDN-Cache-Control", "no-store");
+    return response;
+  }
+
+  const newUrl = new URL(`/${locale}${normalized}`, request.url);
   newUrl.search = request.nextUrl.search;
   return NextResponse.redirect(newUrl, 301);
 }
