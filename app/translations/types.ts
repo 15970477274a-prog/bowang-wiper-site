@@ -208,6 +208,9 @@ export interface TranslationDict {
   packingBoxPpGreen: string;
   packingNote: string;
   packingNoteShared1213: string;
+  packingBusTitle: string;
+  packingBusNote: string;
+  packingBusLinkLabel: string;
   whyChooseTitle: string;
   whyChooseSubtitle: string;
   faqSectionTitle: string;

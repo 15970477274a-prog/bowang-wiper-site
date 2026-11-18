@@ -29,3 +29,19 @@ export const cartonRows: CartonRow[] = [
   { size: 26, pcsPerCarton: 100, cartonCm: "70 x 28.5 x 52", cbm: 0.10374, innerBox: "ppGreen" },
   { size: 28, pcsPerCarton: 100, cartonCm: "75 x 28.5 x 52", cbm: 0.11115, innerBox: "ppGreen" }
 ];
+
+// Bus / truck blades sit above the 12-28 inch range, so they get their own
+// section instead of a row that would contradict the table above. Only the
+// 32 inch carton has actually been measured; the section note says so rather
+// than implying coverage the factory has not confirmed. Weights stay off this
+// page by owner decision.
+export type BusTruckCartonRow = {
+  size: number;
+  pcsPerCarton: number;
+  cartonCm: string;
+  cbm: number;
+};
+
+export const busTruckRows: BusTruckCartonRow[] = [
+  { size: 32, pcsPerCarton: 25, cartonCm: "83 x 24 x 13", cbm: 0.025896 }
+];

@@ -69,6 +69,14 @@ export default function ProductDetail() {
   const categoryKey = CATEGORY_LABEL_KEYS[product.category];
   const categoryLabel = categoryKey ? String(t[categoryKey as keyof typeof t]) : product.category;
   const relatedProducts = allProducts.filter(p => p.category === product.category && p.id !== product.id).slice(0, 4);
+  // The carton table covers wiper blades only. An arm or a rubber strip has no row
+  // in it, so the link would be noise there; bus/truck blades are blades but sit
+  // above the table's range, so they point at their own section instead.
+  // Matching on the exact category name on purpose: "Rear Wiper" is a prefix of
+  // "Rear Wiper Combo", so a substring test would silently mix the two.
+  const CARTON_HIDDEN_CATEGORIES = ["Wiper Arm", "Wiper Parts"];
+  const isBusTruckBlade = product.category === "Bus Truck Wiper";
+  const showCartonLink = !CARTON_HIDDEN_CATEGORIES.includes(product.category);
   const modelNo = product.id.split("-").slice(0, 2).join("-").toUpperCase();
 const categorySlug = product.category.toLowerCase().replace(/ /g, "-");
 const productKeywords = (product.keywords || []).join(" ").toLowerCase();
@@ -287,11 +295,16 @@ const relatedBlog = blogPosts
           {/* Carton reference sits under the spec table: that is where a buyer
               works out container loading. The label names the 12-28 inch range so
               a 32 inch bus-blade buyer does not read this table as their own. */}
-          <p style={{ maxWidth: "900px", margin: "18px auto 0", textAlign: "center" }}>
-            <Link href={l("/packing")} style={{ color: "var(--accent-strong)", fontSize: "15px", fontWeight: 600, textDecoration: "underline" }}>
-              {t.packingLinkLabel}
-            </Link>
-          </p>
+          {showCartonLink && (
+            <p style={{ maxWidth: "900px", margin: "18px auto 0", textAlign: "center" }}>
+              <Link
+                href={l(isBusTruckBlade ? "/packing#above-28-inches" : "/packing")}
+                style={{ color: "var(--accent-strong)", fontSize: "15px", fontWeight: 600, textDecoration: "underline" }}
+              >
+                {isBusTruckBlade ? t.packingBusLinkLabel : t.packingLinkLabel}
+              </Link>
+            </p>
+          )}
         </div>
       </section>
 
