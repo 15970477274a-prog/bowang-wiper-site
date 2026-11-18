@@ -15,6 +15,15 @@ const nextConfig = {
       { protocol: "https", hostname: "*.edgeone.dev" },
       { protocol: "https", hostname: "*.r2.dev" },
     ],
+    // Serve the files as they are instead of going through Vercel's image
+    // optimizer. That optimizer started answering 402
+    // OPTIMIZED_IMAGE_REQUEST_PAYMENT_REQUIRED once the transformation quota ran
+    // out, and only variants already in the cache kept working -- 19 of 140
+    // images across twelve pages rendered blank, and the 402 itself is cacheable
+    // for a day. Source files are 800x800 JPEGs of 11-41 KB, so resizing and
+    // AVIF/WebP were saving little to begin with; dropping them makes the pages
+    // independent of a quota that is not under this project's control.
+    unoptimized: true,
     formats: ["image/avif", "image/webp"],
     deviceSizes: [480, 640, 768, 1024, 1280, 1536],
     imageSizes: [128, 256, 384],
