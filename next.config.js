@@ -91,10 +91,14 @@ module.exports = { ...nextConfig, async redirects() { return [
   // The bare root is now owned by the middleware, which rewrites it to the
   // detected locale in a single response.
   { source: "/:lang/Catalog.pdf", destination: "/Catalog.pdf", permanent: true },
+  // Legacy slugs point at the unprefixed path, not at /en: next.config redirects
+  // run before the middleware, so a hardcoded /en handed a German visitor the
+  // English page while /about itself correctly resolved to /de/about.
+  //
   // statusCode 301 rather than permanent:true, which Next maps to 308 — same SEO
   // meaning, but the acceptance criteria for this change name 301 explicitly.
-  { source: "/about-us", destination: "/en/about", statusCode: 301 },
-  { source: "/contact-us", destination: "/en/contact", statusCode: 301 },
+  { source: "/about-us", destination: "/about", statusCode: 301 },
+  { source: "/contact-us", destination: "/contact", statusCode: 301 },
   // Product 8512900000-124 was renamed to bw-866-multifunction-wiper-blade.
   // statusCode 301 (rather than permanent:true, which Next maps to 308) matches the
   // requested permanent-redirect status exactly. :lang keeps the language prefix.
