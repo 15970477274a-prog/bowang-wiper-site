@@ -283,6 +283,15 @@ const relatedBlog = blogPosts
               ))}
             </tbody>
           </table>
+
+          {/* Carton reference sits under the spec table: that is where a buyer
+              works out container loading. The label names the 12-28 inch range so
+              a 32 inch bus-blade buyer does not read this table as their own. */}
+          <p style={{ maxWidth: "900px", margin: "18px auto 0", textAlign: "center" }}>
+            <Link href={l("/packing")} style={{ color: "var(--accent-strong)", fontSize: "15px", fontWeight: 600, textDecoration: "underline" }}>
+              {t.packingLinkLabel}
+            </Link>
+          </p>
         </div>
       </section>
 

@@ -207,6 +207,7 @@ export const en: TranslationDict = {
     packingColInner: "Inner box",
     packingBoxPpGreen: "PP frosted box, green",
     packingNote: "Packaging for sizes above 28 inches is quoted separately.",
+    packingNoteShared1213: "Sizes 12 and 13 inch are packed in the 14 inch carton: the 14 inch row above applies to all three sizes.",
     whyChooseTitle: "Why Choose the",
     whyChooseSubtitle: "Engineered for performance, built for durability, backed by a certified Chinese wiper blade factory.",
     faqSectionTitle: "Frequently Asked Questions —",

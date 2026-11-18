@@ -206,6 +206,7 @@ export const fr: TranslationDict = {
     packingColInner: "Boîte intérieure",
     packingBoxPpGreen: "Boîte PP mate, verte",
     packingNote: "L'emballage des tailles supérieures à 28 pouces est chiffré séparément.",
+    packingNoteShared1213: "Les tailles 12 et 13 pouces sont emballées dans le carton de 14 pouces : la ligne 14 pouces du tableau ci-dessus s'applique aux trois tailles.",
     whyChooseTitle: "Pourquoi Choisir le",
     whyChooseSubtitle: "Conçu pour la performance, construit pour durer, soutenu par une usine certifiée de balais chinoise.",
     faqSectionTitle: "Questions Fréquentes —",

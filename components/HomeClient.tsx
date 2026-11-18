@@ -256,6 +256,13 @@ export default function HomeClient({ locale, featured }: Props) {
       
       <PackagingSection title={t.packagingTitle} desc={t.packagingDesc} />
 
+      {/* Carton reference entry point: one line, so it does not add a block. */}
+      <div style={{ textAlign: "center", padding: "0 20px 24px", backgroundColor: "#ffffff" }}>
+        <Link href={l("/packing")} style={{ color: "var(--accent-strong)", fontSize: "15px", fontWeight: 600, textDecoration: "underline" }}>
+          {t.packingLinkLabel}
+        </Link>
+      </div>
+
       <section style={{ padding: "90px 20px", backgroundColor: "#f8fafc" }}>
         <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
           <div style={{ textAlign: "center", marginBottom: "55px" }}>

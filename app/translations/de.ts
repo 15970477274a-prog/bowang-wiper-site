@@ -207,6 +207,7 @@ export const de: TranslationDict = {
     packingColInner: "Innenbox",
     packingBoxPpGreen: "PP-Mattbox, grün",
     packingNote: "Die Verpackung für Größen über 28 Zoll wird separat angeboten.",
+    packingNoteShared1213: "Die Größen 12 und 13 Zoll werden im 14-Zoll-Karton verpackt: Die Zeile für 14 Zoll in der obigen Tabelle gilt für alle drei Größen.",
     whyChooseTitle: "Warum das",
     whyChooseSubtitle: "Für Leistung entwickelt, auf Langlebigkeit ausgelegt, unterstützt von einem zertifizierten chinesischen Wischerblatt-Werk.",
     faqSectionTitle: "Häufig Gestellte Fragen —",

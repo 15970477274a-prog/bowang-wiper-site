@@ -206,6 +206,7 @@ export const es: TranslationDict = {
     packingColInner: "Caja interior",
     packingBoxPpGreen: "Caja PP mate, verde",
     packingNote: "El embalaje de las medidas superiores a 28 pulgadas se cotiza por separado.",
+    packingNoteShared1213: "Los tamaños de 12 y 13 pulgadas se embalan en la caja de 14 pulgadas: la fila de 14 pulgadas de la tabla anterior se aplica a los tres tamaños.",
     whyChooseTitle: "¿Por Qué Elegir el",
     whyChooseSubtitle: "Diseñado para el rendimiento, construido para durar, respaldado por una fábrica certificada de escobillas china.",
     faqSectionTitle: "Preguntas Frecuentes —",

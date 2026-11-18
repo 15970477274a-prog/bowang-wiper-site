@@ -207,6 +207,7 @@ export const zh: TranslationDict = {
     packingColInner: "内盒",
     packingBoxPpGreen: "pp磨砂盒-绿色",
     packingNote: "28 寸以上的产品包装另算。",
+    packingNoteShared1213: "12 寸、13 寸用 14 寸的箱规包装：上表 14 寸那一行同时适用于这三个尺寸。",
     whyChooseTitle: "为什么选择",
     whyChooseSubtitle: "为性能而设计，为耐用而打造，由经认证的中国雨刮片工厂背书。",
     faqSectionTitle: "常见问题 —",

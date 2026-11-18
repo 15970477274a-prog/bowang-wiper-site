@@ -42,6 +42,7 @@ export default async function PackingPage({ params }: { params: Promise<{ lang: 
             </table>
           </div>
           <p className="packing-note">{t.packingNote}</p>
+          <p className="packing-note" style={{ marginTop: "10px" }}>{t.packingNoteShared1213}</p>
         </div>
       </section>
     </main>
