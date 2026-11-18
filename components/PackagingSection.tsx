@@ -9,7 +9,9 @@ const packages = [
   { name: "Paper Box Package", img: "/packaging/paper-box-package.jpg" },
   { name: "Window Box Package", img: "/packaging/window-box-package.jpg" },
   { name: "Kraft Paper Box Package", img: "/packaging/kraft-paper-box-package.jpg" },
-  { name: "OPP&amp;PE Bag Package", img: "/packaging/opp-pe-bag-package.jpg" },
+  // Plain "&": this is a JS string, so an HTML entity here would be rendered
+  // literally (the browser showed "OPP&amp;PE Bag Package").
+  { name: "OPP&PE Bag Package", img: "/packaging/opp-pe-bag-package.jpg" },
   { name: "Double Blister Package", img: "/packaging/double-blister-package.jpg" },
 ];
 
