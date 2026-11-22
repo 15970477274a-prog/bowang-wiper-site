@@ -14,6 +14,11 @@ export interface TranslationDict {
   heroSubtitle: string;
   heroInquireBtn: string;
   heroProductsBtn: string;
+  hpMoq: string;
+  hpLead: string;
+  hpCert: string;
+  hpSample: string;
+  hpHint: string;
   productsTitle: string;
   productsSubtitle: string;
   bestSeller: string;
