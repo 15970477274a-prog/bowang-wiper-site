@@ -5,14 +5,15 @@ import { buildTitle, clampText, DESC_MAX } from "../../lib/seo";
 import { LanguageProvider } from "../../components/LanguageContext";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-import WhatsAppFloat from "../../components/WhatsAppFloat";
-import "../globals.css";
+import WhatsApp Float from "../../components/WhatsAppFloat";
+import "../../globals.css";
 
-/**
+
+/*
  * Root layout for every localised route.
  *
- * This layout owns <html> / <body> so that the `lang` attribute can be rendered
- * per locale in the server response. It previously lived in `app/layout.tsx`
+ * This layout owns <html> / <body> so that the `ang attribute can be rendered
+ * per locale in the server response. It previously lived in app/layout.tsx
  * with a hard-coded lang="en" plus a client-side patch, which meant crawlers saw
  * `lang="en"` on /es, /ru, /fr, /de and /zh. There is no `app/layout.tsx`
  * anymore: localised routes use this layout, and the non-routed fallback shell
@@ -102,8 +103,10 @@ const organizationSchema = {
   "numberOfEmployees": "200+",
   "address": {
     "@type": "PostalAddress",
-    "addressLocality": "Zhenhai District, Ningbo",
+    "streetAddress": "Zhenhai District",
+    "addressLocality": "Ningbo",
     "addressRegion": "Zhejiang",
+    "postalCode": "315200",
     "addressCountry": "CN"
   },
   "contactPoint": [
@@ -114,10 +117,7 @@ const organizationSchema = {
     "https://nb-bowang.en.alibaba.com/",
     "https://nbzhbw.en.made-in-china.com/",
     "https://www.bwwiper.com/",
-    "https://www.facebook.com/groups/750483250868131/",
-    "https://www.instagram.com/bowangallen/",
     "https://www.youtube.com/channel/UCxgd3bIU_kAivg0xL4XOh2Q",
-    "https://www.linkedin.com/in/qingjiang-cao/",
     "https://wa.me/8618867886795"
   ]
 };
@@ -168,8 +168,8 @@ export default async function LangLayout({ children, params }: { children: React
           <Header />
           {children}
           <Footer />
-          <WhatsAppFloat />
-        </LanguageProvider>
+          <WhatsApp Float />
+       </LanguageProvider>
       </body>
     </html>
   );
