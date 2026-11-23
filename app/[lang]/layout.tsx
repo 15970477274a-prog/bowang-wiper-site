@@ -5,7 +5,7 @@ import { buildTitle, clampText, DESC_MAX } from "../../lib/seo";
 import { LanguageProvider } from "../../components/LanguageContext";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-import WhatsApp Float from "../../components/WhatsAppFloat";
+import WhatsAppFloat from "../../components/WhatsAppFloat";
 import "../../globals.css";
 
 
