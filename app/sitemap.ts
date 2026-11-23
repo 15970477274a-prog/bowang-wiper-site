@@ -10,13 +10,21 @@ const baseUrl = "https://www.lelionautopart.com";
 const PRODUCT_LASTMOD = new Date("2026-09-10");
 const categorySlugs = CATEGORY_SLUGS;
 
-// hreflang cross-references for the OEM/ODM page, including x-default.
-// Applied to the new page's entries only; the rest of the sitemap is unchanged.
-const oemOdmLanguages: Record<string, string> = {};
-for (const l of locales) {
-  oemOdmLanguages[l] = baseUrl + "/" + l + "/oem-odm";
+// Build a complete, reciprocal hreflang map for any locale-neutral path.
+// e.g. hreflangFor("/products/bw-861") returns:
+//   { en: ".../en/products/bw-861", es: ".../es/products/bw-861", ...,
+//     zh: ".../zh/products/bw-861", "x-default": ".../en/products/bw-861" }
+// Every URL node lists all 7 languages INCLUDING itself (self-referencing),
+// which is what Google requires for sitemap-level hreflang. Previously only
+// the 6 OEM/ODM entries carried alternates; now every entry does.
+function hreflangFor(pathAfterLocale: string): Record<string, string> {
+  const languages: Record<string, string> = {};
+  for (const l of locales) {
+    languages[l] = baseUrl + "/" + l + pathAfterLocale;
+  }
+  languages["x-default"] = baseUrl + "/en" + pathAfterLocale;
+  return languages;
 }
-oemOdmLanguages["x-default"] = baseUrl + "/en/oem-odm";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [];
@@ -27,14 +35,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     // Static routes
     entries.push(
-      { url: baseUrl + prefix, lastModified: now, changeFrequency: "weekly" as const, priority: 1.0 },
-      { url: baseUrl + prefix + "/products", lastModified: PRODUCT_LASTMOD, changeFrequency: "weekly" as const, priority: 0.8 },
-      { url: baseUrl + prefix + "/about", lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 },
-      { url: baseUrl + prefix + "/oem-odm", lastModified: now, changeFrequency: "monthly" as const, priority: 0.8, alternates: { languages: oemOdmLanguages } },
-      { url: baseUrl + prefix + "/packing", lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
-      { url: baseUrl + prefix + "/testing", lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 },
-      { url: baseUrl + prefix + "/contact", lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 },
-      { url: baseUrl + prefix + "/blog", lastModified: now, changeFrequency: "weekly" as const, priority: 0.7 },
+      { url: baseUrl + prefix, lastModified: now, changeFrequency: "weekly" as const, priority: 1.0, alternates: { languages: hreflangFor("") } },
+      { url: baseUrl + prefix + "/products", lastModified: PRODUCT_LASTMOD, changeFrequency: "weekly" as const, priority: 0.8, alternates: { languages: hreflangFor("/products") } },
+      { url: baseUrl + prefix + "/about", lastModified: now, changeFrequency: "monthly" as const, priority: 0.7, alternates: { languages: hreflangFor("/about") } },
+      { url: baseUrl + prefix + "/oem-odm", lastModified: now, changeFrequency: "monthly" as const, priority: 0.8, alternates: { languages: hreflangFor("/oem-odm") } },
+      { url: baseUrl + prefix + "/packing", lastModified: now, changeFrequency: "monthly" as const, priority: 0.6, alternates: { languages: hreflangFor("/packing") } },
+      { url: baseUrl + prefix + "/testing", lastModified: now, changeFrequency: "monthly" as const, priority: 0.7, alternates: { languages: hreflangFor("/testing") } },
+      { url: baseUrl + prefix + "/contact", lastModified: now, changeFrequency: "monthly" as const, priority: 0.7, alternates: { languages: hreflangFor("/contact") } },
+      { url: baseUrl + prefix + "/blog", lastModified: now, changeFrequency: "weekly" as const, priority: 0.7, alternates: { languages: hreflangFor("/blog") } },
     );
 
     // Category routes
@@ -44,6 +52,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         lastModified: PRODUCT_LASTMOD,
         changeFrequency: "weekly" as const,
         priority: 0.7,
+        alternates: { languages: hreflangFor("/products/category/" + cat) },
       });
     }
 
@@ -54,6 +63,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         lastModified: PRODUCT_LASTMOD,
         changeFrequency: "weekly" as const,
         priority: 0.8,
+        alternates: { languages: hreflangFor("/products/" + product.id) },
       });
     }
 
@@ -64,6 +74,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         lastModified: new Date(post.date),
         changeFrequency: "monthly" as const,
         priority: 0.8,
+        alternates: { languages: hreflangFor("/blog/" + post.id) },
       });
     }
   }
