@@ -106,7 +106,7 @@ const organizationSchema = {
     "streetAddress": "Zhenhai District",
     "addressLocality": "Ningbo",
     "addressRegion": "Zhejiang",
-    "postalCode": "315200",
+    "postalCode": "315202",
     "addressCountry": "CN"
   },
   "contactPoint": [
