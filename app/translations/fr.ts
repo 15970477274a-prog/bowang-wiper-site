@@ -107,7 +107,7 @@ export const fr: TranslationDict = {
     faqQ5: "Vos produits sont-ils certifiés ?",
     faqA5: "Oui, notre usine est certifiée ISO 9001:2015. Nos balais sont testés pour 1,5 million de cycles.",
     faqQ6: "Quelles conditions de paiement acceptez-vous ?",
-    faqA6: "Nous acceptons le T/T (30% d'acompte, 70% contre copie B/L), le L/C et Western Union pour les échantillons.",
+    faqA6: "Nous acceptons le T/T (30% d'acompte, 70% contre copie B/L), L/C at sight, Western Union pour les commandes d'échantillons, ainsi que credit/debit cards, Apple Pay, Google Pay, Afterpay et Alipay.",
     footerDesc: "Ningbo Zhenhai Bowang Autoparts Co., Ltd. se consacre à la fabrication de balais d'essuie-glace de haute qualité selon les normes mondiales, avec des exportations dans le monde entier.",
     footerQuickLinks: "Liens Rapides",
     footerContactInfo: "Coordonnées",
