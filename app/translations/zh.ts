@@ -266,4 +266,7 @@ export const zh: TranslationDict = {
     reviewsTitle: "客户评价",
     reviewsSubtitle: "来自阿里巴巴国际站买家的真实反馈。",
     reviewsSource: "评价来自我们的阿里巴巴国际站店铺",
+    consentMarketingLabel: "我同意通过电子邮件接收 LELION 的产品资讯、优惠和采购建议，可随时退订。",
+    consentNotice: "提交本询盘即表示你同意 LELION 使用你的信息回复本次请求。营销邮件为可选项，仅在勾选上方方框后发送。详见隐私政策。",
+    footerPrivacy: "隐私政策",
   };

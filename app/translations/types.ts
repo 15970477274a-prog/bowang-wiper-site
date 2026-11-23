@@ -266,4 +266,7 @@ export interface TranslationDict {
   reviewsTitle: string;
   reviewsSubtitle: string;
   reviewsSource: string;
+  consentMarketingLabel: string;
+  consentNotice: string;
+  footerPrivacy: string;
 }

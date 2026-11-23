@@ -57,7 +57,7 @@ export async function POST(request: Request) {
     }
 
     const body = await request.json();
-    const { name, email, company, whatsapp, quantity, product, sizes, destination, packaging, message, website } = body;
+    const { name, email, company, whatsapp, quantity, product, sizes, destination, packaging, message, website, marketingConsent } = body;
 
     // Honeypot: bots fill hidden fields; real users never do.
     if (website) {
@@ -90,6 +90,10 @@ export async function POST(request: Request) {
     ) {
       return NextResponse.json({ error: "Invalid input length." }, { status: 400 });
     }
+
+    // Marketing consent must be an explicit boolean; default false if absent.
+    const consentOk = marketingConsent === true || marketingConsent === false;
+    const consentGiven = marketingConsent === true;
 
     // Packaging is a fixed list in the form; anything else is dropped so the
     // notification always carries one of the four known options.
@@ -153,6 +157,10 @@ export async function POST(request: Request) {
               '<td style="padding: 10px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;">Packaging / Private Label:</td>' +
               '<td style="padding: 10px 0; border-bottom: 1px solid #f1f5f9;">' + (ePackaging || "N/A") + '</td>' +
             '</tr>' +
+            '<tr>' +
+              '<td style="padding: 10px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;">Marketing Consent:</td>' +
+              '<td style="padding: 10px 0; border-bottom: 1px solid #f1f5f9;">' + (consentGiven ? "OPTED IN" : "Not given") + '</td>' +
+            '</tr>' +
           '</table>' +
           '<div style="margin-top: 25px;">' +
             '<p style="font-weight: bold; margin-bottom: 10px;">Message / Requirements:</p>' +
@@ -174,6 +182,16 @@ export async function POST(request: Request) {
       html: htmlBody,
     });
 
+    // Consent audit trail (server log). For GDPR Art.7 proof, a durable
+    // consent table with timestamp + source + IP is recommended.
+    console.log("Inquiry consent:", JSON.stringify({
+      at: new Date().toISOString(),
+      email: eEmail,
+      marketingConsent: consentGiven,
+      consentFieldValid: consentOk,
+      source: "contact_form",
+      ip: getClientIp(request)
+    }));
     console.log("Email sent successfully:", emailResponse);
 
     return NextResponse.json(

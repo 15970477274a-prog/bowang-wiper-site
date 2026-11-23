@@ -20,7 +20,8 @@ export default function ContactPage() {
     destination: "",
     packaging: "",
     whatsapp: "",
-    message: ""
+    message: "",
+    marketingConsent: false
   });
   const [status, setStatus] = useState({
     submitted: false,
@@ -65,7 +66,7 @@ export default function ContactPage() {
       if (response.ok) {
         trackInquiry({ source: "contact_form", product: formData.product, locale: urlLang });
         setStatus({ submitted: true, loading: false, error: "" });
-        setFormData({ name: "", email: "", company: "", product: "General Inquiry", quantity: "", sizes: "", destination: "", packaging: "", whatsapp: "", message: "" });
+        setFormData({ name: "", email: "", company: "", product: "General Inquiry", quantity: "", sizes: "", destination: "", packaging: "", whatsapp: "", message: "", marketingConsent: false });
       } else {
         throw new Error("Failed to send inquiry.");
       }
@@ -159,6 +160,14 @@ export default function ContactPage() {
                   <option value="Not sure yet">{t.contactPackagingUnsure}</option>
                 </select></div>
                 <div className="quote-field quote-full"><label style={labelStyle}>{t.contactMessageLabel}</label><textarea name="message" rows={4} value={formData.message} onChange={handleChange} style={{ ...inputStyle, resize: "none" }} placeholder={t.contactMessagePlaceholder} /></div>
+                <div className="quote-field quote-full" style={{ display: "flex", alignItems: "flex-start", gap: "10px", marginTop: "4px" }}>
+                  <input type="checkbox" name="marketingConsent" id="marketingConsent" checked={formData.marketingConsent} onChange={(e) => setFormData((prev) => ({ ...prev, marketingConsent: e.target.checked }))} style={{ width: "16px", height: "16px", marginTop: "3px", flexShrink: 0 }} />
+                  <label htmlFor="marketingConsent" style={{ fontSize: "12px", color: "#475569", lineHeight: 1.5, cursor: "pointer" }}>{t.consentMarketingLabel}</label>
+                </div>
+                <div className="quote-field quote-full" style={{ fontSize: "11px", color: "#64748b", lineHeight: 1.6 }}>
+                  {t.consentNotice}{" "}
+                  <Link href={`/${urlLang}/privacy`} style={{ color: "var(--accent-strong)", textDecoration: "underline" }}>{t.footerPrivacy}</Link>
+                </div>
               </div>
               {status.submitted && <div style={{ backgroundColor: "#ecfdf5", color: "#065f46", padding: "15px", borderRadius: "8px", marginBottom: "20px", fontSize: "14px" }}><strong>{t.contactSuccessMsg}</strong></div>}
               <button type="submit" disabled={status.loading} style={{ width: "100%", backgroundColor: "var(--accent-strong)", color: "white", padding: "15px", borderRadius: "8px", fontSize: "16px", fontWeight: "bold", cursor: "pointer" }}>{status.loading ? t.contactSubmittingBtn : t.contactSubmitBtn}</button>
