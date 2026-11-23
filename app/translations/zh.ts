@@ -108,7 +108,7 @@ export const zh: TranslationDict = {
     faqQ5: "你们的产品通过认证了吗？",
     faqA5: "是的，我们的工厂通过 ISO 9001:2015 认证。我们的雨刮片经过 150 万次刮刷循环测试，符合全球 OE 汽车标准。",
     faqQ6: "你们接受哪些付款方式？",
-    faqA6: "我们接受 T/T（30% 定金，70% 凭提单副本付款）、L/C at sight、Western Union（样品订单），以及 credit/debit cards、Apple Pay、Google Pay、Afterpay 和 Alipay。",,
+    faqA6: "我们接受 T/T（30% 定金，70% 凭提单副本付款）、L/C at sight、Western Union（样品订单），以及 credit/debit cards、Apple Pay、Google Pay、Afterpay 和 Alipay。",
     footerDesc: "宁波镇海博王汽车配件有限公司是领先的OEM/ODM雨刮片制造商，提供工厂直销价格、全球运输和经过验证的质量认证。",
     footerQuickLinks: "快速链接",
     footerContactInfo: "联系信息",
