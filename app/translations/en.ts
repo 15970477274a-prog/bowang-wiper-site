@@ -108,7 +108,7 @@ export const en: TranslationDict = {
     faqQ5: "Are your products certified?",
     faqA5: "Yes, our manufacturing facility is ISO 9001:2015 certified. Our wiper blades are tested for 1.5 million cycles to meet global OE automotive standards.",
     faqQ6: "Which payment terms do you accept?",
-    faqA6: "We generally accept T/T (30% deposit, 70% balance against B/L copy), L/C at sight, and Western Union for smaller sample transactions.",
+    faqA6: "We accept T/T (30% deposit, 70% against B/L copy), L/C at sight, Western Union for sample orders, and credit/debit cards, Apple Pay, Google Pay, Afterpay and Alipay.",
     footerDesc: "Ningbo Zhenhai Bowang Autoparts Co., Ltd. is dedicated to manufacturing high-quality wiper blades with global standards, exporting worldwide.",
     footerQuickLinks: "Quick Links",
     footerContactInfo: "Contact Info",
