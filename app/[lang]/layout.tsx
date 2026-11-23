@@ -6,7 +6,7 @@ import { LanguageProvider } from "../../components/LanguageContext";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import WhatsAppFloat from "../../components/WhatsAppFloat";
-import "../globals.css";
+import "../../globals.css";
 
 
 /*
@@ -168,7 +168,7 @@ export default async function LangLayout({ children, params }: { children: React
           <Header />
           {children}
           <Footer />
-          <WhatsApp Float />
+          <WhatsAppFloat />
        </LanguageProvider>
       </body>
     </html>
