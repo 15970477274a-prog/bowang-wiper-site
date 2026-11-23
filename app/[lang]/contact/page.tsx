@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { useParams } from "next/navigation";
 import Link from "next/link";
 import { translations, Locale } from "../../translations";
+import { trackInquiry } from "../../../lib/analytics";
 
 export default function ContactPage() {
   const params = useParams();
@@ -62,6 +63,7 @@ export default function ContactPage() {
         body: JSON.stringify(formData),
       });
       if (response.ok) {
+        trackInquiry({ source: "contact_form", product: formData.product, locale: urlLang });
         setStatus({ submitted: true, loading: false, error: "" });
         setFormData({ name: "", email: "", company: "", product: "General Inquiry", quantity: "", sizes: "", destination: "", packaging: "", whatsapp: "", message: "" });
       } else {
@@ -123,8 +125,8 @@ export default function ContactPage() {
                <h3 style={{ fontSize: "16px", fontWeight: 800, marginBottom: "15px" }}>{t.contactSupportTitle}</h3>
                <p style={{ fontSize: "14px", color: "#64748b", lineHeight: 1.6 }}>{t.contactSupportDesc}</p>
                <div style={{ display: "flex", gap: "15px", marginTop: "20px" }}>
-                  <a href="https://wa.me/8618867886795" target="_blank" style={{ flex: 1, textAlign: "center", backgroundColor: "var(--whatsapp)", color: "white", padding: "12px", borderRadius: "8px", textDecoration: "none", fontWeight: "bold", fontSize: "14px" }}>{t.whatsappMe}</a>
-                  <a href="mailto:bwb@bwwiper.com" style={{ flex: 1, textAlign: "center", backgroundColor: "#0f172a", color: "white", padding: "12px", borderRadius: "8px", textDecoration: "none", fontWeight: "bold", fontSize: "14px" }}>{t.emailUs}</a>
+                  <a href="https://wa.me/8618867886795" target="_blank" onClick={() => trackInquiry({ source: "whatsapp_button", locale: urlLang })} style={{ flex: 1, textAlign: "center", backgroundColor: "var(--whatsapp)", color: "white", padding: "12px", borderRadius: "8px", textDecoration: "none", fontWeight: "bold", fontSize: "14px" }}>{t.whatsappMe}</a>
+                  <a href="mailto:bwb@bwwiper.com" onClick={() => trackInquiry({ source: "email_button", locale: urlLang })} style={{ flex: 1, textAlign: "center", backgroundColor: "#0f172a", color: "white", padding: "12px", borderRadius: "8px", textDecoration: "none", fontWeight: "bold", fontSize: "14px" }}>{t.emailUs}</a>
                </div>
             </div>
           </div>
@@ -134,7 +136,7 @@ export default function ContactPage() {
             <div style={{ backgroundColor: "#f8fafc", border: "1px solid #e2e8f0", borderRadius: "10px", padding: "16px 18px", marginBottom: "24px", fontSize: "13px", color: "#334155", lineHeight: 1.8 }}>
               <div style={{ fontWeight: 800, color: "#0f172a", marginBottom: "6px" }}>✓ Verified Factory & Certifications</div>
               <div>ISO 9001:2015 · No. 134956 (NQA)</div>
-              <div>CE Certificate · No. M.2022.206.C79712 (UDEM)</div>
+              <div>CE Compliance Certificate (UDEM) · No. M.2022.206.C79712</div>
               <div>MOQ 500 pcs per order · from 100 pcs per size (most models)</div>
               <a href="https://youtu.be/ppMeBaDm2hk" target="_blank" rel="noopener noreferrer" style={{ color: "var(--accent-strong)", fontWeight: 700 }}>▶ Watch Factory Video</a>
             </div>

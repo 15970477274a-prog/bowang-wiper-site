@@ -30,12 +30,12 @@ const titles: Record<string, string> = {
 };
 
 const descriptions: Record<string, string> = {
-  en: "Lelion is an OEM/ODM wiper blade manufacturer in China. ISO 9001 & CE certified factory, MOQ 500 pcs/order (100 pcs/size), 7-day stock lead time, free samples, and global shipping.",
-  es: "Lelion es un fabricante líder de escobillas limpiaparabrisas OEM/ODM en China. Fábrica certificada ISO 9001 y CE, MOQ 500 uds/pedido (100 uds/talla), plazo de 7 días en stock, muestras gratis y envío global.",
-  ru: "Lelion — ведущий OEM/ODM производитель стеклоочистителей в Китае. Сертификация ISO 9001 и CE, MOQ 500 шт/заказ (100 шт/размер), срок 7 дней со склада, бесплатные образцы и доставка по всему миру.",
-  fr: "Lelion est un fabricant leader de balais d'essuie-glace OEM/ODM en Chine. Usine certifiée ISO 9001 et CE, MOQ 500 pcs/commande (100 pcs/taille), délai de 7 jours en stock, échantillons gratuits et expédition mondiale.",
-  de: "Lelion ist ein führender OEM/ODM-Hersteller von Wischerblättern in China. ISO 9001- und CE-zertifizierte Fabrik, MOQ 500 Stk./Bestellung (100 Stk./Größe), Lieferzeit 7 Tage ab Lager, kostenlose Muster und weltweiter Versand.",
-  zh: "Lelion 是中国领先的 OEM/ODM 雨刮片制造商。ISO 9001 与 CE 认证工厂，MOQ 500 支/单（100 支/尺寸），交期 7 天（现货），免费打样，全球发货。",
+  en: "China OEM/ODM wiper blade factory. ISO 9001:2015, CE-compliant, MOQ 500 pcs (100/size), 7-day stock lead, free samples, global shipping. Quote in 12h.",
+  es: "Fabricante OEM/ODM de escobillas en China. Fábrica ISO 9001:2015, productos CE, MOQ 500 uds (100/talla), envío 7 días, muestras gratis. Cotiza en 12h.",
+  ru: "OEM/ODM производитель щёток в Китае. Завод ISO 9001:2015, продукция соответствует CE, MOQ 500 шт (100/размер), 7 дней со склада, бесплатные образцы.",
+  fr: "Fabricant OEM/ODM de balais en Chine. Usine ISO 9001:2015, produits CE, MOQ 500 pcs (100/taille), stock 7 j, échantillons gratuits, devis sous 12h.",
+  de: "OEM/ODM-Wischerhersteller aus China. ISO 9001:2015-Werk, CE-konforme Produkte, MOQ 500 Stk. (100/Größe), 7 Tage Lager, Gratismuster. Angebot in 12h.",
+  zh: "中国 OEM/ODM 雨刮片制造商。ISO 9001:2015 工厂，符合 CE 的产品，起订 500 支（100/尺寸），现货 7 天，免费打样，全球发货，12 小时报价。",
 };
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
@@ -127,7 +127,7 @@ const websiteSchema = {
   "@type": "WebSite",
   "name": "Lelion Autoparts",
   "url": "https://www.lelionautopart.com",
-  "description": "Lelion is an OEM/ODM wiper blade manufacturer in China. ISO 9001 & CE certified factory, MOQ 500 pcs/order (100 pcs/size), 7-day stock lead time, free samples, and global shipping.",
+  "description": "Lelion is an OEM/ODM wiper blade manufacturer in China. ISO 9001:2015 certified factory producing CE-compliant wiper blades. MOQ 500 pcs, 7-day stock lead time, free samples, and global shipping.",
   "inLanguage": ["en", "es", "ru", "fr", "de", "zh"],
   "isAccessibleForFree": true
 };

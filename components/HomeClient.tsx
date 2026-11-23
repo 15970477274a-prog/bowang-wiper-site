@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { translations, Locale } from "../app/translations";
 import PackagingSection from "./PackagingSection";
+import { trackInquiry } from "../lib/analytics";
 
 export type FeaturedProduct = {
   id: string;
@@ -71,6 +72,7 @@ export default function HomeClient({ locale, featured }: Props) {
         body: JSON.stringify(formData),
       });
       if (response.ok) {
+        trackInquiry({ source: "home_form", product: formData.product, locale: urlLang });
         setStatus({ submitted: true, loading: false, error: "" });
         setFormData({ name: "", email: "", company: "", product: "Universal Wiper Blades", message: "" });
       } else {
@@ -153,11 +155,20 @@ export default function HomeClient({ locale, featured }: Props) {
         <div style={{ maxWidth: "850px", margin: "0 auto" }}>
           <span style={{ backgroundColor: "var(--accent-strong)", padding: "6px 16px", borderRadius: "20px", fontSize: "12px", fontWeight: "bold", textTransform: "uppercase", marginBottom: "25px", display: "inline-block" }}>{t.heroTag}</span>
           <h1 style={{ fontSize: "var(--h1-hero, 56px)", fontWeight: 800, marginBottom: "25px", lineHeight: 1.1, textShadow: "0 2px 10px rgba(0,0,0,0.3)" }}>{t.heroTitle}</h1>
-          <p style={{ fontSize: "20px", color: "#cbd5e1", marginBottom: "45px", lineHeight: 1.6 }}>{t.heroSubtitle}</p>
+          <p style={{ fontSize: "20px", color: "#cbd5e1", marginBottom: "25px", lineHeight: 1.6 }}>{t.heroSubtitle}</p>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "10px 26px", justifyContent: "center", marginBottom: "32px", fontSize: "15px", fontWeight: 600 }}>
+            <span>✓ {t.hpMoq}</span>
+            <span>✓ {t.hpLead}</span>
+            <span>✓ {t.hpCert}</span>
+            <span>✓ {t.hpSample}</span>
+          </div>
           <div style={{ display: "flex", gap: "20px", justifyContent: "center", flexWrap: "wrap" }}>
             <Link href={l("/contact")} className="btn-primary" style={{ padding: "18px 45px", fontSize: "18px", textDecoration: "none", backgroundColor: "var(--accent-strong)", color: "white", borderRadius: "8px", fontWeight: "bold", boxShadow: "0 10px 25px rgba(3, 105, 161, 0.4)" }}>{t.heroInquireBtn}</Link>
             <Link href={l("/products")} className="btn-secondary" style={{ padding: "18px 45px", fontSize: "18px", backgroundColor: "white", color: "#0f172a", textDecoration: "none", borderRadius: "8px", fontWeight: "bold" }}>{t.heroProductsBtn}</Link>
           </div>
+          <p style={{ marginTop: "22px", fontSize: "14px", color: "#94a3b8" }}>
+            {t.hpHint} <Link href={l("/products/bw-861-multifunction-wiper-blade")} style={{ color: "#fff", textDecoration: "underline" }}>BW-861</Link>
+          </p>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "14px", justifyContent: "center", marginTop: "50px" }}>
             {[t.trustMoa, t.trustLeadTime, t.trustShipping, t.trustCert, t.trustSample].map((item, i) => (
               <span key={i} style={{ backgroundColor: "rgba(255,255,255,0.12)", border: "1px solid rgba(255,255,255,0.25)", padding: "10px 18px", borderRadius: "8px", fontSize: "14px", fontWeight: 600 }}>{item}</span>
@@ -332,7 +343,7 @@ export default function HomeClient({ locale, featured }: Props) {
             <button type="submit" disabled={status.loading} style={{ width: "100%", backgroundColor: "var(--accent-strong)", color: "white", padding: "16px", borderRadius: "8px", fontSize: "16px", fontWeight: "bold", cursor: "pointer" }}>{status.loading ? t.contactSubmittingBtn : t.contactSubmitBtn}</button>
           </form>
         </div>
-      </section>
+      </section>
     </main>
   );
 }
