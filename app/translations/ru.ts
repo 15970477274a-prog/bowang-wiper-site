@@ -107,7 +107,7 @@ export const ru: TranslationDict = {
     faqQ5: "Сертифицирована ли ваша продукция?",
     faqA5: "Да, завод сертифицирован по ISO 9001:2015. Щетки протестированы на 1,5 млн циклов.",
     faqQ6: "Какие условия оплаты вы принимаете?",
-    faqA6: "Мы принимаем T/T (30% депозит, 70% против копии B/L), L/C и Western Union для образцов.",
+    faqA6: "Мы принимаем T/T (30% депозит, 70% против копии B/L), L/C at sight, Western Union для пробных заказов, а также credit/debit cards, Apple Pay, Google Pay, Afterpay и Alipay.",
     footerDesc: "Ningbo Zhenhai Bowang Autoparts Co., Ltd. занимается производством высококачественных щеток стеклоочистителя по мировым стандартам и поставляет их по всему миру.",
     footerQuickLinks: "Быстрые ссылки",
     footerContactInfo: "Контакты",
