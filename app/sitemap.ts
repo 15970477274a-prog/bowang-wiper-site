@@ -42,6 +42,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       { url: baseUrl + prefix + "/packing", lastModified: now, changeFrequency: "monthly" as const, priority: 0.6, alternates: { languages: hreflangFor("/packing") } },
       { url: baseUrl + prefix + "/testing", lastModified: now, changeFrequency: "monthly" as const, priority: 0.7, alternates: { languages: hreflangFor("/testing") } },
       { url: baseUrl + prefix + "/contact", lastModified: now, changeFrequency: "monthly" as const, priority: 0.7, alternates: { languages: hreflangFor("/contact") } },
+      { url: baseUrl + prefix + "/privacy", lastModified: now, changeFrequency: "yearly" as const, priority: 0.3, alternates: { languages: hreflangFor("/privacy") } },
       { url: baseUrl + prefix + "/blog", lastModified: now, changeFrequency: "weekly" as const, priority: 0.7, alternates: { languages: hreflangFor("/blog") } },
     );
 

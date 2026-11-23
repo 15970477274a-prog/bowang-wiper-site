@@ -266,4 +266,7 @@ export const en: TranslationDict = {
     reviewsTitle: "What Our Customers Say",
     reviewsSubtitle: "Real feedback from verified buyers on Alibaba.com.",
     reviewsSource: "Verified reviews from our Alibaba.com store",
+    consentMarketingLabel: "I agree to receive product updates, offers and sourcing tips from LELION by email. I can unsubscribe at any time.",
+    consentNotice: "By submitting this inquiry you agree that LELION may use your details to respond to your request. Marketing emails are optional and only sent if you tick the box above. See our Privacy Policy.",
+    footerPrivacy: "Privacy Policy",
   };

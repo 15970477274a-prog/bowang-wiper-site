@@ -95,6 +95,7 @@ export default function Footer() {
             <li><Link href={l("/blog")} style={{ color: "#cbd5e1", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>{t.navBlog}</Link></li>
             <li><Link href={l("/contact")} style={{ color: "#cbd5e1", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>{t.navGetQuote}</Link></li>
             <li><a href="/Catalog.pdf" target="_blank" style={{ color: "#cbd5e1", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>{t.navCatalog}</a></li>
+            <li><Link href={l("/privacy")} style={{ color: "#cbd5e1", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>{t.footerPrivacy}</Link></li>
           </ul>
         </div>
 

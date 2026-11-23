@@ -265,4 +265,7 @@ export const fr: TranslationDict = {
     reviewsTitle: "Avis clients",
     reviewsSubtitle: "Retours réels d'acheteurs vérifiés sur Alibaba.com.",
     reviewsSource: "Avis vérifiés de notre boutique Alibaba.com",
+    consentMarketingLabel: "J'accepte de recevoir par e-mail les actualités produits, offres et conseils de LELION. Je peux me désabonner à tout moment.",
+    consentNotice: "En envoyant cette demande, vous acceptez que LELION utilise vos données pour y répondre. Les e-mails marketing sont facultatifs et ne sont envoyés que si vous cochez la case. Voir notre Politique de confidentialité.",
+    footerPrivacy: "Politique de confidentialité",
   };
