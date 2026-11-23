@@ -107,7 +107,7 @@ export const es: TranslationDict = {
     faqQ5: "¿Están certificados sus productos?",
     faqA5: "Sí, nuestra fábrica tiene la certificación ISO 9001:2015. Nuestras escobillas están probadas para 1.5 millones de ciclos.",
     faqQ6: "¿Qué condiciones de pago aceptan?",
-    faqA6: "Generalmente aceptamos T/T (30% de depósito, 70% contra copia de B/L), L/C a la vista y Western Union para muestras.",
+    faqA6: "Aceptamos T/T (30% de depósito, 70% contra copia de B/L), L/C at sight, Western Union para pedidos de muestra, y credit/debit cards, Apple Pay, Google Pay, Afterpay y Alipay.",
     footerDesc: "Ningbo Zhenhai Bowang Autoparts Co., Ltd. se dedica a la fabricación de escobillas limpiaparabrisas de alta calidad con estándares globales, exportando a todo el mundo.",
     footerQuickLinks: "Enlaces Rápidos",
     footerContactInfo: "Información de Contacto",
