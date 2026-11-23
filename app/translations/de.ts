@@ -108,7 +108,7 @@ export const de: TranslationDict = {
     faqQ5: "Sind Ihre Produkte zertifiziert?",
     faqA5: "Ja, unser Werk ist ISO 9001:2015 zertifiziert. Unsere Scheibenwischer sind für 1,5 Millionen Zyklen getestet.",
     faqQ6: "Welche Zahlungsbedingungen akzeptieren Sie?",
-    faqA6: "Wir akzeptieren T/T (30% Anzahlung, 70% gegen B/L-Kopie), L/C und Western Union für Muster.",
+    faqA6: "Wir akzeptieren T/T (30% Anzahlung, 70% gegen B/L-Kopie), L/C at sight, Western Union für Musterbestellungen sowie credit/debit cards, Apple Pay, Google Pay, Afterpay und Alipay.",
     footerDesc: "Ningbo Zhenhai Bowang Autoparts Co., Ltd. widmet sich der Herstellung hochwertiger Scheibenwischerblätter nach weltweiten Standards und exportiert weltweit.",
     footerQuickLinks: "Schnelllinks",
     footerContactInfo: "Kontakt-Info",
