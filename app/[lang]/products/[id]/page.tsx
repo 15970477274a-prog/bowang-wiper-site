@@ -51,19 +51,9 @@ export default function ProductDetail() {
 
   // Product-specific FAQ — the question text carries this product's own model,
   // vehicle and OE reference so it differs from page to page (good for GEO/AI).
-  const uniqueFaq = (() => {
-    const u = productUniqueContent[product?.id || ""];
-    if (!u) return [];
-    const mk = (make: string, years: string, oe: string, model: string) => [
-      { q: `Is the ${model || u.desc.split(" ")[0]} a direct fit for my vehicle?`,
-        a: `This part is listed for ${make && years ? make + " " + years : "the applications in the fitment table above"}. Check the fitment row and the OE reference against your vehicle before ordering.` },
-      { q: `What is the OE reference for this part?`,
-        a: oe ? `The original-equipment reference is ${oe}. Cross-check it against your current part before placing a bulk order.` : `The model number is ${model || u.desc.split(" ")[0]}. Match it against the fitment data above.` },
-      { q: `Can I order this part with custom branding or packaging?`,
-        a: `Yes. LELION supplies OEM/ODM branding and retail packaging for bulk orders (MOQ applies). Contact our sales team with your quantity and target market for a quotation.` },
-    ];
-    return mk(u.brand || "", u.years || "", u.oem || "", u.model || "");
-  })();
+  // Per-product FAQ comes from the content map (each answer quotes this product's
+  // own model/vehicle/OE). Shared translation FAQ is a fallback for unmapped ids.
+  const uniqueFaq = unique?.faq || [];
   const faqItems = uniqueFaq.length ? uniqueFaq : [
     { q: t.faqQ1, a: t.faqA1 }, { q: t.faqQ2, a: t.faqA2 }, { q: t.faqQ3, a: t.faqA3 },
     { q: t.faqQ4, a: t.faqA4 }, { q: t.faqQ5, a: t.faqA5 }, { q: t.faqQ6, a: t.faqA6 }
@@ -273,9 +263,9 @@ const relatedBlog = blogPosts
           <div style={{borderTop:"1px solid var(--border-light)",paddingTop:"25px",marginBottom:"30px"}}>
             <h2 style={{fontSize:"16px",marginBottom:"15px",color:"#0f172a"}}>{t.oemServicesTitle}</h2>
             <ul style={{listStyle:"none",padding:0,margin:0,fontSize:"14px",color:"#64748b"}}>
-              <li style={{marginBottom:"8px",display:"flex",alignItems:"center"}}><span style={{color:"var(--accent)",marginRight:"10px"}}>★</span> {t.oemService1}</li>
-              <li style={{marginBottom:"8px",display:"flex",alignItems:"center"}}><span style={{color:"var(--accent)",marginRight:"10px"}}>★</span> {t.oemService2}</li>
-              <li style={{display:"flex",alignItems:"center"}}><span style={{color:"var(--accent)",marginRight:"10px"}}>★</span> {t.oemService3}</li>
+              {(unique?.oemLines || [t.oemService1, t.oemService2, t.oemService3]).map((line, i, arr) => (
+                <li key={i} style={{marginBottom:i<arr.length-1?"8px":"0",display:"flex",alignItems:"center"}}><span style={{color:"var(--accent)",marginRight:"10px"}}>★</span> {line}</li>
+              ))}
             </ul>
           </div>
 
@@ -332,7 +322,7 @@ const relatedBlog = blogPosts
       <section className="section section-white">
         <div className="container">
           <h2 className="section-title">{t.whyChooseTitle} {modelNo}?</h2>
-          <p className="section-subtitle">{t.whyChooseSubtitle}</p>
+          <p className="section-subtitle">{unique?.whySub || t.whyChooseSubtitle}</p>
           <div className="grid-2col" style={{maxWidth:"900px",margin:"0 auto"}}>
             {productFeatures.map((feature, i) => (
               <div key={i} className="card" style={{padding:"30px"}}>
@@ -373,7 +363,7 @@ const relatedBlog = blogPosts
           <div style={{ textAlign: "center", marginBottom: "50px" }}>
             <div style={{ display: "inline-block", backgroundColor: "var(--accent-strong)", color: "white", padding: "8px 20px", borderRadius: "20px", fontSize: "14px", fontWeight: 700, marginBottom: "18px" }}>4.7 / 5 · 101 Reviews</div>
             <h2 className="section-title">{t.reviewsTitle}</h2>
-            <p className="section-subtitle">{t.reviewsSubtitle}</p>
+            <p className="section-subtitle">{unique?.reviewNote || t.reviewsSubtitle}</p>
           </div>
           <div className="grid-products" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(min(280px, 100%), 1fr))" }}>
             {reviews.map((r, i) => (
