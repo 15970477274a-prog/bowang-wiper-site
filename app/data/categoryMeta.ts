@@ -1,4 +1,4 @@
-import { buildTitle, clampText, DESC_MAX } from "../../lib/seo";
+import { buildTitle, clampDescription, DESC_MAX } from "../../lib/seo";
 
 /**
  * Per-category SEO metadata.
@@ -107,16 +107,16 @@ export function getCategoryMetaTitle(
 
 export function getCategoryMetaDescription(slug: string, categoryName: string, lang: string): string {
   if (lang === "en" && CATEGORY_META_DESCRIPTIONS_EN[slug]) {
-    return clampText(CATEGORY_META_DESCRIPTIONS_EN[slug], DESC_MAX);
+    return clampDescription(CATEGORY_META_DESCRIPTIONS_EN[slug], DESC_MAX);
   }
   const template = CATEGORY_DESCRIPTION_TEMPLATES[lang] || CATEGORY_DESCRIPTION_TEMPLATES.en;
   const localizedName =
     lang === "en" && CATEGORY_SEO_TITLES_EN[slug]
       ? CATEGORY_SEO_TITLES_EN[slug].replace(" | Lelion Autoparts", "")
       : categoryName;
-  // The template is ~200 chars once the category name is substituted; cap it
-  // on a word boundary so the SERP snippet is not truncated mid-clause.
-  return clampText(template.replace("{cat}", localizedName), DESC_MAX);
+  // The template is ~200 chars once the category name is substituted; use a
+  // sentence-aware clamp so the SERP snippet never ends mid-clause.
+  return clampDescription(template.replace("{cat}", localizedName), DESC_MAX);
 }
 
 export { KNOWN_LOCALES as CATEGORY_META_LOCALES };
