@@ -120,7 +120,7 @@ export default function HomeClient({ locale, featured }: Props) {
     "image": "https://www.lelionautopart.com/banner.webp",
     "@id": "https://www.lelionautopart.com/",
     "url": "https://www.lelionautopart.com/",
-    "telephone": "+86-18867886795",
+    "telephone": "+8618867886795",
     "email": "bwb@bwwiper.com",
     "address": {
       "@type": "PostalAddress",
