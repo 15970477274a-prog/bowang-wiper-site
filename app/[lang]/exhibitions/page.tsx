@@ -94,7 +94,7 @@ export default function ExhibitionsPage() {
         "@type": "ContactPoint",
         "contactType": "sales",
         "email": "bwb@bwwiper.com",
-        "telephone": "+86-18867886795",
+        "telephone": "+8618867886795",
         "areaServed": "Worldwide",
         "availableLanguage": ["English", "Spanish", "Russian", "French", "German", "Chinese"],
       },

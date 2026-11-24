@@ -115,7 +115,7 @@ export default function ContactPage() {
             </div>
             <div style={{ marginBottom: "30px" }}>
               <h3 style={{ color: "var(--accent-strong)", textTransform: "uppercase", fontSize: "13px", fontWeight: 800, marginBottom: "10px" }}>{t.contactPhoneTitle}</h3>
-              <p style={{ fontSize: "18px", fontWeight: 700, color: "#0f172a" }}>+86 188 6788 6795</p>
+              <p style={{ fontSize: "18px", fontWeight: 700, color: "#0f172a" }}>+8618867886795</p>
               <p style={{ fontSize: "14px", color: "#64748b" }}>{t.contactAvailableOn}</p>
             </div>
             <div style={{ marginBottom: "30px" }}>

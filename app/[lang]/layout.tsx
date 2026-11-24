@@ -110,8 +110,7 @@ const organizationSchema = {
     "addressCountry": "CN"
   },
   "contactPoint": [
-    { "@type": "ContactPoint", "name": "Overseas Sales Office", "telephone": "+86-18867886795", "email": "bwb@bwwiper.com", "contactType": "sales", "areaServed": "Worldwide", "availableLanguage": ["English", "Spanish", "Russian", "French", "German", "Chinese"] },
-    { "@type": "ContactPoint", "name": "Factory & OEM-ODM", "telephone": "+86-13375848641", "contactType": "factory", "areaServed": "Worldwide", "availableLanguage": ["English", "Chinese"] }
+    { "@type": "ContactPoint", "name": "Overseas Sales Office", "telephone": "+8618867886795", "email": "bwb@bwwiper.com", "contactType": "sales", "areaServed": "Worldwide", "availableLanguage": ["English", "Spanish", "Russian", "French", "German", "Chinese"] }
   ],
   "sameAs": [
     "https://nb-bowang.en.alibaba.com/",
