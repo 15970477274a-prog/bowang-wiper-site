@@ -6,7 +6,9 @@ import Link from "next/link";
 
 import { useParams } from "next/navigation";
 
+import Image from "next/image";
 import { translations, Locale } from "../../translations";
+import { packagingOptions, packagingNote, PackagingLocale } from "../../data/packagingOptions";
 
 
 
@@ -1058,293 +1060,587 @@ const oem: Record<string, Copy> = {
 
 };
 
-
-
-export default function Page() {
-
-  const params = useParams();
-
-  const lang = (params?.lang as string) || "en";
-
-  const c = oem[lang] || oem.en;
-
-  const l = (p: string) => "/" + lang + p;
-
-  const t = translations[(lang as Locale)] || translations.en;
-
-
-
-  const h2: React.CSSProperties = { fontSize: "32px", fontWeight: 800, color: "var(--primary)", margin: "0 0 15px 0", textAlign: "center" };
-
-  const h3: React.CSSProperties = { fontSize: "19px", fontWeight: 700, margin: "0 0 10px", color: "var(--text-primary)" };
-
-  const body: React.CSSProperties = { margin: 0, color: "var(--text-secondary)", fontSize: "14px", lineHeight: 1.7 };
-
-
-
-  return (
-
-    <main>
-
-      <section className="banner-dark">
-
-        <div className="container" style={{ maxWidth: "1440px" }}>
-
-          <h1 className="banner-title">{c.h1}</h1>
-
-          <p className="banner-subtitle">{c.sub}</p>
-
-        </div>
-
-      </section>
-
-
-
-      <section className="section">
-
-        <div className="container-narrow" style={{ maxWidth: "1100px" }}>
-
-          <p style={{ margin: 0, fontSize: "16px", lineHeight: 1.8, color: "var(--text-secondary)" }}>{c.intro}</p>
-
-        </div>
-
-      </section>
-
-
-
-      <section className="section-alt">
-
-        <div className="container" style={{ maxWidth: "1440px" }}>
-
-          <h2 style={h2}>{c.whyTitle}</h2>
-
-          <div className="grid-2col" style={{ marginTop: "45px" }}>
-
-            {c.features.map((f, i) => (
-
-              <div className="card" key={i}>
-
-                <div className="card-body">
-
-                  <h3 style={h3}>{f.t}</h3>
-
-                  <p style={body}>{f.d}</p>
-
-                </div>
-
-              </div>
-
-            ))}
-
-          </div>
-
-        </div>
-
-      </section>
-
-
-
-      <section className="section">
-
-        <div className="container-narrow" style={{ maxWidth: "1100px" }}>
-
-          <h2 style={h2}>{c.termsTitle}</h2>
-
-          <table className="spec-table" style={{ marginTop: "35px" }}>
-
-            <tbody>
-
-              {c.terms.map((r, i) => (
-
-                <tr key={i}>
-
-                  <td>{r.k}</td>
-
-                  <td>{r.v}</td>
-
-                </tr>
-
-              ))}
-
-            </tbody>
-
-          </table>
-
-          <p style={{ marginTop: "22px", fontSize: "14px" }}>
-
-            <Link href={l("/packing")} style={{ color: "var(--accent-strong)", fontWeight: 600 }}>
-
-              {t.packingLinkLabel} →
-
-            </Link>
-
-          </p>
-
-        </div>
-
-      </section>
-
-
-
-      <section className="section-alt">
-
-        <div className="container-narrow" style={{ maxWidth: "1100px" }}>
-
-          <h2 style={h2}>{c.stepsTitle}</h2>
-
-          <div style={{ marginTop: "40px" }}>
-
-            {c.steps.map((s, i) => (
-
-              <div key={i} style={{ display: "flex", gap: "20px", marginBottom: "28px" }}>
-
-                <div
-
-                  style={{
-
-                    flex: "0 0 40px",
-
-                    height: "40px",
-
-                    borderRadius: "50%",
-
-                    backgroundColor: "var(--accent-light)",
-
-                    color: "var(--accent-strong)",
-
-                    display: "flex",
-
-                    alignItems: "center",
-
-                    justifyContent: "center",
-
-                    fontWeight: 700,
-
-                    fontSize: "16px",
-
-                  }}
-
-                >
-
-                  {i + 1}
-
-                </div>
-
-                <div style={{ flex: "1 1 auto", minWidth: 0 }}>
-
-                  <h3 style={h3}>{s.t}</h3>
-
-                  <p style={body}>{s.d}</p>
-
-                </div>
-
-              </div>
-
-            ))}
-
-          </div>
-
-        </div>
-
-      </section>
-
-
-
-      <section className="section">
-
-        <div className="container-narrow" style={{ maxWidth: "1100px" }}>
-
-          <h2 style={h2}>{c.faqTitle}</h2>
-
-          <div style={{ marginTop: "35px" }}>
-
-            {c.faq.map((f, i) => (
-
-              <div className="faq-item" key={i}>
-
-                <h3 className="faq-question" style={{ cursor: "default", margin: 0 }}>
-
-                  {f.q}
-
-                </h3>
-
-                <div className="faq-answer">
-
-                  <div className="faq-answer-inner">{f.a}</div>
-
-                </div>
-
-              </div>
-
-            ))}
-
-          </div>
-
-          <p style={{ margin: "30px 0 0", fontSize: "15px", lineHeight: 1.7, color: "var(--text-secondary)" }}>
-
-            {c.blogLead}{" "}
-
-            <Link href={l("/blog/oem-private-label-wiper-blades-guide")} style={{ color: "var(--accent-strong)", fontWeight: 600 }}>
-
-              {c.blogLink}
-
-            </Link>
-
-          </p>
-
-        </div>
-
-      </section>
-
-
-
-      <section className="section-dark">
-
-        <div className="container" style={{ textAlign: "center", maxWidth: "1440px" }}>
-
-          <h2 style={{ ...h2, color: "#fff" }}>{c.ctaTitle}</h2>
-
-          <p style={{ margin: "0 auto 30px", maxWidth: "640px", color: "var(--text-muted)", fontSize: "15px", lineHeight: 1.7 }}>
-
-            {c.ctaText}
-
-          </p>
-
-          <div style={{ display: "flex", gap: "15px", justifyContent: "center", flexWrap: "wrap" }}>
-
-            <Link href={l("/contact")} className="btn-primary-lg" style={{ textDecoration: "none" }}>
-
-              {c.btnQuote}
-
-            </Link>
-
-            <a
-
-              href="/Catalog.pdf"
-
-              target="_blank"
-
-              rel="noopener noreferrer"
-
-              className="btn-primary-lg btn-outline"
-
-              style={{ textDecoration: "none" }}
-
-            >
-
-              {c.btnCatalog}
-
-            </a>
-
-          </div>
-
-        </div>
-
-      </section>
-
-    </main>
-
-  );
-
+const PAGE_LOCALES = ["en", "es", "ru", "fr", "de", "zh"];
+
+function pickPack(map: Record<PackagingLocale, string>, lang: string): string {
+  const key = PAGE_LOCALES.indexOf(lang) >= 0 ? (lang as PackagingLocale) : "en";
+  return map[key] || map.en;
 }
 
+type PageUi = {
+  factory: string;
+  quality: string;
+  certifications: string;
+  packing: string;
+  certLink: string;
+  workshopAlt: string;
+  iso: string;
+  ce: string;
+  badge: string;
+};
+
+const pageUi: Record<string, PageUi> = {
+  en: {
+    factory: "Factory",
+    quality: "Quality",
+    certifications: "Certifications",
+    packing: "Carton specifications",
+    certLink: "View our certifications",
+    workshopAlt: "Lelion windshield wiper blade production floor in Ningbo, China",
+    iso: "Quality management system",
+    ce: "European conformity",
+    badge: "OEM / ODM",
+  },
+  es: {
+    factory: "Fábrica",
+    quality: "Calidad",
+    certifications: "Certificaciones",
+    packing: "Especificaciones de cajas",
+    certLink: "Ver nuestras certificaciones",
+    workshopAlt: "Planta de producción de escobillas Lelion en Ningbo, China",
+    iso: "Sistema de gestión de la calidad",
+    ce: "Conformidad europea",
+    badge: "OEM / ODM",
+  },
+  ru: {
+    factory: "Завод",
+    quality: "Качество",
+    certifications: "Сертификаты",
+    packing: "Спецификации коробок",
+    certLink: "Посмотреть сертификаты",
+    workshopAlt: "Производственный цех Lelion в Нинбо, Китай",
+    iso: "Система менеджмента качества",
+    ce: "Европейское соответствие",
+    badge: "OEM / ODM",
+  },
+  fr: {
+    factory: "Usine",
+    quality: "Qualité",
+    certifications: "Certifications",
+    packing: "Spécifications des cartons",
+    certLink: "Voir nos certifications",
+    workshopAlt: "Atelier de production Lelion à Ningbo, Chine",
+    iso: "Système de management de la qualité",
+    ce: "Conformité européenne",
+    badge: "OEM / ODM",
+  },
+  de: {
+    factory: "Fabrik",
+    quality: "Qualität",
+    certifications: "Zertifizierungen",
+    packing: "Kartonspezifikationen",
+    certLink: "Unsere Zertifizierungen ansehen",
+    workshopAlt: "Produktionshalle von Lelion in Ningbo, China",
+    iso: "Qualitätsmanagementsystem",
+    ce: "Europäische Konformität",
+    badge: "OEM / ODM",
+  },
+  zh: {
+    factory: "工厂实力",
+    quality: "质量控制",
+    certifications: "认证资质",
+    packing: "箱规参考",
+    certLink: "查看认证资质",
+    workshopAlt: "宁波 Lelion 雨刮片生产车间",
+    iso: "质量管理体系",
+    ce: "欧盟合规认证",
+    badge: "OEM / ODM",
+  },
+};
+
+export default function Page() {
+  const params = useParams();
+  const lang = (params?.lang as string) || "en";
+  const c = oem[lang] || oem.en;
+  const l = (p: string) => "/" + lang + p;
+  const t = translations[(lang as Locale)] || translations.en;
+  const ui = pageUi[lang] || pageUi.en;
+
+  const stats = [
+    { value: t.stat1Value, label: t.stat1Label },
+    { value: t.stat2Value, label: t.stat2Label },
+    { value: t.stat3Value, label: t.stat3Label },
+    { value: t.stat4Value, label: t.stat4Label },
+  ];
+
+  const trustChips = [t.trustMoa, t.trustLeadTime, t.trustShipping, t.trustCert, t.trustSample];
+  const packPreview = packagingOptions.slice(0, 5);
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: c.faq.map((item) => ({
+      "@type": "Question",
+      name: item.q,
+      acceptedAnswer: { "@type": "Answer", text: item.a },
+    })),
+  };
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Lelion",
+        item: "https://www.lelionautopart.com/" + lang,
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "OEM & ODM",
+        item: "https://www.lelionautopart.com/" + lang + "/oem-odm",
+      },
+    ],
+  };
+
+  const sectionTitle: React.CSSProperties = {
+    fontSize: "32px",
+    fontWeight: 800,
+    color: "#0f172a",
+    margin: "0 0 14px",
+    textAlign: "center",
+    lineHeight: 1.25,
+  };
+  const rule: React.CSSProperties = {
+    height: "4px",
+    width: "60px",
+    background: "#0284c7",
+    margin: "0 auto 22px",
+  };
+  const sectionLead: React.CSSProperties = {
+    fontSize: "15.5px",
+    lineHeight: 1.75,
+    color: "#64748b",
+    maxWidth: "720px",
+    margin: "0 auto",
+    textAlign: "center",
+  };
+  const btnPrimary: React.CSSProperties = {
+    display: "inline-block",
+    backgroundColor: "#0284c7",
+    color: "#ffffff",
+    padding: "16px 34px",
+    borderRadius: "8px",
+    fontWeight: 700,
+    fontSize: "16px",
+    textDecoration: "none",
+    boxShadow: "0 10px 24px rgba(2,132,199,0.30)",
+  };
+  const btnGhost: React.CSSProperties = {
+    display: "inline-block",
+    backgroundColor: "rgba(255,255,255,0.08)",
+    border: "1px solid rgba(255,255,255,0.55)",
+    color: "#ffffff",
+    padding: "16px 34px",
+    borderRadius: "8px",
+    fontWeight: 700,
+    fontSize: "16px",
+    textDecoration: "none",
+  };
+  const autoGrid = (min: number): React.CSSProperties => ({
+    display: "grid",
+    gridTemplateColumns: "repeat(auto-fit, minmax(min(" + min + "px, 100%), 1fr))",
+  });
+  const linkStyle: React.CSSProperties = {
+    color: "#0369a1",
+    fontWeight: 700,
+    textDecoration: "none",
+    fontSize: "15px",
+  };
+
+  return (
+    <main style={{ fontFamily: "system-ui, -apple-system, sans-serif", color: "#1e293b", backgroundColor: "#ffffff" }}>
+      <link rel="preload" as="image" href="/banner.webp" fetchPriority="high" />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+
+      {/* 1. Hero — real photo background + trust chips so the page opens with imagery */}
+      <section
+        style={{
+          padding: "112px 20px 96px",
+          textAlign: "center",
+          color: "#ffffff",
+          background:
+            "linear-gradient(112deg, rgba(15,23,42,0.94) 0%, rgba(15,23,42,0.88) 44%, rgba(3,105,161,0.76) 100%), url('/banner.webp') center/cover no-repeat",
+        }}
+      >
+        <div style={{ maxWidth: "1040px", margin: "0 auto" }}>
+          <span
+            style={{
+              display: "inline-block",
+              backgroundColor: "rgba(2,132,199,0.92)",
+              color: "#ffffff",
+              padding: "7px 18px",
+              borderRadius: "999px",
+              fontSize: "12px",
+              fontWeight: 800,
+              letterSpacing: "1.4px",
+              marginBottom: "26px",
+            }}
+          >
+            {ui.badge}
+          </span>
+          <h1
+            style={{
+              fontSize: "var(--h1-about, 46px)",
+              fontWeight: 800,
+              lineHeight: 1.16,
+              margin: "0 0 22px",
+              textShadow: "0 2px 14px rgba(0,0,0,0.35)",
+            }}
+          >
+            {c.h1}
+          </h1>
+          <p style={{ fontSize: "18px", color: "#cbd5e1", lineHeight: 1.7, maxWidth: "740px", margin: "0 auto 32px" }}>{c.sub}</p>
+          <div style={{ display: "flex", gap: "16px", justifyContent: "center", flexWrap: "wrap", marginBottom: "36px" }}>
+            <Link href={l("/contact")} style={btnPrimary}>
+              {c.btnQuote}
+            </Link>
+            <a href="/Catalog.pdf" target="_blank" rel="noopener noreferrer" style={btnGhost}>
+              {c.btnCatalog}
+            </a>
+          </div>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "12px", justifyContent: "center" }}>
+            {trustChips.map((chip, i) => (
+              <span
+                key={i}
+                style={{
+                  backgroundColor: "rgba(255,255,255,0.12)",
+                  border: "1px solid rgba(255,255,255,0.25)",
+                  padding: "9px 16px",
+                  borderRadius: "8px",
+                  fontSize: "13.5px",
+                  fontWeight: 600,
+                }}
+              >
+                {chip}
+              </span>
+            ))}
+          </div>
+          <p style={{ margin: "16px 0 0", fontSize: "12.5px", color: "#e2e8f0" }}>{t.trustSampleNote}</p>
+        </div>
+      </section>
+
+      {/* 2. KPI strip — same numeric band used on the factory and quality pages */}
+      <section style={{ backgroundColor: "#f1f5f9", padding: "46px 20px" }}>
+        <div
+          style={{
+            maxWidth: "1100px",
+            margin: "0 auto",
+            display: "flex",
+            justifyContent: "space-around",
+            textAlign: "center",
+            flexWrap: "wrap",
+            gap: "30px",
+          }}
+        >
+          {stats.map((s, i) => (
+            <div key={i}>
+              <span style={{ display: "block", fontSize: "38px", fontWeight: 800, color: "#0284c7", lineHeight: 1.15 }}>{s.value}</span>
+              <span style={{ fontSize: "14px", color: "#475569" }}>{s.label}</span>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* 3. Intro + certificate card */}
+      <section style={{ padding: "90px 20px", backgroundColor: "#ffffff" }}>
+        <div style={{ maxWidth: "1100px", margin: "0 auto", ...autoGrid(380), gap: "40px", alignItems: "center" }}>
+          <p style={{ margin: 0, fontSize: "16.5px", lineHeight: 1.85, color: "#475569" }}>{c.intro}</p>
+          <div style={{ backgroundColor: "#f8fafc", border: "1px solid #e2e8f0", borderRadius: "14px", padding: "30px 28px" }}>
+            <div style={{ fontSize: "11.5px", fontWeight: 800, letterSpacing: "1.1px", color: "#0284c7" }}>ISO 9001:2015</div>
+            <div style={{ fontSize: "15.5px", color: "#0f172a", fontWeight: 700, marginTop: "5px" }}>NQA &middot; No. 134956</div>
+            <div style={{ fontSize: "13px", color: "#64748b", marginTop: "3px" }}>{ui.iso}</div>
+            <div style={{ height: "1px", backgroundColor: "#e2e8f0", margin: "18px 0" }} />
+            <div style={{ fontSize: "11.5px", fontWeight: 800, letterSpacing: "1.1px", color: "#0284c7" }}>CE</div>
+            <div style={{ fontSize: "15.5px", color: "#0f172a", fontWeight: 700, marginTop: "5px" }}>UDEM &middot; No. M.2022.206.C79712</div>
+            <div style={{ fontSize: "13px", color: "#64748b", marginTop: "3px" }}>{ui.ce}</div>
+            <div style={{ height: "1px", backgroundColor: "#e2e8f0", margin: "18px 0" }} />
+            <Link href={l("/certifications")} style={{ ...linkStyle, fontSize: "14.5px" }}>
+              {ui.certLink} →
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* 4. Why work with LELION — numbered cards */}
+      <section style={{ padding: "90px 20px", backgroundColor: "#f1f5f9" }}>
+        <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
+          <h2 style={sectionTitle}>{c.whyTitle}</h2>
+          <div style={rule} />
+          <div style={{ ...autoGrid(330), gap: "22px", marginTop: "42px" }}>
+            {c.features.map((f, i) => (
+              <div key={i} style={{ backgroundColor: "#ffffff", border: "1px solid #e2e8f0", borderRadius: "14px", padding: "30px 28px" }}>
+                <div
+                  style={{
+                    width: "44px",
+                    height: "44px",
+                    borderRadius: "12px",
+                    backgroundColor: "#e0f2fe",
+                    color: "#0369a1",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    fontWeight: 800,
+                    fontSize: "15px",
+                    marginBottom: "18px",
+                  }}
+                >
+                  {String(i + 1).padStart(2, "0")}
+                </div>
+                <h3 style={{ margin: "0 0 10px", fontSize: "19px", fontWeight: 800, color: "#0f172a", lineHeight: 1.4 }}>{f.t}</h3>
+                <p style={{ margin: 0, fontSize: "15px", lineHeight: 1.75, color: "#475569" }}>{f.d}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 5. Order terms — one card per row so the table breathes */}
+      <section style={{ padding: "90px 20px", backgroundColor: "#ffffff" }}>
+        <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
+          <h2 style={sectionTitle}>{c.termsTitle}</h2>
+          <div style={rule} />
+          <div style={{ display: "grid", gap: "12px", marginTop: "42px" }}>
+            {c.terms.map((r, i) => (
+              <div
+                key={i}
+                style={{
+                  display: "grid",
+                  gridTemplateColumns: "minmax(140px, 220px) 1fr",
+                  gap: "8px 24px",
+                  backgroundColor: "#f8fafc",
+                  border: "1px solid #e2e8f0",
+                  borderLeft: "4px solid #0284c7",
+                  borderRadius: "10px",
+                  padding: "20px 24px",
+                }}
+              >
+                <div style={{ fontWeight: 800, color: "#0f172a", fontSize: "15px" }}>{r.k}</div>
+                <div style={{ color: "#475569", fontSize: "15px", lineHeight: 1.7 }}>{r.v}</div>
+              </div>
+            ))}
+          </div>
+          <p style={{ margin: "26px 0 0", fontSize: "15px" }}>
+            <Link href={l("/packing")} style={linkStyle}>
+              {t.packingLinkLabel} →
+            </Link>
+          </p>
+        </div>
+      </section>
+
+      {/* 6. Process steps + a real production-floor photo */}
+      <section style={{ padding: "90px 20px", backgroundColor: "#f1f5f9" }}>
+        <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
+          <h2 style={sectionTitle}>{c.stepsTitle}</h2>
+          <div style={rule} />
+          <div style={{ ...autoGrid(360), gap: "34px", marginTop: "42px", alignItems: "start" }}>
+            <div>
+              {c.steps.map((s, i) => (
+                <div key={i} style={{ display: "flex", gap: "16px", marginBottom: "18px" }}>
+                  <div
+                    style={{
+                      flex: "0 0 38px",
+                      height: "38px",
+                      borderRadius: "50%",
+                      backgroundColor: "#0284c7",
+                      color: "#ffffff",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      fontWeight: 800,
+                      fontSize: "15px",
+                    }}
+                  >
+                    {i + 1}
+                  </div>
+                  <div
+                    style={{
+                      flex: "1 1 auto",
+                      minWidth: 0,
+                      backgroundColor: "#ffffff",
+                      border: "1px solid #e2e8f0",
+                      borderRadius: "12px",
+                      padding: "18px 20px",
+                    }}
+                  >
+                    <h3 style={{ margin: "0 0 8px", fontSize: "17.5px", fontWeight: 800, color: "#0f172a", lineHeight: 1.4 }}>{s.t}</h3>
+                    <p style={{ margin: 0, fontSize: "14.5px", lineHeight: 1.7, color: "#475569" }}>{s.d}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+            <div style={{ borderRadius: "14px", overflow: "hidden", border: "1px solid #e2e8f0", boxShadow: "0 14px 34px rgba(15,23,42,0.10)" }}>
+              <Image
+                src="/products/ABUIABACGAAgpOjVxAYosPzphAIwgBs4gBI.jpg"
+                alt={ui.workshopAlt}
+                width={800}
+                height={533}
+                sizes="(max-width: 900px) 100vw, 500px"
+                style={{ width: "100%", height: "auto", display: "block" }}
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 7. Private-label packaging preview — images on a page that previously had none */}
+      <section style={{ padding: "90px 20px", backgroundColor: "#ffffff" }}>
+        <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
+          <h2 style={sectionTitle}>{t.packagingTitle}</h2>
+          <div style={rule} />
+          <p style={sectionLead}>{t.packagingDesc}</p>
+          <div style={{ ...autoGrid(160), gap: "16px", marginTop: "42px" }}>
+            {packPreview.map((item) => {
+              const name = pickPack(item.name, lang);
+              return (
+                <div key={item.id} style={{ backgroundColor: "#f8fafc", border: "1px solid #e2e8f0", borderRadius: "12px", padding: "12px" }}>
+                  <div
+                    style={{
+                      backgroundColor: "#ffffff",
+                      border: "1px solid #eef2f7",
+                      borderRadius: "9px",
+                      overflow: "hidden",
+                      padding: "8px",
+                      marginBottom: "10px",
+                    }}
+                  >
+                    <Image
+                      src={item.img}
+                      alt={name}
+                      width={400}
+                      height={400}
+                      sizes="(max-width: 560px) 45vw, 180px"
+                      style={{ width: "100%", height: "auto", display: "block" }}
+                    />
+                  </div>
+                  <h3 style={{ margin: "0 0 7px", fontSize: "13.5px", fontWeight: 700, color: "#0f172a", lineHeight: 1.4 }}>{name}</h3>
+                  <span
+                    style={{
+                      display: "inline-block",
+                      fontSize: "11px",
+                      fontWeight: 700,
+                      color: "#0369a1",
+                      backgroundColor: "#e0f2fe",
+                      borderRadius: "4px",
+                      padding: "2px 7px",
+                    }}
+                  >
+                    {item.spec}
+                  </span>
+                </div>
+              );
+            })}
+          </div>
+          <p
+            style={{
+              margin: "26px 0 0",
+              padding: "16px 18px",
+              borderLeft: "3px solid #0284c7",
+              backgroundColor: "#f8fafc",
+              borderRadius: "0 8px 8px 0",
+              fontSize: "14px",
+              lineHeight: 1.7,
+              color: "#475569",
+            }}
+          >
+            {pickPack(packagingNote, lang)}
+          </p>
+        </div>
+      </section>
+
+      {/* 8. FAQ — answers always visible */}
+      <section style={{ padding: "90px 20px", backgroundColor: "#ffffff", borderTop: "1px solid #e2e8f0" }}>
+        <div style={{ maxWidth: "920px", margin: "0 auto" }}>
+          <h2 style={sectionTitle}>{c.faqTitle}</h2>
+          <div style={rule} />
+          <div style={{ marginTop: "40px" }}>
+            {c.faq.map((f, i) => (
+              <div
+                key={i}
+                style={{
+                  backgroundColor: "#f8fafc",
+                  border: "1px solid #e2e8f0",
+                  borderLeft: "4px solid #0284c7",
+                  borderRadius: "12px",
+                  padding: "22px 24px",
+                  marginBottom: "14px",
+                }}
+              >
+                <h3 style={{ margin: "0 0 10px", fontSize: "18px", fontWeight: 800, color: "#0f172a", lineHeight: 1.45 }}>{f.q}</h3>
+                <p style={{ margin: 0, fontSize: "15.5px", lineHeight: 1.8, color: "#475569" }}>{f.a}</p>
+              </div>
+            ))}
+          </div>
+          <p style={{ margin: "30px 0 0", fontSize: "15px", lineHeight: 1.7, color: "#475569" }}>
+            {c.blogLead}{" "}
+            <Link href={l("/blog/oem-private-label-wiper-blades-guide")} style={linkStyle}>
+              {c.blogLink}
+            </Link>
+          </p>
+        </div>
+      </section>
+
+      {/* 9. Related evidence pages */}
+      <section style={{ padding: "0 20px 70px", backgroundColor: "#ffffff" }}>
+        <div style={{ maxWidth: "920px", margin: "0 auto", display: "flex", gap: "12px 30px", flexWrap: "wrap", justifyContent: "center" }}>
+          <Link href={l("/factory")} style={linkStyle}>
+            → {ui.factory}
+          </Link>
+          <Link href={l("/quality")} style={linkStyle}>
+            → {ui.quality}
+          </Link>
+          <Link href={l("/certifications")} style={linkStyle}>
+            → {ui.certifications}
+          </Link>
+          <Link href={l("/packing")} style={linkStyle}>
+            → {ui.packing}
+          </Link>
+        </div>
+      </section>
+
+      {/* 10. CTA — generous vertical padding; this is the block the user called cramped */}
+      <section
+        style={{
+          padding: "96px 20px",
+          background: "linear-gradient(135deg, #0f172a 0%, #0c4a6e 100%)",
+          color: "#ffffff",
+          textAlign: "center",
+        }}
+      >
+        <div style={{ maxWidth: "820px", margin: "0 auto" }}>
+          <h2 style={{ fontSize: "32px", fontWeight: 800, color: "#ffffff", margin: "0 0 18px", lineHeight: 1.3 }}>{c.ctaTitle}</h2>
+          <p style={{ margin: "0 auto 34px", maxWidth: "640px", color: "#cbd5e1", fontSize: "16px", lineHeight: 1.8 }}>{c.ctaText}</p>
+          <div style={{ display: "flex", gap: "16px", justifyContent: "center", flexWrap: "wrap" }}>
+            <Link href={l("/contact")} style={btnPrimary}>
+              {c.btnQuote}
+            </Link>
+            <a href="/Catalog.pdf" target="_blank" rel="noopener noreferrer" style={btnGhost}>
+              {c.btnCatalog}
+            </a>
+          </div>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "12px", justifyContent: "center", marginTop: "38px" }}>
+            {[t.trustMoa, t.trustLeadTime, t.trustCert].map((chip, i) => (
+              <span
+                key={i}
+                style={{
+                  backgroundColor: "rgba(255,255,255,0.10)",
+                  border: "1px solid rgba(255,255,255,0.22)",
+                  padding: "8px 15px",
+                  borderRadius: "999px",
+                  fontSize: "13px",
+                  fontWeight: 600,
+                  color: "#e2e8f0",
+                }}
+              >
+                {chip}
+              </span>
+            ))}
+          </div>
+        </div>
+      </section>
+    </main>
+  );
+}
