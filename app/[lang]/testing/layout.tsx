@@ -1,4 +1,4 @@
-import { alternatesWithHreflang } from "../../../lib/hreflang";
+import { alternatesWithHreflang, defaultOgImages, DEFAULT_OG_IMAGE } from "../../../lib/hreflang";
 import type { Metadata } from "next";
 
 type Props = { params: Promise<{ lang: string }> };
@@ -9,7 +9,7 @@ const titles: Record<string, string> = {
   ru: "Данные испытаний резины стеклоочистителей | Lelion Autoparts",
   fr: "Données d'Essai du Caoutchouc des Balais | Lelion Autoparts",
   de: "Gummi-Testdaten für Wischerblätter | Lelion Autoparts",
-  zh: "雨刮片胶条测试数据 | Lelion",
+  zh: "雨刮片胶条测试数据 | Lelion Autoparts",
 };
 
 const descriptions: Record<string, string> = {
@@ -36,11 +36,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description,
       url: "https://www.lelionautopart.com" + canonicalPath,
       type: "website",
+      images: [...defaultOgImages],
     },
     twitter: {
       card: "summary_large_image",
       title,
       description,
+      images: [DEFAULT_OG_IMAGE],
     },
   };
 }

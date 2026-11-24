@@ -201,7 +201,7 @@ export const zh: TranslationDict = {
     downloadCatalog: "下载目录",
     techSpecsTitle: "技术规格 —",
     techSpecsSubtitle: "详细工程规格：",
-    packingPageTitle: "12–28 寸雨刮器箱规参考",
+    packingPageTitle: "12–28 寸雨刮器箱规参考 | Lelion",
     packingSubtitle: "适用于 12–28 寸雨刮器系列的通用装箱参考，不是某一型号的专属参数。",
     packingPageDesc: "12–28 寸雨刮器的每箱支数、箱规与单箱体积，便于估算柜量与运费。28 寸以上包装另算。",
     packingLinkLabel: "查看 12–28 寸雨刮器箱规参考",
