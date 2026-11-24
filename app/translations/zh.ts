@@ -269,4 +269,9 @@ export const zh: TranslationDict = {
     consentMarketingLabel: "我同意通过电子邮件接收 LELION 的产品资讯、优惠和采购建议，可随时退订。",
     consentNotice: "提交本询盘即表示你同意 LELION 使用你的信息回复本次请求。营销邮件为可选项，仅在勾选上方方框后发送。详见隐私政策。",
     footerPrivacy: "隐私政策",
+    cookieTitle: "本站使用 Cookie",
+    cookieDesc: "我们使用分析类 Cookie（Google Analytics、Ahrefs）来了解网站的使用情况，仅在您同意后加载。必要 Cookie 用于维持网站基本功能，无法关闭。",
+    cookieAccept: "接受分析 Cookie",
+    cookieReject: "仅必要 Cookie",
+    cookieSettings: "Cookie 设置",
   };

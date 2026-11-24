@@ -269,4 +269,9 @@ export interface TranslationDict {
   consentMarketingLabel: string;
   consentNotice: string;
   footerPrivacy: string;
+  cookieTitle: string;
+  cookieDesc: string;
+  cookieAccept: string;
+  cookieReject: string;
+  cookieSettings: string;
 }

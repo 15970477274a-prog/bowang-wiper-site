@@ -268,4 +268,9 @@ export const es: TranslationDict = {
     consentMarketingLabel: "Acepto recibir actualizaciones de productos, ofertas y consejos de LELION por correo. Puedo darme de baja en cualquier momento.",
     consentNotice: "Al enviar esta consulta aceptas que LELION use tus datos para responderte. Los correos marketing son opcionales y solo se envían si marcas la casilla. Consulta nuestra Política de Privacidad.",
     footerPrivacy: "Política de Privacidad",
+    cookieTitle: "Cookies en este sitio",
+    cookieDesc: "Usamos cookies analíticas (Google Analytics, Ahrefs) para entender cómo se usa el sitio. Solo se instalan si las aceptas. Las cookies esenciales mantienen el sitio funcionando y no se pueden desactivar.",
+    cookieAccept: "Aceptar analíticas",
+    cookieReject: "Solo esenciales",
+    cookieSettings: "Configuración de cookies",
   };

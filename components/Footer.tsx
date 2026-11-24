@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useLanguage } from "./LanguageContext";
 import Image from "next/image";
 import { translations } from "../app/translations";
+import { COOKIE_SETTINGS_EVENT } from "./CookieConsent";
 
 export default function Footer() {
   const { lang } = useLanguage();
@@ -104,6 +105,7 @@ export default function Footer() {
             <li><Link href={l("/contact")} style={{ color: "#cbd5e1", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>{t.navGetQuote}</Link></li>
             <li><a href="/Catalog.pdf" target="_blank" style={{ color: "#cbd5e1", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>{t.navCatalog}</a></li>
             <li><Link href={l("/privacy")} style={{ color: "#cbd5e1", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>{t.footerPrivacy}</Link></li>
+            <li><button type="button" onClick={() => window.dispatchEvent(new Event(COOKIE_SETTINGS_EVENT))} style={{ background: "none", border: 0, padding: 0, color: "#cbd5e1", textDecoration: "none", fontSize: "14px", cursor: "pointer", transition: "color 0.3s" }}>{t.cookieSettings}</button></li>
             <li><Link href={l("/certifications")} style={{ color: "#cbd5e1", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>{evidenceLabels[lang].certifications}</Link></li>
             <li><Link href={l("/factory")} style={{ color: "#cbd5e1", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>{evidenceLabels[lang].factory}</Link></li>
             <li><Link href={l("/quality")} style={{ color: "#cbd5e1", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>{evidenceLabels[lang].quality}</Link></li>

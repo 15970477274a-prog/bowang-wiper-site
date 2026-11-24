@@ -1,11 +1,11 @@
-﻿import type { Metadata } from "next";
-import Script from "next/script";
+import type { Metadata } from "next";
 import { alternatesWithHreflang, hreflangUrls, htmlLangFor } from "../../lib/hreflang";
 import { buildTitle, clampDescription, DESC_MAX } from "../../lib/seo";
 import { LanguageProvider } from "../../components/LanguageContext";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import WhatsAppFloat from "../../components/WhatsAppFloat";
+import CookieConsent from "../../components/CookieConsent";
 import "../globals.css";
 
 
@@ -149,16 +149,6 @@ export default async function LangLayout({ children, params }: { children: React
         <link rel="preconnect" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <link rel="preconnect" href="https://analytics.ahrefs.com" />
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-DHVDM5P7YQ" strategy="afterInteractive" />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-DHVDM5P7YQ');
-          `}
-        </Script>
-        <Script src="https://analytics.ahrefs.com/analytics.js" data-key="PWw/q/G6NqWiQAPzBLLNTw" strategy="afterInteractive" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
       </head>
@@ -168,6 +158,7 @@ export default async function LangLayout({ children, params }: { children: React
           {children}
           <Footer />
           <WhatsAppFloat />
+          <CookieConsent />
        </LanguageProvider>
       </body>
     </html>
