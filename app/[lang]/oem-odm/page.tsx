@@ -1266,7 +1266,7 @@ export default function Page() {
             "linear-gradient(112deg, rgba(15,23,42,0.94) 0%, rgba(15,23,42,0.88) 44%, rgba(3,105,161,0.76) 100%), url('/banner.webp') center/cover no-repeat",
         }}
       >
-        <div style={{ maxWidth: "1040px", margin: "0 auto" }}>
+        <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
           <span
             style={{
               display: "inline-block",
@@ -1327,7 +1327,7 @@ export default function Page() {
       <section style={{ backgroundColor: "#f1f5f9", padding: "46px 20px" }}>
         <div
           style={{
-            maxWidth: "1100px",
+            maxWidth: "1440px",
             margin: "0 auto",
             display: "flex",
             justifyContent: "space-around",
@@ -1347,7 +1347,7 @@ export default function Page() {
 
       {/* 3. Intro + certificate card */}
       <section style={{ padding: "90px 20px", backgroundColor: "#ffffff" }}>
-        <div style={{ maxWidth: "1100px", margin: "0 auto", ...autoGrid(380), gap: "40px", alignItems: "center" }}>
+        <div style={{ maxWidth: "1440px", margin: "0 auto", ...autoGrid(380), gap: "40px", alignItems: "center" }}>
           <p style={{ margin: 0, fontSize: "16.5px", lineHeight: 1.85, color: "#475569" }}>{c.intro}</p>
           <div style={{ backgroundColor: "#f8fafc", border: "1px solid #e2e8f0", borderRadius: "14px", padding: "30px 28px" }}>
             <div style={{ fontSize: "11.5px", fontWeight: 800, letterSpacing: "1.1px", color: "#0284c7" }}>ISO 9001:2015</div>
@@ -1367,7 +1367,7 @@ export default function Page() {
 
       {/* 4. Why work with LELION — numbered cards */}
       <section style={{ padding: "90px 20px", backgroundColor: "#f1f5f9" }}>
-        <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
+        <div style={{ maxWidth: "1440px", margin: "0 auto" }}>
           <h2 style={sectionTitle}>{c.whyTitle}</h2>
           <div style={rule} />
           <div style={{ ...autoGrid(330), gap: "22px", marginTop: "42px" }}>
@@ -1400,7 +1400,7 @@ export default function Page() {
 
       {/* 5. Order terms — one card per row so the table breathes */}
       <section style={{ padding: "90px 20px", backgroundColor: "#ffffff" }}>
-        <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
+        <div style={{ maxWidth: "1440px", margin: "0 auto" }}>
           <h2 style={sectionTitle}>{c.termsTitle}</h2>
           <div style={rule} />
           <div style={{ display: "grid", gap: "12px", marginTop: "42px" }}>
@@ -1433,7 +1433,7 @@ export default function Page() {
 
       {/* 6. Process steps + a real production-floor photo */}
       <section style={{ padding: "90px 20px", backgroundColor: "#f1f5f9" }}>
-        <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
+        <div style={{ maxWidth: "1440px", margin: "0 auto" }}>
           <h2 style={sectionTitle}>{c.stepsTitle}</h2>
           <div style={rule} />
           <div style={{ ...autoGrid(360), gap: "34px", marginTop: "42px", alignItems: "start" }}>
@@ -1488,7 +1488,7 @@ export default function Page() {
 
       {/* 7. Private-label packaging preview — images on a page that previously had none */}
       <section style={{ padding: "90px 20px", backgroundColor: "#ffffff" }}>
-        <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
+        <div style={{ maxWidth: "1440px", margin: "0 auto" }}>
           <h2 style={sectionTitle}>{t.packagingTitle}</h2>
           <div style={rule} />
           <p style={sectionLead}>{t.packagingDesc}</p>
@@ -1553,7 +1553,7 @@ export default function Page() {
 
       {/* 8. FAQ — answers always visible */}
       <section style={{ padding: "90px 20px", backgroundColor: "#ffffff", borderTop: "1px solid #e2e8f0" }}>
-        <div style={{ maxWidth: "920px", margin: "0 auto" }}>
+        <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
           <h2 style={sectionTitle}>{c.faqTitle}</h2>
           <div style={rule} />
           <div style={{ marginTop: "40px" }}>
@@ -1585,7 +1585,7 @@ export default function Page() {
 
       {/* 9. Related evidence pages */}
       <section style={{ padding: "0 20px 70px", backgroundColor: "#ffffff" }}>
-        <div style={{ maxWidth: "920px", margin: "0 auto", display: "flex", gap: "12px 30px", flexWrap: "wrap", justifyContent: "center" }}>
+        <div style={{ maxWidth: "1100px", margin: "0 auto", display: "flex", gap: "12px 30px", flexWrap: "wrap", justifyContent: "center" }}>
           <Link href={l("/factory")} style={linkStyle}>
             → {ui.factory}
           </Link>
@@ -1610,7 +1610,7 @@ export default function Page() {
           textAlign: "center",
         }}
       >
-        <div style={{ maxWidth: "820px", margin: "0 auto" }}>
+        <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
           <h2 style={{ fontSize: "32px", fontWeight: 800, color: "#ffffff", margin: "0 0 18px", lineHeight: 1.3 }}>{c.ctaTitle}</h2>
           <p style={{ margin: "0 auto 34px", maxWidth: "640px", color: "#cbd5e1", fontSize: "16px", lineHeight: 1.8 }}>{c.ctaText}</p>
           <div style={{ display: "flex", gap: "16px", justifyContent: "center", flexWrap: "wrap" }}>
