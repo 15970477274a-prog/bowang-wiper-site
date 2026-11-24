@@ -80,7 +80,7 @@ export default function PackagingSection({ title, desc, locale }: PackagingProps
           background: #ffffff;
         }
         .pack-wrap {
-          max-width: 1200px;
+          max-width: 1440px;
           margin: 0 auto;
         }
         .pack-head {

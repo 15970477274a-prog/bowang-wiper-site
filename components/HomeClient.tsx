@@ -152,7 +152,7 @@ export default function HomeClient({ locale, featured }: Props) {
         background: "linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.7)), url('/banner.webp') center/cover no-repeat", 
         color: "white" 
       }}>
-        <div style={{ maxWidth: "850px", margin: "0 auto" }}>
+        <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
           <span style={{ backgroundColor: "var(--accent-strong)", padding: "6px 16px", borderRadius: "20px", fontSize: "12px", fontWeight: "bold", textTransform: "uppercase", marginBottom: "25px", display: "inline-block" }}>{t.heroTag}</span>
           <h1 style={{ fontSize: "var(--h1-hero, 56px)", fontWeight: 800, marginBottom: "25px", lineHeight: 1.1, textShadow: "0 2px 10px rgba(0,0,0,0.3)" }}>{t.heroTitle}</h1>
           <p style={{ fontSize: "20px", color: "#cbd5e1", marginBottom: "25px", lineHeight: 1.6 }}>{t.heroSubtitle}</p>
@@ -179,7 +179,7 @@ export default function HomeClient({ locale, featured }: Props) {
       </section>
 
       <section style={{ padding: "90px 20px", backgroundColor: "#ffffff" }}>
-        <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
+        <div style={{ maxWidth: "1440px", margin: "0 auto" }}>
           <div style={{ textAlign: "center", marginBottom: "55px" }}>
             <h2 style={{ fontSize: "34px", fontWeight: 800, color: "#0f172a" }}>{t.statsTitle}</h2>
             <div style={{ height: "4px", width: "60px", backgroundColor: "#0284c7", margin: "15px auto" }}></div>
@@ -236,7 +236,7 @@ export default function HomeClient({ locale, featured }: Props) {
           </div>
         </div>
       </section>
-      <section style={{ padding: "100px 20px", maxWidth: "1200px", margin: "0 auto" }}>
+      <section style={{ padding: "100px 20px", maxWidth: "1440px", margin: "0 auto" }}>
         <div style={{ textAlign: "center", marginBottom: "60px" }}>
           <h2 style={{ fontSize: "36px", fontWeight: 800, color: "#0f172a" }}>{t.featuredCategories}</h2>
           <div style={{ height: "4px", width: "60px", backgroundColor: "#0284c7", margin: "15px auto" }}></div>
@@ -275,7 +275,7 @@ export default function HomeClient({ locale, featured }: Props) {
       </div>
 
       <section style={{ padding: "90px 20px", backgroundColor: "#f8fafc" }}>
-        <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
+        <div style={{ maxWidth: "1440px", margin: "0 auto" }}>
           <div style={{ textAlign: "center", marginBottom: "55px" }}>
             <div style={{ display: "inline-block", backgroundColor: "var(--accent-strong)", color: "white", padding: "8px 20px", borderRadius: "20px", fontSize: "14px", fontWeight: 700, marginBottom: "18px" }}>4.7 / 5 · 101 Reviews</div>
             <h2 style={{ fontSize: "34px", fontWeight: 800, color: "#0f172a" }}>{t.reviewsTitle}</h2>
@@ -300,7 +300,7 @@ export default function HomeClient({ locale, featured }: Props) {
 
 
       <section style={{ padding: "100px 20px", backgroundColor: "#f8fafc" }}>
-        <div style={{ maxWidth: "900px", margin: "0 auto" }}>
+        <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
           <div style={{ textAlign: "center", marginBottom: "60px" }}>
             <h2 style={{ fontSize: "36px", fontWeight: 800, color: "#0f172a" }}>{t.faqTitle}</h2>
             <div style={{ height: "4px", width: "60px", backgroundColor: "#0284c7", margin: "15px auto" }}></div>
@@ -323,7 +323,7 @@ export default function HomeClient({ locale, featured }: Props) {
       </section>
 
       <section id="contact" style={{ padding: "100px 20px", backgroundColor: "#ffffff" }}>
-        <div style={{ maxWidth: "900px", margin: "0 auto", backgroundColor: "#f8fafc", padding: "60px", borderRadius: "16px", border: "1px solid #e2e8f0" }}>
+        <div style={{ maxWidth: "1100px", margin: "0 auto", backgroundColor: "#f8fafc", padding: "60px", borderRadius: "16px", border: "1px solid #e2e8f0" }}>
           <div style={{ textAlign: "center", marginBottom: "45px" }}>
             <h2 style={{ fontSize: "32px", fontWeight: 800, color: "#0f172a" }}>{t.contactTitle}</h2>
             <p style={{ color: "#64748b" }}>{t.contactSubtitle}</p>
