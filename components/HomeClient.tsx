@@ -265,7 +265,7 @@ export default function HomeClient({ locale, featured }: Props) {
       </section>
 
       
-      <PackagingSection title={t.packagingTitle} desc={t.packagingDesc} />
+      <PackagingSection title={t.packagingTitle} desc={t.packagingDesc} locale={urlLang} />
 
       {/* Carton reference entry point: one line, so it does not add a block. */}
       <div style={{ textAlign: "center", padding: "0 20px 24px", backgroundColor: "#ffffff" }}>

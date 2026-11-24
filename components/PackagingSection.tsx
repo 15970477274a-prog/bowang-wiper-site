@@ -1,26 +1,44 @@
-﻿"use client";
+"use client";
 
 import Image from "next/image";
+import { packagingOptions, packagingNote } from "../app/data/packagingOptions";
+import type { PackagingLocale } from "../app/data/packagingOptions";
 
-const packages = [
-  { name: "PP Package", img: "/packaging/pp-package.jpg" },
-  { name: "PVC Package", img: "/packaging/pvc-package.jpg" },
-  { name: "Single Blister Package", img: "/packaging/single-blister-package.jpg" },
-  { name: "Paper Box Package", img: "/packaging/paper-box-package.jpg" },
-  { name: "Window Box Package", img: "/packaging/window-box-package.jpg" },
-  { name: "Kraft Paper Box Package", img: "/packaging/kraft-paper-box-package.jpg" },
-  // Plain "&": this is a JS string, so an HTML entity here would be rendered
-  // literally (the browser showed "OPP&amp;PE Bag Package").
-  { name: "OPP&PE Bag Package", img: "/packaging/opp-pe-bag-package.jpg" },
-  { name: "Double Blister Package", img: "/packaging/double-blister-package.jpg" },
-];
+interface PackagingProps {
+  title: string;
+  desc: string;
+  locale: string;
+}
 
-interface PackagingProps { title: string; desc: string; }
-export default function PackagingSection({ title, desc }: PackagingProps) {
+const LOCALES: PackagingLocale[] = ["en", "es", "ru", "fr", "de", "zh"];
+
+function pick(map: Record<PackagingLocale, string>, locale: string): string {
+  const key = (LOCALES as string[]).includes(locale) ? (locale as PackagingLocale) : "en";
+  return map[key] || map.en;
+}
+
+/**
+ * Home-page packaging section.
+ *
+ * Layout: two columns of "image-left / text-right" cards, with every image in a
+ * square frame (the supplied product shots are all square). Each card carries a
+ * real specification line — blade length range and carton quantity — because the
+ * previous version of this block was eight bare labels and contributed almost
+ * nothing to the page's text.
+ *
+ * Names and descriptions live in app/data/packagingOptions.ts and are localised
+ * into the six site locales; other locales fall back to English.
+ *
+ * The cards are not links, so they no longer render a pointer cursor or a hover
+ * lift — that affordance was misleading.
+ */
+export default function PackagingSection({ title, desc, locale }: PackagingProps) {
+  const note = pick(packagingNote, locale);
+
   return (
     <section style={{ padding: "100px 20px", backgroundColor: "#ffffff" }}>
       <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
-        <div style={{ textAlign: "center", marginBottom: "60px" }}>
+        <div style={{ textAlign: "center", marginBottom: "56px" }}>
           <h2 style={{ fontSize: "36px", fontWeight: 800, color: "#0f172a", marginBottom: "12px" }}>
             {title}
           </h2>
@@ -29,31 +47,109 @@ export default function PackagingSection({ title, desc }: PackagingProps) {
             {desc}
           </p>
         </div>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(min(250px, 100%), 1fr))", gap: "24px" }}>
-          {packages.map((item, i) => (
-            <div key={i} style={{
-              backgroundColor: "#f8fafc",
-              borderRadius: "12px",
-              overflow: "hidden",
-              border: "1px solid #e2e8f0",
-              transition: "transform 0.3s, box-shadow 0.3s",
-              cursor: "pointer"
-            }}
-              onMouseEnter={(e) => { e.currentTarget.style.transform = "translateY(-4px)"; e.currentTarget.style.boxShadow = "0 12px 24px rgba(0,0,0,0.1)"; }}
-              onMouseLeave={(e) => { e.currentTarget.style.transform = "translateY(0)"; e.currentTarget.style.boxShadow = "none"; }}
-            >
-              <div style={{ padding: "20px 20px 0", textAlign: "center" }}>
-                <div style={{ fontSize: "40px", fontWeight: 800, color: "var(--watermark)", marginBottom: "-20px" }}>
-                  {String(i + 1).padStart(2, "0")}
+
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit, minmax(min(500px, 100%), 1fr))",
+            gap: "20px",
+          }}
+        >
+          {packagingOptions.map((item, i) => {
+            const name = pick(item.name, locale);
+            const text = pick(item.desc, locale);
+            return (
+              <div
+                key={item.id}
+                style={{
+                  display: "flex",
+                  alignItems: "flex-start",
+                  gap: "18px",
+                  padding: "18px",
+                  backgroundColor: "#f8fafc",
+                  border: "1px solid #e2e8f0",
+                  borderRadius: "12px",
+                }}
+              >
+                <div
+                  style={{
+                    position: "relative",
+                    width: "170px",
+                    height: "170px",
+                    flexShrink: 0,
+                    backgroundColor: "#ffffff",
+                    border: "1px solid #eef2f7",
+                    borderRadius: "10px",
+                    padding: "8px",
+                    boxSizing: "border-box",
+                  }}
+                >
+                  <span
+                    aria-hidden="true"
+                    style={{
+                      position: "absolute",
+                      top: "6px",
+                      left: "9px",
+                      fontSize: "12px",
+                      fontWeight: 800,
+                      color: "#cbd5e1",
+                      letterSpacing: "0.5px",
+                      zIndex: 1,
+                    }}
+                  >
+                    {String(i + 1).padStart(2, "0")}
+                  </span>
+                  <Image
+                    src={item.img}
+                    alt={name}
+                    width={400}
+                    height={400}
+                    sizes="170px"
+                    style={{ width: "100%", height: "100%", objectFit: "contain" }}
+                  />
                 </div>
-                <Image src={item.img} alt={item.name} width={400} height={300} style={{ width: "100%", height: "180px", objectFit: "contain" }} />
+
+                <div style={{ flex: 1, minWidth: 0 }}>
+                  <h3 style={{ fontSize: "17px", fontWeight: 700, color: "#0f172a", margin: "0 0 8px" }}>
+                    {name}
+                  </h3>
+                  <span
+                    style={{
+                      display: "inline-block",
+                      fontSize: "12px",
+                      fontWeight: 600,
+                      color: "#0369a1",
+                      backgroundColor: "#e0f2fe",
+                      borderRadius: "4px",
+                      padding: "2px 8px",
+                      marginBottom: "10px",
+                    }}
+                  >
+                    {item.spec}
+                  </span>
+                  <p style={{ fontSize: "13.5px", color: "#475569", lineHeight: 1.65, margin: 0 }}>
+                    {text}
+                  </p>
+                </div>
               </div>
-              <div style={{ padding: "16px 20px 20px", textAlign: "center" }}>
-                <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#0f172a", margin: 0 }}>{item.name}</h3>
-              </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
+
+        <p
+          style={{
+            marginTop: "28px",
+            padding: "16px 18px",
+            borderLeft: "3px solid #0284c7",
+            backgroundColor: "#f8fafc",
+            borderRadius: "0 8px 8px 0",
+            fontSize: "14px",
+            lineHeight: 1.7,
+            color: "#475569",
+          }}
+        >
+          {note}
+        </p>
       </div>
     </section>
   );
