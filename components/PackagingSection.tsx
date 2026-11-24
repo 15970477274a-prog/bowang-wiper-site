@@ -63,6 +63,7 @@ export default function PackagingSection({ title, desc, locale }: PackagingProps
                 key={item.id}
                 style={{
                   display: "flex",
+                  flexWrap: "wrap",
                   alignItems: "flex-start",
                   gap: "18px",
                   padding: "18px",
@@ -109,7 +110,7 @@ export default function PackagingSection({ title, desc, locale }: PackagingProps
                   />
                 </div>
 
-                <div style={{ flex: 1, minWidth: 0 }}>
+                <div style={{ flex: "1 1 220px", minWidth: "220px" }}>
                   <h3 style={{ fontSize: "17px", fontWeight: 700, color: "#0f172a", margin: "0 0 8px" }}>
                     {name}
                   </h3>
