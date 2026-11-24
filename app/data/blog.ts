@@ -302,7 +302,7 @@ We are continuously expanding our product line to meet evolving market demands:
     author: "Lelion Technical Team",
     category: "Buying Guide",
     tags: ["OEM wiper blades", "private label wiper", "custom wiper blade", "wiper blade branding", "wiper blade packaging", "B2B sourcing"],
-    image: "/packaging/paper-box-package.jpg",
+    image: "/packaging/paper-box-blue.jpg",
     content: `## Why OEM & Private Label Matters for Wiper Blade Importers
 
 In the competitive automotive aftermarket, selling generic wiper blades is no longer enough. Distributors who offer branded products see higher margins, stronger customer loyalty, and better market positioning. This guide covers everything you need to know about OEM and private label wiper blade manufacturing.
