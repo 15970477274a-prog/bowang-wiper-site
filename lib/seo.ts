@@ -64,6 +64,76 @@ export function clampText(text: string, max: number = DESC_MAX): string {
   return trimEdges(head);
 }
 
+/** Abbreviations that end in "." but are not sentence boundaries. */
+const DESC_ABBREV = /^(?:Stk|sh|st|шт|No|Nos|e\.g|i\.e|vs|etc|Inc|Ltd|Co|Dr|Mr|Mrs|Ms|Prof|approx|min|max|Art|Nr|ca|z\.B|bzw|kg|mm|cm|in|sq|ft|oz|lb|U\.S|U\.K)$/i;
+/** Function words that must not be left dangling at a cut. */
+const DESC_DANGLING = /\s+(?:per|the|and|of|a|to|in|with|for|from|by|or|as|on|at|is|are|its|this|that|an)$/i;
+
+/** Split `text` into sentences without breaking on "Stk.", "No.", "шт.", decimals. */
+function splitSentences(text: string): string[] {
+  const parts: string[] = [];
+  let start = 0;
+  const re = /[.!?。！？]+(?=\s|$)/g;
+  let m: RegExpExecArray | null;
+  while ((m = re.exec(text)) !== null) {
+    const before = text.slice(start, m.index);
+    const last = before.trim().split(/\s+/).pop() || "";
+    if (DESC_ABBREV.test(last)) continue;
+    const end = m.index + m[0].length;
+    if (m[0][0] === "." && /\d/.test(text[end] || "")) continue; // decimal, e.g. 3.5
+    parts.push(text.slice(start, end).trim());
+    start = end;
+  }
+  if (text.slice(start).trim()) parts.push(text.slice(start).trim());
+  return parts.filter(Boolean);
+}
+
+/** Strip trailing separators / dangling function words left by a cut. */
+function cleanDescTail(text: string): string {
+  let s = trimEdges(text);
+  s = s.replace(DESC_DANGLING, "");
+  return trimEdges(s);
+}
+
+/**
+ * Description-specific clamp: publish only WHOLE sentences, never a half-cut
+ * phrase. If no single sentence fits `max`, fall back to the last clause
+ * boundary (comma/semicolon/dash) inside the budget, dropping any unbalanced
+ * "(" and trailing function words. A shorter complete sentence beats a longer
+ * broken one — Google truncates the SERP snippet itself, so our job is only to
+ * avoid publishing an incomplete sentence as the source.
+ */
+export function clampDescription(text: string, max: number = DESC_MAX): string {
+  const value = squash(text);
+  if (value.length <= max) return value;
+  const sentences = splitSentences(value);
+  let out = "";
+  for (const s of sentences) {
+    const candidate = (out + " " + s).trim();
+    if (candidate.length <= max) out = candidate;
+    else break;
+  }
+  if (out) return out;
+
+  // Fallback: a single sentence longer than the budget.
+  let piece = value.slice(0, max);
+  const boundaryChars = [",", ";", "—", "–", ":"];
+  const bounds: number[] = [];
+  for (let i = 0; i < piece.length; i++) if (boundaryChars.includes(piece[i])) bounds.push(i);
+  const usable = bounds.filter((i) => i >= max * 0.45);
+  if (usable.length) piece = piece.slice(0, usable[usable.length - 1]);
+  else {
+    const sp = piece.lastIndexOf(" ");
+    if (sp >= max * 0.4) piece = piece.slice(0, sp);
+  }
+  piece = cleanDescTail(piece);
+  if ((piece.match(/\(/g) || []).length > (piece.match(/\)/g) || []).length) {
+    const i = piece.lastIndexOf("(");
+    if (i > 0) piece = cleanDescTail(piece.slice(0, i));
+  }
+  return piece;
+}
+
 /**
  * Length-capped copy of `text` that preserves its distinctive tail by dropping
  * generic leading words. Used for <title>, where the differentiator of a
@@ -116,7 +186,7 @@ export function buildDescription(
   const label = squash(name);
   const base =
     body.length >= SHORT_DESC || !label ? body : squash(body + " — " + label);
-  return clampText(base, max);
+  return clampDescription(base, max);
 }
 
 export type TitleEntry = {

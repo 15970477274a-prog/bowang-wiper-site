@@ -1,7 +1,7 @@
 import { alternatesWithHreflang } from "../../../../../../lib/hreflang";
 import type { Metadata } from "next";
 import { getCategoryMetaDescription } from "../../../../../data/categoryMeta";
-import { clampText, DESC_MAX } from "../../../../../../lib/seo";
+import { clampDescription, DESC_MAX } from "../../../../../../lib/seo";
 import { buildTitle } from "../../../../../../lib/seo";
 import { translations, Locale } from "../../../../../translations";
 
@@ -38,7 +38,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   // different composition. buildTitle() caps the length at 60 chars and drops the
   // brand suffix instead of cutting mid-word.
   const title = buildTitle(t.fullCatalogTitle + " - " + categoryName);
-  const description = clampText(t.fullCatalogTitle + ": " + getCategoryMetaDescription(slug, categoryName, lang), DESC_MAX);
+  const description = clampDescription(t.fullCatalogTitle + ": " + getCategoryMetaDescription(slug, categoryName, lang), DESC_MAX);
   const canonicalPath = "/" + lang + "/products/category/" + slug + "/all";
 
   return {
