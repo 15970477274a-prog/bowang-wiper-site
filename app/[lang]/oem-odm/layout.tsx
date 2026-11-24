@@ -12,7 +12,7 @@ const meta: Record<string, { title: string; description: string }> = {
       "OEM and ODM windshield wiper blades by LELION: minimum order from 500 pcs, sampling 7–15 days, 7 working days for in-stock items and 15–35 working days for custom production.",
   },
   es: {
-    title: "Escobillas limpiaparabrisas OEM y ODM — Fabricación personalizada | LELION",
+    title: "Escobillas OEM y ODM — Fabricación personalizada | LELION",
     description:
       "Escobillas limpiaparabrisas OEM y ODM de LELION: pedido mínimo desde 500 unidades, muestreo 7–15 días, 7 días laborables en stock y 15–35 días laborables para producción personalizada.",
   },
@@ -22,7 +22,7 @@ const meta: Record<string, { title: string; description: string }> = {
       "Щётки стеклоочистителя OEM и ODM от LELION: минимальный заказ от 500 шт., изготовление образцов 7–15 дней, 7 рабочих дней со склада и 15–35 рабочих дней под заказ.",
   },
   fr: {
-    title: "Balais d'essuie-glace OEM et ODM — fabrication sur mesure | LELION",
+    title: "Balais OEM et ODM — fabrication sur mesure | LELION",
     description:
       "Balais d'essuie-glace OEM et ODM par LELION : commande minimale à partir de 500 pièces, échantillonnage 7–15 jours, 7 jours ouvrés en stock et 15–35 jours ouvrés sur mesure.",
   },

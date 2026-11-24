@@ -1,4 +1,4 @@
-import { alternatesWithHreflang } from "../../../../../../lib/hreflang";
+import { alternatesWithHreflang, defaultOgImages, DEFAULT_OG_IMAGE } from "../../../../../../lib/hreflang";
 import type { Metadata } from "next";
 import { getCategoryMetaDescription } from "../../../../../data/categoryMeta";
 import { clampDescription, DESC_MAX } from "../../../../../../lib/seo";
@@ -46,8 +46,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title,
     description,
     alternates: alternatesWithHreflang("/products/category/" + slug + "/all", canonicalPath),
-    openGraph: { title, description, url: "https://www.lelionautopart.com" + canonicalPath, type: "website" },
-    twitter: { card: "summary_large_image", title, description },
+    openGraph: { title, description, url: "https://www.lelionautopart.com" + canonicalPath, type: "website", images: [...defaultOgImages] },
+    twitter: { card: "summary_large_image", title, description, images: [DEFAULT_OG_IMAGE] },
   };
 }
 
