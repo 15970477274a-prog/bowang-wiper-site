@@ -33,7 +33,7 @@ const oem: Record<string, Copy> = {
     h1: "OEM & ODM Windshield Wiper Blades — Custom Manufacturing by LELION",
     sub: "Private-label and custom-developed wiper blades, manufactured in Ningbo, China.",
     intro:
-      "LELION is a wiper blade manufacturer in Ningbo, China, producing for wholesalers, distributors and private-label brand owners since 2011. Our factory is certified to ISO 9001:2015 (No. 134956, NQA) and holds the CE certificate (No. M.2022.206.C79712, UDEM). We develop and produce under your brand — from a low trial quantity up to full container loads.",
+      "LELION is a wiper blade manufacturer in Ningbo, China, producing for wholesalers, distributors and private-label brand owners since 2007. Our factory is certified to ISO 9001:2015 (No. 134956, NQA) and holds the CE certificate (No. M.2022.206.C79712, UDEM). We develop and produce under your brand — from a low trial quantity up to full container loads.",
     whyTitle: "Why work with LELION",
     features: [
       {
@@ -58,7 +58,7 @@ const oem: Record<string, Copy> = {
         k: "Lead time",
         v: "7 working days for in-stock items · 15–35 working days for out-of-stock and custom production",
       },
-      { k: "Payment methods", v: "T/T · Credit / Debit Card · Apple Pay · Google Pay · Afterpay · Alipay" },
+      { k: "Payment methods", v: "T/T (30% deposit, 70% against B/L copy) · L/C at sight · Credit / Debit Card · Apple Pay · Google Pay · Afterpay · Alipay" },
       {
         k: "Sample policy",
         v: "Free samples — 2 pcs per item, freight at buyer's cost. Any custom sampling or tooling fee is credited against your first production order.",
@@ -109,9 +109,9 @@ const oem: Record<string, Copy> = {
       },
       {
         q: "What payment methods do you accept?",
-        a: "T/T, credit and debit cards, Apple Pay, Google Pay, Afterpay and Alipay.",
+        a: "T/T (30% deposit, 70% against B/L copy), L/C at sight, credit and debit cards, Apple Pay, Google Pay, Afterpay and Alipay.",
       },
-      { q: "Which markets do you serve?", a: "We currently export to 50+ countries. Our team replies within 12 hours on working days." },
+      { q: "Which markets do you serve?", a: "We currently export to 60+ countries. Our team replies within 12 hours on working days." },
     ],
     ctaTitle: "Start your private-label project",
     ctaText: "Tell us your target quantity, product type and packaging idea — we reply within 12 hours on working days.",
@@ -124,7 +124,7 @@ const oem: Record<string, Copy> = {
     h1: "Escobillas limpiaparabrisas OEM y ODM — Fabricación personalizada por LELION",
     sub: "Escobillas limpiaparabrisas de marca blanca y desarrollo personalizado, fabricadas en Ningbo, China.",
     intro:
-      "LELION es un fabricante de escobillas limpiaparabrisas en Ningbo, China, que produce para mayoristas, distribuidores y propietarios de marcas blancas desde 2011. Nuestra fábrica está certificada según ISO 9001:2015 (n.º 134956, NQA) y cuenta con el certificado CE (n.º M.2022.206.C79712, UDEM). Desarrollamos y producimos bajo su marca — desde una cantidad de prueba reducida hasta contenedores completos.",
+      "LELION es un fabricante de escobillas limpiaparabrisas en Ningbo, China, que produce para mayoristas, distribuidores y propietarios de marcas blancas desde 2007. Nuestra fábrica está certificada según ISO 9001:2015 (n.º 134956, NQA) y cuenta con el certificado CE (n.º M.2022.206.C79712, UDEM). Desarrollamos y producimos bajo su marca — desde una cantidad de prueba reducida hasta contenedores completos.",
     whyTitle: "Por qué trabajar con LELION",
     features: [
       {
@@ -149,7 +149,7 @@ const oem: Record<string, Copy> = {
         k: "Plazo de entrega",
         v: "7 días laborables para artículos en stock · 15–35 días laborables para producción sin stock y personalizada",
       },
-      { k: "Formas de pago", v: "T/T · Tarjeta de crédito / débito · Apple Pay · Google Pay · Afterpay · Alipay" },
+      { k: "Formas de pago", v: "T/T (30% de depósito, 70% contra copia de B/L) · L/C a la vista · Tarjeta de crédito / débito · Apple Pay · Google Pay · Afterpay · Alipay" },
       {
         k: "Política de muestras",
         v: "Muestras gratuitas — 2 unidades por artículo, con el transporte a cargo del comprador. Cualquier coste de muestreo o utillaje personalizado se abona en su primer pedido de producción.",
@@ -200,9 +200,9 @@ const oem: Record<string, Copy> = {
       },
       {
         q: "¿Qué formas de pago aceptan?",
-        a: "T/T, tarjetas de crédito y débito, Apple Pay, Google Pay, Afterpay y Alipay.",
+        a: "T/T (30% de depósito, 70% contra copia de B/L), L/C a la vista, tarjetas de crédito y débito, Apple Pay, Google Pay, Afterpay y Alipay.",
       },
-      { q: "¿Qué mercados atienden?", a: "Actualmente exportamos a más de 50 países. Nuestro equipo responde en menos de 12 horas en días laborables." },
+      { q: "¿Qué mercados atienden?", a: "Actualmente exportamos a más de 60 países. Nuestro equipo responde en menos de 12 horas en días laborables." },
     ],
     ctaTitle: "Comience su proyecto de marca blanca",
     ctaText: "Indíquenos su cantidad objetivo, tipo de producto e idea de embalaje — respondemos en menos de 12 horas en días laborables.",
@@ -215,7 +215,7 @@ const oem: Record<string, Copy> = {
     h1: "Щётки стеклоочистителя OEM и ODM — изготовление на заказ от LELION",
     sub: "Щётки стеклоочистителя под собственной торговой маркой и по индивидуальной разработке, произведённые в Нинбо, Китай.",
     intro:
-      "LELION — производитель щёток стеклоочистителя в Нинбо, Китай, работающий для оптовиков, дистрибьюторов и владельцев собственных марок с 2011 года. Наша фабрика сертифицирована по ISO 9001:2015 (№ 134956, NQA) и имеет сертификат CE (№ M.2022.206.C79712, UDEM). Мы разрабатываем и производим под вашим брендом — от небольшой пробной партии до полных контейнеров.",
+      "LELION — производитель щёток стеклоочистителя в Нинбо, Китай, работающий для оптовиков, дистрибьюторов и владельцев собственных марок с 2007 года. Наша фабрика сертифицирована по ISO 9001:2015 (№ 134956, NQA) и имеет сертификат CE (№ M.2022.206.C79712, UDEM). Мы разрабатываем и производим под вашим брендом — от небольшой пробной партии до полных контейнеров.",
     whyTitle: "Почему стоит работать с LELION",
     features: [
       {
@@ -240,7 +240,7 @@ const oem: Record<string, Copy> = {
         k: "Срок производства",
         v: "7 рабочих дней для позиций со склада · 15–35 рабочих дней при отсутствии на складе и для индивидуального производства",
       },
-      { k: "Способы оплаты", v: "T/T · Кредитная / дебетовая карта · Apple Pay · Google Pay · Afterpay · Alipay" },
+      { k: "Способы оплаты", v: "T/T (30% депозит, 70% против копии B/L) · L/C at sight · Кредитная / дебетовая карта · Apple Pay · Google Pay · Afterpay · Alipay" },
       {
         k: "Условия по образцам",
         v: "Бесплатные образцы — 2 шт. на позицию, доставка за счёт покупателя. Стоимость индивидуальных образцов или оснастки засчитывается в первый производственный заказ.",
@@ -286,8 +286,8 @@ const oem: Record<string, Copy> = {
         q: "Можно ли получить образцы?",
         a: "Да. Мы предоставляем бесплатные образцы (2 шт. на позицию), доставка за ваш счёт. Если проекту нужны индивидуальные образцы или оснастка, эта стоимость засчитывается в первый производственный заказ.",
       },
-      { q: "Какие способы оплаты вы принимаете?", a: "T/T, кредитные и дебетовые карты, Apple Pay, Google Pay, Afterpay и Alipay." },
-      { q: "Какие рынки вы обслуживаете?", a: "Сейчас мы экспортируем более чем в 50 стран. Наша команда отвечает в течение 12 часов в рабочие дни." },
+      { q: "Какие способы оплаты вы принимаете?", a: "T/T (30% депозит, 70% против копии B/L), L/C at sight, кредитные и дебетовые карты, Apple Pay, Google Pay, Afterpay и Alipay." },
+      { q: "Какие рынки вы обслуживаете?", a: "Сейчас мы экспортируем более чем в 60 стран. Наша команда отвечает в течение 12 часов в рабочие дни." },
     ],
     ctaTitle: "Начните проект под собственной маркой",
     ctaText: "Сообщите желаемый объём, тип продукта и идею упаковки — мы отвечаем в течение 12 часов в рабочие дни.",
@@ -300,7 +300,7 @@ const oem: Record<string, Copy> = {
     h1: "Balais d'essuie-glace OEM et ODM — fabrication sur mesure par LELION",
     sub: "Balais d'essuie-glace en marque blanche et développement sur mesure, fabriqués à Ningbo, en Chine.",
     intro:
-      "LELION est un fabricant de balais d'essuie-glace basé à Ningbo, en Chine, qui produit pour des grossistes, des distributeurs et des propriétaires de marques propres depuis 2011. Notre usine est certifiée ISO 9001:2015 (n° 134956, NQA) et détient le certificat CE (n° M.2022.206.C79712, UDEM). Nous développons et produisons sous votre marque — d'une petite quantité d'essai jusqu'à des conteneurs complets.",
+      "LELION est un fabricant de balais d'essuie-glace basé à Ningbo, en Chine, qui produit pour des grossistes, des distributeurs et des propriétaires de marques propres depuis 2007. Notre usine est certifiée ISO 9001:2015 (n° 134956, NQA) et détient le certificat CE (n° M.2022.206.C79712, UDEM). Nous développons et produisons sous votre marque — d'une petite quantité d'essai jusqu'à des conteneurs complets.",
     whyTitle: "Pourquoi travailler avec LELION",
     features: [
       {
@@ -325,7 +325,7 @@ const oem: Record<string, Copy> = {
         k: "Délai de livraison",
         v: "7 jours ouvrés pour les articles en stock · 15–35 jours ouvrés pour la production hors stock et sur mesure",
       },
-      { k: "Moyens de paiement", v: "T/T · Carte de crédit / débit · Apple Pay · Google Pay · Afterpay · Alipay" },
+      { k: "Moyens de paiement", v: "T/T (30% d'acompte, 70% contre copie B/L) · L/C à vue · Carte de crédit / débit · Apple Pay · Google Pay · Afterpay · Alipay" },
       {
         k: "Politique d'échantillons",
         v: "Échantillons gratuits — 2 pièces par article, transport à la charge de l'acheteur. Tout frais d'échantillonnage ou d'outillage sur mesure est déduit de votre première commande de production.",
@@ -371,8 +371,8 @@ const oem: Record<string, Copy> = {
         q: "Puis-je obtenir des échantillons ?",
         a: "Oui. Nous fournissons des échantillons gratuits (2 pièces par article), le transport étant à votre charge. Si votre projet nécessite un échantillonnage ou un outillage sur mesure, ces frais sont déduits de votre première commande de production.",
       },
-      { q: "Quels moyens de paiement acceptez-vous ?", a: "T/T, cartes de crédit et de débit, Apple Pay, Google Pay, Afterpay et Alipay." },
-      { q: "Quels marchés servez-vous ?", a: "Nous exportons actuellement vers plus de 50 pays. Notre équipe répond en moins de 12 heures les jours ouvrés." },
+      { q: "Quels moyens de paiement acceptez-vous ?", a: "T/T (30% d'acompte, 70% contre copie B/L), L/C à vue, cartes de crédit et de débit, Apple Pay, Google Pay, Afterpay et Alipay." },
+      { q: "Quels marchés servez-vous ?", a: "Nous exportons actuellement vers plus de 60 pays. Notre équipe répond en moins de 12 heures les jours ouvrés." },
     ],
     ctaTitle: "Lancez votre projet de marque blanche",
     ctaText: "Indiquez-nous votre quantité cible, le type de produit et votre idée d'emballage — nous répondons en moins de 12 heures les jours ouvrés.",
@@ -385,7 +385,7 @@ const oem: Record<string, Copy> = {
     h1: "OEM- und ODM-Scheibenwischerblätter — Sonderanfertigung von LELION",
     sub: "Wischerblätter als Private Label und nach kundenspezifischer Entwicklung, gefertigt in Ningbo, China.",
     intro:
-      "LELION ist ein Hersteller von Wischerblättern in Ningbo, China, der seit 2011 für Großhändler, Distributoren und Inhaber von Private-Label-Marken produziert. Unser Werk ist nach ISO 9001:2015 zertifiziert (Nr. 134956, NQA) und besitzt das CE-Zertifikat (Nr. M.2022.206.C79712, UDEM). Wir entwickeln und produzieren unter Ihrer Marke — von einer kleinen Testmenge bis zu vollen Containern.",
+      "LELION ist ein Hersteller von Wischerblättern in Ningbo, China, der seit 2007 für Großhändler, Distributoren und Inhaber von Private-Label-Marken produziert. Unser Werk ist nach ISO 9001:2015 zertifiziert (Nr. 134956, NQA) und besitzt das CE-Zertifikat (Nr. M.2022.206.C79712, UDEM). Wir entwickeln und produzieren unter Ihrer Marke — von einer kleinen Testmenge bis zu vollen Containern.",
     whyTitle: "Warum mit LELION arbeiten",
     features: [
       {
@@ -410,7 +410,7 @@ const oem: Record<string, Copy> = {
         k: "Lieferzeit",
         v: "7 Werktage für Artikel ab Lager · 15–35 Werktage für Produktion ohne Lagerbestand und Sonderanfertigungen",
       },
-      { k: "Zahlungsmethoden", v: "T/T · Kredit-/Debitkarte · Apple Pay · Google Pay · Afterpay · Alipay" },
+      { k: "Zahlungsmethoden", v: "T/T (30% Anzahlung, 70% gegen B/L-Kopie) · L/C at sight · Kredit-/Debitkarte · Apple Pay · Google Pay · Afterpay · Alipay" },
       {
         k: "Musterregelung",
         v: "Kostenlose Muster — 2 Stück pro Artikel, Fracht zu Lasten des Käufers. Anfallende Kosten für Sondermuster oder Werkzeuge werden mit Ihrer ersten Produktionsbestellung verrechnet.",
@@ -456,8 +456,8 @@ const oem: Record<string, Copy> = {
         q: "Kann ich Muster erhalten?",
         a: "Ja. Wir stellen kostenlose Muster (2 Stück pro Artikel) bereit, die Fracht geht zu Ihren Lasten. Benötigt Ihr Projekt Sondermuster oder Werkzeuge, werden diese Kosten mit Ihrer ersten Produktionsbestellung verrechnet.",
       },
-      { q: "Welche Zahlungsmethoden akzeptieren Sie?", a: "T/T, Kredit- und Debitkarten, Apple Pay, Google Pay, Afterpay und Alipay." },
-      { q: "Welche Märkte bedienen Sie?", a: "Wir exportieren derzeit in über 50 Länder. Unser Team antwortet an Werktagen innerhalb von 12 Stunden." },
+      { q: "Welche Zahlungsmethoden akzeptieren Sie?", a: "T/T (30% Anzahlung, 70% gegen B/L-Kopie), L/C at sight, Kredit- und Debitkarten, Apple Pay, Google Pay, Afterpay und Alipay." },
+      { q: "Welche Märkte bedienen Sie?", a: "Wir exportieren derzeit in über 60 Länder. Unser Team antwortet an Werktagen innerhalb von 12 Stunden." },
     ],
     ctaTitle: "Starten Sie Ihr Private-Label-Projekt",
     ctaText: "Nennen Sie uns Ihre Zielmenge, Produktart und Verpackungsidee — wir antworten an Werktagen innerhalb von 12 Stunden.",
@@ -470,7 +470,7 @@ const oem: Record<string, Copy> = {
     h1: "OEM / ODM 雨刮片 — LELION 定制制造",
     sub: "以您的品牌生产与定制开发的雨刮片，产地中国宁波。",
     intro:
-      "LELION 是一家位于中国宁波的雨刮片制造商，自 2011 年起为批发商、经销商与自有品牌客户生产。工厂通过 ISO 9001:2015 认证（证书号 134956，NQA），并持有 CE 证书（编号 M.2022.206.C79712，UDEM）。我们可按您的品牌开发与生产 —— 从少量试单到整柜。",
+      "LELION 是一家位于中国宁波的雨刮片制造商，自 2007 年起为批发商、经销商与自有品牌客户生产。工厂通过 ISO 9001:2015 认证（证书号 134956，NQA），并持有 CE 证书（编号 M.2022.206.C79712，UDEM）。我们可按您的品牌开发与生产 —— 从少量试单到整柜。",
     whyTitle: "为什么选择 LELION",
     features: [
       {
@@ -486,7 +486,7 @@ const oem: Record<string, Copy> = {
       { k: "最小起订量", v: "整单 500 pcs 起 · 多数型号单尺寸 100 pcs 起 · 部分特殊产品起订量更高" },
       { k: "打样时间", v: "7–15 天" },
       { k: "交期", v: "现货 7 个工作日 · 非现货与定制生产 15–35 个工作日" },
-      { k: "付款方式", v: "T/T · 信用卡 / 借记卡 · Apple Pay · Google Pay · Afterpay · Alipay" },
+      { k: "付款方式", v: "T/T（30% 定金，70% 凭提单副本付款）· 即期信用证 · 信用卡 / 借记卡 · Apple Pay · Google Pay · Afterpay · Alipay" },
       {
         k: "样品政策",
         v: "免费样品 —— 每项 2 pcs，运费由买方承担。定制打样或开模费用可在首个生产订单中抵扣。",
@@ -517,8 +517,8 @@ const oem: Record<string, Copy> = {
         q: "可以拿样品吗？",
         a: "可以。我们提供免费样品（每项 2 pcs），运费由您承担。若项目需要定制打样或开模，该费用可在首个生产订单中抵扣。",
       },
-      { q: "接受哪些付款方式？", a: "T/T、信用卡与借记卡、Apple Pay、Google Pay、Afterpay 与 Alipay。" },
-      { q: "服务哪些市场？", a: "目前出口 50 多个国家。我们的团队在工作日 12 小时内回复。" },
+      { q: "接受哪些付款方式？", a: "T/T（30% 定金，70% 凭提单副本付款）、即期信用证、信用卡与借记卡、Apple Pay、Google Pay、Afterpay 与 Alipay。" },
+      { q: "服务哪些市场？", a: "目前出口 60 多个国家。我们的团队在工作日 12 小时内回复。" },
     ],
     ctaTitle: "开启您的自有品牌项目",
     ctaText: "告诉我们目标数量、产品类型与包装构想 —— 我们在工作日 12 小时内回复。",

@@ -44,6 +44,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       { url: baseUrl + prefix + "/contact", lastModified: now, changeFrequency: "monthly" as const, priority: 0.7, alternates: { languages: hreflangFor("/contact") } },
       { url: baseUrl + prefix + "/privacy", lastModified: now, changeFrequency: "yearly" as const, priority: 0.3, alternates: { languages: hreflangFor("/privacy") } },
       { url: baseUrl + prefix + "/blog", lastModified: now, changeFrequency: "weekly" as const, priority: 0.7, alternates: { languages: hreflangFor("/blog") } },
+      { url: baseUrl + prefix + "/certifications", lastModified: now, changeFrequency: "monthly" as const, priority: 0.6, alternates: { languages: hreflangFor("/certifications") } },
+      { url: baseUrl + prefix + "/factory", lastModified: now, changeFrequency: "monthly" as const, priority: 0.6, alternates: { languages: hreflangFor("/factory") } },
+      { url: baseUrl + prefix + "/quality", lastModified: now, changeFrequency: "monthly" as const, priority: 0.6, alternates: { languages: hreflangFor("/quality") } },
+      { url: baseUrl + prefix + "/exhibitions", lastModified: now, changeFrequency: "monthly" as const, priority: 0.5, alternates: { languages: hreflangFor("/exhibitions") } },
     );
 
     // Category routes

@@ -9,6 +9,7 @@ import { translations } from "../../../translations";
 import { allProducts } from "../../../data/products";
 import { blogPosts } from "../../../data/blog";
 import { getProductTranslation } from "../../../data/productTranslations";
+import { productUniqueContent } from "../../../data/productUniqueContent";
 import { CATEGORY_LABEL_KEYS } from "../../../data/categories";
 import { buildDescription } from "../../../../lib/seo";
 
@@ -24,9 +25,12 @@ export default function ProductDetail() {
   const t = translations[lang];
   const l = (p: string) => "/" + lang + p;
   const productTrans = getProductTranslation(id, lang);
+  // Per-SEO 2026-11: every product renders unique, data-derived copy from this map.
+  // Shared translations remain as a fallback only. Declared here so every later
+  // reference (desc/longDesc/specs/features/FAQ) is safe from temporal-dead-zone errors.
+  const unique = productUniqueContent[id || ""];
   const productName = productTrans?.name || product?.name || "";
-  const productDesc = productTrans?.desc || product?.desc || "";
-  const productLongDesc = productTrans?.longDesc || product?.longDesc || "";
+  const productDesc = unique?.desc || productTrans?.desc || product?.desc || "";
   // MOQ is derived from product.moq, never read from technicalDetails: the two
   // used to disagree (300 PCS in the table, 500 in the headline). The row is
   // re-inserted at its original place — before HS Code when present, otherwise
@@ -40,11 +44,27 @@ export default function ProductDetail() {
     entries.splice(insertAt, 0, ["MOQ", product.moq]);
     return Object.fromEntries(entries);
   })();
-  const productSpecs = productTrans?.specs || product?.specs || [];
-  const productFeatures = productTrans?.features || product?.features || [];
+  const productLongDesc = unique?.longDesc || productTrans?.longDesc || product?.longDesc || "";
+  const productSpecs = unique?.specs || productTrans?.specs || product?.specs || [];
+  const productFeatures = unique?.features || productTrans?.features || product?.features || [];
   const images = (product?.gallery && product.gallery.length > 0) ? [product.image, ...product.gallery] : [product?.image || ""];
 
-  const faqItems = [
+  // Product-specific FAQ — the question text carries this product's own model,
+  // vehicle and OE reference so it differs from page to page (good for GEO/AI).
+  const uniqueFaq = (() => {
+    const u = productUniqueContent[product?.id || ""];
+    if (!u) return [];
+    const mk = (make: string, years: string, oe: string, model: string) => [
+      { q: `Is the ${model || u.desc.split(" ")[0]} a direct fit for my vehicle?`,
+        a: `This part is listed for ${make && years ? make + " " + years : "the applications in the fitment table above"}. Check the fitment row and the OE reference against your vehicle before ordering.` },
+      { q: `What is the OE reference for this part?`,
+        a: oe ? `The original-equipment reference is ${oe}. Cross-check it against your current part before placing a bulk order.` : `The model number is ${model || u.desc.split(" ")[0]}. Match it against the fitment data above.` },
+      { q: `Can I order this part with custom branding or packaging?`,
+        a: `Yes. LELION supplies OEM/ODM branding and retail packaging for bulk orders (MOQ applies). Contact our sales team with your quantity and target market for a quotation.` },
+    ];
+    return mk(u.brand || "", u.years || "", u.oem || "", u.model || "");
+  })();
+  const faqItems = uniqueFaq.length ? uniqueFaq : [
     { q: t.faqQ1, a: t.faqA1 }, { q: t.faqQ2, a: t.faqA2 }, { q: t.faqQ3, a: t.faqA3 },
     { q: t.faqQ4, a: t.faqA4 }, { q: t.faqQ5, a: t.faqA5 }, { q: t.faqQ6, a: t.faqA6 }
   ];

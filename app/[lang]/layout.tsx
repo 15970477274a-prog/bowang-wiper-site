@@ -96,22 +96,22 @@ const organizationSchema = {
   "@type": "Organization",
   "name": "Ningbo Zhenhai Bowang Autoparts Co., Ltd.",
   "alternateName": "Lelion Autoparts",
-  "description": "Leading OEM/ODM wiper blade manufacturer in Ningbo, China. ISO 9001 certified factory producing universal, specific fit, and multifunction wiper blades since 2011.",
+  "description": "Leading OEM/ODM wiper blade manufacturer in Ningbo, China. ISO 9001 certified factory producing universal, specific fit, and multifunction wiper blades since 2007.",
   "url": "https://www.lelionautopart.com",
   "logo": "https://sc02.alicdn.com/kf/H2533c3c14bc74cd3afe116f60a8357f4U.jpg",
-  "foundingDate": "2011",
-  "numberOfEmployees": "200+",
+  "foundingDate": "2007",
+  "numberOfEmployees": "128+",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Zhenhai District",
+    "streetAddress": "No.399 Minhe Road, Zhenhai District",
     "addressLocality": "Ningbo",
     "addressRegion": "Zhejiang",
     "postalCode": "315202",
     "addressCountry": "CN"
   },
   "contactPoint": [
-    { "@type": "ContactPoint", "telephone": "+86-18867886795", "contactType": "sales", "email": "bwb@bwwiper.com", "areaServed": "Worldwide", "availableLanguage": ["English", "Spanish", "Russian", "French", "German"] },
-    { "@type": "ContactPoint", "telephone": "+86-18867886795", "contactType": "technical support", "areaServed": "Worldwide", "availableLanguage": ["English", "Chinese"] }
+    { "@type": "ContactPoint", "name": "Overseas Sales Office", "telephone": "+86-18867886795", "email": "bwb@bwwiper.com", "contactType": "sales", "areaServed": "Worldwide", "availableLanguage": ["English", "Spanish", "Russian", "French", "German", "Chinese"] },
+    { "@type": "ContactPoint", "name": "Factory & OEM-ODM", "telephone": "+86-13375848641", "contactType": "factory", "areaServed": "Worldwide", "availableLanguage": ["English", "Chinese"] }
   ],
   "sameAs": [
     "https://nb-bowang.en.alibaba.com/",

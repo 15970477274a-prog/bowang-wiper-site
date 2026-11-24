@@ -9,6 +9,14 @@ export default function Footer() {
   const { lang } = useLanguage();
   const t = translations[lang];
   const l = (path: string) => "/" + lang + path;
+  const evidenceLabels: Record<string, { certifications: string; factory: string; quality: string; exhibitions: string }> = {
+    en: { certifications: "Certifications", factory: "Factory", quality: "Quality", exhibitions: "Exhibitions" },
+    es: { certifications: "Certificaciones", factory: "Fábrica", quality: "Calidad", exhibitions: "Exposiciones" },
+    ru: { certifications: "Сертификаты", factory: "Завод", quality: "Качество", exhibitions: "Выставки" },
+    fr: { certifications: "Certifications", factory: "Usine", quality: "Qualité", exhibitions: "Expositions" },
+    de: { certifications: "Zertifizierungen", factory: "Fabrik", quality: "Qualität", exhibitions: "Messen" },
+    zh: { certifications: "认证资质", factory: "工厂实力", quality: "质量控制", exhibitions: "展会活动" },
+  };
 
   return (
     <footer style={{ background: "linear-gradient(135deg, #093D6A 0%, #0a1628 100%)", color: "#cbd5e1", fontSize: "14px", position: "relative" }}>
@@ -96,6 +104,10 @@ export default function Footer() {
             <li><Link href={l("/contact")} style={{ color: "#cbd5e1", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>{t.navGetQuote}</Link></li>
             <li><a href="/Catalog.pdf" target="_blank" style={{ color: "#cbd5e1", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>{t.navCatalog}</a></li>
             <li><Link href={l("/privacy")} style={{ color: "#cbd5e1", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>{t.footerPrivacy}</Link></li>
+            <li><Link href={l("/certifications")} style={{ color: "#cbd5e1", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>{evidenceLabels[lang].certifications}</Link></li>
+            <li><Link href={l("/factory")} style={{ color: "#cbd5e1", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>{evidenceLabels[lang].factory}</Link></li>
+            <li><Link href={l("/quality")} style={{ color: "#cbd5e1", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>{evidenceLabels[lang].quality}</Link></li>
+            <li><Link href={l("/exhibitions")} style={{ color: "#cbd5e1", textDecoration: "none", fontSize: "14px", transition: "color 0.3s" }}>{evidenceLabels[lang].exhibitions}</Link></li>
           </ul>
         </div>
 
