@@ -8,6 +8,16 @@ import { esContents } from "./blog-contents-es";
 import { ruContents } from "./blog-contents-ru";
 import { frContents } from "./blog-contents-fr";
 import { deContents } from "./blog-contents-de";
+import { coatedMeta } from "./blog-coated-meta";
+import { coatedExtraEs } from "./blog-extra-coated-es";
+import { coatedExtraRu } from "./blog-extra-coated-ru";
+import { coatedExtraFr } from "./blog-extra-coated-fr";
+import { coatedExtraDe } from "./blog-extra-coated-de";
+import { coatedExtraZh } from "./blog-extra-coated-zh";
+import { universalExtraEs } from "./blog-extra-universal-es";
+import { universalExtraRu } from "./blog-extra-universal-ru";
+import { universalExtraFr } from "./blog-extra-universal-fr";
+import { universalExtraDe } from "./blog-extra-universal-de";
 
 export interface BlogTranslation {
   title: string;
@@ -25,6 +35,14 @@ export function getBlogTranslation(
 }
 
 export const blogTranslations: Record<string, Record<string, BlogTranslation>> = {
+  "what-is-a-coated-silicone-wiper": {
+    es: { title: coatedMeta.es.title, excerpt: coatedMeta.es.excerpt },
+    ru: { title: coatedMeta.ru.title, excerpt: coatedMeta.ru.excerpt },
+    fr: { title: coatedMeta.fr.title, excerpt: coatedMeta.fr.excerpt },
+    de: { title: coatedMeta.de.title, excerpt: coatedMeta.de.excerpt },
+    zh: { title: coatedMeta.zh.title, excerpt: coatedMeta.zh.excerpt },
+  },
+
 
   "how-to-choose-wiper-blade-manufacturer": {
     es: {
@@ -1303,10 +1321,11 @@ ISO 9001 质量管理体系是底线。出口欧盟要按正确的产品指令�
 
 // Merge full article bodies from the per-language fragment files.
 const contentsByLang: Record<string, Record<string, string>> = {
-  es: esContents,
-  ru: ruContents,
-  fr: frContents,
-  de: deContents,
+  es: { ...esContents, ...coatedExtraEs, ...universalExtraEs },
+  ru: { ...ruContents, ...coatedExtraRu, ...universalExtraRu },
+  fr: { ...frContents, ...coatedExtraFr, ...universalExtraFr },
+  de: { ...deContents, ...coatedExtraDe, ...universalExtraDe },
+  zh: { ...coatedExtraZh },
 };
 
 for (const lang of Object.keys(contentsByLang)) {
