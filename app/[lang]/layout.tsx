@@ -117,8 +117,19 @@ const organizationSchema = {
     "https://nbzhbw.en.made-in-china.com/",
     "https://www.bwwiper.com/",
     "https://www.youtube.com/channel/UCxgd3bIU_kAivg0xL4XOh2Q",
+    "https://www.facebook.com/profile.php?id=61577279301573",
+    "https://www.instagram.com/lelion_allen/",
+    "https://www.tiktok.com/@lelion_allen",
     "https://wa.me/8618867886795"
-  ]
+  ],
+  "founder": {
+    "@type": "Person",
+    "name": "Qingjiang Cao",
+    "jobTitle": "Founder",
+    "sameAs": [
+      "https://www.linkedin.com/in/qingjiang-cao/"
+    ]
+  }
 };
 
 const websiteSchema = {
