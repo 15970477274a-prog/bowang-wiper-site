@@ -3301,7 +3301,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Limpiaparabrisas delantero de coche para Citroën DS4 2011-2015. Repuesto premium de posventa de LELION, un fabricante líder chino de limpiaparabrisas OEM/ODM. Precio directo de fábrica con logística de exportación global.",
       "specs": [
         "Modelo del producto: BW-829",
-        "Tamaño: Estándar",
+        "Tamaño: 28+22\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -3316,7 +3316,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW-829",
         "Categoría": "Escobilla Específica",
-        "Tamaño": "Estándar",
+        "Tamaño": "28+22\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas delantero de coche para Citroën DS4 2011-2015",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -3328,7 +3328,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Специальные щетки стеклоочистителя для переднего стекла автомобиля Citroen DS4 2011-2015. Премиальная вторичная замена от LELION, ведущего китайского производителя дворников OEM/ODM. Прямые цены от производителя с глобальной экспортной логистикой.",
       "specs": [
         "Модель продукта: BW-829",
-        "Размер: Стандартный",
+        "Размер: 28+22\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -3343,7 +3343,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW-829",
         "Категория": "Специализированный Стеклоочиститель",
-        "Размер": "Стандартный",
+        "Размер": "28+22\"",
         "Цвет": "Черный",
         "Применяемость": "Специальные щетки стеклоочистителя для переднего стекла автомобиля Citroen DS4 2011-2015",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -3355,7 +3355,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Essuie-Glaces Spécial Pare-Brise Avant pour Citroën DS4 2011-2015. Remplacement premium du marché secondaire par LELION, un fabricant OEM/ODM chinois leader en essuie-glaces. Prix directs d'usine avec logistique d'exportation mondiale.",
       "specs": [
         "Modèle du produit: BW-829",
-        "Taille: Standard",
+        "Taille: 28+22\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -3370,7 +3370,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW-829",
         "Catégorie": "Balai Spécifique",
-        "Taille": "Standard",
+        "Taille": "28+22\"",
         "Couleur": "Noir",
         "Application": "Essuie-Glaces Spécial Pare-Brise Avant pour Citroën DS4 2011-2015",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -3382,7 +3382,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Vordere Windschutzscheibe Spezielle Wischerblätter für Citroen DS4 2011-2015. Premium Aftermarket-Ersatz von LELION, einem führenden chinesischen OEM/ODM Hersteller von Wischerblättern. Werksdirektpreis mit globaler Exportlogistik.",
       "specs": [
         "Produktmodell: BW-829",
-        "Größe: Standard",
+        "Größe: 28+22\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -3397,7 +3397,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW-829",
         "Kategorie": "Spezifisches Wischerblatt",
-        "Größe": "Standard",
+        "Größe": "28+22\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Vordere Windschutzscheibe Spezielle Wischerblätter für Citroen DS4 2011-2015",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -3438,7 +3438,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Limpiaparabrisas trasero de coche para Peugeot 2008 2014-2018. Repuesto premium de posventa de LELION, un fabricante líder chino de limpiaparabrisas OEM/ODM. Precio directo de fábrica con logística de exportación global.",
       "specs": [
         "Modelo del producto: BW1123P",
-        "Tamaño: Estándar",
+        "Tamaño: 12\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -3453,7 +3453,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW1123P",
         "Categoría": "Escobilla Trasera",
-        "Tamaño": "Estándar",
+        "Tamaño": "12\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero de coche para Peugeot 2008 2014-2018",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -3465,7 +3465,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Щетка стеклоочистителя для заднего стекла автомобиля Peugeot 2008 2014-2018. Премиальная вторичная замена от LELION, ведущего китайского производителя дворников OEM/ODM. Прямые цены от производителя с глобальной экспортной логистикой.",
       "specs": [
         "Модель продукта: BW1123P",
-        "Размер: Стандартный",
+        "Размер: 12\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -3480,7 +3480,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW1123P",
         "Категория": "Задняя Щетка",
-        "Размер": "Стандартный",
+        "Размер": "12\"",
         "Цвет": "Черный",
         "Применяемость": "Щетка стеклоочистителя для заднего стекла автомобиля Peugeot 2008 2014-2018",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -3492,7 +3492,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Lame d'Essuie-Glace Arrière pour Peugeot 2008 2014-2018. Remplacement premium du marché secondaire par LELION, un fabricant OEM/ODM chinois leader en essuie-glaces. Prix directs d'usine avec logistique d'exportation mondiale.",
       "specs": [
         "Modèle du produit: BW1123P",
-        "Taille: Standard",
+        "Taille: 12\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -3507,7 +3507,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW1123P",
         "Catégorie": "Balai Arrière",
-        "Taille": "Standard",
+        "Taille": "12\"",
         "Couleur": "Noir",
         "Application": "Lame d'Essuie-Glace Arrière pour Peugeot 2008 2014-2018",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -3519,7 +3519,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Heckscheibenwischer für Peugeot 2008 2014-2018. Premium Aftermarket-Ersatz von LELION, einem führenden chinesischen OEM/ODM Hersteller von Wischerblättern. Werksdirektpreis mit globaler Exportlogistik.",
       "specs": [
         "Produktmodell: BW1123P",
-        "Größe: Standard",
+        "Größe: 12\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -3534,7 +3534,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW1123P",
         "Kategorie": "Heckwischer",
-        "Größe": "Standard",
+        "Größe": "12\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischer für Peugeot 2008 2014-2018",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -3849,7 +3849,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Limpiaparabrisas especial para coche para bmw 5 E34 1991-1995. Limpiaparabrisas delantero especial para BMW 5 E34 1991-1995",
       "specs": [
         "Modelo del producto: BW-704",
-        "Tamaño: Estándar",
+        "Tamaño: 24+24\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -3864,7 +3864,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW-704",
         "Categoría": "Escobilla Específica de Marco",
-        "Tamaño": "Estándar",
+        "Tamaño": "24+24\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas especial para coche para bmw 5 E34 1991-1995",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -3876,7 +3876,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Специальная щетка стеклоочистителя для BMW 5 E34 1991-1995. Передняя специальная щетка стеклоочистителя для BMW 5 E34 1991-1995",
       "specs": [
         "Модель продукта: BW-704",
-        "Размер: Стандартный",
+        "Размер: 24+24\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -3891,7 +3891,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW-704",
         "Категория": "Специализированная Каркасная Щетка",
-        "Размер": "Стандартный",
+        "Размер": "24+24\"",
         "Цвет": "Черный",
         "Применяемость": "Специальная щетка стеклоочистителя для BMW 5 E34 1991-1995",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -3903,7 +3903,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Lame d'Essuie-Glace Spéciale pour BMW 5 E34 1991-1995. Lame d’essuie-glace avant spéciale pour BMW 5 E34 1991-1995",
       "specs": [
         "Modèle du produit: BW-704",
-        "Taille: Standard",
+        "Taille: 24+24\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -3918,7 +3918,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW-704",
         "Catégorie": "Balai Spécifique à Armature",
-        "Taille": "Standard",
+        "Taille": "24+24\"",
         "Couleur": "Noir",
         "Application": "Lame d'Essuie-Glace Spéciale pour BMW 5 E34 1991-1995",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -3930,7 +3930,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Spezielle Windschutzscheibenwischer für BMW 5 E34 1991-1995. Vorderer Spezialwiker für BMW 5 E34 1991-1995",
       "specs": [
         "Produktmodell: BW-704",
-        "Größe: Standard",
+        "Größe: 24+24\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -3945,7 +3945,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW-704",
         "Kategorie": "Spezifisches Rahmenwischerblatt",
-        "Größe": "Standard",
+        "Größe": "24+24\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Spezielle Windschutzscheibenwischer für BMW 5 E34 1991-1995",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -12483,7 +12483,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "LELION Accesorios externos para automóviles al por mayor Limpiaparabrisas delantero Hojas suaves para AUDI A6L 2006-2011. LELION escobilla limpiaparabrisas especial AL por mayor",
       "specs": [
         "Modelo del producto: BW-830",
-        "Tamaño: Estándar",
+        "Tamaño: 22+22\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -12498,7 +12498,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW-830",
         "Categoría": "Escobilla Específica",
-        "Tamaño": "Estándar",
+        "Tamaño": "22+22\"",
         "Color": "Negro",
         "Aplicación": "LELION Accesorios externos para automóviles al por mayor Limpiaparabrisas delantero Hojas suaves para AUDI A6L 2006-2011",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -12510,7 +12510,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "LELION оптом Внешние автомобильные аксессуары Передние мягкие щетки стеклоочистителя для AUDI A6L 2006-2011. LELION оптовая специальная щетка дворника",
       "specs": [
         "Модель продукта: BW-830",
-        "Размер: Стандартный",
+        "Размер: 22+22\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -12525,7 +12525,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW-830",
         "Категория": "Специализированный Стеклоочиститель",
-        "Размер": "Стандартный",
+        "Размер": "22+22\"",
         "Цвет": "Черный",
         "Применяемость": "LELION оптом Внешние автомобильные аксессуары Передние мягкие щетки стеклоочистителя для AUDI A6L 2006-2011",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -12537,7 +12537,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "LELION Accessoires Externes de Voiture de Gros Balais d'essuie-glace avant souples pour AUDI A6L 2006-2011. LELION lame d'essuie-glace spéciale en gros",
       "specs": [
         "Modèle du produit: BW-830",
-        "Taille: Standard",
+        "Taille: 22+22\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -12552,7 +12552,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW-830",
         "Catégorie": "Balai Spécifique",
-        "Taille": "Standard",
+        "Taille": "22+22\"",
         "Couleur": "Noir",
         "Application": "LELION Accessoires Externes de Voiture de Gros Balais d'essuie-glace avant souples pour AUDI A6L 2006-2011",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -12564,7 +12564,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "LELION Großhandel Auto externe Zubehör Frontscheibe weiche Wischerblätter für AUDI A6L 2006-2011. LELION Großhandel Spezial-Wischerblatt",
       "specs": [
         "Produktmodell: BW-830",
-        "Größe: Standard",
+        "Größe: 22+22\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -12579,7 +12579,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW-830",
         "Kategorie": "Spezifisches Wischerblatt",
-        "Größe": "Standard",
+        "Größe": "22+22\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Großhandel Auto externe Zubehör Frontscheibe weiche Wischerblätter für AUDI A6L 2006-2011",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -12757,7 +12757,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "LELION Mayorista Parabrisas Delantero Fabricantes de Limpiaparabrisas Especial para SKODA FABIA 2007-2014. LELION escobilla limpiaparabrisas sepcial AL por mayor",
       "specs": [
         "Modelo del producto: BW-829",
-        "Tamaño: Estándar",
+        "Tamaño: 21+21\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -12772,7 +12772,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW-829",
         "Categoría": "Escobilla Específica",
-        "Tamaño": "Estándar",
+        "Tamaño": "21+21\"",
         "Color": "Negro",
         "Aplicación": "LELION Mayorista Parabrisas Delantero Fabricantes de Limpiaparabrisas Especial para SKODA FABIA 2007-2014",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -12784,7 +12784,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "LELION оптом Передние специальные щетки стеклоочистителя Производители для SKODA FABIA 2007-2014. Специальная оптовая щетка LELION",
       "specs": [
         "Модель продукта: BW-829",
-        "Размер: Стандартный",
+        "Размер: 21+21\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -12799,7 +12799,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW-829",
         "Категория": "Специализированный Стеклоочиститель",
-        "Размер": "Стандартный",
+        "Размер": "21+21\"",
         "Цвет": "Черный",
         "Применяемость": "LELION оптом Передние специальные щетки стеклоочистителя Производители для SKODA FABIA 2007-2014",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -12811,7 +12811,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "LELION Pièces Auto de Gros Fabricants de Balais d'essuie-glace spéciaux avant pour SKODA FABIA 2007-2014. LELION lame d'essuie-glace spéciale en gros",
       "specs": [
         "Modèle du produit: BW-829",
-        "Taille: Standard",
+        "Taille: 21+21\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -12826,7 +12826,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW-829",
         "Catégorie": "Balai Spécifique",
-        "Taille": "Standard",
+        "Taille": "21+21\"",
         "Couleur": "Noir",
         "Application": "LELION Pièces Auto de Gros Fabricants de Balais d'essuie-glace spéciaux avant pour SKODA FABIA 2007-2014",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -12838,7 +12838,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "LELION Großhandel Auto Frontscheiben-Sonderwischerblätter Hersteller für SKODA FABIA 2007-2014. LELION Großhandel Spezial-Wischerblatt",
       "specs": [
         "Produktmodell: BW-829",
-        "Größe: Standard",
+        "Größe: 21+21\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -12853,7 +12853,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW-829",
         "Kategorie": "Spezifisches Wischerblatt",
-        "Größe": "Standard",
+        "Größe": "21+21\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "LELION Großhandel Auto Frontscheiben-Sonderwischerblätter Hersteller für SKODA FABIA 2007-2014",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -16458,7 +16458,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Limpiaparabrisas trasero para Kia Sportage 2010-2016. Repuesto premium de posventa de LELION, un fabricante líder chino de limpiaparabrisas OEM/ODM. Precio directo de fábrica con logística de exportación global.",
       "specs": [
         "Modelo del producto: BW0915P",
-        "Tamaño: Estándar",
+        "Tamaño: 12\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -16473,7 +16473,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW0915P",
         "Categoría": "Escobilla Trasera",
-        "Tamaño": "Estándar",
+        "Tamaño": "12\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para Kia Sportage 2010-2016",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -16485,7 +16485,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Щетка заднего стекла для Kia Sportage 2010-2016. Премиальная вторичная замена от LELION, ведущего китайского производителя дворников OEM/ODM. Прямые цены от производителя с глобальной экспортной логистикой.",
       "specs": [
         "Модель продукта: BW0915P",
-        "Размер: Стандартный",
+        "Размер: 12\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -16500,7 +16500,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW0915P",
         "Категория": "Задняя Щетка",
-        "Размер": "Стандартный",
+        "Размер": "12\"",
         "Цвет": "Черный",
         "Применяемость": "Щетка заднего стекла для Kia Sportage 2010-2016",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -16512,7 +16512,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Lame d'essuie-glace arrière pour pare-brise pour Kia Sportage 2010-2016. Remplacement premium du marché secondaire par LELION, un fabricant OEM/ODM chinois leader en essuie-glaces. Prix directs d'usine avec logistique d'exportation mondiale.",
       "specs": [
         "Modèle du produit: BW0915P",
-        "Taille: Standard",
+        "Taille: 12\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -16527,7 +16527,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW0915P",
         "Catégorie": "Balai Arrière",
-        "Taille": "Standard",
+        "Taille": "12\"",
         "Couleur": "Noir",
         "Application": "Lame d'essuie-glace arrière pour pare-brise pour Kia Sportage 2010-2016",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -16539,7 +16539,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Heckscheibenwischerblatt für Kia Sportage 2010-2016. Premium Aftermarket-Ersatz von LELION, einem führenden chinesischen OEM/ODM Hersteller von Wischerblättern. Werksdirektpreis mit globaler Exportlogistik.",
       "specs": [
         "Produktmodell: BW0915P",
-        "Größe: Standard",
+        "Größe: 12\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -16554,7 +16554,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW0915P",
         "Kategorie": "Heckwischer",
-        "Größe": "Standard",
+        "Größe": "12\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblatt für Kia Sportage 2010-2016",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -16869,7 +16869,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Limpiaparabrisas trasero para CHEVROLET HHR 2006-2011. Repuesto premium de posventa de LELION, un fabricante líder chino de limpiaparabrisas OEM/ODM. Precio directo de fábrica con logística de exportación global.",
       "specs": [
         "Modelo del producto: BW0155P",
-        "Tamaño: Estándar",
+        "Tamaño: 11\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -16884,7 +16884,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW0155P",
         "Categoría": "Escobilla Trasera",
-        "Tamaño": "Estándar",
+        "Tamaño": "11\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para CHEVROLET HHR 2006-2011",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -16896,7 +16896,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Щетки заднего стекла для CHEVROLET HHR 2006-2011. Премиальная вторичная замена от LELION, ведущего китайского производителя дворников OEM/ODM. Прямые цены от производителя с глобальной экспортной логистикой.",
       "specs": [
         "Модель продукта: BW0155P",
-        "Размер: Стандартный",
+        "Размер: 11\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -16911,7 +16911,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW0155P",
         "Категория": "Задняя Щетка",
-        "Размер": "Стандартный",
+        "Размер": "11\"",
         "Цвет": "Черный",
         "Применяемость": "Щетки заднего стекла для CHEVROLET HHR 2006-2011",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -16923,7 +16923,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Balais d'essuie-glace arrière pour CHEVROLET HHR 2006-2011. Remplacement premium du marché secondaire par LELION, un fabricant OEM/ODM chinois leader en essuie-glaces. Prix directs d'usine avec logistique d'exportation mondiale.",
       "specs": [
         "Modèle du produit: BW0155P",
-        "Taille: Standard",
+        "Taille: 11\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -16938,7 +16938,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW0155P",
         "Catégorie": "Balai Arrière",
-        "Taille": "Standard",
+        "Taille": "11\"",
         "Couleur": "Noir",
         "Application": "Balais d'essuie-glace arrière pour CHEVROLET HHR 2006-2011",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -16950,7 +16950,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Heckscheibenwischerblätter für CHEVROLET HHR 2006-2011. Premium Aftermarket-Ersatz von LELION, einem führenden chinesischen OEM/ODM Hersteller von Wischerblättern. Werksdirektpreis mit globaler Exportlogistik.",
       "specs": [
         "Produktmodell: BW0155P",
-        "Größe: Standard",
+        "Größe: 11\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -16965,7 +16965,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW0155P",
         "Kategorie": "Heckwischer",
-        "Größe": "Standard",
+        "Größe": "11\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblätter für CHEVROLET HHR 2006-2011",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -17697,7 +17697,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Limpiaparabrisas trasero Balde para Ford Explorer 2016-2016. Repuesto premium de posventa de LELION, un fabricante líder chino de limpiaparabrisas OEM/ODM. Precio directo de fábrica con logística de exportación global.",
       "specs": [
         "Modelo del producto: BW0875P",
-        "Tamaño: Estándar",
+        "Tamaño: 11\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -17712,7 +17712,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW0875P",
         "Categoría": "Escobilla Trasera",
-        "Tamaño": "Estándar",
+        "Tamaño": "11\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero Balde para Ford Explorer 2016-2016",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -17724,7 +17724,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Щетка заднего стеклоочистителя для Ford Explorer 2016-2016. Премиальная вторичная замена от LELION, ведущего китайского производителя дворников OEM/ODM. Прямые цены от производителя с глобальной экспортной логистикой.",
       "specs": [
         "Модель продукта: BW0875P",
-        "Размер: Стандартный",
+        "Размер: 11\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -17739,7 +17739,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW0875P",
         "Категория": "Задняя Щетка",
-        "Размер": "Стандартный",
+        "Размер": "11\"",
         "Цвет": "Черный",
         "Применяемость": "Щетка заднего стеклоочистителя для Ford Explorer 2016-2016",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -17751,7 +17751,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Balai d'essuie-glace arrière pour Ford Explorer 2016. Remplacement premium du marché secondaire par LELION, un fabricant OEM/ODM chinois leader en essuie-glaces. Prix directs d'usine avec logistique d'exportation mondiale.",
       "specs": [
         "Modèle du produit: BW0875P",
-        "Taille: Standard",
+        "Taille: 11\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -17766,7 +17766,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW0875P",
         "Catégorie": "Balai Arrière",
-        "Taille": "Standard",
+        "Taille": "11\"",
         "Couleur": "Noir",
         "Application": "Balai d'essuie-glace arrière pour Ford Explorer 2016",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -17778,7 +17778,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Heckscheibenwischerblatt für Ford Explorer 2016. Premium Aftermarket-Ersatz von LELION, einem führenden chinesischen OEM/ODM Hersteller von Wischerblättern. Werksdirektpreis mit globaler Exportlogistik.",
       "specs": [
         "Produktmodell: BW0875P",
-        "Größe: Standard",
+        "Größe: 11\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -17793,7 +17793,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW0875P",
         "Kategorie": "Heckwischer",
-        "Größe": "Standard",
+        "Größe": "11\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblatt für Ford Explorer 2016",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -17834,7 +17834,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Limpiaparabrisas trasero Balde para Nissan Juke 2010-2016. Repuesto premium de posventa de LELION, un fabricante líder chino de limpiaparabrisas OEM/ODM. Precio directo de fábrica con logística de exportación global.",
       "specs": [
         "Modelo del producto: BW0521P",
-        "Tamaño: Estándar",
+        "Tamaño: 12\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -17849,7 +17849,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW0521P",
         "Categoría": "Escobilla Trasera",
-        "Tamaño": "Estándar",
+        "Tamaño": "12\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero Balde para Nissan Juke 2010-2016",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -17861,7 +17861,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Щетка заднего стеклоочистителя для Nissan Juke 2010-2016. Премиальная вторичная замена от LELION, ведущего китайского производителя дворников OEM/ODM. Прямые цены от производителя с глобальной экспортной логистикой.",
       "specs": [
         "Модель продукта: BW0521P",
-        "Размер: Стандартный",
+        "Размер: 12\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -17876,7 +17876,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW0521P",
         "Категория": "Задняя Щетка",
-        "Размер": "Стандартный",
+        "Размер": "12\"",
         "Цвет": "Черный",
         "Применяемость": "Щетка заднего стеклоочистителя для Nissan Juke 2010-2016",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -17888,7 +17888,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Balai d'essuie-glace arrière pour Nissan Juke 2010-2016. Remplacement premium du marché secondaire par LELION, un fabricant OEM/ODM chinois leader en essuie-glaces. Prix directs d'usine avec logistique d'exportation mondiale.",
       "specs": [
         "Modèle du produit: BW0521P",
-        "Taille: Standard",
+        "Taille: 12\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -17903,7 +17903,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW0521P",
         "Catégorie": "Balai Arrière",
-        "Taille": "Standard",
+        "Taille": "12\"",
         "Couleur": "Noir",
         "Application": "Balai d'essuie-glace arrière pour Nissan Juke 2010-2016",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -17915,7 +17915,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Heckscheibenwischerblatt für Nissan Juke 2010-2016. Premium Aftermarket-Ersatz von LELION, einem führenden chinesischen OEM/ODM Hersteller von Wischerblättern. Werksdirektpreis mit globaler Exportlogistik.",
       "specs": [
         "Produktmodell: BW0521P",
-        "Größe: Standard",
+        "Größe: 12\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -17930,7 +17930,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW0521P",
         "Kategorie": "Heckwischer",
-        "Größe": "Standard",
+        "Größe": "12\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblatt für Nissan Juke 2010-2016",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -18245,7 +18245,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Limpiaparabrisas trasero Baldes para Mercedes-Benz CLASE M W164 2005-2011. Repuesto premium de posventa de LELION, un fabricante líder chino de limpiaparabrisas OEM/ODM. Precio directo de fábrica con logística de exportación global.",
       "specs": [
         "Modelo del producto: BW0857P",
-        "Tamaño: Estándar",
+        "Tamaño: 12\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -18260,7 +18260,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW0857P",
         "Categoría": "Escobilla Trasera",
-        "Tamaño": "Estándar",
+        "Tamaño": "12\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero Baldes para Mercedes-Benz CLASE M W164 2005-2011",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -18272,7 +18272,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Щетки заднего стеклоочистителя для Mercedes-Benz M-CLASS W164 2005-2011. Премиальная вторичная замена от LELION, ведущего китайского производителя дворников OEM/ODM. Прямые цены от производителя с глобальной экспортной логистикой.",
       "specs": [
         "Модель продукта: BW0857P",
-        "Размер: Стандартный",
+        "Размер: 12\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -18287,7 +18287,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW0857P",
         "Категория": "Задняя Щетка",
-        "Размер": "Стандартный",
+        "Размер": "12\"",
         "Цвет": "Черный",
         "Применяемость": "Щетки заднего стеклоочистителя для Mercedes-Benz M-CLASS W164 2005-2011",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -18299,7 +18299,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Balais d'essuie-glace arrière pour Mercedes-Benz M-CLASS W164 2005-2011. Remplacement premium du marché secondaire par LELION, un fabricant OEM/ODM chinois leader en essuie-glaces. Prix directs d'usine avec logistique d'exportation mondiale.",
       "specs": [
         "Modèle du produit: BW0857P",
-        "Taille: Standard",
+        "Taille: 12\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -18314,7 +18314,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW0857P",
         "Catégorie": "Balai Arrière",
-        "Taille": "Standard",
+        "Taille": "12\"",
         "Couleur": "Noir",
         "Application": "Balais d'essuie-glace arrière pour Mercedes-Benz M-CLASS W164 2005-2011",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -18326,7 +18326,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Heckscheibenwischerblätter für Mercedes-Benz M-KLASSE W164 2005-2011. Premium Aftermarket-Ersatz von LELION, einem führenden chinesischen OEM/ODM Hersteller von Wischerblättern. Werksdirektpreis mit globaler Exportlogistik.",
       "specs": [
         "Produktmodell: BW0857P",
-        "Größe: Standard",
+        "Größe: 12\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -18341,7 +18341,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW0857P",
         "Kategorie": "Heckwischer",
-        "Größe": "Standard",
+        "Größe": "12\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblätter für Mercedes-Benz M-KLASSE W164 2005-2011",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -18382,7 +18382,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Limpiaparabrisas trasero Baldes para NISSAN DONGFENG Qashqai 2008-2017. Limpiaparabrisas trasero Baldes para NISSAN DONGFENG Qashqai 2008--2017",
       "specs": [
         "Modelo del producto: BW0841P",
-        "Tamaño: Estándar",
+        "Tamaño: 12\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -18397,7 +18397,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW0841P",
         "Categoría": "Escobilla Trasera",
-        "Tamaño": "Estándar",
+        "Tamaño": "12\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero Baldes para NISSAN DONGFENG Qashqai 2008-2017",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -18409,7 +18409,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Щетки заднего стеклоочистителя для NISSAN DONGFENG Qashqai 2008-2017. Задние дворники для NISSAN DONGFENG Qashqai 2008--2017",
       "specs": [
         "Модель продукта: BW0841P",
-        "Размер: Стандартный",
+        "Размер: 12\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -18424,7 +18424,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW0841P",
         "Категория": "Задняя Щетка",
-        "Размер": "Стандартный",
+        "Размер": "12\"",
         "Цвет": "Черный",
         "Применяемость": "Щетки заднего стеклоочистителя для NISSAN DONGFENG Qashqai 2008-2017",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -18436,7 +18436,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Balais d'essuie-glace arrière pour NISSAN DONGFENG Qashqai 2008-2017. Lames d'essuie-glace arrière pour NISSAN DONGFENG Qashqai 2008-2017",
       "specs": [
         "Modèle du produit: BW0841P",
-        "Taille: Standard",
+        "Taille: 12\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -18451,7 +18451,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW0841P",
         "Catégorie": "Balai Arrière",
-        "Taille": "Standard",
+        "Taille": "12\"",
         "Couleur": "Noir",
         "Application": "Balais d'essuie-glace arrière pour NISSAN DONGFENG Qashqai 2008-2017",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -18463,7 +18463,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Heckscheibenwischerblätter für NISSAN DONGFENG Qashqai 2008-2017. Heckscheibenwischerblätter für NISSAN DONGFENG Qashqai 2008--2017",
       "specs": [
         "Produktmodell: BW0841P",
-        "Größe: Standard",
+        "Größe: 12\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -18478,7 +18478,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW0841P",
         "Kategorie": "Heckwischer",
-        "Größe": "Standard",
+        "Größe": "12\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblätter für NISSAN DONGFENG Qashqai 2008-2017",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -19067,7 +19067,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Limpiaparabrisas trasero para coche TOYOTA PRIUS C 2012-2016. Repuesto premium de posventa de LELION, un fabricante líder chino de limpiaparabrisas OEM/ODM. Precio directo de fábrica con logística de exportación global.",
       "specs": [
         "Modelo del producto: BW0230P",
-        "Tamaño: Estándar",
+        "Tamaño: 16\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -19082,7 +19082,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW0230P",
         "Categoría": "Escobilla Trasera",
-        "Tamaño": "Estándar",
+        "Tamaño": "16\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para coche TOYOTA PRIUS C 2012-2016",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -19094,7 +19094,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Щетка заднего стеклоочистителя для Car TOYOTA PRIUS C 2012-2016. Премиальная вторичная замена от LELION, ведущего китайского производителя дворников OEM/ODM. Прямые цены от производителя с глобальной экспортной логистикой.",
       "specs": [
         "Модель продукта: BW0230P",
-        "Размер: Стандартный",
+        "Размер: 16\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -19109,7 +19109,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW0230P",
         "Категория": "Задняя Щетка",
-        "Размер": "Стандартный",
+        "Размер": "16\"",
         "Цвет": "Черный",
         "Применяемость": "Щетка заднего стеклоочистителя для Car TOYOTA PRIUS C 2012-2016",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -19121,7 +19121,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Balai d'essuie-glace arrière pour voiture TOYOTA PRIUS C 2012-2016. Remplacement premium du marché secondaire par LELION, un fabricant OEM/ODM chinois leader en essuie-glaces. Prix directs d'usine avec logistique d'exportation mondiale.",
       "specs": [
         "Modèle du produit: BW0230P",
-        "Taille: Standard",
+        "Taille: 16\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -19136,7 +19136,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW0230P",
         "Catégorie": "Balai Arrière",
-        "Taille": "Standard",
+        "Taille": "16\"",
         "Couleur": "Noir",
         "Application": "Balai d'essuie-glace arrière pour voiture TOYOTA PRIUS C 2012-2016",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -19148,7 +19148,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Heckscheibenwischerblatt für Auto TOYOTA PRIUS C 2012-2016. Premium Aftermarket-Ersatz von LELION, einem führenden chinesischen OEM/ODM Hersteller von Wischerblättern. Werksdirektpreis mit globaler Exportlogistik.",
       "specs": [
         "Produktmodell: BW0230P",
-        "Größe: Standard",
+        "Größe: 16\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -19163,7 +19163,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW0230P",
         "Kategorie": "Heckwischer",
-        "Größe": "Standard",
+        "Größe": "16\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblatt für Auto TOYOTA PRIUS C 2012-2016",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -19341,7 +19341,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Limpiaparabrisas trasero para GMC YUKON 2007-2014. Repuesto premium de posventa de LELION, un fabricante líder chino de limpiaparabrisas OEM/ODM. Precio directo de fábrica con logística de exportación global.",
       "specs": [
         "Modelo del producto: BW6002P",
-        "Tamaño: Estándar",
+        "Tamaño: 12\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -19356,7 +19356,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW6002P",
         "Categoría": "Escobilla Trasera",
-        "Tamaño": "Estándar",
+        "Tamaño": "12\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para GMC YUKON 2007-2014",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -19368,7 +19368,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Щетка заднего стеклоочистителя для GMC YUKON 2007-2014. Премиальная вторичная замена от LELION, ведущего китайского производителя дворников OEM/ODM. Прямые цены от производителя с глобальной экспортной логистикой.",
       "specs": [
         "Модель продукта: BW6002P",
-        "Размер: Стандартный",
+        "Размер: 12\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -19383,7 +19383,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW6002P",
         "Категория": "Задняя Щетка",
-        "Размер": "Стандартный",
+        "Размер": "12\"",
         "Цвет": "Черный",
         "Применяемость": "Щетка заднего стеклоочистителя для GMC YUKON 2007-2014",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -19395,7 +19395,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Lame d'essuie-glace arrière pour GMC YUKON 2007-2014. Remplacement premium du marché secondaire par LELION, un fabricant OEM/ODM chinois leader en essuie-glaces. Prix directs d'usine avec logistique d'exportation mondiale.",
       "specs": [
         "Modèle du produit: BW6002P",
-        "Taille: Standard",
+        "Taille: 12\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -19410,7 +19410,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW6002P",
         "Catégorie": "Balai Arrière",
-        "Taille": "Standard",
+        "Taille": "12\"",
         "Couleur": "Noir",
         "Application": "Lame d'essuie-glace arrière pour GMC YUKON 2007-2014",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -19422,7 +19422,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Heckscheibenwischerblatt für GMC YUKON 2007-2014. Premium Aftermarket-Ersatz von LELION, einem führenden chinesischen OEM/ODM Hersteller von Wischerblättern. Werksdirektpreis mit globaler Exportlogistik.",
       "specs": [
         "Produktmodell: BW6002P",
-        "Größe: Standard",
+        "Größe: 12\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -19437,7 +19437,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW6002P",
         "Kategorie": "Heckwischer",
-        "Größe": "Standard",
+        "Größe": "12\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblatt für GMC YUKON 2007-2014",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -19615,7 +19615,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Limpiaparabrisas trasero para Infiniti EX35 2008-2012. Repuesto premium de posventa de LELION, un fabricante líder chino de limpiaparabrisas OEM/ODM. Precio directo de fábrica con logística de exportación global.",
       "specs": [
         "Modelo del producto: BW0508P",
-        "Tamaño: Estándar",
+        "Tamaño: 14\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -19630,7 +19630,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW0508P",
         "Categoría": "Escobilla Trasera",
-        "Tamaño": "Estándar",
+        "Tamaño": "14\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para Infiniti EX35 2008-2012",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -19642,7 +19642,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Щетка заднего стеклоочистителя для Infiniti EX35 2008-2012. Премиальная вторичная замена от LELION, ведущего китайского производителя дворников OEM/ODM. Прямые цены от производителя с глобальной экспортной логистикой.",
       "specs": [
         "Модель продукта: BW0508P",
-        "Размер: Стандартный",
+        "Размер: 14\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -19657,7 +19657,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW0508P",
         "Категория": "Задняя Щетка",
-        "Размер": "Стандартный",
+        "Размер": "14\"",
         "Цвет": "Черный",
         "Применяемость": "Щетка заднего стеклоочистителя для Infiniti EX35 2008-2012",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -19669,7 +19669,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Lame d'essuie-glace arrière pour Infiniti EX35 2008-2012. Remplacement premium du marché secondaire par LELION, un fabricant OEM/ODM chinois leader en essuie-glaces. Prix directs d'usine avec logistique d'exportation mondiale.",
       "specs": [
         "Modèle du produit: BW0508P",
-        "Taille: Standard",
+        "Taille: 14\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -19684,7 +19684,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW0508P",
         "Catégorie": "Balai Arrière",
-        "Taille": "Standard",
+        "Taille": "14\"",
         "Couleur": "Noir",
         "Application": "Lame d'essuie-glace arrière pour Infiniti EX35 2008-2012",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -19696,7 +19696,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Heckscheibenwischerblatt für Infiniti EX35 2008-2012. Premium Aftermarket-Ersatz von LELION, einem führenden chinesischen OEM/ODM Hersteller von Wischerblättern. Werksdirektpreis mit globaler Exportlogistik.",
       "specs": [
         "Produktmodell: BW0508P",
-        "Größe: Standard",
+        "Größe: 14\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -19711,7 +19711,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW0508P",
         "Kategorie": "Heckwischer",
-        "Größe": "Standard",
+        "Größe": "14\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblatt für Infiniti EX35 2008-2012",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -20026,7 +20026,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Limpiaparabrisas trasero para Mini Countryman (R60) 2010-2016. Repuesto premium de posventa de LELION, un fabricante líder chino de limpiaparabrisas OEM/ODM. Precio directo de fábrica con logística de exportación global.",
       "specs": [
         "Modelo del producto: BW0830P",
-        "Tamaño: Estándar",
+        "Tamaño: 10\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -20041,7 +20041,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW0830P",
         "Categoría": "Escobilla Trasera",
-        "Tamaño": "Estándar",
+        "Tamaño": "10\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para Mini Countryman (R60) 2010-2016",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -20053,7 +20053,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Щетка заднего стеклоочистителя для Mini Countryman (R60) 2010-2016. Премиальная вторичная замена от LELION, ведущего китайского производителя дворников OEM/ODM. Прямые цены от производителя с глобальной экспортной логистикой.",
       "specs": [
         "Модель продукта: BW0830P",
-        "Размер: Стандартный",
+        "Размер: 10\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -20068,7 +20068,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW0830P",
         "Категория": "Задняя Щетка",
-        "Размер": "Стандартный",
+        "Размер": "10\"",
         "Цвет": "Черный",
         "Применяемость": "Щетка заднего стеклоочистителя для Mini Countryman (R60) 2010-2016",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -20080,7 +20080,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Lame d'essuie-glace arrière pour Mini Countryman (R60) 2010-2016. Remplacement premium du marché secondaire par LELION, un fabricant OEM/ODM chinois leader en essuie-glaces. Prix directs d'usine avec logistique d'exportation mondiale.",
       "specs": [
         "Modèle du produit: BW0830P",
-        "Taille: Standard",
+        "Taille: 10\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -20095,7 +20095,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW0830P",
         "Catégorie": "Balai Arrière",
-        "Taille": "Standard",
+        "Taille": "10\"",
         "Couleur": "Noir",
         "Application": "Lame d'essuie-glace arrière pour Mini Countryman (R60) 2010-2016",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -20107,7 +20107,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Heckscheibenwischerblatt für Mini Countryman (R60) 2010-2016. Premium Aftermarket-Ersatz von LELION, einem führenden chinesischen OEM/ODM Hersteller von Wischerblättern. Werksdirektpreis mit globaler Exportlogistik.",
       "specs": [
         "Produktmodell: BW0830P",
-        "Größe: Standard",
+        "Größe: 10\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -20122,7 +20122,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW0830P",
         "Kategorie": "Heckwischer",
-        "Größe": "Standard",
+        "Größe": "10\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblatt für Mini Countryman (R60) 2010-2016",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -20437,7 +20437,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Limpiaparabrisas trasero para TOYOTA YARIS 2008-2013. Repuesto premium de posventa de LELION, un fabricante líder chino de limpiaparabrisas OEM/ODM. Precio directo de fábrica con logística de exportación global.",
       "specs": [
         "Modelo del producto: BW0202P",
-        "Tamaño: Estándar",
+        "Tamaño: 12\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -20452,7 +20452,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW0202P",
         "Categoría": "Escobilla Trasera",
-        "Tamaño": "Estándar",
+        "Tamaño": "12\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para TOYOTA YARIS 2008-2013",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -20464,7 +20464,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Щетка заднего стеклоочистителя для TOYOTA YARIS 2008-2013. Премиальная вторичная замена от LELION, ведущего китайского производителя дворников OEM/ODM. Прямые цены от производителя с глобальной экспортной логистикой.",
       "specs": [
         "Модель продукта: BW0202P",
-        "Размер: Стандартный",
+        "Размер: 12\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -20479,7 +20479,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW0202P",
         "Категория": "Задняя Щетка",
-        "Размер": "Стандартный",
+        "Размер": "12\"",
         "Цвет": "Черный",
         "Применяемость": "Щетка заднего стеклоочистителя для TOYOTA YARIS 2008-2013",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -20491,7 +20491,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Lame d'essuie-glace arrière pour TOYOTA YARIS 2008-2013. Remplacement premium du marché secondaire par LELION, un fabricant OEM/ODM chinois leader en essuie-glaces. Prix directs d'usine avec logistique d'exportation mondiale.",
       "specs": [
         "Modèle du produit: BW0202P",
-        "Taille: Standard",
+        "Taille: 12\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -20506,7 +20506,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW0202P",
         "Catégorie": "Balai Arrière",
-        "Taille": "Standard",
+        "Taille": "12\"",
         "Couleur": "Noir",
         "Application": "Lame d'essuie-glace arrière pour TOYOTA YARIS 2008-2013",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -20518,7 +20518,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Heckscheibenwischerblatt für TOYOTA YARIS 2008-2013. Premium Aftermarket-Ersatz von LELION, einem führenden chinesischen OEM/ODM Hersteller von Wischerblättern. Werksdirektpreis mit globaler Exportlogistik.",
       "specs": [
         "Produktmodell: BW0202P",
-        "Größe: Standard",
+        "Größe: 12\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -20533,7 +20533,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW0202P",
         "Kategorie": "Heckwischer",
-        "Größe": "Standard",
+        "Größe": "12\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblatt für TOYOTA YARIS 2008-2013",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -20985,7 +20985,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Limpiaparabrisas trasero para COCHE HONDA ODYSSEY 2011. Repuesto premium de posventa de LELION, un fabricante líder chino de limpiaparabrisas OEM/ODM. Precio directo de fábrica con logística de exportación global.",
       "specs": [
         "Modelo del producto: BW0306P",
-        "Tamaño: Estándar",
+        "Tamaño: 16\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -21000,7 +21000,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW0306P",
         "Categoría": "Escobilla Trasera",
-        "Tamaño": "Estándar",
+        "Tamaño": "16\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para COCHE HONDA ODYSSEY 2011",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -21012,7 +21012,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Щетки заднего стеклоочистителя для CAR HONDA ODYSSEY 2011. Премиальная вторичная замена от LELION, ведущего китайского производителя дворников OEM/ODM. Прямые цены от производителя с глобальной экспортной логистикой.",
       "specs": [
         "Модель продукта: BW0306P",
-        "Размер: Стандартный",
+        "Размер: 16\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -21027,7 +21027,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW0306P",
         "Категория": "Задняя Щетка",
-        "Размер": "Стандартный",
+        "Размер": "16\"",
         "Цвет": "Черный",
         "Применяемость": "Щетки заднего стеклоочистителя для CAR HONDA ODYSSEY 2011",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -21039,7 +21039,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Lames d'essuie-glace arrière pour voiture HONDA ODYSSEY 2011. Remplacement premium du marché secondaire par LELION, un fabricant OEM/ODM chinois leader en essuie-glaces. Prix directs d'usine avec logistique d'exportation mondiale.",
       "specs": [
         "Modèle du produit: BW0306P",
-        "Taille: Standard",
+        "Taille: 16\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -21054,7 +21054,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW0306P",
         "Catégorie": "Balai Arrière",
-        "Taille": "Standard",
+        "Taille": "16\"",
         "Couleur": "Noir",
         "Application": "Lames d'essuie-glace arrière pour voiture HONDA ODYSSEY 2011",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -21066,7 +21066,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Heckscheibenwischerblätter für Auto HONDA ODYSSEY 2011. Premium Aftermarket-Ersatz von LELION, einem führenden chinesischen OEM/ODM Hersteller von Wischerblättern. Werksdirektpreis mit globaler Exportlogistik.",
       "specs": [
         "Produktmodell: BW0306P",
-        "Größe: Standard",
+        "Größe: 16\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -21081,7 +21081,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW0306P",
         "Kategorie": "Heckwischer",
-        "Größe": "Standard",
+        "Größe": "16\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblätter für Auto HONDA ODYSSEY 2011",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -21122,7 +21122,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Limpiaparabrisas trasero para coche Kia NIRO 2017-2019. Repuesto premium de posventa de LELION, un fabricante líder chino de limpiaparabrisas OEM/ODM. Precio directo de fábrica con logística de exportación global.",
       "specs": [
         "Modelo del producto: BW0158P",
-        "Tamaño: Estándar",
+        "Tamaño: 12\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -21137,7 +21137,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW0158P",
         "Categoría": "Escobilla Trasera",
-        "Tamaño": "Estándar",
+        "Tamaño": "12\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para coche Kia NIRO 2017-2019",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -21149,7 +21149,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Задние щетки стеклоочистителя для автомобиля Kia NIRO 2017-2019. Премиальная вторичная замена от LELION, ведущего китайского производителя дворников OEM/ODM. Прямые цены от производителя с глобальной экспортной логистикой.",
       "specs": [
         "Модель продукта: BW0158P",
-        "Размер: Стандартный",
+        "Размер: 12\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -21164,7 +21164,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW0158P",
         "Категория": "Задняя Щетка",
-        "Размер": "Стандартный",
+        "Размер": "12\"",
         "Цвет": "Черный",
         "Применяемость": "Задние щетки стеклоочистителя для автомобиля Kia NIRO 2017-2019",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -21176,7 +21176,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Lames d'essuie-glace arrière pour voiture Kia NIRO 2017-2019. Remplacement premium du marché secondaire par LELION, un fabricant OEM/ODM chinois leader en essuie-glaces. Prix directs d'usine avec logistique d'exportation mondiale.",
       "specs": [
         "Modèle du produit: BW0158P",
-        "Taille: Standard",
+        "Taille: 12\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -21191,7 +21191,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW0158P",
         "Catégorie": "Balai Arrière",
-        "Taille": "Standard",
+        "Taille": "12\"",
         "Couleur": "Noir",
         "Application": "Lames d'essuie-glace arrière pour voiture Kia NIRO 2017-2019",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -21203,7 +21203,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Heckscheibenwischerblätter für Auto Kia NIRO 2017-2019. Premium Aftermarket-Ersatz von LELION, einem führenden chinesischen OEM/ODM Hersteller von Wischerblättern. Werksdirektpreis mit globaler Exportlogistik.",
       "specs": [
         "Produktmodell: BW0158P",
-        "Größe: Standard",
+        "Größe: 12\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -21218,7 +21218,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW0158P",
         "Kategorie": "Heckwischer",
-        "Größe": "Standard",
+        "Größe": "12\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblätter für Auto Kia NIRO 2017-2019",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -21259,7 +21259,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Limpiaparabrisas trasero para CHEVROLET TAHOE 2013. Repuesto premium de posventa de LELION, un fabricante líder chino de limpiaparabrisas OEM/ODM. Precio directo de fábrica con logística de exportación global.",
       "specs": [
         "Modelo del producto: BW1911P",
-        "Tamaño: Estándar",
+        "Tamaño: 12\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -21274,7 +21274,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW1911P",
         "Categoría": "Escobilla Trasera",
-        "Tamaño": "Estándar",
+        "Tamaño": "12\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para CHEVROLET TAHOE 2013",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -21286,7 +21286,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Задние щетки стеклоочистителя для CHEVROLET TAHOE 2013. Премиальная вторичная замена от LELION, ведущего китайского производителя дворников OEM/ODM. Прямые цены от производителя с глобальной экспортной логистикой.",
       "specs": [
         "Модель продукта: BW1911P",
-        "Размер: Стандартный",
+        "Размер: 12\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -21301,7 +21301,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW1911P",
         "Категория": "Задняя Щетка",
-        "Размер": "Стандартный",
+        "Размер": "12\"",
         "Цвет": "Черный",
         "Применяемость": "Задние щетки стеклоочистителя для CHEVROLET TAHOE 2013",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -21313,7 +21313,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Lames d'essuie-glace arrière pour CHEVROLET TAHOE 2013. Remplacement premium du marché secondaire par LELION, un fabricant OEM/ODM chinois leader en essuie-glaces. Prix directs d'usine avec logistique d'exportation mondiale.",
       "specs": [
         "Modèle du produit: BW1911P",
-        "Taille: Standard",
+        "Taille: 12\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -21328,7 +21328,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW1911P",
         "Catégorie": "Balai Arrière",
-        "Taille": "Standard",
+        "Taille": "12\"",
         "Couleur": "Noir",
         "Application": "Lames d'essuie-glace arrière pour CHEVROLET TAHOE 2013",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -21340,7 +21340,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Heckscheibenwischerblätter für CHEVROLET TAHOE 2013. Premium Aftermarket-Ersatz von LELION, einem führenden chinesischen OEM/ODM Hersteller von Wischerblättern. Werksdirektpreis mit globaler Exportlogistik.",
       "specs": [
         "Produktmodell: BW1911P",
-        "Größe: Standard",
+        "Größe: 12\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -21355,7 +21355,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW1911P",
         "Kategorie": "Heckwischer",
-        "Größe": "Standard",
+        "Größe": "12\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblätter für CHEVROLET TAHOE 2013",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -21533,7 +21533,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Limpiaparabrisas trasero para DODGE DURANGO 2011-2014. Repuesto premium de posventa de LELION, un fabricante líder chino de limpiaparabrisas OEM/ODM. Precio directo de fábrica con logística de exportación global.",
       "specs": [
         "Modelo del producto: BW0141P",
-        "Tamaño: Estándar",
+        "Tamaño: 12\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -21548,7 +21548,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW0141P",
         "Categoría": "Escobilla Trasera",
-        "Tamaño": "Estándar",
+        "Tamaño": "12\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para DODGE DURANGO 2011-2014",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -21560,7 +21560,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Задние щетки стеклоочистителя для DODGE DURANGO 2011-2014. Премиальная вторичная замена от LELION, ведущего китайского производителя дворников OEM/ODM. Прямые цены от производителя с глобальной экспортной логистикой.",
       "specs": [
         "Модель продукта: BW0141P",
-        "Размер: Стандартный",
+        "Размер: 12\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -21575,7 +21575,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW0141P",
         "Категория": "Задняя Щетка",
-        "Размер": "Стандартный",
+        "Размер": "12\"",
         "Цвет": "Черный",
         "Применяемость": "Задние щетки стеклоочистителя для DODGE DURANGO 2011-2014",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -21587,7 +21587,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Lames d'essuie-glace arrière pour DODGE DURANGO 2011-2014. Remplacement premium du marché secondaire par LELION, un fabricant OEM/ODM chinois leader en essuie-glaces. Prix directs d'usine avec logistique d'exportation mondiale.",
       "specs": [
         "Modèle du produit: BW0141P",
-        "Taille: Standard",
+        "Taille: 12\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -21602,7 +21602,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW0141P",
         "Catégorie": "Balai Arrière",
-        "Taille": "Standard",
+        "Taille": "12\"",
         "Couleur": "Noir",
         "Application": "Lames d'essuie-glace arrière pour DODGE DURANGO 2011-2014",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -21614,7 +21614,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Heckscheibenwischerblätter für DODGE DURANGO 2011-2014. Premium Aftermarket-Ersatz von LELION, einem führenden chinesischen OEM/ODM Hersteller von Wischerblättern. Werksdirektpreis mit globaler Exportlogistik.",
       "specs": [
         "Produktmodell: BW0141P",
-        "Größe: Standard",
+        "Größe: 12\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -21629,7 +21629,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW0141P",
         "Kategorie": "Heckwischer",
-        "Größe": "Standard",
+        "Größe": "12\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblätter für DODGE DURANGO 2011-2014",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -21807,7 +21807,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Limpiaparabrisas trasero para Honda Civic 2001 - 2005. Repuesto premium de posventa de LELION, un fabricante líder chino de limpiaparabrisas OEM/ODM. Precio directo de fábrica con logística de exportación global.",
       "specs": [
         "Modelo del producto: BW0310P",
-        "Tamaño: Estándar",
+        "Tamaño: 12\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -21822,7 +21822,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW0310P",
         "Categoría": "Escobilla Trasera",
-        "Tamaño": "Estándar",
+        "Tamaño": "12\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para Honda Civic 2001 - 2005",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -21834,7 +21834,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Задние щетки стеклоочистителя для Honda Civic 2001-2005. Премиальная вторичная замена от LELION, ведущего китайского производителя дворников OEM/ODM. Прямые цены от производителя с глобальной экспортной логистикой.",
       "specs": [
         "Модель продукта: BW0310P",
-        "Размер: Стандартный",
+        "Размер: 12\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -21849,7 +21849,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW0310P",
         "Категория": "Задняя Щетка",
-        "Размер": "Стандартный",
+        "Размер": "12\"",
         "Цвет": "Черный",
         "Применяемость": "Задние щетки стеклоочистителя для Honda Civic 2001-2005",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -21861,7 +21861,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Lames d'essuie-glace arrière pour Honda Civic 2001-2005. Remplacement premium du marché secondaire par LELION, un fabricant OEM/ODM chinois leader en essuie-glaces. Prix directs d'usine avec logistique d'exportation mondiale.",
       "specs": [
         "Modèle du produit: BW0310P",
-        "Taille: Standard",
+        "Taille: 12\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -21876,7 +21876,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW0310P",
         "Catégorie": "Balai Arrière",
-        "Taille": "Standard",
+        "Taille": "12\"",
         "Couleur": "Noir",
         "Application": "Lames d'essuie-glace arrière pour Honda Civic 2001-2005",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -21888,7 +21888,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Heckscheibenwischerblätter für Honda Civic 2001-2005. Premium Aftermarket-Ersatz von LELION, einem führenden chinesischen OEM/ODM Hersteller von Wischerblättern. Werksdirektpreis mit globaler Exportlogistik.",
       "specs": [
         "Produktmodell: BW0310P",
-        "Größe: Standard",
+        "Größe: 12\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -21903,7 +21903,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW0310P",
         "Kategorie": "Heckwischer",
-        "Größe": "Standard",
+        "Größe": "12\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblätter für Honda Civic 2001-2005",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -22218,7 +22218,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Limpiaparabrisas trasero para Kia Borrego 2009-2011. Repuesto premium de posventa de LELION, un fabricante líder chino de limpiaparabrisas OEM/ODM. Precio directo de fábrica con logística de exportación global.",
       "specs": [
         "Modelo del producto: BW0901P",
-        "Tamaño: Estándar",
+        "Tamaño: 14\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -22233,7 +22233,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW0901P",
         "Categoría": "Escobilla Trasera",
-        "Tamaño": "Estándar",
+        "Tamaño": "14\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para Kia Borrego 2009-2011",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -22245,7 +22245,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Задние щетки стеклоочистителя для Kia Borrego 2009-2011. Премиальная вторичная замена от LELION, ведущего китайского производителя дворников OEM/ODM. Прямые цены от производителя с глобальной экспортной логистикой.",
       "specs": [
         "Модель продукта: BW0901P",
-        "Размер: Стандартный",
+        "Размер: 14\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -22260,7 +22260,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW0901P",
         "Категория": "Задняя Щетка",
-        "Размер": "Стандартный",
+        "Размер": "14\"",
         "Цвет": "Черный",
         "Применяемость": "Задние щетки стеклоочистителя для Kia Borrego 2009-2011",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -22272,7 +22272,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Lames d'essuie-glace arrière pour Kia Borrego 2009-2011. Remplacement premium du marché secondaire par LELION, un fabricant OEM/ODM chinois leader en essuie-glaces. Prix directs d'usine avec logistique d'exportation mondiale.",
       "specs": [
         "Modèle du produit: BW0901P",
-        "Taille: Standard",
+        "Taille: 14\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -22287,7 +22287,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW0901P",
         "Catégorie": "Balai Arrière",
-        "Taille": "Standard",
+        "Taille": "14\"",
         "Couleur": "Noir",
         "Application": "Lames d'essuie-glace arrière pour Kia Borrego 2009-2011",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -22299,7 +22299,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Heckscheibenwischerblätter für Kia Borrego 2009-2011. Premium Aftermarket-Ersatz von LELION, einem führenden chinesischen OEM/ODM Hersteller von Wischerblättern. Werksdirektpreis mit globaler Exportlogistik.",
       "specs": [
         "Produktmodell: BW0901P",
-        "Größe: Standard",
+        "Größe: 14\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -22314,7 +22314,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW0901P",
         "Kategorie": "Heckwischer",
-        "Größe": "Standard",
+        "Größe": "14\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblätter für Kia Borrego 2009-2011",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -22766,7 +22766,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Limpiaparabrisas trasero para Nissan Armada 2004-2015. Repuesto premium de posventa de LELION, un fabricante líder chino de limpiaparabrisas OEM/ODM. Precio directo de fábrica con logística de exportación global.",
       "specs": [
         "Modelo del producto: BW0513P",
-        "Tamaño: Estándar",
+        "Tamaño: 12\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -22781,7 +22781,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW0513P",
         "Categoría": "Escobilla Trasera",
-        "Tamaño": "Estándar",
+        "Tamaño": "12\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para Nissan Armada 2004-2015",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -22793,7 +22793,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Задние щетки стеклоочистителя для Nissan Armada 2004-2015. Премиальная вторичная замена от LELION, ведущего китайского производителя дворников OEM/ODM. Прямые цены от производителя с глобальной экспортной логистикой.",
       "specs": [
         "Модель продукта: BW0513P",
-        "Размер: Стандартный",
+        "Размер: 12\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -22808,7 +22808,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW0513P",
         "Категория": "Задняя Щетка",
-        "Размер": "Стандартный",
+        "Размер": "12\"",
         "Цвет": "Черный",
         "Применяемость": "Задние щетки стеклоочистителя для Nissan Armada 2004-2015",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -22820,7 +22820,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Balais d'essuie-glace arrière pour Nissan Armada 2004-2015. Remplacement premium du marché secondaire par LELION, un fabricant OEM/ODM chinois leader en essuie-glaces. Prix directs d'usine avec logistique d'exportation mondiale.",
       "specs": [
         "Modèle du produit: BW0513P",
-        "Taille: Standard",
+        "Taille: 12\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -22835,7 +22835,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW0513P",
         "Catégorie": "Balai Arrière",
-        "Taille": "Standard",
+        "Taille": "12\"",
         "Couleur": "Noir",
         "Application": "Balais d'essuie-glace arrière pour Nissan Armada 2004-2015",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -22847,7 +22847,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Heckscheibenwischerblätter für Nissan Armada 2004-2015. Premium Aftermarket-Ersatz von LELION, einem führenden chinesischen OEM/ODM Hersteller von Wischerblättern. Werksdirektpreis mit globaler Exportlogistik.",
       "specs": [
         "Produktmodell: BW0513P",
-        "Größe: Standard",
+        "Größe: 12\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -22862,7 +22862,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW0513P",
         "Kategorie": "Heckwischer",
-        "Größe": "Standard",
+        "Größe": "12\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblätter für Nissan Armada 2004-2015",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -23588,7 +23588,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Limpiaparabrisas trasero para BMW F20 2011-2019. Repuesto premium de posventa de LELION, un fabricante líder chino de limpiaparabrisas OEM/ODM. Precio directo de fábrica con logística de exportación global.",
       "specs": [
         "Modelo del producto: BW2007P",
-        "Tamaño: Estándar",
+        "Tamaño: 12\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -23603,7 +23603,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW2007P",
         "Categoría": "Escobilla Trasera",
-        "Tamaño": "Estándar",
+        "Tamaño": "12\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para BMW F20 2011-2019",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -23615,7 +23615,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Задние щетки стеклоочистителя для BMW F20 2011-2019. Премиальная вторичная замена от LELION, ведущего китайского производителя дворников OEM/ODM. Прямые цены от производителя с глобальной экспортной логистикой.",
       "specs": [
         "Модель продукта: BW2007P",
-        "Размер: Стандартный",
+        "Размер: 12\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -23630,7 +23630,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW2007P",
         "Категория": "Задняя Щетка",
-        "Размер": "Стандартный",
+        "Размер": "12\"",
         "Цвет": "Черный",
         "Применяемость": "Задние щетки стеклоочистителя для BMW F20 2011-2019",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -23642,7 +23642,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Balais d'essuie-glace arrière pour BMW F20 2011-2019. Remplacement premium du marché secondaire par LELION, un fabricant OEM/ODM chinois leader en essuie-glaces. Prix directs d'usine avec logistique d'exportation mondiale.",
       "specs": [
         "Modèle du produit: BW2007P",
-        "Taille: Standard",
+        "Taille: 12\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -23657,7 +23657,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW2007P",
         "Catégorie": "Balai Arrière",
-        "Taille": "Standard",
+        "Taille": "12\"",
         "Couleur": "Noir",
         "Application": "Balais d'essuie-glace arrière pour BMW F20 2011-2019",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -23669,7 +23669,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Heckscheibenwischerblätter für BMW F20 2011-2019. Premium Aftermarket-Ersatz von LELION, einem führenden chinesischen OEM/ODM Hersteller von Wischerblättern. Werksdirektpreis mit globaler Exportlogistik.",
       "specs": [
         "Produktmodell: BW2007P",
-        "Größe: Standard",
+        "Größe: 12\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -23684,7 +23684,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW2007P",
         "Kategorie": "Heckwischer",
-        "Größe": "Standard",
+        "Größe": "12\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblätter für BMW F20 2011-2019",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -23725,7 +23725,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Limpiaparabrisas trasero para GMC Acadia 2007-2012. Repuesto premium de posventa de LELION, un fabricante líder chino de limpiaparabrisas OEM/ODM. Precio directo de fábrica con logística de exportación global.",
       "specs": [
         "Modelo del producto: BW6001P",
-        "Tamaño: Estándar",
+        "Tamaño: 11\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -23740,7 +23740,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW6001P",
         "Categoría": "Escobilla Trasera",
-        "Tamaño": "Estándar",
+        "Tamaño": "11\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para GMC Acadia 2007-2012",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -23752,7 +23752,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Задние стеклоочистители для GMC Acadia 2007-2012. Премиальная вторичная замена от LELION, ведущего китайского производителя дворников OEM/ODM. Прямые цены от производителя с глобальной экспортной логистикой.",
       "specs": [
         "Модель продукта: BW6001P",
-        "Размер: Стандартный",
+        "Размер: 11\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -23767,7 +23767,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW6001P",
         "Категория": "Задняя Щетка",
-        "Размер": "Стандартный",
+        "Размер": "11\"",
         "Цвет": "Черный",
         "Применяемость": "Задние стеклоочистители для GMC Acadia 2007-2012",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -23779,7 +23779,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Essuie-glaces arrière pour GMC Acadia 2007-2012. Remplacement premium du marché secondaire par LELION, un fabricant OEM/ODM chinois leader en essuie-glaces. Prix directs d'usine avec logistique d'exportation mondiale.",
       "specs": [
         "Modèle du produit: BW6001P",
-        "Taille: Standard",
+        "Taille: 11\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -23794,7 +23794,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW6001P",
         "Catégorie": "Balai Arrière",
-        "Taille": "Standard",
+        "Taille": "11\"",
         "Couleur": "Noir",
         "Application": "Essuie-glaces arrière pour GMC Acadia 2007-2012",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -23806,7 +23806,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Heckscheibenwischer für GMC Acadia 2007-2012. Premium Aftermarket-Ersatz von LELION, einem führenden chinesischen OEM/ODM Hersteller von Wischerblättern. Werksdirektpreis mit globaler Exportlogistik.",
       "specs": [
         "Produktmodell: BW6001P",
-        "Größe: Standard",
+        "Größe: 11\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -23821,7 +23821,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW6001P",
         "Kategorie": "Heckwischer",
-        "Größe": "Standard",
+        "Größe": "11\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischer für GMC Acadia 2007-2012",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -23862,7 +23862,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Limpiaparabrisas trasero para Kia SPORTAGE IV 2018. Limpiaparabrisas trasero Kia SPORTAGE IV 2018",
       "specs": [
         "Modelo del producto: BW4001P",
-        "Tamaño: Estándar",
+        "Tamaño: 11\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -23877,7 +23877,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW4001P",
         "Categoría": "Escobilla Trasera",
-        "Tamaño": "Estándar",
+        "Tamaño": "11\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para Kia SPORTAGE IV 2018",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -23889,7 +23889,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Задние стеклоочистители для Kia SPORTAGE IV 2018. Задние стеклоочистители Kia SPORTAGE IV 2018",
       "specs": [
         "Модель продукта: BW4001P",
-        "Размер: Стандартный",
+        "Размер: 11\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -23904,7 +23904,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW4001P",
         "Категория": "Задняя Щетка",
-        "Размер": "Стандартный",
+        "Размер": "11\"",
         "Цвет": "Черный",
         "Применяемость": "Задние стеклоочистители для Kia SPORTAGE IV 2018",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -23916,7 +23916,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Essuie-glaces arrière pour Kia SPORTAGE IV 2018. Essuie-glaces arrière pour Kia SPORTAGE IV 2018",
       "specs": [
         "Modèle du produit: BW4001P",
-        "Taille: Standard",
+        "Taille: 11\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -23931,7 +23931,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW4001P",
         "Catégorie": "Balai Arrière",
-        "Taille": "Standard",
+        "Taille": "11\"",
         "Couleur": "Noir",
         "Application": "Essuie-glaces arrière pour Kia SPORTAGE IV 2018",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -23943,7 +23943,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Heckscheibenwischer für Kia SPORTAGE IV 2018. Kia SPORTAGE IV 2018 Hintere Scheibenwischer",
       "specs": [
         "Produktmodell: BW4001P",
-        "Größe: Standard",
+        "Größe: 11\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -23958,7 +23958,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW4001P",
         "Kategorie": "Heckwischer",
-        "Größe": "Standard",
+        "Größe": "11\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischer für Kia SPORTAGE IV 2018",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -24959,7 +24959,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Limpiaparabrisas trasero para BMW I3 EUROPEO 2016. Repuesto premium de posventa de LELION, un fabricante líder chino de limpiaparabrisas OEM/ODM. Precio directo de fábrica con logística de exportación global.",
       "specs": [
         "Modelo del producto: BW0121P",
-        "Tamaño: Estándar",
+        "Tamaño: 12\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -24974,7 +24974,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW0121P",
         "Categoría": "Escobilla Trasera",
-        "Tamaño": "Estándar",
+        "Tamaño": "12\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para BMW I3 EUROPEO 2016",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -24986,7 +24986,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Задний стеклоочиститель для EUROPEAN BMW I3 2016. Премиальная вторичная замена от LELION, ведущего китайского производителя дворников OEM/ODM. Прямые цены от производителя с глобальной экспортной логистикой.",
       "specs": [
         "Модель продукта: BW0121P",
-        "Размер: Стандартный",
+        "Размер: 12\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -25001,7 +25001,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW0121P",
         "Категория": "Задняя Щетка",
-        "Размер": "Стандартный",
+        "Размер": "12\"",
         "Цвет": "Черный",
         "Применяемость": "Задний стеклоочиститель для EUROPEAN BMW I3 2016",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -25013,7 +25013,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Balai d'essuie-glace arrière pour BMW I3 EUROPÉEN 2016. Remplacement premium du marché secondaire par LELION, un fabricant OEM/ODM chinois leader en essuie-glaces. Prix directs d'usine avec logistique d'exportation mondiale.",
       "specs": [
         "Modèle du produit: BW0121P",
-        "Taille: Standard",
+        "Taille: 12\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -25028,7 +25028,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW0121P",
         "Catégorie": "Balai Arrière",
-        "Taille": "Standard",
+        "Taille": "12\"",
         "Couleur": "Noir",
         "Application": "Balai d'essuie-glace arrière pour BMW I3 EUROPÉEN 2016",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -25040,7 +25040,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Heckwischerblatt für EUROPÄISCHEN BMW I3 2016. Premium Aftermarket-Ersatz von LELION, einem führenden chinesischen OEM/ODM Hersteller von Wischerblättern. Werksdirektpreis mit globaler Exportlogistik.",
       "specs": [
         "Produktmodell: BW0121P",
-        "Größe: Standard",
+        "Größe: 12\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -25055,7 +25055,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW0121P",
         "Kategorie": "Heckwischer",
-        "Größe": "Standard",
+        "Größe": "12\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckwischerblatt für EUROPÄISCHEN BMW I3 2016",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -25096,7 +25096,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Cuchilla limpiaparabrisas trasera para Mazda 3 2010. Repuesto premium de posventa de LELION, un fabricante líder chino de limpiaparabrisas OEM/ODM. Precio directo de fábrica con logística de exportación global.",
       "specs": [
         "Modelo del producto: BW0611P",
-        "Tamaño: Estándar",
+        "Tamaño: 14\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -25111,7 +25111,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW0611P",
         "Categoría": "Escobilla Trasera",
-        "Tamaño": "Estándar",
+        "Tamaño": "14\"",
         "Color": "Negro",
         "Aplicación": "Cuchilla limpiaparabrisas trasera para Mazda 3 2010",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -25123,7 +25123,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Задний стеклоочиститель для Mazda 3 2010. Премиальная вторичная замена от LELION, ведущего китайского производителя дворников OEM/ODM. Прямые цены от производителя с глобальной экспортной логистикой.",
       "specs": [
         "Модель продукта: BW0611P",
-        "Размер: Стандартный",
+        "Размер: 14\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -25138,7 +25138,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW0611P",
         "Категория": "Задняя Щетка",
-        "Размер": "Стандартный",
+        "Размер": "14\"",
         "Цвет": "Черный",
         "Применяемость": "Задний стеклоочиститель для Mazda 3 2010",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -25150,7 +25150,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Balai d'essuie-glace arrière pour Mazda 3 2010. Remplacement premium du marché secondaire par LELION, un fabricant OEM/ODM chinois leader en essuie-glaces. Prix directs d'usine avec logistique d'exportation mondiale.",
       "specs": [
         "Modèle du produit: BW0611P",
-        "Taille: Standard",
+        "Taille: 14\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -25165,7 +25165,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW0611P",
         "Catégorie": "Balai Arrière",
-        "Taille": "Standard",
+        "Taille": "14\"",
         "Couleur": "Noir",
         "Application": "Balai d'essuie-glace arrière pour Mazda 3 2010",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -25177,7 +25177,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Heckwischerblatt für Mazda 3 2010. Premium Aftermarket-Ersatz von LELION, einem führenden chinesischen OEM/ODM Hersteller von Wischerblättern. Werksdirektpreis mit globaler Exportlogistik.",
       "specs": [
         "Produktmodell: BW0611P",
-        "Größe: Standard",
+        "Größe: 14\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -25192,7 +25192,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW0611P",
         "Kategorie": "Heckwischer",
-        "Größe": "Standard",
+        "Größe": "14\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckwischerblatt für Mazda 3 2010",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -25370,7 +25370,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Limpiaparabrisas trasero para Smart Fortwo Coupé 451 2007-2014. Limpiaparabrisas trasero para SMART for TWO 451 2007-2016",
       "specs": [
         "Modelo del producto: BW2603P",
-        "Tamaño: Estándar",
+        "Tamaño: 10\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -25385,7 +25385,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW2603P",
         "Categoría": "Escobilla Trasera",
-        "Tamaño": "Estándar",
+        "Tamaño": "10\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para Smart Fortwo Coupé 451 2007-2014",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -25397,7 +25397,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Задний стеклоочиститель для Smart Fortwo Coupe 451 2007-2014. Щетка заднего стеклоочистителя для SMART for TWO 451 2007-2016",
       "specs": [
         "Модель продукта: BW2603P",
-        "Размер: Стандартный",
+        "Размер: 10\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -25412,7 +25412,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW2603P",
         "Категория": "Задняя Щетка",
-        "Размер": "Стандартный",
+        "Размер": "10\"",
         "Цвет": "Черный",
         "Применяемость": "Задний стеклоочиститель для Smart Fortwo Coupe 451 2007-2014",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -25424,7 +25424,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Balai d'essuie-glace arrière pour Smart Fortwo Coupé 451 2007-2014. Lame d’essuie-glace arrière pour SMART FOR TWO 451 2007-2016",
       "specs": [
         "Modèle du produit: BW2603P",
-        "Taille: Standard",
+        "Taille: 10\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -25439,7 +25439,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW2603P",
         "Catégorie": "Balai Arrière",
-        "Taille": "Standard",
+        "Taille": "10\"",
         "Couleur": "Noir",
         "Application": "Balai d'essuie-glace arrière pour Smart Fortwo Coupé 451 2007-2014",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -25451,7 +25451,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Heckwischerblatt für Smart Fortwo Coupe 451 2007-2014. Heckscheibenwischerblatt für SMART FOR TWO 451 2007-2016",
       "specs": [
         "Produktmodell: BW2603P",
-        "Größe: Standard",
+        "Größe: 10\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -25466,7 +25466,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW2603P",
         "Kategorie": "Heckwischer",
-        "Größe": "Standard",
+        "Größe": "10\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckwischerblatt für Smart Fortwo Coupe 451 2007-2014",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -25645,7 +25645,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Limpiaparabrisas trasero para VW Golf 4 MK4 IV 1997-2002. Repuesto premium de posventa de LELION, un fabricante líder chino de limpiaparabrisas OEM/ODM. Precio directo de fábrica con logística de exportación global.",
       "specs": [
         "Modelo del producto: BW1809P",
-        "Tamaño: Estándar",
+        "Tamaño: 13\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -25660,7 +25660,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW1809P",
         "Categoría": "Escobilla Trasera",
-        "Tamaño": "Estándar",
+        "Tamaño": "13\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para VW Golf 4 MK4 IV 1997-2002",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -25672,7 +25672,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Задний стеклоочиститель для VW Golf 4 MK4 IV 1997-2002. Премиальная вторичная замена от LELION, ведущего китайского производителя дворников OEM/ODM. Прямые цены от производителя с глобальной экспортной логистикой.",
       "specs": [
         "Модель продукта: BW1809P",
-        "Размер: Стандартный",
+        "Размер: 13\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -25687,7 +25687,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW1809P",
         "Категория": "Задняя Щетка",
-        "Размер": "Стандартный",
+        "Размер": "13\"",
         "Цвет": "Черный",
         "Применяемость": "Задний стеклоочиститель для VW Golf 4 MK4 IV 1997-2002",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -25699,7 +25699,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Balai d'essuie-glace arrière pour VW Golf 4 MK4 IV 1997-2002. Remplacement premium du marché secondaire par LELION, un fabricant OEM/ODM chinois leader en essuie-glaces. Prix directs d'usine avec logistique d'exportation mondiale.",
       "specs": [
         "Modèle du produit: BW1809P",
-        "Taille: Standard",
+        "Taille: 13\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -25714,7 +25714,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW1809P",
         "Catégorie": "Balai Arrière",
-        "Taille": "Standard",
+        "Taille": "13\"",
         "Couleur": "Noir",
         "Application": "Balai d'essuie-glace arrière pour VW Golf 4 MK4 IV 1997-2002",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -25726,7 +25726,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Heckwischerblatt für VW Golf 4 MK4 IV 1997-2002. Premium Aftermarket-Ersatz von LELION, einem führenden chinesischen OEM/ODM Hersteller von Wischerblättern. Werksdirektpreis mit globaler Exportlogistik.",
       "specs": [
         "Produktmodell: BW1809P",
-        "Größe: Standard",
+        "Größe: 13\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -25741,7 +25741,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW1809P",
         "Kategorie": "Heckwischer",
-        "Größe": "Standard",
+        "Größe": "13\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckwischerblatt für VW Golf 4 MK4 IV 1997-2002",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -25782,7 +25782,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Cuchilla de limpiaparabrisas trasero con Jeep Commander 2006 - 2010. Limpiaparabrisas trasero para Jeep Commander Grand Cherokee",
       "specs": [
         "Modelo del producto: BW3302P",
-        "Tamaño: Estándar",
+        "Tamaño: 14\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -25797,7 +25797,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW3302P",
         "Categoría": "Escobilla Trasera",
-        "Tamaño": "Estándar",
+        "Tamaño": "14\"",
         "Color": "Negro",
         "Aplicación": "Cuchilla de limpiaparabrisas trasero con Jeep Commander 2006 - 2010",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -25809,7 +25809,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Задний стеклоочиститель для Jeep Commander 2006 - 2010. Задний дворник для Jeep Commander Grand Cherokee",
       "specs": [
         "Модель продукта: BW3302P",
-        "Размер: Стандартный",
+        "Размер: 14\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -25824,7 +25824,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW3302P",
         "Категория": "Задняя Щетка",
-        "Размер": "Стандартный",
+        "Размер": "14\"",
         "Цвет": "Черный",
         "Применяемость": "Задний стеклоочиститель для Jeep Commander 2006 - 2010",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -25836,7 +25836,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Balai d'essuie-glace arrière pour Jeep Commander 2006 - 2010. Lame d’essuie-glace arrière pour Jeep Commander Grand Cherokee",
       "specs": [
         "Modèle du produit: BW3302P",
-        "Taille: Standard",
+        "Taille: 14\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -25851,7 +25851,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW3302P",
         "Catégorie": "Balai Arrière",
-        "Taille": "Standard",
+        "Taille": "14\"",
         "Couleur": "Noir",
         "Application": "Balai d'essuie-glace arrière pour Jeep Commander 2006 - 2010",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -25863,7 +25863,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Heckwischerblatt mit 2006 - 2010 Jeep Commander. Heckscheibenwischerblatt für Jeep Commander Grand Cherokee",
       "specs": [
         "Produktmodell: BW3302P",
-        "Größe: Standard",
+        "Größe: 14\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -25878,7 +25878,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW3302P",
         "Kategorie": "Heckwischer",
-        "Größe": "Standard",
+        "Größe": "14\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckwischerblatt mit 2006 - 2010 Jeep Commander",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -26056,7 +26056,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Limpiaparabrisas trasero con 2014 - 2020 Acura MDX 76730TZ5A01. Repuesto premium de posventa de LELION, un fabricante líder chino de limpiaparabrisas OEM/ODM. Precio directo de fábrica con logística de exportación global.",
       "specs": [
         "Modelo del producto: BW5702P",
-        "Tamaño: Estándar",
+        "Tamaño: 14\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -26071,7 +26071,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW5702P",
         "Categoría": "Escobilla Trasera",
-        "Tamaño": "Estándar",
+        "Tamaño": "14\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero con 2014 - 2020 Acura MDX 76730TZ5A01",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -26083,7 +26083,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Задний стеклоочиститель для Acura MDX 76730TZ5A01 2014 - 2020. Премиальная вторичная замена от LELION, ведущего китайского производителя дворников OEM/ODM. Прямые цены от производителя с глобальной экспортной логистикой.",
       "specs": [
         "Модель продукта: BW5702P",
-        "Размер: Стандартный",
+        "Размер: 14\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -26098,7 +26098,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW5702P",
         "Категория": "Задняя Щетка",
-        "Размер": "Стандартный",
+        "Размер": "14\"",
         "Цвет": "Черный",
         "Применяемость": "Задний стеклоочиститель для Acura MDX 76730TZ5A01 2014 - 2020",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -26110,7 +26110,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Balai d'essuie-glace arrière pour Acura MDX 2014 - 2020 76730TZ5A01. Remplacement premium du marché secondaire par LELION, un fabricant OEM/ODM chinois leader en essuie-glaces. Prix directs d'usine avec logistique d'exportation mondiale.",
       "specs": [
         "Modèle du produit: BW5702P",
-        "Taille: Standard",
+        "Taille: 14\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -26125,7 +26125,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW5702P",
         "Catégorie": "Balai Arrière",
-        "Taille": "Standard",
+        "Taille": "14\"",
         "Couleur": "Noir",
         "Application": "Balai d'essuie-glace arrière pour Acura MDX 2014 - 2020 76730TZ5A01",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -26137,7 +26137,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Heckwischerblatt mit 2014 - 2020 Acura MDX 76730TZ5A01. Premium Aftermarket-Ersatz von LELION, einem führenden chinesischen OEM/ODM Hersteller von Wischerblättern. Werksdirektpreis mit globaler Exportlogistik.",
       "specs": [
         "Produktmodell: BW5702P",
-        "Größe: Standard",
+        "Größe: 14\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -26152,7 +26152,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW5702P",
         "Kategorie": "Heckwischer",
-        "Größe": "Standard",
+        "Größe": "14\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckwischerblatt mit 2014 - 2020 Acura MDX 76730TZ5A01",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -26193,7 +26193,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Limpiaparabrisas trasero con Ford Edge 2015 - 2024. Repuesto premium de posventa de LELION, un fabricante líder chino de limpiaparabrisas OEM/ODM. Precio directo de fábrica con logística de exportación global.",
       "specs": [
         "Modelo del producto: BW0718P",
-        "Tamaño: Estándar",
+        "Tamaño: 15\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -26208,7 +26208,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW0718P",
         "Categoría": "Escobilla Trasera",
-        "Tamaño": "Estándar",
+        "Tamaño": "15\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero con Ford Edge 2015 - 2024",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -26220,7 +26220,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Задний стеклоочиститель для Ford Edge 2015 - 2024. Премиальная вторичная замена от LELION, ведущего китайского производителя дворников OEM/ODM. Прямые цены от производителя с глобальной экспортной логистикой.",
       "specs": [
         "Модель продукта: BW0718P",
-        "Размер: Стандартный",
+        "Размер: 15\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -26235,7 +26235,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW0718P",
         "Категория": "Задняя Щетка",
-        "Размер": "Стандартный",
+        "Размер": "15\"",
         "Цвет": "Черный",
         "Применяемость": "Задний стеклоочиститель для Ford Edge 2015 - 2024",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -26247,7 +26247,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Balai d'essuie-glace arrière pour Ford Edge 2015 - 2024. Remplacement premium du marché secondaire par LELION, un fabricant OEM/ODM chinois leader en essuie-glaces. Prix directs d'usine avec logistique d'exportation mondiale.",
       "specs": [
         "Modèle du produit: BW0718P",
-        "Taille: Standard",
+        "Taille: 15\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -26262,7 +26262,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW0718P",
         "Catégorie": "Balai Arrière",
-        "Taille": "Standard",
+        "Taille": "15\"",
         "Couleur": "Noir",
         "Application": "Balai d'essuie-glace arrière pour Ford Edge 2015 - 2024",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -26274,7 +26274,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Heckwischerblatt mit 2015 - 2024 Ford Edge. Premium Aftermarket-Ersatz von LELION, einem führenden chinesischen OEM/ODM Hersteller von Wischerblättern. Werksdirektpreis mit globaler Exportlogistik.",
       "specs": [
         "Produktmodell: BW0718P",
-        "Größe: Standard",
+        "Größe: 15\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -26289,7 +26289,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW0718P",
         "Kategorie": "Heckwischer",
-        "Größe": "Standard",
+        "Größe": "15\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckwischerblatt mit 2015 - 2024 Ford Edge",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -26467,7 +26467,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Limpiaparabrisas trasero para Nissan Leaf 2010-2017. Repuesto premium de posventa de LELION, un fabricante líder chino de limpiaparabrisas OEM/ODM. Precio directo de fábrica con logística de exportación global.",
       "specs": [
         "Modelo del producto: BW0170P",
-        "Tamaño: Estándar",
+        "Tamaño: 10\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -26482,7 +26482,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW0170P",
         "Categoría": "Escobilla Trasera",
-        "Tamaño": "Estándar",
+        "Tamaño": "10\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para Nissan Leaf 2010-2017",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -26494,7 +26494,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Задние стеклоочистители для Nissan Leaf 2010-2017. Премиальная вторичная замена от LELION, ведущего китайского производителя дворников OEM/ODM. Прямые цены от производителя с глобальной экспортной логистикой.",
       "specs": [
         "Модель продукта: BW0170P",
-        "Размер: Стандартный",
+        "Размер: 10\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -26509,7 +26509,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW0170P",
         "Категория": "Задняя Щетка",
-        "Размер": "Стандартный",
+        "Размер": "10\"",
         "Цвет": "Черный",
         "Применяемость": "Задние стеклоочистители для Nissan Leaf 2010-2017",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -26521,7 +26521,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Balais d'essuie-glace arrière pour Nissan Leaf 2010-2017. Remplacement premium du marché secondaire par LELION, un fabricant OEM/ODM chinois leader en essuie-glaces. Prix directs d'usine avec logistique d'exportation mondiale.",
       "specs": [
         "Modèle du produit: BW0170P",
-        "Taille: Standard",
+        "Taille: 10\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -26536,7 +26536,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW0170P",
         "Catégorie": "Balai Arrière",
-        "Taille": "Standard",
+        "Taille": "10\"",
         "Couleur": "Noir",
         "Application": "Balais d'essuie-glace arrière pour Nissan Leaf 2010-2017",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -26548,7 +26548,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Heckscheibenwischerblätter für Nissan Leaf 2010-2017. Premium Aftermarket-Ersatz von LELION, einem führenden chinesischen OEM/ODM Hersteller von Wischerblättern. Werksdirektpreis mit globaler Exportlogistik.",
       "specs": [
         "Produktmodell: BW0170P",
-        "Größe: Standard",
+        "Größe: 10\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -26563,7 +26563,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW0170P",
         "Kategorie": "Heckwischer",
-        "Größe": "Standard",
+        "Größe": "10\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischerblätter für Nissan Leaf 2010-2017",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -26604,7 +26604,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Limpiaparabrisas trasero para Renault CLIO 2012-2017. Repuesto premium de posventa de LELION, un fabricante líder chino de limpiaparabrisas OEM/ODM. Precio directo de fábrica con logística de exportación global.",
       "specs": [
         "Modelo del producto: BW0194P",
-        "Tamaño: Estándar",
+        "Tamaño: 12\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -26619,7 +26619,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW0194P",
         "Categoría": "Escobilla Trasera",
-        "Tamaño": "Estándar",
+        "Tamaño": "12\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para Renault CLIO 2012-2017",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -26631,7 +26631,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Задние стеклоочистители для Renault CLIO 2012-2017. Премиальная вторичная замена от LELION, ведущего китайского производителя дворников OEM/ODM. Прямые цены от производителя с глобальной экспортной логистикой.",
       "specs": [
         "Модель продукта: BW0194P",
-        "Размер: Стандартный",
+        "Размер: 12\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -26646,7 +26646,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW0194P",
         "Категория": "Задняя Щетка",
-        "Размер": "Стандартный",
+        "Размер": "12\"",
         "Цвет": "Черный",
         "Применяемость": "Задние стеклоочистители для Renault CLIO 2012-2017",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -26658,7 +26658,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Essuie-glaces arrière pour Renault CLIO 2012-2017. Remplacement premium du marché secondaire par LELION, un fabricant OEM/ODM chinois leader en essuie-glaces. Prix directs d'usine avec logistique d'exportation mondiale.",
       "specs": [
         "Modèle du produit: BW0194P",
-        "Taille: Standard",
+        "Taille: 12\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -26673,7 +26673,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW0194P",
         "Catégorie": "Balai Arrière",
-        "Taille": "Standard",
+        "Taille": "12\"",
         "Couleur": "Noir",
         "Application": "Essuie-glaces arrière pour Renault CLIO 2012-2017",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -26685,7 +26685,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Heckscheibenwischer für Renault CLIO 2012-2017. Premium Aftermarket-Ersatz von LELION, einem führenden chinesischen OEM/ODM Hersteller von Wischerblättern. Werksdirektpreis mit globaler Exportlogistik.",
       "specs": [
         "Produktmodell: BW0194P",
-        "Größe: Standard",
+        "Größe: 12\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -26700,7 +26700,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW0194P",
         "Kategorie": "Heckwischer",
-        "Größe": "Standard",
+        "Größe": "12\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischer für Renault CLIO 2012-2017",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -26878,7 +26878,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Limpiaparabrisas trasero para Volvo C30 2006-2010. Limpiaparabrisas trasero para Volvo C30 2006 - 2010",
       "specs": [
         "Modelo del producto: BW0183P",
-        "Tamaño: Estándar",
+        "Tamaño: 15\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -26893,7 +26893,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW0183P",
         "Categoría": "Escobilla Trasera",
-        "Tamaño": "Estándar",
+        "Tamaño": "15\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero para Volvo C30 2006-2010",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -26905,7 +26905,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Задние стеклоочистители для Volvo C30 2006-2010. Задние дворники для Volvo C30 2006 - 2010",
       "specs": [
         "Модель продукта: BW0183P",
-        "Размер: Стандартный",
+        "Размер: 15\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -26920,7 +26920,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW0183P",
         "Категория": "Задняя Щетка",
-        "Размер": "Стандартный",
+        "Размер": "15\"",
         "Цвет": "Черный",
         "Применяемость": "Задние стеклоочистители для Volvo C30 2006-2010",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -26932,7 +26932,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Essuie-glaces arrière pour Volvo C30 2006-2010. Lames d’essuie-glace arrière pour Volvo C30 2006 - 2010",
       "specs": [
         "Modèle du produit: BW0183P",
-        "Taille: Standard",
+        "Taille: 15\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -26947,7 +26947,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW0183P",
         "Catégorie": "Balai Arrière",
-        "Taille": "Standard",
+        "Taille": "15\"",
         "Couleur": "Noir",
         "Application": "Essuie-glaces arrière pour Volvo C30 2006-2010",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -26959,7 +26959,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Heckscheibenwischer für Volvo C30 2006-2010. Heckscheibenwischerblätter für Volvo C30 2006 - 2010",
       "specs": [
         "Produktmodell: BW0183P",
-        "Größe: Standard",
+        "Größe: 15\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -26974,7 +26974,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW0183P",
         "Kategorie": "Heckwischer",
-        "Größe": "Standard",
+        "Größe": "15\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischer für Volvo C30 2006-2010",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -27152,7 +27152,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Limpiaparabrisas trasero, para Renault para Clio MK1 1994-1998. Repuesto premium de posventa de LELION, un fabricante líder chino de limpiaparabrisas OEM/ODM. Precio directo de fábrica con logística de exportación global.",
       "specs": [
         "Modelo del producto: BW2420P",
-        "Tamaño: Estándar",
+        "Tamaño: 16\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -27167,7 +27167,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW2420P",
         "Categoría": "Escobilla Trasera",
-        "Tamaño": "Estándar",
+        "Tamaño": "16\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas trasero, para Renault para Clio MK1 1994-1998",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -27179,7 +27179,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Задние стеклоочистители для Renault Clio MK1 1994-1998. Премиальная вторичная замена от LELION, ведущего китайского производителя дворников OEM/ODM. Прямые цены от производителя с глобальной экспортной логистикой.",
       "specs": [
         "Модель продукта: BW2420P",
-        "Размер: Стандартный",
+        "Размер: 16\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -27194,7 +27194,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW2420P",
         "Категория": "Задняя Щетка",
-        "Размер": "Стандартный",
+        "Размер": "16\"",
         "Цвет": "Черный",
         "Применяемость": "Задние стеклоочистители для Renault Clio MK1 1994-1998",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -27206,7 +27206,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Essuie-glaces arrière pour Renault Clio MK1 1994-1998. Remplacement premium du marché secondaire par LELION, un fabricant OEM/ODM chinois leader en essuie-glaces. Prix directs d'usine avec logistique d'exportation mondiale.",
       "specs": [
         "Modèle du produit: BW2420P",
-        "Taille: Standard",
+        "Taille: 16\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -27221,7 +27221,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW2420P",
         "Catégorie": "Balai Arrière",
-        "Taille": "Standard",
+        "Taille": "16\"",
         "Couleur": "Noir",
         "Application": "Essuie-glaces arrière pour Renault Clio MK1 1994-1998",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -27233,7 +27233,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Heckscheibenwischer für Renault Clio MK1 1994-1998. Premium Aftermarket-Ersatz von LELION, einem führenden chinesischen OEM/ODM Hersteller von Wischerblättern. Werksdirektpreis mit globaler Exportlogistik.",
       "specs": [
         "Produktmodell: BW2420P",
-        "Größe: Standard",
+        "Größe: 16\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -27248,7 +27248,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW2420P",
         "Kategorie": "Heckwischer",
-        "Größe": "Standard",
+        "Größe": "16\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Heckscheibenwischer für Renault Clio MK1 1994-1998",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -27426,7 +27426,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Limpiaparabrisas delantero especial para coche para VW GOLF V 2003-2005. Repuesto premium de posventa de LELION, un fabricante líder chino de limpiaparabrisas OEM/ODM. Precio directo de fábrica con logística de exportación global.",
       "specs": [
         "Modelo del producto: BW-820",
-        "Tamaño: Estándar",
+        "Tamaño: 21+19\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -27441,7 +27441,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW-820",
         "Categoría": "Escobilla Específica",
-        "Tamaño": "Estándar",
+        "Tamaño": "21+19\"",
         "Color": "Negro",
         "Aplicación": "Limpiaparabrisas delantero especial para coche para VW GOLF V 2003-2005",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -27453,7 +27453,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Специальные передние стеклоочистители для VW GOLF V 2003-2005. Премиальная вторичная замена от LELION, ведущего китайского производителя дворников OEM/ODM. Прямые цены от производителя с глобальной экспортной логистикой.",
       "specs": [
         "Модель продукта: BW-820",
-        "Размер: Стандартный",
+        "Размер: 21+19\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -27468,7 +27468,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW-820",
         "Категория": "Специализированный Стеклоочиститель",
-        "Размер": "Стандартный",
+        "Размер": "21+19\"",
         "Цвет": "Черный",
         "Применяемость": "Специальные передние стеклоочистители для VW GOLF V 2003-2005",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -27480,7 +27480,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Essuie-glaces avant spéciaux pour voiture pour VW GOLF V 2003-2005. Remplacement premium du marché secondaire par LELION, un fabricant OEM/ODM chinois leader en essuie-glaces. Prix directs d'usine avec logistique d'exportation mondiale.",
       "specs": [
         "Modèle du produit: BW-820",
-        "Taille: Standard",
+        "Taille: 21+19\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -27495,7 +27495,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW-820",
         "Catégorie": "Balai Spécifique",
-        "Taille": "Standard",
+        "Taille": "21+19\"",
         "Couleur": "Noir",
         "Application": "Essuie-glaces avant spéciaux pour voiture pour VW GOLF V 2003-2005",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -27507,7 +27507,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Spezielle Frontscheibenwischerblätter für VW GOLF V 2003-2005. Premium Aftermarket-Ersatz von LELION, einem führenden chinesischen OEM/ODM Hersteller von Wischerblättern. Werksdirektpreis mit globaler Exportlogistik.",
       "specs": [
         "Produktmodell: BW-820",
-        "Größe: Standard",
+        "Größe: 21+19\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -27522,7 +27522,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW-820",
         "Kategorie": "Spezifisches Wischerblatt",
-        "Größe": "Standard",
+        "Größe": "21+19\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Spezielle Frontscheibenwischerblätter für VW GOLF V 2003-2005",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -27975,7 +27975,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Venta al por mayor de accesorios externos para automóviles Limpiaparabrisas delantero para VW PASSAT 2010-2013. escobilla limpiaparabrisas especial al por mayor",
       "specs": [
         "Modelo del producto: BW-831",
-        "Tamaño: Estándar",
+        "Tamaño: 24+19\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -27990,7 +27990,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW-831",
         "Categoría": "Escobilla Específica",
-        "Tamaño": "Estándar",
+        "Tamaño": "24+19\"",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de accesorios externos para automóviles Limpiaparabrisas delantero para VW PASSAT 2010-2013",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -28002,7 +28002,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Оптовая продажа автомобильных внешних аксессуаров передние мягкие щетки стеклоочистителя для VW PASSAT 2010-2013. Оптовая специальная щетка-дворник",
       "specs": [
         "Модель продукта: BW-831",
-        "Размер: Стандартный",
+        "Размер: 24+19\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -28017,7 +28017,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW-831",
         "Категория": "Специализированный Стеклоочиститель",
-        "Размер": "Стандартный",
+        "Размер": "24+19\"",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров передние мягкие щетки стеклоочистителя для VW PASSAT 2010-2013",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -28029,7 +28029,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Accessoires externes automobiles en gros Essuie-glace avant souple pour pare-brise pour VW PASSAT 2010-2013. Essuie-glace spécial vente en gros",
       "specs": [
         "Modèle du produit: BW-831",
-        "Taille: Standard",
+        "Taille: 24+19\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -28044,7 +28044,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW-831",
         "Catégorie": "Balai Spécifique",
-        "Taille": "Standard",
+        "Taille": "24+19\"",
         "Couleur": "Noir",
         "Application": "Accessoires externes automobiles en gros Essuie-glace avant souple pour pare-brise pour VW PASSAT 2010-2013",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -28056,7 +28056,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Großhandel Auto Externes Zubehör Frontscheibe weiche Wischerblätter für VW PASSAT 2010-2013. Großhandel Sonderwischerblatt",
       "specs": [
         "Produktmodell: BW-831",
-        "Größe: Standard",
+        "Größe: 24+19\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -28071,7 +28071,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW-831",
         "Kategorie": "Spezifisches Wischerblatt",
-        "Größe": "Standard",
+        "Größe": "24+19\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Externes Zubehör Frontscheibe weiche Wischerblätter für VW PASSAT 2010-2013",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -28112,7 +28112,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Accesorios externos para automóviles al por mayor Limpiaparabrisas delantero Limpiaparabrisas especiales para Land Rover Freelander. LELION escobilla limpiaparabrisas sepcial AL por mayor",
       "specs": [
         "Modelo del producto: BW-825",
-        "Tamaño: Estándar",
+        "Tamaño: 22+21\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -28127,7 +28127,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW-825",
         "Categoría": "Escobilla Específica",
-        "Tamaño": "Estándar",
+        "Tamaño": "22+21\"",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Limpiaparabrisas delantero Limpiaparabrisas especiales para Land Rover Freelander",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -28139,7 +28139,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Оптовая продажа автомобильных внешних аксессуаров: специальные дворники для переднего лобового стекла для Land Rover Freelander. Специальная оптовая щетка LELION",
       "specs": [
         "Модель продукта: BW-825",
-        "Размер: Стандартный",
+        "Размер: 22+21\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -28154,7 +28154,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW-825",
         "Категория": "Специализированный Стеклоочиститель",
-        "Размер": "Стандартный",
+        "Размер": "22+21\"",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров: специальные дворники для переднего лобового стекла для Land Rover Freelander",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -28166,7 +28166,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Accessoires externes automobiles en gros Essuie-glace spécial pour pare-brise avant pour Land Rover Freelander. LELION lame d'essuie-glace spéciale en gros",
       "specs": [
         "Modèle du produit: BW-825",
-        "Taille: Standard",
+        "Taille: 22+21\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -28181,7 +28181,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW-825",
         "Catégorie": "Balai Spécifique",
-        "Taille": "Standard",
+        "Taille": "22+21\"",
         "Couleur": "Noir",
         "Application": "Accessoires externes automobiles en gros Essuie-glace spécial pour pare-brise avant pour Land Rover Freelander",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -28193,7 +28193,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Großhandel Auto Externes Zubehör spezielle Frontscheibenwischerblätter für Land Rover Freelander. LELION Großhandel Spezial-Wischerblatt",
       "specs": [
         "Produktmodell: BW-825",
-        "Größe: Standard",
+        "Größe: 22+21\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -28208,7 +28208,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW-825",
         "Kategorie": "Spezifisches Wischerblatt",
-        "Größe": "Standard",
+        "Größe": "22+21\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Externes Zubehör spezielle Frontscheibenwischerblätter für Land Rover Freelander",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -29346,7 +29346,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Venta al por mayor Accesorios externos para automóviles Limpiaparabrisas delantero para Land Rover Discovery 5. LELION escobilla limpiaparabrisas especial AL por mayor",
       "specs": [
         "Modelo del producto: BW-848A",
-        "Tamaño: Estándar",
+        "Tamaño: 24+20\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -29361,7 +29361,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW-848A",
         "Categoría": "Escobilla Específica",
-        "Tamaño": "Estándar",
+        "Tamaño": "24+20\"",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Limpiaparabrisas delantero para Land Rover Discovery 5",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -29373,7 +29373,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Оптовая продажа автомобильных внешних аксессуаров: дворник для переднего окна Land Rover Discovery 5. LELION оптовая специальная щетка дворника",
       "specs": [
         "Модель продукта: BW-848A",
-        "Размер: Стандартный",
+        "Размер: 24+20\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -29388,7 +29388,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW-848A",
         "Категория": "Специализированный Стеклоочиститель",
-        "Размер": "Стандартный",
+        "Размер": "24+20\"",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров: дворник для переднего окна Land Rover Discovery 5",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -29400,7 +29400,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Accessoires externes de voiture en gros Balai d'essuie-glace avant pour Land Rover Discovery 5. LELION lame d'essuie-glace spéciale en gros",
       "specs": [
         "Modèle du produit: BW-848A",
-        "Taille: Standard",
+        "Taille: 24+20\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -29415,7 +29415,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW-848A",
         "Catégorie": "Balai Spécifique",
-        "Taille": "Standard",
+        "Taille": "24+20\"",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Balai d'essuie-glace avant pour Land Rover Discovery 5",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -29427,7 +29427,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Großhandel Autoteile Außen Zubehör Frontscheibenwischer für Land Rover Discovery 5. LELION Großhandel Spezial-Wischerblatt",
       "specs": [
         "Produktmodell: BW-848A",
-        "Größe: Standard",
+        "Größe: 24+20\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -29442,7 +29442,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW-848A",
         "Kategorie": "Spezifisches Wischerblatt",
-        "Größe": "Standard",
+        "Größe": "24+20\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Autoteile Außen Zubehör Frontscheibenwischer für Land Rover Discovery 5",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -29757,7 +29757,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Venta al por mayor Accesorios externos para automóviles Limpiaparabrisas delantero para Audi A1 A3 A4 A5 A6 A7 A8. LELION escobilla limpiaparabrisas sepcial AL por mayor",
       "specs": [
         "Modelo del producto: BW-831",
-        "Tamaño: Estándar",
+        "Tamaño: 26+21\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -29772,7 +29772,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW-831",
         "Categoría": "Escobilla Específica",
-        "Tamaño": "Estándar",
+        "Tamaño": "26+21\"",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Limpiaparabrisas delantero para Audi A1 A3 A4 A5 A6 A7 A8",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -29784,7 +29784,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Оптовая продажа автомобильных внешних аксессуаров: мягкие дворники для переднего лобового стекла Audi A1, A3, A4, A5, A6, A7, A8. Специальная оптовая щетка LELION",
       "specs": [
         "Модель продукта: BW-831",
-        "Размер: Стандартный",
+        "Размер: 26+21\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -29799,7 +29799,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW-831",
         "Категория": "Специализированный Стеклоочиститель",
-        "Размер": "Стандартный",
+        "Размер": "26+21\"",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров: мягкие дворники для переднего лобового стекла Audi A1, A3, A4, A5, A6, A7, A8",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -29811,7 +29811,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Accessoires externes de voiture en gros Balais d'essuie-glace souples pour pare-brise avant pour Audi A1 A3 A4 A5 A6 A7 A8. LELION lame d'essuie-glace spéciale en gros",
       "specs": [
         "Modèle du produit: BW-831",
-        "Taille: Standard",
+        "Taille: 26+21\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -29826,7 +29826,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW-831",
         "Catégorie": "Balai Spécifique",
-        "Taille": "Standard",
+        "Taille": "26+21\"",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Balais d'essuie-glace souples pour pare-brise avant pour Audi A1 A3 A4 A5 A6 A7 A8",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -29838,7 +29838,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Großhandel Autoteile Außen Zubehör Frontscheibe weiche Wischerblätter für Audi A1 A3 A4 A5 A6 A7 A8. LELION Großhandel Spezial-Wischerblatt",
       "specs": [
         "Produktmodell: BW-831",
-        "Größe: Standard",
+        "Größe: 26+21\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -29853,7 +29853,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW-831",
         "Kategorie": "Spezifisches Wischerblatt",
-        "Größe": "Standard",
+        "Größe": "26+21\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Autoteile Außen Zubehör Frontscheibe weiche Wischerblätter für Audi A1 A3 A4 A5 A6 A7 A8",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -29894,7 +29894,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Venta al por mayor Accesorios externos para automóviles Limpiaparabrisas delanteros para VW GOLF6 2009. LELION escobilla limpiaparabrisas especial AL por mayor",
       "specs": [
         "Modelo del producto: BW-829",
-        "Tamaño: Estándar",
+        "Tamaño: 24+19\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -29909,7 +29909,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW-829",
         "Categoría": "Escobilla Específica",
-        "Tamaño": "Estándar",
+        "Tamaño": "24+19\"",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Limpiaparabrisas delanteros para VW GOLF6 2009",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -29921,7 +29921,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Оптовая продажа автомобильных внешних аксессуаров: мягкие дворники для переднего лобового стекла VW GOLF6 2009. LELION оптовая специальная щетка дворника",
       "specs": [
         "Модель продукта: BW-829",
-        "Размер: Стандартный",
+        "Размер: 24+19\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -29936,7 +29936,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW-829",
         "Категория": "Специализированный Стеклоочиститель",
-        "Размер": "Стандартный",
+        "Размер": "24+19\"",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров: мягкие дворники для переднего лобового стекла VW GOLF6 2009",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -29948,7 +29948,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Accessoires externes de voiture en gros Balais d'essuie-glace souples pour pare-brise avant pour VW GOLF6 2009. LELION lame d'essuie-glace spéciale en gros",
       "specs": [
         "Modèle du produit: BW-829",
-        "Taille: Standard",
+        "Taille: 24+19\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -29963,7 +29963,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW-829",
         "Catégorie": "Balai Spécifique",
-        "Taille": "Standard",
+        "Taille": "24+19\"",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Balais d'essuie-glace souples pour pare-brise avant pour VW GOLF6 2009",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -29975,7 +29975,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Großhandel Autoteile Außen Zubehör Frontscheibe weiche Wischerblätter für VW GOLF6 2009. LELION Großhandel Spezial-Wischerblatt",
       "specs": [
         "Produktmodell: BW-829",
-        "Größe: Standard",
+        "Größe: 24+19\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -29990,7 +29990,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW-829",
         "Kategorie": "Spezifisches Wischerblatt",
-        "Größe": "Standard",
+        "Größe": "24+19\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Autoteile Außen Zubehör Frontscheibe weiche Wischerblätter für VW GOLF6 2009",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -30305,7 +30305,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Venta al por mayor de accesorios externos para automóviles Limpiaparabrisas delantero para CADILLAC SRX 2010-2016. escobilla de limpiaparabrisas",
       "specs": [
         "Modelo del producto: BW-829",
-        "Tamaño: Estándar",
+        "Tamaño: 26+17\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -30320,7 +30320,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW-829",
         "Categoría": "Escobilla Específica",
-        "Tamaño": "Estándar",
+        "Tamaño": "26+17\"",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de accesorios externos para automóviles Limpiaparabrisas delantero para CADILLAC SRX 2010-2016",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -30332,7 +30332,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Оптовые автомобильные внешние аксессуары, передние стеклоочистители для CADILLAC SRX 2010-2016. специальная щетка дворника",
       "specs": [
         "Модель продукта: BW-829",
-        "Размер: Стандартный",
+        "Размер: 26+17\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -30347,7 +30347,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW-829",
         "Категория": "Специализированный Стеклоочиститель",
-        "Размер": "Стандартный",
+        "Размер": "26+17\"",
         "Цвет": "Черный",
         "Применяемость": "Оптовые автомобильные внешние аксессуары, передние стеклоочистители для CADILLAC SRX 2010-2016",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -30359,7 +30359,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Accessoires externes de voiture en gros Balais d'essuie-glace pour pare-brise avant pour CADILLAC SRX 2010-2016. Lame d'essuie-glace spéciale",
       "specs": [
         "Modèle du produit: BW-829",
-        "Taille: Standard",
+        "Taille: 26+17\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -30374,7 +30374,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW-829",
         "Catégorie": "Balai Spécifique",
-        "Taille": "Standard",
+        "Taille": "26+17\"",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Balais d'essuie-glace pour pare-brise avant pour CADILLAC SRX 2010-2016",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -30386,7 +30386,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Großhandel Autoteile Außen Zubehör Frontscheibenwischer für CADILLAC SRX 2010-2016. Spezial-Wischerblatt",
       "specs": [
         "Produktmodell: BW-829",
-        "Größe: Standard",
+        "Größe: 26+17\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -30401,7 +30401,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW-829",
         "Kategorie": "Spezifisches Wischerblatt",
-        "Größe": "Standard",
+        "Größe": "26+17\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Autoteile Außen Zubehör Frontscheibenwischer für CADILLAC SRX 2010-2016",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -30442,7 +30442,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Accesorios externos para automóviles al por mayor Limpiaparabrisas delantero para HYUNDAI VERACRUZ 2012. escobilla limpiaparabrisas especial al por mayor",
       "specs": [
         "Modelo del producto: BW-829",
-        "Tamaño: Estándar",
+        "Tamaño: 24+20\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -30457,7 +30457,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW-829",
         "Categoría": "Escobilla Específica",
-        "Tamaño": "Estándar",
+        "Tamaño": "24+20\"",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Limpiaparabrisas delantero para HYUNDAI VERACRUZ 2012",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -30469,7 +30469,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Оптовые автомобильные внешние аксессуары, передние стеклоочистители для HYUNDAI VERACRUZ 2012. Оптовая специальная щетка-дворник",
       "specs": [
         "Модель продукта: BW-829",
-        "Размер: Стандартный",
+        "Размер: 24+20\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -30484,7 +30484,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW-829",
         "Категория": "Специализированный Стеклоочиститель",
-        "Размер": "Стандартный",
+        "Размер": "24+20\"",
         "Цвет": "Черный",
         "Применяемость": "Оптовые автомобильные внешние аксессуары, передние стеклоочистители для HYUNDAI VERACRUZ 2012",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -30496,7 +30496,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Accessoires externes de voiture en gros Balais d'essuie-glace pour pare-brise avant pour HYUNDAI VERACRUZ 2012. Essuie-glace spécial vente en gros",
       "specs": [
         "Modèle du produit: BW-829",
-        "Taille: Standard",
+        "Taille: 24+20\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -30511,7 +30511,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW-829",
         "Catégorie": "Balai Spécifique",
-        "Taille": "Standard",
+        "Taille": "24+20\"",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Balais d'essuie-glace pour pare-brise avant pour HYUNDAI VERACRUZ 2012",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -30523,7 +30523,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Großhandel Autoteile Außen Zubehör Frontscheibenwischer für HYUNDAI VERACRUZ 2012. Großhandel Sonderwischerblatt",
       "specs": [
         "Produktmodell: BW-829",
-        "Größe: Standard",
+        "Größe: 24+20\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -30538,7 +30538,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW-829",
         "Kategorie": "Spezifisches Wischerblatt",
-        "Größe": "Standard",
+        "Größe": "24+20\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Autoteile Außen Zubehör Frontscheibenwischer für HYUNDAI VERACRUZ 2012",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -30579,7 +30579,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Accesorios externos para automóviles al por mayor Limpiaparabrisas delantero para MINI CLUBMAN R55 2012-2015. escobilla de limpiaparabrisas",
       "specs": [
         "Modelo del producto: BW-827",
-        "Tamaño: Estándar",
+        "Tamaño: 19+18\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -30594,7 +30594,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW-827",
         "Categoría": "Escobilla Específica",
-        "Tamaño": "Estándar",
+        "Tamaño": "19+18\"",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Limpiaparabrisas delantero para MINI CLUBMAN R55 2012-2015",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -30606,7 +30606,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Оптовые автомобильные внешние аксессуары, передние стеклоочистители для MINI CLUBMAN R55 2012-2015. специальная щетка дворника",
       "specs": [
         "Модель продукта: BW-827",
-        "Размер: Стандартный",
+        "Размер: 19+18\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -30621,7 +30621,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW-827",
         "Категория": "Специализированный Стеклоочиститель",
-        "Размер": "Стандартный",
+        "Размер": "19+18\"",
         "Цвет": "Черный",
         "Применяемость": "Оптовые автомобильные внешние аксессуары, передние стеклоочистители для MINI CLUBMAN R55 2012-2015",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -30633,7 +30633,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Accessoires externes de voiture en gros Balais d'essuie-glace pour pare-brise avant pour MINI CLUBMAN R55 2012-2015. Lame d'essuie-glace spéciale",
       "specs": [
         "Modèle du produit: BW-827",
-        "Taille: Standard",
+        "Taille: 19+18\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -30648,7 +30648,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW-827",
         "Catégorie": "Balai Spécifique",
-        "Taille": "Standard",
+        "Taille": "19+18\"",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Balais d'essuie-glace pour pare-brise avant pour MINI CLUBMAN R55 2012-2015",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -30660,7 +30660,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Großhandel Autoteile Außen Zubehör Frontscheibenwischer für MINI CLUBMAN R55 2012-2015. Spezial-Wischerblatt",
       "specs": [
         "Produktmodell: BW-827",
-        "Größe: Standard",
+        "Größe: 19+18\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -30675,7 +30675,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW-827",
         "Kategorie": "Spezifisches Wischerblatt",
-        "Größe": "Standard",
+        "Größe": "19+18\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Autoteile Außen Zubehör Frontscheibenwischer für MINI CLUBMAN R55 2012-2015",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -30853,7 +30853,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Venta al por mayor de accesorios externos para automóviles Limpiaparabrisas delantero para VW Magotan 2013. escobilla limpiaparabrisas especial al por mayor",
       "specs": [
         "Modelo del producto: BW-831",
-        "Tamaño: Estándar",
+        "Tamaño: 24+19\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -30868,7 +30868,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW-831",
         "Categoría": "Escobilla Específica",
-        "Tamaño": "Estándar",
+        "Tamaño": "24+19\"",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de accesorios externos para automóviles Limpiaparabrisas delantero para VW Magotan 2013",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -30880,7 +30880,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Оптовые автомобильные внешние аксессуары, передние стеклоочистители для VW Magotan 2013. Оптовая специальная щетка-дворник",
       "specs": [
         "Модель продукта: BW-831",
-        "Размер: Стандартный",
+        "Размер: 24+19\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -30895,7 +30895,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW-831",
         "Категория": "Специализированный Стеклоочиститель",
-        "Размер": "Стандартный",
+        "Размер": "24+19\"",
         "Цвет": "Черный",
         "Применяемость": "Оптовые автомобильные внешние аксессуары, передние стеклоочистители для VW Magotan 2013",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -30907,7 +30907,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Accessoires externes de voiture en gros Balais d'essuie-glace pour pare-brise avant pour VW Magotan 2013. Essuie-glace spécial vente en gros",
       "specs": [
         "Modèle du produit: BW-831",
-        "Taille: Standard",
+        "Taille: 24+19\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -30922,7 +30922,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW-831",
         "Catégorie": "Balai Spécifique",
-        "Taille": "Standard",
+        "Taille": "24+19\"",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Balais d'essuie-glace pour pare-brise avant pour VW Magotan 2013",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -30934,7 +30934,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Großhandel Autoteile Außen Zubehör Frontscheibenwischer für VW Magotan 2013. Großhandel Sonderwischerblatt",
       "specs": [
         "Produktmodell: BW-831",
-        "Größe: Standard",
+        "Größe: 24+19\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -30949,7 +30949,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW-831",
         "Kategorie": "Spezifisches Wischerblatt",
-        "Größe": "Standard",
+        "Größe": "24+19\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Autoteile Außen Zubehör Frontscheibenwischer für VW Magotan 2013",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -30990,7 +30990,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Venta al por mayor de accesorios externos para automóviles Limpiaparabrisas delantero para VW TOUAREG 2002-2017. LELION escobilla limpiaparabrisas sepcial AL por mayor",
       "specs": [
         "Modelo del producto: BW-835",
-        "Tamaño: Estándar",
+        "Tamaño: 26+26\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -31005,7 +31005,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW-835",
         "Categoría": "Escobilla Específica",
-        "Tamaño": "Estándar",
+        "Tamaño": "26+26\"",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de accesorios externos para automóviles Limpiaparabrisas delantero para VW TOUAREG 2002-2017",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -31017,7 +31017,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Оптовые автомобильные внешние аксессуары, передние стеклоочистители для VW TOUAREG 2002-2017. Специальная оптовая щетка LELION",
       "specs": [
         "Модель продукта: BW-835",
-        "Размер: Стандартный",
+        "Размер: 26+26\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -31032,7 +31032,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW-835",
         "Категория": "Специализированный Стеклоочиститель",
-        "Размер": "Стандартный",
+        "Размер": "26+26\"",
         "Цвет": "Черный",
         "Применяемость": "Оптовые автомобильные внешние аксессуары, передние стеклоочистители для VW TOUAREG 2002-2017",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -31044,7 +31044,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Accessoires externes de voiture en gros Balais d'essuie-glace avant pour VW TOUAREG 2002-2017. LELION lame d'essuie-glace spéciale en gros",
       "specs": [
         "Modèle du produit: BW-835",
-        "Taille: Standard",
+        "Taille: 26+26\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -31059,7 +31059,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW-835",
         "Catégorie": "Balai Spécifique",
-        "Taille": "Standard",
+        "Taille": "26+26\"",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Balais d'essuie-glace avant pour VW TOUAREG 2002-2017",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -31071,7 +31071,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Großhandel Auto Außenzubehör Scheibenwischer vorne für VW TOUAREG 2002-2017. LELION Großhandel Spezial-Wischerblatt",
       "specs": [
         "Produktmodell: BW-835",
-        "Größe: Standard",
+        "Größe: 26+26\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -31086,7 +31086,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW-835",
         "Kategorie": "Spezifisches Wischerblatt",
-        "Größe": "Standard",
+        "Größe": "26+26\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Außenzubehör Scheibenwischer vorne für VW TOUAREG 2002-2017",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -31264,7 +31264,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Venta al por mayor Accesorios externos para automóviles Parabrisas delantero 24+16 escobillas especiales para VW Jetta 2015. escobilla limpiaparabrisas especial al por mayor",
       "specs": [
         "Modelo del producto: BW-829",
-        "Tamaño: Estándar",
+        "Tamaño: 24+19\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -31279,7 +31279,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW-829",
         "Categoría": "Escobilla Específica",
-        "Tamaño": "Estándar",
+        "Tamaño": "24+19\"",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Parabrisas delantero 24+16 escobillas especiales para VW Jetta 2015",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -31291,7 +31291,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Оптовые автомобильные внешние аксессуары, передние стеклоочистители 24 16 специализированные для VW Jetta 2015. Оптовая специальная щетка-дворник",
       "specs": [
         "Модель продукта: BW-829",
-        "Размер: Стандартный",
+        "Размер: 24+19\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -31306,7 +31306,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW-829",
         "Категория": "Специализированный Стеклоочиститель",
-        "Размер": "Стандартный",
+        "Размер": "24+19\"",
         "Цвет": "Черный",
         "Применяемость": "Оптовые автомобильные внешние аксессуары, передние стеклоочистители 24 16 специализированные для VW Jetta 2015",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -31318,7 +31318,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Accessoires externes de voiture en gros Balais d'essuie-glace avant 24 16 spéciaux pour VW Jetta 2015. Essuie-glace spécial vente en gros",
       "specs": [
         "Modèle du produit: BW-829",
-        "Taille: Standard",
+        "Taille: 24+19\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -31333,7 +31333,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW-829",
         "Catégorie": "Balai Spécifique",
-        "Taille": "Standard",
+        "Taille": "24+19\"",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Balais d'essuie-glace avant 24 16 spéciaux pour VW Jetta 2015",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -31345,7 +31345,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Großhandel Auto Außenzubehör Frontscheibenwischer 24 16 Spezialwischer für VW Jetta 2015. Großhandel Sonderwischerblatt",
       "specs": [
         "Produktmodell: BW-829",
-        "Größe: Standard",
+        "Größe: 24+19\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -31360,7 +31360,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW-829",
         "Kategorie": "Spezifisches Wischerblatt",
-        "Größe": "Standard",
+        "Größe": "24+19\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Außenzubehör Frontscheibenwischer 24 16 Spezialwischer für VW Jetta 2015",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -32497,7 +32497,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Accesorios externos para automóviles al por mayor Limpiaparabrisas delantero sin marco para BMW Serie 5 Serie 7 2016. escobilla limpiaparabrisas especial al por mayor",
       "specs": [
         "Modelo del producto: BW-849",
-        "Tamaño: Estándar",
+        "Tamaño: 26+18\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -32512,7 +32512,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW-849",
         "Categoría": "Escobilla Específica",
-        "Tamaño": "Estándar",
+        "Tamaño": "26+18\"",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Limpiaparabrisas delantero sin marco para BMW Serie 5 Serie 7 2016",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -32524,7 +32524,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Оптовая продажа автомобильных внешних аксессуаров Передние стеклоочистители бескаркасные для BMW 5 серии 7 серии 2016. Оптовая специальная щетка-дворник",
       "specs": [
         "Модель продукта: BW-849",
-        "Размер: Стандартный",
+        "Размер: 26+18\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -32539,7 +32539,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW-849",
         "Категория": "Специализированный Стеклоочиститель",
-        "Размер": "Стандартный",
+        "Размер": "26+18\"",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров Передние стеклоочистители бескаркасные для BMW 5 серии 7 серии 2016",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -32551,7 +32551,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Accessoires externes de voiture en gros Essuie-glaces avant sans cadre pour BMW Série 5 Série 7 2016. Essuie-glace spécial vente en gros",
       "specs": [
         "Modèle du produit: BW-849",
-        "Taille: Standard",
+        "Taille: 26+18\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -32566,7 +32566,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW-849",
         "Catégorie": "Balai Spécifique",
-        "Taille": "Standard",
+        "Taille": "26+18\"",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Essuie-glaces avant sans cadre pour BMW Série 5 Série 7 2016",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -32578,7 +32578,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Großhandel Auto Außenzubehör Frontscheibenwischer rahmenlose Wischer für BMW 5er Reihe 7er Reihe 2016. Großhandel Sonderwischerblatt",
       "specs": [
         "Produktmodell: BW-849",
-        "Größe: Standard",
+        "Größe: 26+18\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -32593,7 +32593,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW-849",
         "Kategorie": "Spezifisches Wischerblatt",
-        "Größe": "Standard",
+        "Größe": "26+18\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Außenzubehör Frontscheibenwischer rahmenlose Wischer für BMW 5er Reihe 7er Reihe 2016",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -32634,7 +32634,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Venta al por mayor Accesorios externos para automóviles Limpiaparabrisas delantero para AUDI Q3 A6L A8L A7. escobilla limpiaparabrisas especial al por mayor",
       "specs": [
         "Modelo del producto: BW-831",
-        "Tamaño: Estándar",
+        "Tamaño: 26+21\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -32649,7 +32649,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW-831",
         "Categoría": "Escobilla Específica",
-        "Tamaño": "Estándar",
+        "Tamaño": "26+21\"",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Limpiaparabrisas delantero para AUDI Q3 A6L A8L A7",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -32661,7 +32661,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Оптовая продажа автомобильных внешних аксессуаров Передние стеклоочистители мягкие для AUDI Q3 A6L A8L A7. Оптовая специальная щетка-дворник",
       "specs": [
         "Модель продукта: BW-831",
-        "Размер: Стандартный",
+        "Размер: 26+21\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -32676,7 +32676,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW-831",
         "Категория": "Специализированный Стеклоочиститель",
-        "Размер": "Стандартный",
+        "Размер": "26+21\"",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров Передние стеклоочистители мягкие для AUDI Q3 A6L A8L A7",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -32688,7 +32688,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Accessoires externes de voiture en gros Balai d'essuie-glace avant souple pour AUDI Q3 A6L A8L A7. Essuie-glace spécial vente en gros",
       "specs": [
         "Modèle du produit: BW-831",
-        "Taille: Standard",
+        "Taille: 26+21\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -32703,7 +32703,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW-831",
         "Catégorie": "Balai Spécifique",
-        "Taille": "Standard",
+        "Taille": "26+21\"",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Balai d'essuie-glace avant souple pour AUDI Q3 A6L A8L A7",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -32715,7 +32715,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Großhandel Auto Außenzubehör Frontscheibenwischer Soft-Wischer für AUDI Q3 A6L A8L A7. Großhandel Sonderwischerblatt",
       "specs": [
         "Produktmodell: BW-831",
-        "Größe: Standard",
+        "Größe: 26+21\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -32730,7 +32730,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW-831",
         "Kategorie": "Spezifisches Wischerblatt",
-        "Größe": "Standard",
+        "Größe": "26+21\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Außenzubehör Frontscheibenwischer Soft-Wischer für AUDI Q3 A6L A8L A7",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -33045,7 +33045,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Venta al por mayor de accesorios externos para automóviles Limpiaparabrisas delantero para Audi A4 A6 2002-2008. LELION escobilla limpiaparabrisas especial AL por mayor",
       "specs": [
         "Modelo del producto: BW-828",
-        "Tamaño: Estándar",
+        "Tamaño: 22+22\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -33060,7 +33060,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW-828",
         "Categoría": "Escobilla Específica",
-        "Tamaño": "Estándar",
+        "Tamaño": "22+22\"",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de accesorios externos para automóviles Limpiaparabrisas delantero para Audi A4 A6 2002-2008",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -33072,7 +33072,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Оптовая продажа автомобильных внешних аксессуаров Передние стеклоочистители мягкие для Audi A4 A6 2002-2008. LELION оптовая специальная щетка дворника",
       "specs": [
         "Модель продукта: BW-828",
-        "Размер: Стандартный",
+        "Размер: 22+22\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -33087,7 +33087,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW-828",
         "Категория": "Специализированный Стеклоочиститель",
-        "Размер": "Стандартный",
+        "Размер": "22+22\"",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров Передние стеклоочистители мягкие для Audi A4 A6 2002-2008",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -33099,7 +33099,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Accessoires extérieurs de voiture en gros Balais d'essuie-glace avant souples pour Audi A4 A6 2002-2008. LELION lame d'essuie-glace spéciale en gros",
       "specs": [
         "Modèle du produit: BW-828",
-        "Taille: Standard",
+        "Taille: 22+22\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -33114,7 +33114,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW-828",
         "Catégorie": "Balai Spécifique",
-        "Taille": "Standard",
+        "Taille": "22+22\"",
         "Couleur": "Noir",
         "Application": "Accessoires extérieurs de voiture en gros Balais d'essuie-glace avant souples pour Audi A4 A6 2002-2008",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -33126,7 +33126,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Großhandel Auto Außen Zubehör Frontscheibe Weiche Wischerblätter für Audi A4 A6 2002-2008. LELION Großhandel Spezial-Wischerblatt",
       "specs": [
         "Produktmodell: BW-828",
-        "Größe: Standard",
+        "Größe: 22+22\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -33141,7 +33141,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW-828",
         "Kategorie": "Spezifisches Wischerblatt",
-        "Größe": "Standard",
+        "Größe": "22+22\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Außen Zubehör Frontscheibe Weiche Wischerblätter für Audi A4 A6 2002-2008",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -33182,7 +33182,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Venta al por mayor de accesorios externos para automóviles Limpiaparabrisas delantero para Audi Q3 2011-2018. escobilla limpiaparabrisas especial al por mayor",
       "specs": [
         "Modelo del producto: BW-831",
-        "Tamaño: Estándar",
+        "Tamaño: 24+20\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -33197,7 +33197,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW-831",
         "Categoría": "Escobilla Específica",
-        "Tamaño": "Estándar",
+        "Tamaño": "24+20\"",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de accesorios externos para automóviles Limpiaparabrisas delantero para Audi Q3 2011-2018",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -33209,7 +33209,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Оптовая продажа автомобильных внешних аксессуаров Передние стеклоочистители мягкие для Audi Q3 2011-2018. Оптовая специальная щетка-дворник",
       "specs": [
         "Модель продукта: BW-831",
-        "Размер: Стандартный",
+        "Размер: 24+20\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -33224,7 +33224,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW-831",
         "Категория": "Специализированный Стеклоочиститель",
-        "Размер": "Стандартный",
+        "Размер": "24+20\"",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров Передние стеклоочистители мягкие для Audi Q3 2011-2018",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -33236,7 +33236,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Accessoires extérieurs de voiture en gros Balais d'essuie-glace avant souples pour Audi Q3 2011-2018. Essuie-glace spécial vente en gros",
       "specs": [
         "Modèle du produit: BW-831",
-        "Taille: Standard",
+        "Taille: 24+20\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -33251,7 +33251,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW-831",
         "Catégorie": "Balai Spécifique",
-        "Taille": "Standard",
+        "Taille": "24+20\"",
         "Couleur": "Noir",
         "Application": "Accessoires extérieurs de voiture en gros Balais d'essuie-glace avant souples pour Audi Q3 2011-2018",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -33263,7 +33263,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Großhandel Auto Außen Zubehör Frontscheibe Weiche Wischerblätter für Audi Q3 2011-2018. Großhandel Sonderwischerblatt",
       "specs": [
         "Produktmodell: BW-831",
-        "Größe: Standard",
+        "Größe: 24+20\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -33278,7 +33278,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW-831",
         "Kategorie": "Spezifisches Wischerblatt",
-        "Größe": "Standard",
+        "Größe": "24+20\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Außen Zubehör Frontscheibe Weiche Wischerblätter für Audi Q3 2011-2018",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -33730,7 +33730,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Venta al por mayor Accesorios externos para automóviles Limpiaparabrisas delantero Limpiaparabrisas especiales para automóviles BENZ CL CLASE S CLA. escobilla limpiaparabrisas especial al por mayor",
       "specs": [
         "Modelo del producto: BW-822",
-        "Tamaño: Estándar",
+        "Tamaño: 27+27\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -33745,7 +33745,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW-822",
         "Categoría": "Escobilla Específica",
-        "Tamaño": "Estándar",
+        "Tamaño": "27+27\"",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Limpiaparabrisas delantero Limpiaparabrisas especiales para automóviles BENZ CL CLASE S CLA",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -33757,7 +33757,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Оптовая продажа автомобильных внешних аксессуаров Передние стеклоочистители специальные для автомобиля BENZ CL CLASS S CLA. Оптовая специальная щетка-дворник",
       "specs": [
         "Модель продукта: BW-822",
-        "Размер: Стандартный",
+        "Размер: 27+27\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -33772,7 +33772,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW-822",
         "Категория": "Специализированный Стеклоочиститель",
-        "Размер": "Стандартный",
+        "Размер": "27+27\"",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров Передние стеклоочистители специальные для автомобиля BENZ CL CLASS S CLA",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -33784,7 +33784,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Accessoires extérieurs de voiture en gros Balais d'essuie-glace avant spéciaux pour voiture BENZ CL CLASS S CLA. Essuie-glace spécial vente en gros",
       "specs": [
         "Modèle du produit: BW-822",
-        "Taille: Standard",
+        "Taille: 27+27\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -33799,7 +33799,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW-822",
         "Catégorie": "Balai Spécifique",
-        "Taille": "Standard",
+        "Taille": "27+27\"",
         "Couleur": "Noir",
         "Application": "Accessoires extérieurs de voiture en gros Balais d'essuie-glace avant spéciaux pour voiture BENZ CL CLASS S CLA",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -33811,7 +33811,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Großhandel Auto Außen Zubehör Frontscheibe Spezielle Wischerblätter für Auto BENZ CL CLASS S CLA. Großhandel Sonderwischerblatt",
       "specs": [
         "Produktmodell: BW-822",
-        "Größe: Standard",
+        "Größe: 27+27\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -33826,7 +33826,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW-822",
         "Kategorie": "Spezifisches Wischerblatt",
-        "Größe": "Standard",
+        "Größe": "27+27\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Außen Zubehör Frontscheibe Spezielle Wischerblätter für Auto BENZ CL CLASS S CLA",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -33867,7 +33867,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Accesorios externos para automóviles al por mayor Limpiaparabrisas delantero para Land Rover Range Rover 2003-2012. LELION escobilla limpiaparabrisas sepcial AL por mayor",
       "specs": [
         "Modelo del producto: BW-709",
-        "Tamaño: Estándar",
+        "Tamaño: 26+26\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -33882,7 +33882,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW-709",
         "Categoría": "Escobilla Específica de Marco",
-        "Tamaño": "Estándar",
+        "Tamaño": "26+26\"",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Limpiaparabrisas delantero para Land Rover Range Rover 2003-2012",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -33894,7 +33894,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Оптовая продажа автомобильных внешних аксессуаров Передние стеклоочистители для Land Rover Range Rover 2003-2012. Специальная оптовая щетка LELION",
       "specs": [
         "Модель продукта: BW-709",
-        "Размер: Стандартный",
+        "Размер: 26+26\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -33909,7 +33909,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW-709",
         "Категория": "Специализированная Каркасная Щетка",
-        "Размер": "Стандартный",
+        "Размер": "26+26\"",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров Передние стеклоочистители для Land Rover Range Rover 2003-2012",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -33921,7 +33921,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Accessoires extérieurs de voiture en gros Balai d'essuie-glace avant pour Land Rover Range Rover 2003-2012. LELION lame d'essuie-glace spéciale en gros",
       "specs": [
         "Modèle du produit: BW-709",
-        "Taille: Standard",
+        "Taille: 26+26\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -33936,7 +33936,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW-709",
         "Catégorie": "Balai Spécifique à Armature",
-        "Taille": "Standard",
+        "Taille": "26+26\"",
         "Couleur": "Noir",
         "Application": "Accessoires extérieurs de voiture en gros Balai d'essuie-glace avant pour Land Rover Range Rover 2003-2012",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -33948,7 +33948,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Großhandel Auto Außen Zubehör Frontscheibe Wischerblatt für Land Rover Range Rover 2003-2012. LELION Großhandel Spezial-Wischerblatt",
       "specs": [
         "Produktmodell: BW-709",
-        "Größe: Standard",
+        "Größe: 26+26\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -33963,7 +33963,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW-709",
         "Kategorie": "Spezifisches Rahmenwischerblatt",
-        "Größe": "Standard",
+        "Größe": "26+26\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Außen Zubehör Frontscheibe Wischerblatt für Land Rover Range Rover 2003-2012",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -34004,7 +34004,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Venta al por mayor de accesorios externos para automóviles Limpiaparabrisas delantero para AUDI A6L 2006-2011. LELION escobilla limpiaparabrisas sepcial AL por mayor",
       "specs": [
         "Modelo del producto: BW-830",
-        "Tamaño: Estándar",
+        "Tamaño: 22+22\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -34019,7 +34019,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW-830",
         "Categoría": "Escobilla Específica",
-        "Tamaño": "Estándar",
+        "Tamaño": "22+22\"",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de accesorios externos para automóviles Limpiaparabrisas delantero para AUDI A6L 2006-2011",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -34031,7 +34031,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Оптовая продажа автомобильных внешних аксессуаров передние щетки стеклоочистителя для AUDI A6L 2006-2011. Специальная оптовая щетка LELION",
       "specs": [
         "Модель продукта: BW-830",
-        "Размер: Стандартный",
+        "Размер: 22+22\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -34046,7 +34046,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW-830",
         "Категория": "Специализированный Стеклоочиститель",
-        "Размер": "Стандартный",
+        "Размер": "22+22\"",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров передние щетки стеклоочистителя для AUDI A6L 2006-2011",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -34058,7 +34058,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Accessoires extérieurs de voiture en gros Balais d'essuie-glace avant pour AUDI A6L 2006-2011. LELION lame d'essuie-glace spéciale en gros",
       "specs": [
         "Modèle du produit: BW-830",
-        "Taille: Standard",
+        "Taille: 22+22\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -34073,7 +34073,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW-830",
         "Catégorie": "Balai Spécifique",
-        "Taille": "Standard",
+        "Taille": "22+22\"",
         "Couleur": "Noir",
         "Application": "Accessoires extérieurs de voiture en gros Balais d'essuie-glace avant pour AUDI A6L 2006-2011",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -34085,7 +34085,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Großhandel Auto Außen Zubehör Frontscheibe Wischerblätter für AUDI A6L 2006-2011. LELION Großhandel Spezial-Wischerblatt",
       "specs": [
         "Produktmodell: BW-830",
-        "Größe: Standard",
+        "Größe: 22+22\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -34100,7 +34100,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW-830",
         "Kategorie": "Spezifisches Wischerblatt",
-        "Größe": "Standard",
+        "Größe": "22+22\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Außen Zubehör Frontscheibe Wischerblätter für AUDI A6L 2006-2011",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -34415,7 +34415,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Venta al por mayor de accesorios externos para automóviles Limpiaparabrisas delantero para BMW SERIE 5 2004-2009. escobilla de limpiaparabrisas",
       "specs": [
         "Modelo del producto: BW-826",
-        "Tamaño: Estándar",
+        "Tamaño: 24+22\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -34430,7 +34430,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW-826",
         "Categoría": "Escobilla Específica",
-        "Tamaño": "Estándar",
+        "Tamaño": "24+22\"",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de accesorios externos para automóviles Limpiaparabrisas delantero para BMW SERIE 5 2004-2009",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -34442,7 +34442,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Оптовая продажа автомобильных внешних аксессуаров передние щетки стеклоочистителя для BMW 5 SERIES 2004-2009. специальная щетка дворника",
       "specs": [
         "Модель продукта: BW-826",
-        "Размер: Стандартный",
+        "Размер: 24+22\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -34457,7 +34457,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW-826",
         "Категория": "Специализированный Стеклоочиститель",
-        "Размер": "Стандартный",
+        "Размер": "24+22\"",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров передние щетки стеклоочистителя для BMW 5 SERIES 2004-2009",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -34469,7 +34469,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Accessoires extérieurs de voiture en gros Balais d'essuie-glace avant pour BMW 5 SERIES 2004-2009. Lame d'essuie-glace spéciale",
       "specs": [
         "Modèle du produit: BW-826",
-        "Taille: Standard",
+        "Taille: 24+22\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -34484,7 +34484,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW-826",
         "Catégorie": "Balai Spécifique",
-        "Taille": "Standard",
+        "Taille": "24+22\"",
         "Couleur": "Noir",
         "Application": "Accessoires extérieurs de voiture en gros Balais d'essuie-glace avant pour BMW 5 SERIES 2004-2009",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -34496,7 +34496,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Großhandel Auto Außen Zubehör Frontscheibe Wischerblätter für BMW 5ER 2004-2009. Spezial-Wischerblatt",
       "specs": [
         "Produktmodell: BW-826",
-        "Größe: Standard",
+        "Größe: 24+22\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -34511,7 +34511,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW-826",
         "Kategorie": "Spezifisches Wischerblatt",
-        "Größe": "Standard",
+        "Größe": "24+22\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Außen Zubehör Frontscheibe Wischerblätter für BMW 5ER 2004-2009",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -35100,7 +35100,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Accesorios externos para automóviles al por mayor Limpiaparabrisas delantero para Land Rover Discovery 5. LELION escobilla limpiaparabrisas especial AL por mayor",
       "specs": [
         "Modelo del producto: BW-848A",
-        "Tamaño: Estándar",
+        "Tamaño: 24+20\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -35115,7 +35115,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW-848A",
         "Categoría": "Escobilla Específica",
-        "Tamaño": "Estándar",
+        "Tamaño": "24+20\"",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Limpiaparabrisas delantero para Land Rover Discovery 5",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -35127,7 +35127,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Оптовая продажа автомобильных внешних аксессуаров передние щетки стеклоочистителя для Land Rover Discovery 5. LELION оптовая специальная щетка дворника",
       "specs": [
         "Модель продукта: BW-848A",
-        "Размер: Стандартный",
+        "Размер: 24+20\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -35142,7 +35142,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW-848A",
         "Категория": "Специализированный Стеклоочиститель",
-        "Размер": "Стандартный",
+        "Размер": "24+20\"",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров передние щетки стеклоочистителя для Land Rover Discovery 5",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -35154,7 +35154,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Accessoires externes pour voitures en gros Balais d'essuie-glace avant pour Land Rover Discovery 5. LELION lame d'essuie-glace spéciale en gros",
       "specs": [
         "Modèle du produit: BW-848A",
-        "Taille: Standard",
+        "Taille: 24+20\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -35169,7 +35169,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW-848A",
         "Catégorie": "Balai Spécifique",
-        "Taille": "Standard",
+        "Taille": "24+20\"",
         "Couleur": "Noir",
         "Application": "Accessoires externes pour voitures en gros Balais d'essuie-glace avant pour Land Rover Discovery 5",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -35181,7 +35181,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Großhandel Auto Exterieur Zubehör Frontscheibenwischerblätter für Land Rover Discovery 5. LELION Großhandel Spezial-Wischerblatt",
       "specs": [
         "Produktmodell: BW-848A",
-        "Größe: Standard",
+        "Größe: 24+20\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -35196,7 +35196,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW-848A",
         "Kategorie": "Spezifisches Wischerblatt",
-        "Größe": "Standard",
+        "Größe": "24+20\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Exterieur Zubehör Frontscheibenwischerblätter für Land Rover Discovery 5",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -35511,7 +35511,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Accesorios externos para automóviles al por mayor Limpiaparabrisas delantero para Renault Grand Scenic II 2006-20. escobilla limpiaparabrisas especial al por mayor",
       "specs": [
         "Modelo del producto: BW-827",
-        "Tamaño: Estándar",
+        "Tamaño: 24+18\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -35526,7 +35526,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW-827",
         "Categoría": "Escobilla Específica",
-        "Tamaño": "Estándar",
+        "Tamaño": "24+18\"",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Limpiaparabrisas delantero para Renault Grand Scenic II 2006-20",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -35538,7 +35538,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Оптовая продажа автомобильных внешних аксессуаров передние щетки стеклоочистителя для Renault Grand Scenic II 2006-20. Оптовая специальная щетка-дворник",
       "specs": [
         "Модель продукта: BW-827",
-        "Размер: Стандартный",
+        "Размер: 24+18\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -35553,7 +35553,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW-827",
         "Категория": "Специализированный Стеклоочиститель",
-        "Размер": "Стандартный",
+        "Размер": "24+18\"",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров передние щетки стеклоочистителя для Renault Grand Scenic II 2006-20",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -35565,7 +35565,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Accessoires externes pour voitures en gros Balais d'essuie-glace avant pour Renault Grand Scenic II 2006-20. Essuie-glace spécial vente en gros",
       "specs": [
         "Modèle du produit: BW-827",
-        "Taille: Standard",
+        "Taille: 24+18\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -35580,7 +35580,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW-827",
         "Catégorie": "Balai Spécifique",
-        "Taille": "Standard",
+        "Taille": "24+18\"",
         "Couleur": "Noir",
         "Application": "Accessoires externes pour voitures en gros Balais d'essuie-glace avant pour Renault Grand Scenic II 2006-20",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -35592,7 +35592,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Großhandel Auto Exterieur Zubehör Frontscheibenwischerblätter für Renault Grand Scenic II 2006-20. Großhandel Sonderwischerblatt",
       "specs": [
         "Produktmodell: BW-827",
-        "Größe: Standard",
+        "Größe: 24+18\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -35607,7 +35607,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW-827",
         "Kategorie": "Spezifisches Wischerblatt",
-        "Größe": "Standard",
+        "Größe": "24+18\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Exterieur Zubehör Frontscheibenwischerblätter für Renault Grand Scenic II 2006-20",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -35648,7 +35648,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Accesorios externos para automóviles al por mayor Limpiaparabrisas delantero para Renault Koleos 2008-2016. LELION escobilla limpiaparabrisas sepcial AL por mayor",
       "specs": [
         "Modelo del producto: BW-825",
-        "Tamaño: Estándar",
+        "Tamaño: 24+19\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -35663,7 +35663,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW-825",
         "Categoría": "Escobilla Específica",
-        "Tamaño": "Estándar",
+        "Tamaño": "24+19\"",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Limpiaparabrisas delantero para Renault Koleos 2008-2016",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -35675,7 +35675,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Оптовая продажа автомобильных внешних аксессуаров передние щетки стеклоочистителя для Renault Koleos 2008-2016. Специальная оптовая щетка LELION",
       "specs": [
         "Модель продукта: BW-825",
-        "Размер: Стандартный",
+        "Размер: 24+19\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -35690,7 +35690,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW-825",
         "Категория": "Специализированный Стеклоочиститель",
-        "Размер": "Стандартный",
+        "Размер": "24+19\"",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров передние щетки стеклоочистителя для Renault Koleos 2008-2016",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -35702,7 +35702,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Accessoires externes pour voitures en gros Balais d'essuie-glace avant pour Renault Koleos 2008-2016. LELION lame d'essuie-glace spéciale en gros",
       "specs": [
         "Modèle du produit: BW-825",
-        "Taille: Standard",
+        "Taille: 24+19\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -35717,7 +35717,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW-825",
         "Catégorie": "Balai Spécifique",
-        "Taille": "Standard",
+        "Taille": "24+19\"",
         "Couleur": "Noir",
         "Application": "Accessoires externes pour voitures en gros Balais d'essuie-glace avant pour Renault Koleos 2008-2016",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -35729,7 +35729,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Großhandel Auto Exterieur Zubehör Frontscheibenwischerblätter für Renault Koleos 2008-2016. LELION Großhandel Spezial-Wischerblatt",
       "specs": [
         "Produktmodell: BW-825",
-        "Größe: Standard",
+        "Größe: 24+19\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -35744,7 +35744,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW-825",
         "Kategorie": "Spezifisches Wischerblatt",
-        "Größe": "Standard",
+        "Größe": "24+19\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Exterieur Zubehör Frontscheibenwischerblätter für Renault Koleos 2008-2016",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -36059,7 +36059,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Accesorios externos para automóviles al por mayor Limpiaparabrisas delantero para Skoda Octavia Superb 2016. escobilla limpiaparabrisas especial al por mayor",
       "specs": [
         "Modelo del producto: BW-831",
-        "Tamaño: Estándar",
+        "Tamaño: 26+18\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -36074,7 +36074,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW-831",
         "Categoría": "Escobilla Específica",
-        "Tamaño": "Estándar",
+        "Tamaño": "26+18\"",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Limpiaparabrisas delantero para Skoda Octavia Superb 2016",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -36086,7 +36086,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Оптовая продажа автомобильных внешних аксессуаров передние щетки стеклоочистителя для Skoda Octavia Superb 2016. Оптовая специальная щетка-дворник",
       "specs": [
         "Модель продукта: BW-831",
-        "Размер: Стандартный",
+        "Размер: 26+18\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -36101,7 +36101,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW-831",
         "Категория": "Специализированный Стеклоочиститель",
-        "Размер": "Стандартный",
+        "Размер": "26+18\"",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа автомобильных внешних аксессуаров передние щетки стеклоочистителя для Skoda Octavia Superb 2016",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -36113,7 +36113,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Accessoires externes pour voitures en gros Balais d'essuie-glace avant pour Skoda Octavia Superb 2016. Essuie-glace spécial vente en gros",
       "specs": [
         "Modèle du produit: BW-831",
-        "Taille: Standard",
+        "Taille: 26+18\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -36128,7 +36128,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW-831",
         "Catégorie": "Balai Spécifique",
-        "Taille": "Standard",
+        "Taille": "26+18\"",
         "Couleur": "Noir",
         "Application": "Accessoires externes pour voitures en gros Balais d'essuie-glace avant pour Skoda Octavia Superb 2016",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -36140,7 +36140,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Großhandel Auto Exterieur Zubehör Frontscheibenwischerblätter für Skoda Octavia Superb 2016. Großhandel Sonderwischerblatt",
       "specs": [
         "Produktmodell: BW-831",
-        "Größe: Standard",
+        "Größe: 26+18\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -36155,7 +36155,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW-831",
         "Kategorie": "Spezifisches Wischerblatt",
-        "Größe": "Standard",
+        "Größe": "26+18\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Exterieur Zubehör Frontscheibenwischerblätter für Skoda Octavia Superb 2016",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -36333,7 +36333,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Accesorios externos para automóviles al por mayor Limpiaparabrisas delantero para Smart Forfour 2007-2015. escobilla limpiaparabrisas especial al por mayor",
       "specs": [
         "Modelo del producto: BW-825",
-        "Tamaño: Estándar",
+        "Tamaño: 20+14\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -36348,7 +36348,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW-825",
         "Categoría": "Escobilla Específica",
-        "Tamaño": "Estándar",
+        "Tamaño": "20+14\"",
         "Color": "Negro",
         "Aplicación": "Accesorios externos para automóviles al por mayor Limpiaparabrisas delantero para Smart Forfour 2007-2015",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -36360,7 +36360,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Оптовая продажа внешних автомобильных аксессуаров: передние щетки стеклоочистителя для Smart Forfour 2007-2015. Оптовая специальная щетка-дворник",
       "specs": [
         "Модель продукта: BW-825",
-        "Размер: Стандартный",
+        "Размер: 20+14\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -36375,7 +36375,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW-825",
         "Категория": "Специализированный Стеклоочиститель",
-        "Размер": "Стандартный",
+        "Размер": "20+14\"",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров: передние щетки стеклоочистителя для Smart Forfour 2007-2015",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -36387,7 +36387,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Accessoires externes pour voitures en gros Balais d'essuie-glace avant pour Smart Forfour 2007-2015. Essuie-glace spécial vente en gros",
       "specs": [
         "Modèle du produit: BW-825",
-        "Taille: Standard",
+        "Taille: 20+14\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -36402,7 +36402,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW-825",
         "Catégorie": "Balai Spécifique",
-        "Taille": "Standard",
+        "Taille": "20+14\"",
         "Couleur": "Noir",
         "Application": "Accessoires externes pour voitures en gros Balais d'essuie-glace avant pour Smart Forfour 2007-2015",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -36414,7 +36414,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Großhandel Auto Exterieur Zubehör Frontscheibenwischerblätter für Smart Forfour 2007-2015. Großhandel Sonderwischerblatt",
       "specs": [
         "Produktmodell: BW-825",
-        "Größe: Standard",
+        "Größe: 20+14\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -36429,7 +36429,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW-825",
         "Kategorie": "Spezifisches Wischerblatt",
-        "Größe": "Standard",
+        "Größe": "20+14\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Exterieur Zubehör Frontscheibenwischerblätter für Smart Forfour 2007-2015",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -36470,7 +36470,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Venta al por mayor Accesorios externos para automóviles Limpiaparabrisas delantero para Viano ML350 ML300 R300 R350 R50. LELION escobilla limpiaparabrisas sepcial AL por mayor",
       "specs": [
         "Modelo del producto: BW-825",
-        "Tamaño: Estándar",
+        "Tamaño: 28+21\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -36485,7 +36485,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW-825",
         "Categoría": "Escobilla Específica",
-        "Tamaño": "Estándar",
+        "Tamaño": "28+21\"",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Limpiaparabrisas delantero para Viano ML350 ML300 R300 R350 R50",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -36497,7 +36497,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Оптовая продажа внешних автомобильных аксессуаров: передние щетки стеклоочистителя для Viano ML350 ML300 R300 R350 R50. Специальная оптовая щетка LELION",
       "specs": [
         "Модель продукта: BW-825",
-        "Размер: Стандартный",
+        "Размер: 28+21\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -36512,7 +36512,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW-825",
         "Категория": "Специализированный Стеклоочиститель",
-        "Размер": "Стандартный",
+        "Размер": "28+21\"",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров: передние щетки стеклоочистителя для Viano ML350 ML300 R300 R350 R50",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -36524,7 +36524,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Accessoires externes pour voitures en gros Balais d'essuie-glace avant pour Viano ML350 ML300 R300 R350 R50. LELION lame d'essuie-glace spéciale en gros",
       "specs": [
         "Modèle du produit: BW-825",
-        "Taille: Standard",
+        "Taille: 28+21\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -36539,7 +36539,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW-825",
         "Catégorie": "Balai Spécifique",
-        "Taille": "Standard",
+        "Taille": "28+21\"",
         "Couleur": "Noir",
         "Application": "Accessoires externes pour voitures en gros Balais d'essuie-glace avant pour Viano ML350 ML300 R300 R350 R50",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -36551,7 +36551,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Großhandel Auto Exterieur Zubehör Frontscheibenwischerblätter für Viano ML350 ML300 R300 R350 R50. LELION Großhandel Spezial-Wischerblatt",
       "specs": [
         "Produktmodell: BW-825",
-        "Größe: Standard",
+        "Größe: 28+21\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -36566,7 +36566,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW-825",
         "Kategorie": "Spezifisches Wischerblatt",
-        "Größe": "Standard",
+        "Größe": "28+21\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Exterieur Zubehör Frontscheibenwischerblätter für Viano ML350 ML300 R300 R350 R50",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -36607,7 +36607,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Venta al por mayor de accesorios externos para automóviles Limpiaparabrisas delantero para VW GOLF V 2003-2005. LELION escobilla limpiaparabrisas especial AL por mayor",
       "specs": [
         "Modelo del producto: BW-820",
-        "Tamaño: Estándar",
+        "Tamaño: 21+19\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -36622,7 +36622,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW-820",
         "Categoría": "Escobilla Específica",
-        "Tamaño": "Estándar",
+        "Tamaño": "21+19\"",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de accesorios externos para automóviles Limpiaparabrisas delantero para VW GOLF V 2003-2005",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -36634,7 +36634,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Оптовая продажа внешних автомобильных аксессуаров: передние щетки стеклоочистителя для VW GOLF V 2003-2005. LELION оптовая специальная щетка дворника",
       "specs": [
         "Модель продукта: BW-820",
-        "Размер: Стандартный",
+        "Размер: 21+19\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -36649,7 +36649,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW-820",
         "Категория": "Специализированный Стеклоочиститель",
-        "Размер": "Стандартный",
+        "Размер": "21+19\"",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров: передние щетки стеклоочистителя для VW GOLF V 2003-2005",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -36661,7 +36661,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Accessoires externes pour voitures en gros Balais d'essuie-glace avant pour VW GOLF V 2003-2005. LELION lame d'essuie-glace spéciale en gros",
       "specs": [
         "Modèle du produit: BW-820",
-        "Taille: Standard",
+        "Taille: 21+19\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -36676,7 +36676,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW-820",
         "Catégorie": "Balai Spécifique",
-        "Taille": "Standard",
+        "Taille": "21+19\"",
         "Couleur": "Noir",
         "Application": "Accessoires externes pour voitures en gros Balais d'essuie-glace avant pour VW GOLF V 2003-2005",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -36688,7 +36688,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Großhandel Auto Exterieur Zubehör Frontscheibenwischerblätter für VW GOLF V 2003-2005. LELION Großhandel Spezial-Wischerblatt",
       "specs": [
         "Produktmodell: BW-820",
-        "Größe: Standard",
+        "Größe: 21+19\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -36703,7 +36703,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW-820",
         "Kategorie": "Spezifisches Wischerblatt",
-        "Größe": "Standard",
+        "Größe": "21+19\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Auto Exterieur Zubehör Frontscheibenwischerblätter für VW GOLF V 2003-2005",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -42363,7 +42363,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Venta al por mayor Accesorios externos para automóviles Limpiaparabrisas Soft Special 26+14 para Chevrolet Trax 2012-2016. escobilla limpiaparabrisas especial al por mayor",
       "specs": [
         "Modelo del producto: BW-829",
-        "Tamaño: Estándar",
+        "Tamaño: 26+13\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -42378,7 +42378,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW-829",
         "Categoría": "Escobilla Específica",
-        "Tamaño": "Estándar",
+        "Tamaño": "26+13\"",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor Accesorios externos para automóviles Limpiaparabrisas Soft Special 26+14 para Chevrolet Trax 2012-2016",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -42390,7 +42390,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Оптовая продажа внешних автомобильных аксессуаров Мягкие специальные дворники 26 14 дюймов для Chevrolet Trax 2012-2016. Оптовая специальная щетка-дворник",
       "specs": [
         "Модель продукта: BW-829",
-        "Размер: Стандартный",
+        "Размер: 26+13\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -42405,7 +42405,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW-829",
         "Категория": "Специализированный Стеклоочиститель",
-        "Размер": "Стандартный",
+        "Размер": "26+13\"",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа внешних автомобильных аксессуаров Мягкие специальные дворники 26 14 дюймов для Chevrolet Trax 2012-2016",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -42417,7 +42417,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Accessoires externes de voiture en gros Lames d'essuie-glace spéciales souples 26 14 pour Chevrolet Trax 2012-2016. Essuie-glace spécial vente en gros",
       "specs": [
         "Modèle du produit: BW-829",
-        "Taille: Standard",
+        "Taille: 26+13\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -42432,7 +42432,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW-829",
         "Catégorie": "Balai Spécifique",
-        "Taille": "Standard",
+        "Taille": "26+13\"",
         "Couleur": "Noir",
         "Application": "Accessoires externes de voiture en gros Lames d'essuie-glace spéciales souples 26 14 pour Chevrolet Trax 2012-2016",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -42444,7 +42444,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Großhandel Autoexterne Zubehörteile Soft-Spezial 26 14 Wischerblätter für Chevrolet Trax 2012-2016. Großhandel Sonderwischerblatt",
       "specs": [
         "Produktmodell: BW-829",
-        "Größe: Standard",
+        "Größe: 26+13\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -42459,7 +42459,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW-829",
         "Kategorie": "Spezifisches Wischerblatt",
-        "Größe": "Standard",
+        "Größe": "26+13\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Autoexterne Zubehörteile Soft-Spezial 26 14 Wischerblätter für Chevrolet Trax 2012-2016",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -45514,7 +45514,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Venta al por mayor de escobillas para limpiaparabrisas trasero para Toyota Highlander 2001-2003. Repuesto premium de posventa de LELION, un fabricante líder chino de limpiaparabrisas OEM/ODM. Precio directo de fábrica con logística de exportación global.",
       "specs": [
         "Modelo del producto: BW0247P",
-        "Tamaño: Estándar",
+        "Tamaño: 12\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -45529,7 +45529,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW0247P",
         "Categoría": "Escobilla Trasera",
-        "Tamaño": "Estándar",
+        "Tamaño": "12\"",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de escobillas para limpiaparabrisas trasero para Toyota Highlander 2001-2003",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -45541,7 +45541,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Оптовая продажа задних стеклоочистителей для Toyota Highlander 2001-2003. Премиальная вторичная замена от LELION, ведущего китайского производителя дворников OEM/ODM. Прямые цены от производителя с глобальной экспортной логистикой.",
       "specs": [
         "Модель продукта: BW0247P",
-        "Размер: Стандартный",
+        "Размер: 12\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -45556,7 +45556,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW0247P",
         "Категория": "Задняя Щетка",
-        "Размер": "Стандартный",
+        "Размер": "12\"",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа задних стеклоочистителей для Toyota Highlander 2001-2003",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -45568,7 +45568,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Essuie-glaces arrière de pare-brise pour Toyota Highlander 2001-2003. Remplacement premium du marché secondaire par LELION, un fabricant OEM/ODM chinois leader en essuie-glaces. Prix directs d'usine avec logistique d'exportation mondiale.",
       "specs": [
         "Modèle du produit: BW0247P",
-        "Taille: Standard",
+        "Taille: 12\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -45583,7 +45583,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW0247P",
         "Catégorie": "Balai Arrière",
-        "Taille": "Standard",
+        "Taille": "12\"",
         "Couleur": "Noir",
         "Application": "Essuie-glaces arrière de pare-brise pour Toyota Highlander 2001-2003",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -45595,7 +45595,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Großhandel Heckscheibenwischerblätter für Toyota Highlander 2001-2003. Premium Aftermarket-Ersatz von LELION, einem führenden chinesischen OEM/ODM Hersteller von Wischerblättern. Werksdirektpreis mit globaler Exportlogistik.",
       "specs": [
         "Produktmodell: BW0247P",
-        "Größe: Standard",
+        "Größe: 12\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -45610,7 +45610,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW0247P",
         "Kategorie": "Heckwischer",
-        "Größe": "Standard",
+        "Größe": "12\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandel Heckscheibenwischerblätter für Toyota Highlander 2001-2003",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
@@ -45788,7 +45788,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Venta al por mayor de limpiaparabrisas Hot Sells Limpiaparabrisas delantero Soft para Cadillac SLS 2005-2013. escobilla limpiaparabrisas especial al por mayor",
       "specs": [
         "Modelo del producto: BW-825",
-        "Tamaño: Estándar",
+        "Tamaño: 23+21\"",
         "Color: Negro",
         "Marca y embalaje personalizados OEM/ODM disponibles",
         "Precios de fábrica al por mayor",
@@ -45803,7 +45803,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modelo del producto": "BW-825",
         "Categoría": "Escobilla Específica",
-        "Tamaño": "Estándar",
+        "Tamaño": "23+21\"",
         "Color": "Negro",
         "Aplicación": "Venta al por mayor de limpiaparabrisas Hot Sells Limpiaparabrisas delantero Soft para Cadillac SLS 2005-2013",
         "Marca y embalaje personalizados OEM/ODM disponibles": "Marca y embalaje personalizados OEM/ODM disponibles"
@@ -45815,7 +45815,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Оптовая продажа передних мягких щеток стеклоочистителя для Cadillac SLS 2005-2013, пользуются высоким спросом. Оптовая специальная щетка-дворник",
       "specs": [
         "Модель продукта: BW-825",
-        "Размер: Стандартный",
+        "Размер: 23+21\"",
         "Цвет: Черный",
         "Доступны индивидуальная маркировка и упаковка OEM/ODM",
         "Прямые заводские оптовые цены",
@@ -45830,7 +45830,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Модель продукта": "BW-825",
         "Категория": "Специализированный Стеклоочиститель",
-        "Размер": "Стандартный",
+        "Размер": "23+21\"",
         "Цвет": "Черный",
         "Применяемость": "Оптовая продажа передних мягких щеток стеклоочистителя для Cadillac SLS 2005-2013, пользуются высоким спросом",
         "Индивидуальная маркировка и упаковка OEM/ODM": "Доступны индивидуальная маркировка и упаковка OEM/ODM"
@@ -45842,7 +45842,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Balais d'essuie-glace en gros, vente chaude, balais d'essuie-glace avant souples pour Cadillac SLS 2005-2013. Essuie-glace spécial vente en gros",
       "specs": [
         "Modèle du produit: BW-825",
-        "Taille: Standard",
+        "Taille: 23+21\"",
         "Couleur: Noir",
         "Marque et emballage personnalisés OEM/ODM disponibles",
         "Prix de gros directs d'usine",
@@ -45857,7 +45857,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Modèle du produit": "BW-825",
         "Catégorie": "Balai Spécifique",
-        "Taille": "Standard",
+        "Taille": "23+21\"",
         "Couleur": "Noir",
         "Application": "Balais d'essuie-glace en gros, vente chaude, balais d'essuie-glace avant souples pour Cadillac SLS 2005-2013",
         "Marque et emballage personnalisés OEM/ODM disponibles": "Marque et emballage personnalisés OEM/ODM disponibles"
@@ -45869,7 +45869,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Großhandels-Scheibenwischer Heiße Verkäufe Frontscheibe weiche Wischerblätter für Cadillac SLS 2005-2013. Großhandel Sonderwischerblatt",
       "specs": [
         "Produktmodell: BW-825",
-        "Größe: Standard",
+        "Größe: 23+21\"",
         "Farbe: Schwarz",
         "OEM/ODM individuelles Branding & Verpackung verfügbar",
         "Fabrikdirekte Großhandelspreise",
@@ -45884,7 +45884,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "Produktmodell": "BW-825",
         "Kategorie": "Spezifisches Wischerblatt",
-        "Größe": "Standard",
+        "Größe": "23+21\"",
         "Farbe": "Schwarz",
         "Fahrzeuganwendung": "Großhandels-Scheibenwischer Heiße Verkäufe Frontscheibe weiche Wischerblätter für Cadillac SLS 2005-2013",
         "OEM/ODM individuelles Branding & Verpackung verfügbar": "OEM/ODM individuelles Branding & Verpackung verfügbar"
