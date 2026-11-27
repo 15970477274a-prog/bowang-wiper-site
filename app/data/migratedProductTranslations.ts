@@ -3409,7 +3409,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "汽车前挡风玻璃专用雨刮片 适用于雪铁龙 DS4 2011-2015。LELION 提供的高端后市场替换产品，中国领先的 OEM/ODM 雨刷制造商。工厂直供价格，全球出口物流。",
       "specs": [
         "产品型号：BW-829",
-        "尺寸：标准",
+        "尺寸：28+22"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -3424,7 +3424,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW-829",
         "分类": "专用雨刮片",
-        "尺寸": "标准",
+        "尺寸": "28+22\"",
         "颜色": "黑色",
         "适用车型": "汽车前挡风玻璃专用雨刮片 适用于雪铁龙 DS4 2011-2015",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -3546,7 +3546,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "汽车后窗挡风玻璃雨刮片 适用于标致 2008 2014-2018。LELION 提供的高端后市场替换产品，中国领先的 OEM/ODM 雨刷制造商。工厂直供价格，全球出口物流。",
       "specs": [
         "产品型号：BW1123P",
-        "尺寸：标准",
+        "尺寸：12"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -3561,7 +3561,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW1123P",
         "分类": "后雨刮片",
-        "尺寸": "标准",
+        "尺寸": "12\"",
         "颜色": "黑色",
         "适用车型": "汽车后窗挡风玻璃雨刮片 适用于标致 2008 2014-2018",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -3957,7 +3957,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "宝马 5系 E34 1991-1995 专用雨刮片。BMW 5 系 E34 1991-1995 前专用雨刷片",
       "specs": [
         "产品型号：BW-704",
-        "尺寸：标准",
+        "尺寸：24+24"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -3972,7 +3972,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW-704",
         "分类": "专用有骨雨刮片",
-        "尺寸": "标准",
+        "尺寸": "24+24\"",
         "颜色": "黑色",
         "适用车型": "宝马 5系 E34 1991-1995 专用雨刮片",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -12591,7 +12591,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "LELION 批发汽车外部配件 前风挡玻璃软雨刷片 适用于奥迪 A6L 2006-2011。LELION批发特价雨刷",
       "specs": [
         "产品型号：BW-830",
-        "尺寸：标准",
+        "尺寸：22+22"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -12606,7 +12606,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW-830",
         "分类": "专用雨刮片",
-        "尺寸": "标准",
+        "尺寸": "22+22\"",
         "颜色": "黑色",
         "适用车型": "LELION 批发汽车外部配件 前风挡玻璃软雨刷片 适用于奥迪 A6L 2006-2011",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -12865,7 +12865,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "LELION 批发汽车前风挡玻璃专用雨刷片制造商 适用于斯柯达 FABIA 2007-2014。LELION批发特价雨刷",
       "specs": [
         "产品型号：BW-829",
-        "尺寸：标准",
+        "尺寸：21+21"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -12880,7 +12880,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW-829",
         "分类": "专用雨刮片",
-        "尺寸": "标准",
+        "尺寸": "21+21\"",
         "颜色": "黑色",
         "适用车型": "LELION 批发汽车前风挡玻璃专用雨刷片制造商 适用于斯柯达 FABIA 2007-2014",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -16566,7 +16566,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "后挡风玻璃雨刷片 适用于 Kia Sportage 2010-2016。LELION 提供的高端后市场替换产品，中国领先的 OEM/ODM 雨刷制造商。工厂直供价格，全球出口物流。",
       "specs": [
         "产品型号：BW0915P",
-        "尺寸：标准",
+        "尺寸：12"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -16581,7 +16581,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW0915P",
         "分类": "后雨刮片",
-        "尺寸": "标准",
+        "尺寸": "12\"",
         "颜色": "黑色",
         "适用车型": "后挡风玻璃雨刷片 适用于 Kia Sportage 2010-2016",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -16977,7 +16977,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "适用于雪佛兰HHR 2006-2011的后挡风玻璃雨刷片。LELION 提供的高端后市场替换产品，中国领先的 OEM/ODM 雨刷制造商。工厂直供价格，全球出口物流。",
       "specs": [
         "产品型号：BW0155P",
-        "尺寸：标准",
+        "尺寸：11"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -16992,7 +16992,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW0155P",
         "分类": "后雨刮片",
-        "尺寸": "标准",
+        "尺寸": "11\"",
         "颜色": "黑色",
         "适用车型": "适用于雪佛兰HHR 2006-2011的后挡风玻璃雨刷片",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -17805,7 +17805,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "适用于福特探险者2016-2016的后挡风玻璃雨刷片。LELION 提供的高端后市场替换产品，中国领先的 OEM/ODM 雨刷制造商。工厂直供价格，全球出口物流。",
       "specs": [
         "产品型号：BW0875P",
-        "尺寸：标准",
+        "尺寸：11"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -17820,7 +17820,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW0875P",
         "分类": "后雨刮片",
-        "尺寸": "标准",
+        "尺寸": "11\"",
         "颜色": "黑色",
         "适用车型": "适用于福特探险者2016-2016的后挡风玻璃雨刷片",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -17942,7 +17942,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "适用于日产Juke 2010-2016的后挡风玻璃雨刷片。LELION 提供的高端后市场替换产品，中国领先的 OEM/ODM 雨刷制造商。工厂直供价格，全球出口物流。",
       "specs": [
         "产品型号：BW0521P",
-        "尺寸：标准",
+        "尺寸：12"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -17957,7 +17957,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW0521P",
         "分类": "后雨刮片",
-        "尺寸": "标准",
+        "尺寸": "12\"",
         "颜色": "黑色",
         "适用车型": "适用于日产Juke 2010-2016的后挡风玻璃雨刷片",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -18353,7 +18353,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "适用于奔驰M级W164 2005-2011的后挡风玻璃雨刷片。LELION 提供的高端后市场替换产品，中国领先的 OEM/ODM 雨刷制造商。工厂直供价格，全球出口物流。",
       "specs": [
         "产品型号：BW0857P",
-        "尺寸：标准",
+        "尺寸：12"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -18368,7 +18368,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW0857P",
         "分类": "后雨刮片",
-        "尺寸": "标准",
+        "尺寸": "12\"",
         "颜色": "黑色",
         "适用车型": "适用于奔驰M级W164 2005-2011的后挡风玻璃雨刷片",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -18490,7 +18490,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "适用于日产东风逍客Qashqai 2008-2017的后挡风玻璃雨刷片。日产东风Qashqai 2008--2017后挡风玻璃雨刷片",
       "specs": [
         "产品型号：BW0841P",
-        "尺寸：标准",
+        "尺寸：12"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -18505,7 +18505,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW0841P",
         "分类": "后雨刮片",
-        "尺寸": "标准",
+        "尺寸": "12\"",
         "颜色": "黑色",
         "适用车型": "适用于日产东风逍客Qashqai 2008-2017的后挡风玻璃雨刷片",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -19175,7 +19175,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "适用于丰田普锐斯C 2012-2016的后挡风玻璃雨刷片。LELION 提供的高端后市场替换产品，中国领先的 OEM/ODM 雨刷制造商。工厂直供价格，全球出口物流。",
       "specs": [
         "产品型号：BW0230P",
-        "尺寸：标准",
+        "尺寸：16"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -19190,7 +19190,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW0230P",
         "分类": "后雨刮片",
-        "尺寸": "标准",
+        "尺寸": "16\"",
         "颜色": "黑色",
         "适用车型": "适用于丰田普锐斯C 2012-2016的后挡风玻璃雨刷片",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -19449,7 +19449,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "GMC YUKON 2007-2014 后挡风玻璃雨刷片。LELION 提供的高端后市场替换产品，中国领先的 OEM/ODM 雨刷制造商。工厂直供价格，全球出口物流。",
       "specs": [
         "产品型号：BW6002P",
-        "尺寸：标准",
+        "尺寸：12"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -19464,7 +19464,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW6002P",
         "分类": "后雨刮片",
-        "尺寸": "标准",
+        "尺寸": "12\"",
         "颜色": "黑色",
         "适用车型": "GMC YUKON 2007-2014 后挡风玻璃雨刷片",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -19723,7 +19723,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "英菲尼迪 EX35 2008-2012 后挡风玻璃雨刷片。LELION 提供的高端后市场替换产品，中国领先的 OEM/ODM 雨刷制造商。工厂直供价格，全球出口物流。",
       "specs": [
         "产品型号：BW0508P",
-        "尺寸：标准",
+        "尺寸：14"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -19738,7 +19738,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW0508P",
         "分类": "后雨刮片",
-        "尺寸": "标准",
+        "尺寸": "14\"",
         "颜色": "黑色",
         "适用车型": "英菲尼迪 EX35 2008-2012 后挡风玻璃雨刷片",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -20134,7 +20134,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "迷你 Countryman (R60) 2010-2016 后挡风玻璃雨刷片。LELION 提供的高端后市场替换产品，中国领先的 OEM/ODM 雨刷制造商。工厂直供价格，全球出口物流。",
       "specs": [
         "产品型号：BW0830P",
-        "尺寸：标准",
+        "尺寸：10"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -20149,7 +20149,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW0830P",
         "分类": "后雨刮片",
-        "尺寸": "标准",
+        "尺寸": "10\"",
         "颜色": "黑色",
         "适用车型": "迷你 Countryman (R60) 2010-2016 后挡风玻璃雨刷片",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -20545,7 +20545,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "丰田 YARIS 2008-2013 后挡风玻璃雨刷片。LELION 提供的高端后市场替换产品，中国领先的 OEM/ODM 雨刷制造商。工厂直供价格，全球出口物流。",
       "specs": [
         "产品型号：BW0202P",
-        "尺寸：标准",
+        "尺寸：12"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -20560,7 +20560,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW0202P",
         "分类": "后雨刮片",
-        "尺寸": "标准",
+        "尺寸": "12\"",
         "颜色": "黑色",
         "适用车型": "丰田 YARIS 2008-2013 后挡风玻璃雨刷片",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -21093,7 +21093,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "本田 ODYSSEY 2011 后挡风玻璃雨刷片。LELION 提供的高端后市场替换产品，中国领先的 OEM/ODM 雨刷制造商。工厂直供价格，全球出口物流。",
       "specs": [
         "产品型号：BW0306P",
-        "尺寸：标准",
+        "尺寸：16"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -21108,7 +21108,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW0306P",
         "分类": "后雨刮片",
-        "尺寸": "标准",
+        "尺寸": "16\"",
         "颜色": "黑色",
         "适用车型": "本田 ODYSSEY 2011 后挡风玻璃雨刷片",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -21230,7 +21230,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "起亚 NIRO 2017-2019 后挡风玻璃雨刷片。LELION 提供的高端后市场替换产品，中国领先的 OEM/ODM 雨刷制造商。工厂直供价格，全球出口物流。",
       "specs": [
         "产品型号：BW0158P",
-        "尺寸：标准",
+        "尺寸：12"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -21245,7 +21245,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW0158P",
         "分类": "后雨刮片",
-        "尺寸": "标准",
+        "尺寸": "12\"",
         "颜色": "黑色",
         "适用车型": "起亚 NIRO 2017-2019 后挡风玻璃雨刷片",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -21367,7 +21367,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "雪佛兰 TAHOE 2013 后挡风玻璃雨刷片。LELION 提供的高端后市场替换产品，中国领先的 OEM/ODM 雨刷制造商。工厂直供价格，全球出口物流。",
       "specs": [
         "产品型号：BW1911P",
-        "尺寸：标准",
+        "尺寸：12"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -21382,7 +21382,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW1911P",
         "分类": "后雨刮片",
-        "尺寸": "标准",
+        "尺寸": "12\"",
         "颜色": "黑色",
         "适用车型": "雪佛兰 TAHOE 2013 后挡风玻璃雨刷片",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -21641,7 +21641,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "道奇 DURANGO 2011-2014 后挡风玻璃雨刷片。LELION 提供的高端后市场替换产品，中国领先的 OEM/ODM 雨刷制造商。工厂直供价格，全球出口物流。",
       "specs": [
         "产品型号：BW0141P",
-        "尺寸：标准",
+        "尺寸：12"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -21656,7 +21656,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW0141P",
         "分类": "后雨刮片",
-        "尺寸": "标准",
+        "尺寸": "12\"",
         "颜色": "黑色",
         "适用车型": "道奇 DURANGO 2011-2014 后挡风玻璃雨刷片",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -21915,7 +21915,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "本田 Civic 2001 - 2005 后挡风玻璃雨刷片。LELION 提供的高端后市场替换产品，中国领先的 OEM/ODM 雨刷制造商。工厂直供价格，全球出口物流。",
       "specs": [
         "产品型号：BW0310P",
-        "尺寸：标准",
+        "尺寸：12"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -21930,7 +21930,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW0310P",
         "分类": "后雨刮片",
-        "尺寸": "标准",
+        "尺寸": "12\"",
         "颜色": "黑色",
         "适用车型": "本田 Civic 2001 - 2005 后挡风玻璃雨刷片",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -22326,7 +22326,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "起亚 Borrego 2009-2011 后挡风玻璃雨刷片。LELION 提供的高端后市场替换产品，中国领先的 OEM/ODM 雨刷制造商。工厂直供价格，全球出口物流。",
       "specs": [
         "产品型号：BW0901P",
-        "尺寸：标准",
+        "尺寸：14"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -22341,7 +22341,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW0901P",
         "分类": "后雨刮片",
-        "尺寸": "标准",
+        "尺寸": "14\"",
         "颜色": "黑色",
         "适用车型": "起亚 Borrego 2009-2011 后挡风玻璃雨刷片",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -22874,7 +22874,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "日产Armada 2004-2015款后挡风玻璃雨刷片。LELION 提供的高端后市场替换产品，中国领先的 OEM/ODM 雨刷制造商。工厂直供价格，全球出口物流。",
       "specs": [
         "产品型号：BW0513P",
-        "尺寸：标准",
+        "尺寸：12"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -22889,7 +22889,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW0513P",
         "分类": "后雨刮片",
-        "尺寸": "标准",
+        "尺寸": "12\"",
         "颜色": "黑色",
         "适用车型": "日产Armada 2004-2015款后挡风玻璃雨刷片",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -23696,7 +23696,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "宝马F20 2011-2019款后挡风玻璃雨刷片。LELION 提供的高端后市场替换产品，中国领先的 OEM/ODM 雨刷制造商。工厂直供价格，全球出口物流。",
       "specs": [
         "产品型号：BW2007P",
-        "尺寸：标准",
+        "尺寸：12"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -23711,7 +23711,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW2007P",
         "分类": "后雨刮片",
-        "尺寸": "标准",
+        "尺寸": "12\"",
         "颜色": "黑色",
         "适用车型": "宝马F20 2011-2019款后挡风玻璃雨刷片",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -23833,7 +23833,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "GMC Acadia 2007-2012款后挡风玻璃雨刷片。LELION 提供的高端后市场替换产品，中国领先的 OEM/ODM 雨刷制造商。工厂直供价格，全球出口物流。",
       "specs": [
         "产品型号：BW6001P",
-        "尺寸：标准",
+        "尺寸：11"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -23848,7 +23848,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW6001P",
         "分类": "后雨刮片",
-        "尺寸": "标准",
+        "尺寸": "11\"",
         "颜色": "黑色",
         "适用车型": "GMC Acadia 2007-2012款后挡风玻璃雨刷片",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -23970,7 +23970,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "起亚SPORTAGE IV 2018款后挡风玻璃雨刷片。起亚Sportage IV 2018后挡风玻璃雨刷",
       "specs": [
         "产品型号：BW4001P",
-        "尺寸：标准",
+        "尺寸：11"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -23985,7 +23985,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW4001P",
         "分类": "后雨刮片",
-        "尺寸": "标准",
+        "尺寸": "11\"",
         "颜色": "黑色",
         "适用车型": "起亚SPORTAGE IV 2018款后挡风玻璃雨刷片",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -25067,7 +25067,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "欧洲版宝马I3 2016款后雨刷片。LELION 提供的高端后市场替换产品，中国领先的 OEM/ODM 雨刷制造商。工厂直供价格，全球出口物流。",
       "specs": [
         "产品型号：BW0121P",
-        "尺寸：标准",
+        "尺寸：12"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -25082,7 +25082,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW0121P",
         "分类": "后雨刮片",
-        "尺寸": "标准",
+        "尺寸": "12\"",
         "颜色": "黑色",
         "适用车型": "欧洲版宝马I3 2016款后雨刷片",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -25204,7 +25204,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "马自达3 2010款后雨刷片。LELION 提供的高端后市场替换产品，中国领先的 OEM/ODM 雨刷制造商。工厂直供价格，全球出口物流。",
       "specs": [
         "产品型号：BW0611P",
-        "尺寸：标准",
+        "尺寸：14"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -25219,7 +25219,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW0611P",
         "分类": "后雨刮片",
-        "尺寸": "标准",
+        "尺寸": "14\"",
         "颜色": "黑色",
         "适用车型": "马自达3 2010款后雨刷片",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -25478,7 +25478,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "Smart Fortwo Coupe 451 2007-2014款后雨刷片。适用于SMART for TWO 451 2007-2016的后挡风玻璃雨刷片",
       "specs": [
         "产品型号：BW2603P",
-        "尺寸：标准",
+        "尺寸：10"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -25493,7 +25493,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW2603P",
         "分类": "后雨刮片",
-        "尺寸": "标准",
+        "尺寸": "10\"",
         "颜色": "黑色",
         "适用车型": "Smart Fortwo Coupe 451 2007-2014款后雨刷片",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -25753,7 +25753,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "大众高尔夫4 MK4 IV 1997-2002款后雨刷片。LELION 提供的高端后市场替换产品，中国领先的 OEM/ODM 雨刷制造商。工厂直供价格，全球出口物流。",
       "specs": [
         "产品型号：BW1809P",
-        "尺寸：标准",
+        "尺寸：13"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -25768,7 +25768,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW1809P",
         "分类": "后雨刮片",
-        "尺寸": "标准",
+        "尺寸": "13\"",
         "颜色": "黑色",
         "适用车型": "大众高尔夫4 MK4 IV 1997-2002款后雨刷片",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -25890,7 +25890,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "2006-2010款Jeep Commander后雨刷片。吉普指挥官大切诺基后挡风玻璃雨刷片",
       "specs": [
         "产品型号：BW3302P",
-        "尺寸：标准",
+        "尺寸：14"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -25905,7 +25905,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW3302P",
         "分类": "后雨刮片",
-        "尺寸": "标准",
+        "尺寸": "14\"",
         "颜色": "黑色",
         "适用车型": "2006-2010款Jeep Commander后雨刷片",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -26164,7 +26164,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "2014-2020款Acura MDX 76730TZ5A01后雨刷片。LELION 提供的高端后市场替换产品，中国领先的 OEM/ODM 雨刷制造商。工厂直供价格，全球出口物流。",
       "specs": [
         "产品型号：BW5702P",
-        "尺寸：标准",
+        "尺寸：14"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -26179,7 +26179,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW5702P",
         "分类": "后雨刮片",
-        "尺寸": "标准",
+        "尺寸": "14\"",
         "颜色": "黑色",
         "适用车型": "2014-2020款Acura MDX 76730TZ5A01后雨刷片",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -26301,7 +26301,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "2015-2024款福特Edge后雨刷片。LELION 提供的高端后市场替换产品，中国领先的 OEM/ODM 雨刷制造商。工厂直供价格，全球出口物流。",
       "specs": [
         "产品型号：BW0718P",
-        "尺寸：标准",
+        "尺寸：15"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -26316,7 +26316,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW0718P",
         "分类": "后雨刮片",
-        "尺寸": "标准",
+        "尺寸": "15\"",
         "颜色": "黑色",
         "适用车型": "2015-2024款福特Edge后雨刷片",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -26575,7 +26575,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "日产Leaf 2010-2017款后雨刷片。LELION 提供的高端后市场替换产品，中国领先的 OEM/ODM 雨刷制造商。工厂直供价格，全球出口物流。",
       "specs": [
         "产品型号：BW0170P",
-        "尺寸：标准",
+        "尺寸：10"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -26590,7 +26590,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW0170P",
         "分类": "后雨刮片",
-        "尺寸": "标准",
+        "尺寸": "10\"",
         "颜色": "黑色",
         "适用车型": "日产Leaf 2010-2017款后雨刷片",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -26712,7 +26712,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "雷诺 CLIO 2012-2017 后雨刷片。LELION 提供的高端后市场替换产品，中国领先的 OEM/ODM 雨刷制造商。工厂直供价格，全球出口物流。",
       "specs": [
         "产品型号：BW0194P",
-        "尺寸：标准",
+        "尺寸：12"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -26727,7 +26727,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW0194P",
         "分类": "后雨刮片",
-        "尺寸": "标准",
+        "尺寸": "12\"",
         "颜色": "黑色",
         "适用车型": "雷诺 CLIO 2012-2017 后雨刷片",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -26986,7 +26986,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "沃尔沃 C30 2006-2010 后雨刷片。沃尔沃 C30 2006 - 2010 后雨刷片",
       "specs": [
         "产品型号：BW0183P",
-        "尺寸：标准",
+        "尺寸：15"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -27001,7 +27001,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW0183P",
         "分类": "后雨刮片",
-        "尺寸": "标准",
+        "尺寸": "15\"",
         "颜色": "黑色",
         "适用车型": "沃尔沃 C30 2006-2010 后雨刷片",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -27260,7 +27260,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "雷诺 Clio MK1 1994-1998 后雨刷片。LELION 提供的高端后市场替换产品，中国领先的 OEM/ODM 雨刷制造商。工厂直供价格，全球出口物流。",
       "specs": [
         "产品型号：BW2420P",
-        "尺寸：标准",
+        "尺寸：16"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -27275,7 +27275,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW2420P",
         "分类": "后雨刮片",
-        "尺寸": "标准",
+        "尺寸": "16\"",
         "颜色": "黑色",
         "适用车型": "雷诺 Clio MK1 1994-1998 后雨刷片",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -27534,7 +27534,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "大众高尔夫 V 2003-2005 特殊汽车前挡风玻璃雨刷片。LELION 提供的高端后市场替换产品，中国领先的 OEM/ODM 雨刷制造商。工厂直供价格，全球出口物流。",
       "specs": [
         "产品型号：BW-820",
-        "尺寸：标准",
+        "尺寸：21+19"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -27549,7 +27549,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW-820",
         "分类": "专用雨刮片",
-        "尺寸": "标准",
+        "尺寸": "21+19\"",
         "颜色": "黑色",
         "适用车型": "大众高尔夫 V 2003-2005 特殊汽车前挡风玻璃雨刷片",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -28083,7 +28083,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "批发汽车外部配件 大众帕萨特 2010-2013 前挡风玻璃柔性雨刷片。批发专用雨刷片",
       "specs": [
         "产品型号：BW-831",
-        "尺寸：标准",
+        "尺寸：24+19"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -28098,7 +28098,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW-831",
         "分类": "专用雨刮片",
-        "尺寸": "标准",
+        "尺寸": "24+19\"",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 大众帕萨特 2010-2013 前挡风玻璃柔性雨刷片",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -28220,7 +28220,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "批发汽车外部配件 路虎自由人前挡风玻璃特殊雨刷片。LELION批发特价雨刷",
       "specs": [
         "产品型号：BW-825",
-        "尺寸：标准",
+        "尺寸：22+21"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -28235,7 +28235,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW-825",
         "分类": "专用雨刮片",
-        "尺寸": "标准",
+        "尺寸": "22+21\"",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 路虎自由人前挡风玻璃特殊雨刷片",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -29454,7 +29454,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "批发汽车外部配件 前挡风玻璃雨刷 路虎发现5用。LELION批发特价雨刷",
       "specs": [
         "产品型号：BW-848A",
-        "尺寸：标准",
+        "尺寸：24+20"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -29469,7 +29469,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW-848A",
         "分类": "专用雨刮片",
-        "尺寸": "标准",
+        "尺寸": "24+20\"",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 前挡风玻璃雨刷 路虎发现5用",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -29865,7 +29865,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "批发汽车外部配件 前挡风玻璃柔性雨刷 奥迪A1 A3 A4 A5 A6 A7 A8用。LELION批发特价雨刷",
       "specs": [
         "产品型号：BW-831",
-        "尺寸：标准",
+        "尺寸：26+21"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -29880,7 +29880,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW-831",
         "分类": "专用雨刮片",
-        "尺寸": "标准",
+        "尺寸": "26+21\"",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 前挡风玻璃柔性雨刷 奥迪A1 A3 A4 A5 A6 A7 A8用",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -30002,7 +30002,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "批发汽车外部配件 前挡风玻璃柔性雨刷 大众高尔夫6 2009用。LELION批发特价雨刷",
       "specs": [
         "产品型号：BW-829",
-        "尺寸：标准",
+        "尺寸：24+19"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -30017,7 +30017,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW-829",
         "分类": "专用雨刮片",
-        "尺寸": "标准",
+        "尺寸": "24+19\"",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 前挡风玻璃柔性雨刷 大众高尔夫6 2009用",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -30413,7 +30413,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "批发汽车外部配件 前挡风玻璃雨刷 凯迪拉克SRX 2010-2016用。特价雨刷",
       "specs": [
         "产品型号：BW-829",
-        "尺寸：标准",
+        "尺寸：26+17"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -30428,7 +30428,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW-829",
         "分类": "专用雨刮片",
-        "尺寸": "标准",
+        "尺寸": "26+17\"",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 前挡风玻璃雨刷 凯迪拉克SRX 2010-2016用",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -30550,7 +30550,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "批发汽车外部配件 前挡风玻璃雨刷 现代Veracruz 2012用。批发专用雨刷片",
       "specs": [
         "产品型号：BW-829",
-        "尺寸：标准",
+        "尺寸：24+20"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -30565,7 +30565,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW-829",
         "分类": "专用雨刮片",
-        "尺寸": "标准",
+        "尺寸": "24+20\"",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 前挡风玻璃雨刷 现代Veracruz 2012用",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -30687,7 +30687,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "批发汽车外部配件 前挡风玻璃雨刷 MINI CLUBMAN R55 2012-2015用。特价雨刷",
       "specs": [
         "产品型号：BW-827",
-        "尺寸：标准",
+        "尺寸：19+18"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -30702,7 +30702,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW-827",
         "分类": "专用雨刮片",
-        "尺寸": "标准",
+        "尺寸": "19+18\"",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 前挡风玻璃雨刷 MINI CLUBMAN R55 2012-2015用",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -30961,7 +30961,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "批发汽车外部配件 前挡风玻璃雨刷 大众迈腾 2013用。批发专用雨刷片",
       "specs": [
         "产品型号：BW-831",
-        "尺寸：标准",
+        "尺寸：24+19"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -30976,7 +30976,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW-831",
         "分类": "专用雨刮片",
-        "尺寸": "标准",
+        "尺寸": "24+19\"",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 前挡风玻璃雨刷 大众迈腾 2013用",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -31098,7 +31098,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "批发汽车外部配件前挡风玻璃雨刷片适用于大众途锐 2002-2017。LELION批发特价雨刷",
       "specs": [
         "产品型号：BW-835",
-        "尺寸：标准",
+        "尺寸：26+26"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -31113,7 +31113,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW-835",
         "分类": "专用雨刮片",
-        "尺寸": "标准",
+        "尺寸": "26+26\"",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃雨刷片适用于大众途锐 2002-2017",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -31372,7 +31372,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "批发汽车外部配件前挡风玻璃 24 16 特殊雨刷片适用于大众捷达 2015。批发专用雨刷片",
       "specs": [
         "产品型号：BW-829",
-        "尺寸：标准",
+        "尺寸：24+19"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -31387,7 +31387,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW-829",
         "分类": "专用雨刮片",
-        "尺寸": "标准",
+        "尺寸": "24+19\"",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃 24 16 特殊雨刷片适用于大众捷达 2015",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -32605,7 +32605,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "批发汽车外部配件前挡风玻璃无骨雨刷片适用于宝马 5 系列 7 系列 2016。批发专用雨刷片",
       "specs": [
         "产品型号：BW-849",
-        "尺寸：标准",
+        "尺寸：26+18"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -32620,7 +32620,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW-849",
         "分类": "专用雨刮片",
-        "尺寸": "标准",
+        "尺寸": "26+18\"",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃无骨雨刷片适用于宝马 5 系列 7 系列 2016",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -32742,7 +32742,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "批发汽车外部配件前挡风玻璃软雨刷片适用于奥迪 Q3 A6L A8L A7。批发专用雨刷片",
       "specs": [
         "产品型号：BW-831",
-        "尺寸：标准",
+        "尺寸：26+21"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -32757,7 +32757,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW-831",
         "分类": "专用雨刮片",
-        "尺寸": "标准",
+        "尺寸": "26+21\"",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃软雨刷片适用于奥迪 Q3 A6L A8L A7",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -33153,7 +33153,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "批发汽车外部配件前挡风玻璃软雨刷片适用于奥迪A4 A6 2002-2008。LELION批发特价雨刷",
       "specs": [
         "产品型号：BW-828",
-        "尺寸：标准",
+        "尺寸：22+22"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -33168,7 +33168,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW-828",
         "分类": "专用雨刮片",
-        "尺寸": "标准",
+        "尺寸": "22+22\"",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃软雨刷片适用于奥迪A4 A6 2002-2008",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -33290,7 +33290,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "批发汽车外部配件前挡风玻璃软雨刷片适用于奥迪Q3 2011-2018。批发专用雨刷片",
       "specs": [
         "产品型号：BW-831",
-        "尺寸：标准",
+        "尺寸：24+20"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -33305,7 +33305,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW-831",
         "分类": "专用雨刮片",
-        "尺寸": "标准",
+        "尺寸": "24+20\"",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃软雨刷片适用于奥迪Q3 2011-2018",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -33838,7 +33838,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "批发汽车外部配件前挡风玻璃专用雨刷片适用于奔驰CL级 S级 CLA。批发专用雨刷片",
       "specs": [
         "产品型号：BW-822",
-        "尺寸：标准",
+        "尺寸：27+27"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -33853,7 +33853,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW-822",
         "分类": "专用雨刮片",
-        "尺寸": "标准",
+        "尺寸": "27+27\"",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃专用雨刷片适用于奔驰CL级 S级 CLA",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -33975,7 +33975,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "批发汽车外部配件前挡风玻璃雨刷片适用于路虎揽胜 2003-2012。LELION批发特价雨刷",
       "specs": [
         "产品型号：BW-709",
-        "尺寸：标准",
+        "尺寸：26+26"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -33990,7 +33990,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW-709",
         "分类": "专用有骨雨刮片",
-        "尺寸": "标准",
+        "尺寸": "26+26\"",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃雨刷片适用于路虎揽胜 2003-2012",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -34112,7 +34112,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "批发汽车外部配件前挡风玻璃雨刷片适用于奥迪A6L 2006-2011。LELION批发特价雨刷",
       "specs": [
         "产品型号：BW-830",
-        "尺寸：标准",
+        "尺寸：22+22"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -34127,7 +34127,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW-830",
         "分类": "专用雨刮片",
-        "尺寸": "标准",
+        "尺寸": "22+22\"",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃雨刷片适用于奥迪A6L 2006-2011",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -34523,7 +34523,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "批发汽车外部配件前挡风玻璃雨刷片适用于宝马5系 2004-2009。特价雨刷",
       "specs": [
         "产品型号：BW-826",
-        "尺寸：标准",
+        "尺寸：24+22"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -34538,7 +34538,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW-826",
         "分类": "专用雨刮片",
-        "尺寸": "标准",
+        "尺寸": "24+22\"",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃雨刷片适用于宝马5系 2004-2009",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -35208,7 +35208,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "批发汽车外部配件前挡风玻璃雨刷片，适用于路虎发现5。LELION批发特价雨刷",
       "specs": [
         "产品型号：BW-848A",
-        "尺寸：标准",
+        "尺寸：24+20"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -35223,7 +35223,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW-848A",
         "分类": "专用雨刮片",
-        "尺寸": "标准",
+        "尺寸": "24+20\"",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃雨刷片，适用于路虎发现5",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -35619,7 +35619,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "批发汽车外部配件前挡风玻璃雨刷片，适用于雷诺大景 II 2006-20。批发专用雨刷片",
       "specs": [
         "产品型号：BW-827",
-        "尺寸：标准",
+        "尺寸：24+18"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -35634,7 +35634,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW-827",
         "分类": "专用雨刮片",
-        "尺寸": "标准",
+        "尺寸": "24+18\"",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃雨刷片，适用于雷诺大景 II 2006-20",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -35756,7 +35756,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "批发汽车外部配件前挡风玻璃雨刷片，适用于雷诺科雷奥斯2008-2016。LELION批发特价雨刷",
       "specs": [
         "产品型号：BW-825",
-        "尺寸：标准",
+        "尺寸：24+19"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -35771,7 +35771,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW-825",
         "分类": "专用雨刮片",
-        "尺寸": "标准",
+        "尺寸": "24+19\"",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃雨刷片，适用于雷诺科雷奥斯2008-2016",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -36167,7 +36167,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "批发汽车外部配件前挡风玻璃雨刷片，适用于斯柯达明锐/速派2016。批发专用雨刷片",
       "specs": [
         "产品型号：BW-831",
-        "尺寸：标准",
+        "尺寸：26+18"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -36182,7 +36182,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW-831",
         "分类": "专用雨刮片",
-        "尺寸": "标准",
+        "尺寸": "26+18\"",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃雨刷片，适用于斯柯达明锐/速派2016",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -36441,7 +36441,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "批发汽车外部配件前挡风玻璃雨刷片，适用于Smart Forfour 2007-2015。批发专用雨刷片",
       "specs": [
         "产品型号：BW-825",
-        "尺寸：标准",
+        "尺寸：20+14"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -36456,7 +36456,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW-825",
         "分类": "专用雨刮片",
-        "尺寸": "标准",
+        "尺寸": "20+14\"",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃雨刷片，适用于Smart Forfour 2007-2015",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -36578,7 +36578,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "批发汽车外部配件前挡风玻璃雨刷片，适用于Viano ML350 ML300 R300 R350 R50。LELION批发特价雨刷",
       "specs": [
         "产品型号：BW-825",
-        "尺寸：标准",
+        "尺寸：28+21"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -36593,7 +36593,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW-825",
         "分类": "专用雨刮片",
-        "尺寸": "标准",
+        "尺寸": "28+21\"",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃雨刷片，适用于Viano ML350 ML300 R300 R350 R50",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -36715,7 +36715,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "批发汽车外部配件前挡风玻璃雨刷片，适用于大众高尔夫 V 2003-2005。LELION批发特价雨刷",
       "specs": [
         "产品型号：BW-820",
-        "尺寸：标准",
+        "尺寸：21+19"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -36730,7 +36730,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW-820",
         "分类": "专用雨刮片",
-        "尺寸": "标准",
+        "尺寸": "21+19\"",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件前挡风玻璃雨刷片，适用于大众高尔夫 V 2003-2005",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -42471,7 +42471,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "批发汽车外部配件 雪佛兰Trax 2012-2016 软式特殊26/14雨刷片。批发专用雨刷片",
       "specs": [
         "产品型号：BW-829",
-        "尺寸：标准",
+        "尺寸：26+13"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -42486,7 +42486,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW-829",
         "分类": "专用雨刮片",
-        "尺寸": "标准",
+        "尺寸": "26+13\"",
         "颜色": "黑色",
         "适用车型": "批发汽车外部配件 雪佛兰Trax 2012-2016 软式特殊26/14雨刷片",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -45622,7 +45622,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "批发丰田汉兰达（2001-2003）后挡风玻璃雨刷片。LELION 提供的高端后市场替换产品，中国领先的 OEM/ODM 雨刷制造商。工厂直供价格，全球出口物流。",
       "specs": [
         "产品型号：BW0247P",
-        "尺寸：标准",
+        "尺寸：12"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -45637,7 +45637,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW0247P",
         "分类": "后雨刮片",
-        "尺寸": "标准",
+        "尺寸": "12\"",
         "颜色": "黑色",
         "适用车型": "批发丰田汉兰达（2001-2003）后挡风玻璃雨刷片",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
@@ -45896,7 +45896,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "longDesc": "批发雨刷热销 凯迪拉克SLS 2005-2013前挡风玻璃软雨刷片。批发专用雨刷片",
       "specs": [
         "产品型号：BW-825",
-        "尺寸：标准",
+        "尺寸：23+21"",
         "颜色：黑色",
         "支持 OEM/ODM 定制品牌与包装",
         "工厂直销批发价",
@@ -45911,7 +45911,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
       "technicalDetails": {
         "产品型号": "BW-825",
         "分类": "专用雨刮片",
-        "尺寸": "标准",
+        "尺寸": "23+21\"",
         "颜色": "黑色",
         "适用车型": "批发雨刷热销 凯迪拉克SLS 2005-2013前挡风玻璃软雨刷片",
         "支持 OEM/ODM 定制品牌与包装": "支持 OEM/ODM 定制品牌与包装"
