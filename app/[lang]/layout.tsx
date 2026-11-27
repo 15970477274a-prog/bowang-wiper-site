@@ -112,6 +112,18 @@ const organizationSchema = {
   "contactPoint": [
     { "@type": "ContactPoint", "name": "Overseas Sales Office", "telephone": "+8618867886795", "email": "bwb@bwwiper.com", "contactType": "sales", "areaServed": "Worldwide", "availableLanguage": ["English", "Spanish", "Russian", "French", "German", "Chinese"] }
   ],
+  // Primary wholesale markets. Google and AI answer engines both use
+  // areaServed to decide whether an organisation is a plausible answer to a
+  // "supplier for <country>" question; without it the factory reads as a
+  // worldwide supplier with no regional relevance at all.
+  "areaServed": [
+    { "@type": "Country", "name": "United States" },
+    { "@type": "Country", "name": "Canada" },
+    { "@type": "Country", "name": "Australia" },
+    { "@type": "Country", "name": "New Zealand" },
+    { "@type": "Country", "name": "Russia" }
+  ],
+  "knowsLanguage": ["en", "ru", "es", "fr", "de", "zh"],
   "sameAs": [
     "https://nb-bowang.en.alibaba.com/",
     "https://nbzhbw.en.made-in-china.com/",

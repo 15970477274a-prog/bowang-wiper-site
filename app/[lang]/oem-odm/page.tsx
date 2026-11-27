@@ -56,6 +56,12 @@ type Copy = {
 
   blogLink: string;
 
+  marketsTitle: string;
+
+  marketsLead: string;
+
+  markets: string[];
+
 };
 
 
@@ -237,6 +243,14 @@ const oem: Record<string, Copy> = {
     btnQuote: "Request a quotation",
 
     btnCatalog: "Download E-Catalog (PDF)",
+
+    marketsTitle: "Where our wholesale buyers are",
+
+    marketsLead:
+
+      "Most of our OEM and private-label volume ships to these markets, where buyers stock wiper blades the way they stock filters and brake pads: by vehicle coverage, not by campaign.",
+
+    markets: ["United States", "Canada", "Australia", "New Zealand", "Russia"],
 
     blogLead: "Read more about private-label programmes in our guide:",
 
@@ -420,6 +434,14 @@ const oem: Record<string, Copy> = {
 
     btnCatalog: "Descargar E-Catálogo (PDF)",
 
+    marketsTitle: "Dónde están nuestros compradores mayoristas",
+
+    marketsLead:
+
+      "La mayor parte de nuestro volumen OEM y de marca blanca se envía a estos mercados, donde las escobillas se almacenan igual que los filtros y las pastillas de freno: por cobertura de vehículos, no por campaña.",
+
+    markets: ["Estados Unidos", "Canadá", "Australia", "Nueva Zelanda", "Rusia"],
+
     blogLead: "Lea más sobre los programas de marca blanca en nuestra guía:",
 
     blogLink: "Escobillas limpiaparabrisas OEM y de marca blanca: guía completa",
@@ -589,6 +611,14 @@ const oem: Record<string, Copy> = {
     btnQuote: "Запросить цену",
 
     btnCatalog: "Скачать электронный каталог (PDF)",
+
+    marketsTitle: "Где находятся наши оптовые покупатели",
+
+    marketsLead:
+
+      "Основной объём OEM и private label уходит на эти рынки, где щётки закупают так же, как фильтры и тормозные колодки: по охвату моделей, а не под кампанию.",
+
+    markets: ["США", "Канада", "Австралия", "Новая Зеландия", "Россия"],
 
     blogLead: "Подробнее о программах собственных марок — в нашем руководстве:",
 
@@ -760,6 +790,14 @@ const oem: Record<string, Copy> = {
 
     btnCatalog: "Télécharger l'E-Catalogue (PDF)",
 
+    marketsTitle: "Où se trouvent nos acheteurs en gros",
+
+    marketsLead:
+
+      "L'essentiel de notre volume OEM et marque blanche part vers ces marchés, où les balais sont stockés comme les filtres et les plaquettes : par couverture de véhicules, pas par campagne.",
+
+    markets: ["États-Unis", "Canada", "Australie", "Nouvelle-Zélande", "Russie"],
+
     blogLead: "Pour en savoir plus sur les programmes de marque blanche, lisez notre guide :",
 
     blogLink: "Balais d'essuie-glace OEM et en marque blanche : le guide complet",
@@ -930,6 +968,14 @@ const oem: Record<string, Copy> = {
 
     btnCatalog: "E-Katalog herunterladen (PDF)",
 
+    marketsTitle: "Wo unsere Großhandelskunden sitzen",
+
+    marketsLead:
+
+      "Der Großteil unseres OEM- und Private-Label-Volumens geht in diese Märkte, in denen Wischer wie Filter und Bremsbeläge bevorratet werden: nach Fahrzeugabdeckung, nicht nach Kampagne.",
+
+    markets: ["Vereinigte Staaten", "Kanada", "Australien", "Neuseeland", "Russland"],
+
     blogLead: "Mehr über Private-Label-Programme in unserem Leitfaden:",
 
     blogLink: "OEM- und Private-Label-Wischerblätter: ein vollständiger Leitfaden",
@@ -1051,6 +1097,14 @@ const oem: Record<string, Copy> = {
     btnQuote: "获取报价",
 
     btnCatalog: "下载电子目录（PDF）",
+
+    marketsTitle: "我们的批发客户主要分布",
+
+    marketsLead:
+
+      "我们的 OEM 与自有品牌订单主要发往以下市场。这些市场的买家按车型覆盖面备货，而不是按单次活动备货，雨刮片和滤清器、刹车片的备货逻辑一致。",
+
+    markets: ["美国", "加拿大", "澳大利亚", "新西兰", "俄罗斯"],
 
     blogLead: "关于贴牌项目的更多内容，见我们的指南：",
 
@@ -1548,6 +1602,44 @@ export default function Page() {
           >
             {pickPack(packagingNote, lang)}
           </p>
+        </div>
+      </section>
+
+      {/* 7b. Wholesale markets — the five regions the sales team actually
+          ships to. Kept as plain text + list so answer engines can quote the
+          country names without parsing a card grid. */}
+      <section style={{ padding: "90px 20px", backgroundColor: "#ffffff", borderTop: "1px solid #e2e8f0" }}>
+        <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
+          <h2 style={sectionTitle}>{c.marketsTitle}</h2>
+          <div style={rule} />
+          <p style={{ ...sectionLead, marginTop: "24px" }}>{c.marketsLead}</p>
+          <ul
+            style={{
+              listStyle: "none",
+              padding: 0,
+              margin: "28px 0 0",
+              display: "flex",
+              flexWrap: "wrap",
+              gap: "12px",
+            }}
+          >
+            {c.markets.map((m) => (
+              <li
+                key={m}
+                style={{
+                  border: "1px solid #cbd5e1",
+                  borderRadius: "999px",
+                  padding: "9px 20px",
+                  fontSize: "15px",
+                  fontWeight: 600,
+                  color: "#0f172a",
+                  backgroundColor: "#f8fafc",
+                }}
+              >
+                {m}
+              </li>
+            ))}
+          </ul>
         </div>
       </section>
 
