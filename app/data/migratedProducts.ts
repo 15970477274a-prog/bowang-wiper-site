@@ -1239,22 +1239,6 @@ export const migratedProducts: Product[] = [
     features: ["Model BW2019 for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
   },
   {
-    id: "bw3002-359",
-    category: "Rear Wiper Combo",
-    name: "LELION MINI Car Wiper Blade Rear Windshield Wipers Car Rear Wiper for MINI COOPER R50 R53 2001-2004",
-    moq: "500 PCS",
-    desc: "MINI COOPER Rear Wiper Blade Arm",
-    longDesc: "LELION MINI Car Wiper Blade Rear Windshield Wipers Car Rear Wiper for MINI COOPER R50 R53 2001-2004. MINI COOPER Rear Wiper Blade Arm",
-    specs: ["Product Model: BW3002", "Size: Standard", "Color: Black", "OEM/ODM custom branding & packaging available", "Factory-direct wholesale pricing", "ISO 9001 manufacturing quality"],
-    tag: "Factory Direct",
-    image: "/products/ABUIABACGAAgtsiEvgYow7nr6wQwuBc4uBc.jpg",
-    gallery: [],
-    technicalDetails: {"Product Model":"BW3002","Category":"Rear Wiper Combo","Size":"Standard","Color":"Black","Fitment":"LELION MINI Car Wiper Blade Rear Windshield Wipers Car Rear Wiper for MINI COOPER R50 R53 2001-2004","OEM Service":"Custom Logo / Custom Packaging Available"},
-    keywords: ["car rear wiper blade", "rear windscreen wiper", "rear wiper blade", "car wiper", "windshield wiper"],
-    applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
-    features: ["Model BW3002 for reliable, streak-free wiping performance", "Built for rear wiper applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
-  },
-  {
     id: "bw-829-230",
     category: "Specific Fit",
     name: "LELION Quality Rubber Car Front Windshield Soft Wiper Blades Manufacturers for Peugeot 307 2004-2008",
@@ -3522,22 +3506,6 @@ export const migratedProducts: Product[] = [
     keywords: ["LELION wiper blade", "wiper blade", "wholesale wiper", "special wiper"],
     applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
     features: ["Model BW-829 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
-  },
-  {
-    id: "bw-831-audi-a6-c7-wiper-blades-2012-2018-4g1998002a",
-    category: "Specific Fit",
-    name: "Wholesale Car External Accessories Front Windscreen Wiper Blades for Audi A1 A3 A4 A5 A6 A7 A8 Q3",
-    moq: "500 PCS",
-    desc: "Shop premium front wiper blades for Audi A6 C7 (2012-2018). OE replacement for 4G1 998 002A. 26\"+21\" set with aerodynamic design and graphite-coated rubber",
-    longDesc: "Wholesale Car External Accessories Front Windscreen Wiper Blades for Audi A1 A3 A4 A5 A6 A7 A8 Q3. Shop premium front wiper blades for Audi A6 C7 (2012-2018). OE replacement for 4G1 998 002A. 26\"+21\" set with aerodynamic design and graphite-coated rubber",
-    specs: ["Product Model: BW-831", "Size: 26+21\"", "Color: Black", "OEM/ODM custom branding & packaging available", "Factory-direct wholesale pricing", "ISO 9001 manufacturing quality"],
-    tag: "Factory Direct",
-    image: "/products/ABUIABACGAAgx7XvvQYoxMfRlgcwuBc4uBc.jpg",
-    gallery: ["/products/ABUIABACGAAgx7XvvQYowNKyiwIwuBc4uBc.jpg", "/products/ABUIABACGAAgx7XvvQYomv6g_wYwuBc4uBc.jpg", "/products/ABUIABACGAAgx7XvvQYo-LC-GDC4Fzi4Fw.jpg", "/products/ABUIABACGAAgyLXvvQYohI7WqAQwuBc4uBc.jpg", "/products/ABUIABACGAAgyLXvvQYo38vTvAYwuBc4uBc.jpg"],
-    technicalDetails: {"Product Model":"BW-831","Category":"Specific Fit","Size":"26+21\"","Color":"Black","Fitment":"Wholesale Car External Accessories Front Windscreen Wiper Blades for Audi A1 A3 A4 A5 A6 A7 A8 Q3","OEM Service":"Custom Logo / Custom Packaging Available"},
-    keywords: ["Audi A6 C7 wipers", "4G1 998 002A replacement", "2012 Audi A6 wiper size"],
-    applications: ["Aftermarket Replacement", "Passenger Vehicles", "Wholesale / B2B Distribution", "Global Export Markets"],
-    features: ["Model BW-831 for reliable, streak-free wiping performance", "Built for specific fit applications", "Factory-direct OEM/ODM service with custom branding and packaging", "Tested for durability and all-weather performance"]
   },
   {
     id: "bw-825-198",

@@ -181,4 +181,11 @@ module.exports = { ...nextConfig, async redirects() { return [
   // the product data (so it leaves sitemap.xml and static generation) together with its
   // translation entry. statusCode 301 keeps the code exact (:lang covers six locales).
   { source: "/:lang/products/bw-826-205", destination: "/:lang/products/bw-826-193", statusCode: 301 },
+  // --- Duplicate product pages merged, 2026-11-27 (owner: same product) ---
+  // BW3002 / MINI COOPER R50 R53 2001-2004 -> the richer record (9 spec fields vs 6).
+  { source: "/:lang/products/bw3002-359", destination: "/:lang/products/bw3002-mini-cooper-rear-wiper-arm", statusCode: 301 },
+  // BW-831 / Audi A1 A3 A4 A5 A6 A7 A8 Q3 -> the clean slug. The old slug hard-coded
+  // "A6 C7 2012-2018" in its URL while the page fitted the whole A-series, so it was
+  // both a duplicate and a conflicting scope claim.
+  { source: "/:lang/products/bw-831-audi-a6-c7-wiper-blades-2012-2018-4g1998002a", destination: "/:lang/products/bw-831-170", statusCode: 301 },
 ]; } };
