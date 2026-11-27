@@ -29068,7 +29068,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
   "bw-829-157": {
     "es": {
       "name": "Venta al por mayor Accesorios externos para automóviles Ventana frontal Hojas de limpiaparabrisas suaves de 26+16 pulgadas para PEUGEOT 2008 2012 -",
-      "desc": "escobilla limpiaparabrisas especial al por mayor",
+      "desc": "Escobillas delanteras suaves BW-829 de 26+16 pulgadas para PEUGEOT 2008 2012. Goma resistente al endurecimiento, MOQ 500 uds.",
       "longDesc": "Venta al por mayor Accesorios externos para automóviles Ventana frontal Hojas de limpiaparabrisas suaves de 26+16 pulgadas para PEUGEOT 2008 2012 -. escobilla limpiaparabrisas especial al por mayor",
       "specs": [
         "Modelo del producto: BW-829",
@@ -29095,7 +29095,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
     },
     "ru": {
       "name": "Оптовая продажа автомобильных внешних аксессуаров: мягкие дворники для переднего окна 26 и 16 дюймов для PEUGEOT 2008-2012",
-      "desc": "Оптовая специальная щетка-дворник",
+      "desc": "Мягкие передние щётки BW-829 26+16 дюймов для PEUGEOT 2008 2012. Резина устойчива к затвердению, MOQ 500 шт.",
       "longDesc": "Оптовая продажа автомобильных внешних аксессуаров: мягкие дворники для переднего окна 26 и 16 дюймов для PEUGEOT 2008-2012. Оптовая специальная щетка-дворник",
       "specs": [
         "Модель продукта: BW-829",
@@ -29342,7 +29342,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
   "bw-824-178": {
     "es": {
       "name": "Venta al por mayor Accesorios externos para automóviles Parabrisas delantero 24'' +19 '' Limpiaparabrisas sin marco para BMW Serie 3",
-      "desc": "escobilla limpiaparabrisas especial al por mayor",
+      "desc": "Escobillas delanteras sin marco BW-824 de 24+19 pulgadas para BMW Serie 3. Perfil de viga uniforme, MOQ 500 uds.",
       "longDesc": "Venta al por mayor Accesorios externos para automóviles Parabrisas delantero 24'' +19 '' Limpiaparabrisas sin marco para BMW Serie 3. escobilla limpiaparabrisas especial al por mayor",
       "specs": [
         "Modelo del producto: BW-824",
@@ -29369,7 +29369,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
     },
     "ru": {
       "name": "Оптовая продажа автомобильных внешних аксессуаров: безрамочные дворники 24'' и 19'' для переднего лобового стекла BMW 3 Series",
-      "desc": "Оптовая специальная щетка-дворник",
+      "desc": "Бескаркасные передние щётки BW-824 24+19 дюймов для BMW 3 серии. Равномерный прижим балки, MOQ 500 шт.",
       "longDesc": "Оптовая продажа автомобильных внешних аксессуаров: безрамочные дворники 24'' и 19'' для переднего лобового стекла BMW 3 Series. Оптовая специальная щетка-дворник",
       "specs": [
         "Модель продукта: BW-824",
@@ -41262,7 +41262,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
   "bw0322-297": {
     "es": {
       "name": "Venta al por mayor de accesorios externos para automóviles, escobilla y brazo del limpiaparabrisas trasero para HONDA ODYSSEY 2005-2010",
-      "desc": "Brazo de la escobilla del limpiaparabrisas trasero Honda Odyssey",
+      "desc": "Juego de brazo y escobilla trasera BW0322 para Honda Odyssey 2005-2010. Se suministra como pareja montada, MOQ 500 uds.",
       "longDesc": "Venta al por mayor de accesorios externos para automóviles, escobilla y brazo del limpiaparabrisas trasero para HONDA ODYSSEY 2005-2010. Brazo de la escobilla del limpiaparabrisas trasero Honda Odyssey",
       "specs": [
         "Modelo del producto: BW0322",
@@ -41289,7 +41289,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
     },
     "ru": {
       "name": "Оптовая продажа внешних автомобильных аксессуаров Задний дворниковый рычаг и лезвие для HONDA ODYSSEY 2005-2010",
-      "desc": "Задний рычаг стеклоочистителя Honda Odyssey",
+      "desc": "Комплект заднего рычага и щётки BW0322 для Honda Odyssey 2005-2010. Поставляется в сборе, MOQ 500 шт.",
       "longDesc": "Оптовая продажа внешних автомобильных аксессуаров Задний дворниковый рычаг и лезвие для HONDA ODYSSEY 2005-2010. Задний рычаг стеклоочистителя Honda Odyssey",
       "specs": [
         "Модель продукта: BW0322",
@@ -43044,7 +43044,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
   "bw0306-rear-wiper-combination-bw0306": {
     "es": {
       "name": "Venta al por mayor de accesorios externos para automóviles: brazo de la hoja del limpiaparabrisas trasero para Honda Odyssey 2005 - 2010",
-      "desc": "Brazo de la escobilla del limpiaparabrisas trasero Honda Odyssey",
+      "desc": "Brazo trasero del limpiaparabrisas BW0306 para Honda Odyssey 2005-2010. Reemplazo directo de fábrica, acabado negro, MOQ 500 uds.",
       "longDesc": "Venta al por mayor de accesorios externos para automóviles: brazo de la hoja del limpiaparabrisas trasero para Honda Odyssey 2005 - 2010. Brazo de la escobilla del limpiaparabrisas trasero Honda Odyssey",
       "specs": [
         "Modelo del producto: BW0306",
@@ -43071,7 +43071,7 @@ export const migratedProductTranslations: Record<string, Record<string, ProductT
     },
     "ru": {
       "name": "Оптовая продажа внешних автомобильных аксессуаров: задний стеклоочиститель и рычаг для Honda Odyssey 2005 - 2010",
-      "desc": "Задний рычаг стеклоочистителя Honda Odyssey",
+      "desc": "Задний рычаг стеклоочистителя BW0306 для Honda Odyssey 2005-2010. Прямая заводская замена, чёрное покрытие, MOQ 500 шт.",
       "longDesc": "Оптовая продажа внешних автомобильных аксессуаров: задний стеклоочиститель и рычаг для Honda Odyssey 2005 - 2010. Задний рычаг стеклоочистителя Honda Odyssey",
       "specs": [
         "Модель продукта: BW0306",
