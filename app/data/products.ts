@@ -484,7 +484,7 @@ export const allProducts: Product[] = [
     id: "bw3002-mini-cooper-rear-wiper-arm",
     category: "Rear Wiper Combo",
     name: "BW3002 Rear Wiper Blade Arm for MINI COOPER R50 R53 2001-2004",
-    moq: "100 PCS",
+    moq: "500 PCS",
     desc: "OEM-spec rear windshield wiper arm for MINI COOPER R50 R53 (2001-2004). Precision-engineered direct replacement with durable construction.",
     longDesc: "The BW3002 is a precision rear wiper arm designed specifically for MINI COOPER R50 and R53 models (2001-2004). Manufactured to strict OE specifications, this rear wiper arm ensures perfect noise-free operation and streak-free wiping for the distinctive MINI rear windshield. The compact design maintains the vehicle's iconic look while delivering reliable performance. As a trusted China wiper blade and arm manufacturer, Lelion Autoparts ensures every BW3002 meets rigorous quality standards including salt spray corrosion testing and mechanical durability testing. Ideal for European aftermarket distributors specializing in German and British vehicle parts.",
     specs: [
@@ -493,7 +493,7 @@ export const allProducts: Product[] = [
       "OE-Spec Design for Direct Replacement",
       "Durable Weather-Resistant Construction",
       "Precision-Engineered for MINI Factory Fitment",
-      "Bulk Wholesale - MOQ 100 PCS",
+      "Bulk Wholesale - MOQ 500 PCS",
       "ISO 9001 Certified Manufacturing"
     ],
     tag: "Wiper Arm",
@@ -534,7 +534,7 @@ export const allProducts: Product[] = [
       "Precision-engineered to maintain MINI's iconic compact rear wiper profile",
       "Durable weather-resistant construction ensures long service life in European climates",
       "Direct bolt-on replacement - no modification or adapters required",
-      "Bulk wholesale available with MOQ of 100 PCS for established distributors",
+      "Bulk wholesale available with MOQ of 500 PCS for established distributors",
       "ISO 9001 certified production ensures consistent automotive-grade quality"
     ]
   },
