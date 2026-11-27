@@ -10,7 +10,7 @@ const SEO: Record<string, { title: string; desc: string }> = {
   "ru": { title: "Выставки и визиты на завод | Lelion Wipers", desc: "Lelion участвует в выставках автозапчастей и приглашает покупателей на завод или на видеоосмотр производства." },
   "fr": { title: "Salons et visites d'usine | Lelion Wipers", desc: "Lelion participe aux salons de la rechange automobile et accueille les acheteurs pour des visites d'usine ou des inspections vidéo." },
   "de": { title: "Messen & Werksbesuche | Lelion Wipers", desc: "Lelion nimmt an Messen des Kfz-Ersatzteilmarkts teil und begrüßt Käufer im Werk sowie bei Videoinspektionen." },
-  "zh": { title: "展会与客户拜访 | Lelion 雨刮", desc: "Lelion 参加汽车后市场展会，欢迎买家到厂考察或视频验厂。预约会面可现场查看样品、证书与测试数据。" },
+  "zh": { title: "行业展会与工厂参观 | Lelion 雨刮器", desc: "Lelion 参加汽车后市场展会，欢迎买家到厂考察或视频验厂。预约会面可现场查看样品、证书与测试数据。" },
 };
 
 const LOCALES = ["en", "es", "ru", "fr", "de", "zh"];
